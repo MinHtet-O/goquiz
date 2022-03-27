@@ -4,6 +4,9 @@ import (
 	"time"
 )
 
+type Questions []Question
+type Quizzes map[string]Questions
+
 type Option int8
 
 const (
@@ -21,6 +24,19 @@ var AnsMapping = map[string]Option{
 	"c": C,
 	"d": D,
 	"e": E,
+}
+
+type Question struct {
+	WebIndex   int
+	Text       string
+	Options    []string
+	Codeblock  string
+	CorrectAns Answer
+}
+
+type Answer struct {
+	Option      Option
+	Explanation string
 }
 
 //Optional data structure

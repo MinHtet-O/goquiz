@@ -1,4 +1,4 @@
-package consolegame
+package console
 
 import (
 	"github.com/rivo/tview"

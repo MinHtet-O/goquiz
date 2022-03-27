@@ -1,4 +1,4 @@
-package consolegame
+package console
 
 import (
 	"fmt"

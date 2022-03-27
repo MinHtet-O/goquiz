@@ -7,7 +7,6 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gocolly/colly"
 	model "goquiz/pkg/model"
-	"goquiz/utils"
 	"os"
 	"regexp"
 	"strings"
@@ -28,9 +27,10 @@ type QuizScrapper struct {
 	filepath   string
 }
 
+// Initialize a new scrapper, currently only javatpoint.com URL is supported
 func New() *QuizScrapper {
 	rootDomain := "javatpoint.com"
-	filepath := "./mcq_url.txt"
+	filepath := "./mcq_url.txt" // TODO: make filepath dynamic
 	return &QuizScrapper{
 		rootDomain: rootDomain,
 		wg:         &sync.WaitGroup{},
@@ -53,14 +53,15 @@ func (s *QuizScrapper) GetQuizzes() {
 				}
 			}()
 			questions := s.getQuestions(s.rootDomain, categ)
-			utils.SaveQuestionToFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
-			if len(*questions) > minlimit {
-				s.mu.Lock()
-				s.quizzes.AddQuestions(categ, *questions)
-				s.mu.Unlock()
-			} else {
+			if len(*questions) < minlimit {
 				fmt.Fprintln(os.Stderr, "Remove ", categ, " from questions with length", len(*questions))
+				return
 			}
+			s.mu.Lock()
+			s.quizzes.AddQuestions(categ, *questions)
+			s.mu.Unlock()
+			// TODO: make save file as dynamic
+			//model.SaveQuestionToFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
 			fmt.Println("Finish scraping function for ", categ)
 		}(c)
 	}
@@ -83,7 +84,6 @@ func (s *QuizScrapper) getCategories() []string {
 func (s *QuizScrapper) getQuestions(url string, category string) *[]model.Question {
 
 	var (
-		ansReg  = regexp.MustCompile(`(\(\w\))|(\s\w\.$)|(\s\w\)\s)|(\s\w$)|(\s\w\.\s\w*)|(\s\w:\s)|(\s\w\s)`)
 		baseUrl = "https://www." + url + "/" + string(category)
 		domain  = "www." + url
 
@@ -110,77 +110,105 @@ func (s *QuizScrapper) getQuestions(url string, category string) *[]model.Questi
 			Options: make([]string, model.O_MAX),
 		}
 
-		// post with second 'pq' text which need to append into question text
-		if quesNode := utils.FindSibling(e.DOM, "pq", 4, utils.D_Next); quesNode != nil {
+		// post with second 'pq' text which need to append into parent question text
+		if quesNode := findSibling(e.DOM, "pq", 4, D_Next); quesNode != nil {
 			question.Text += "\n" + quesNode.Text()
 		}
 
-		// ignore second 'pq' text for the post
-		if quesNode := utils.FindSibling(e.DOM, "pq", 4, utils.D_Prev); quesNode != nil {
-			fmt.Fprintf(os.Stderr, "Second pq question text found category %s , index %d \n", category, e.Index)
+		// ignore second pq question tags in the post
+		if quesNode := findSibling(e.DOM, "pq", 4, D_Prev); quesNode != nil {
+			fmt.Fprintf(os.Stderr, "Second pq question tag found category %s , index %d \n", category, e.Index)
 			return
 		}
 
 		// post that contains codeblock, codeblock is optional
-		if codeblockNode := utils.FindSibling(e.DOM, "codeblock", 4, utils.D_Next); codeblockNode != nil {
+		if codeblockNode := findSibling(e.DOM, "codeblock", 4, D_Next); codeblockNode != nil {
 			question.Codeblock = codeblockNode.Text()
 		}
 
-		// answer options as text
-		// valid A,B,C,D,E options
-		func() {
-			if optsNode := utils.FindSibling(e.DOM, "pointsa", 6, utils.D_Next); optsNode != nil && optsNode.Children().Length() < 6 {
-				optsNode.Children().Each(func(i int, c *goquery.Selection) {
-					question.Options[model.Option(i)] = strings.ToLower(c.Text())
-				})
-				// anser options as image
-			} else if imageURL, exist := e.DOM.Next().Children().First().Attr("src"); exist {
-				err := utils.ValidateImgURL(imageURL)
-				if err != nil {
-					fmt.Fprintln(os.Stderr, "Invalid Image URL", imageURL, " for category ", category)
-					return
-				}
-				question.Options[0] = imageURL
-
-			} else { // invalid answer option
-				fmt.Fprintln(os.Stderr, "Invalid Answer Options ", category, ", index", e.Index)
-				return
-			}
-		}()
-		// correct ans for the question
-		if ansNode := utils.FindSibling(e.DOM, "testanswer", 8, utils.D_Next); ansNode != nil {
-			// index 0 is the correct answer, 1 to ... is explanation
-			ansNode.Children().Each(func(i int, c *goquery.Selection) {
-				if i == 0 {
-					// extract the ans option from the whole string
-					ans := ansReg.FindString(c.Text())
-					if ans != "" {
-						ans = strings.Split(ans, "")[1]
-						ans = strings.ToLower(ans)
-					}
-					opt, found := model.AnsMapping[ans]
-					// set the correct answer
-					if found {
-						question.CorrectAns.Option = opt
-					}
-				} else {
-					// append the explanation
-					question.CorrectAns.Explanation += c.Text()
-				}
-			})
-		} else {
-
-			fmt.Fprintln(os.Stderr, "Invalid Correct Answer ", category, ", index", e.Index)
+		// find answer options for a question
+		if err := parseAnsOptions(e, &question, category); err != nil { // no answer options found for this question
+			fmt.Fprintf(os.Stderr, err.Error())
 			return
 		}
+
+		// correct ans for the question
+		if err := parseCorrectAns(e, &question, category); err != nil {
+			fmt.Fprintf(os.Stderr, err.Error())
+			return
+		}
+
 		// append a new question to question array
 		question.WebIndex = e.Index
 		questions = append(questions, question)
 	})
+
 	c.Visit(baseUrl)
 	c.Wait()
-
 	return &questions
+}
+
+func parseCorrectAns(e *colly.HTMLElement, question *model.Question, category string) error {
+
+	ansReg := regexp.MustCompile(`(\(\w\))|(\s\w\.$)|(\s\w\)\s)|(\s\w$)|(\s\w\.\s\w*)|(\s\w:\s)|(\s\w\s)`)
+	// find the answer node
+	ansNode := findSibling(e.DOM, "testanswer", 8, D_Next)
+
+	if ansNode == nil {
+		return fmt.Errorf("Invalid Correct Answer ", category, ", index", e.Index)
+	}
+
+	// Index 0, first child is the correct answer
+	ans := ansNode.Children().First().Text()
+	ans = ansReg.FindString(ans)
+
+	if ans == "" {
+		return fmt.Errorf("Invalid Correct Answer Format ", category, ", index", e.Index)
+	}
+
+	// make necessary string processing to extract the answer option
+	ans = strings.ToLower(strings.Split(ans, "")[1])
+	if opt, found := model.AnsMapping[ans]; found {
+		question.CorrectAns.Option = opt
+	}
+
+	ansNode.Children().Each(func(i int, c *goquery.Selection) {
+		if i != 0 {
+			// index 1 to ... is explanation
+			// append the explanation
+			question.CorrectAns.Explanation += c.Text()
+		}
+	})
+
+	return nil
+}
+
+func parseAnsOptions(e *colly.HTMLElement, question *model.Question, category string) error {
+
+	// answer options as text
+	// valid A,B,C,D,E options
+	optsNode := findSibling(e.DOM, "pointsa", 6, D_Next)
+	if optsNode != nil && optsNode.Children().Length() < 6 {
+		optsNode.Children().Each(func(i int, c *goquery.Selection) {
+			question.Options[model.Option(i)] = strings.ToLower(c.Text())
+		})
+		return nil
+	}
+
+	// answer options as image with URL
+	imageURL, exist := e.DOM.Next().Children().First().Attr("src")
+	if exist {
+		// test the image URL to make sure it is the valid URL
+		err := validateImageURL(imageURL)
+		if err != nil {
+			return fmt.Errorf("Invalid Image URL", imageURL, " for category ", category)
+		}
+		question.Options[0] = imageURL
+		return nil
+	}
+
+	// no anser option found for the given question
+	return fmt.Errorf("No Answer Option found for ", category, ", index", e.Index)
 }
 
 func (s *QuizScrapper) getMCQLinks() {
@@ -214,14 +242,13 @@ func parseTitle(title string) string {
 	for i, r := range title {
 		if unicode.IsDigit(r) || r == ' ' {
 			continue
-		} else {
-			if r == ')' {
-				breakIndex = i
-				break
-			}
-			valid = false
+		}
+		if r == ')' {
+			breakIndex = i
 			break
 		}
+		valid = false
+		break
 	}
 	if valid {
 		title = title[breakIndex+2:]
