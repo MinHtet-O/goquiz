@@ -1,0 +1,592 @@
+&[Index: 0
+Question: How many numbers of the element in the open IoT architecture?
+CodeBlock:
+
+Options:
+0 . four elements
+1 . five elements
+2 . six elements
+3 . seven elements
+4 . 
+Correct Answer: 3
+
+Description: There are seven numbers of elements in the open IoT architecture:
+Configuration and monitoring
+Cloud data storage
+Scheduler
+Request definition
+Request presentation
+Service delivery and utility manager
+Sensor middleware (X-GSN)
+
+
+ Index: 1
+Question: Which of the following is the way in which an IoT device is associated with data?
+CodeBlock:
+
+Options:
+0 . internet
+1 . cloud
+2 . automata
+3 . network
+4 . 
+Correct Answer: 1
+
+Description: Cloud-based services provide a way for IoT devices to be connected to data. For example: Just as the WWW (World Wide Web) runs on the Internet, so does IoT.
+
+ Index: 2
+Question: Which of the following IoT networks has a very short range?
+CodeBlock:
+
+Options:
+0 . short network
+1 . lpwan
+2 . sigfox
+3 . short-range wireless network
+4 . 
+Correct Answer: 3
+
+Description: Short-range wireless networks have a very short range. This type of network is used for applications running in the local environment. The best example of this network is Wi-Fi and Bluetooth.
+
+ Index: 3
+Question: What is the full form of the LPWAN?
+CodeBlock:
+
+Options:
+0 . low protocol wide area network
+1 . low power wide area network
+2 . long protocol wide area network
+3 . long power wide area network
+4 . 
+Correct Answer: 1
+
+Description: The full form of the LPWAN is Low Power Wide Area Network. LPWAN is a type of wireless telecommunication, and it is specially designed for M2M (Machine to Machine) and IoT devices.
+
+ Index: 4
+Question: An IoT network is a collection of ______ devices.
+CodeBlock:
+
+Options:
+0 . signal
+1 . machine to machine
+2 . interconnected
+3 . network to network
+4 . 
+Correct Answer: 2
+
+Description: An IoT network is a collection of interconnected devices that communicate with other devices without human involvement.
+
+ Index: 5
+Question: Which one of the following is not an IoT device?
+CodeBlock:
+
+Options:
+0 . amazon echo voice controller
+1 . google home
+2 . nest smoke alarm
+3 . none of these
+4 . 
+Correct Answer: 3
+
+Description: These are all IoT devices. Google Home is a smart speaker that obeys all the commands given by the user. The Amazon Echo Voice Controller is also a smart speaker. The Nest Smoke Alarm is an IoT device that sends a smoke alert message to the user when a fire occurs.
+
+ Index: 6
+Question: What is the main purpose of WoT (Web of Things) in the IoT?
+CodeBlock:
+
+Options:
+0 . improve the usability and interoperability
+1 . reduce the security
+2 . complex the development
+3 . increase the cost
+4 . 
+Correct Answer: 0
+
+Description: The main purpose of the Web of Things is to improve the usability and interoperability in IoT. Developing IoT Apps through WoT is much easier, faster, and less expensive.
+
+ Index: 7
+Question: What is the Arduino UNO?
+CodeBlock:
+
+Options:
+0 . software
+1 . hardware device
+2 . network
+3 . protocol
+4 . 
+Correct Answer: 1
+
+Description: The Arduino Uno is a hardware device that is based on the Microchip ATmega328P microcontroller. It has been developed by Arduino.cc.
+
+ Index: 8
+Question: ______ allows the user to control electronic components.
+CodeBlock:
+
+Options:
+0 . android api
+1 . retful api
+2 . mqtt api
+3 . coap api
+4 . 
+Correct Answer: 1
+
+Description: The RETful API allows the user to control the electronic components connected to the Intel Galileo Gen 2 board via HTTP requests.
+
+ Index: 9
+Question: Which of the following is not an application of IoT?
+CodeBlock:
+
+Options:
+0 . wearables
+1 . smart grid
+2 . arduino
+3 . smart city
+4 . 
+Correct Answer: 2
+
+Description: The Arduino Uno is a hardware device that is based on the Microchip ATmega328P microcontroller.
+
+ Index: 10
+Question: Which one of the following protocols is lightweight?
+CodeBlock:
+
+Options:
+0 . ip
+1 . http
+2 . mqtt
+3 . coap
+4 . 
+Correct Answer: 2
+
+Description: The full form of the MQTT is Message Queue Telemetry Transport. It is a lightweight messaging protocol that runs over the TCP / IP protocol.
+
+ Index: 11
+Question: What is the role of Big Data in IoT's Smart Grid architecture?
+CodeBlock:
+
+Options:
+0 . filter the data
+1 . locked the data
+2 . store data
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Description: The main role of Big Data is to store data on a real-time basis. It uses multiple storage technologies to store the data.
+
+ Index: 12
+Question: What is the real example of a smart grid device in IoT?
+CodeBlock:
+
+Options:
+0 . mobile phone
+1 . television
+2 . smart speaker
+3 . smart meters
+4 . 
+Correct Answer: 3
+
+Description: Smart Grid is used to monitor the power supply. Consumers' data is collected using a smart grid, and that data is analyzed and distributed to the consumers. The real example of a smart grid device is a smart meter.
+
+ Index: 13
+Question: What is the full form of the MQTT?
+CodeBlock:
+
+Options:
+0 . multi-queue telemetry things
+1 . multiple queue telemetry things
+2 . message queue telemetry things
+3 . message queue telemetry transport
+4 . 
+Correct Answer: 3
+
+Description: The full form of the MQTT is Message Queue Telemetry Transport. It is a lightweight messaging protocol that runs over the TCP / IP protocol.
+
+ Index: 14
+Question: What is the full form of ICT?
+CodeBlock:
+
+Options:
+0 . interconnect technology
+1 . internet connection topology
+2 . information and communication technology
+3 . infer communication topology
+4 . 
+Correct Answer: 2
+
+Description: The full form of ICT is Information and Communication Technology. ICT is a multidimensional term for the IT sector that refers to all communication technologies, including the Internet, wireless networks, cell phones, computers, and software.
+
+ Index: 15
+Question: Which of the following frequencies is correct for the Galileo gen 2 board?
+CodeBlock:
+
+Options:
+0 . 250 mhz
+1 . 400 mhz
+2 . 450 mhz
+3 . 300 mhz
+4 . 
+Correct Answer: 1
+
+Description: The frequency of this board is 400 MHz. The Galileo gen 2 board frequency gives the speed of operation of the board. Therefore, the speed increases as the frequency increases.
+
+ Index: 16
+Question: What is the full form of IANA?
+CodeBlock:
+
+Options:
+0 . inter-assessment-number-access
+1 . internet-association-numbers-authority
+2 . international-aid-for-network-authority
+3 . internet-assigned-numbers-authority
+4 . 
+Correct Answer: 3
+
+Description: The full form of IANA is Internet-Assigned-Numbers-Authority. It is an administrative function of the Internet that monitors the IP addresses and domain names.
+
+ Index: 17
+Question: What is the standard port number of secure MQTT?
+CodeBlock:
+
+Options:
+0 . 1883
+1 . 8000
+2 . 8883
+3 . 8888
+4 . 
+Correct Answer: 2
+
+Description: The standard port number of Secure MQTT is 8883, and it is registered in IANA for Secure MQTT.
+
+ Index: 18
+Question: Which of the following layers provides end-to-end communication in IoT?
+CodeBlock:
+
+Options:
+0 . logical layer
+1 . data link layer
+2 . transport layer
+3 . session layer
+4 . 
+Correct Answer: 2
+
+Description: The transport layer focuses on end-to-end communication, and it gives reliability and congestion avoidance that packets will be delivered in the same way as the user sent the packet.
+
+ Index: 19
+Question: Which of the following devices is used to measure the gases or liquid? 
+CodeBlock:
+
+Options:
+0 . optical sensor
+1 . gas sensor
+2 . smoke sensor
+3 . pressure sensor
+4 . 
+Correct Answer: 3
+
+Description: The pressure sensor is used to measure the gases or liquid. Pressure is the expression of a force that is necessary to prevent fluid from expansion.
+
+ Index: 20
+Question: Which interface does the fingerprint sensor use?
+CodeBlock:
+
+Options:
+0 . uart interface
+1 . coap interface
+2 . spi interface
+3 . i2p interface
+4 . 
+Correct Answer: 0
+
+Description: The fingerprint sensor uses a UART interface to store fingerprint data. It can be configured in 1:1 or 1:N mode to identify the person.
+
+ Index: 21
+Question: Which of the following protocols is used by USART?
+CodeBlock:
+
+Options:
+0 . rs32
+1 . rs232c
+2 . 4rs85
+3 . all of the these
+4 . 
+Correct Answer: 1
+
+Description: The most commonly used protocol for USART in asynchronous mode is RS232C. This protocol describes the physical interface for relatively low-speed serial data-communication between devices and computers.
+
+ Index: 22
+Question: What is the full form of HDLC?
+CodeBlock:
+
+Options:
+0 . higher data level communication
+1 . higher data link communication
+2 . high-level data link control
+3 . high data level control
+4 . 
+Correct Answer: 2
+
+Description: The full form of the HDLC is High level Data Link Control. It is a communication protocol. It is used to transmit data between nodes and data points.
+
+ Index: 23
+Question: Which of the following "bit" defines the address bit in the control register?
+CodeBlock:
+
+Options:
+0 . ml
+1 . mm
+2 . rxwake
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Description: The MM bit defines the address bit in the control register.
+
+ Index: 24
+Question: What is another name for I2C?
+CodeBlock:
+
+Options:
+0 . signal wire interface
+1 . two wire interfaces
+2 . uart
+3 . usart
+4 . 
+Correct Answer: 1
+
+Description: The I2C protocol is also known as the two-wire interface. It is a simple serial-communication-protocol that uses pins of a microcontroller, named as serial clock (SCL) and serial data (SDA).
+
+ Index: 25
+Question: When the clock line SCL is high, the SDA is ____ transitioned.
+CodeBlock:
+
+Options:
+0 . low
+1 . high
+2 . medium
+3 . all of the these
+4 . 
+Correct Answer: 0
+
+Description: When the clock line SCL is high, the SDA is low transitioned. Under normal circumstances, this does not happen, as you can see in the subsequent clock pulses that the data line is stable in one state, either high or low, when the clock line is high.
+
+ Index: 26
+Question: Which of the following protocols does the secure digital card application use?
+CodeBlock:
+
+Options:
+0 . xmpp
+1 . spi
+2 . mqtt
+3 . https
+4 . 
+Correct Answer: 1
+
+Description: SPI stands for Serial Peripheral Interface. The SPI protocol is commonly used to secure digital card applications and liquid crystal displays.
+
+ Index: 27
+Question: How many logic signals are there in the SPI protocol?
+CodeBlock:
+
+Options:
+0 . five signals
+1 . six signals
+2 . nine signals
+3 . zero signals
+4 . 
+Correct Answer: 0
+
+Description: There are five logic signals in the SPI protocol.
+SCLK (Serial Clock): This signal is used to clock-signal.
+MOSI (Master Output Slave Input): This signal is used to transfer the data from master to slave.
+MISO (Master Input Slave Output): This signal is used to transfer the data from slave to master.
+SDIO (Serial Data I/O)
+SS (Slave Select)
+
+
+ Index: 28
+Question: What does MOSI mean?
+CodeBlock:
+
+Options:
+0 . mosi is a network line.
+1 . mosi is a clock signal that sends the clock signals from master to slave.
+2 . mosi is a data line that sends the data from master to slave.
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Description: MOSI stands for Master Out Slave In. MOSI is a data line that sends the data from master to slave.
+
+ Index: 29
+Question: What is the full form of HART?
+CodeBlock:
+
+Options:
+0 . highway application remote transport
+1 . highway addressable remote transducer
+2 . high address reduce transport
+3 . high application remote transport
+4 . 
+Correct Answer: 1
+
+Description: The full form of HART is Highway Addressable Remote Transducer. It is a master and slave protocol in which a slave device only speaks when spoken by a master.
+
+ Index: 30
+Question: What is the range of z-wave?
+CodeBlock:
+
+Options:
+0 . 30 to 100 m
+1 . 300 to 1000 m
+2 . 100 to 1000 m
+3 . only 10 m
+4 . 
+Correct Answer: 0
+
+Description: The Z-Wave is a low-power Mac protocol designed especially for smart home and small business domains. It covers the range from 30 to 100 m.
+
+ Index: 31
+Question: Which of the following topology is used for ZigBee Smart Energy?
+CodeBlock:
+
+Options:
+0 . bus topology
+1 . ring topology
+2 . star topology
+3 . any topology
+4 . 
+Correct Answer: 2
+
+Description: ZigBee Smart Energy is designed for a wide range of IoT applications. It supports a wide range of network topologies, such as star topology.
+
+ Index: 32
+Question: Which of the following protocols does not exist at the data link layer?
+CodeBlock:
+
+Options:
+0 . zigbee smart energy
+1 . lorawan
+2 . wirelesshart
+3 . secure mqtt
+4 . 
+Correct Answer: 3
+
+Description: Secure MQTT is a session layer protocol. It is an extended version of the MQTT protocol that uses encryption based on lightweight attribute-based encryption.
+
+ Index: 33
+Question: Which of the following is the type of SPI controller?
+CodeBlock:
+
+Options:
+0 . micro-wire or plus
+1 . microwire
+2 . data spi
+3 . queued spi
+4 . 
+Correct Answer: 3
+
+Description: A Queued SPI is a type of SPI controller that is used to send a data queue from the SPI bus.
+
+ Index: 34
+Question: What is MQTT primarily used for?
+CodeBlock:
+
+Options:
+0 . user communication
+1 . system transfer
+2 . machine to machine communication
+3 . create connection
+4 . 
+Correct Answer: 2
+
+Description: MQTT is a public messaging protocol. It is designed for lightweight "Machine to Machine" communication. It was originally developed by IBM.
+
+ Index: 35
+Question: What is the frequency rate of z-wave?
+CodeBlock:
+
+Options:
+0 . 908.42 ghz
+1 . 928.49 ghz
+2 . 888.42 ghz
+3 . 708.49 ghz
+4 . 
+Correct Answer: 0
+
+Description: The frequency rate of z-wave is 908.42 GHz. The Z-Wave is a low-power Mac protocol designed especially for smart home and small business domains.
+
+ Index: 36
+Question: What is another name of the tactile sensor?
+CodeBlock:
+
+Options:
+0 . weight sensor
+1 . imaging sensor
+2 . proximity sensor
+3 . touch sensor
+4 . 
+Correct Answer: 3
+
+Description: The tactile sensor is also called a touch sensor. It is an electronic sensor used for detecting physical touch. The size of this sensor is very small.
+
+ Index: 37
+Question: How many types of capacitive touch sensors in IoT?
+CodeBlock:
+
+Options:
+0 . two types
+1 . five types
+2 . seven types
+3 . nine types
+4 . 
+Correct Answer: 0
+
+Description: Two types of capacitive touch sensors in IoT:
+Projected-capacitive sensing
+Surface-capacitive sensing
+
+
+ Index: 38
+Question: Which of the following touch sensors is used in a cell phone?
+CodeBlock:
+
+Options:
+0 . resistive touch sensors
+1 . human sensor
+2 . capacitive touch sensor
+3 . follow sensor
+4 . 
+Correct Answer: 2
+
+Description: The capacitive touch sensors are widely used in portable devices such as cell phones. The main reason for this sensor development on the phone is low cost, durability, and design.
+
+ Index: 39
+Question: Which of the following languages does GSN work on?
+CodeBlock:
+
+Options:
+0 . python
+1 . java
+2 . android
+3 . c++
+4 . 
+Correct Answer: 1
+
+Description: GSN stands for Global Sensor Network. GSN works on JAVA language because JAVA language is portable in nature. The other language (such as C, C++, Python, and HTML) is not portable in nature.
+
+ Index: 40
+Question: Which of the following is the example of a short-range wireless network?
+CodeBlock:
+
+Options:
+0 . vpn
+1 . wi-fi
+2 . internet
+3 . www
+4 . 
+Correct Answer: 1
+
+Description: Short-range wireless networks have a very short range. This type of network is used for applications running in the local environment. Examples of this network are Wi-Fi and Bluetooth.
+
+]

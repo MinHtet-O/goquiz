@@ -1,0 +1,561 @@
+&[Index: 0
+Question: In which of the following switching methods, the message is divided into small packets?
+CodeBlock:
+
+Options:
+0 . message switching
+1 . packet switching
+2 . virtual switching
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: In packet switching, the message is divided into small parts. These small parts of the message are called packets, and each packet has its own source and destination address. Each packet is transmitted forward in the network only on the basis of these addresses. 
+
+ Index: 1
+Question: Which of the following switch methods creates a point-to-point physical connection between two or more computers?
+CodeBlock:
+
+Options:
+0 . message switching
+1 . packet switching
+2 . circuit switching
+3 . none of the these
+4 . 
+Correct Answer: 0
+
+Explanation: Circuit switching is a switching technique in which a point-to-point physical connection is made between two or more devices.For example: Telephone system, in which sender and receiver are connected by physical connection, such as wire.
+
+ Index: 2
+Question: What is the second name of the proxy server?
+CodeBlock:
+
+Options:
+0 . proxy tools
+1 . application proxy
+2 . application-level gateway
+3 . all of the these
+4 . 
+Correct Answer: 2
+
+Explanation: The proxy server is also known as the application-level gateway. It allows client computers to establish indirect network connections to other networks.
+
+ Index: 3
+Question: Which of the following servers allows LAN users to share data?
+CodeBlock:
+
+Options:
+0 . data server
+1 . point server
+2 . file server
+3 . communication server
+4 . 
+Correct Answer: 2
+
+Explanation: A file server allows LAN users to share the data. It acts as a medium for data transfer. It uses the FTP protocol to transfer information and data.
+
+ Index: 4
+Question: What is the total vulnerable time value of pure Aloha?
+CodeBlock:
+
+Options:
+0 . tfr
+1 . 1/2 tfr
+2 . 2 * tfr
+3 . 4 * tfr
+4 . 
+Correct Answer: 0
+
+Explanation: Total vulnerable time of pure Aloha = 2 * Tfr
+
+ Index: 5
+Question: How many fields are in the SMDS packet?
+CodeBlock:
+
+Options:
+0 . two
+1 . three
+2 . four
+3 . five
+4 . 
+Correct Answer: 1
+
+Explanation: SMDS packet consists of three fields: Destination address, Source address, and User data. In this, the destination and source addresses are 8 bytes, while the user data is up to 9188 bytes.
+
+ Index: 6
+Question: What is the maximum data transfer rate of the optical fiber wire?
+CodeBlock:
+
+Options:
+0 . 50 kbps
+1 . 1000 kbps
+2 . 1000 mbps
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: 1000 Mbps is the max data transfer rate for optical fiber cables. It is the fastest among the other kinds of cables like STP and coaxial cables. People are now using optical fiber cables instead of STP for LANs due to their fast data transfer capability.
+
+ Index: 7
+Question: POTS network works on the principle of ________
+CodeBlock:
+
+Options:
+0 . telephone switching
+1 . proxy server
+2 . file system
+3 . circuit system
+4 . 
+Correct Answer: 3
+
+Explanation: POTS stands for Plain-old-telephone-service, and it works on the principle of circuit switching. In this, the analog signal is transmitted by copper wire. 
+
+ Index: 8
+Question: Which of the following protocols is the bit-oriented protocol?
+CodeBlock:
+
+Options:
+0 . ssl
+1 . http
+2 . hdlc
+3 . all of the these
+4 . 
+Correct Answer: 2
+
+Explanation: HDLC stands for High-level data link control. It is a set of protocols that are used to transmit information from one network to another. It is a bit-oriented protocol that supports both wireless and wired communication.
+
+ Index: 9
+Question: SLIP stands for _______
+CodeBlock:
+
+Options:
+0 . system line internet protocol
+1 . serial line internet protocol
+2 . signal line internet protocol
+3 . signal internet protocol
+4 . 
+Correct Answer: 1
+
+Explanation: SLIP stands for Serial-line-internet-protocol. It is an internet protocol through which a user accesses the internet using a computer modem.
+
+ Index: 10
+Question: The second port is used to ____________ in the two-port network.
+CodeBlock:
+
+Options:
+0 . input terminal
+1 . output terminal
+2 . signal terminal
+3 . bandwidth terminal
+4 . 
+Correct Answer: 1
+
+Explanation: A two-port network is an electrical network consisting of two ports. The first port is used for the input terminal, and the second pair is used for the output terminal.
+
+ Index: 11
+Question: Which of the following layers does the HTTP protocol work on?
+CodeBlock:
+
+Options:
+0 . physical layer
+1 . data-link layer
+2 . application layer
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: The HTTP application works on the application layer protocol. It is used to transmit messages across the World Wide Web.
+
+ Index: 12
+Question: Which of the following statement correct about the cipher in cryptography?
+CodeBlock:
+
+Options:
+0 . it is a method for performing encryption and decryption
+1 . it is used to establish the network connection
+2 . it is a message event
+3 . all of the these
+4 . 
+Correct Answer: 0
+
+Explanation: A cipher is a method of implementing encryption and decryption of messages traveling in a network. It is used to increase the confidentiality of messages.
+
+ Index: 13
+Question: SONET stands for ______________.
+CodeBlock:
+
+Options:
+0 . signal operation network
+1 . synchronous optical network
+2 . system optical network
+3 . signal optical network
+4 . 
+Correct Answer: 1
+
+Explanation: SONet stands for Synchronous Optical Network. It is used in the telephone system. SONet is a technology that converts signals of different capacities into optical signals.
+
+ Index: 14
+Question: How many layers does the SONET contain?
+CodeBlock:
+
+Options:
+0 . 2 layers
+1 . 3 layers
+2 . 4 layers
+3 . 5 layers
+4 . 
+Correct Answer: 2
+
+Explanation: Sonet consists of 4 layers.Path layer → Line layer → Section layer → Photonic layer
+
+ Index: 15
+Question: RAKE receiver designed for _____.
+CodeBlock:
+
+Options:
+0 . multipath fading
+1 . signals
+2 . data network
+3 . network connection
+4 . 
+Correct Answer: 0
+
+Explanation: Rake receiver is a radio receiver. It is designed to counter the effects of multipath fading. It is most commonly used in CDMA and W-CDMA radio devices, such as wireless LAN devices and mobile phones.
+
+ Index: 16
+Question: What is the formula of high rate in zigzag code?
+CodeBlock:
+
+Options:
+0 . j / (j * 1)
+1 . -z / (1 + j)
+2 . z * (1 + j)
+3 . j / (j + 1)
+4 . 
+Correct Answer: 3
+
+Explanation: Zigzag code is a type of linear error-correcting code. The formula of high code rate is = J / (J + 1), Where J is the number of Bits per segment.
+
+ Index: 17
+Question: What is the size of the sender window in the Go Back N (ARQ) protocol?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 1
+2 . 10
+3 . n
+4 . 
+Correct Answer: 3
+
+Explanation: Go back N (ARQ) protocol is a data-link layer protocol that uses sliding window technology. The size of the sender window is N. For example: Go back 8, then the size of the sender window will be 8.
+
+ Index: 18
+Question: What is the efficiency of the Go back N (ARQ) protocol?
+CodeBlock:
+
+Options:
+0 . n = n / (2a + 2a)
+1 . n = n / (1 + 2a)
+2 . n = n * (2a + 2a)
+3 . n = n * (1 + 2a)
+4 . 
+Correct Answer: 1
+
+Explanation: Go back N (ARQ) protocol is a data link layer protocol that uses sliding window technology. The efficiency of the Go back N ARQ protocol is: N = N / (1 + 2a), Where N is the sender window size.
+
+ Index: 19
+Question: What is the size of the destination port in the UDP protocol?
+CodeBlock:
+
+Options:
+0 . 8 bits
+1 . 16 bits
+2 . 20 bits
+3 . 32 bits
+4 . 
+Correct Answer: 1
+
+Explanation: The size of the destination port is 16 bits in UDP protocol, and it is used to identify the destination port of the data.
+
+ Index: 20
+Question: What network utility uses the time-To-Live (TTL) field in the IP header to elicit ICMP error messages?
+CodeBlock:
+
+Options:
+0 . ping
+1 . route
+2 . traceroute
+3 . ifconfig
+4 . 
+Correct Answer: 2
+
+Explanation: Traceroute works by sending packets of data with a reduced time-to-live (TTL) that specifies how many steps (hops) a packet can survive before returning. It finds the exact route taken by each step to arrive at the server and time.
+
+ Index: 21
+Question: A client of the DNS (Domain Name System) application is called _____.
+CodeBlock:
+
+Options:
+0 . dns server
+1 . dns name
+2 . dns resolver
+3 . dns inquirer
+4 . 
+Correct Answer: 2
+
+Explanation: A DNS client is a device that is set up to send name resolution requests to the DNS server. It is also called the DNS resolver.
+
+ Index: 22
+Question: How many characters consist of the entire hostname?
+CodeBlock:
+
+Options:
+0 . 511 characters
+1 . 255 characters
+2 . 127 characters
+3 . 31 characters
+4 . 
+Correct Answer: 0
+
+Explanation: A hostname is a label that is assigned to a network-device. A total of 255 characters can be used in an entire hostname. However, each label must be between 1 and 63 characters.
+
+ Index: 23
+Question: During normal IP packet forwarding by a router, which of the following fields of the IP header is updated?
+CodeBlock:
+
+Options:
+0 . repeater
+1 . source address
+2 . destination address
+3 . checksum
+4 . 
+Correct Answer: 3
+
+Explanation: When an IPv4 (Internet Protocol version 4) datagram sends an IP packet by a router, its header checksum needs to be updated as a result of reducing the TTL field.
+
+ Index: 24
+Question: Which of the following statements is correct about the DWDM?
+CodeBlock:
+
+Options:
+0 . it can transmit data at very high speeds
+1 . it can transmit data at very slow speeds
+2 . dwsm stands for digital wave division multiplexing
+3 . none of the these
+4 . 
+Correct Answer: 0
+
+Explanation: DWSM stands for Dense-Wavelength-Division-Multiplexing. It is a fiber optic transmission technique in which light wavelengths are used to transmit data. Therefore, it can transmit data at very high speeds.
+
+ Index: 25
+Question: MAC address is also called ______.
+CodeBlock:
+
+Options:
+0 . physical address
+1 . logical address
+2 . source address
+3 . destination address
+4 . 
+Correct Answer: 0
+
+Explanation: Physical address is also known as MAC address. The physical address is unique because it cannot be changed. This address is stored in the main memory in the system.
+
+ Index: 26
+Question: Which of the following addresses is 32-bit?
+CodeBlock:
+
+Options:
+0 . mac address
+1 . virtual address
+2 . source address
+3 . destination address
+4 . 
+Correct Answer: 0
+
+Explanation: The virtual address is also called a logical address, and this address is stored in virtual memory in the system. The length of this address is 32-bit. For example, IP address: 190.10.134.76
+
+ Index: 27
+Question: EDI stands for ____.
+CodeBlock:
+
+Options:
+0 . electronic data interchange
+1 . electronic digital internet
+2 . electronic digital interchange
+3 . electronic data internet
+4 . 
+Correct Answer: 0
+
+Explanation: EDI stands for Electronic-Data-Interchange. It is a communication system in which data is transferred electronically from one computer to another computer.
+
+ Index: 28
+Question: What is the maximum data transfer rate of the ISDN?
+CodeBlock:
+
+Options:
+0 . 1024 mbps
+1 . 64 mbps
+2 . 64 kbps
+3 . 1024 kbps
+4 . 
+Correct Answer: 1
+
+Explanation: The ISDN supports data transfer rates up to 64 kbps. ISDN is a circuit-switched telephone network system. It is a set of communication standards for digital transmission (e.g., audio, video, and other network-related data).
+
+ Index: 29
+Question: ARPANET stands for _______.
+CodeBlock:
+
+Options:
+0 . advanced recheck projects agency internet
+1 . advanced recheck projects agency network
+2 . advanced research projects agency network
+3 . advanced research projects agency internet
+4 . 
+Correct Answer: 2
+
+Explanation: ARPANET stands for Advanced-Research-Projects-Agency-Network. It was the world's first packet-switching network and the first in the world to use the TCP/IP model.
+
+ Index: 30
+Question: What is the size of the UDP header?
+CodeBlock:
+
+Options:
+0 . 8 bytes
+1 . 16 bytes
+2 . 20 bytes
+3 . 64 bytes
+4 . 
+Correct Answer: 0
+
+Explanation: The size of the UDP header is 64 bits (64 bit means 8 bytes). It is a simple transport layer communication protocol. It has four parameters: Source port, Destination port, Length, and Checksum.
+
+ Index: 31
+Question: Which of the following protocols is the connection-less protocol?
+CodeBlock:
+
+Options:
+0 . udp
+1 . tcp
+2 . ip
+3 . all of the these
+4 . 
+Correct Answer: 0
+
+Explanation: UDP is a connection-less protocol which means that when data transfer occurs, this protocol does not establish a connection between the sender and the receiver.
+
+ Index: 32
+Question: Wildcard domain name labels begin with a ______.
+CodeBlock:
+
+Options:
+0 . .
+1 . 0
+2 . @
+3 . *
+4 . #
+Correct Answer: 2
+
+Explanation: A wildcard record is a type of resource record that matches one or more subdomains. It is started with a "*". For example: *.javatpoint.com
+
+ Index: 33
+Question: What is the maximum length of the STP wire?
+CodeBlock:
+
+Options:
+0 . 20 ft
+1 . 50 ft
+2 . 50 meters
+3 . 100 meters
+4 . 
+Correct Answer: 3
+
+Explanation: STP is the full name Shielded twisted-pair. This cable is similar to UTP, but it has an extra mesh coating or metal foil, and all the wires are inside it. The maximum length of this wire is 100 meters. If the length is more than 100 meters, then this cable loses its signals. Therefore, this wire is more suitable for small networks such as LANs.
+
+ Index: 34
+Question: Which network is suitable for a building?
+CodeBlock:
+
+Options:
+0 . wan
+1 . lan
+2 . man
+3 . pan
+4 . 
+Correct Answer: 1
+
+Explanation: LAN network is used to connect computers in a small area such as school, office, residence, etc. It is less expensive and very secure.
+
+ Index: 35
+Question: ________ is a 2G mobile telecommunications based on the CDMA.
+CodeBlock:
+
+Options:
+0 . is-95
+1 . iso 1990
+2 . is-97
+3 . none of the these
+4 . 
+Correct Answer: 0
+
+Explanation: The full name of IS-95 is interim standard 95. It is a second-generation mobile telecommunications standard based on CDMA (code division multiple access). It was developed by Qualcomm.
+
+ Index: 36
+Question: Which of the following statements is correct about IRC?
+CodeBlock:
+
+Options:
+0 . it sends the messages in virtual time
+1 . it is an application layer protocol
+2 . it works on the proxy model
+3 . all of the these
+4 . 
+Correct Answer: 1
+
+Explanation: IRC stands for Internet relay chat. It is an application layer protocol that is used to communicate over the internet as a text message. It sends messages in real-time.
+
+ Index: 37
+Question: Which of the following devices is not a networking device?
+CodeBlock:
+
+Options:
+0 . hub
+1 . switch
+2 . bridge
+3 . none of the these
+4 . 
+Correct Answer: 3
+
+Explanation: Hub, Switch, and Bridge are networking devices. Therefore, option d is the correct answer.
+
+ Index: 38
+Question: Which of the following devices does not require power to forward the signals?
+CodeBlock:
+
+Options:
+0 . active hub
+1 . passive hub
+2 . repeater
+3 . bridge
+4 . 
+Correct Answer: 1
+
+Explanation: The passive hub sends the signal forward as it is, so it does not need a power supply.
+
+ Index: 39
+Question: How many pins does RJ-45 contain?
+CodeBlock:
+
+Options:
+0 . two
+1 . four
+2 . eight
+3 . ten
+4 . 
+Correct Answer: 2
+
+Explanation: The RJ-45 has eight pins of different colors. The four pins have solid colors, and the other four pins have light colors.
+
+]

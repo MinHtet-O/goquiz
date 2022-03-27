@@ -1,0 +1,712 @@
+&[Index: 0
+Question: Which of the following testing technique deeply emphasizes on testing of one specific module?
+CodeBlock:
+
+Options:
+0 . inter-system testing
+1 . gorilla testing
+2 . breadth testing
+3 . fuzz testing
+4 . 
+Correct Answer: 1
+
+Explanation: In software testing, Gorilla testing is required to check the functionality of a particular module at a time. In other words, we can say that gorilla testing is important where a module of the system is frequently tested to guarantee that it is working properly.
+
+ Index: 1
+Question: Which of the below testing is implemented initially?
+CodeBlock:
+
+Options:
+0 . static testing
+1 . black-box testing
+2 . white-box testing
+3 . dynamic testing
+4 . 
+Correct Answer: 0
+
+Explanation: It is a verification process used to test the application without implementing the application's code. Static testing is a cost-effective process. It is a very useful testing technique because it helps us classify those errors that may not be found during Dynamic Testing.
+
+ Index: 2
+Question: Which of the following testing tool does not supported by Database Testing?
+CodeBlock:
+
+Options:
+0 . unified functional testing [uft]
+1 . selenium
+2 . rational functional tester [rft]
+3 . application lifecycle management [alm]
+4 . 
+Correct Answer: 3
+
+Explanation: Database Testing is used to analyze the schema, tables, triggers, etc., of the database under test. The ALM tools do not support database testing because ALM is mainly designed to support an important investor in charge of delivering software as they improve through their lifecycle.
+
+ Index: 3
+Question: ------ is one of the reputed testing standards.
+CodeBlock:
+
+Options:
+0 . microsoft
+1 . iso
+2 . qai
+3 . m bridge awards
+4 . 
+Correct Answer: 1
+
+Explanation: ISO stands for International Standards Organization. The ISO standard is mainly used to addresses operational methods and organizational methods like responsibilities, reporting, etc.
+
+ Index: 4
+Question: Which of the following abbreviation is correct for the terms SPICE?
+CodeBlock:
+
+Options:
+0 . software process improvement and control determination
+1 . software process improvement and capability determination
+2 . software process improvement and compatibility determination
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: SPICE stands for Software Process Improvement and Capability Determination. It is an international framework for calculating a software processes developed equally by the International Standards Organization (ISO) and the International Electrotechnical Commission (IEC).
+
+ Index: 5
+Question: -------- is not used in evaluating the size of the software?
+CodeBlock:
+
+Options:
+0 . function points
+1 . kloc
+2 . size of module
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The size of a module does not use in measuring the size of the software.The KLOC is a traditional amount of how huge a computer program, which is mainly evaluating a thousand lines of code. The function points are used to compute the functional size quantity of the software. The cost of the single unit is calculated from the past project.
+
+ Index: 6
+Question: Which of the following tool is not an open-source tool?
+CodeBlock:
+
+Options:
+0 . cucumber
+1 . selenium
+2 . bugzilla
+3 . bughost
+4 . 
+Correct Answer: 3
+
+Explanation: BugHost is another defect tracking tool that provides a bug tracking solutions to thousands of customers worldwide in all major business areas. It uses a workflow process by allowing us to allocate bugs to different users within our team. 
+
+ Index: 7
+Question: In which of the following testing level, the main focus is on customer usage?
+CodeBlock:
+
+Options:
+0 . validation testing
+1 . alpha testing
+2 . both alpha and beta testing
+3 . beta testing
+4 . 
+Correct Answer: 2
+
+Explanation: Alpha testing is replicated or real operational testing at an in-house site. It is directed in the organization and tested by an illustrative group of end-users at the developer's side and sometimes by an independent test engineer team.On the other hand, beta testing is implemented after the execution of alpha testing. It is the last phase of the testing, carried out at the client's or customer's site.
+
+ Index: 8
+Question: Which of the following testing technique can be used in order to determine the validation test?
+CodeBlock:
+
+Options:
+0 . black-box testing
+1 . white-box testing
+2 . yellow- box testing
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Black-box testing is a process of checking an application's functionality as per the customer requirement. Or in other words, we can say that verifying the functionality against requirement specifications is referred as black-box testing.
+
+ Index: 9
+Question: ------testing types is not a part of system testing?
+CodeBlock:
+
+Options:
+0 . stress testing
+1 . recovery testing
+2 . random testing
+3 . system testing
+4 . 
+Correct Answer: 2
+
+Explanation: Random testing is not a part of system testing, as it is a type of functional black-box testing, which is implemented when the test engineer does not have enough time to write and perform the test cases. It is also known as monkey testing.
+
+ Index: 10
+Question: Which of the following evaluation method is used to evaluate the quality test cases?
+CodeBlock:
+
+Options:
+0 . verification
+1 . mutation analysis
+2 . performance analysis
+3 . validation
+4 . 
+Correct Answer: 1
+
+Explanation: The mutation analysis is used to prepare the new software tests and check the existing software tests' quality.
+
+ Index: 11
+Question: ------- is not a part of the execution flow throughout the debugging process?
+CodeBlock:
+
+Options:
+0 . step up
+1 . step over
+2 . step out
+3 . step into
+4 . 
+Correct Answer: 0
+
+Explanation: In debugging process, the development team implements the system after receiving the test report related to the bugs in the software from the testing team.And Step up is not part of the execution flow during the debugging process. At the same time, the Step Over is used to execute the code without stopping it. Step into is used to executes the code, and Step out is used to continue the execution process until the bound value.
+
+ Index: 12
+Question: Which of the following testing techniques is used to test the code?
+CodeBlock:
+
+Options:
+0 . complex path testing
+1 . quality assurance of software
+2 . control structure testing
+3 . code coverage
+4 . 
+Correct Answer: 3
+
+Explanation: The code coverage is a measurement of how many blocks/lines/arcs of our code are implemented while the automated test runs.
+
+ Index: 13
+Question: ------ testing is a testing technique where the actual data verified in the real environment.
+CodeBlock:
+
+Options:
+0 . regression testing
+1 . alpha testing
+2 . beta testing
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Beta Testing is a type of field test executed at the end of the software testing life cycle. Generally, Beta testing is released to a limited audience to test the accessibility, usability, functionality, etc. In simple words, we can say that beta testing is testing, where the real users of the software application test the software product in the real environment.
+
+ Index: 14
+Question: Which of the below statements is true about reviews?
+CodeBlock:
+
+Options:
+0 . reviews should be performed on specifications, code, and test plans.
+1 . reviews are doubtful to identify faults in test plans.
+2 . reviews are the minimum operative way of testing code.
+3 . reviews cannot be performed on user requirements specifications.
+4 . 
+Correct Answer: 0
+
+Explanation: Reviews should be performed on specifications, code, and test plans because sometimes, when the test engineer writes a test case, he/she may skip some scenarios, inputs and writes wrong navigation steps, and which may affect the entire test execution process.To avoid such a situation, we will do one round of review processes before starting test execution.
+
+ Index: 15
+Question: The following statement is related to which of the below options:
+CodeBlock:
+
+Options:
+0 . quality control
+1 . validation
+2 . verification
+3 . quality assurance
+4 . 
+Correct Answer: 3
+
+Explanation: The quality assurance test makes sure the development of high-quality software. It mainly focuses on high-quality processes, good quality management system. And the development of units of an application is verified under the quality assurance specifications in the classification of their development.
+
+ Index: 16
+Question: Which of the following is not called as white-box testing?
+CodeBlock:
+
+Options:
+0 . open box testing
+1 . glass box testing
+2 . clear box testing
+3 . closed box testing
+4 . 
+Correct Answer: 3
+
+Explanation: In white-box testing, the developers will test every line of code in the program. White-box testing is also called glass box testing, structural testing, clear box testing, open box testing, and transparent box testing.
+
+ Index: 17
+Question: ------- is known as a variance from software product specifications.
+CodeBlock:
+
+Options:
+0 . defects
+1 . review
+2 . requirement
+3 . report
+4 . 
+Correct Answer: 0
+
+Explanation: If the software product is not working as per the requirement is known as defects in software testing. The defect is specified as the irregularity from the actual and expected result of the application.
+
+ Index: 18
+Question: Re-testing of a single program or component after a modification has been made is known as---------?
+CodeBlock:
+
+Options:
+0 . regional regression testing
+1 . retesting
+2 . unit regression testing
+3 . full regression testing
+4 . 
+Correct Answer: 2
+
+Explanation: Regression testing performed on a new build when there is a significant alteration in the original functionality. Unit regression testing is one of the most commonly used types of regression testing. In unit regression testing, we test only the modified unit, not the impact area, because it may affect the same module's components.
+
+ Index: 19
+Question: Select whether the given statement is true or false:
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: The software development life cycle is the process of developing the software. SDLC contains various phases, which are as follows:
+Requirement Specification
+Design
+Coding
+Testing
+Installation
+Maintenance
+
+
+ Index: 20
+Question: The given statement is related to which of the following options: "It determines the quality of product, and it is a specific part of the Quality assurance procedure. It is a corrective process, and it applies to a specific product and deals with the product.
+CodeBlock:
+
+Options:
+0 . verification
+1 . quality control
+2 . quality assurance
+3 . validation
+4 . 
+Correct Answer: 1
+
+Explanation: Quality control is a reactive process. The primary objective of the quality control process is to precise all types of defects or bugs before releasing the software. It is also known as QC in software testing.
+
+ Index: 21
+Question: Which of the following approaches are the part of Integration testing?
+CodeBlock:
+
+Options:
+0 . top-down approach
+1 . bottom-up approach
+2 . big-bang approach
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: We will execute the integration testing when all the components or modules work independently and check the data flow between the dependent modules. Integration testing divided into several parts, such as
+Top-down integration testing
+Bottom-up integration testing
+Big bang testing
+
+
+ Index: 22
+Question: Which of the following testing is the part of non-functional testing?
+CodeBlock:
+
+Options:
+0 . unit testing
+1 . performance testing
+2 . system testing
+3 . integration testing
+4 . 
+Correct Answer: 1
+
+Explanation: Non-Functional testing is used to test the ability to work in an external environment. Performance testing is one of the most important types of non-functional testing as it is used to check the behavior of an application by applying some load.
+
+ Index: 23
+Question: Which of the following is/are true regarding the below statement? "Product risks affects the performance or quality of the software or the application."
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: The term risk is a problem that could cause some loss or threaten the project's progress. And these possible issues might harm the cost, schedule, or technical success of the project and the quality of our application.
+
+ Index: 24
+Question: In -------, the test engineer implements the same test cases on a modified build.
+CodeBlock:
+
+Options:
+0 . adhoc testing
+1 . regression testing
+2 . sanity testing
+3 . retesting
+4 . 
+Correct Answer: 1
+
+Explanation: In regression testing, the test engineer will re-execute the same test cases in different builds or releases to ensure that modifications (addition, modification, deletion, or defect fixing) are not leading the defects in unchanged features.
+
+ Index: 25
+Question: "Automation testing should be performed before starting the manual testing" is the true statement or false?
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 1
+
+Explanation: Automation testing is performed to reduce manual test cases but not to remove any of them. In automation testing, we can use special automation tools in order to control the implementation of test cases and compare the actual result with the expected result.
+
+ Index: 26
+Question: Notifying the developers which bugs need to be fixed first is known as------.
+CodeBlock:
+
+Options:
+0 . fixability
+1 . traceability
+2 . priority
+3 . severity
+4 . 
+Correct Answer: 2
+
+Explanation: To fix the bug or which bug to be fixed first or how soon the bug should be fixed is known as a priority. The priority can be urgent, high, medium, and low.
+
+ Index: 27
+Question: --------- is the process of re-testing the modules that connected to the program or components after the modification has occurred.
+CodeBlock:
+
+Options:
+0 . regional regression testing
+1 . re-testing
+2 . full regression testing
+3 . unit regression testing
+4 . 
+Correct Answer: 0
+
+Explanation: In Regional Regression Testing, we test the modification and the impacted regions. It is the most ideal method of regression testing. But, sometimes, during the regional regression testing, we may miss lots of bugs.
+
+ Index: 28
+Question: Which of the following life cycle contains the below phases?
+CodeBlock:
+
+Options:
+0 . blc
+1 . sqlc
+2 . stlc
+3 . sdlc
+4 . 
+Correct Answer: 2
+
+Explanation: Software Testing Life cycle contains the above mention phases. Software test life cycle (STLC) is the part of Software Development Life Cycle (SDLC), and Defect Life Cycle is a part of Software Test Life Cycle (STLC). All the testing activities are implemented to enhance the quality of the software product.
+
+ Index: 29
+Question: Which of the following testing techniques includes how well the user will understand and interact with the system?
+CodeBlock:
+
+Options:
+0 . alpha testing
+1 . user acceptance testing
+2 . beta testing
+3 . usability testing
+4 . 
+Correct Answer: 3
+
+Explanation: In usability testing, we will check the user-friendliness, efficiency, and accuracy of the application. The execution of usability testing will ensure that the developed software is easy to use without facing any problem and makes end-user life easier.
+
+ Index: 30
+Question: In which of the following SDLC models we needs to start testing activities along with development activities?
+CodeBlock:
+
+Options:
+0 . spiral model
+1 . v-model
+2 . liner model
+3 . waterfall model
+4 . 
+Correct Answer: 1
+
+Explanation: V-model is the SDLC model where all the activities go in the downward direction, and at one point in time, it starts moving in the upward direction to re-use the test document for the testing process and forms a V shape. Hence, it is known as the V model.
+
+ Index: 31
+Question: How rigorously the bug is affecting the application is known as--------.
+CodeBlock:
+
+Options:
+0 . fixability
+1 . priority
+2 . traceability
+3 . severity
+4 . 
+Correct Answer: 3
+
+Explanation: The effect of the bug on the software or application is known as severity. For the bug, the severity can be blocker, critical, major, and minor.
+
+ Index: 32
+Question: -------- plan is used to overcome the risk.
+CodeBlock:
+
+Options:
+0 . master plan
+1 . mitigation plan
+2 . migration plan
+3 . maintenance plan
+4 . 
+Correct Answer: 1
+
+Explanation: In the mitigation plan, we take proactive measures to diminish the possibility of the risk or decrease the risk's impact in case it happens.
+
+ Index: 33
+Question: Which of the following quality assurance approaches are usually measured?
+CodeBlock:
+
+Options:
+0 . preventive
+1 . detective
+2 . proactive
+3 . corrective
+4 . 
+Correct Answer: 0
+
+Explanation: Quality assurance is a managerial tool that involves planned and systematic activities and documentation to avoid quality problems. It is an ongoing process within the development of a software system.
+
+ Index: 34
+Question: Which of the following statement is true regarding verification?
+CodeBlock:
+
+Options:
+0 . performed by an independent test team
+1 . checking that we are building the right system
+2 . making sure that it is what the user wants
+3 . checking that we are building the system right
+4 . 
+Correct Answer: 3
+
+Explanation: The term verification is used to check that we are building the system right. And in simple words, the complete review process is performed in the V and V model's verification phase.
+
+ Index: 35
+Question: If an expected result is not identified, then----?
+CodeBlock:
+
+Options:
+0 . it may difficult to repeat the test
+1 . we cannot automate the user inputs
+2 . we cannot run the test
+3 . it may be difficult to determine if the test has passed or failed.
+4 . 
+Correct Answer: 3
+
+Explanation: After testing the particular software, if the expected result is not identified then, it is difficult to conclude whether the test has passed or failed.
+
+ Index: 36
+Question: A regression test--------?
+CodeBlock:
+
+Options:
+0 . will help us to ensure unchanged areas of the software have not been affected
+1 . can only be run during user acceptance testing
+2 . will always be automated
+3 . will help us to ensure changed areas of the software have not been affected
+4 . 
+Correct Answer: 0
+
+Explanation: A regression test will ensure that the entire areas of software is not affected. These tests are also known as the verification method. 
+
+ Index: 37
+Question: Which of the following test activity is used to identify the bugs most cost-effectively? 
+CodeBlock:
+
+Options:
+0 . planning
+1 . execution
+2 . check exit criteria completion
+3 . design
+4 . 
+Correct Answer: 0
+
+Explanation: In test planning activity, we can easily identify the faults or defects in the most cost-effective manner.
+
+ Index: 38
+Question: Which of the following process starting with the terminal modules?
+CodeBlock:
+
+Options:
+0 . module integration
+1 . top-down integration
+2 . bottom-up integration
+3 . now of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The bottom-up integration testing technique deals with how lower-level modules are tested with higher-level modules until the successful completion of testing of all the modules. This method will ensure that the modules we are adding are the parent of the previous one. 
+
+ Index: 39
+Question: The primary objective of the requirement phase is-------.
+CodeBlock:
+
+Options:
+0 . to understand the user requirement
+1 . to define the scope of testing
+2 . to check the needs
+3 . all of the mentioned above
+4 . 
+Correct Answer: 3
+
+Explanation: As we know that the requirement phase is the most crucial phase of the software development life cycle or any other SDLC models. In the requirement phase, the client declares the requirements, specifications, expectations, and any other special requirement related to the product or software.
+
+ Index: 40
+Question: Which of the following does not include in the defect management process?
+CodeBlock:
+
+Options:
+0 . deliverable base-lining
+1 . management reporting
+2 . defect prevention
+3 . none of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Defect Management is a systematic procedure to detect and fix bugs. The defect management process includes defect prevention, deliverable base-lining, management reporting, defect resolution, process improvement, and defect discovery.
+
+ Index: 41
+Question: In loop testing methodology, we can successfully test-------?
+CodeBlock:
+
+Options:
+0 . nested loop
+1 . concatenated loop
+2 . simple loop
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: In the loop testing, we will test the loops such as simple loop, nested loop, concatenated loops, etc. This testing is also help us to check the end condition are working fine or the size of the conditions is enough or not. Loop testing is a testing that comes under white-box testing.
+
+ Index: 42
+Question: The primary purpose of acceptance testing is to ------?
+CodeBlock:
+
+Options:
+0 . test by an independent test team
+1 . test form a business point of view
+2 . test the system with other systems
+3 . finding faults in the system
+4 . 
+Correct Answer: 1
+
+Explanation: In acceptance testing, we mainly focus only on those features and scenarios that are regularly used by the customer or those scenarios, which are used daily by the end-user or the customer.
+
+ Index: 43
+Question: ------ is not a part of performance testing?
+CodeBlock:
+
+Options:
+0 . recovery testing
+1 . measuring the response time
+2 . simulating many users
+3 . generating many transactions
+4 . 
+Correct Answer: 0
+
+Explanation: During the performance testing process on the application, we will concentrate on the various factors like Response time, Load, and Stability of the application. Once the software is stable and moved to production, we will perform the performance testing.In the recovery testing, we will check how well an application is able to recover from crashes, hardware failures and other parallel problems.
+
+ Index: 44
+Question: Which of the following options are part of non-functional testing?
+CodeBlock:
+
+Options:
+0 . performance testing
+1 . system testing
+2 . usability testing
+3 . both a & c
+4 . 
+Correct Answer: 3
+
+Explanation: Non-functional testing is used to test non-functional parameters like reliability, load test, performance, and software accountability.It provides detailed knowledge of product behavior and used technologies. The non-functional testing helps in reducing the risk of production and associated costs of the software. Performance testing and usability testing are an integral part of non-functional testing.
+
+ Index: 45
+Question: Acceptance test cases are based on---------.
+CodeBlock:
+
+Options:
+0 . design
+1 . requirements
+2 . decision table
+3 . code
+4 . 
+Correct Answer: 1
+
+Explanation: Acceptance test cases are based on user requirements and function processing. It is formal testing, which governs whether the software is compatible with particular requirements or not.
+
+ Index: 46
+Question: Test cases are designed during which of the following technique?
+CodeBlock:
+
+Options:
+0 . test configuration
+1 . test recording
+2 . test specification
+3 . test planning
+4 . 
+Correct Answer: 2
+
+Explanation: The test case is an in-details document that involves all possible inputs (positive and negative) and the navigation steps used for the test execution process. It provides thorough information about testing strategy, testing process, preconditions, and expected output.
+
+ Index: 47
+Question: To test a function, the programmer has to write a--------- that's called the function to be tested and passes its test data.
+CodeBlock:
+
+Options:
+0 . proxy
+1 . stub
+2 . none of the above
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: The driver sets the test environments and takes care of the communication, evaluates results, and sends the reports. 
+
+ Index: 48
+Question: SRS is also known as the specification of--------.
+CodeBlock:
+
+Options:
+0 . integrated testing
+1 . black-box testing
+2 . stress testing
+3 . white-box testing
+4 . 
+Correct Answer: 1
+
+Explanation: The SRS software requirement specification contains how the software should be developed and given by the Business Analyst. The Business Analyst will collect the Customer Requirement Specifications (CRS) from the client and translate them into SRS.
+
+ Index: 49
+Question: Which of the following statement is true about the test design technique?
+CodeBlock:
+
+Options:
+0 . a process for selecting test cases
+1 . a way to determine in a test plan what has to be done
+2 . a process for measuring expected output
+3 . a way to determine the quality of software
+4 . 
+Correct Answer: 0
+
+Explanation: The test case design technique ensures that all the possible values that are both positive and negative are required for the testing purposes. Every test engineer needs to be followed while writing the test cases to achieve the maximum test coverage.
+
+]

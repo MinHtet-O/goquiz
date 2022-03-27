@@ -1,0 +1,692 @@
+&[Index: 0
+Question: Array is a _________ data structure. 
+CodeBlock:
+
+Options:
+0 . non-linear
+1 . primary
+2 . linear
+3 . data type
+4 . 
+Correct Answer: 2
+
+Explanation: An array is a non-primitive and linear data structure that only stores a similar data type.
+
+ Index: 1
+Question: Which of the following statement is correct about the array?
+CodeBlock:
+
+Options:
+0 . in the array, users can only allocate the memory at the run time.
+1 . in the array, users can only allocate the memory at the compile time.
+2 . the array is a primitive and non-linear data structure that only stores a similar data type.
+3 . all of the these
+4 . 
+Correct Answer: 1
+
+Explanation: An array is a non-primitive and linear data structure that only stores a similar data type. In array, users can only allocate the memory at the compile time.
+
+ Index: 2
+Question: Which of the following statement is correct about the C language?
+CodeBlock:
+
+Options:
+0 . the c language is a binary language with some extra features.
+1 . the c language is a high-level language with some low features.
+2 . the c language is a mid-level language with some high features.
+3 . the c language is a low-level language.
+4 . 
+Correct Answer: 2
+
+Explanation: C is considered a middle-level language because it supports the feature of both low-level and high-level languages. Today, many programmers refer to C as a low-level language because it lacks a large runtime system (no garbage collection, etc.). It supports only scalar operations and provides direct memory addressing. 
+
+ Index: 3
+Question: In the following program fragment, s and b are two integers:
+CodeBlock:
+b = s + b
+s = b - s
+b = b - s
+
+Options:
+0 . exchange the values of s and b
+1 . transfer the values of s and b
+2 . transfer the values of b and s
+3 . add or subtract the values of s and b
+4 . 
+Correct Answer: 0
+
+Explanation: The intention of this program fragment is to exchange (swap) the values of s and b. Let us take an example for better understand:s = 1 
+b = 2
+b = s + b
+b = 1 + 2 
+b = 3           
+s = b - s
+s = 3 - 1
+s = 2 
+b = b - s
+b = 3 - 2
+b = 1
+
+
+ Index: 4
+Question: Study the following program fragment
+CodeBlock:
+int i = 263;
+putchar(i);
+
+Options:
+0 . prints 263
+1 . prints the ascii equivalent of 263
+2 . rings the bell
+3 . prints garbage
+4 . 
+Correct Answer: 2
+
+Explanation: 263 is equivalent to binary number 100000111. If the user tries to print an integer as a character, only the last 8 bits are considered, and the remaining ones are ignored. In this program, the ASCII value of 100000111 will be 00000111 (i.e., decimal 7). Therefore, this program will print "ringing the bell".
+
+ Index: 5
+Question: Study the following statement
+CodeBlock:
+printf ("%d", 9/5);
+
+Options:
+0 . 1.8
+1 . 1.0
+2 . 2.0
+3 . none of the these
+4 . 
+Correct Answer: 3
+
+Explanation: On execution, 9/5 will produce integer 1. If we print 1 as a floating number, only garbage will be printed.
+
+ Index: 6
+Question: A global variable is declared __________.
+CodeBlock:
+
+Options:
+0 . outside of the function
+1 . inside of the function
+2 . with the function
+3 . anywhere in the program
+4 . 
+Correct Answer: 0
+
+Explanation: A global variable is a variable that is declared outside of the function. A global variable can be used in all functions.
+
+ Index: 7
+Question: Who defines the user-defined function? 
+CodeBlock:
+
+Options:
+0 . compiler
+1 . computer
+2 . compiler library
+3 . users
+4 . 
+Correct Answer: 3
+
+Explanation: The user-defined functions are those functions that are defined by the user while writing the program. The user can define these functions according to their needs.
+
+ Index: 8
+Question: Which of the following functions is already declared in the "header file"?
+CodeBlock:
+
+Options:
+0 . user-define function
+1 . built-in function
+2 . c function
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: Built-in functions are those functions whose prototypes are preserved in the header file of the "C" programming language. These functions are called and executed only by typing their name in the program. For example, scanf(), printf(), strcat(), etc.
+
+ Index: 9
+Question: Which of the following operations cannot be performed in file handling?
+CodeBlock:
+
+Options:
+0 . open the file
+1 . read the file
+2 . to write a file
+3 . none of the these
+4 . 
+Correct Answer: 3
+
+Explanation: File handling is a process in which data is stored in a file using a program. The following operations can be performed in file handling:
+Create a new file
+Open file
+Read the file
+Write the file
+Delete file
+File closing
+Therefore, option (d) is the correct answer.
+
+ Index: 10
+Question: Which of the following function is used to write the integer in a file?
+CodeBlock:
+
+Options:
+0 . getw()
+1 . putw()
+2 . int value
+3 . f_int()
+4 . 
+Correct Answer: 1
+
+Explanation: The putw() is used to write the integer in a file.Syntax:putw(int i, FILE *fp);
+
+ Index: 11
+Question: Which of the following statement is correct about the ftell() function?
+CodeBlock:
+
+Options:
+0 . it returns the current position.
+1 . it sets the file pointer to the given position.
+2 . it sets the file pointer at the beginning of the file.
+3 . it reads a character from the file.
+4 . 
+Correct Answer: 0
+
+Explanation: The ftell() function returns the current position of the file pointer in a stream. Syntax of ftell() function:long int ftell(FILE *stream)
+
+
+ Index: 12
+Question: Study the following program:
+CodeBlock:
+#include <stdio.h>
+int main() {
+    int i = 5; 
+    printf("%d", i = ++i == 6);    
+    return 0;
+}
+
+Options:
+0 . 2
+1 . 6
+2 . 4
+3 . 1
+4 . 
+Correct Answer: 0
+
+Explanation: The expression can be treated as i = (++i == 6), because "==" is of higher precedence than "=" operator. In the inner expression, ++i is equal to 6. Hence, the result is 1.
+
+ Index: 13
+Question: In which of the following modes, the user can read and write the file?
+CodeBlock:
+
+Options:
+0 . r
+1 . w
+2 . r+
+3 . b+
+4 . 
+Correct Answer: 2
+
+Explanation: r+ mode opens the text file in both reads and writes modes.
+
+ Index: 14
+Question: What type of data type does the atoi() function return?
+CodeBlock:
+
+Options:
+0 . string
+1 . char
+2 . integer
+3 . float
+4 . 
+Correct Answer: 2
+
+Explanation: The atoi() takes the string data type and returns the integer data type. This means it converts the string argument into an integer.
+
+ Index: 15
+Question: Which of the following keywords is used to prevent any kind of change in a variable?
+CodeBlock:
+
+Options:
+0 . continue
+1 . const
+2 . struct
+3 . extern
+4 . 
+Correct Answer: 1
+
+Explanation: Constant is a variable whose value cannot be changed once assigned. Constant is also called literals. It can be of any basic data type such as char, integer, float, and string. It can be defined anywhere in the program but in a new line. It is represented by the const keyword.
+
+ Index: 16
+Question: Which of the following declarations is invalid in C language?
+CodeBlock:
+
+Options:
+0 . char *str = "javatpoint is the best platform for learn";
+1 . char str[] = "javatpoint is the best platform for learn";
+2 . char str[20] = "javatpoint is the best platform for learn";
+3 . char[] str = "javatpoint is the best platform for learn";
+4 . 
+Correct Answer: 3
+
+Explanation: This declaration is valid in java language, but not in C language. Therefore, option (d) is the correct answer.
+
+ Index: 17
+Question: The enum keyword is used to assign names to the ________ constants.
+CodeBlock:
+
+Options:
+0 . integer
+1 . string
+2 . character
+3 . all of the these
+4 . 
+Correct Answer: 0
+
+Explanation: Enumeration is a user-defined data type in C language that is used to assign names to integral constants. It is represented by the "enum" keyword.
+
+ Index: 18
+Question: Study the following program:
+CodeBlock:
+#include<stdio.h>
+enum flg{a, b, c};
+enum glf{c, e, f};
+main()
+{
+    enum flg h;
+    h = b;
+    printf("%d", h);
+    return 0;
+}
+
+Options:
+0 . 1
+1 . error: redeclaration of an enumerator
+2 . h
+3 . 3
+4 . 
+Correct Answer: 1
+
+Explanation: There is a declaration error in the output of this program because the declaration of the enum function is the same.
+
+ Index: 19
+Question: Which of the following operator's precedence order is correct (from highest to lowest)?
+CodeBlock:
+
+Options:
+0 . %, *, /, +, -
+1 . %, +, /, *, -
+2 . +, -, %, *, /
+3 . %, +, -, *, /
+4 . 
+Correct Answer: 0
+
+Explanation: The precedence of operator species that which operator will be evaluated first and next. When two operators share an operand, the operator with the higher precedence goes first.
+
+ Index: 20
+Question: Which of the following is not an arithmetic operation?
+CodeBlock:
+
+Options:
+0 . x * = 65;
+1 . x / = 42;
+2 . x % = 2;
+3 . x ! = 56;
+4 . 
+Correct Answer: 3
+
+Explanation: There are five arithmetic operators in the C language.22) Which of the following operator is represented a relational operation?
+==
+++
+||
+&&
+Show AnswerWorkspace
+Answer: (a) ==
+Explanation: The relational expression is used to compare two operands. It is a condition expression. The following operators are relational operators.
+
+
+%
+Modulo division
+
+
+*
+Multiplication
+
+
+/
+Division
+
+
++
+Addition
+
+
+-
+Subtraction
+
+
+
+
+
+
+
+
+
+==
+Equal to
+
+
+!=
+Not equal to
+
+
+<
+Less than
+
+
+>
+Greater than
+
+
+<=
+Less than or equal to)
+
+
+>=
+Greater than or equal to
+
+
+
+ Index: 21
+Question: Which of the following operator is represented a relational operation?
+CodeBlock:
+
+Options:
+0 . ==
+1 . ++
+2 . ||
+3 . &&
+4 . 
+Correct Answer: 0
+
+Explanation: The relational expression is used to compare two operands. It is a condition expression. The following operators are relational operators.
+
+ Index: 22
+Question: Which of the following keyword is used for union in c language?
+CodeBlock:
+
+Options:
+0 . un
+1 . unt
+2 . ion
+3 . union
+4 . 
+Correct Answer: 3
+
+Explanation: Union is a special data type by which we store different data types in the same memory location. The union keyword is used to define a union data type.
+
+ Index: 23
+Question: Study the following program fragment
+CodeBlock:
+char ch = 'Z'
+
+Options:
+0 . z
+1 . 90
+2 . 91
+3 . 122
+4 . 
+Correct Answer: 1
+
+Explanation: The capital 'Z' value is 90 accordingly to the ASCII table. Therefore, 90 will be assigned to ch variable.
+
+ Index: 24
+Question: Study the following program:
+CodeBlock:
+main ()
+{
+  if(5 < '5')
+        printf("5")
+  else
+        printf("Not equal to 5.")
+}
+
+Options:
+0 . enq
+1 . 5
+2 . i
+3 . not equal to 5
+4 . 
+Correct Answer: 1
+
+Explanation: This program will print 5 because '5' is a decimal value, and it is equal to 53 in the ASCII table. Therefore, the condition is true and returns 5.
+
+ Index: 25
+Question: Which of the following variable name is correct in c language?
+CodeBlock:
+
+Options:
+0 . for
+1 . for
+2 . basic salary
+3 . hello.
+4 . 
+Correct Answer: 0
+
+Explanation: The "for" is an incorrect variable name because it is a keyword in the C language. The "Basic salary" is the incorrect variable name because space is not allowed within the variable name. Hello. is incorrect because '.' is not allowed within the variable name. Therefore, option (a) is the correct answer.
+
+ Index: 26
+Question: Which of the following header files is not used in C language?
+CodeBlock:
+
+Options:
+0 . <assert.h>
+1 . <ctype.h>
+2 . <iostream.h>
+3 . <locale.h>
+4 . 
+Correct Answer: 2
+
+Explanation: <iostream.h> header file is used for basic input and output services in C++ language.
+
+ Index: 27
+Question: Which of the following header files is used for character type function in C language?
+CodeBlock:
+
+Options:
+0 . <assert.h>
+1 . <ctype.h>
+2 . <iostream.h>
+3 . <locale.h>
+4 . 
+Correct Answer: 1
+
+Explanation: The <ctype.h> header file is used for character type function in C language.
+
+ Index: 28
+Question: Which of the following declaration is incorrect in C language?
+CodeBlock:
+
+Options:
+0 . scanf("%d%d", a, b);
+1 . scanf("%d%d", a b);
+2 . scanf("first %d second %d", &a, &b);
+3 . scanf(" %d%d", &x,&y);
+4 . 
+Correct Answer: 1
+
+Explanation: Option (b) is an incorrect declaration in the C language because the variable name is not separated by a comma.
+
+ Index: 29
+Question: If a = 0x6db7, what will be the value of "a << 6" in decimal?
+CodeBlock:
+
+Options:
+0 . 28087
+1 . 28996
+2 . 29512
+3 . 29096
+4 . 
+Correct Answer: 0
+
+Explanation: a = 0x6db7, that means, 0x6db7 is a hexadecimal code.=0x6db7 << 6 = 0110 1101 1011 0111 << 6= 0110 1101 1100 0000= 28087 (in decimal)
+
+ Index: 30
+Question: If a = 0x6db7 and b = 0xa726, what will be the value of a&b? 
+CodeBlock:
+
+Options:
+0 . 9814
+1 . 9510
+2 . 9045
+3 . 9305
+4 . 
+Correct Answer: 1
+
+Explanation: a = 0x6db7b = 0xa726Both a and b values are hexadecimal value.= 0x6db7 & 0xa726= 0110 1101 1011 0111 & 1010 0111 0010 0110= 0010 0101 0010 0110= 0x2526= 9510 (in decimal)
+
+ Index: 31
+Question: If a = 0x6db7 and b = 0xa726, what will be the value of a^b?
+CodeBlock:
+
+Options:
+0 . 51956
+1 . 51256
+2 . 51857
+3 . 51235
+4 . 
+Correct Answer: 2
+
+Explanation: a = 0x6db7b = 0xa726Both a and b values are hexadecimal value.= 0110 1101 1011 0111 ^ 1010 0111 0010 0110= 1100 1010 1001 0001= 0xca91= 51857 (in decimal)
+
+ Index: 32
+Question: Study the following program:
+CodeBlock:
+main ()
+{
+  int x;
+  x = 4 % -5 + 6 % 5;
+  printf("\nx = %d", x); 
+}
+
+Options:
+0 . 10
+1 . 9
+2 . 5
+3 . 3
+4 . 
+Correct Answer: 2
+
+Explanation: x = 4 % -5 + 6 % 5x = 4 + 6 % 5x = 4 + 1x = 5
+
+ Index: 33
+Question: Study the following program:
+CodeBlock:
+main ()
+{
+ char x;
+ x = 'A' + 5;
+ printf("%c", x);
+}
+
+Options:
+0 . a + 5
+1 . a
+2 . 5
+3 . f
+4 . 
+Correct Answer: 3
+
+Explanation: This program will print F because capital 'A' is equal to 65 according to the ASCII table. Therefore, 'A + 5' is equal to 70, and the value of 70 is F.
+
+ Index: 34
+Question: Which one of the following operators is a unary operator in c language?
+CodeBlock:
+
+Options:
+0 . &
+1 . &&
+2 . << 
+3 . sizeof()
+4 . 
+Correct Answer: 3
+
+Explanation: The sizeof () operator is a compile-time unary operator that is used to compute the size of the operand.
+
+ Index: 35
+Question: Study the following program:
+CodeBlock:
+#include <stdio.h>
+#define a( i, j ) printf("%d", j##i )
+int main()
+{
+   a(5, 10);
+}
+
+Options:
+0 . 510
+1 . 105
+2 . compiler error
+3 . declaration error
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 36
+Question: How many types of variables are there in the C language?
+CodeBlock:
+
+Options:
+0 . 2
+1 . 4
+2 . 1
+3 . 5
+4 . 
+Correct Answer: 0
+
+Explanation: There are two types of variables:
+Global variable
+Local variable
+
+
+ Index: 37
+Question: Which of the following is the variable that can be used for all functions?
+CodeBlock:
+
+Options:
+0 . static variable
+1 . global variable
+2 . local variable
+3 . dynamic variable
+4 . 
+Correct Answer: 1
+
+Explanation: The global variable is a variable, which is declared outside of the functions. A global variable can be used in all functions.
+
+ Index: 38
+Question: Which symbol is used to declare a pointer?
+CodeBlock:
+
+Options:
+0 . *
+1 . #
+2 . &
+3 . &&
+4 . 
+Correct Answer: 0
+
+Explanation: To declare a pointer variable, we use a '*' symbol before the pointer variable. int *k;
+
+
+ Index: 39
+Question: Which of the following initialization is incorrect in C language?
+CodeBlock:
+
+Options:
+0 . char str [40] = "yugal";
+1 . char str [] = {'y','u','g','a','l','\ 0'};
+2 . char str [40] = {'y','u','g','a','l','\ 0'};
+3 . none of the these
+4 . 
+Correct Answer: 3
+
+Explanation: All these declarations are correct in the C language. Therefore, option (d) is the correct answer.
+
+]

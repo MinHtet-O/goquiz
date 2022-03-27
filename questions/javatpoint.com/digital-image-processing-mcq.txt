@@ -1,0 +1,844 @@
+&[Index: 0
+Question: At what points, a continuous image is digitized?
+CodeBlock:
+
+Options:
+0 . sampling
+1 . vertex
+2 . contour
+3 . random
+4 . 
+Correct Answer: 0
+
+Explanation: Sampling is a process of reducing continuous-time signals to discrete-time signals.
+
+ Index: 1
+Question: ________ represents the transition between image function's continuous values and its digital equivalent.
+CodeBlock:
+
+Options:
+0 . rasterization
+1 . quantization
+2 . sampling
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Quantization is a mechanism that involves the conversion of a continuous range of values into a finite range of discrete values.
+
+ Index: 2
+Question: Which of the following correctly describes the slightest visible change in the level of intensity?
+CodeBlock:
+
+Options:
+0 . contour
+1 . saturation
+2 . contrast
+3 . intensity resolution
+4 . 
+Correct Answer: 3
+
+Explanation: Intensity resolution can be defined as the total number of bits required to quantize an image.
+
+ Index: 3
+Question: What is the name of the tool that helps in zooming, shrinking, rotating, etc.?
+CodeBlock:
+
+Options:
+0 . filters
+1 . interpolation
+2 . sampling
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Interpolation is one such basic tool that is used to zoom, shrink, rotate, etc.
+
+ Index: 4
+Question: The dynamic range of the imaging system is a quantitative relation where the upper limit can be determined by
+CodeBlock:
+
+Options:
+0 . brightness
+1 . contrast
+2 . saturation
+3 . noise
+4 . 
+Correct Answer: 2
+
+Explanation: Saturation is taken as a numerator.
+
+ Index: 5
+Question: The lower limit of the dynamic range ratio can be determined by
+CodeBlock:
+
+Options:
+0 . brightness
+1 . contrast
+2 . saturation
+3 . noise
+4 . 
+Correct Answer: 3
+
+Explanation: Noise is taken as a denominator.
+
+ Index: 6
+Question: Which of the following is the most famous single sensor utilized for image acquisition?
+CodeBlock:
+
+Options:
+0 . photodiode
+1 . cmos
+2 . microdensitometer
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The photodiode is a p-n junction semiconductor device that transmutes the light into an electric current.
+
+ Index: 7
+Question: What is the full form of CAT in image processing?
+CodeBlock:
+
+Options:
+0 . computer-aided tomography
+1 . computer-aided telegraphy
+2 . computerized axial tomography
+3 . computerized axial telegraphy
+4 . 
+Correct Answer: 2
+
+Explanation: Computerized Axial Tomography is based on image acquisition that uses sensor strips.
+
+ Index: 8
+Question: What is meant by the section of the real plane that the image coordinates have spanned?
+CodeBlock:
+
+Options:
+0 . coordinate axis
+1 . plane of symmetry
+2 . spatial domain
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Spatial Domain refers to the section of the real plane that has been spanned by the coordinates of an image, where x and y coordinates are called Spatial coordinates.
+
+ Index: 9
+Question: Which of the following is the effect of using an inadequate amount of intensity levels in a digital image's smooth areas?
+CodeBlock:
+
+Options:
+0 . contouring
+1 . interpolation
+2 . gaussian smooth
+3 . false contouring
+4 . 
+Correct Answer: 3
+
+Explanation: False contouring is caused when the grey-level resolution of a digital image gets decreased.
+
+ Index: 10
+Question: What is the name of the process in which the known data is utilized to evaluate the value at an unknown location?
+CodeBlock:
+
+Options:
+0 . interpolation
+1 . acquisition
+2 . pixelation
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Interpolation is a process that is employed in image resampling models for assessing unfamiliar locations.
+
+ Index: 11
+Question: Which of the following is not a correct example of Image Multiplication?
+CodeBlock:
+
+Options:
+0 . masking
+1 . shading correction
+2 . pixelation
+3 . region of interest operations
+4 . 
+Correct Answer: 2
+
+Explanation: Pixelation deals with the amplification of pixels.
+
+ Index: 12
+Question: Name the procedure in which individual pixel values of the digital image get altered.
+CodeBlock:
+
+Options:
+0 . neighborhood operations
+1 . image registration
+2 . geometric spatial transformation
+3 . single pixel operation
+4 . 
+Correct Answer: 3
+
+Explanation: It is expressed as a transformation function T of the form s=T(z), where z is the intensity.
+
+ Index: 13
+Question: Which of the following possess maximum frequency?
+CodeBlock:
+
+Options:
+0 . gamma rays
+1 . uv rays
+2 . microwaves
+3 . radio waves
+4 . 
+Correct Answer: 0
+
+Explanation: Gamma rays are comprised of high-energy photons, which means gamma rays have the highest EM radiations. In the electromagnetic spectrum, "Gamma ray" is an arbitrary technology that encompasses a frequency above 300 EHz, 1 pm wavelength, and energy of 1.24 MeV.
+
+ Index: 14
+Question: Which of the following color possess the longest wavelength in the visible spectrum?
+CodeBlock:
+
+Options:
+0 . yellow
+1 . red
+2 . blue
+3 . violet
+4 . 
+Correct Answer: 1
+
+Explanation: In the visible spectrum, red has the longest wavelength. The visible colors are ranged from shortest to longest wavelength, i.e., Violet, Blue, Green, Yellow, Orange, and Red.
+
+ Index: 15
+Question: What is the relationship between wavelength and frequency?
+CodeBlock:
+
+Options:
+0 . frequency = wavelength / c
+1 . c = wavelength / frequency
+2 . c = wavelength * frequency
+3 . wavelength = c * frequency
+4 . 
+Correct Answer: 2
+
+Explanation: In general, the wavelength is calculated as wavelength = c / frequency, which means the higher the frequency, the lower the wavelength. In simple words, frequency is inversely proportional to the wavelength.
+
+ Index: 16
+Question: _________ can be visualized as an electromagnetic wave.
+CodeBlock:
+
+Options:
+0 . cosine wave
+1 . sine wave
+2 . tangential wave
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Electromagnetic waves can be visualized as a sinusoidal wave.
+
+ Index: 17
+Question: How to carry out an array function together with one or more images?
+CodeBlock:
+
+Options:
+0 . pixel by pixel
+1 . column by column
+2 . array by array
+3 . row by row
+4 . 
+Correct Answer: 0
+
+Explanation: The array function is carried out on a pixel-by-pixel basis.
+
+ Index: 18
+Question: What is the name of the property that indicates the output of linear operation (i.e., the sum of two inputs) similar to that of operation first being performed on individual inputs and then summing up the respective outcomes?
+CodeBlock:
+
+Options:
+0 . heterogeneity
+1 . homogeneity
+2 . additivity
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Additivity: f (a + b) = f (a) + f (b)
+
+ Index: 19
+Question: What is the real-world application of image subtraction?
+CodeBlock:
+
+Options:
+0 . mri scan
+1 . ct scan
+2 . mask mode radiography
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Mask mode radiography is an important application of medical imaging in the area of image subtraction.
+
+ Index: 20
+Question: What is meant by Region of Interest (ROI) operations?
+CodeBlock:
+
+Options:
+0 . dilation
+1 . masking
+2 . shading correction
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In image processing, masking is a procedure of defining a smaller image, which helps modify the larger image.
+
+ Index: 21
+Question: If each element of set X is also an element of set Y, then X can be called ________ of set Y.
+CodeBlock:
+
+Options:
+0 . union
+1 . subset
+2 . disjoint
+3 . complement set
+4 . 
+Correct Answer: 1
+
+Explanation: If all the elements of set X are contained in set Y, then X will be called a subset of Y.Mathematically;X ⊆ Y
+
+ Index: 22
+Question: Blurring an image with the help of a smoothing filter may lead to noise reduction.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: Noise reduction is obtained by blurring the image using a smoothing filter. Blurring is used in pre-processing steps, such as removing small details from an image prior to object extraction and bridging small gaps in lines or curves.
+
+ Index: 23
+Question: What is the output of a smoothing, linear spatial filter?
+CodeBlock:
+
+Options:
+0 . median of pixels
+1 . maximum of pixels
+2 . minimum of pixels
+3 . average of pixels
+4 . 
+Correct Answer: 3
+
+Explanation: The output or response of smoothing, the linear spatial filter, is simply the average of the pixels contained in the neighborhood of the filter mask.
+
+ Index: 24
+Question: A smoothing filter can also be called a median filter.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 1
+
+Explanation: A smoothing filter is used to calculate the average of the filter, which is the only reason it is called an average filter.
+
+ Index: 25
+Question: Smoothing filter is used to remove __________ from an image.
+CodeBlock:
+
+Options:
+0 . smooth transitions of brightness levels
+1 . smooth transitions of grey levels
+2 . sharp transitions of brightness levels
+3 . sharp transitions of grey levels.
+4 . 
+Correct Answer: 3
+
+Explanation: The smoothing filter helps in substituting each pixel value of an image by computing the average value of grey levels, which will further remove the sharp transitions in the grey levels amid the pixels. This is just to randomize noise that consists of sharp transitions in the grey level.
+
+ Index: 26
+Question: Which of the following is the disadvantage of a smoothing filter?
+CodeBlock:
+
+Options:
+0 . blur inner pixels
+1 . blur edges
+2 . sharp edges
+3 . remove sharp transitions
+4 . 
+Correct Answer: 1
+
+Explanation: Edges are one of the most desirable features that can be categorized by sharp transitions in the grey levels. Thus, average filters blur the edges, causing unwanted side effects on the image.
+
+ Index: 27
+Question: A smoothing spatial filter cannot smooth the false contour.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 1
+
+Explanation: The smoothing spatial filter removes the false contour that is caused due to an insufficient number of grey levels.
+
+ Index: 28
+Question: Which of the following is the correct application of image blurring?
+CodeBlock:
+
+Options:
+0 . gross representation
+1 . object motion
+2 . object detection
+3 . image segmentation
+4 . 
+Correct Answer: 0
+
+Explanation: The main purpose of gross representation is to blur the image, which is one of the most significant applications of spatial averaging. This is just to intensify the small objects combined with the background and large objects so that they can be easily identified.
+
+ Index: 29
+Question: Median filters belong to which category of filter?
+CodeBlock:
+
+Options:
+0 . frequency domain filter
+1 . order static filter
+2 . linear spatial filter
+3 . sharpening filter
+4 . 
+Correct Answer: 1
+
+Explanation: The median filter belongs to the order static filter, which substitutes the pixel value by the median of grey level that exists in the neighborhood of the pixel.
+
+ Index: 30
+Question: Which of the following is the correct representation of log transformation?
+CodeBlock:
+
+Options:
+0 . s=clog10(1+r)
+1 . s=clog10(1/r)
+2 . s=clog10(1-r)
+3 . s=clog10(1*r)
+4 . 
+Correct Answer: 1
+
+Explanation: In general, log transformation can be formulized as; s=clog10(1+r), where c is constant and r ≥ 0.
+
+ Index: 31
+Question: Which of the following the general representation of power transformation?
+CodeBlock:
+
+Options:
+0 . c = sry
+1 . s = rcy
+2 . s = cry
+3 . s = rc
+4 . 
+Correct Answer: 2
+
+Explanation: The power-law transformation can be mathematically derived as; s = cry, where c and g represent the positive constants. However, we can write the same equation in another way, such as s=c. (r + ε) γ, which represents an offset.
+
+ Index: 32
+Question: Which of the following requires to specify the information at the time of input?
+CodeBlock:
+
+Options:
+0 . power transformation
+1 . log transformation
+2 . linear transformation
+3 . piece-wise transformation
+4 . 
+Correct Answer: 3
+
+Explanation: Piece-wise transformation plays a vital role while formulating some other transformations. Its only disadvantage is that it requires a considerable number of inputs.
+
+ Index: 33
+Question: A second order derivative operator can be defined as __________.
+CodeBlock:
+
+Options:
+0 . laplacian
+1 . gaussian
+2 . histogram
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Laplacian is the second-order derivative operator.
+
+ Index: 34
+Question: Which of the following is used to resolve the dark features in the image?
+CodeBlock:
+
+Options:
+0 . gaussian transform
+1 . laplacian transform
+2 . power-law transformation
+3 . histogram specification
+4 . 
+Correct Answer: 2
+
+Explanation: The dark features can be easily resolved by histogram specification. However, to get the desired result, power-law transformation is highly suggested over histogram specification.
+
+ Index: 35
+Question: What is the smallest possible value of the gradient image?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 0
+2 . e
+3 . -e
+4 . 
+Correct Answer: 1
+
+Explanation: The smallest possible value of the gradient image is 0.
+
+ Index: 36
+Question: Which of the following filter possess lower frequency?
+CodeBlock:
+
+Options:
+0 . high pass filter
+1 . bandpass filter
+2 . low pass filter
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: A low pass filter passes a low frequency.
+
+ Index: 37
+Question: What is the name of the process that moves a filter mask over the image, followed by calculating the sum of products?
+CodeBlock:
+
+Options:
+0 . correlation
+1 . convolution
+2 . linear spatial filtering
+3 . non-linear spatial filtering
+4 . 
+Correct Answer: 0
+
+Explanation: Correlation can be defined as the process of moving a filter, which is often denoted as a kernel over the image to compute the sum of products at each distinct location.
+
+ Index: 38
+Question: Which of the following fact is true for an image?
+CodeBlock:
+
+Options:
+0 . an image is the subtraction of the illumination component from the reflectance component.
+1 . an image is the multiplication of the illumination and reflectance component.
+2 . an image is the addition of illumination and reflectance component
+3 . an image is the subtraction of the reflectance component from the illumination component
+4 . 
+Correct Answer: 1
+
+Explanation: An image can be expressed as the multiplication of illumination and reflectance components.
+
+ Index: 39
+Question: Which of the following operations is used in homographic filtering for converting the input image to discrete Fourier transformed function?
+CodeBlock:
+
+Options:
+0 . exponential function
+1 . logarithmic function
+2 . negative function
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: An image can be expressed as the multiplication of illumination and reflectance component i.e. f(x, y) = i(x, y) * r(x, y). The equation can't be used directly to operate separately on the frequency component of illumination and reflectance because the Fourier transform of the product of two function is not separable. So, the logarithmic operation is used. I{z(x,y)}=I{ln(f(x,y)) }=I{ln(i(x,y)) }+I{ln(r(x,y))}.
+
+ Index: 40
+Question: What is the name of the class that accepts an image's separation of luminesce and reflectance component?
+CodeBlock:
+
+Options:
+0 . homomorphic system
+1 . base class system
+2 . base separation system
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: A homomorphic system is the only class of a system that helps achieve the separation of luminesce and reflectance components of an image.
+
+ Index: 41
+Question: Which of the following image component abruptly diverges at a certain junction of distinct objects?
+CodeBlock:
+
+Options:
+0 . reflectance component
+1 . illumination component
+2 . both (a) and (b)
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Whenever an object reflects some light onto the scene, then the total amount of light that has been mirrored is termed as the reflectance component.
+
+ Index: 42
+Question: Given an intensity level [0, L-1] with "r" and "s" positive values, how will the negative of an image obtain?
+CodeBlock:
+
+Options:
+0 . s = l - 1 - r
+1 . s = l - 1 + r
+2 . s = l + 1 - r
+3 . s = l + 1 + r
+4 . 
+Correct Answer: 0
+
+Explanation: The negative of an image will be obtain by s = L - 1 - r.
+
+ Index: 43
+Question: In general, the log transformation can be represented by _________
+CodeBlock:
+
+Options:
+0 . s = c.log (1 - r)
+1 . s = c - log (1 - r)
+2 . s = c.log (1 + r)
+3 . s = c + log (1 + r)
+4 . 
+Correct Answer: 2
+
+Explanation: The general form of log transformation is s = c.log (1 + r).
+
+ Index: 44
+Question: Which of the following is the correct definition of Gamma correction?
+CodeBlock:
+
+Options:
+0 . light brightness variation
+1 . a power-law response phenomenon
+2 . inverted intensity curve
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In order to compensate for the effects of non-linear luminance, the gamma correction function maps the levels of luminance, where γ refers to a constant, i.e., gamma, and "^" is the power operator.
+
+ Index: 45
+Question: What is the name of the process that highlights an image's intensity?
+CodeBlock:
+
+Options:
+0 . intensity highlighting
+1 . intensity matching
+2 . intensity slicing
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Intensity Slicing is a process of highlighting the intensity of an image.
+
+ Index: 46
+Question: What is the name of the process, which reverses the image's intensity?
+CodeBlock:
+
+Options:
+0 . piecewise linear transformations
+1 . image negatives
+2 . log transformations
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Image negatives utilize the reverse of image intensity.
+
+ Index: 47
+Question: Which of the following grey level intensities help in increasing the grey levels dynamic range in the image?
+CodeBlock:
+
+Options:
+0 . contrast stretching
+1 . negative transformations
+2 . power-law transformations
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Contrast stretching is a process of augmenting an image's quality, which improves its contrast by stretching.
+
+ Index: 48
+Question: What is the main idea behind grey-level slicing?
+CodeBlock:
+
+Options:
+0 . for brightening the relevant grey-valued pixels and preserving the background
+1 . to give all grey levels of a specific range high value and a low value to all other grey levels.
+2 . all of the above
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In general, grey-level slicing includes the following two types of approaches:
+The first one includes assigning all grey levels of a specific range high value and a low value to all other grey levels.
+However, the second approach not only brightens the relevant grey-level pixel value but also preserves the background.
+
+
+ Index: 49
+Question: Which of the following technique is used to obtain a certain range of bits required to quantize each pixel?
+CodeBlock:
+
+Options:
+0 . contouring
+1 . bit-plane slicing
+2 . grey-level slicing
+3 . contrast stretching
+4 . 
+Correct Answer: 1
+
+Explanation: Bit-plane slicing is one such method that represents an image with more than one bit of a byte that has been utilized for each pixel.
+
+ Index: 50
+Question: In which of the following areas can we use the low pass filters?
+CodeBlock:
+
+Options:
+0 . machine perception, along with some application of character recognition
+1 . printing and publishing industry
+2 . satellite processing and aerial images
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The Lowpass filter concept is utilized in the field of character recognition, publishing, and printing industry and in the case of remotely sensed images as well by simply blurring the irrelevant data to reveal more prominent features out of the full image.
+
+ Index: 51
+Question: Which of the following act as a receptor in the retina of a human eye?
+CodeBlock:
+
+Options:
+0 . cones
+1 . rods
+2 . both (a) and (b)
+3 . neither (a) nor (b)
+4 . 
+Correct Answer: 2
+
+Explanation: Rods are long slender receptors, while cones are shorter and thicker receptors.
+
+ Index: 52
+Question: Subjective brightness is related to __________
+CodeBlock:
+
+Options:
+0 . brightness
+1 . intensity
+2 . image perception
+3 . image formation
+4 . 
+Correct Answer: 1
+
+Explanation: Subjective brightness is related to intensity, which is perceived by the human eye.
+
+ Index: 53
+Question: What is the name of the innermost membrane present in the human eye?
+CodeBlock:
+
+Options:
+0 . sclera
+1 . choroid
+2 . retina
+3 . blindspot
+4 . 
+Correct Answer: 2
+
+Explanation: The retina is the innermost membrane of the human eye.
+
+ Index: 54
+Question: What is defined by the total number of pixels within the region?
+CodeBlock:
+
+Options:
+0 . area
+1 . brightness
+2 . intensity
+3 . perimeter
+4 . 
+Correct Answer: 0
+
+Explanation: The total number of pixels within the region defines the area of that region. However, the perimeter refers to the boundary of the region, given the number of pixels.
+
+ Index: 55
+Question: For which of the following regions, minimal compactness is required?
+CodeBlock:
+
+Options:
+0 . disk
+1 . square
+2 . irregular
+3 . rectangle
+4 . 
+Correct Answer: 0
+
+Explanation: Since the compactness of a region is defined by 2 * (Parameter)/ Area, so the disk-shaped region encompasses minimal compactness.
+
+ Index: 56
+Question: _________ is the principal factor, which helps in determining an image's spatial resolution.
+CodeBlock:
+
+Options:
+0 . dynamic range
+1 . quantization
+2 . sampling
+3 . contrast
+4 . 
+Correct Answer: 2
+
+Explanation: The spatial resolution of an image can be principally determined by the process called sampling.
+
+ Index: 57
+Question: What is meant by a band-limited function?
+CodeBlock:
+
+Options:
+0 . a function of limited duration whose highest frequency is finite
+1 . a function of limited duration whose highest frequency is infinite
+2 . all of the above
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Functions whose area under the curve is finite can be represented in terms of sines and cosines of various frequencies. The highest frequency is determined by the sine/cosine component is the highest "frequency content" of the function. If this highest frequency is finite and that the function is of unlimited duration, then these functions are called band-limited functions.
+
+ Index: 58
+Question: What is the sum of all components of a normalized histogram?
+CodeBlock:
+
+Options:
+0 . 1
+1 . -1
+2 . 0
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: A normalized histogram can be mathematically defined by;p(rk) = nk / nwhere n represents the total number of pixels contained in an image, rk represents the kth grey-level, and nk is the total number of pixels with grey-level rk.
+
+ Index: 59
+Question: The technique of Enhancement that has a specified Histogram processed image, as a result, is called?
+CodeBlock:
+
+Options:
+0 . histogram linearization
+1 . histogram equalization
+2 . histogram matching
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In general, histogram specification uses a specified Histogram, i.e., the shape of the histogram can be specified by self to generate a processed image, which is also called Histogram Matching.
+
+]

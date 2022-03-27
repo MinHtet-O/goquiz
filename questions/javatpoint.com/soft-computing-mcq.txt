@@ -1,0 +1,799 @@
+&[Index: 0
+Question: Which of the following is associated with fuzzy logic?
+CodeBlock:
+
+Options:
+0 . crisp set logic
+1 . many-valued logic
+2 . two-valued logic
+3 . binary set logic
+4 . 
+Correct Answer: 1
+
+Explanation: Since fuzzy logic can define the set membership with some specific value, it may have multiple set values. 
+
+ Index: 1
+Question: The truth values of traditional set theory can be defined as _________ and that of fuzzy logic is termed as _________. 
+CodeBlock:
+
+Options:
+0 . either 0 or 1, either 0 or 1.
+1 . between 0 & 1, either 0 or 1.
+2 . either 0 or 1, between 0 & 1.
+3 . between 0 & 1, between 0 & 1.
+4 . 
+Correct Answer: 2
+
+Explanation: A crisp set is usually defined by crisp boundaries containing the precise location of the set boundaries.However, a fuzzy set is defined by the indeterminate boundaries containing uncertainty about the set's boundaries.
+
+ Index: 2
+Question: A Fuzzy logic is an extension to the Crisp set, which handles the Partial Truth.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: None. 
+
+ Index: 3
+Question: How many types of random variables are there in Fuzzy logic? 
+CodeBlock:
+
+Options:
+0 . 2
+1 . 4
+2 . 1
+3 . 3
+4 . 
+Correct Answer: 3
+
+Explanation: There are three types of random variables, i.e., Boolean, discrete, and continuous variables. 
+
+ Index: 4
+Question: Which of the following represents the values of set membership?
+CodeBlock:
+
+Options:
+0 . degree of truth
+1 . probabilities
+2 . discrete set
+3 . both a & b
+4 . 
+Correct Answer: 1
+
+Explanation: Both probabilities and degree of truth range between 0 and 1.
+
+ Index: 5
+Question: The probability density function is represented by 
+CodeBlock:
+
+Options:
+0 . continuous variable
+1 . discrete variable
+2 . probability distributions for continuous variables
+3 . probability distributions
+4 . 
+Correct Answer: 2
+
+Explanation: None.
+
+ Index: 6
+Question: _________is used for probability theory sentences.
+CodeBlock:
+
+Options:
+0 . logic
+1 . extension of propositional logic
+2 . conditional logic
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The version of probability theory makes use of an extension of propositional logic for its sentences. 
+
+ Index: 7
+Question: Which of the following fuzzy operators are utilized in fuzzy set theory?
+CodeBlock:
+
+Options:
+0 . and
+1 . or
+2 . not
+3 . ex-or
+4 . 
+Correct Answer: 1
+
+Explanation: In fuzzy logic, the AND, OR, and NOT operators represent the minimum, maximum, and complement. 
+
+ Index: 8
+Question: What is the name of the operator in fuzzy set theory, which is found to be linguistic in nature? 
+CodeBlock:
+
+Options:
+0 . lingual variable
+1 . fuzz variable
+2 . hedges
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: None.
+
+ Index: 9
+Question: Where can we use the Bayes rule? 
+CodeBlock:
+
+Options:
+0 . to increase the complexity.
+1 . to decrease the complexity.
+2 . to solve queries
+3 . to answer the probabilistic query
+4 . 
+Correct Answer: 3
+
+Explanation: Based on the given evidence, the Bayes rule can be utilized to answer the probabilistic queries. 
+
+ Index: 10
+Question: Which of the following is offered by the Bayesian network? 
+CodeBlock:
+
+Options:
+0 . partial description of the domain
+1 . a complete description of the domain
+2 . a complete description of the problem
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: A Bayesian network refers to a probabilistic graphical model, which epitomizes a set of variables and its corresponding dependencies thru a directed acyclic graph (DAG). 
+
+ Index: 11
+Question: _________ represents the fuzzy logic 
+CodeBlock:
+
+Options:
+0 . if-then rules
+1 . if-then-else rules
+2 . both a & b
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In fuzzy set theory, the fuzzy operators are defined on the fuzzy sets. When the fuzzy operators are anonymous, the fuzzy logic utilizes the IF-THEN rules.In general, rules are expressed as:IF variable IS property THEN action
+
+ Index: 12
+Question: Uncertainty can be represented by _________
+CodeBlock:
+
+Options:
+0 . entropy
+1 . fuzzy logic
+2 . probability
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Entropy is the amount of uncertainty involved in data, which is represented by H(data).
+
+ Index: 13
+Question: Name the algorithms that acquire from complex environments to generalize, approximate and simplify solution logic.
+CodeBlock:
+
+Options:
+0 . ecorithms
+1 . fuzzy set
+2 . fuzzy relational db
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Rather than being associated with exponential growth, local structures are generally linked with linear growth in terms of complexity. 
+
+ Index: 14
+Question: Which of the following condition can directly influence a variable by all the others?
+CodeBlock:
+
+Options:
+0 . fully connected
+1 . local connected
+2 . partially connected
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: None. 
+
+ Index: 15
+Question: A perceptron can be defined as _________
+CodeBlock:
+
+Options:
+0 . a double layer auto-associative neural network
+1 . a neural network with feedback
+2 . an auto-associative neural network
+3 . a single layer feed-forward neural network with pre-processing
+4 . 
+Correct Answer: 3
+
+Explanation: A perceptron is a single-layer neural network that consists of input values, weights, bias, net sum followed by an activation function. 
+
+ Index: 16
+Question: What is meant by an auto-associative neural network? 
+CodeBlock:
+
+Options:
+0 . a neural network including feedback
+1 . a neural network containing no loops
+2 . a neural network having a single loop
+3 . a single layer feed-forward neural network containing feedback
+4 . 
+Correct Answer: 0
+
+Explanation: Auto associative networks are yet another kind of feed-forward nets trained to estimate the identity matrix in between network inputs and outputs by incorporating backpropagation. 
+
+ Index: 20
+Question: Backpropagation can be defined as _________
+CodeBlock:
+
+Options:
+0 . it is another name given to the curvy function in the perceptron.
+1 . it is the transmission of errors back through the network to adjust the inputs.
+2 . it is the transmission of error back through the network to allow weights to be adjusted so that the network can learn.
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Backpropagation is an efficient approach used to compute loss function's stress with respect to the parameters of neural networks. In order to minimize the loss function, backpropagation is mainly used to tune the weights of deep neural networks. 
+
+ Index: 21
+Question: Which of the following is not the promise of an artificial neural network? 
+CodeBlock:
+
+Options:
+0 . it can survive the failure of some nodes
+1 . it can handle noise
+2 . it can explain the result
+3 . it has inherent parallelism
+4 . 
+Correct Answer: 2
+
+Explanation: The artificial neural networks fail to explain the results. 
+
+ Index: 22
+Question: Having multiple perceptrons can solve the XOR problem satisfactorily because each perceptron can partition off a linear part of the space itself, and they can then combine their results.
+CodeBlock:
+
+Options:
+0 . true - this works always, and these multiple perceptrons learn to classify even complex problems.
+1 . false - perceptrons are mathematically incapable of solving linearly inseparable functions, no matter what you do
+2 . true - perceptron can do this but are unable to learn to do it - they have to be explicitly hand-coded
+3 . false - just having a single perceptron is enough
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 23
+Question: Based on _________ membership function can be used to solve empirical problems. 
+CodeBlock:
+
+Options:
+0 . knowledge
+1 . learning
+2 . examples
+3 . experience
+4 . 
+Correct Answer: 3
+
+Explanation: The membership function of a fuzzy set is a generalization of the indicator function for classical sets.
+
+ Index: 24
+Question: A 3-input neuron is trained to output a 0 when the input is 110 and a 1 when the input is 111. After generalization, the output will be 0, when and only when the input is: 
+CodeBlock:
+
+Options:
+0 . 000 or 110 or 011 or 101
+1 . 000 or 010 or 110 or 100
+2 . 100 or 111 or 101 or 001
+3 . 010 or 100 or 110 or 101
+4 . 
+Correct Answer: 1
+
+Explanation: Before generalization, the truth table is as follows: Here, $ represents the don't know cases, and the output is random.After generalization, the truth table will be:
+
+ Index: 25
+Question: A 4-input neuron has weights 1, 2, 3, and 4. The transfer function is linear, with the constant of proportionality being equal to 2. The inputs are 4, 10, 5, and 20, respectively. The output will be: 
+CodeBlock:
+
+Options:
+0 . 76
+1 . 238
+2 . 123
+3 . 119
+4 . 
+Correct Answer: 1
+
+Explanation: In order to find out the output, we multiply the weights with their respective inputs, add the results and then further multiply them with their transfer function.Thus, output= 2*(1*4 + 2*10 + 3*5 + 4*20) = 238
+
+ Index: 26
+Question: A neuro software can be defined as:
+CodeBlock:
+
+Options:
+0 . a powerful and easy neural network
+1 . a software that is used to analyze neurons
+2 . software utilized by a neurosurgeon
+3 . a software aimed to assist experts in the real world
+4 . 
+Correct Answer: 0
+
+Explanation: None. 
+
+ Index: 27
+Question: What is the name of the network, which includes backward links from the output to the inputs as well as the hidden layers?
+CodeBlock:
+
+Options:
+0 . perceptron
+1 . self-organizing maps
+2 . multi-layered perceptron
+3 . recurrent neural network
+4 . 
+Correct Answer: 3
+
+Explanation: A recurrent neural network is yet another kind of artificial neural network, where the output derived from the previous step is fed as an input to the current step. 
+
+ Index: 28
+Question: Which of the following is true for unsupervised learning? 
+CodeBlock:
+
+Options:
+0 . some specific output values are disclosed
+1 . some specific output values aren't disclosed
+2 . no relevant inputs value is specified
+3 . both inputs as well outputs are specified
+4 . neither inputs nor outputs are given
+Correct Answer: 1
+
+Explanation:In unsupervised learning, the model learns itself from the data without having a predicted result. Either the data is not given with a target response variable (label), or none chooses to label a response. In general, it is mainly treated as a pre-processing step for supervised learning models.Here, the goal is to determine the patterns, deep insights, understand variation, find unknown subgroups (amongst the variables or observations), and so on in the data.
+
+ Index: 29
+Question: What is involved in inductive learning? 
+CodeBlock:
+
+Options:
+0 . inconsistent hypothesis
+1 . consistent hypothesis
+2 . estimated hypothesis
+3 . irregular hypothesis
+4 . regular hypothesis
+Correct Answer: 1
+
+Explanation: Inductive learning is used to find a consistent hypothesis, which agrees with the examples. The difficulty of the task relies on the chosen representation. 
+
+ Index: 30
+Question: Which of the following statement is correct? 
+CodeBlock:
+
+Options:
+0 . not all formal languages are context-free
+1 . all formal languages are context-free
+2 . all formal languages are like natural language
+3 . natural languages are context-oriented free
+4 . natural language is normal
+Correct Answer: 0
+
+Explanation: Not all formal languages are context-free.
+
+ Index: 31
+Question: Which of the following is incorrect? 
+CodeBlock:
+
+Options:
+0 . the union and intersection of two context-free languages are context-free.
+1 . the reverse of context-free language is context-free, but its complement does not need to be.
+2 . every regular language is context-free as it can be easily explained by regular grammar.
+3 . the intersection of a context-free language and a regular language is always context-free.
+4 . the intersection of two context-free languages is context-free.
+Correct Answer: 4
+
+Explanation: The union and concatenation of two context-free languages are always context-free, but the intersection need not be context-free. 
+
+ Index: 32
+Question: Automated vehicle is an application of _________
+CodeBlock:
+
+Options:
+0 . unsupervised learning
+1 . supervised learning
+2 . reinforcement learning
+3 . active learning
+4 . 
+Correct Answer: 1
+
+Explanation: In an automatic vehicle, a set of input visions and corresponding actions are available for learners, so it can be concluded that it is an example of supervised learning. 
+
+ Index: 33
+Question: _________ is not counted in different learning method. 
+CodeBlock:
+
+Options:
+0 . analogy
+1 . memorization
+2 . introduction
+3 . deduction
+4 . 
+Correct Answer: 2
+
+Explanation: Analogy, memorization, and deduction are involved in different learning methods. 
+
+ Index: 34
+Question: Which of the following models are utilized for learning? 
+CodeBlock:
+
+Options:
+0 . neural networks
+1 . decision trees
+2 . propositional and fol rules
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Neural networks, Decision trees, Propositional and FOL rules are altogether utilized as a learning model. 
+
+ Index: 35
+Question: Which of the following is the correct example of active learning? 
+CodeBlock:
+
+Options:
+0 . dust cleaning machine
+1 . news recommender system
+2 . automated vehicle
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Active learning is such a kind of learning, which involves the teachers. It enables the learner to ask relevant examples related to perception-action pairs that will further augment the performance. 
+
+ Index: 36
+Question: Which of the following is termed exploratory learning? 
+CodeBlock:
+
+Options:
+0 . active learning
+1 . supervised learning
+2 . reinforcement learning
+3 . unsupervised learning
+4 . 
+Correct Answer: 3
+
+Explanation: Exploratory learning can be defined as a teaching and learning approach that encourages the learner to study and scrutinize new material, regardless of being dependent on any supervision. 
+
+ Index: 37
+Question: _________ helps in modifying the performance element, assisting in making a better decision. 
+CodeBlock:
+
+Options:
+0 . learning element
+1 . performance element
+2 . changing element
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Learning elements assist in making a better decision by modifying the performance element. 
+
+ Index: 38
+Question: Which of the following is considered while determining the nature of the learning problem?
+CodeBlock:
+
+Options:
+0 . problem
+1 . feedback
+2 . environment
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The feedback is utilized to determine the nature of the learning problem faced by the agent. 
+
+ Index: 39
+Question: Which of the following is chosen among the multiple consistent hypotheses? 
+CodeBlock:
+
+Options:
+0 . ockham razor
+1 . learning element
+2 . razor
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Ockham razor prefers the simplest hypothesis consistent with the data intuitively. 
+
+ Index: 40
+Question: Which of the following takes input as an object described by a set of attributes? 
+CodeBlock:
+
+Options:
+0 . graph
+1 . decision graph
+2 . tree
+3 . decision tree
+4 . 
+Correct Answer: 3
+
+Explanation: The decision tree takes input as an object described by a set of attributes followed by returning a decision. 
+
+ Index: 41
+Question: A neural network can answer
+CodeBlock:
+
+Options:
+0 . for loop questions
+1 . what-if questions
+2 . if-the-else analysis questions
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 42
+Question: Feature of ANN in which ANN creates its own organization of representation of information it receives during learning time is 
+CodeBlock:
+
+Options:
+0 . adaptive learning
+1 . what-if analysis
+2 . self-organization
+3 . supervised learning
+4 . 
+Correct Answer: 2
+
+Explanation: The term self-organization refers to how people unify their common behavior to form global order by interacting among themselves instead of interacting through external intervention and instruction. 
+
+ Index: 43
+Question: In artificial neural network, interconnected processing elements are termed as _________
+CodeBlock:
+
+Options:
+0 . weights
+1 . nodes or neurons
+2 . axon
+3 . soma
+4 . 
+Correct Answer: 1
+
+Explanation: A neural network comprises several simple, highly interconnected processing elements that process data by its dynamic state response to external elements.
+
+ Index: 44
+Question: Each connection link in ANN is linked with ________ that contains statics about the input signal. 
+CodeBlock:
+
+Options:
+0 . neurons
+1 . activation function
+2 . weights
+3 . bias
+4 . 
+Correct Answer: 2
+
+Explanation: Weights in artificial neural networks play an efficient role as they are responsible for transmuting the input data within the network's hidden layers.
+
+ Index: 45
+Question: Artificial neurons are capable enough to model original neurons networks similarly as they are found in the human brain
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: None.
+
+ Index: 46
+Question: Name the input function received by neurons, which is also known as the neuron's internal state. 
+CodeBlock:
+
+Options:
+0 . weight
+1 . bias
+2 . activation or neuron's activity level
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: None. 
+
+ Index: 47
+Question: What is the name of the process that represents modified elements of the DNA?
+CodeBlock:
+
+Options:
+0 . selection
+1 . mutation
+2 . recombination
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Mutation can be defined as a change in the DNA that is responsible for bringing about benefits, harm, or nothing. 
+
+ Index: 48
+Question: Which of the following is the best representation of individual genes?
+CodeBlock:
+
+Options:
+0 . coding
+1 . conversion
+2 . encoding
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Encoding is a process of transmuting phenotype space to genotype space. 
+
+ Index: 49
+Question: What is the name of the operator that is functioned on the population? 
+CodeBlock:
+
+Options:
+0 . recombination
+1 . reproduction
+2 . mutation
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: A genetic algorithm initializes the population by utilizing random values followed by running each individual from the population through the fitness function. Then the fittest one gets selected among the population to reproduce by using the reproduction function. The process of evaluation and reproduction is repeated until a desired number of iterations have been passed. 
+
+ Index: 50
+Question: Name the selection method that is found to be less noisy.
+CodeBlock:
+
+Options:
+0 . boltzmann solution
+1 . remainder solution
+2 . stochastic remainder solution
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: None. 
+
+ Index: 51
+Question: In how many steps does a crossover operator proceed? 
+CodeBlock:
+
+Options:
+0 . 2
+1 . 3
+2 . 4
+3 . 5
+4 . 
+Correct Answer: 1
+
+Explanation: In a genetic algorithm, the crossover can be entitled recombination, which is nothing but a genetic operator that associates the genetic information of two parents to produce a new offspring. 
+
+ Index: 52
+Question: Which of the following best relate to reinforcement learning?
+CodeBlock:
+
+Options:
+0 . error based learning
+1 . backpropagation learning
+2 . output-based learning
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Reinforcement learning is another branch of machine learning that learns from the output errors and improves them in the subsequent iterations. 
+
+ Index: 53
+Question: ________ helps in converting a given bit pattern into another bit pattern by using logical bit-wise operation. 
+CodeBlock:
+
+Options:
+0 . masking
+1 . segregation
+2 . conversion
+3 . inversion
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 54
+Question: The ________ causes all the bits in the first operand to shift to the left by the number of positions indicated by the second operand.
+CodeBlock:
+
+Options:
+0 . shift right
+1 . shift left
+2 . shift operator
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: None 
+
+ Index: 55
+Question: Which of the following is not a specified method used for selecting the parents? 
+CodeBlock:
+
+Options:
+0 . tournament selection
+1 . steady-state
+2 . elitism
+3 . boltzmann selection
+4 . 
+Correct Answer: 1
+
+Explanation: None. 
+
+ Index: 56
+Question: ________ deals with uncertainty problems with its own merits and demerits
+CodeBlock:
+
+Options:
+0 . neuro-fuzzy
+1 . neuro-genetic
+2 . fuzzy-genetic
+3 . none
+4 . 
+Correct Answer: 0
+
+Explanation: Neuro-fuzzy refers to the amalgamation of neural networks and fuzzy logic in the field of artificial intelligence. It is nothing but a fuzzy system whose parameters learn through the learning algorithms acquired from the neural networks. 
+
+ Index: 57
+Question: What does FAM stand for? 
+CodeBlock:
+
+Options:
+0 . fuzzy association memory
+1 . fuzzy associative memory
+2 . fuzzy assist memory
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Fuzzy associative memory is a kind of neural network that stores the associations of patterns. It recalls the stored patterns from the noisy inputs.
+
+ Index: 58
+Question: Which of the following exhibits non-linear functions to any desired degree of accuracy?
+CodeBlock:
+
+Options:
+0 . neuro-fuzzy
+1 . neuro-genetic
+2 . fuzzy-genetic
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Fuzzy-genetic can be identified as a system built with the help of genetic algorithms, assisting in imitating the process of natural evolution, which is necessary for identifying its parameter and structures. 
+
+ Index: 59
+Question: Matrix crossover is also known as _________
+CodeBlock:
+
+Options:
+0 . one dimensional
+1 . two dimensional
+2 . three dimensional
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Matrix crossover initially selects three parents. Then each bit of the first parent is associated with that of the second parent. If both are found to be similar, then the bit is taken for the offspring, else the third parent's bit is considered for the offspring. 
+
+]

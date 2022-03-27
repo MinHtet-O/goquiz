@@ -1,0 +1,687 @@
+&[Index: 0
+Question: What is the PH of H2O?
+CodeBlock:
+
+Options:
+0 . 6
+1 . 7
+2 . 8
+3 . 9
+4 . 
+Correct Answer: 1
+
+Explanation: H2O is the chemical formula of water. The water is neither acid nor base. Water is only neutral. This category belongs to pH 7. Therefore, the pH of water is 7.
+
+ Index: 1
+Question: Which of the following gas is reduced in the reduction process?
+CodeBlock:
+
+Options:
+0 . oxygen
+1 . helium
+2 . carbon
+3 . hydrogen
+4 . 
+Correct Answer: 3
+
+Explanation: In the reduction process, oxygen is added, and hydrogen is reduced from the reactant.
+
+ Index: 2
+Question: Which of the following compound is mainly used in hand sanitizer?
+CodeBlock:
+
+Options:
+0 . aldehyde
+1 . acetic acid
+2 . alcohol
+3 . ketone
+4 . 
+Correct Answer: 2
+
+Explanation: Alcohol is mainly used in hand sanitizers. It kills germs present on our hands or any other places by rendering their oxygen supply.
+
+ Index: 3
+Question: What is the S.I unit of frequency?
+CodeBlock:
+
+Options:
+0 . diopter
+1 . second
+2 . hertz
+3 . meter
+4 . 
+Correct Answer: 2
+
+Explanation: The frequency is equal to the number of cycles per unit time, so its S.I unit is s-1 which is equal to hertz. Therefore, the S.I unit of frequency is hertz.
+
+ Index: 4
+Question: Acid turns blue litmus paper into which color?
+CodeBlock:
+
+Options:
+0 . black
+1 . blue
+2 . red
+3 . orange
+4 . 
+Correct Answer: 2
+
+Explanation: The acid turns blue litmus paper into red litmus paper, and the base turns red litmus paper into blue litmus paper.
+
+ Index: 5
+Question: Which of the following enzymes is not present in the human stomach?
+CodeBlock:
+
+Options:
+0 . pepsin
+1 . hydrochloric acid
+2 . mucus
+3 . trypsin
+4 . 
+Correct Answer: 3
+
+Explanation: There are three enzymes present in our stomach pepsin, hydrochloric acid, mucus. Trypsin is present in the small intestine. So, option (d) is the correct answer.
+
+ Index: 6
+Question: Which of the following gland is present in the human mouth?
+CodeBlock:
+
+Options:
+0 . adrenal
+1 . pituitary
+2 . gonads
+3 . salivary
+4 . 
+Correct Answer: 3
+
+Explanation: The salivary gland is present in the human mouth, which secretes saliva to excrete fat present in human foods.
+
+ Index: 7
+Question: Name the gland which is present above our kidneys?
+CodeBlock:
+
+Options:
+0 . adrenal
+1 . pituitary
+2 . gonads
+3 . salivary
+4 . 
+Correct Answer: 0
+
+Explanation: Adrenal gland is present above our kidneys. It controls our blood pressure. It also controls changes that occur in our body during the angry and happy mood.
+
+ Index: 8
+Question: What is the basic unit of our neural system?
+CodeBlock:
+
+Options:
+0 . neutron
+1 . neuron
+2 . nephron
+3 . nucleon
+4 . 
+Correct Answer: 1
+
+Explanation: The basic unit of our neural system is the neuron. It connects our brain to all parts of our body.
+
+ Index: 9
+Question: What is the basic unit of our excretory system?
+CodeBlock:
+
+Options:
+0 . neutron
+1 . neuron
+2 . nephron
+3 . nucleon
+4 . 
+Correct Answer: 2
+
+Explanation: The basic unit of the excretory system is the nephron. It helps filter blood through urea. It is connected to human's arteries and veins.
+
+ Index: 10
+Question: What is the unit of wavelength?
+CodeBlock:
+
+Options:
+0 . hertz
+1 . diopter
+2 . faraday
+3 . meter
+4 . 
+Correct Answer: 3
+
+Explanation: The wavelength is the distance between two consecutive waves. The distance is measured in meters, centimeters, or nanometers. Therefore, the unit of wavelength is meter, centimeter, or nanometer. 
+
+ Index: 11
+Question: What is the frequency range of white light?
+CodeBlock:
+
+Options:
+0 . 4 * 1014 to 8 * 1014
+1 . 4 * 1014 to 9 * 1014
+2 . 5 * 1014 to 8 * 1014
+3 . 5 * 1014 to 9 * 1014
+4 . 
+Correct Answer: 0
+
+Explanation: White light has seven colors which are violet, indigo, blue, green, yellow, orange, red. There is a range of frequency of white light, and its frequency range is 4 * 1014 to 8 * 1014.
+
+ Index: 12
+Question: What is the color of AgBr?
+CodeBlock:
+
+Options:
+0 . blue
+1 . brown
+2 . white
+3 . yellow
+4 . 
+Correct Answer: 3
+
+Explanation: The AgBr is the chemical formula of the silver bromide. The color of AgBr is yellow.
+
+ Index: 13
+Question: What is the other name of Newton's first law of motion?
+CodeBlock:
+
+Options:
+0 . action-reaction
+1 . change in momentum
+2 . law of inertia
+3 . constant momentum
+4 . 
+Correct Answer: 2
+
+Explanation: Newton's first law of motion is also known as the law of inertia. It states that everyone remains in their previous position.
+
+ Index: 14
+Question: According to newton's second law of motion, change in momentum per unit time is equal to ________.
+CodeBlock:
+
+Options:
+0 . force
+1 . energy
+2 . acceleration
+3 . work
+4 . 
+Correct Answer: 0
+
+Explanation: According to newton's second law of motion, change in momentum per unit time is equal to force applied on that body. Therefore, option (a) is the correct answer. 
+
+ Index: 15
+Question: What is the color of SO2 gas?
+CodeBlock:
+
+Options:
+0 . blue
+1 . grey
+2 . colorless
+3 . brown
+4 . 
+Correct Answer: 2
+
+Explanation: SO2 is the chemical formula of sulfur dioxide. The color of SO2 gas is colorless. It gives a pungent smell. Therefore, if we want to recognize the presence of SO2 gas, we smell it.
+
+ Index: 16
+Question: What is the color of CuSO4?
+CodeBlock:
+
+Options:
+0 . blue
+1 . brown
+2 . orange
+3 . white
+4 . 
+Correct Answer: 3
+
+Explanation: CuSO4 is the chemical formula of copper sulphate, and its color is white. 
+
+ Index: 17
+Question: What is the S.I unit of electric charge?
+CodeBlock:
+
+Options:
+0 . coulomb
+1 . ampere
+2 . faraday
+3 . ohm
+4 . 
+Correct Answer: 0
+
+Explanation: The S.I unit of electric charge is the coulomb. 
+
+ Index: 18
+Question: How many carbon atoms are present in heptane?
+CodeBlock:
+
+Options:
+0 . 6
+1 . 7
+2 . 8
+3 . 5
+4 . 
+Correct Answer: 1
+
+Explanation: Heptane is a hydrocarbon chain that has seven carbon atoms. Therefore, option (b) is the correct answer. 
+
+ Index: 19
+Question: What is the chemical formula of benzene?
+CodeBlock:
+
+Options:
+0 . c6h6
+1 . c6h4
+2 . c8h6
+3 . c6h8
+4 . 
+Correct Answer: 0
+
+Explanation: Benzene is a cyclic hydrocarbon chain. It has 6 carbon atoms which are alternatively connected with a double bond. Therefore, the chemical formula of benzene is C6H6.
+
+ Index: 20
+Question: What is the atomic number of phosphorus?
+CodeBlock:
+
+Options:
+0 . 12
+1 . 13
+2 . 14
+3 . 15
+4 . 
+Correct Answer: 3
+
+Explanation: The atomic number of phosphorus is 15. It belongs to the 15th group and the 3rd period in the periodic table. 
+
+ Index: 21
+Question: Which of the following quantity increases in a group when we move from top to bottom?
+CodeBlock:
+
+Options:
+0 . valency
+1 . electronegativity
+2 . atomic size
+3 . ionization energy
+4 . 
+Correct Answer: 2
+
+Explanation: When we move from top to bottom in the periodic table, the number of shells increases, which increases the size of the atom.
+
+ Index: 22
+Question: What is the PH range of acids?
+CodeBlock:
+
+Options:
+0 . 0 - 7
+1 . 7 - 14
+2 . 1 - 7
+3 . 7 - 15
+4 . 
+Correct Answer: 0
+
+Explanation: The total range of the PH scale is 0 to 14, in which the pH range of acids is 0 to 7. 
+
+ Index: 23
+Question: Name the non-metals which have high melting and boiling point?
+CodeBlock:
+
+Options:
+0 . gallium
+1 . diamond
+2 . cesium
+3 . lead
+4 . 
+Correct Answer: 1
+
+Explanation: Diamond is a non-metal but still has high melting and boiling point due to its covalent structure. In these options, all other options are metals. Therefore, option (b) is the correct answer.
+
+ Index: 24
+Question: Name the metal which is most ductile?
+CodeBlock:
+
+Options:
+0 . gold
+1 . silver
+2 . copper
+3 . iron
+4 . 
+Correct Answer: 0
+
+Explanation: Gold and platinum are the most ductile metal. Ductility is the property of any element by which it can modify into a wire.
+
+ Index: 25
+Question: What is the S.I unit of current?
+CodeBlock:
+
+Options:
+0 . coulomb
+1 . ampere
+2 . ohm
+3 . volt
+4 . 
+Correct Answer: 1
+
+Explanation: The S.I unit of charge is ampere. One ampere is equal to the amount of current flowing across a unit length wire. 
+
+ Index: 26
+Question: What is the S.I unit of potential difference?
+CodeBlock:
+
+Options:
+0 . volt
+1 . ampere
+2 . coulomb
+3 . ohm
+4 . 
+Correct Answer: 0
+
+Explanation: The S.I unit of potential difference is volt. One volt is equal to the potential difference across a wire having 1-ampere current apply 1-ohm resistance.
+
+ Index: 27
+Question: Name the veins that carry oxygenated blood from the heart to other parts of the body? 
+CodeBlock:
+
+Options:
+0 . kidney
+1 . arteries
+2 . both (a) and (b)
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: The arteries are attached to the heart. They carry oxygen-rich blood from the heart to other parts of the body. 
+
+ Index: 28
+Question: Name the part of the body on which coronavirus affects the most?
+CodeBlock:
+
+Options:
+0 . heart
+1 . liver
+2 . kidney
+3 . lungs
+4 . 
+Correct Answer: 3
+
+Explanation: The coronavirus has the most impact on human lungs. It causes difficulty in breathing and is harmful to health. 
+
+ Index: 29
+Question: Name the part of the eye on which image is formed?
+CodeBlock:
+
+Options:
+0 . cornea
+1 . lens
+2 . optical nerves
+3 . brain
+4 . 
+Correct Answer: 0
+
+Explanation: The part of the eye on which the image is formed is the cornea. Image is focused by the lens on the cornea, which sends it to the brain through optical nerves.
+
+ Index: 30
+Question: Which of the following diseases is caused by dog bites?
+CodeBlock:
+
+Options:
+0 . scurvy
+1 . madness
+2 . rabies
+3 . colorblindness
+4 . 
+Correct Answer: 2
+
+Explanation: Rabies is the name of the disease caused by dog bites. In this disease, the person loses his ability to think and understand.
+
+ Index: 31
+Question: Which device is used for measuring air pressure?
+CodeBlock:
+
+Options:
+0 . ammeter
+1 . voltmeter
+2 . seismograph
+3 . barometer
+4 . 
+Correct Answer: 3
+
+Explanation: The barometer is used for measuring air pressure. It is also called barometric pressure. It measures pressure in bar unit.
+
+ Index: 32
+Question: What is the basic principle of an electric generator?
+CodeBlock:
+
+Options:
+0 . law of constant momentum
+1 . flaming left-hand rule
+2 . ohm's law
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: The basic principle of the electric generator is magnetic induction. It is given by faraday.
+
+ Index: 33
+Question: What is the S.I unit of lens power?
+CodeBlock:
+
+Options:
+0 . joule
+1 . calorie
+2 . diopter
+3 . hertz
+4 . 
+Correct Answer: 2
+
+Explanation: The S.I unit of lens power is a diopter. It is equal to the reciprocal of the focal length of the lens. P = 1/F.
+
+ Index: 34
+Question: What is the S.I unit of resistance?
+CodeBlock:
+
+Options:
+0 . coulomb
+1 . ohm
+2 . volt
+3 . ampere
+4 . 
+Correct Answer: 1
+
+Explanation: The S.I unit of resistance is the ohm. If we apply 1 unit voltage in a wire and it gives 1-ampere current, then resistance across this wire is 1 ohm.
+
+ Index: 35
+Question: What is the chemical formula of alcohol?
+CodeBlock:
+
+Options:
+0 . c2h5oh
+1 . c2h5
+2 . c2h5cooh
+3 . c2h5o
+4 . 
+Correct Answer: 0
+
+Explanation: The chemical formula of alcohol is C2H5OH. It is ethane with an alcohol group. It is also called ethanol.
+
+ Index: 36
+Question: What is the name of juice secreted from the gall bladder?
+CodeBlock:
+
+Options:
+0 . saliva
+1 . hydrochloric acid
+2 . bile juice
+3 . maltase
+4 . 
+Correct Answer: 2
+
+Explanation: Bile juice is secreted from the gall bladder. It is basic in nature. It helps neutralize acidic food. 
+
+ Index: 37
+Question: What is the scientific name of humans?
+CodeBlock:
+
+Options:
+0 . mangifera indica
+1 . rana tigrina
+2 . homo sapiens
+3 . homo species
+4 . 
+Correct Answer: 2
+
+Explanation: The scientific name of humans is homo sapiens.
+
+ Index: 38
+Question: What is the scientific name of frog?
+CodeBlock:
+
+Options:
+0 . anura
+1 . homo sapiens
+2 . felis catus
+3 . mangifera indica
+4 . 
+Correct Answer: 0
+
+Explanation: The scientific name of the frog is Anura.
+
+ Index: 39
+Question: What is the name of farming in which the domestication of hens is involved?
+CodeBlock:
+
+Options:
+0 . pisci culture
+1 . apiculture
+2 . poultry culture
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: Poultry culture is the farming of hens. It is used for producing eggs. Pisci culture is the farming of fishes. Apiculture is the farming of bees.
+
+ Index: 40
+Question: Who discovered the x-rays?
+CodeBlock:
+
+Options:
+0 . maxwell
+1 . wilhelm roentgen
+2 . faraday
+3 . hertz
+4 . 
+Correct Answer: 1
+
+Explanation: Wilhelm roentgen discovered the x-ray in 1895. X-ray is used in human body scanning.
+
+ Index: 41
+Question: Who discovered the radioactivity?
+CodeBlock:
+
+Options:
+0 . madam curie
+1 . henri becquerel
+2 . faraday
+3 . hertz
+4 . 
+Correct Answer: 1
+
+Explanation: Henri Becquerel discovered the radioactivity. 
+
+ Index: 42
+Question: Name the process by which the human breathes?
+CodeBlock:
+
+Options:
+0 . photosynthesis
+1 . digestion
+2 . excretion
+3 . respiration
+4 . 
+Correct Answer: 3
+
+Explanation: Respiration is the process by which a person breathes. In this process, oxygen is taken in, and carbon dioxide is taken out. 
+
+ Index: 43
+Question: Name the part of the human body in which most of the digestion occurs?
+CodeBlock:
+
+Options:
+0 . stomach
+1 . small intestine
+2 . large intestine
+3 . mouth
+4 . 
+Correct Answer: 1
+
+Explanation: The small intestine is the organ of the human body where complete digestion of food like carbohydrates, proteins, and fats takes place.
+
+ Index: 44
+Question: Name the metal which is easily cut by a simple knife?
+CodeBlock:
+
+Options:
+0 . sodium
+1 . lead
+2 . tin
+3 . mercury
+4 . 
+Correct Answer: 0
+
+Explanation: Sodium is a metal that is easily cut by a simple knife. Sodium is an alkali metal that belongs to the first group.
+
+ Index: 45
+Question: Name the fabric which is used in making bulletproof jackets?
+CodeBlock:
+
+Options:
+0 . iron
+1 . aluminum
+2 . steel
+3 . kevlar
+4 . 
+Correct Answer: 3
+
+Explanation: Kevlar is used in making bulletproof jackets.Kevlar is a resistor of heat. It is a strong fabric, so it is used in bulletproof jackets.
+
+ Index: 46
+Question: What is the S.I unit of force?
+CodeBlock:
+
+Options:
+0 . newton
+1 . bar
+2 . joule
+3 . newton meter.
+4 . 
+Correct Answer: 0
+
+Explanation: Force is equal to mass into acceleration. The S.I unit of mass is the kilogram, and the S.I unit of acceleration is ms2. So, the S.I unit of force is kgms2 which is equal to Newton. Hence the S.I unit of force is Newton.
+
+ Index: 47
+Question: What is the scientific name of a mango?
+CodeBlock:
+
+Options:
+0 . mangifera indica
+1 . rana tigrina
+2 . homo sapiens
+3 . felis catus
+4 . 
+Correct Answer: 0
+
+Explanation: The scientific name of mango is Mangifera indica.
+
+ Index: 48
+Question: Who is the main producer of our ecosystem?
+CodeBlock:
+
+Options:
+0 . humans
+1 . plant
+2 . animals
+3 . bacteria
+4 . 
+Correct Answer: 1
+
+Explanation: Plants use the sun's energy for producing their food. So, they are the primary producer of our ecosystem.
+
+]

@@ -1,0 +1,701 @@
+&[Index: 0
+Question: Which of the following is the correct value of cot 100.cot 200.cot 600.cot 700.cot 800?
+CodeBlock:
+
+Options:
+0 . 1/√3
+1 . √3
+2 . -1
+3 . 1
+4 . 
+Correct Answer: 0
+
+Explanation: Here, we can apply the formula -cot A. cot B = 1 (when A + B = 900)= (cot 200 . cot 700) x (cot 100 . cot 800) x cot 600= 1 x 1 x 1/√3= 1/√3So, the correct value of cot 100.cot 200.cot 600.cot 700.cot 800 = 1/√3
+
+ Index: 1
+Question: If a sin 450 = b cosec 300, what is the value of a4/b4?
+CodeBlock:
+
+Options:
+0 . 63
+1 . 43
+2 . 23
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Given a sin 450 = b cosec 300So, a/b = cosec 300/ sin 450a/b = 2/( 1/√2)a/b = 2√2/1a4/b4 = (2√2/1)4a4/b4 = 64/1or,a4/b4 = 43
+
+ Index: 2
+Question: If tan θ + cot θ = 2, then what is the value of tan100 θ + cot100 θ?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 3
+2 . 2
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Given tan θ + cot θ = 2Put θ = 450, above equation will satisfy as,1 + 1 = 2So, θ = 450,= tan100 450 + cot100 450= 1100 + 1100= 2
+
+ Index: 3
+Question: If the value of α + β = 900, and α : β = 2 : 1, then what is the ratio of cos α to cos β ?
+CodeBlock:
+
+Options:
+0 . 1 : 3
+1 . √3 : 1
+2 . 1 : √3
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Given α + β = 900, and α : β = 2 : 1So, we can say that 2x + x = 9003x = 900, which givex = 300So, α = 2x = 60β = x = 30cos α / cos β = cos 600 / cos 300=> (1/2) / (√3/2)or, 1/2 * 2/√3= 1/√3Or the ratio between cos α : cos β = 1 : √3
+
+ Index: 4
+Question: If θ is said to be an acute angle, and 7 sin2 θ + 3 cos2 θ = 4, then what is the value of tan θ? 
+CodeBlock:
+
+Options:
+0 . 1
+1 . √3
+2 . 1/√3
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Given 7 sin2 θ + 3 cos2 θ = 4=> 7 sin2 θ + 3 (1 - sin2 θ) = 4=> 7 sin2 θ + 3 - 3sin2 θ = 4Then, 4sin2 θ = 1Or, sin θ = 1/2So, θ = 300Now, put θ = 300 in tan θ, we will get,tan θ = 1/√3AlternateWe can directly check the equation by putting values of θ. Let's put θ = 3007 sin2 300 + 3 cos2 300= 4Then, 7 * 1/4 + 3 * 3/4 = 4So, 7/4 + 9/4 = 416/4 = 4Or, 4 = 4 (so, it satisfy the condition)Now, tan 300 = 1/√3
+
+ Index: 5
+Question: If tan θ - cot θ = 0, what will be the value of sin θ + cos θ?
+CodeBlock:
+
+Options:
+0 . 1
+1 . √2
+2 . 1/√2
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Given tan θ - cot θ = 0Let's put θ = 450 in order to satisfy the above equationtan 450 - cot 450 = 01 - 1 = 0 (equation satisfied with θ = 450)Now, put θ = 450 in sin θ + cos θ, we will get= sin 450 + cos 450= 1/√2 + 1/√2= √2
+
+ Index: 6
+Question: If θ is said to be an acute angle, and 4 cos2 θ - 1 = 0, then what is the value of tan (θ - 150)?
+CodeBlock:
+
+Options:
+0 . 1
+1 . √2
+2 . 1/√3
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given 4 cos2 θ - 1 = 04 cos2 θ = 1cos2 θ = 1/4cos θ = 1/2Or, θ = 600So, tan (θ - 150) = ?=> tan (600 - 150)= tan 450= 1
+
+ Index: 7
+Question: If the value of θ + φ = π/2, and sin θ = 1/2, what will be the value of sinφ?
+CodeBlock:
+
+Options:
+0 . 1
+1 . √2
+2 . √3/2
+3 . 2/√3
+4 . 
+Correct Answer: 2
+
+Explanation: Given θ + φ = π/2It can be written as, θ + φ = 900 (as π = 1800) …….(i)sin θ = 1/2or, θ = 300On putting the value of θ = 300 in equation (i), we will get,300 + φ = 900So, φ = 600Then, sin φ = sin 600 = √3/2
+
+ Index: 8
+Question: What will be the value of 2cos2 θ - 1, if cos4 θ - sin4 θ = 2/3?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3/2
+3 . 2/3
+4 . 
+Correct Answer: 3
+
+Explanation: Given cos4 θ - sin4 θ = 2/3Now, here we can apply the formula -a4 - b4 = (a2 - b2) (a2 + b2)So, (cos2 θ - sin2 θ) (cos2 θ + sin2 θ) = 2/3So, 1 x (cos2 θ - sin2 θ) = 2/3 (because cos2 θ + sin2 θ = 1)=> cos2 θ - (1 - cos2 θ) = 2/3 (because sin2 θ = 1 - cos2 θ)So, 2cos2 θ - 1 = 2/3
+
+ Index: 9
+Question: What will be the value of 1 - 2sin2 θ, if cos4 θ - sin4 θ = 2/3?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3/2
+3 . 2/3
+4 . 
+Correct Answer: 3
+
+Explanation: Given cos4 θ - sin4 θ = 2/3Now, here we can apply the formula -a4 - b4 = (a2 - b2) (a2 + b2)So, (cos2 θ - sin2 θ) (cos2 θ + sin2 θ) = 2/3So, 1 x (cos2 θ - sin2 θ) = 2/3 (because cos2 θ + sin2 θ = 1)=> (1 - sin2 θ) - sin2 θ = 2/3So, 1 - 2sin2 θ = 2/3
+
+ Index: 10
+Question: What is the value of tan θ/(1 - cot θ) + cot θ/(1 - tan θ)?
+CodeBlock:
+
+Options:
+0 . tan θ + cot θ + 1
+1 . tan θ - cot θ - 1
+2 . tan θ - cot θ + 1
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: tan θ/(1 - (1/tan θ) + (1/tan θ)/(1 - tan θ)= tan2 θ/ (tan θ - 1) - 1/tan θ(tan θ - 1)= tan3 θ - 1/tan θ(tan θ - 1)Apply the formula, a3- b3 = (a - b) (a2 + ab + b2)= (tan θ - 1) (tan2 θ + tan θ + 1) / tan θ(tan θ - 1)= (tan2 θ + tan θ + 1) / tan θOn taking tan θ common from the numerator, we will get,= tan θ + cot θ + 1
+
+ Index: 11
+Question: What is the value of sin θ/(1 + cos θ) + sin θ/(1 - cos θ), where (00 < θ < 900)?
+CodeBlock:
+
+Options:
+0 . 2cosec θ
+1 . 2tan θ
+2 . 2cot θ
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given, sin θ/(1 + cos θ) + sin θ/(1 - cos θ)= [sin θ (1 - cos θ) + sin θ (1 + cos θ)] / [(1 - cos θ) (1 + cos θ)]= [sin θ - sin θ cos θ + sin θ + sin θ cos θ] / [1 - cos2 θ]= 2 sin θ / sin2 θ= 2 cosec θ
+
+ Index: 12
+Question: What will be the value of (√3 tanθ + 1), if r sinθ = 1, and r cosθ = √3?
+CodeBlock:
+
+Options:
+0 . 2
+1 . 1
+2 . 0
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given, r sinθ = 1, and r cosθ = √3r sinθ / r cosθ = 1/√3tanθ = 1/√3or √3 tanθ = 1So, √3 tanθ + 1= 1 + 1= 2
+
+ Index: 13
+Question: What is the value of (tan2 θ - sec2 θ)?
+CodeBlock:
+
+Options:
+0 . 2
+1 . -1
+2 . 1
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: (tan2 θ - sec2 θ)= sin2 θ/cos2 θ - 1/cos2 θ= (sin2 θ - 1) / cos2 θ = - cos2 θ/cos2 θ= -1
+
+ Index: 14
+Question: If sin θ = 0.7, then what is the value of cosθ, if 00 <= θ < 900?
+CodeBlock:
+
+Options:
+0 . √51
+1 . √49
+2 . 0.3
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given sin θ = 0.7As we know, sin2 θ + cos 2 θ = 1So, (0.7)2 + cos 2 θ = 1Then, 0.49 + cos 2 θ = 1=> cos2 θ = 1 - 0.49cos θ = √0.51
+
+ Index: 15
+Question: What is the value of tan3θ, If tan7θ.tan2θ = 1?
+CodeBlock:
+
+Options:
+0 . √3
+1 . 1/√3
+2 . -1/√3
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Given tan7θ.tan2θ = 1As we know, if tanA . tanB = 1 then, A + B = 900So, 7θ + 3θ = 900=> 9θ = 900Or, θ = 100Now, we have to find tan3θSo, put θ = 100 in tan3θ, we will gettan 300 = 1/√3
+
+ Index: 16
+Question: What will be the value of 3cos800.cosec100 + 2cos590.cosec310?
+CodeBlock:
+
+Options:
+0 . 3
+1 . 1
+2 . 5
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: 3cos800.cosec100 + 2cos590.cosec310 = ?According to the identity, [if A + B = 900 then, cosA.cosecB = 1]So, 3cos800.(1/sin100) + 2cos590.(1/sin310)= 3cos800.(1/sin(900 - 800)) + 2cos590.(1/sin(900 - 590))=> 3cos800/cos 800) + 2cos590/cos 590 ( because sin (900 - θ) = cos θ)= 3 + 2= 5
+
+ Index: 17
+Question: If sin (θ + 180) = cos 600, then what is the value of cos5θ, where 00 < θ < 900?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 1/2
+2 . 1
+3 . 2
+4 . 
+Correct Answer: 1
+
+Explanation: Given sin (θ + 180) = cos 600sin (θ + 180) = cos (900 - 300)So, sin (θ + 180) = sin300Then, θ = 300 - 180θ = 120So, cos5θ = cos 5 x 120= cos 600= 1/2
+
+ Index: 18
+Question: If cos A = 2/3, then what is the value of tan A?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 1/2
+2 . 5/2
+3 . √5/2
+4 . 
+Correct Answer: 3
+
+Explanation: According to the trigonometric identities,1 + tan2 A = sec2 AAnd we know, sec A = 1/cos ASo, sec A = 1/(2/3) = 3/2Then, 1 + tan2 A = (3/2)2 = 9/4=> tan2 A = 9/4 - 1=> tan2 A = 5/4So, tan A = √5/2
+
+ Index: 19
+Question: What will be the simplified value of (sec A sec B + tan A tan B)2 - ( sec A tan B + tan A sec B)2?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 1
+2 . -1
+3 . 2
+4 . 
+Correct Answer: 1
+
+Explanation: The question is in the form of (a + b)2So, on applying the identity, and after expanding the given equation, we will get -=> sec2 A sec2 B + tan2 A tan2 B + 2 sec A sec B tan A tan B - sec2 A tan2 B - tan2 A sec2 B - 2 sec A tan B tan A sec B=> Then, sec2 A [sec2 B - tan2 B] - tan2 A [sec2 B - tan2 B]So, it will be written as [sec2 A - tan2 A] [sec2 B - tan2 B]= 1 x 1= 1.
+
+ Index: 20
+Question: What is the simplified value of (cosec A - sin A)2 + (sec A - cos A)2 - (cot A - tan A)2?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 1
+2 . -1
+3 . 2
+4 . 
+Correct Answer: 1
+
+Explanation: The question is in the form of (a - b)2(a - b)2 = a2 + b2 - 2abSo, on applying the identity, and after expanding the given equation, we will get -=> cosec2 A + sin2 A - 2 cosec A sin A + sec2 A + cos2 A - 2 sec A cos A - cot2 A - tan2 A + 2 cot A tan AAfter solving it with using trigonometric identities, we will get -=> (cosec2 A - cot2 A) + (sin2 A + cos2 A) + (sec2 A - tan2 A) -2= 1 + 1 + 1 - 2= 3 - 2= 1Alternate method(cosec A - sin A)2 + (sec A - cos A)2 - (cot A - tan A)2We can solve it directly by putting θ = 450= (cosec 450 - sin 450)2 + (sec 450 - cos 450)2 - (cot 450 - tan 450)2= (√2 - 1/√2)2 + (√2 - 1/√2)2 - (1 - 1)2= 1/2 + 1/2 - 0= 1
+
+ Index: 21
+Question: What will be the value of sec4 θ - tan4 θ, if sec2 θ + tan2 θ = 7/12?
+CodeBlock:
+
+Options:
+0 . 1/2
+1 . 7/12
+2 . 1
+3 . 2/3
+4 . 
+Correct Answer: 1
+
+Explanation: Given sec2 θ + tan2 θ = 7/12Now, here we can apply the formula -a4 - b4 = (a2 - b2) (a2 + b2)sec4 θ - tan4 θ = (sec2 θ - tan2 θ) (sec2 θ + tan2 θ)= 1 x (sec2 θ + tan2 θ) {because 1 + tan2 θ = sec2 θ}= 1 x 7/12= 7/12
+
+ Index: 22
+Question: What is the value of cos2 200 + cos2 700?
+CodeBlock:
+
+Options:
+0 . √2
+1 . 0
+2 . 1
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: cos2 200 + cos2 700We can write cos2 200 as cos2 (900 - 700)So, cos2 (900 - 700) + cos2 700= sin2 700 + cos2 700= 1
+
+ Index: 23
+Question: If r cosθ = √3, and r sinθ = 1, what is the value of r2 tanθ?
+CodeBlock:
+
+Options:
+0 . 4/√3
+1 . √3/4
+2 . √3
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given r cosθ = √3, and r sinθ = 1r cosθ / r sinθ = 1/√3tanθ = tan 300Or, θ = 300On putting, θ = 300, we will get,r sin 300 = 1r x ½ = 1or r =2Now, r2 tanθ = ?= (2)2 tan 300= 4 x 1/√3= 4/√3
+
+ Index: 24
+Question: Which of the following is the correct value of tan2 A + cot2 A - sec2 A cosec2 A, where 00 < A < 900?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 2
+2 . -2
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: We can solve it by putting θ = 450On putting θ = 450, we will get -= tan2 450 + cot2 450 - sec2 450 cosec2 450= 1 + 1 - (√2)2 x (√2)2= 2 - 4= -2
+
+ Index: 25
+Question: If the value of tan2 θ + tan4 θ = 1, what will be the value of cos2 θ + cos4 θ?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 1
+2 . -2
+3 . -1
+4 . 
+Correct Answer: 1
+
+Explanation: Given, tan2 θ + tan4 θ = 1 …. (i)From equation (i),tan2 θ ( 1 + tan2 θ ) = 1tan2 θ ( sec2 θ ) = 1 [As according to the trigonometric identity, sec2 θ - tan2 θ = 1]tan2 θ = 1/ sec2 θtan2 θ = cos2 θ ….(ii)Now, cos2 θ + cos4 θ = ?=> cos2 θ + (cos2)2 θ=> tan2 θ + (tan2)2 θ=> tan2 θ + tan4 θ= 1 {from equation (i)}
+
+ Index: 26
+Question: If 4sin2 θ = 3, and θ is a positive acute angle, what is the value of tan θ - cot θ/2?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 0
+2 . -2
+3 . -1
+4 . 
+Correct Answer: 1
+
+Explanation: Given, 4 sin2 θ = 3Or, sin2 θ = 3/4Or, sin θ = √3/2So, θ = 600Now, tan θ - cot θ/2 = ?Put θ = 600= tan 600 - cot 600/2= tan 600 - cot 300= √3 - √3= 0
+
+ Index: 27
+Question: If the value of sin A + cosec A = 2, then what is the value of sin7 A + cosec7 A?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 0
+2 . 2
+3 . 3
+4 . 
+Correct Answer: 2
+
+Explanation: It is given that sin A + cosec A = 2 ……(i)On putting A = 900, then above condition will satisfysin 900 + cosec 900 = 2or, 1 + 1 = 2 (as the equation satisfies, so, A = 900)Now, sin7 A + cosec7 A = ?=> sin7 900 + cosec7 900=> 17 + 17= 2
+
+ Index: 28
+Question: What is the value of (2tan 300) / (1 + tan2 300)?
+CodeBlock:
+
+Options:
+0 . cos 450
+1 . cos 900
+2 . sin 600
+3 . sin 300
+4 . 
+Correct Answer: 2
+
+Explanation: tan 300 = 1/√3(2tan 300) / (1 + tan2 300) = ?= (2 x 1/√3) / (1 + (1/√3)2)= (2/√3) / (4/3)= 6/4√3= Or √3/2, which is equal to option C, i.e., sin600.
+
+ Index: 29
+Question: What is the value of (sin 300 + cos 600) - (sin 600 + cos 300)?
+CodeBlock:
+
+Options:
+0 . 1 + √2
+1 . 1 + 2√2
+2 . 1 + √3
+3 . 1 + 2√3
+4 . 
+Correct Answer: 2
+
+Explanation: Let's see the values -sin 300 = 1/2cos 600 = 1/2sin 600 = √3/2cos 300 = √3/2So, (1/2 + 1/2) - (√3/2 + √3/2)= 1 - 2√3/2Or, 1 - √3
+
+ Index: 30
+Question: If 1 + cos2 θ is equal to 3 sin θ.cos θ, then what is the value of cot θ?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 0
+2 . 2
+3 . 3
+4 . 
+Correct Answer: 0
+
+Explanation: It is given that, 1 + cos2 θ = 3 cos θ.sin θOn dividing both sides by sin2 θ, we will get1+cos2 θ / sin2 θ = 3 cos θ.sin θ/sin2 θcosec2 θ + cot2 θ = 3 cot θ=> 1 + cot2 θ + cot2 θ = 3 cot θ [because 1 + cot2 θ = cosec2 θ]=> 1 + 2cot2 θ = 3 cot θ=> 2 cot2 θ = 3 cot θ - 1Let's try to put θ = 450=> 2cot2 450 - 3 cot 450 + 1 = 0=> 2 -3 + 1 = 0=> 0 = 0 (satisfies)So, θ = 450cot θ = cot 450= 1
+
+ Index: 31
+Question: If the value of tan θ = 4/3, then which of the following is the correct value of (3 sin θ + 2 cos θ) / (3 sin θ - 2 cos θ) =?
+CodeBlock:
+
+Options:
+0 . 1
+1 . -3
+2 . 2
+3 . 3
+4 . 
+Correct Answer: 3
+
+Explanation: It is given that, tan θ = 4/3=> sin θ / cos θ = 4/3So sin θ = 4, and cos θ = 3Now, on putting the values of sin θ and cos θ in (3 sin θ + 2 cos θ) / (3 sin θ - 2 cos θ), we will get -= 3x4 + 2x3/ 3x4 - 2x3= 18/6= 3
+
+ Index: 32
+Question: If the value of tan 150 is 2 - √3, then what is the value of tan 150 cot 750 + tan 750 cot 150?
+CodeBlock:
+
+Options:
+0 . 14
+1 . -13
+2 . 21
+3 . -14
+4 . 
+Correct Answer: 0
+
+Explanation: tan 150 cot 750 + tan 750 cot 150 = ?tan 150 cot (900 - 150) + tan (900 - 150) cot 150 [as cot (900 - θ) = tan θ, and tan (900 - θ) = cot θ]= tan2 150 + cot2 150 …..(i)cot 150 = 1/tan 150 = 1 / 2-√3 = (1 / 2-√3) x (2+√3 / 2+√3)So, cot 150 = 2 + √3So, on putting the values of cot 150 and tan 150 in equation (i), we will get= (2 - √3)2 + (2 + √3)2= 4 + 3 - 2√3 + 4 + 3 + 2√3= 14
+
+ Index: 33
+Question: Which of the following is the correct relation between A and B, if A = tan 110 . tan 290, and B = 2 cot 610 . cot 790?
+CodeBlock:
+
+Options:
+0 . a = b
+1 . a = -b
+2 . a = 2b
+3 . 2a = b
+4 . 
+Correct Answer: 3
+
+Explanation: Given A = tan 110 . tan 290, and B = 2 cot 610 . cot 790A / B = tan 110 . tan 290 / 2 cot 610 . cot 790= [tan 110 . tan 290] / [2 cot (900 - 290) . cot (900 - 110)]= tan 110 . tan 290 / 2 tan 110 . tan 290= 1/2So, A/B = 1/2Or, 2A = B
+
+ Index: 34
+Question: If sin θ x cos θ = 1/2, then what is the value of sin θ - cos θ?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 1
+2 . -1
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given sin θ x cos θ = 1/2On multiplying both sides by 2, we will get -2 sin θ x cos θ = 1sin 2θ = 1 (because sin 2θ = 2 sinθ cosθ)So, 2θ = 900=> θ = 450Therefore, sin θ - cos θ = ?=> sin 450 - cos 450= 1/√2 - 1/√2= 0
+
+ Index: 35
+Question: If the value of sin(θ + 300) is 3/√12, then what is the value of cos2 θ?
+CodeBlock:
+
+Options:
+0 . 3/4
+1 . 4/3
+2 . 1/4
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given sin (θ + 300) = 3/√12It can be written as sin (θ + 300) = 3/2√3Or, sin (θ + 300) = √3/2=> sin (θ + 300) = sin 600=> θ + 300 = 600=> θ = 300On putting θ = 300, in cos2 θ, we will getcos2 300 = (√3/2)2= 3/4
+
+ Index: 36
+Question: If the value of 4 cos2θ - 4√3 cos θ + 3 = 0, then what is the value of θ?
+CodeBlock:
+
+Options:
+0 . 600
+1 . 300
+2 . 450
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In this example, we can find the value of θ by putting values given in options. It is the hit and trial approach. The value that satisfies the given equation will be considered as the value of θ.Given 4 cos2θ - 4√3 cos θ + 3 = 0So, in option A θ = 600 is given, let's put it and see whether the equation will be satisfied or not -4 cos2600 - 4√3 cos 600 + 3 = 04 x (1/2)2 - 4√3 x 1/2 + 3 = 0=> 4/4 - 4/2√3 + 3 = 0=> 4 - 4/2√3 = 0=> 4(1 - 1/2√3) = 0 (will not satisfy the equation)So, in option B, θ = 300 is given, let's put it and see whether the equation will be satisfied or not -4 cos2300 - 4√3 cos 300 + 3 = 04 x (√3 /2)2 - 4√3 x √3/2 + 3 = 0=> 3 - 6 + 3 = 0=> 6 - 6 = 0=> 0 = 0 (Equation satisfied)So, option B is correct, and the value of θ is 300.
+
+ Index: 37
+Question: Which of the following is the correct value of cos2 550 + cos2 350 + sin2 650 + sin2 250?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 3
+2 . 2
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: cos2 550 + cos2 350 + sin2 650 + sin2 250=> cos2 (900 - 350) + cos2 350 + sin2 650 + sin2 (900 - 650)=> (sin2 350 + cos2 350) + (sin2 650 + cos2 650)=> 1 + 1= 2
+
+ Index: 38
+Question: If the value of tan 90 = p/q, then what is the value of sec2 810/ 1 + cot2 810?
+CodeBlock:
+
+Options:
+0 . p2/q2
+1 . 1
+2 . q2/p2
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: sec2 810/ 1 + cot2 810= sec2 810/ cosec2 810= (1/cos2 810) / (1/sin2 810)= sin2 810 / cos2 810= tan2 810= tan2 (900 - 90)= cot2 90= q2 / p2
+
+ Index: 39
+Question: If cot 450.sec 600 = A tan 300.sin 600, then which of the following is the correct value of A?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 1
+2 . √2
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given cot 450.sec 600 = A tan 300.sin 600So, 1 x 2 = A 1/√3 x √3/2=> 2 = A/2So, A = 4
+
+ Index: 40
+Question: If the value of sec2 θ + tan2 θ = 7, then what is the value of θ?
+CodeBlock:
+
+Options:
+0 . 00
+1 . 900
+2 . 600
+3 . 300
+4 . 
+Correct Answer: 2
+
+Explanation: Given sec2 θ + tan2 θ = 7=> 1 + tan2 θ + tan2 θ = 7=> 2tan2 θ + 1 = 7=> 2tan2 θ = 6=> tan2 θ = 3=> tan θ = √3Or θ = 600 We can also solve this question by using the hit and trial approach. We can directly check the values of θ given in options. The value that will satisfy the given condition will be the value of θ.
+
+ Index: 41
+Question: Which of the following is the correct value of (3 / 1+tan2 θ) + 2 sin2 θ + (1 / 1+cot2 θ)?
+CodeBlock:
+
+Options:
+0 . 3
+1 . 9
+2 . 6
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: (3 / 1+tan2 θ) + 2 sin2 θ + (1 / 1+cot2 θ) = ?According to the trigonometric identities, the given equation can be written as -= 3/sec2 θ + 2 sin2 θ + 1/cosec2 θ= 3cos2 θ + 2 sin2 θ + sin2 θ= 3cos2 θ + 3sin2 θ= 3(cos2 θ + sin2 θ)= 3
+
+ Index: 42
+Question: If the value of tan2 A = 1 + 2tan2 B, then what is the value of √2 cosA - cosB?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 9
+2 . √2
+3 . √3
+4 . 
+Correct Answer: 0
+
+Explanation: Given tan2 A = 1 + 2tan2 B=> sec2 A - 1 = 1 + 2 (sec2 B - 1)=> sec2 A - 1 = 1 + 2 sec2 B - 2=> sec2 A - 1 = 2 sec2 B - 1=> 1/cos2 A = 2/cos2 B=> cos2 B = 2cos2 A=> or, cos B = √2 cos A=> So, √2 cos A - cos B = 0
+
+ Index: 43
+Question: What will be the numerical value of (4 sec2 300 + cos2 600 - tan2 450) / (sin2 300 + cos2 300)?
+CodeBlock:
+
+Options:
+0 . 55/12
+1 . 45/12
+2 . 1/12
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Given: (4 sec2 300 + cos2 600 - tan2 450) / (sin2 300 + cos2 300)We have to put the numerical values,= [4 (2/√3)2 + (½)2 - (1)2] / 1=> sec2 A - 1 = 1 + 2 (sec2 B - 1)=> sec2 A - 1 = 1 + 2 sec2 B - 2=> sec2 A - 1 = 2 sec2 B - 1=> 1/cos2 A = 2/cos2 B=> cos2 B = 2cos2 A=> or, cos B = √2 cos A=> So, √2 cos A - cos B = 0
+
+ Index: 44
+Question: If the value of tan A = 2, then what is the value of (cosec2 A - sec2 A) / (cosec2 A + sec2 A)?
+CodeBlock:
+
+Options:
+0 . 5/3
+1 . 3/5
+2 . - 5/3
+3 . - 3/5
+4 . 
+Correct Answer: 3
+
+Explanation: Given: tan A = 2(cosec2 A - sec2 A) / (cosec2 A + sec2 A) = ?On dividing above equation with cosec2 A, we will get -= (1 - tan2 A) / (1 + tan2 A)= (1 - 22) / (1 + 22) [because tan A = 2]= - 3/5
+
+ Index: 45
+Question: Which of the following is the correct value of (5/sec2 θ) + 3 sin2 θ + (2 / 1+cot2 θ)?
+CodeBlock:
+
+Options:
+0 . 3
+1 . 9
+2 . 5
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: (5 / sec2 θ) + 3 sin2 θ + (2 / 1+cot2 θ) = ?According to the trigonometric identities, the given equation can be written as -= 5cos2 θ + 3 sin2 θ + 2/cosec2 θ= 5cos2 θ + 3 sin2 θ + 2sin2 θ= 5cos2 θ + 5sin2 θ= 5(cos2 θ + sin2 θ)= 5
+
+ Index: 46
+Question: Which of the following is the correct numerical value of 5 tan2 A - 5 sec2 A + 1?
+CodeBlock:
+
+Options:
+0 . - 3
+1 . 9
+2 . 5
+3 . - 4
+4 . 
+Correct Answer: 3
+
+Explanation: 5 tan2 A - 5 sec2 A + 1 = ?= 5 (tan2 A - sec2 A) + 1= 5 ((sin2 A/cos2 A) - (1/cos2 A)) + 1= 5((sin2 A - 1) / cos2 A) + 1= 5(- cos2 A / cos2 A) + 1= - 5 + 1= - 4
+
+ Index: 47
+Question: The value of cot 300/tan 600 is -
+CodeBlock:
+
+Options:
+0 . 0
+1 . 9
+2 . 1
+3 . - 2
+4 . 
+Correct Answer: 2
+
+Explanation: tan 600 = √3, cot 300 = √3So, cot 300/tan 600 = √3 / √3= 1
+
+ Index: 48
+Question: If the value of tanP + secP = a, then what is the value of cosP?
+CodeBlock:
+
+Options:
+0 . 2a/a2 + 1
+1 . a2 + 1/ 2a
+2 . a2 - 1/ 2a
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: It is given that, tanP + secP = a ……(i)As we know, the trigonometric identity, sec2 P - tan2 P = 1 {we assume θ = P}So, we can apply the formula a2 - b2 = (a - b) (a + b)=> (sec P - tan P) (sec P + tan P) = 1=> (sec P - tan P) x a = 1=> sec P - tan P = 1/a …..(ii)So, from equation (i) and (ii), we will get -2sec P = a + 1/asec P = a2+1 / 2aSo, cos P = 2a / a2+1 [as sec P = 1/cosP]
+
+ Index: 49
+Question: Suppose cos θ + sin θ = √2 cos θ, then which of the following is the correct value of cos θ - sin θ?
+CodeBlock:
+
+Options:
+0 . √2 cos θ
+1 . √2 sin θ
+2 . -√2 cos θ
+3 . -√2 sin θ
+4 . 
+Correct Answer: 1
+
+Explanation: It is given that, cos θ + sin θ = √2 cos θ …..(i)On squaring both sides, we will get,(cos θ + sin θ)2 = (√2 cos θ)2=> cos2 θ + sin2 θ + 2 sin θ cos θ = 2 cos2 θOr, 2cos2 θ - cos2 θ - sin2 θ = 2 sinθ cosθ=> cos2 θ - sin2 θ = 2 sin θ cos θ=> (cos θ + sin θ) (cos θ - sin θ) = 2 sin θ cos θ=> (√2 cos θ) (cos θ - sin θ) = 2 sin θ cos θ [from equation (i)]=> (cos θ - sin θ) = 2 sinθ cosθ / √2 cos θ = √2 sin θ
+
+]

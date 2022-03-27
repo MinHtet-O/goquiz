@@ -1,0 +1,607 @@
+&[Index: 0
+Question: What is the use of directory structure in the operating system?
+CodeBlock:
+
+Options:
+0 . the directory structure is used to solve the problem of the network connection in os.
+1 . it is used to store folders and files hierarchically.
+2 . it is used to store the program in file format.
+3 . all of the these
+4 . 
+Correct Answer: 1
+
+Explanation: In the OS, a directory structure is a container that is used to store folders and files in a hierarchical manner.
+
+ Index: 1
+Question: What type of scheduling is round-robin scheduling?
+CodeBlock:
+
+Options:
+0 . linear data scheduling
+1 . non-linear data scheduling
+2 . preemptive scheduling
+3 . non-preemptive scheduling
+4 . 
+Correct Answer: 2
+
+Explanation: Round-robin scheduling is a preemptive scheduling algorithm in which a specific time is provided to execute each process. This specific time is called time-slice.
+
+ Index: 2
+Question: Which conditions must be satisfied to solve a critical section problem?
+CodeBlock:
+
+Options:
+0 . bounded waiting
+1 . progress
+2 . mutual exclusion
+3 . all of these.
+4 . 
+Correct Answer: 3
+
+Explanation: A critical-section is a code segment that can be accessed by a signal mechanism at a given point of time. The segment consists of shared data services that are need to be used by other systems. The critical section problem must satisfy the three conditions: Mutual Exclusion, Bounded Waiting, and Progress.
+
+ Index: 3
+Question: Which of the following options is correct about the windows operating system?
+CodeBlock:
+
+Options:
+0 . windows is a cui operating system.
+1 . windows is based on cui.
+2 . windows is a gui operating system.
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: Windows is a GUI operating system. Windows OS does not require a command to run. Only one mouse is required to run the windows operating system.
+
+ Index: 4
+Question: Which of the following file systems is supported by the windows OS?
+CodeBlock:
+
+Options:
+0 . ntfs
+1 . fat32
+2 . exfat
+3 . all of the these
+4 . 
+Correct Answer: 3
+
+Explanation: The following are the types of file systems that support the Windows operating system, such as NTFS, FAT, exFAT, HFS Plus, and EXT.
+
+ Index: 5
+Question: Which of the following keys does the user use to switch between applications running simultaneously in the Windows operating system?
+CodeBlock:
+
+Options:
+0 . fn + tab
+1 . alt + tab
+2 . ctrl + tab
+3 . shift + tab
+4 . 
+Correct Answer: 1
+
+Explanation: The user uses the Alt + Tab button to switch from one window to another in the Windows operating system. Also, the user can use the Ctrl + Tab button to switch from tab to tab in internet explorer.
+
+ Index: 6
+Question: Which of the following commands creates an emergency repair disk for Windows NT 4.0?
+CodeBlock:
+
+Options:
+0 . bat
+1 . exe
+2 . exe/s
+3 . add/remove program
+4 . 
+Correct Answer: 1
+
+Explanation: There are the following steps to repair disk in windows NT 4.0:Step 1: Go to the search button in windows NT 4.0, then type Command Prompt.Step 2: Then type "RDISK.EXE" and press enter.Step 3: Then open a pop-up window. This pop-up window will update the emergency repair disk.
+
+ Index: 7
+Question: Which of the following scheduling algorithms is preemptive scheduling?
+CodeBlock:
+
+Options:
+0 . fcfs scheduling
+1 . sjf scheduling
+2 . network scheduling
+3 . srtf scheduling
+4 . 
+Correct Answer: 3
+
+Explanation: Shortest Remaining Time First (SRTF) scheduling is preemptive scheduling. In this scheduling, the process that has the shortest processing time left is executed first.
+
+ Index: 8
+Question: How can you get a printout of the system configuration on windows 9x OS?
+CodeBlock:
+
+Options:
+0 . open the cmd window, type "msdn", and press <printscrn>
+1 . from the device manager, click the print button
+2 . open the cmd window, type "sys", and press <printscrn>
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: Windows 9x is a generic term that refers to a series of Microsoft windows OS from 1995 to 2000. If you want to print out in Windows 9x, go to the device manager and click the printer option and then print the page.
+
+ Index: 9
+Question: Which of the following operating system runs on the server?
+CodeBlock:
+
+Options:
+0 . batch os
+1 . distributed os
+2 . real-time os
+3 . network os
+4 . 
+Correct Answer: 3
+
+Explanation: The network operating system runs on a server. This operating system has some functions that work to connect local area networks and computers.
+
+ Index: 10
+Question: What type of memory stores data in a swap file on a hard drive?
+CodeBlock:
+
+Options:
+0 . secondary memory
+1 . virtual memory
+2 . low memory
+3 . ram
+4 . 
+Correct Answer: 1
+
+Explanation: A swap file is a type of file that stores the data retrieved from Read-Only-Memory (RAM) or main memory. It is also a virtual memory because it is not stored in physical RAM.
+
+ Index: 11
+Question: Which of the following "semaphore" can take the non-negative integer values?
+CodeBlock:
+
+Options:
+0 . binary semaphore
+1 . counting semaphore
+2 . real semaphore
+3 . all of the these
+4 . 
+Correct Answer: 1
+
+Explanation: Counting semaphore takes only the non-negative integer value that is used to solve the critical section problem and process synchronization.
+
+ Index: 12
+Question: In which directory the local user profile settings are stored by default in windows 2000?
+CodeBlock:
+
+Options:
+0 . c: \ users
+1 . c: \ netlogon
+2 . c: \ win ntuser.dat
+3 . c: \ documents and settings
+4 . 
+Correct Answer: 3
+
+Explanation: When a user logs in with an account for the first time, Windows 2000 automatically creates a user's profile in the "Documents and Settings" folder.
+
+ Index: 13
+Question: Which of the following operating system does not require a command to run?
+CodeBlock:
+
+Options:
+0 . kali linux
+1 . windows
+2 . unix
+3 . all of the these
+4 . 
+Correct Answer: 1
+
+Explanation: Windows is a GUI operating system. This operating system does not require a command to run. Only one mouse is required to run this operating system.
+
+ Index: 14
+Question: Which method is the best among file allocation methods?
+CodeBlock:
+
+Options:
+0 . linked
+1 . contiguous
+2 . indexed
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: The indexed allocation method is the best file allocation method because it removes the problem of contiguous and linked allocation.
+
+ Index: 15
+Question: The operating system work between
+CodeBlock:
+
+Options:
+0 . user and computer
+1 . network and user 
+2 . one user to another user
+3 . all of the these
+4 . 
+Correct Answer: 0
+
+Explanation: The OS is software that acts as an interface between a device and users and is also known as system software.
+
+ Index: 16
+Question: What is the paging in the operating system?
+CodeBlock:
+
+Options:
+0 . memory management scheme
+1 . network management scheme
+2 . internet management scheme
+3 . none of the these
+4 . 
+Correct Answer: 0
+
+Explanation: In the operating system, paging is a memory management scheme (MMS) in which memory is divided into pages of fixed size.
+
+ Index: 17
+Question: Which of the following programs is loaded first when starting a computer?
+CodeBlock:
+
+Options:
+0 . window desktop
+1 . network connection program
+2 . operating system
+3 . cmd
+4 . 
+Correct Answer: 2
+
+Explanation: When the computer is powered on, the first operating system program is loaded into the computer. The OS's job is to control the computer's hardware and help other computer programs work.
+
+ Index: 18
+Question: Which of the following backup methods is quickest and requires the least amount of backup space?
+CodeBlock:
+
+Options:
+0 . complete backups
+1 . incremental
+2 . differential
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: Incremental backups take less time and space than differential and complete backups.
+
+ Index: 19
+Question: Which of the following is not a type of directory structure?
+CodeBlock:
+
+Options:
+0 . acyclic-graph directory structure
+1 . single-level directory structure
+2 . tree directory structure
+3 . stack directory structure
+4 . 
+Correct Answer: 3
+
+Explanation: Acyclic-graph, Single-level, and Tree directory structures are a type of directory structure in the operating system. But the stack is a linear data structure, so option (d) is correct answer.
+
+ Index: 20
+Question: Which of the following scheduling algorithm is non-preemptive scheduling?
+CodeBlock:
+
+Options:
+0 . sjf scheduling
+1 . round-robin scheduling
+2 . srtf scheduling
+3 . none of these.
+4 . 
+Correct Answer: 0
+
+Explanation: Shortest job first scheduling is non-preemptive scheduling. In this scheduling algorithm, the process which takes the least time to complete executes that process first.
+
+ Index: 21
+Question: Which of the following scheduling reduces process flow time?
+CodeBlock:
+
+Options:
+0 . fcfs
+1 . lifo
+2 . sjf
+3 . all of the these
+4 . 
+Correct Answer: 1
+
+Explanation: Shortest job first scheduling is non-preemptive scheduling. In this scheduling algorithm, the process which takes the least time to complete executes that process first.
+
+ Index: 22
+Question: Consider the following three processes in the FCFS.
+CodeBlock:
+
+Options:
+0 . 2
+1 . 3
+2 . 4
+3 . 5
+4 . 
+Correct Answer: 1
+
+Explanation:TA Time = CT - ATWaiting Time = TA - BT
+
+Process ID.	Brust-time.
+Arrival-time
+Completion-Time (CT)
+Turnaround-Time (TA)
+Waiting-Time (WT)
+
+
+P1
+3
+3
+3
+3
+0
+
+
+P2
+6
+6
+9
+8
+2
+
+
+P3
+9
+9
+18
+16
+7
+
+Average waiting time = (0 + 2 + 7) / 3 = 3
+
+ Index: 23
+Question: How many types of buffer overflow in the operating system?
+CodeBlock:
+
+Options:
+0 . two
+1 . six
+2 . seven
+3 . five
+4 . 
+Correct Answer: 0
+
+Explanation: There are two types of buffer-overflows: heap-based and stack-based.
+
+ Index: 24
+Question: In which allocation method does the user size the file before creating the file?
+CodeBlock:
+
+Options:
+0 . contiguous
+1 . linked
+2 . indexed
+3 . none of the these
+4 . 
+Correct Answer: 0
+
+Explanation: In the contiguous allocation method, the user has to give the size of the file before creating the file so that the operating system can give contiguous blocks in the disk-based on the size of that file.
+
+ Index: 25
+Question: Which of the following algorithms is used to avoid deadlock?
+CodeBlock:
+
+Options:
+0 . dynamic programming algorithm
+1 . primality algorithms
+2 . banker's algorithm
+3 . deadlock algorithm
+4 . 
+Correct Answer: 2
+
+Explanation: Banker's algorithm is a deadlock avoidance and resource allocation algorithm. This algorithm was developed by Edger Dijkstra. It is also called a detection algorithm.
+
+ Index: 26
+Question: Which of the following component does not belong to PCB (Process Control Block)?
+CodeBlock:
+
+Options:
+0 . cpu registers
+1 . cpu scheduling information
+2 . operating system information
+3 . accounting information
+4 . 
+Correct Answer: 2
+
+Explanation: The operating system information is not the component of the PCB, so option (d) is the correct answer.
+
+ Index: 27
+Question: Which of the following method is used to improve the main memory utilization?
+CodeBlock:
+
+Options:
+0 . swapping
+1 . operating system
+2 . memory stack
+3 . none of these.
+4 . 
+Correct Answer: 0
+
+Explanation: Swapping is a technique in which the process is removed from the main memory and stored in secondary memory. It is used to improve the main memory utilization.
+
+ Index: 28
+Question: Buffer is a ___________.
+CodeBlock:
+
+Options:
+0 . permanent area
+1 . temporary area
+2 . small area
+3 . large area
+4 . 
+Correct Answer: 1
+
+Explanation: Buffer is a temporary area where data is stored for some time before being transferred to the main memory.
+
+ Index: 29
+Question: Which of the following operating systems supports only real-time applications?
+CodeBlock:
+
+Options:
+0 . batch os
+1 . distributed os
+2 . real-time os
+3 . network os
+4 . 
+Correct Answer: 2
+
+Explanation: The real-time OS supports real-time applications. This OS is used for industrial and scientific work. It completes the tasks in a given time.
+
+ Index: 30
+Question: Which of the following binary formats support the Linux operating system?
+CodeBlock:
+
+Options:
+0 . 0 and 1
+1 . binary number format
+2 . elf binary format
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: ELF stands for "Executable-and-Linkable-Format". The ELF format is used for libraries and executable files in Linux operating systems. 
+
+ Index: 31
+Question: What is Kali Linux?
+CodeBlock:
+
+Options:
+0 . network device
+1 . operating system
+2 . server name
+3 . computer name
+4 . 
+Correct Answer: 1
+
+Explanation: Kali Linux is an operating system similar to Windows, Unix, and macOS. Kali operating system was designed for reverse engineering, security, computer forensics, etc.
+
+ Index: 32
+Question: Which of the following statement is correct about fragmentation?
+CodeBlock:
+
+Options:
+0 . it is software that connects the os.
+1 . it is part of the software.
+2 . loss the memory
+3 . all of the these
+4 . 
+Correct Answer: 2
+
+Explanation: A fragmentation is a state of a hard disk in which the most important parts of a single file are stored at different places in the disk. Due to which there is a loss of memory, and the working efficiency of the operating system is also affected.
+
+ Index: 33
+Question: SSTF stands for ________.
+CodeBlock:
+
+Options:
+0 . shortest signal time first
+1 . shortest seek time first
+2 . system seek time first
+3 . system shortest time first
+4 . 
+Correct Answer: 1
+
+Explanation: SSTF stands for Shortest-Seek-Time-First. In the SSTF algorithm, that request is executed first, whose seek time is the shortest.
+
+ Index: 34
+Question: The PCB is identified by ___________.
+CodeBlock:
+
+Options:
+0 . real-number
+1 . binary number
+2 . store block
+3 . integer process id
+4 . 
+Correct Answer: 3
+
+Explanation: PCB is a data structure that is used to store the information of processes. It is identified by an integer process ID (PID).
+
+ Index: 35
+Question: Which of the following method is used to prevent threads or processes from accessing a single resource?
+CodeBlock:
+
+Options:
+0 . pcb
+1 . semaphore
+2 . job scheduler
+3 . non-contiguous memory allocation
+4 . 
+Correct Answer: 1
+
+Explanation: Semaphore is an integer variable that is used to prevent threads or processes from accessing a single resource.
+
+ Index: 36
+Question: Which of the following mechanisms is a locking mechanism?
+CodeBlock:
+
+Options:
+0 . semaphore
+1 . pcb
+2 . mutex
+3 . binary semaphore
+4 . 
+Correct Answer: 2
+
+Explanation: The mutex is a locking mechanism that ensures that only one thread can occupy the mutex at a time and enter the critical section.
+
+ Index: 37
+Question: Which of the following statements is correct about virtual memory?
+CodeBlock:
+
+Options:
+0 . it is a combination of the logical-memory and physical-memory
+1 . it is a separation of user logical memory and physical memory
+2 . it is a virtual network memory
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: Virtual memory is used to separate the user's logical memory and actual physical memory. Therefore, option (b) is the correct answer.
+
+ Index: 38
+Question: COW stands for __________
+CodeBlock:
+
+Options:
+0 . compress of write memory
+1 . copy overwrite
+2 . compress overwrites
+3 . computer of world
+4 . 
+Correct Answer: 1
+
+Explanation: COW stands for Copy-Overwrite. Initially, it allows both the parent and child systems to share the same page.
+
+ Index: 39
+Question: Who is responsible for keeping the process from the program?
+CodeBlock:
+
+Options:
+0 . operating system
+1 . cpu
+2 . monitor
+3 . all of the these
+4 . 
+Correct Answer: 0
+
+Explanation: A process is created from a program by the operating system. The OS is software that acts as an interface between a device and users and is also known as system software.
+
+ Index: 40
+Question: Which of the following operating systems require a command to run?
+CodeBlock:
+
+Options:
+0 . kali linux
+1 . windows
+2 . mac os
+3 . single-user operating system
+4 . 
+Correct Answer: 0
+
+Explanation: Kali Linux is a fast operating system as more work is done through the command line in it. This OS is a Debian-based Linux OS.
+
+]

@@ -1,0 +1,701 @@
+&[Index: 0
+Question: Which of the following refers to the problem of finding abstracted patterns (or structures) in the unlabeled data?
+CodeBlock:
+
+Options:
+0 . supervised learning
+1 . unsupervised learning
+2 . hybrid learning
+3 . reinforcement learning
+4 . 
+Correct Answer: 1
+
+Explanation: Unsupervised learning is a type of machine learning algorithm that is generally used to find the hidden structured and patterns in the given unlabeled data.
+
+ Index: 1
+Question: Which one of the following refers to querying the unstructured textual data?
+CodeBlock:
+
+Options:
+0 . information access
+1 . information update
+2 . information retrieval
+3 . information manipulation
+4 . 
+Correct Answer: 2
+
+Explanation: Information retrieval refers to querying the unstructured textual data. We can also understand information retrieval as an activity (or process) in which the tasks of obtaining information from system recourses that are relevant to the information required from the huge source of information.
+
+ Index: 2
+Question: Which of the following can be considered as the correct process of Data Mining?
+CodeBlock:
+
+Options:
+0 . infrastructure, exploration, analysis, interpretation, exploitation
+1 . exploration, infrastructure, analysis, interpretation, exploitation
+2 . exploration, infrastructure, interpretation, analysis, exploitation
+3 . exploration, infrastructure, analysis, exploitation, interpretation
+4 . 
+Correct Answer: 0
+
+Explanation: The process of data mining contains many sub-processes in a specific order. The correct order in which all sub-processes of data mining executes is Infrastructure, Exploration, Analysis, Interpretation, and Exploitation.
+
+ Index: 3
+Question: Which of the following is an essential process in which the intelligent methods are applied to extract data patterns?
+CodeBlock:
+
+Options:
+0 . warehousing
+1 . data mining
+2 . text mining
+3 . data selection
+4 . 
+Correct Answer: 1
+
+Explanation: Data mining is a type of process in which several intelligent methods are used to extract meaningful data from the huge collection ( or set) of data. 
+
+ Index: 4
+Question: What is KDD in data mining?
+CodeBlock:
+
+Options:
+0 . knowledge discovery database
+1 . knowledge discovery data
+2 . knowledge data definition
+3 . knowledge data house
+4 . 
+Correct Answer: 0
+
+Explanation: The term KDD or Knowledge Discovery Database is refers to a broad process of discovering the knowledge in the data and emphasizes the high-level applications of specific Data Mining techniques as well.
+
+ Index: 5
+Question: The adaptive system management refers to:
+CodeBlock:
+
+Options:
+0 . science of making machine performs the task that would require intelligence when performed by humans.
+1 . a computational procedure that takes some values as input and produces some values as the output.
+2 . it uses machine learning techniques, in which programs learn from their past experience and adapt themself to new conditions or situations.
+3 . all of the above.
+4 . 
+Correct Answer: 2
+
+Explanation: Generally, adaptive system management refers to using machine learning techniques. In which the programs learn from their past experience and adapt themselves for new conditions and events.
+
+ Index: 6
+Question: For what purpose, the analysis tools pre-compute the summaries of the huge amount of data?
+CodeBlock:
+
+Options:
+0 . in order to maintain consistency
+1 . for authentication
+2 . for data access
+3 . to obtain the queries response
+4 . 
+Correct Answer: 3
+
+Explanation:Whenever a query is fired, the response of the query would be put very earlier. So, for the query response, the analysis tools pre-compute the summaries of the huge amount of data. To understand it in more details, consider the following example:Suppose that to get some information about something, you write a keyword in Google search. Google's analytical tools will then pre-compute large amounts of data to provide a quick output related to the keywords you have written.
+
+ Index: 7
+Question: What are the functions of Data Mining?
+CodeBlock:
+
+Options:
+0 . association and correctional analysis classification
+1 . prediction and characterization
+2 . cluster analysis and evolution analysis
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: In data mining, there are several functionalities used for performing the different types of tasks. The common functionalities used in data mining are cluster analysis, prediction, characterization, and evolution. Still, the association and correctional analysis classification are also one of the important functionalities of data mining.
+
+ Index: 8
+Question: In the following given diagram, which type of clustering is used?
+CodeBlock:
+
+Options:
+0 . hierarchal
+1 . naive bayes
+2 . partitional
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In the above-given diagram, the hierarchal type of clustering is used. The hierarchal type of clustering categorizes data through a variety of scales by making a cluster tree. So the correct answer is A.
+
+ Index: 9
+Question: Which of the following statements is incorrect about the hierarchal clustering?
+CodeBlock:
+
+Options:
+0 . the hierarchal type of clustering is also known as the hca
+1 . the choice of an appropriate metric can influence the shape of the cluster
+2 . in general, the splits and merges both are determined in a greedy manner
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: All following statements given in the above question are incorrect, so the correct answer is D.
+
+ Index: 10
+Question: Which one of the following can be considered as the final output of the hierarchal type of clustering?
+CodeBlock:
+
+Options:
+0 . a tree which displays how the close thing are to each other
+1 . assignment of each point to clusters
+2 . finalize estimation of cluster centroids
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The hierarchal type of clustering can be referred to as the agglomerative approach.
+
+ Index: 11
+Question: Which one of the following statements about the K-means clustering is incorrect?
+CodeBlock:
+
+Options:
+0 . the goal of the k-means clustering is to partition (n) observation into (k) clusters
+1 . k-means clustering can be defined as the method of quantization
+2 . the nearest neighbor is the same as the k-means
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: There is nothing to deal in between the k-means and the K- means the nearest neighbor.
+
+ Index: 12
+Question: Which of the following statements about hierarchal clustering is incorrect?
+CodeBlock:
+
+Options:
+0 . the hierarchal clustering can primarily be used for the aim of exploration
+1 . the hierarchal clustering should not be primarily used for the aim of exploration
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The hierarchical clustering technique can be used for exploration because it is the deterministic technique of clustering.
+
+ Index: 13
+Question: Which one of the clustering technique needs the merging approach?
+CodeBlock:
+
+Options:
+0 . partitioned
+1 . naïve bayes
+2 . hierarchical
+3 . both a and c
+4 . 
+Correct Answer: 2
+
+Explanation: The hierarchal type of clustering is one of the most commonly used methods to analyze social network data. In this type of clustering method, multiple nodes are compared with each other on the basis of their similarities and several larger groups' are formed by merging the nodes or groups of nodes that have similar characteristics. 
+
+ Index: 14
+Question: The self-organizing maps can also be considered as the instance of _________ type of learning.
+CodeBlock:
+
+Options:
+0 . supervised learning
+1 . unsupervised learning
+2 . missing data imputation
+3 . both a & c
+4 . 
+Correct Answer: 1
+
+Explanation: The Self Organizing Map (SOM), or the Self Organizing Feature Map is a kind of Artificial Neural Network which is trained through unsupervised learning.
+
+ Index: 15
+Question: The following given statement can be considered as the examples of_________
+CodeBlock:
+
+Options:
+0 . structural equation modeling
+1 . clustering
+2 . regression
+3 . classification
+4 . 
+Correct Answer: 2
+
+Explanation: The above-given statement can be considered as an example of regression. Therefore the correct answer is C.
+
+ Index: 16
+Question: In the example predicting the number of newborns, the final number of total newborns can be considered as the _________
+CodeBlock:
+
+Options:
+0 . features
+1 . observation
+2 . attribute
+3 . outcome
+4 . 
+Correct Answer: 3
+
+Explanation: In the example of predicting the total number of newborns, the result will be represented as the outcome. Therefore, the total number of newborns will be found in the outcome or addressed by the outcome. 
+
+ Index: 17
+Question: Which of the following statement is true about the classification?
+CodeBlock:
+
+Options:
+0 . it is a measure of accuracy
+1 . it is a subdivision of a set
+2 . it is the task of assigning a classification
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The term "classification" refers to the classification of the given data into certain sub-classes or groups according to their similarities or on the basis of the specific given set of rules.
+
+ Index: 18
+Question: Which of the following statements is correct about data mining?
+CodeBlock:
+
+Options:
+0 . it can be referred to as the procedure of mining knowledge from data
+1 . data mining can be defined as the procedure of extracting information from a set of the data
+2 . the procedure of data mining also involves several other processes like data cleaning, data transformation, and data integration
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The term data mining can be defined as the process of extracting information from the massive collection of data. In other words, we can also say that data mining is the procedure of mining useful knowledge from a huge set of data.
+
+ Index: 19
+Question: In data mining, how many categories of functions are included?
+CodeBlock:
+
+Options:
+0 . 5
+1 . 4
+2 . 2
+3 . 3
+4 . 
+Correct Answer: 2
+
+Explanation: There are only two categories of functions included in data mining: Descriptive, Classification and Prediction. Therefore the correct answer is C.
+
+ Index: 20
+Question: Which of the following can be considered as the classification or mapping of a set or class with some predefined group or classes?
+CodeBlock:
+
+Options:
+0 . data set
+1 . data characterization
+2 . data sub structure
+3 . data discrimination
+4 . 
+Correct Answer: 3
+
+Explanation: The discrimination refers to the mapping (or classification) of a class with some predefined groups or classes. So the correct answer is D.
+
+ Index: 21
+Question: The analysis performed to uncover the interesting statistical correlation between associated -attributes value pairs are known as the _______.
+CodeBlock:
+
+Options:
+0 . mining of association
+1 . mining of correlation
+2 . mining of clusters
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Mining of correlation refers to the additional analysis performed for uncovering the interesting statistical correlation in between associated-attribute-value pairs.
+
+ Index: 22
+Question: Which one of the following can be defined as the data object which does not comply with the general behavior (or the model of available data)?
+CodeBlock:
+
+Options:
+0 . evaluation analysis
+1 . outliner analysis
+2 . classification
+3 . prediction
+4 . 
+Correct Answer: 1
+
+Explanation: It may be defined as the object that doesn't comply with the general behavior or with the model of available data.
+
+ Index: 23
+Question: Which one of the following statements is not correct about the data cleaning?
+CodeBlock:
+
+Options:
+0 . it refers to the process of data cleaning
+1 . it refers to the transformation of wrong data into correct data
+2 . it refers to correcting inconsistent data
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Data cleaning is a kind of process that is applied to data set to remove the noise from the data (or noisy data), inconsistent data from the given data. It also involves the process of transformation where wrong data is transformed into the correct data as well. In other words, we can also say that data cleaning is a kind of pre-process in which the given set of data is prepared for the data warehouse.
+
+ Index: 24
+Question: The classification of the data mining system involves:
+CodeBlock:
+
+Options:
+0 . database technology
+1 . information science
+2 . machine learning
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Generally, the classification of a data mining system depends on the following criteria: Database technology, machine learning, visualization, information science, and several other disciplines.
+
+ Index: 25
+Question: In order to integrate heterogeneous databases, how many types of approaches are there in the data warehousing?
+CodeBlock:
+
+Options:
+0 . 3
+1 . 4
+2 . 5
+3 . 2
+4 . 
+Correct Answer: 3
+
+Explanation: In general, data warehousing consist of data integration, data cleaning, and data consolidations. Therefore to integrate heterogeneous databases, there are two approaches that are update-driven approach and the query-driven approach. So the correct answer is D.
+
+ Index: 26
+Question: The issues like efficiency, scalability of data mining algorithms comes under_______
+CodeBlock:
+
+Options:
+0 . performance issues
+1 . diverse data type issues
+2 . mining methodology and user interaction
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In order to extract information effectively from a huge collection of data in databases, the data mining algorithm must be efficient and scalable. Therefore the correct answer is A.
+
+ Index: 27
+Question: Which of the following is the correct advantage of the Update-Driven Approach?
+CodeBlock:
+
+Options:
+0 . this approach provides high performance.
+1 . the data can be copied, processed, integrated, annotated, summarized and restructured in the semantic data store in advance.
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The statements given in both A and B are the advantage of the Update-Driven Approach in Data Warehousing. So the correct answer is C.
+
+ Index: 28
+Question: Which of the following statements about the query tools is correct?
+CodeBlock:
+
+Options:
+0 . tools developed to query the database
+1 . attributes of a database table that can take only numerical values
+2 . both and b
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The query tools are used to query the database. Or we can also say that these tools are generally used to get only the necessary information from the entire database.
+
+ Index: 29
+Question: Which one of the following correctly defines the term cluster?
+CodeBlock:
+
+Options:
+0 . group of similar objects that differ significantly from other objects
+1 . symbolic representation of facts or ideas from which information can potentially be extracted
+2 . operations on a database to transform or simplify data in order to prepare it for a machine-learning algorithm
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The term "cluster" refers to the set of similar objects or items that differ significantly from the other available objects. In other words, we can understand clusters as making groups of objects that contain similar characteristics form all available objects. Therefore the correct answer is A.
+
+ Index: 30
+Question: Which one of the following refers to the binary attribute?
+CodeBlock:
+
+Options:
+0 . this takes only two values. in general, these values will be 0 and 1, and they can be coded as one bit
+1 . the natural environment of a certain species
+2 . systems that can be used without knowledge of internal operations
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In general, the binary attribute takes only two types of values, that are 0 and 1and these values can be coded as one bit. So the correct answer will be A.
+
+ Index: 31
+Question: Which of the following correctly refers the data selection?
+CodeBlock:
+
+Options:
+0 . a subject-oriented integrated time-variant non-volatile collection of data in support of management
+1 . the actual discovery phase of a knowledge discovery process
+2 . the stage of selecting the right data for a kdd process
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Data selection can be defined as the stage in which the correct data is selected for the phase of a knowledge discovery process (or KKD process). Therefore the correct answer C.
+
+ Index: 32
+Question: Which one of the following correctly refers to the task of the classification?
+CodeBlock:
+
+Options:
+0 . a measure of the accuracy, of the classification of a concept that is given by a certain theory
+1 . the task of assigning a classification to a set of examples
+2 . a subdivision of a set of examples into a number of classes
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The task of classification refers to dividing the set into subsets or in the numbers of the classes. Therefore the correct answer is C.
+
+ Index: 33
+Question: Which of the following correctly defines the term "Hybrid"?
+CodeBlock:
+
+Options:
+0 . approach to the design of learning algorithms that is structured along the lines of the theory of evolution.
+1 . decision support systems that contain an information base filled with the knowledge of an expert formulated in terms of if-then rules.
+2 . combining different types of method or information
+3 . none of these
+4 . 
+Correct Answer: 2
+
+Explanation: The term "hybrid" refers to merging two objects and forms individual object that contains features of the combined objects.
+
+ Index: 34
+Question: Which of the following correctly defines the term "Discovery"?
+CodeBlock:
+
+Options:
+0 . it is hidden within a database and can only be recovered if one is given certain clues (an example is encrypted information).
+1 . an extremely complex molecule that occurs in human chromosomes and that carries genetic information in the form of genes.
+2 . it is a kind of process of executing implicit, previously unknown and potentially useful information from data
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The term "discovery" means to discover something new that has not yet been discovered. It can also be interpreted as a process of executing underlying, previously unknown and potentially useful information from data.
+
+ Index: 35
+Question: Euclidean distance measure is can also defined as ___________
+CodeBlock:
+
+Options:
+0 . the process of finding a solution for a problem simply by enumerating all possible solutions according to some predefined order and then testing them
+1 . the distance between two points as calculated using the pythagoras theorem
+2 . a stage of the kdd process in which new data is added to the existing selection.
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Euclidean distance measure can be defined as the calculating distance between two points in either in-plane or three-dimensional space measures the length of the segments connecting two points. It can also define as the distance between two points as calculated using the Pythagoras theorem. 
+
+ Index: 36
+Question: Which one of the following can be considered as the correct application of the data mining?
+CodeBlock:
+
+Options:
+0 . fraud detection
+1 . corporate analysis & risk management
+2 . management and market analysis
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Data mining is highly useful in a variety of areas such as fraud detection, corporate analysis, and risk management, and market analysis, etc., so the correct option is D.
+
+ Index: 37
+Question: Which one of the following correctly refers to the Class study in the data cauterization?
+CodeBlock:
+
+Options:
+0 . final class
+1 . study class
+2 . target class
+3 . both a and c
+4 . 
+Correct Answer: 2
+
+Explanation: In the data cauterization, generally, the study class refers to the target class, and the study class is the class that is under the process of summarizing data. 
+
+ Index: 38
+Question: Which of the following refers to the sequence of pattern that occurs frequently?
+CodeBlock:
+
+Options:
+0 . frequent sub-sequence
+1 . frequent sub-structure
+2 . frequent sub-items
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In data mining, the frequent sub-sequence refers to a certain sequence of patterns that occurs frequently, for example, buying a camera followed by the memory card. So the correct answer will be A.
+
+ Index: 39
+Question: Which one of the following refers to the model regularities or to the objects that trends or not consistent with the change in time?
+CodeBlock:
+
+Options:
+0 . prediction
+1 . evolution analysis
+2 . classification
+3 . both a and b
+4 . 
+Correct Answer: 1
+
+Explanation: In general, the evolution analysis refers to the model regularities or the object trends that vary with change in time.
+
+ Index: 40
+Question: The issues like "handling the rational and complex types of data" comes under which of the following category?
+CodeBlock:
+
+Options:
+0 . diverse data type
+1 . mining methodology and user interaction issues
+2 . performance issues
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: It is quite often that a database can contain multiple types of data, complex objects, and temporary data, etc., so it is not possible that only one type of system can filter all data. Therefore this type of issue comes under the category Diverse Data type. So the correct answer is A.
+
+ Index: 41
+Question: Which of the following also used as the first step in the knowledge discovery process?
+CodeBlock:
+
+Options:
+0 . data selection
+1 . data cleaning
+2 . data transformation
+3 . data integration
+4 . 
+Correct Answer: 1
+
+Explanation: Data cleaning is included as one of the first steps of the knowledge discovery process. So the correct answer is B.
+
+ Index: 42
+Question: Which of the following refers to the steps of the knowledge discovery process, in which the several data sources are combined?
+CodeBlock:
+
+Options:
+0 . data selection
+1 . data cleaning
+2 . data transformation
+3 . data integration
+4 . 
+Correct Answer: 3
+
+Explanation: The step "data integration" of the knowledge discovery process refers to combining several data sources. Therefore the correct answer is D.
+
+ Index: 43
+Question: Which of the following can be considered as the drawback of the query-Driven approach in data warehousing?
+CodeBlock:
+
+Options:
+0 . this approach is expensive for queries that require aggregations
+1 . this approach is expensive insufficient, and very frequent queries
+2 . this approach requires a very complex integration and filtering process
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: All statements given in the above question are drawbacks of the query-driven approach. Therefore the correct answer is D.
+
+ Index: 44
+Question: Which of the following correctly refers to the term "Data Independence"?
+CodeBlock:
+
+Options:
+0 . it means that the programs are not dependent on the logical attributes
+1 . it refers to that data that is defined separately, not included in the program
+2 . it means that the programs are totally dependent on the physical attributes of data
+3 . both a and c
+4 . 
+Correct Answer: 3
+
+Explanation: The term "Data Independence" refers that the programs are not dependent on the physical attributes of data and neither on the logical attributes of data.
+
+ Index: 45
+Question: Which of the following is generally used by the E-R model to represent the weak entities?
+CodeBlock:
+
+Options:
+0 . diamond
+1 . doubly outlined rectangle
+2 . dotted rectangle
+3 . both b & c
+4 . 
+Correct Answer: 1
+
+Explanation: Generally, the double outline rectangle is used in the E-R model to represent the weak entities.
+
+ Index: 46
+Question: Which one of the following refers to the Black Box?
+CodeBlock:
+
+Options:
+0 . it can be referred as the system that can be used without the knowledge of the internal operations
+1 . it referrers the natural environment of the specific species
+2 . it takes only two values at most that are 0 and 1
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Black Box is referred to as the system which takes only two values at most are zero and one.
+
+ Index: 47
+Question: Which one of the following issues must be considered before investing in data mining?
+CodeBlock:
+
+Options:
+0 . compatibility
+1 . functionality
+2 . vendor consideration
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The common but important issues like functionality and compatibility must always be discussed before investing in data mining. Therefore the correct answer is D.
+
+ Index: 48
+Question: The term "DMQL" stands for _____
+CodeBlock:
+
+Options:
+0 . data marts query language
+1 . dbminer query language
+2 . data mining query language
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The term "DMQL" refers to the Data Mining Query Language. Therefore the correct answer is C.
+
+ Index: 49
+Question: In certain cases, it is not clear what kind of pattern need to find, data mining should_________:
+CodeBlock:
+
+Options:
+0 . try to perform all possible tasks
+1 . perform both predictive and descriptive task
+2 . it may allow interaction with the user so that he can guide the mining process
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In some data mining operations where it is not clear what kind of pattern needed to find, here the user can guide the data mining process. Because a user has a good sense of which type of pattern he wants to find. So, he can eliminate the discovery of all other non-required patterns and focus the process to find only the required pattern by setting up some rules. Therefore the correct answer is C. 
+
+]

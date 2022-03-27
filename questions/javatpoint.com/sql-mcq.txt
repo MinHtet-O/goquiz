@@ -1,0 +1,794 @@
+&[Index: 0
+Question: What is the full form of SQL?
+CodeBlock:
+
+Options:
+0 . structured query list
+1 . structure query language
+2 . sample query language
+3 . none of these.
+4 . 
+Correct Answer: 1
+
+Explanation: SQL is a programming language used for managing data in a relational database management system. It is pronounced as See-Qwell.
+
+ Index: 1
+Question: Which of the following is not a valid SQL type?
+CodeBlock:
+
+Options:
+0 . float
+1 . numeric
+2 . decimal
+3 . character
+4 . 
+Correct Answer: 2
+
+Explanation:DECIMAL is not a valid SQL type because it is nothing but numeric only in SQL.NUMERIC has fixed precision, and scale numbers range from -10^38+1 to 10^38-1.FLOAT has floating precision number ranges from -1.79E + 308 to 1.79E + 308.CHARACTER is a fixed-width character string data type that can be up to 8000 characters.
+
+ Index: 2
+Question: Which of the following is not a DDL command?
+CodeBlock:
+
+Options:
+0 . truncate
+1 . alter
+2 . create
+3 . update
+4 . 
+Correct Answer: 3
+
+Explanation: DDL commands are used to define the structure of the database, table, schemas, etc. It enables us to perform the operations like CREATE, DROP, ALTER, RENAME, and TRUNCATE schema objects.An UPDATE command is used for managing the data stored in a database. It is an example of a DML command that also includes the INSERT and DELETE commands.
+
+ Index: 3
+Question: Which of the following are TCL commands?
+CodeBlock:
+
+Options:
+0 . commit and rollback
+1 . update and truncate
+2 . select and insert
+3 . grant and revoke
+4 . 
+Correct Answer: 0
+
+Explanation: TCL stands for Transaction Control Commands used for managing the changes made by DML commands like INSERT, DELETE, and UPDATE. The TCL commands are automatically committed in the database; that's why we cannot use them directly while creating tables or dropping them.
+
+ Index: 4
+Question: Which statement is used to delete all rows in a table without having the action logged?
+CodeBlock:
+
+Options:
+0 . delete
+1 . remove
+2 . drop
+3 . truncate
+4 . 
+Correct Answer: 3
+
+Explanation: TRUNCATE statement removes all rows in a table without logging the individual row deletions. It uses fewer system and transaction log resources, which makes its execution fast. This statement is similar to the DELETE statement without the WHERE clause.
+
+ Index: 5
+Question: SQL Views are also known as
+CodeBlock:
+
+Options:
+0 . simple tables
+1 . virtual tables
+2 . complex tables
+3 . actual tables
+4 . 
+Correct Answer: 1
+
+Explanation: A view is also known as a virtual table because it contains rows and columns similar to a real table. It shows the table interface but cannot be stored in a database.
+
+ Index: 6
+Question: How many Primary keys can have in a table?
+CodeBlock:
+
+Options:
+0 . only 1
+1 . only 2
+2 . depends on no of columns
+3 . depends on dba
+4 . 
+Correct Answer: 0
+
+Explanation: The primary key can consist of a single or combination of the field that uniquely identifies each record in a table. It cannot be null or empty. A table may have duplicate columns, but it can contain only one primary key.
+
+ Index: 7
+Question: Which datatype can store unstructured data in a column?
+CodeBlock:
+
+Options:
+0 . char
+1 . raw
+2 . numeric
+3 . varchar
+4 . 
+Correct Answer: 1
+
+Explanation:RAW datatype stores variable-length binary data that can be queried and inserted but not manipulated. Its maximum length is 32767 bytes.CHAR stores character data in a fixed length.NUMERIC stores numeric values only.VARCHAR stores variable string data in a fixed length. Its maximum length is 4000 bytes.
+
+ Index: 8
+Question: Which of the following is not Constraint in SQL?
+CodeBlock:
+
+Options:
+0 . primary key
+1 . not null
+2 . check
+3 . union
+4 . 
+Correct Answer: 3
+
+Explanation:Constraint specifies the rule to allow or restrict what data will be stored in a table. The PRIMARY KEY, NOT NULL, and CHECK are the constraints that specify rules for data insertion.UNION is an operator that combines two or more results from multiple SELECT queries into a single result set.
+
+ Index: 9
+Question: Which of the following is not a valid aggregate function?
+CodeBlock:
+
+Options:
+0 . count
+1 . compute
+2 . sum
+3 . max
+4 . 
+Correct Answer: 1
+
+Explanation: Aggregate function is used to perform calculations on multiple values and return the output in a single value. It is mostly used with the SELECT statement. COUNT, SUM, and MAX are all aggregate functions.COMPUTE is not an aggregate function. It is used to generate totals as an additional column at the end of the result set.
+
+ Index: 10
+Question: Which data manipulation command is used to combines the records from one or more tables?
+CodeBlock:
+
+Options:
+0 . select
+1 . project
+2 . join
+3 . product
+4 . 
+Correct Answer: 2
+
+Explanation: JOIN command is used with the SELECT statement to retrieve data from multiple tables. It must be needed whenever we want to fetch records from two or more tables.
+
+ Index: 11
+Question: Which operator is used to compare a value to a specified list of values?
+CodeBlock:
+
+Options:
+0 . any
+1 . between
+2 . all
+3 . in
+4 . 
+Correct Answer: 3
+
+Explanation: The IN operator easily tests the expression if it matches any value in a specified list of values. It reduces the use of multiple OR conditions.The WHERE or HAVING clause uses the ANY and ALL operators. ANY gives the result when any subquery value matches the specified condition. The ALL give the result when all subquery values match the specified condition.The BETWEEN operator selects values only in the given range.
+
+ Index: 12
+Question: What operator tests column for absence of data
+CodeBlock:
+
+Options:
+0 . not operator
+1 . exists operator
+2 . is null operator
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The IS NULL operator is used to testing the empty values in the table's column. It returns true if column values are NULL.The NOT operator gives the result only when the specified condition is not true.The EXISTS operator used in combination with a subquery, and if a subquery returns any record, this operator returns true. Otherwise, it will return false.
+
+ Index: 13
+Question: In which of the following cases a DML statement is not executed?
+CodeBlock:
+
+Options:
+0 . when existing rows are modified.
+1 . when a table is deleted.
+2 . when some rows are deleted.
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The DML statement is used to access and manipulate the data in an existing table. Therefore, it cannot be used in table deletion.
+
+ Index: 14
+Question: If we have not specified ASC or DESC after a SQL ORDER BY clause, the following is used by default
+CodeBlock:
+
+Options:
+0 . desc
+1 . asc
+2 . there is no default value
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: If we have not specified any sorting with the ORDER BY clause, SQL always uses the ASC as a default sorting order. SQL treats Null as the lowest possible values while sorting.
+
+ Index: 15
+Question: Which of the following statement is true?
+CodeBlock:
+
+Options:
+0 . truncate free the table space while delete does not.
+1 . both truncate and delete statements free the table's space.
+2 . both truncate and delete statement does not free the table's space.
+3 . delete free the table space while truncate does not.
+4 . 
+Correct Answer: 0
+
+Explanation:The TRUNCATE statement in SQL removes all data from the table and free the table's space.SQL's DELETE statement removes all data from the table but does not free the table's space.
+
+ Index: 16
+Question: What is returned by INSTR ('JAVAT POINT', 'P')?
+CodeBlock:
+
+Options:
+0 . 6
+1 . 7
+2 . point
+3 . javat
+4 . 
+Correct Answer: 1
+
+Explanation: The INSTR function searches the string for substring and returns the numeric value of the specified character's first occurrence.
+
+ Index: 17
+Question: A command that lets you change one or more field in a table is:
+CodeBlock:
+
+Options:
+0 . insert
+1 . modify
+2 . look-up
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The modify command is used to change one or more columns in the existing table. It is generally used with ALTER TABLE statement as follows.LTER TABLE table_name MODIFY column_name column_type;
+
+ Index: 18
+Question: Which of the following is also called an INNER JOIN?
+CodeBlock:
+
+Options:
+0 . self join
+1 . equi join
+2 . non-equi join
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The INNER JOIN returns data from the two or more tables that match the specified condition and hides other records. EQUI JOIN is similar to INNER JOIN that returns records for equality or matching column(s) values of the relative tables.NON-EQUI JOIN is returned those records that are not matching in the relative tables.SELF JOIN returns records from the tables by joining itself.
+
+ Index: 19
+Question: Which of the following is true about the HAVING clause?
+CodeBlock:
+
+Options:
+0 . similar to the where clause but is used for columns rather than groups.
+1 . similar to where clause but is used for rows rather than columns.
+2 . similar to where clause but is used for groups rather than rows.
+3 . acts exactly like a where clause.
+4 . 
+Correct Answer: 2
+
+Explanation: The HAVING clause is always used with the GROUP BY clause and returns the rows where the condition is TRUE.
+
+ Index: 20
+Question: _______ clause creates temporary relation for the query on which it is defined.
+CodeBlock:
+
+Options:
+0 . with
+1 . from
+2 . where
+3 . select
+4 . 
+Correct Answer: 0
+
+Explanation: The WITH clause in SQL allows us to provide a sub-query block, a name that can be referenced in several places within the main query. It is used for defining a temporary relation whose definition is available by the query in which the WITH clause is associated.
+
+ Index: 21
+Question: The SQL statement:
+CodeBlock:
+SELECT ROUND (65.726, -1) FROM DUAL;
+
+Options:
+0 . is illegal
+1 . garbage
+2 . 726
+3 . 70
+4 . 
+Correct Answer: 3
+
+Explanation: Here, the ROUND() function statement will produce the rounded result of the given number 65.726 from the left of decimal point up to 1.
+
+ Index: 22
+Question: Which of the following is true about the SQL AS clause?
+CodeBlock:
+
+Options:
+0 . the as clause in sql is used to change the column name in the output or assign a name to a derived column.
+1 . the sql as clause can only be used with the join clause.
+2 . the as clause in sql is used to defines a search condition.
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: SQL AS clauses are defined for columns and tables to give an alias name. Basically, aliases are created to increase the readability of the query and column headings in the output. 
+
+ Index: 23
+Question: _________ command makes the updates performed by the transaction permanent in the database?
+CodeBlock:
+
+Options:
+0 . rollback
+1 . commit
+2 . truncate
+3 . delete
+4 . 
+Correct Answer: 1
+
+Explanation:The COMMIT statement is a transactional command used to end the current transaction and make all changes performed in the transaction permanent.The ROLLBACK statement is a transactional command used to back out or cancels the current transaction changes and restores changed data in its previous state.TRUNCATE and DELETE are not transactional commands.
+
+ Index: 24
+Question: How can you change "Thomas" into "Michel" in the "LastName" column in the Users table?
+CodeBlock:
+
+Options:
+0 . update user set lastname = 'thomas' into lastname = 'michel'
+1 . modify users set lastname = 'michel' where lastname = 'thomas'
+2 . modify users set lastname = 'thomas' into lastname = 'michel'
+3 . update users set lastname = 'michel' where lastname = 'thomas'
+4 . 
+Correct Answer: 3
+
+Explanation: The UPDATE statement is used for modifying the table data by using the SET and WHERE clause. The SET clause is used to change the values of the column specified in the WHERE clause. See the below syntax:UPDATE table SET column1 = expression1, column2 = expression2,... WHERE conditions
+
+ Index: 25
+Question: Which command is used to change the definition of a table in SQL?
+CodeBlock:
+
+Options:
+0 . create
+1 . update
+2 . alter
+3 . select
+4 . 
+Correct Answer: 2
+
+Explanation: The ALTER statement is used to change our table's definition, such as table name, column name, column constraint, etc. It also allows us to add or delete an existing column in a table. This statement must be used with ADD, DROP, and MODIFY clauses according to the situation.
+
+ Index: 26
+Question: Which type of JOIN is used to returns rows that do not have matching values?
+CodeBlock:
+
+Options:
+0 . natural join
+1 . outer join
+2 . equi join
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation:OUTER JOIN is the only join that returned the unmatched rows in one or both tables. It can be classified into the following types:
+LEFT JOIN that shows only the unmatched rows from the left table.
+RIGHT JOIN that shows only the unmatched rows from the right table.
+FULL OUTER JOIN that shows the unmatched rows from both tables.
+EQUI JOIN shows records for equality or matching column(s) values of the relative tables.A Natural join can only be performed if at least one common attribute exists between two relations (the attributes should be the same name and domain).
+
+ Index: 27
+Question: A CASE SQL statement is ________?
+CodeBlock:
+
+Options:
+0 . a way to establish a loop in sql.
+1 . a way to establish an if-then-else in sql
+2 . a way to establish a data definition in sql
+3 . all of the above.
+4 . 
+Correct Answer: 1
+
+Explanation: A CASE statement is one of the control flow function that allows us to write an if-else or if-then-else logic in a SQL query. This expression validates various conditions and shows the output when the first condition is true, and stops traversing. If any condition is not true, it executes the else block. It shows a null value if the else block is not found.
+
+ Index: 28
+Question: Which statement is true regarding routines and triggers?
+CodeBlock:
+
+Options:
+0 . both run automatically.
+1 . both are stored in the database.
+2 . both consist of procedural code.
+3 . both have to be called to operate.
+4 . 
+Correct Answer: 2
+
+Explanation:Routines, also known as subroutines, are the group of multiple commands that can be called whenever required.Triggers are a special type of stored procedure containing a set of SQL statements that will be fired automatically whenever any database event occurs. It always resides in the system catalog.So option C is the correct choice.
+
+ Index: 29
+Question: Which statement is true regarding procedures?
+CodeBlock:
+
+Options:
+0 . they include procedural and sql statements.
+1 . they work similarly to the functions.
+2 . it does not need unique names.
+3 . it cannot be created with sql statements.
+4 . 
+Correct Answer: 0
+
+Explanation: A procedure is a prepared SQL code that can be saved in the system and reused whenever needed. It can return one or more values through parameters. So option A is the correct choice.
+
+ Index: 30
+Question: Which of the following is the basic approaches for joining tables?
+CodeBlock:
+
+Options:
+0 . union join
+1 . natural join
+2 . subqueries
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation:We already know that Union and Natural are the approaches for joining two or more tables.A subquery is a query nested into another SQL query. It can be embedded with SELECT, INSERT, UPDATE or DELETE statement. A subquery is known as the inner query. In many cases, we can use the subquery instead of a JOIN. Therefore, option D is the correct choice.
+
+ Index: 31
+Question: Why we need to create an index if the primary key is already present in a table?
+CodeBlock:
+
+Options:
+0 . index improves the speed of data retrieval operations on a table.
+1 . indexes are special lookup tables that will be used by the database search engine.
+2 . indexes are synonyms of a column in a table.
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: When we define a primary key in a table, the Database Engine enforces the data's uniqueness by creating a unique index for those columns. This indexing process improves data retrieval when the primary key is used in queries. Therefore, we need to create an index if a primary key is already present in a table.
+
+ Index: 32
+Question: Group of operations that form a single logical unit of work is known as
+CodeBlock:
+
+Options:
+0 . view
+1 . network
+2 . unit
+3 . transaction
+4 . 
+Correct Answer: 3
+
+Explanation: A transaction is a sequential group of statements such as select, insert, update or delete to perform as one single logical unit of work that can be committed or rolled back
+
+ Index: 33
+Question: Shared locks are applied while performing
+CodeBlock:
+
+Options:
+0 . read operations
+1 . write operations
+2 . a & b both
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: A shared lock can only be applied while reading or changing in data is performed. It is also known as the READ lock. Therefore, option A is the right choice.
+
+ Index: 34
+Question: Sequence can generate
+CodeBlock:
+
+Options:
+0 . numeric value
+1 . alphanumeric value
+2 . a & b both
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: A sequence is an arrangement of integers that generates unique values (numeric or alphanumeric) in ascending order on specific demand. 
+
+ Index: 35
+Question: A sequence in SQL can generate a maximum number:
+CodeBlock:
+
+Options:
+0 . 39 digits
+1 . 38 digits
+2 . 40 digits
+3 . 37 digits
+4 . 
+Correct Answer: 1
+
+Explanation: The number generated using a sequence can have a maximum of 38 digits.
+
+ Index: 36
+Question: Which of the following is the correct order of a SQL statement?
+CodeBlock:
+
+Options:
+0 . select, group by, where, having
+1 . select, where, group by, having
+2 . select, having, where, group by
+3 . select, where, having, group by
+4 . 
+Correct Answer: 1
+
+Explanation: In SQL statements, the WHERE clause always comes before GROUP BY, and the HAVING clause always comes after GROUP BY. Therefore, option B is the correct choice.
+
+ Index: 37
+Question: What is the difference between a PRIMARY KEY and a UNIQUE KEY?
+CodeBlock:
+
+Options:
+0 . primary key can store null value, whereas a unique key cannot store null value.
+1 . we can have only one primary key in a table while we can have multiple unique keys
+2 . primary key cannot be a date variable whereas unique key can be
+3 . none of these
+4 . 
+Correct Answer: 1
+
+Explanation:The primary key is a single or combination of the field that identifies each record in a table uniquely. It cannot take a NULL value. A table can have only one primary key. Also, we can create a date variable as a primary key in a table.Unique key also determines each row of the table uniquely, but it can take null value into. A table can have more than one unique key. We cannot create a date variable as a unique key in a table.
+
+ Index: 38
+Question: Which of the following are the synonyms for Column and ROW of a table?
+CodeBlock:
+
+Options:
+0 . 1 and 2
+1 . 3 and 4
+2 . only 1
+3 . only 2
+4 . 
+Correct Answer: 0
+
+Explanation: In Database Management System (DBMS), we can say that each record is also called a tuple and rows. And each column is called fields and attributes.
+
+ Index: 39
+Question: Which operator is used to compare the NULL values in SQL?
+CodeBlock:
+
+Options:
+0 . equal
+1 . in
+2 . is
+3 . none of above
+4 . 
+Correct Answer: 2
+
+Explanation:In SQL, we can use the IS operator to compare a NULL. This operator can be used with select, insert, update, and delete commands.The IN is a conditional operator used to reduce the use of multiple OR conditions in select, insert, update, and delete commands.The EQUAL operator is used to check whether the given expressions are equal or not. The condition becomes true if the expressions are equal and then return matched records.
+
+ Index: 40
+Question: Which of the following statement is correct regarding the difference between TRUNCATE, DELETE and DROP command?
+CodeBlock:
+
+Options:
+0 . i and iii
+1 . ii and iii
+2 . ii and iv
+3 . ii and iv
+4 . 
+Correct Answer: 0
+
+Explanation:DELETE is used to remove existing records from the database. DELETE command is a DML statement so that it can be rolled back.DROP is used to delete the whole table, including its structure. DROP is a DDL command that lost the data permanently, and it cannot be rolled back.TRUNCATE is used to delete the whole records, but it preserves the table's schema or structure. TRUNCATE is a DDL command, so it cannot be rolled back.Hence, option A is the correct answer.
+
+ Index: 41
+Question: Which of the following options are correct regarding these three keys (Primary Key, Super Key, and Candidate Key) in a database?
+CodeBlock:
+
+Options:
+0 . i and ii
+1 . ii and iii
+2 . i and iii
+3 . ii and iv
+4 . 
+Correct Answer: 0
+
+Explanation: Candidate key in SQL is a set of fields that identify each record in a table uniquely. It is a super key with no repeated fields that means the minimal super key is a candidate key. A table can contain multiple candidate keys, but it can have only a single primary key. Therefore option A is the correct choice.
+
+ Index: 42
+Question: When the wildcard in a WHERE clause is useful?
+CodeBlock:
+
+Options:
+0 . when an exact match is required in a select statement.
+1 . when an exact match is not possible in a select statement.
+2 . when an exact match is required in a create statement.
+3 . when an exact match is not possible in a create statement.
+4 . 
+Correct Answer: 1
+
+Explanation: The wildcard is a character used to search complex data from the database quickly. We can use it in conjunction with the LIKE or NOT LIKE comparison operators and the WHERE clause to find the result for a specified pattern. Hence, the wildcard is very useful when the exact match is not possible in the SELECT statement.
+
+ Index: 43
+Question: ______ is NOT a type of constraint in SQL language?
+CodeBlock:
+
+Options:
+0 . foreign key
+1 . primary key
+2 . unique
+3 . alternate key
+4 . 
+Correct Answer: 3
+
+Explanation: ALTERNATE KEY is a key associated with one or more columns to identify each row in a table uniquely. If a table with one or more candidate keys, then the keys other than the primary key is an alternate key. Since the alternate key is a part of the candidate key, it is not a constraint in SQL. Hence, option D is the correct choice.
+
+ Index: 44
+Question: Find the cities name with the condition and temperature from table 'whether' where condition = sunny or cloudy but temperature >= 60.
+CodeBlock:
+
+Options:
+0 . select city, temperature, condition from weather where condition = 'cloudy' and condition = 'sunny' or temperature >= 60
+1 . select city, temperature, condition from weather where condition = 'cloudy' or condition = 'sunny' or temperature >= 60
+2 . select city, temperature, condition from weather where condition = 'sunny' or condition = 'cloudy' and temperature >= 60
+3 . select city, temperature, condition from weather where condition = 'sunny' and condition = 'cloudy' and temperature >= 60
+4 . 
+Correct Answer: 2
+
+Explanation: We know that the AND operator gives the output only when both the first conditions are true. In contrast, the OR operator gives the output when either the first condition OR the second condition is true. Hence the option C is the correct choice.
+
+ Index: 45
+Question: Which of the following statement is correct to display all the cities with the condition, temperature, and humidity whose humidity is in the range of 60 to 75 from the 'whether' table?
+CodeBlock:
+
+Options:
+0 . select * from weather where humidity in (60 to 75)
+1 . select * from weather where humidity between 60 and 75
+2 . select * from weather where humidity not in (60 and 75)
+3 . select * from weather where humidity not between 60 and 75
+4 . 
+Correct Answer: 1
+
+Explanation:The BETWEEN is a conditional operator that is used to retrieve values from an expression within a range. It can be used with the SELECT, INSERT, UPDATE and DELETE statement.The IN is a conditional operator used to reduce the use of multiple OR conditions in the SELECT, INSERT, UPDATE and DELETE statement.Hence the option B is the correct choice.
+
+ Index: 46
+Question: ________ is a program that performs some common action on database data and also stored in the database.
+CodeBlock:
+
+Options:
+0 . stored procedure
+1 . trigger
+2 . stored function
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: A stored procedure is a precompiled set of SQL commands that we can save in our database. It can be reused over and over again whenever we need to perform some common tasks.A trigger is also the set of SQL commands that reside in a system catalog, but it will be invoked automatically in response to an event. It is a special kind of stored procedure.A stored function is one of the types of stored programs used to encapsulate the common business rules or formulas reusable in stored programs. It returns a single value or sometimes does not produce any result.Hence the option A is the correct choice.
+
+ Index: 47
+Question: Which statement is used to get all data from the student table whose name starts with p?
+CodeBlock:
+
+Options:
+0 . select * from student where name like '%p%';
+1 . select * from student where name like 'p%';
+2 . select * from student where name like '_p%';
+3 . select * from student where name like '%p';
+4 . 
+Correct Answer: 1
+
+Explanation: The '%' symbol indicates zero or more characters next to where it will be used. And the _ symbol is used to match exactly one character. Therefore option B is the correct choice.
+
+ Index: 48
+Question: What is the advantage of the clustered index?
+CodeBlock:
+
+Options:
+0 . it is fast to update the records.
+1 . it does not need extra work for sql queries.
+2 . it minimizes the page transfer and maximizes the cache hits.
+3 . none of the above is correct.
+4 . 
+Correct Answer: 2
+
+Explanation: A clustered index is actually a table where the data is stored in rows. It stores data in only one way based on the key values. It helps us to store data and indexes simultaneously but takes a long time to update the records. They are scan and index seek that minimizes the page transfer and maximizes the cache hits. Hence option C is the correct choice.
+
+ Index: 49
+Question: Evaluate the SQL statement:
+CodeBlock:
+SELECT a.emp_name, a.sal, a.dept_id, b.maxsal FROM employees a,
+(SELECT dept_id, MAX(sal) maxsal FROM employees GROUP BY dept_id) b
+WHERE a.dept_id = b.dept_id AND a.sal < b.maxsal;
+
+Options:
+0 . the statement gives an error at line 1.
+1 . the statement gives an error at line 6.
+2 . the statement produces the employee name, salary, department id, and maximum salary earned in the employee department for all departments that pay less salary than the maximum salary paid in the company.
+3 . the statement produces the employee name, salary, department id, and maximum salary earned in the employee department for all employees who earn less than the maximum salary in their department.
+4 . 
+Correct Answer: 3
+
+Explanation: Option D is the correct choice because it is the example of an inline view, which is the subquery in the FROM clause of the main query. 
+
+ Index: 50
+Question: Which of the following are the DATETIME data types that can be used in column definitions?
+CodeBlock:
+
+Options:
+0 . timestamp
+1 . interval month to day
+2 . interval year to month
+3 . timestamp with database timezone
+4 . 
+Correct Answer: 2
+
+Explanation:Options A and C are correct. It is because they are the DATETIME data types that can be used to specify column definitions.Option B cannot be used to specify the column definitions because there are only INTERVAL DAY TO SECOND and INTERVAL YEAR TO MONTH data types.Option D cannot be used to specify the column definitions because there are only TIMESTAMP WITH TIME ZONE and TIMESTAMP WITH LOCAL TIME ZONE data types.
+
+ Index: 51
+Question: Which data dictionary table can be used to show the object privileges granted to the user on specific columns?
+CodeBlock:
+
+Options:
+0 . user_tab_privs_made
+1 . user_col_privs_made
+2 . user_tab_privs
+3 . user_col_privs
+4 . 
+Correct Answer: 3
+
+Explanation: The USER_COL_PRIVS data dictionary table will display the object privileges granted to the user on specific columns. The USER_TAB_PRIVS data dictionary table will display the object privileges granted to the user on the tables. Options A and B are not data dictionary. 
+
+ Index: 52
+Question: Evaluate the SQL statement:
+CodeBlock:
+SELECT ROUND (TRUNCATE (MOD (1600, 10), -1), 2) FROM dual;
+
+Options:
+0 . 0
+1 . 1
+2 . 00
+3 . an error statement
+4 . 
+Correct Answer: 0
+
+Explanation: This statement will give the result 0. A function MOD(1600, 10) returns 0 by calculating the modulus of 1600 when 1600 is divided by 10 until no further whole number can be produced. TRUNCATE(x, y) function truncates x to the decimal precision of y. Finally, the ROUND(x, y) function rounds x to the decimal precision of y. Hence option A is the correct choice.
+
+ Index: 53
+Question: What is the need for our query to execute successfully on an existing view?
+CodeBlock:
+
+Options:
+0 . the specified table must contain data.
+1 . we must have a select privilege on the view.
+2 . we should have a select privilege only on the specified table.
+3 . the specified table must be in the same database or schema.
+4 . 
+Correct Answer: 1
+
+Explanation: It is required to have a SELECT privilege to query on the existing view. Hence option B is the right choice.
+
+ Index: 54
+Question: Which of the following operator can be used with a multiple-row subquery?
+CodeBlock:
+
+Options:
+0 . =
+1 . between
+2 . not in
+3 . <>
+4 . 
+Correct Answer: 2
+
+Explanation: The multiple-row subqueries produces multiple rows of results. We can only use the NOT IN operator in SQL can only be used with multiple-row subqueries. And all other operators must be used with single row subquery only. Therefore, BETWEEN, '=', and '<>' operators work with single row subquery. Hence option C is the correct choice.
+
+ Index: 55
+Question: _______ is a constraint that can be defined only at the column level?
+CodeBlock:
+
+Options:
+0 . unique
+1 . not null
+2 . check
+3 . primary key
+4 . 
+Correct Answer: 1
+
+Explanation: The SQL NOT NULL constraint prevents inserting NULL values into the specified column. It enforces that a value must be defined for this column cannot accept a NULL value. Hence, we can say that the NOT NULL constraint can be defined only at the column level. 
+
+]

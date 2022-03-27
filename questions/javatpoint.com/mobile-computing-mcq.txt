@@ -1,0 +1,705 @@
+&[Index: 0
+Question: Which of the following usually stores all user-related data that is also relevant to GSM mobile systems?
+CodeBlock:
+
+Options:
+0 . vlr
+1 . hmr
+2 . cmr
+3 . sim
+4 . 
+Correct Answer: 3
+
+Explanation: The device that usually stores all the user-related data relevant to the GSM mobile system is known as the SIM Card. A SIM Card is a kind of integrated circuit that securely holds the IMSI (or International Mobile Subscriber Identity). It can also be considered as a portable memory chip that enables users to communicate by making phone calls across the world where the subscriber's network is available.
+
+ Index: 1
+Question: In which one of the following codes with specific characteristics can be applied to the transmission? 
+CodeBlock:
+
+Options:
+0 . cdma
+1 . gprs
+2 . gsm
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The CDMA (or Code Division Multiple Access) is a type of multiplexing which allows various signals to occupy only transmission channel. It usually optimized the use of the bandwidth in an efficient manner. So the correct answer is CDMA.
+
+ Index: 2
+Question: Which of the following offers packet mode data transfer service over the cellular network?
+CodeBlock:
+
+Options:
+0 . tcp
+1 . gprs
+2 . gsm
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: General Packet Radio Service (or GPRS) can be considered as the expansion of the Global System for Mobile communications (or GSM). It is a type of packet-oriented standard that offers packet mode data transfer service over the cellular network. So the correct answer will be B.
+
+ Index: 3
+Question: Which one of the following enables us to use the entire bandwidth simultaneously?
+CodeBlock:
+
+Options:
+0 . tdma
+1 . cdma
+2 . fdma
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: CDMA (or code division multiple access) is a type of multiplexing that allows different signals to occupy only one transmission channel. In short, we can also say that CDMA allows us to use the entire bandwidth simultaneously.
+
+ Index: 4
+Question: In the Cellular Network, on which of the following, the cell's shape depends?
+CodeBlock:
+
+Options:
+0 . political conditions
+1 . social conditions
+2 . environment condition
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In the Cellular Network, the cell's shape usually depends on the environmental conditions. So the correct answer is C.
+
+ Index: 5
+Question: In a Cellular network, which of the following is used to use the same frequency for others?
+CodeBlock:
+
+Options:
+0 . frequency hopping
+1 . frequency reuse
+2 . frequency planning
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In Cellular Networks, the same frequency is used for other users through the technique known as Frequency reuse. 
+
+ Index: 6
+Question: Which of the following uses wireless as the mode of communication for transferring or exchanging data between various mobiles over a short-range?
+CodeBlock:
+
+Options:
+0 . ad hoc computing
+1 . mobile computing
+2 . bluetooth technology
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The Bluetooth technology is usually used to transfer or exchange data between various mobiles over a very short range. Hence the correct answer is C.
+
+ Index: 7
+Question: The main aim of the file system is to support________
+CodeBlock:
+
+Options:
+0 . transparent access to data
+1 . efficient access to data
+2 . consistent access to data
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: All the statements given in the above questions can be considered as one of the main objectives of the file system.
+
+ Index: 8
+Question: In a distributed system, a client sends the request, and the server provides_____
+CodeBlock:
+
+Options:
+0 . data
+1 . service
+2 . information
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In a distributed system, whenever a client makes a request, the server provides the service. So the correct answer is B.
+
+ Index: 9
+Question: One of the essential challenges of distributed systems apply to DFS is/are
+CodeBlock:
+
+Options:
+0 . migration of data
+1 . concurrent access to data
+2 . replication of data
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: There are several essential challenges of distributed systems that apply to DFS (Distributed File System) are migration of data, republication of data, and concurrent access to data. So here, the correct answer will be D. 
+
+ Index: 10
+Question: Which one of the following can be considered as the features of CODA?
+CodeBlock:
+
+Options:
+0 . a disconnected operation for mobile computing
+1 . it is freely available under a liberal license
+2 . it provides high performance through client-side persistent caching
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: CODA is referred to as the Constant Data Availability, which is a type of distributed file system developed in 1987 at Carnegie Mellon. It contains several features that are especially desirable for network systems. Nowadays, CODA has numerous features, such as a disconnected operation for mobile computing, freely available under a liberal license that is not found elsewhere.
+
+ Index: 11
+Question: Which one of the file systems applies gossip protocols?
+CodeBlock:
+
+Options:
+0 . coda
+1 . ficus
+2 . rover
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Gossip protocol is one of the communication protocols. It is a kind of computer peer-to-peer communication procedure, which works on the same principle, how the data is shared or exchanged on social media. The Ficus file system uses the gossip protocols.
+
+ Index: 12
+Question: Which of the following modes are supported by the Mio-NFS?
+CodeBlock:
+
+Options:
+0 . connected
+1 . loosely connected
+2 . disconnected
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation:There are three modes supported by the Mio-NFS that are as follows:Loosely connected: In which user uses local replicates, updates files through networks, and exchanges tokens on the network.Connected: The server handles all accesses or requests to the files as usual.Disconnected: The user (or clients) uses only the local replicates, and writing is allowed only in some cases where the client has the token.
+
+ Index: 13
+Question: Which of the following can be considered as the advantage of using frequency reuse?
+CodeBlock:
+
+Options:
+0 . the same spectrum can be allocated to the other networks
+1 . only a limited spectrum is required
+2 . increase capacity
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: There are several advantages of using "frequency reuse," such as it provides increased capacity, requires only limited spectrum, and allocates the same spectrum to other networks. Therefore all the statements given in the above question are the advantages of the "frequency reuse."
+
+ Index: 14
+Question: Which of the following can be considered as the primary function of snooping TCP?
+CodeBlock:
+
+Options:
+0 . to buffer data close to the mobile host to perform fast local retransmission in case of packet loss.
+1 . congestion control
+2 . flow control
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The primary function of snooping TCP is to buffer some data close to the mobile host to perform fast local retransmission that will help in case of data packet loss.
+
+ Index: 15
+Question: In which one of the following, the slow and fast hopping is used?
+CodeBlock:
+
+Options:
+0 . gsm
+1 . gprs
+2 . fhss
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The term "FHSS" stands for frequency-hopping spread spectrum, a method of transmitting radio signals through rapidly changing carrier frequency between different frequencies and uses slow and fast hopping.
+
+ Index: 16
+Question: Mobile Computing allows transmission of data from one wireless-enabled device to another_
+CodeBlock:
+
+Options:
+0 . any device
+1 . wired device
+2 . wireless-enabled device
+3 . one of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In general, mobile computing allows the transmission of information between one wireless-enabled device to another wireless-enabled device. So the correct answer will be DC
+
+ Index: 17
+Question: Which of the following can be considered as the drawbacks of the Mobile and Wireless Devices?
+CodeBlock:
+
+Options:
+0 . smaller keypads
+1 . consumes power rapidly
+2 . requires a big power source
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: There are numerous advantages of mobiles and wireless devices, but they have some drawbacks as well. There are some of the common disadvantages of mobiles for almost all users, such as mobiles needing a faster source because they drain the battery much faster, and sometimes they have smaller keypads, which is another major issue.
+
+ Index: 18
+Question: In general, a mobile computing environment can also be considered as the type of __________ environment.
+CodeBlock:
+
+Options:
+0 . grid computing
+1 . mobile computing
+2 . distributed computing
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Mobile computing is referred to as human-computer interaction, in which the computer is required to be transported during general usage. It involves mobile hardware, mobile software, and mobile communication. It also allows transmission of information/data, audio and video calls, etc. Generally, the mobile computing environment is also considered as a type of distributed computing environment.
+
+ Index: 19
+Question: Which of the following is a fundamental principle of wireless communication?
+CodeBlock:
+
+Options:
+0 . electromagnetic waves
+1 . microwaves
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The fundamental principle of wireless communication is electromagnetic waves, as we can transfer the information using electromagnetic waves (wirelessly) between two or more points that do not use any electronic conductor as the medium as the means of transfer. 
+
+ Index: 20
+Question: Which of the following statements is correct about the FHSS?
+CodeBlock:
+
+Options:
+0 . fhss is a type of narrowband signal
+1 . it uses the 78 frequency in the 2.4 ghz
+2 . it is referred as frequency hopping spread spectrum
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The term "FHSS" is referred to as the Frequency Hopping Spread Spectrum as it is a type of narrowband signal that uses the 78 frequency in the 2.4 GHz and uses the frequency hopping system. So the correct answer is D.
+
+ Index: 21
+Question: Which of the following is required to transmit the digital information using a certain frequency by translating it into an analog signal? 
+CodeBlock:
+
+Options:
+0 . demodulation
+1 . modulation
+2 . qpsk
+3 . bspk
+4 . 
+Correct Answer: 1
+
+Explanation: To transmit the digital data or information by using some specific frequency, modulation is required to convert it into an analog signal. So the correct answer will be B.
+
+ Index: 22
+Question: When was the 2G communication introduced in the market?
+CodeBlock:
+
+Options:
+0 . 1982
+1 . 1984
+2 . 1986
+3 . 1988
+4 . 
+Correct Answer: 3
+
+Explanation: The 2G communication was first launched in early 1988 in the market. So the correct answer is D.
+
+ Index: 23
+Question: Which of the following is supported data rates of 4G Networks?
+CodeBlock:
+
+Options:
+0 . 1024kbps
+1 . 100mbs
+2 . 200mbps
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The rate of data transfer or speed of the 4G network is approximately 100mbps, which is 20 times faster than that of 3G networks. The maximum speed of the 4g network is about 300mbps or more, but such speed is only achievable in well-controlled laboratory environments. So the correct answer will be B.
+
+ Index: 24
+Question: Which one of the following is considered as the GSM supplementary service?
+CodeBlock:
+
+Options:
+0 . emergency number
+1 . sms
+2 . call forwarding
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Call forwarding is one of the many supplementary services like call hold, calls waiting that are offered by the GSM (or Global Systems for Mobiles). 
+
+ Index: 25
+Question: How many sub-systems are Global Systems for Mobiles?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 3
+2 . 2
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In general, the GSM ( or Global System for mobiles ) architecture comprises three sub-systems that interact with each other and as well as with users through some certain network interface. These sub-systems are named BSS (or Base Station Subsystem), NSS (or Networks Switching Sub System), and OSS (or Operational Support Sub-system).
+
+ Index: 26
+Question: Which of the following is considered as the heart of the Global Systems for Mobiles (or GSM)?
+CodeBlock:
+
+Options:
+0 . networks switching sub system
+1 . operational support sub-system
+2 . base station subsystem
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The NSS (or Network Switching Subsystem) is considered as the heart of the Global System for Mobiles. So the correct answer is A.
+
+ Index: 27
+Question: The term "HLR" stands for the ______ 
+CodeBlock:
+
+Options:
+0 . home location register
+1 . house location register
+2 . home live register
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In Mobile Computing, the term "HLR" stands for Home Location Register, which is a type of database that contains information about the authorized subscribers through the GSM core network. So the correct answer will be A.
+
+ Index: 28
+Question: BSC comes under which of the following category?
+CodeBlock:
+
+Options:
+0 . operation
+1 . radio
+2 . network
+3 . mobile
+4 . 
+Correct Answer: 1
+
+Explanation: In Mobile Computing, the BSC stands for Base Station Controller. It is a type of network element that controls and observes a number of stations. It also provides an interface between the MSC (Mobile Switching Center) and Cell sites. The BSC comes under the category of Radio.
+
+ Index: 29
+Question: The term TDM stands for___.
+CodeBlock:
+
+Options:
+0 . time division multiplexing
+1 . transfer multiplexing
+2 . tedious division multiplexing
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In mobile computing, the term "TDM" stands for Time Division Multiplexing. It is referred to as a technique in which the multiple data streams are put together in an individual signal by separating the signal into several segments. All the data streams are reassembled at the receiving end on the basis of timing.
+
+ Index: 30
+Question: In which of the following, the single-channel has the ability to carry all transmissions simultaneously? 
+CodeBlock:
+
+Options:
+0 . in the code division, multiple access (or cdma)
+1 . in the time division multiple access (or tdma)
+2 . in the frequency division multiple access (or fdma)
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In the CDMA, the single-channel can carry all the transmissions simultaneously. We can also say that it shares a band of frequency among several servers without undue interference among them. In other words, it optimizes the overall use of the available bandwidth as it transmits over the entire frequency range.
+
+ Index: 31
+Question: In which one of the following times is specifically divided into several time slots that are in the fixed patterns?
+CodeBlock:
+
+Options:
+0 . cdma
+1 . tdma
+2 . fdma
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The TDMA is a type of digital cellular telephone communication technology. It allows the users to use the same frequency without interference. In the TDMA (or Time Division Multiple Access), time is divided into several required time slots that are in the fixed patterns. So the correct answer will be B.
+
+ Index: 32
+Question: How many types of security services are provided by the GSM?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation:Global System for Mobiles (or GSM) mainly provides three types of security services. The security services offered by GSM are as follows:
+Temporary identities for the confidentiality of the user's identity
+Ciphering of the user's related information
+Authentication for the corroboration of the user's identities
+
+
+ Index: 33
+Question: In which one of the following, the early FM push to talk telephone system, was used?
+CodeBlock:
+
+Options:
+0 . half duplex
+1 . full duplex
+2 . simple duplex
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The early FM push to talk telephone systems were used in the Half Duplex. The Half Duplex is a type of communication in which the information or data can back and forth between two devices. In this type of communication, each device can send and receive the data, but only one device can transmit the data at a time. So the correct answer will be the B.
+
+ Index: 34
+Question: The paging system can be used for _______
+CodeBlock:
+
+Options:
+0 . sending numeric messages
+1 . audio calls
+2 . sending alphanumeric messages
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: In mobile computing, a paging system is a type of one way communication that allows to address a large audience. In a paging system, a paging employee reads messages into a telephone, and those messages are later broadcast to a network of several speakers. So it can be used for sending numeric messages, voice calls, and sending alphanumeric messages as well. 
+
+ Index: 35
+Question: Which of the following statements about the Half Duplex is correct?
+CodeBlock:
+
+Options:
+0 . it is a type of communication in one direction
+1 . it is a type of communication in one direction at a time
+2 . it is a type of by directional communication at the same time
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The Half Duplex is a type of communication in which the information or data can back and forth between two devices. However, in this type of communication, each device can send and receive the data, but only one device can transmit the data at a time. So the correct answer will be B.
+
+ Index: 36
+Question: The term _________ refers to transporting a mobile station from one base station to another base station.
+CodeBlock:
+
+Options:
+0 . roamer
+1 . forward channel
+2 . handoff or hand over
+3 . min
+4 . 
+Correct Answer: 2
+
+Explanation: In cellular telecommunications, Hands off or hand over is a type of process in which an ongoing (or active) call or data session is transferred from one station (or channel) to another base station.
+
+ Index: 37
+Question: Which one of the following statements is correct about the PCN?
+CodeBlock:
+
+Options:
+0 . wireless concept of making calls
+1 . irrespective of the location of the user
+2 . for receiving calls
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The term "PCN" stands for Personal Communication Network, which is a digital cellular mobile telephone network. It was developed in accordance with the GSM standards. Thus all statements given about the PCN are correct. So the correct answer is D.
+
+ Index: 38
+Question: The IMT-2000 is a digital Mobile network that functions as the ____________.
+CodeBlock:
+
+Options:
+0 . cordless
+1 . pager
+2 . lower earth orbit satellite
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The IMT-2000 is referred to as the International Mobile Telecommunications for the year 2000. It's one of the main purposes is to provide global roaming services, and it does not designed only for connecting land mobile networks but also to connect fixed networks and satellite mobile networks.
+
+ Index: 39
+Question: Which one of the following can help in avoiding the interferences between the neighboring base station?
+CodeBlock:
+
+Options:
+0 . assigning different group of channels
+1 . using transmitters with the different power level
+2 . using different antennas
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The interferences between the neighboring base stations can be avoided by assigning different groups of channels. So the correct answer will be A.
+
+ Index: 40
+Question: Radio capacity may be increased in cellular by_____
+CodeBlock:
+
+Options:
+0 . increase in the radio spectrum
+1 . increasing the number of base stations & reusing the channels
+2 . none of the above
+3 . both a & b
+4 . 
+Correct Answer: 1
+
+Explanation: The radio capacity can be increased in cellular by adding more base stations and reusing the channels.
+
+ Index: 41
+Question: Which of the following statements about the Full Duplex is correct?
+CodeBlock:
+
+Options:
+0 . it is a type of communication in one direction
+1 . it is a type of communication in one direction at a time
+2 . it is a type of bi-directional communication
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The Full Duplex is a type of communication in which the information or data can back and forth between two devices. In this type of communication, each device can send and receive the data at the same time. So the correct answer will be B.
+
+ Index: 42
+Question: The hexagon shape is used for radio coverage because
+CodeBlock:
+
+Options:
+0 . it uses the maximum area for coverage
+1 . fewer number of cells are required
+2 . it approximates a circular radiation pattern
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The hexagon shape is used for radio coverage because the hexagon shape has equal distances anywhere and everywhere. However, before knowing that the hexagon shapes for cells are good for radio coverage. Once the circular cells and square cells were also used and when it gets clear that both cannot be used for radio coverage as both had some serious problems. The cellular cells failed because while connecting all towers and there is a gap between the circles, which creates a hollow. In which the radio-activity seemed almost none or very little. While on the other hand, the square cells failed because of the inconsistent distances in all directions. Thus the hexagon shapes cells overcome these problems. So the correct answer is A.
+
+ Index: 43
+Question: The frequency modulation for mobile communication systems was invented by_____
+CodeBlock:
+
+Options:
+0 . david bohm
+1 . nikola tesla
+2 . albert einstein
+3 . edwin armstrong
+4 . 
+Correct Answer: 3
+
+Explanation: Edwin Armstrong was an American electrical engineer as well as an inventor. He was born on 18 December 1890 and died on 1 February 1954. In his whole life, he created many inventions, and the frequency modulation form mobile communication system is one of them. Therefore the correct answer is D.
+
+ Index: 44
+Question: Which of the following is also known as the developer of the world's first cellular system?
+CodeBlock:
+
+Options:
+0 . bellcore and motorola
+1 . nippon telephone and telegraph (ntt)
+2 . qualcomm
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Nippon Telephone and Telegraph Corporation is a Japanese company telecommunication company also known as NTT. The Nippon Telephone and Telegraph is also famous for developing the world's first cellular system. It is one of the largest telecom companies in the world and has been ranked as the fourth largest telecom company worldwide.
+
+ Index: 45
+Question: Which one of the following is not referred as the characteristics of the cellular telephone system?
+CodeBlock:
+
+Options:
+0 . large frequency spectrum
+1 . limited frequency spectrum
+2 . accommodate a large number of users
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The large frequency spectrum is not referred to as one of the characteristics of a cellular telephone system as the cellular communication accommodates a large number of users using a limited frequency spectrum over a large geographic area.
+
+ Index: 46
+Question: Which of the following is known as one of the responsibilities of mobile Switching Centre (or MSC) in cellular telephone systems?
+CodeBlock:
+
+Options:
+0 . connection of mobile to pstn
+1 . connection of base station to msc
+2 . connection of mobile to base stations
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The connection of mobiles to PSTN is the responsibility of MSC, as Mobile Switching Centre is responsible for connecting the mobiles to Public Switched Telephone Network (or PSTN). Hence the correct answer is A.
+
+ Index: 47
+Question: Which of the following is also referred to as the functions of forward Voice Channel?
+CodeBlock:
+
+Options:
+0 . initiating mobile calls
+1 . broadcasting all traffic for mobiles
+2 . voice transmission from the base station to mobiles
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The voice transmission form base station to mobiles is also referred to as one of the main functions of the Forward Voice Channel (FVC). However, the Forward Voice Channel and Reverse Voice Channel both are responsible for voice transmission. The Forward Voice channel is used for transmission of voice form base stations to mobiles, while on the other hand, the Reverse voice channel is used for voice transmission form mobiles to base stations.
+
+ Index: 48
+Question: Which one of the following is transmitted along with the call initiation request during of call by the mobiles?
+CodeBlock:
+
+Options:
+0 . scm
+1 . esn
+2 . min
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Whenever the mobiles initiate a call, it sends the Mobile Identification Number (or MIN), Electronic Serial number (or ESN), and Station Class Mark (or SCM) along with the request of call initiation. 
+
+ Index: 49
+Question: Which of the following file systems provides similar features that are also offered by the Andrew File system?
+CodeBlock:
+
+Options:
+0 . rover
+1 . coda
+2 . both a &b
+3 . none of these
+4 . 
+Correct Answer: 1
+
+Explanation: The CODA File System provided several similar features that were also offered by the Andrew File System. So, the correct answer will be B.
+
+]

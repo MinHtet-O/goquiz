@@ -1,0 +1,659 @@
+&[Index: 0
+Question: A major part of the automatic control theory applies to the:
+CodeBlock:
+
+Options:
+0 . casual systems
+1 . linear time invariant systems
+2 . time variant systems
+3 . non-linear systems
+4 . 
+Correct Answer: 1
+
+Explanation: A linear time invariant (LTI) system provides the same output for the same input irrespective of when input is given. LTI systems are also used to predict the system's long term behavior.Hence the correct answer is an option (b).
+
+ Index: 1
+Question: Traffic light system is the example of:
+CodeBlock:
+
+Options:
+0 . open-loop system
+1 . closed-loop system
+2 . both (a) and (b)
+3 . none of these
+4 . 
+Correct Answer: 0
+
+Explanation: The traffic lamp will glow according to the set timing and sequence and is time-dependent. The sequence and time are controlled by relays that work on the pre-programmed time. It does not depend upon the rush of the road.Hence the correct answer is an option (a).
+
+ Index: 2
+Question: Laplace transform of a step function shown below is:
+CodeBlock:
+
+Options:
+0 . 1
+1 . 1/s^2
+2 . 0
+3 . 1/s
+4 . 
+Correct Answer: 3
+
+Explanation: The abrupt change in input of a step function takes place at t=0, and the step's size is1 unit.Let the size of the step function be A, where A=1.The Laplace transform of a function is given by:L[f(t)] = F(s) = ∫0∞f(t) e-st dtF(s) = ∫0∞Af(t) e-st dtF(s) = -A/s (e-∞-e-0)F(s) = A/sWe know, A =1F(s) = 1/sHence the correct answer is an option (d).
+
+ Index: 3
+Question: The negative feedback closed-loop system was subjected to 15V. The system has a forward gain of 2 and a feedback gain of 0.5. Determine the output voltage and the error voltage.
+CodeBlock:
+
+Options:
+0 . 15v, 10v
+1 . 6v, 5v
+2 . 15v, 7.5v
+3 . 5v, 10v
+4 . 
+Correct Answer: 2
+
+Explanation:Given:G(s) = 2H(s) = 0.5 and R(s) = 10VOutput voltage: = (2/1+2x 0.5) x 15 = 15VError voltage: = (1/1+2x 0.5) x 15 = 7.5VHence the correct answer is option (c).
+
+ Index: 4
+Question: The Static system can be defined as:
+CodeBlock:
+
+Options:
+0 . output of a system depends on the present as well as past input.
+1 . output of a system depends only on the received inputs.
+2 . output of the system depends on future inputs.
+3 . output of the system depends only on the present input.
+4 . 
+Correct Answer: 3
+
+Explanation: Static systems do not have any feedback system. Hence, the output depends only on the present input.Hence, the correct answer is an option (d).
+
+ Index: 5
+Question: Find the function f(t) for the following function F(s):
+CodeBlock:
+
+Options:
+0 . 0.25e-t+0.05e-5t
+1 . -0.2-0.25e-t+0.05e-5t
+2 . -0.2+0.25e-t+0.05e-5t
+3 . 0.25e-5t+0.05e-t
+4 . 
+Correct Answer: 1
+
+Explanation: The given function can be written as:= A/s + B/ (s+1) + C/(s+5)1 = A(s+1)(s+5) +Bs(s+5) +Cs(s+1)To calculate the value of A, put s= 0, we get:1 = A(1)(5)A = 1/5 = 0.2Now, to calculate the value of B, put s=-1, we get:1 = B (-1)(4)B = -1/4 = -0.25Similarly, put s=-5, we get:1 = C (-5) (-4)C = 1/20 = 0.05Substituting the value of A, B, and C in F(s), we get:F(s) = A/s + B/ (s+1) + C/(s+5)F(s) = 0.2/s - 0.25/ (s+1) + 0.05/(s+5)We know, Laplace transform of 1/(s + a) = e-atand 1/s = 1.f(t) = -0.2-0.25e-t+0.05e-5tHence the correct answer is option (b).
+
+ Index: 7
+Question: Determine the transfer function of the given system:
+CodeBlock:
+
+Options:
+0 . g1g2g3/ (1 + h2g2g3 + g2g1h1)
+1 . g1 g2g3/ (1 + g1g2g3h2h1)
+2 . g1g2g3 / (1 + g1g2g3h1 + g1g2g3h2)
+3 . g1g2g3 / (1 + g1g2g3h1)
+4 . 
+Correct Answer: 0
+
+Explanation: We will first shift the H1 block after G3The shifting of a take-off point will make the block as: H1/ G3Block G2 and G3 are in cascade. The equivalent block will be the product of these two (G2G3).The gain for that block will be:G2G3/ (1 + H2G2G3)As shown, G1 is in cascade, the transfer function of the above system will be:C(s)/R(s) = [G1G2G3/ (1 + H2G2G3)]/ [1 + G1G2G3/ (1 + H2G2G3) x H1/G3C(s)/R(s) = G1G2G3/ (1 + H2G2G3 + G2G1H1)Hence, the correct answer is an option (a).
+
+ Index: 8
+Question: Loop gain is equal to:
+CodeBlock:
+
+Options:
+0 . product of all branch gains in a loop
+1 . product of all branch gains while traversing the forward path
+2 . summation of all branch gains in a loop
+3 . sum of all branch gains while traversing the forward path
+4 . 
+Correct Answer: 1
+
+Explanation: According to Mason's Gain formula, the transfer function can be calculated as:T(s) = C(s)/R(s)Where,Pk is the forward path gain∆istheloopgain, which is calculated as:∆=1-∑(Allloopgain) + ∑(Gainproductoftwonon-touchingloops)-∑(Gainproductofthreenon-touchingloops)∆k iscalculatedbyeliminatingallloopstouchingPkHere, the loop gain is defined as the product of the branch gain that is traversing a forward path.Hence, the correct answer is an option (b).The Mason's gain formula is used to find the overall transfer function of a signal graph.
+
+ Index: 9
+Question: Find the overall transfer function of the given signal flow graph.
+CodeBlock:
+
+Options:
+0 . g1g2g3/ (1 + g1h1 + g3h2 + g3g1h1h2)
+1 . g1g3/ (1 + g1h1 + g3h2 + g3g1)
+2 . (g1g2g3 + g1h1)/ (1 + g1h1 + g3h2 + g3g1h1h2)
+3 . (g1g2g3 + g1h1 + g3h2) / (1 + g1h1 + g3h2 + g3g1h1h2)
+4 . 
+Correct Answer: 0
+
+Explanation: Here, we will calculate the transfer function using mason's gain formula:Where,Pk is the forward path gain∆istheloopgain, which is calculated as:∆=1-∑(Allloopgain) + ∑(Gainproductoftwonon-touchingloops)-∑(Gainproductofthreenon-touchingloops)∆k iscalculatedbyeliminatingallloopstouchingPkNow,Step 1: From the figure, let's identify the forward path,P1 = G1G2G3There is only one forward path in the above figure.Step 2: Now, let's find the loop gain. There are two loops:L1 = -G1H1L2 = -G3H2Step 3: Two non-touching loops. There is only one combination of two non-touching loops, as shown below:L1 L2 = G3G1H1H2Step 4: Since there are no three non-touching loops, we will directly find the system's determinant.∆= 1 - (L1+ L2) + (L1L2)= 1 + G1H1 + G3H2 + G3G1H1H2Step 5: Here, we will find ∆1 because there is only one forward path.For ∆1, we will eliminate L1 and L2 because both loop gains are touching the forward path.L1 = L2 = 0∆1=1-0=1Now, the transfer function is obtained as: C/R = G1G2G3/ (1 + G1H1 + G3H2 + G3G1H1H2)Hence the correct answer is an option (a).
+
+ Index: 10
+Question: The block diagram representation of a closed-loop system. Write the time response equation for the given system with a unit step input, assuming zero initial conditions.
+CodeBlock:
+
+Options:
+0 . 1-e-t⁄5
+1 . 1-et⁄10
+2 . 1-e-t⁄10
+3 . 1+e-t⁄10
+4 . 
+Correct Answer: 2
+
+Explanation:The transfer function of a loop is G/ (1+GH)We will first simplify the above block diagram into the simple system. Let's calculate the transfer function of the first loop.TF = [1/ (40s+2)] / [1 + 2/ (40s+2)] = 1/ (40s +4)Now, two blocks are left in cascade. The equivalent block is the product of these two blocks, as given below:C(s)/R(s) = 4. (1/ (40s +4)) = 1/ (10s + 1)The Laplace transform of the step input is 1/s. It means R(s) = 1/s.C(s) = [1/ (10s + 1)]. R(s)C(s) = [1/ s (10s + 1)Taking the inverse Laplace of the above equation, we get:1-e-t⁄10
+
+ Index: 11
+Question: If the characteristic equation of the closed loop system is s^2 + 2s + 2 = 0, then the system is:
+CodeBlock:
+
+Options:
+0 . over damped
+1 . critically damped
+2 . undamped
+3 . underdamped
+4 . 
+Correct Answer: 3
+
+Explanation: The given equation is: s^2 + 2s + 2 = 0It is a second-order differential equation. The Laplace transform of a standard form of a second-order differential equation is:Thus, the system is underdamped.Hence, the correct answer is an option (d).
+
+ Index: 12
+Question: The transfer function of a system is given as 81/ (s^2 + 16s + 81). Find the undamped natural frequency, damping ratio, and peak time for a unit step input. 
+CodeBlock:
+
+Options:
+0 . 9, 0.889, 0.762
+1 . 9, 0.559, 0.762
+2 . 9, 0.889, 0.187
+3 . 9, 0.667, 0.187
+4 . 
+Correct Answer: 0
+
+Explanation: The standard transfer function can be written as:The given equation is: 81/ (s^2 + 16s + 81) Comparing the values, we get:Thus, the undamped natural frequency is 9, and the damping ratio is 0.889.The Peak time can be calculated as:Hence, the correct answer is an option (a). 
+
+ Index: 13
+Question: The closed loop transfer function for a second order system is: T(s) = 4/ (s^2 + 4s + 4). Calculate the settling time for a 2 percent and 5 percent band.
+CodeBlock:
+
+Options:
+0 . 5, 2.0
+1 . 0, 10.0
+2 . 0, 1.5
+3 . 0, 2.0
+4 . 
+Correct Answer: 2
+
+Explanation: The standard transfer function can be written as:The given equation is: 4/ (s^2 + 4s + 4)Comparing the values, we get:K= 1The settling time for a 2 percent band is calculated as:Settling time = 2 secondsThe settling time for a 5 percent band is calculated as:Settling time = 1.5 secondsHence, the correct answer is an option (c).
+
+ Index: 14
+Question: Consider a system with transfer function G(s) = (s + 4)/ (ks^2 + s + 4). The value of damping ratio will be 0.5 when the value of k is: 
+CodeBlock:
+
+Options:
+0 . ½
+1 . ¼
+2 . 8
+3 . 4
+4 . 
+Correct Answer: 1
+
+Explanation: The given transfer function is:G(s) = (s + 4)/ (ks^2 + s + 4)The characteristic equation ks^2 + s + 4 = 0Dividing the equation by k, we get:S^2 +s/k + 4/k = 0Hence, the correct answer is an option (b). 
+
+ Index: 15
+Question: The step error coefficient of a system G(s) = 1/ (s+2)(s+3) with unity feedback is:
+CodeBlock:
+
+Options:
+0 . 0
+1 . infinite
+2 . 1
+3 . 1/6
+4 . 
+Correct Answer: 3
+
+Explanation: The step error can be calculated as:ess = sR(s)/ (1 + G(s))R(s) = 1/s (in case of unity feedback)G(s) = 1/ (s+2)(s+3)ess = (s x 1/s )/ (1 + (1/ (s+2)(s+3)))ess = 1/(1 + kp)Where, kp is the step error coefficientKp can be calculated as:Hence, the correct answer is an option (d).
+
+ Index: 16
+Question: The transfer function of a control system is given by G(s) = 25/ (s^2 + 6s + 25). The first maximum value of the response occurs at t, which is given by:
+CodeBlock:
+
+Options:
+0 . π⁄2
+1 . π⁄8
+2 . π⁄4
+3 . π
+4 . 
+Correct Answer: 2
+
+Explanation: The given transfer function is: G(s) = 25/ (s^2 + 6s + 25)Comparing the value of the given transfer function with the standard equationHence, the correct answer is option (c). 
+
+ Index: 17
+Question: The impulse response of an RL circuit is:
+CodeBlock:
+
+Options:
+0 . parabolic function
+1 . step function
+2 . rising exponential function
+3 . decaying exponential function
+4 . 
+Correct Answer: 3
+
+Explanation: The RL circuit comprises of the resistor and inductor connected in series.The equation can be written as:1 = RI(s) + sLI(s)1 = I(s) [R + sL]I(s) = 1 / (R +sL)Taking the inverse Laplace, we get:The equation clearly depicts that the impulse response is a decaying exponential function.Hence, the correct answer is option (d).
+
+ Index: 18
+Question: Calculate the poles and zeroes for the given transfer function G(s) = 5 (s + 2)/ (s^2 + 3s + 2)
+CodeBlock:
+
+Options:
+0 . -2, (-1, -2)
+1 . 2, (-1, 2)
+2 . 2, (1, 2)
+3 . -2, (1, -2)
+4 . 
+Correct Answer: 0
+
+Explanation: The zeroes can be calculated by equating the numerator to zero:5 (s + 2) = 05s + 10 = 05s = -10s = -2The poles can be calculated by equating the denominator to zero:s^2 + 3s + 2 = 0s^2 + 2s + s + 2 = 0s (s + 2) + 1 (s + 2) = 0(s + 1) (s + 2) = 0s = -1, -2Hence, the correct answer is an option (a).
+
+ Index: 19
+Question: The number of roots in the left half of the s-plane of the given equation s^3 + 3s^2 + 4s + 1 = 0 is:
+CodeBlock:
+
+Options:
+0 . one
+1 . three
+2 . two
+3 . zero
+4 . 
+Correct Answer: 1
+
+Explanation: The given characteristic equation is: s^3 + 3s^2 + 4s + 1 = 0.To find the number of roots, we need to create a Routh table, as shown below:There are no roots and no significant changes in the RHS plane, as shown in the above table. Hence, all three roots lie in the LHS plane.Hence, the correct answer is an option (b).
+
+ Index: 20
+Question: A system with the polynomial s^4 + 5s^3 + 3s^2 + 6s + 5 = 0 is:
+CodeBlock:
+
+Options:
+0 . unstable
+1 . marginally stable
+2 . in equilibrium
+3 . stable
+4 . 
+Correct Answer: 0
+
+Explanation: The given characteristic equation is: s^4 + 5s^3 + 3s^2 + 6s + 5 = 0. We first need to find the roots by creating the Routh's array table.Routh's array table is shown below:In the first column of the above table, we have two sign changes. It means that two roots are in the RHS plane. Hence, the system is unstable.Hence the correct answer is an option (a).
+
+ Index: 21
+Question: If s^3 + Ks^2 + 5s + 10 = 0, the root of the feedback system's characteristic equation is said to be critically stable. Then, the value of K will be:
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3
+3 . 4
+4 . 
+Correct Answer: 1
+
+Explanation: For the above equation, we need to find the roots by creating the Routh's array table. The given equation is: s^3 + Ks^2 + 5s + 10The table is given below:For the system to be critically stable, we will put (5K -10)/K = 05K - 10 = 05K = 10K = 2The value of K for which the system is said to be critically stable is 2.Hence, the correct answer is an option (b).
+
+ Index: 22
+Question: If s^3 + 3s^2 + 4s + A = 0, the roots of the characteristic equation lie in the left half of the s-plane. The value of the A is said to be:
+CodeBlock:
+
+Options:
+0 . 0 < a < 12
+1 . 5< a < 12
+2 . a > 12
+3 . a < 12
+4 . 
+Correct Answer: 0
+
+Explanation: For the above equation, we need to find the roots by creating the Routh's array table. The given equation is: s^3 + 3s^2 + 4s + A = 0The table is given below:There is no change in sign in the first column of the Routh table. It means that all roots lies in the left half of the s-plane.Putting A and (12 - A)/3 > 0, we get:A > 0 (or 0 < A)(12 - A)/3 > 012 - A > 012 > A (or A < 12)From the above equations, we get two values of A, i.e., A > 0 and A < 12. It means that A lies between 0 and 12, as shown below:0 < A < 12Hence, the correct answer is an option (a).
+
+ Index: 23
+Question: For the given closed-loop system, the ranges of the values of K for stability is:
+CodeBlock:
+
+Options:
+0 . k > -19.5
+1 . k > 8
+2 . -19.5 < k < 8
+3 . k > 0
+4 . 
+Correct Answer: 2
+
+Explanation: The two blocks in the above diagram are in cascade. So, the equivalent block will be the product of these two blocks.G(s) = k (s - 2) /(s +1) (s^2 + 9s + 16)Now, H(s) = 1, as shown in the above block diagram. The characteristic equation will be: 1 + G(s) H(s)C(s) = 1 + [k (s - 2) / (s + 1) (s^2 + 9s + 16)] = 0= s^3 + 10s^2 + 25s + 16 + ks - 2k= s^3 + 10s^2 + s (25 + k) + 16 - 2kFor the above equation, we need to find the roots by creating the Routh's array table.The table is given below:For stability,16 - 2k > 016 > 2k8 > k or k < 810 (25 + k) - (16 -2k) /10 > 0250 + 10k -16 + 2k > 012k + 234 > 012k > -234k > -19.5From the two values of k, we can say that it lies between -19.5 < k < 8Hence, the correct answer is an option (c).
+
+ Index: 24
+Question: Find the number of asymptotes for the given open-loop transfer function of a unity feedback system:
+CodeBlock:
+
+Options:
+0 . 1
+1 . 0
+2 . 2
+3 . 3
+4 . 
+Correct Answer: 1
+
+Explanation: The number of asymptotes in a given system is equal to the number of branches approaching infinity. So, the formula to calculate the number of asymptotes is P -Z. Here, P and Z represent the poles and zeroes.We know that poles and zeroes are calculated by equating the denominator and numerator to zero. So, for the given open-loop transfer function, we get:P = 3Z = 3So, the number of zeroes at infinity = 3 - 3 = 0Hence, the correct answer is an option (b).
+
+ Index: 25
+Question: An open loop transfer function is given by G(s) = K (s + 1) / (s + 4)(s^2 + 3s + 2). It has:
+CodeBlock:
+
+Options:
+0 . one zero at infinity
+1 . three zeroes at infinity
+2 . two zeroes at infinity
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The formula to calculate a number of zeroes at infinity is P - Z. Here, P and Z are the number of poles and zeroes in a given transfer function.We know that poles are calculated by equating the denominator to zero, and zeroes are calculated by equating the numerator to zero. So, for the above given transfer function, we get:P = 3Z = 1So, the number of zeroes at infinity = 3 - 1 = 2Hence, the correct answer is an option (c).
+
+ Index: 26
+Question: The centroid in the root locus is a point where
+CodeBlock:
+
+Options:
+0 . the branches of the root locus intersect with the imaginary axis.
+1 . the branches of the root locus tend to infinity.
+2 . the asymptotes cross the real axis.
+3 . the branches of the root locus terminate on the real axis.
+4 . 
+Correct Answer: 2
+
+Explanation: Centroid is defined as a common point where all the asymptotes intersect on the real axis. The value of centroid is always real. But, it can be located either on the positive or negative real axis. 
+
+ Index: 27
+Question: Calculate the centroid for the given system:
+CodeBlock:
+
+Options:
+0 . - 1.47
+1 . -2
+2 . -2.66
+3 . -3
+4 . 
+Correct Answer: 3
+
+Explanation:We will first calculate the number of branches approaching infinity and then the asymptotes. With the help of asymptotes, we will calculate the value of centroid.The given transfer function of the system is G(s) = K / [(s + 1) (s + 4 + 4j) (s + 4 - 4j)].The number of asymptotes is equal to the number of branches approaching infinity. There are no zeroes but three poles.So, P - Z = 3Let's calculate the value of the poles by equating the denominator equal to zero. We get:Poles located at: -1,The angle of asymptotes is calculated by:Θ = (2q + 1) 180 / (P - Z)Here, q = 0, 1, 2…The number of asymptotes is equal to the number of branches approaching infinity.So, we will calculate the asymptotes at value 0, 1, and 2.For q = 0,Θ=180⁄3=60degrees For q = 1,Θ=(2+1) 180⁄3=180degreesFor q = 2,Θ=(4+1) 180⁄3=300degreesCentroid is defined as a common point where all the asymptotes intersect on the real axis.σ= / (P - Z)σ= (- 1 - 4 - 4 - 0) / 3σ=(-9)⁄3σ=-3Hence, the correct answer is an option (d).
+
+ Index: 28
+Question: The characteristic equation of the feedback control system is given as: s^3 + 4s^2 + (K + 5)s + K = 0
+CodeBlock:
+
+Options:
+0 . (-1.5, 0)
+1 . (-2, 0)
+2 . (-1, 0)
+3 . (2, 0)
+4 . 
+Correct Answer: 1
+
+Explanation:The given equation for the feedback control system is s^3 + 5s^2 + (K + 6)s + K = 0.The above equation can also be written as:s^3 + 5s^2 + Ks + 6s + K = 0s^3 + 5s^2 + 6s + K(s + 1) = 0s (s^2 + 5s + 6) + K(s + 1) = 01 + K(s + 1) / [s (s^2 + 5s + 6)] = 01 + K(s + 1) / s (s^2 + 2s + 3s + 6) = 01 + K(s + 1) / s (s + 2)(s + 3) = 0Now, we will calculate the value of centroid, which is equal to:σ= / (P - Z)Here, the number of poles and zeroes are 3 and 1.σ= [(0 - 2 - 3) + 1] / (3 - 1)σ=(-4)⁄2σ=-2Hence, the correct answer is option (b).
+
+ Index: 29
+Question: In a bode-plot of a unity feedback control system, the value of phase of G(jw) at the gain cross over frequency is -115 degrees. The phase margin of the system is:
+CodeBlock:
+
+Options:
+0 . 115 degrees
+1 . -57.5 degrees
+2 . -65 degrees
+3 . 65 degrees
+4 . 
+Correct Answer: 3
+
+Explanation: The phase margin can be calculated as 180 +Where,∅ is the phase of G(jw) at the gain cross over frequency.So, phase margin = 180 + (-115)= 180 - 115= 65 degreesHence, the correct answer is an option (d).
+
+ Index: 30
+Question: The gain margin of a second-order system is:
+CodeBlock:
+
+Options:
+0 . zero
+1 . infinite
+2 . one
+3 . two
+4 . 
+Correct Answer: 1
+
+Explanation: The gain margin indicates the additional gain provided to the system without affecting its stability.The total phase shift of a second-order system is approximately equal to 180 degrees, which leads to the infinite frequency. Thus, the gain margin is also infinite.Hence, the correct answer is an option (b).
+
+ Index: 31
+Question: Determine the phase cross-over frequency of the given open-loop transfer function:
+CodeBlock:
+
+Options:
+0 . 606 radians / second
+1 . - 1. 707 radians / second
+2 . 707 radians / second
+3 . - 0. 707 radians / second
+4 . 
+Correct Answer: 2
+
+Explanation: The given open-loop transfer function is: G(s) = 1 / s(s + 1) (2s + 1)The imaginary part of the system at phase cross over frequency is zero. Hence, we will equate the imaginary part to zero, as shown below:It means that the phase cross-over frequency to the system is 0.707 Radians/s.Hence, the correct answer is an option (c).
+
+ Index: 32
+Question: Determine the gain margin of the given open-loop feedback control system: G(s)H(s) = 1 / [(s + 1) ^3]
+CodeBlock:
+
+Options:
+0 . 2
+1 . 4
+2 . 8
+3 . 32
+4 . 
+Correct Answer: 2
+
+Explanation: The given open-loop feedback control system is: G(s)H(s) = 1 / [(s + 1) ^3]The phase angle for the cross-over frequency can be calculated by: -3 tan-1 ω=-180°We get the value of ω=√3 Now, the gain margin is the magnitude of the transfer function, as shown below:= 1 / |G(s)H(s)| = |(j√3+13|= 8Hence, the correct answer is an option (c).
+
+ Index: 33
+Question: The phase margin of the given system G(s) = 1 / [(s + 1) ^3] is: 
+CodeBlock:
+
+Options:
+0 . π
+1 . -π
+2 . 0
+3 . π/2
+4 . 
+Correct Answer: 0
+
+Explanation: The phase margin can be calculated as: 180 + ∅Where,∅ is the phase of G(jω) at the gain cross over frequency.We will first find the magnitude of the given system, as shown below:Hence, the correct answer is an option (a). 
+
+ Index: 34
+Question: The corner frequency in the Bode plot is:
+CodeBlock:
+
+Options:
+0 . the frequency at which bode plot slope is 0 db /decade.
+1 . the frequency at which bode plot slope is -10 db /decade.
+2 . the frequency at which the two asymptotes intersect.
+3 . the frequency at which the two asymptotes meet.
+4 . 
+Correct Answer: 3
+
+Explanation: The frequency at which the two asymptotes in the Bode plot meet is termed as corner frequency.Hence, the correct answer is an option (d). 
+
+ Index: 36
+Question: Determine the type and order of the given Nyquist plot:
+CodeBlock:
+
+Options:
+0 . 1, 2
+1 . 0, 1
+2 . 2, 1
+3 . 0, 2
+4 . 
+Correct Answer: 3
+
+Explanation: The given plot is of the type 1/ (ST1 + 1)(ST2 + 1)The above transfer function has order 2 and type 0.Hence, the correct answer is an option (d).
+
+ Index: 37
+Question: Calculate the damping ratio of the system whose phase margin is 45 degrees.
+CodeBlock:
+
+Options:
+0 . 1
+1 . 42
+2 . 5
+3 . 0
+4 . 
+Correct Answer: 1
+
+Explanation: The formula to calculate the damping ratio using the phase margin is:Damping Ratio = tan∅√cos ∅⁄2= ((tan45√cos45))⁄2= 0. 42Hence, the correct answer is an option (b).
+
+ Index: 38
+Question: The GM of a unity feedback system with the transfer function 1/ (s + 5)^3 is:
+CodeBlock:
+
+Options:
+0 . 10 db
+1 . 30 db
+2 . 60 db
+3 . 40 db
+4 . 
+Correct Answer: 2
+
+Explanation: The Phase margin can be calculated as:The gain margin (GM) = 20 log (1 / |G(s)H(s)|)At, s = jωWe get: (GM) = 60dBHence, the correct answer is an option (c).
+
+ Index: 39
+Question: The most powerful controller is:
+CodeBlock:
+
+Options:
+0 . pd controller
+1 . pi controller
+2 . pid controller
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The PID is the combination of proportional, integral, and derivate control modes. Such a combination makes it the most powerful controller.Hence, the correct answer is an option (c).
+
+ Index: 40
+Question: What will be the controller output for PD controller at t = 2s, if the error begins to change from 0 at the rate of 1.2% /s? The given parameters are Po = 50%, Kp = 4, and KD = 0.4.
+CodeBlock:
+
+Options:
+0 . 61.52%
+1 . 61.92%
+2 . 51.52%
+3 . 51.92%
+4 . 
+Correct Answer: 0
+
+Explanation: The error the rate of 1.2% per second c neb calculated as:e = 1.2% x 2 = 1.2/100 x 2 = 2.4%Now, let's calculate the Pout (controller output) = 4 (2.4%+ KD x 1.2%) + Po= 4 (2.4 / 100 + 0.4 x 1.2 /100) + 50/100= 4 x 2.88/100 + 50/100= 11.52/100 + 50/100= 61.52/100= 61.52%Hence, the correct answer is an option (a).
+
+ Index: 41
+Question: The controller required to handle fast process load changes is:
+CodeBlock:
+
+Options:
+0 . pd controller
+1 . pi controller
+2 . pid controller
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The Proportional Derivative controller is preferred to handle fast process load changes.Hence, the correct answer is an option (a).
+
+ Index: 43
+Question: The transfer function of a compensating network is in the form of (1 +aTs) / (1 + Ts). Find the value of 'a' if the given network is the phase-lag network.
+CodeBlock:
+
+Options:
+0 . between 0 and 1.
+1 . 0
+2 . 1
+3 . greater than 1
+4 . 
+Correct Answer: 0
+
+Explanation: The given transfer function is:(1 +aTs) / (1 + Ts)We will first calculate the poles and zeroes of the given transfer function.Here,Zero = -1/aTPole = -1/TThe pole in the given system is nearer to the jω axis (origin). The 0 will be far from the axis, such that the value of a < 1. It means that the value lies between 0 and 1.Hence, the correct answer is an option (a).
+
+ Index: 45
+Question: Find the phase shift provided by the lead compensator for a given transfer function G(s) = (1 + 6s)/ (1 + 2s)
+CodeBlock:
+
+Options:
+0 . 15 degrees
+1 . 30 degrees
+2 . 45 degrees
+3 . 60 degrees
+4 . 
+Correct Answer: 1
+
+Explanation: The phase shift provided by the lead compensator can be calculated using the formula:The standard transfer function of a lead compensator is represented as:(s +1/aT) / (s + 1/bT) Comparing the value of the given transfer function to the standard transfer function, we get:a = 1/6b = 1/2Putting the values of a and b in the phase shift formula:Hence, the correct answer is an option (b).
+
+ Index: 46
+Question: The following set of differential equations describes a linear second-order single input continuous-time system.
+CodeBlock:
+
+Options:
+0 . uncontrollable and unstable
+1 . controllable but unstable
+2 . controllable and stable
+3 . uncontrollable and stable
+4 . 
+Correct Answer: 1
+
+Explanation:We know,Here,The product of matrix A and B is, Thus, the rank of the system is 2.The determinant of the system is non-zero. Hence, the system is controllable.Now, we will check for stability.SI - A = 0The above matrix can be written in the form of an equation:s^2 + 3s -6 = 0Now, we will find the roots using Routh's array table, as shown below:There are two sign changes in the first column. Thus, the system is unstable.Hence, the correct answer is an option (b).
+
+ Index: 47
+Question: The sum of the Eigenvalues in the given matrix is:
+CodeBlock:
+
+Options:
+0 . the sum of all non-zero components in the matrix
+1 . sum of the elements of any row
+2 . sum of the elements of any column
+3 . sum of the principal diagonal elements
+4 . 
+Correct Answer: 3
+
+Explanation: The sum of Eigenvalue of a given matrix is generally called the trace of that matrix. The trace of a matrix is the sum of the diagonal elements of a matrix.Hence, the correct answer is an option (d).
+
+ Index: 48
+Question: Consider a LTI system described by the given differential equation:
+CodeBlock:
+
+Options:
+0 . 2, 1
+1 . 2, -1
+2 . -2, 1
+3 . -2, -1
+4 . 
+Correct Answer: 3
+
+Explanation: Let x1(t) = a(t) and x2(t) = ẋ1Thus, the given characteristic equation can be written as:ẋ2 +3x2 + 2x1 = r(t)The matrix representation will be:Where, A is the matrix:We know the characteristic equation to calculate Eigenvalue is |SI - A| = 0The equation thus formed is:s (s + 3) + 2 = 0s^2 + 3s + 2 = 0s^2 + 2s + s + 2 = 0 (factorization to find Eigenvalues)(s + 2)(s + 1) = 0S = -2, -1Thus, the required Eigenvalues are -2 and -1.Hence, the correct answer is an option (d).
+
+ Index: 49
+Question: The signal flow graph shown in the figure has:
+CodeBlock:
+
+Options:
+0 . forward path = 2, loops = 4, and non-touching loops = 0
+1 . forward path = 3, loops = 4, and non-touching loops = 0
+2 . forward path = 3, loops = 3, and non-touching loops = 0
+3 . forward path = 2, loops = 4, and non-touching loops = 2
+4 . 
+Correct Answer: 2
+
+Explanation: Forward path is the path from the input to the output node in the given signal flow graph. Here, there are three forward paths.The number of loops in the given signal flow graph is three, as shown in the below image:The non-touching loops are considered as non-touching when there are no common nodes between them. There are no non-touching loops in the given signal flow graph. It is because all the loops touch each other.Hence, the correct answer is an option (c).
+
+ Index: 50
+Question: Arrange the following set of statements in order.
+CodeBlock:
+
+Options:
+0 . 1, 2, 3, 4, 5
+1 . 2, 1, 5, 3, 4
+2 . 1, 3, 2, 5, 4
+3 . 2, 1, 4, 3, 5
+4 . 
+Correct Answer: 1
+
+Explanation: The correct order to find the transfer function of the free body diagram is given below:The free-body diagram is created by drawing each mass separately and marking all the forces acting on the node. Write one differential equation for each of the free body diagram and take the Laplace transform and convert the differential equations into the algebraic equations. Rearrange the equations in the s-domain to find the output and input ratio by eliminating the unwanted variables. In this way, we can easily calculate the transfer function of the free body diagram.Hence, the correct answer is an option (b).
+
+]

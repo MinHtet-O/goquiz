@@ -1,0 +1,701 @@
+&[Index: 0
+Question: Where the word "psychology" does come from?
+CodeBlock:
+
+Options:
+0 . italian
+1 . greek
+2 . latin
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The word psychology derives from the two Greek words that are psyche that means "life", "soul", or "mind", and logia means "the study of ". So, it simply means that psychology is the study of the mind.
+
+ Index: 1
+Question: Psychology is said to be the scientific study of _____ and ______.
+CodeBlock:
+
+Options:
+0 . behavior, mental processes
+1 . mental illness, mental health
+2 . physical states, mental states
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Psychology explains the mental processes and behavior of individuals. It is the scientific study of behavior and mental processes. It involves the study of thought, behavior, mind, and the subconscious neurological bases of behavior.
+
+ Index: 2
+Question: Psychology is a -
+CodeBlock:
+
+Options:
+0 . biological science
+1 . physical science
+2 . social science
+3 . natural science
+4 . 
+Correct Answer: 2
+
+Explanation: In psychology, there is a lot to deal with social cognition. It deals with the human mind and behavior. In psychology, there is a study of social behaviors, human development, and emotions. That's why psychology is considered as a social science. It is different from the other social sciences such as economics, anthropology, sociology, and political science. 
+
+ Index: 3
+Question: Who is the father of Experimental psychology?
+CodeBlock:
+
+Options:
+0 . wilhelm wundt
+1 . g. jung
+2 . sigmund freud
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Wilhelm Maximilian Wundt is acclaimed as the father of experimental psychology. He was a philosopher, professor, and German psychologist.
+
+ Index: 4
+Question: Which of the following part of the brain sends signals "alert" to the higher centers in response to incoming messages?
+CodeBlock:
+
+Options:
+0 . reticular formation
+1 . hippocampus
+2 . limbic system
+3 . amygdala
+4 . 
+Correct Answer: 0
+
+Explanation: Reticular formation is a part of the brain that sends signals "alert" to the higher centers in response to incoming messages. It is a widespread network of neurons.
+
+ Index: 5
+Question: Psychophysics is a study of -
+CodeBlock:
+
+Options:
+0 . perception illness
+1 . movement perception
+2 . psychological perception or physical stimuli
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Psychophysics can be defined as the scientific study of the relation between stimulus and sensation.
+
+ Index: 6
+Question: Which of the following is an example of the negative attitude towards people?
+CodeBlock:
+
+Options:
+0 . stereotype
+1 . prototype
+2 . prejudice
+3 . discrimination
+4 . 
+Correct Answer: 2
+
+Explanation: Prejudice is said to be an idea, preconception, or belief about something. Prejudice can be defined as an irrational attitude of hostility directed against a group, an individual, or their supposed characteristics. It is an example of a negative attitude towards people.
+
+ Index: 7
+Question: Which of the following part of the brain is responsible for transferring short-term memory to long-term memory?
+CodeBlock:
+
+Options:
+0 . cerebellum
+1 . hippocampus
+2 . amygdala
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Hippocampus is a region of the brain which is primarily associated with memory. It is derived from the Greek word hippokampos (where hippo means 'horse' and kampos means 'sea horse') as the shape of its structure is similar to the sea horse. It plays an important role in the consolidation of information from short-term memory to long-term memory.
+
+ Index: 8
+Question: From the list of below options, which does not contribute in memory?
+CodeBlock:
+
+Options:
+0 . some rest after learning
+1 . gender
+2 . goal behind learning
+3 . interesting learning material
+4 . 
+Correct Answer: 1
+
+Explanation: None.
+
+ Index: 9
+Question: Different people often react differently to the same situations. In psychology, it is referred to as -
+CodeBlock:
+
+Options:
+0 . nativism
+1 . individual differences
+2 . multiple determinants
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Individual differences are the less or more enduring psychological characteristics that discriminate one person from another. It helps to define the individuality of each person.
+
+ Index: 10
+Question: Which of the following Greek philosopher believed that knowledge is acquired through learning and experience?
+CodeBlock:
+
+Options:
+0 . aristotle
+1 . plato
+2 . archimedes
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Aristotle was a Greek philosopher who believed that knowledge is acquired through learning and experience.
+
+ Index: 11
+Question: Which of the following is a belief that the mind is fundamentally different from the body?
+CodeBlock:
+
+Options:
+0 . mind-body dualism
+1 . specialism
+2 . centralism
+3 . mindism
+4 . 
+Correct Answer: 0
+
+Explanation: Mind-body Dualism is a view that both body and mind exist as different entities. It is a philosophical view that denotes mind and body are distinct and separable.
+
+ Index: 12
+Question: Which of the following is another term for reinforcement?
+CodeBlock:
+
+Options:
+0 . reward
+1 . condition
+2 . response
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Reward is another term for reinforcement. Reinforcement Learning is a feedback-based Machine learning technique in which an agent learns to behave in an environment by performing the actions and seeing the results of actions. For each good action, the agent gets positive feedback or reward, and for each bad action, the agent gets negative feedback or penalty. As a positive reward, the agent gets a positive point, and as a penalty, it gets a negative point.
+
+ Index: 13
+Question: Which of the following is the idea by which we can access the personality of someone by studying their face?
+CodeBlock:
+
+Options:
+0 . physiognomy
+1 . phrenology
+2 . physiology
+3 . somatology
+4 . 
+Correct Answer: 0
+
+Explanation: Physiognomy is a practice of accessing someone's personality by their outer appearance, mainly the face. It is an idea that it is possible to assess the personality of someone from their facial characteristics.
+
+ Index: 14
+Question: People lost their touch with reality when they are ______
+CodeBlock:
+
+Options:
+0 . psychopathic
+1 . psychotic
+2 . manic
+3 . neurotic
+4 . 
+Correct Answer: 1
+
+Explanation: Psychotic depression can cause someone to hear or see things that are not really there. Someone who is psychotic experiences delusions (or false beliefs) or hallucinations (false sights or sounds) as out of touch with reality.
+
+ Index: 15
+Question: The process of using psychological methods by a trained psychologist for helping people with psychological problems is called as -
+CodeBlock:
+
+Options:
+0 . psychoanalysis
+1 . psychotherapy
+2 . psychiatry
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Psychotherapy is also called talking therapy or psychological therapy. It is a medical term for treating mental health problems by talking with psychologists, psychiatrists, or other mental health providers. Psychotherapy can be defined as the treatment of mind disorders or personality via psychological methods.
+
+ Index: 16
+Question: The term used to refer the first two weeks of life is -
+CodeBlock:
+
+Options:
+0 . the period of infancy
+1 . the neonatal stage
+2 . early childhood
+3 . preoperational stage
+4 . 
+Correct Answer: 1
+
+Explanation: A neonate is called as the newborn. A neonate is a baby who is 4 weeks old or younger. The first four weeks of a child's life is the neonatal period.
+
+ Index: 17
+Question: Which of the following is a part of the psychosocial domain?
+CodeBlock:
+
+Options:
+0 . judgment
+1 . style of behaving
+2 . memory
+3 . motor skills
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 18
+Question: The term used for describing a child's one-word utterances is -
+CodeBlock:
+
+Options:
+0 . holophrases
+1 . telegraphic speech
+2 . under extensions
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: When the child is about twelve months old, he/she start to say some words, usually single words. These single words are referred to as Holophrases. As an instance, a child says 'mine' to mean 'this toy is mine', and like that, there are more single words a child speaks when he/she begin to talk. 
+
+ Index: 19
+Question: Which of the following is not a diagnosable sleep disorder?
+CodeBlock:
+
+Options:
+0 . insomnia
+1 . somniloquy
+2 . somnambulism
+3 . sleep terror
+4 . 
+Correct Answer: 1
+
+Explanation: Somniloquy or sleep talking is a kind of sleep disorder. It refers to talking aloud during sleep. A person who sleeps talks is unaware of the fact that he/she talks while sleeping and also unaware about what he/she is exactly talking about. It is very common and usually not considered a medical problem.
+
+ Index: 20
+Question: Intelligence can be defined as -
+CodeBlock:
+
+Options:
+0 . knowledge of great many facts
+1 . getting good grades in school
+2 . ability to think abstractly and learn from experience
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 21
+Question: Which of the following controls the reflexes?
+CodeBlock:
+
+Options:
+0 . hypothalamus
+1 . spinal cord
+2 . frontal lobe
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The spinal cord is a complex organization of nerve cells. It is responsible for sensation and movement. The spinal cord is also a center to coordinate multiple reflexes and contains reflex arcs that independently control reflexes.
+
+ Index: 22
+Question: Which of the following is controlled by the thyroid gland?
+CodeBlock:
+
+Options:
+0 . glucose
+1 . emotions
+2 . metabolism
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The term metabolism describes all chemical reactions in our body. These chemical reactions keep the body alive and functioning. The thyroid gland releases hormones that control the metabolism. The thyroid gland regulates metabolism by releasing hormones into the bloodstream.
+
+ Index: 23
+Question: Which of the following is the ability to sense the movement and position of our body parts?
+CodeBlock:
+
+Options:
+0 . proprioprediction
+1 . proprioliction
+2 . proprioception
+3 . proprioaction
+4 . 
+Correct Answer: 2
+
+Explanation: Proprioception is also called as kinesthesia. It is the ability of the body to sense its location, movements, and parts. Examples of Proprioception include the ability to kick or walk without looking at the feet or being able to touch the nose with closed eyes.
+
+ Index: 24
+Question: The range of IQ in the people with moderate mental retardation is -
+CodeBlock:
+
+Options:
+0 . 35 to 54
+1 . 10 to 19
+2 . 20 to 34
+3 . 55 to 70
+4 . 
+Correct Answer: 0
+
+Explanation: IQ stands for Intelligence Quotient. It is a parameter that is used to identify the intelligence of a person. These parameters can vary from situation to situation. Moderate mental retardation is defined as the significantly subaverage intellectual ability. The range of IQ in people with moderate mental retardation is 35 - 40 to 50 - 55.
+
+ Index: 25
+Question: The method of gathering information about the brain that indicates the overall activity of the brain is called as -
+CodeBlock:
+
+Options:
+0 . positron emission tomography
+1 . electrical stimulation
+2 . electroencephalogram
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Positron emission tomography or PET is a technique for imaging the brain in action. The PET images show the active brain regions. Positron emission tomography technique is a scanning method that enables doctors and psychologists to study the brain without surgery. 
+
+ Index: 26
+Question: Suppose a person met with an accident, and later, he turned into less concerned, irresponsible, and impulsive with the consequences of his actions. It happened because the person must have suffered damage in -
+CodeBlock:
+
+Options:
+0 . occipital lobe
+1 . parietal lobe
+2 . frontal lobe
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The frontal lobe is a part of the brain. It controls the important cognitive skills of humans, such as memory, language, problem-solving, emotional expression, and others. The symptoms of damaging the frontal lobe are changes in behavior, reduced creativity, reduced sense of taste and smell, inability to problem-solve or organize tasks, depression, etc.
+
+ Index: 27
+Question: Who started the scientific study of creativity?
+CodeBlock:
+
+Options:
+0 . mednick
+1 . guilford
+2 . galton
+3 . torrance
+4 . 
+Correct Answer: 1
+
+Explanation: Creativity is the ability to generate innovative ideas and manifests them from thought to reality. J.P. Guilford (Joy Paul Guilford) was an American psychologist. He is best remembered for the psychometric study of human intelligence. 
+
+ Index: 28
+Question: Amit made a to-do list, but he mistakenly left it at home while going out for his initial activity. When he tried to remember it, he only remembers the beginning of the list and the end of the list, but he did not remember the things in the middle. The above situation is an example of -
+CodeBlock:
+
+Options:
+0 . flashbulb memory
+1 . serial position effect
+2 . encoding specificity effects
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The serial-position effect can be defined as a tendency in which the accuracy of recalling the first and last items in the list is greater, and the accuracy of recalling the items in the middle is worst.The Serial-position effect involves two concepts that are the primacy effect and the recency effect. In the primacy effect, the accuracy of recalling the items at the beginning of the list is greater than the middle items. In the recency effect, the accuracy of recalling the items at the end of the list is greater than the items in the middle.
+
+ Index: 29
+Question: Who coined the term serial-position effect?
+CodeBlock:
+
+Options:
+0 . herman ebbinghaus
+1 . sigmund freud
+2 . wilhelm wundt
+3 . sigmund freud
+4 . 
+Correct Answer: 0
+
+Explanation: The serial-position effect was first discovered by Herman Ebbinghaus. He was an American psychologist. The serial-position effect can be defined as a tendency in which the accuracy of recalling the first and last items in the list is greater, and the accuracy of recalling the items in the middle is worst.
+
+ Index: 30
+Question: Suppose you enter in a room and notice a disgusting smell on your first walk into the room, but you stop noticing it when you stay there for a while. What does it illustrate?
+CodeBlock:
+
+Options:
+0 . selective attention
+1 . synesthesia
+2 . sensory adaptation
+3 . sensory attention
+4 . 
+Correct Answer: 2
+
+Explanation: Sensory adaptation occurs when the sensory receptors become exposed to stimuli for a long period. It refers to a reduction in sensitivity to a stimulus after constant exposure to it. It can occur with our basic senses. There are multiple examples of sensory adaptation in everyday life. As an instance, people who smoke no longer notice the smell of cigarette smoke.
+
+ Index: 31
+Question: Who is the author of the book "principles of psychology"?
+CodeBlock:
+
+Options:
+0 . charles darwin
+1 . sigmund freud
+2 . william james
+3 . wilhelm wundt
+4 . 
+Correct Answer: 2
+
+Explanation: In 1890, William James published the first work about brain activity patterns. William James was an American philosopher and psychologist. The principles of psychology is a book about psychology published in 1890 and written by an American psychologist, William James.
+
+ Index: 32
+Question: Which of the following method is used for memorizing a poem?
+CodeBlock:
+
+Options:
+0 . serial memorizing
+1 . syntactic memorizing
+2 . distributed practice
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Distributed practice is also known as the spaced practice or spaced repetition. It is a learning strategy where practice occurs in various short sessions over a long period of time. There is an amount of space between every session. 
+
+ Index: 33
+Question: The act in which people help someone without any reason, motive, or we can say personal interest is known as -
+CodeBlock:
+
+Options:
+0 . nurturance
+1 . social obligation
+2 . prosocial behavior
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Prosocial behavior is a behavior that benefits society or other people and including a wide range of actions such as donating, sharing, helping, and co-operating. Obeying the rules and adaptation of socially accepted behaviors like paying for groceries or stopping at the stop sign are also regarded as Prosocial behavior.
+
+ Index: 34
+Question: If a student studies and practices hard with enjoyment and interest, it is known as - 
+CodeBlock:
+
+Options:
+0 . cognitive engagement
+1 . healthy adjustment
+2 . behavioral engagement
+3 . emotional engagement
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 35
+Question: For how many seconds, short-term memory holds information?
+CodeBlock:
+
+Options:
+0 . 30 seconds or less
+1 . 50 seconds
+2 . more than 50 seconds
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Short-term memory is also known as primary or active memory. Most of the information kept in short-term memory is stored approx for 20 to 30 seconds.
+
+ Index: 36
+Question: Who is the father of psychodynamic theory?
+CodeBlock:
+
+Options:
+0 . charles darwin
+1 . sigmund freud
+2 . wilhelm wundt
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Sigmund Freud developed a set of theories that have formed the basis of the psychodynamic approach. There are some assumptions in psychodynamic theory, such as behavior and feelings of an adult, including the mental health issues are rooted in childhood experiences, etc.
+
+ Index: 37
+Question: Who is the first woman awarded a Ph.D. in psychology?
+CodeBlock:
+
+Options:
+0 . melanie klein
+1 . karen horney
+2 . anna freud
+3 . margaret floy washburn
+4 . 
+Correct Answer: 3
+
+Explanation: Margaret Floy Washburn was born in New York City on 25th July 1871. She earned her master's degree in 1893, and after one year, she made history as the first woman awarded with Ph.D. in psychology.
+
+ Index: 38
+Question: Which of the following branch of psychology concerned with the study of animal behavior?
+CodeBlock:
+
+Options:
+0 . comparative psychology
+1 . differential psychology
+2 . social psychology
+3 . abnormal psychology
+4 . 
+Correct Answer: 0
+
+Explanation: Comparative psychology is the branch of psychology concerned with the study of animal behavior. It utilizes a comparative method to study animal behavior.
+
+ Index: 39
+Question: In India, first psychological laboratory was established at -
+CodeBlock:
+
+Options:
+0 . delhi university
+1 . bombay university
+2 . calcutta university
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In India, the first psychology laboratory and psychology department was established in 1916 at Calcutta University. It is the first independent dept. of applied psychology in India. This department was established under the leadership of Dr. N.N. Sen Gupta.Calcutta University is located in Kolkata, WEST BENGAL, INDIA. It was established on 24th January 1857.
+
+ Index: 40
+Question: In which year the first psychology department started in the dept. of philosophy at Calcutta University?
+CodeBlock:
+
+Options:
+0 . 1907
+1 . 1890
+2 . 1916
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In India, the first psychology laboratory and psychology department was established in 1916 at Calcutta University. It is the first independent dept. of applied psychology in India.
+
+ Index: 41
+Question: Phrenologists tried to find out the personality of someone by -
+CodeBlock:
+
+Options:
+0 . feeling a person's skull
+1 . reading the horoscope of the person
+2 . looking at the hands of the person
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Phrenology is the study of the shape and size of people's head in order to find out the abilities and character. Phrenologists are those who claim to be able to read the character from the shape of a skull. 
+
+ Index: 42
+Question: In which theory the age-related changes in intelligence are best explained?
+CodeBlock:
+
+Options:
+0 . jensen's theory
+1 . sternberg's theory
+2 . cattell's theory
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 43
+Question: Study of qualities of a person is called as the -
+CodeBlock:
+
+Options:
+0 . nomothetic approach
+1 . idiographic approach
+2 . general approach
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The word Idiographic comes from the Greek word 'idios', which means private or own. In psychology, the idiographic approach describes the study of an individual. 
+
+ Index: 44
+Question: Who is the founder of the "Individual Psychology"?
+CodeBlock:
+
+Options:
+0 . alfred adler
+1 . alfred binet
+2 . david hull
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Alfred Adler was the founder of the school of individual psychology. He was an Austrian medical doctor, psychotherapist. Individual psychology does not mean to focus on an individual.
+
+ Index: 45
+Question: Which of the following is the overt behavior?
+CodeBlock:
+
+Options:
+0 . do each and every thing
+1 . a person perform what he/she sense
+2 . a person perform what he/she see
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Overt behaviors are directly observable, like running, blinking, scratching, etc., Whereas covert behavior includes private events such as imagining or thinking.
+
+ Index: 46
+Question: Which of the following are the symptoms of schizophrenia?
+CodeBlock:
+
+Options:
+0 . dizziness
+1 . deafness
+2 . hallucination, delusion
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: When a person sees images or something that is not present is termed as a hallucination. Delusions are false beliefs that conflict with reality. Someone who is psychotic experiences delusions (or false beliefs) or hallucinations (false sights or sounds) as out of touch with reality.
+
+ Index: 47
+Question: The single factor theory of intelligence was given by -
+CodeBlock:
+
+Options:
+0 . alfred adler
+1 . alfred binet
+2 . david hull
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The single factor theory of intelligence was given by Alfred Binet.
+
+ Index: 48
+Question: The feeling of tension is known to be -
+CodeBlock:
+
+Options:
+0 . anxiety
+1 . depression
+2 . panic
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 49
+Question: Which of the following facial expression is recognized universally?
+CodeBlock:
+
+Options:
+0 . raised eyebrows
+1 . pursed lips
+2 . smiling
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Everyone wants to talk to people who have a positive attitude, good behavior, and a smile on their face. People attract to such personalities. It helps to gain respect and acceptance in society, the workplace, school, or any organization.
+
+]

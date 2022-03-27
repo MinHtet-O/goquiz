@@ -1,0 +1,49 @@
+Second pq question text found category java-mcq , index 38 
+Second pq question text found category java-mcq , index 43 
+Invalid Answer Options  statistics-mcq , index 12
+Invalid Correct Answer  python-mcq-part-2 , index 41
+Invalid Correct Answer  reasoning-mcq , index 15
+Invalid Correct Answer  reasoning-mcq , index 16
+Invalid Answer Options  reasoning-mcq , index 17
+Invalid Answer Options  reasoning-mcq , index 18
+Invalid Answer Options  reasoning-mcq , index 19
+Invalid Correct Answer  reasoning-mcq , index 23
+Invalid Correct Answer  reasoning-mcq , index 24
+Invalid Correct Answer  reasoning-mcq , index 30
+Second pq question text found category reasoning-mcq , index 31 
+Invalid Answer Options  reasoning-mcq , index 33
+Invalid Answer Options  reasoning-mcq , index 34
+Invalid Correct Answer  software-engineering-mcq , index 13
+Invalid Answer Options  software-engineering-mcq , index 26
+Invalid Answer Options  control-system-mcq , index 6
+Invalid Correct Answer  control-system-mcq , index 35
+Invalid Answer Options  control-system-mcq , index 42
+Invalid Answer Options  control-system-mcq , index 44
+Invalid Answer Options  data-structure-mcq , index 59
+Invalid Answer Options  dbms-mcq , index 7
+Second pq question text found category c-language-mcq , index 2 
+Second pq question text found category c-language-mcq , index 9 
+Second pq question text found category c-language-mcq , index 11 
+Second pq question text found category c-language-mcq , index 33 
+Second pq question text found category c-language-mcq , index 50 
+Second pq question text found category c-language-mcq , index 52 
+Second pq question text found category c-language-mcq , index 54 
+Invalid Answer Options  html-mcq , index 36
+Invalid Correct Answer  computer-fundamental-mcq , index 40
+Invalid Answer Options  cpp-mcq , index 66
+Invalid Correct Answer  soft-computing-mcq , index 17
+Invalid Correct Answer  soft-computing-mcq , index 18
+Invalid Correct Answer  soft-computing-mcq , index 19
+Invalid Answer Options  jdbc-mcq , index 3
+Invalid Correct Answer  jdbc-mcq , index 34
+Invalid Correct Answer  advanced-data-structure-mcq , index 25
+Invalid Correct Answer  javascript-mcq , index 3
+Invalid Answer Options  javascript-mcq , index 55
+Invalid Answer Options  javascript-mcq , index 112
+Invalid Correct Answer  javascript-mcq , index 119
+Invalid Correct Answer  cpp-mcq-part-2 , index 22
+Invalid Correct Answer  digital-signal-processing-mcq , index 19
+Invalid Correct Answer  digital-signal-processing-mcq , index 27
+Invalid Correct Answer  digital-signal-processing-mcq , index 42
+Invalid Answer Options  electrical-mcq , index 59
+Invalid Image URL https://static.javatpoint.com/blog/images/power-electronics-mcq-q34.png  for category  power-electronics-mcq

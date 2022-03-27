@@ -1,0 +1,841 @@
+&[Index: 0
+Question: In which of the following, a person is constantly followed/chased by another person or group of several peoples?
+CodeBlock:
+
+Options:
+0 . phishing
+1 . bulling
+2 . stalking
+3 . identity theft
+4 . 
+Correct Answer: 2
+
+Explanation: In general, Stalking refers to continuous surveillance on the target (or person) done by a group of people or by the individual person.Cyber Stalking is a type of cybercrime in which a person (or victim) is being followed continuously by another person or group of several people through electronic means to harass the victim. We can also say that the primary goal of Stalking is to observe or monitor each victim's actions to get the essential information that can be further used for threatening, harassing, etc.
+
+ Index: 1
+Question: Which one of the following can be considered as the class of computer threats?
+CodeBlock:
+
+Options:
+0 . dos attack
+1 . phishing
+2 . soliciting
+3 . both a and c
+4 . 
+Correct Answer: 0
+
+Explanation: A dos attack refers to the denial of service attack. It is a kind of cyber attack in which one tries to make a machine (or targeted application, website etc.) unavailable for its intended users. It is usually accomplished by disturbing the service temporarily or indefinitely of the target connected to the internet.
+
+ Index: 2
+Question: Which of the following is considered as the unsolicited commercial email?
+CodeBlock:
+
+Options:
+0 . virus
+1 . malware
+2 . spam
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: It is a type of unsolicited email which is generally sent in bulk to an indiscriminate recipient list for commercial purpose. Generally, these types of mail are considered unwanted because most users don't want these emails at all.
+
+ Index: 3
+Question: Which of the following usually observe each activity on the internet of the victim, gather all information in the background, and send it to someone else?
+CodeBlock:
+
+Options:
+0 . malware
+1 . spyware
+2 . adware
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: It is generally defined as the software designed to enter the target's device or computer system, gather all information, observe all user activities, and send this information to a third party. Another important thing about the spyware is that it works in the background sends all information without your permission.
+
+ Index: 4
+Question: _______ is a type of software designed to help the user's computer detect viruses and avoid them.
+CodeBlock:
+
+Options:
+0 . malware
+1 . adware
+2 . antivirus
+3 . both b and c
+4 . 
+Correct Answer: 2
+
+Explanation: An antivirus is a kind of software that is specially designed to help the user's computer to detect the virus as well as to avoid the harmful effect of them. In some cases where the virus already resides in the user's computer, it can be easily removed by scanning the entire system with antivirus help. 
+
+ Index: 5
+Question: Which one of the following is a type of antivirus program?
+CodeBlock:
+
+Options:
+0 . quick heal
+1 . mcafee
+2 . kaspersky
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Antivirus is a kind of software program that helps to detect and remove viruses form the user's computer and provides a safe environment for users to work on. There are several kinds of antivirus software are available in the market, such as Kaspersky, Mcafee, Quick Heal, Norton etc., so the correct answer is D.
+
+ Index: 6
+Question: It can be a software program or a hardware device that filters all data packets coming through the internet, a network, etc. it is known as the_______:
+CodeBlock:
+
+Options:
+0 . antivirus
+1 . firewall
+2 . cookies
+3 . malware
+4 . 
+Correct Answer: 1
+
+Explanation: There are two types of firewalls - software programs and hardware-based firewalls. These types of firewalls filter each and every data packet coming from the outside environment such as network; internet so that any kind of virus would not be able to enter in the user's system. In some cases where the firewall detects any suspicious data packet, it immediately burns or terminates that data packet. In short, we can also say that it is the first line of defense of the system to avoid several kinds of viruses.
+
+ Index: 7
+Question: Which of the following refers to stealing one's idea or invention of others and use it for their own benefits?
+CodeBlock:
+
+Options:
+0 . piracy
+1 . plagiarism
+2 . intellectual property rights
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The stealing ideas or the invention of others and using them for their own profits can also be defined in several different ways, such as piracy, intellectual property rights, and plagiarism.
+
+ Index: 8
+Question: Read the following statement carefully and find out whether it is correct about the hacking or not?
+CodeBlock:
+
+Options:
+0 . no, in any situation, hacking cannot be legal
+1 . it may be possible that in some cases, it can be referred to as a legal task
+2 . 
+3 . 
+4 . 
+Correct Answer: 1
+
+Explanation: Nowadays, hacking is not just referred to as an illegal task because there are some good types of hackers are also available, known as an ethical hacker. These types of hackers do not hack the system for their own purposes, but the organization hires them to hack their system to find security falls, loop wholes. Once they find the loop whole or venerability in the system, they get paid, and the organization removes that weak points.
+
+ Index: 9
+Question: Which of the following refers to exploring the appropriate, ethical behaviors related to the online environment and digital media platform? 
+CodeBlock:
+
+Options:
+0 . cyber low
+1 . cyberethics
+2 . cybersecurity
+3 . cybersafety
+4 . 
+Correct Answer: 1
+
+Explanation: Cyber Ethics refers to exploring the appropriate, ethical behaviors related to online environments and digital media.
+
+ Index: 10
+Question: Which of the following refers to the violation of the principle if a computer is no more accessible?
+CodeBlock:
+
+Options:
+0 . access control
+1 . confidentiality
+2 . availability
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Availability refers to the violation of principle, if the system is no more accessible.
+
+ Index: 11
+Question: Which one of the following refers to the technique used for verifying the integrity of the message? 
+CodeBlock:
+
+Options:
+0 . digital signature
+1 . decryption algorithm
+2 . protocol
+3 . message digest
+4 . 
+Correct Answer: 3
+
+Explanation: Message Digest is a type of cryptographic hash function that contains a string of digits that are created by the one-way hashing formula. It is also known as a type of technique used for verifying the integrity of the message, data or media, and to detect if any manipulations are made. Therefore the correct answer is D.
+
+ Index: 12
+Question: Which one of the following usually used in the process of Wi-Fi-hacking?
+CodeBlock:
+
+Options:
+0 . aircrack-ng
+1 . wireshark
+2 . norton
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The Aircrack-ng is a kind of software program available in the Linux-based operating systems such as Parrot, kali etc. it is usually used by users while hacking the Wi-Fi-networks or finding vulnerabilities in the network to capture or monitor the data packets traveling in the network.
+
+ Index: 13
+Question: Which of the following port and IP address scanner famous among the users?
+CodeBlock:
+
+Options:
+0 . cain and abel
+1 . angry ip scanner
+2 . snort
+3 . ettercap
+4 . 
+Correct Answer: 1
+
+Explanation: Angry IP Scanner is a type of hacking tool that is usually used by both white hat and black hat types of hackers. It is very famous among the users because it helps to find the weaknesses in the network devices.
+
+ Index: 14
+Question: In ethical hacking and cyber security, there are _______ types of scanning:
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3
+3 . 4
+4 . 
+Correct Answer: 2
+
+Explanation: There are usually three types of scanning in ethical hacking and cyber security. Therefore the correct answer is C.
+
+ Index: 15
+Question: Which of the following is not a type of scanning?
+CodeBlock:
+
+Options:
+0 . xmas tree scan
+1 . cloud scan
+2 . null scan
+3 . syn stealth
+4 . 
+Correct Answer: 1
+
+Explanation: Among the following-given options, the Cloud Scan is one, and only that is not a type of scanning.
+
+ Index: 16
+Question: In system hacking, which of the following is the most crucial activity?
+CodeBlock:
+
+Options:
+0 . information gathering
+1 . covering tracks
+2 . cracking passwords
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: While trying to hack a system, the most important thing is cracking the passwords.
+
+ Index: 17
+Question: Which of the following are the types of scanning?
+CodeBlock:
+
+Options:
+0 . network, vulnerability, and port scanning
+1 . port, network, and services
+2 . client, server, and network
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The vulnerability, port, and network scanning are three types of scanning.
+
+ Index: 18
+Question: Which one of the following is actually considered as the first computer virus?
+CodeBlock:
+
+Options:
+0 . sasser
+1 . blaster
+2 . creeper
+3 . both a and c
+4 . 
+Correct Answer: 2
+
+Explanation: The Creeper is called the first computer virus as it replicates itself (or clones itself) and spread from one system to another. It is created by Bob Thomas at BBN in early 1971 as an experimental computer program.
+
+ Index: 19
+Question: To protect the computer system against the hacker and different kind of viruses, one must always keep _________ on in the computer system.
+CodeBlock:
+
+Options:
+0 . antivirus
+1 . firewall
+2 . vlc player
+3 . script
+4 . 
+Correct Answer: 1
+
+Explanation: It is essential to always keep the firewall on in our computer system. It saves the computer system against hackers, viruses, and installing software form unknown sources. We can also consider it the first line of defense of the computer system.
+
+ Index: 20
+Question: Code Red is a type of ________
+CodeBlock:
+
+Options:
+0 . an antivirus program
+1 . a photo editing software
+2 . a computer virus
+3 . a video editing software
+4 . 
+Correct Answer: 2
+
+Explanation: Cod Red is a type of Computer virus that was first discovered on 15 July in 2001 as it attacks the servers of Microsoft. In a couple of next days, it infects almost 300,000 servers.
+
+ Index: 21
+Question: Which of the following can be considered as the elements of cyber security?
+CodeBlock:
+
+Options:
+0 . application security
+1 . operational security
+2 . network security
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Application security, operational security, network security all are the main and unforgettable elements of Cyber Security. Therefore the correct answer is D.
+
+ Index: 22
+Question: Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system?
+CodeBlock:
+
+Options:
+0 . ddos and derive-by downloads
+1 . malware & malvertising
+2 . phishing and password attacks
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: DDoS (or denial of service), malware, drive-by downloads, phishing and password attacks are all some common and famous types of cyber-attacks used by hackers.
+
+ Index: 23
+Question: Which one of the following is also referred to as malicious software?
+CodeBlock:
+
+Options:
+0 . maliciousware
+1 . badware
+2 . ilegalware
+3 . malware
+4 . 
+Correct Answer: 3
+
+Explanation: Malware is a kind of short program used by the hacker to gain access to sensitive data/ information. It is used to denote many kinds of viruses, worms, Trojans, and several other harmful programs. Sometimes malware is also known as malicious software.
+
+ Index: 24
+Question: Hackers usually used the computer virus for ______ purpose.
+CodeBlock:
+
+Options:
+0 . to log, monitor each and every user's stroke
+1 . to gain access the sensitive information like user's id and passwords
+2 . to corrupt the user's data stored in the computer system
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: In general, hackers use computer viruses to perform several different tasks such as to corrupt the user's data stored in his system, to gain access the important information, to monitor or log each user's strokes. Therefore the correct answer is D.
+
+ Index: 25
+Question: In Wi-Fi Security, which of the following protocol is more used?
+CodeBlock:
+
+Options:
+0 . wpa
+1 . wpa2
+2 . wps
+3 . both a and c
+4 . 
+Correct Answer: 1
+
+Explanation: Nowadays, in Wi-Fi Security, the WPA2 is one of the most widely used protocols because it offers a more secure connection rather than the WPA. It is also known as the upgraded version of the WPA protocol.
+
+ Index: 26
+Question: The term "TCP/IP" stands for_____
+CodeBlock:
+
+Options:
+0 . transmission contribution protocol/ internet protocol
+1 . transmission control protocol/ internet protocol
+2 . transaction control protocol/ internet protocol
+3 . transmission control protocol/ internet protocol
+4 . 
+Correct Answer: 1
+
+Explanation: The term "TCP/IP" stood for Transmission Control Protocol/ internet protocol and was developed by the US government in the early days of the internet.
+
+ Index: 27
+Question: The response time and transit time is used to measure the ____________ of a network.
+CodeBlock:
+
+Options:
+0 . security
+1 . longevity
+2 . reliability
+3 . performance
+4 . 
+Correct Answer: 3
+
+Explanation: On the basis of response time and transit time, the performance of a network is measured.
+
+ Index: 28
+Question: Which of the following factor of the network gets hugely impacted when the number of users exceeds the network's limit?
+CodeBlock:
+
+Options:
+0 . reliability
+1 . performance
+2 . security
+3 . longevity
+4 . 
+Correct Answer: 3
+
+Explanation: When the numbers of users on a network get increased and exceed the network's limit, therefore the performance is one of the factors of the network that is hugely impacted by it.
+
+ Index: 29
+Question: In the computer networks, the encryption techniques are primarily used for improving the ________
+CodeBlock:
+
+Options:
+0 . security
+1 . performance
+2 . reliability
+3 . longevity
+4 . 
+Correct Answer: 0
+
+Explanation: Encryption techniques are usually used to improve the security of the network. So the correct answer will be A.
+
+ Index: 30
+Question: Which of the following statements is correct about the firewall?
+CodeBlock:
+
+Options:
+0 . it is a device installed at the boundary of a company to prevent unauthorized physical access.
+1 . it is a device installed at the boundary of an incorporate to protect it against the unauthorized access.
+2 . it is a kind of wall built to prevent files form damaging the corporate.
+3 . none of the above.
+4 . 
+Correct Answer: 1
+
+Explanation: A firewall can be the type of either a software or the hardware device that filters each and every data packet coming from the network, internet. It can also be considered as a device installed at the boundary of an incorporate to protect form unauthorized access. Sometimes firewall also refers to the first line of defense against viruses, unauthorized access, malicious software etc.
+
+ Index: 31
+Question: When was the first computer virus created?
+CodeBlock:
+
+Options:
+0 . 1970
+1 . 1971
+2 . 1972
+3 . 1969
+4 . 
+Correct Answer: 1
+
+Explanation: In 1970, the world's first computer virus was created by Robert (Bob) Thomas. This virus was designed as it creates copies of itself or clones itself and spreads one computer to another. So the correct answer will be 1970.
+
+ Index: 32
+Question: Which of the following is considered as the world's first antivirus program?
+CodeBlock:
+
+Options:
+0 . creeper
+1 . reaper
+2 . tinkered
+3 . ray tomlinson
+4 . 
+Correct Answer: 1
+
+Explanation: Reaper is considered as the world's first antivirus program or software as it can detect the copies of a Creeper (the world's first man-made computer virus) and could delete it as well.
+
+ Index: 33
+Question: Which one of the following principles of cyber security refers that the security mechanism must be as small and simple as possible?
+CodeBlock:
+
+Options:
+0 . open-design
+1 . economy of the mechanism
+2 . least privilege
+3 . fail-safe defaults
+4 . 
+Correct Answer: 1
+
+Explanation: Economy of the mechanism states that the security mechanism must need to be simple and small as possible.
+
+ Index: 34
+Question: Which of the following principle of cyber security restricts how privileges are initiated whenever any object or subject is created?
+CodeBlock:
+
+Options:
+0 . least privilege
+1 . open-design
+2 . fail-safe defaults
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The fail-safe Defaults principle of cyber security restricts how privileges are initiated whenever a subject or object is created. In cases where the privileges, rights, access or some other security-related attribute is not granted explicitly, it should also not granted access to the object.
+
+ Index: 35
+Question: Suppose an employee demands the root access to a UNIX system, where you are the administrator; that right or access should not be given to the employee unless that employee has work that requires certain rights, privileges. It can be considered as a perfect example of which principle of cyber security?
+CodeBlock:
+
+Options:
+0 . least privileges
+1 . open design
+2 . separation of privileges
+3 . both a & c
+4 . 
+Correct Answer: 0
+
+Explanation: The example given in the above question refers to the least privileges principle of cyber security. The least privileges principle of cyber security states that no rights, access to the system should be given to any of the employees of the organization unless he/she needs those particular rights, access in order to complete the given task. In short, we can say that its primary work is to restrict or control the assignment of rights to the employees.
+
+ Index: 36
+Question: Which of the following can also consider as the instances of Open Design?
+CodeBlock:
+
+Options:
+0 . css
+1 . dvd player
+2 . only a
+3 . both a and b
+4 . 
+Correct Answer: 3
+
+Explanation: The Open Design is a kind of open design artifact whose documentation is publically available, which means anyone can use it, study, modify, distribute, and make the prototypes. However, the CSS (or Content Scrambling System) and DVD Player are both examples of open design. 
+
+ Index: 37
+Question: Which one of the following principles states that sometimes it is become more desirable to rescored the details of intrusion that to adopt more efficient measure to avoid it?
+CodeBlock:
+
+Options:
+0 . least common mechanism
+1 . compromise recording
+2 . psychological acceptability
+3 . work factor
+4 . 
+Correct Answer: 1
+
+Explanation: The principle called compromise factor states that in some cases, it is more beneficial to records or document the details of the intrusion that to adopt more efficient measures to avoid it.
+
+ Index: 38
+Question: The web application like banking websites should ask its users to log-in again after some specific period of time, let say 30 min. It can be considered as an example of which cybersecurity principle?
+CodeBlock:
+
+Options:
+0 . compromise recording
+1 . psychological acceptability
+2 . complete mediation
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The complete mediation principle of cybersecurity requires that all the access must be checked to ensure that they are genuinely allowed. However, the example given in the above question can be considered as an example of Complete Mediation.
+
+ Index: 39
+Question: Which one of the following statements is correct about Email security in the network security methods?
+CodeBlock:
+
+Options:
+0 . one has to deploy hardware, software, and security procedures to lock those apps down.
+1 . one should know about what the normal behavior of a network look likes so that he/she can spot any changes, breaches in the behavior of the network.
+2 . phishing is one of the most commonly used methods that are used by hackers to gain access to the network
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In terms of Email Security, phishing is one of the standard methods that are used by Hackers to gain access to a network. The Email Security Tools can handle several types of attacks, such as the incoming attacks, and protect the outbound messages containing sensitive data/information as well.
+
+ Index: 40
+Question: Which of the following statements is true about the VPN in Network security?
+CodeBlock:
+
+Options:
+0 . it is a type of device that helps to ensure that communication between a device and a network is secure.
+1 . it is usually based on the ipsec( ip security) or ssl (secure sockets layer)
+2 . it typically creates a secure, encrypted virtual "tunnel" over the open internet
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The term VPN stands for Virtual Private Network. It is a type of network security-enhancing tool that can be either a software program or a hardware device. It usually authenticates the communication between a device and a network by creating a secure encrypted virtual "tunnel". In general, the software VPNs are considered as the most cost-effective, user friendly over the hardware VPNs. 
+
+ Index: 41
+Question: Which of the following type of text is transformed with the help of a cipher algorithm?
+CodeBlock:
+
+Options:
+0 . transformed text
+1 . complex text
+2 . scalar text
+3 . plain text
+4 . 
+Correct Answer: 3
+
+Explanation: The cipher algorithm is used to create an encrypted message by taking the input as understandable text or "plain text" and obtains unreadable or "cipher text" as output. It is usually used to protect the information while transferring one place to another place.
+
+ Index: 42
+Question: The term "CHAP" stands for __________
+CodeBlock:
+
+Options:
+0 . circuit hardware authentication protocols
+1 . challenge hardware authentication protocols
+2 . challenge handshake authentication protocols
+3 . circuit handshake authentication protocols
+4 . 
+Correct Answer: 2
+
+Explanation: The term "CHAP" stands for the Challenge Handshake Authentication Protocols. In computer networks, it can be defined as an authentication scheme that avoids the transfer of unencrypted passwords over the network. The "CHAP" is one of the many authentication schemes used by the Point To Point Protocol (PPP), which is a serial transmission protocol for wide networks Connections (WAN).
+
+ Index: 43
+Question: Which type of the following malware does not replicate or clone them self's through infection?
+CodeBlock:
+
+Options:
+0 . rootkits
+1 . trojans
+2 . worms
+3 . viruses
+4 . 
+Correct Answer: 1
+
+Explanation: The Trojans type of malware does not generate copies of them self's or clone them. The main reason why these types of viruses are referred to as the Trojans is the mythological story of the Greeks. In which some top-level accessions were hidden in the big wooden horse-like structure and given to the enemy as a gift. So that they can enter to the enemy's palace without come in any sight.
+
+ Index: 44
+Question: Which of the following malware's type allows the attacker to access the administrative controls and enables his/or her to do almost anything he wants to do with the infected computers. 
+CodeBlock:
+
+Options:
+0 . rats
+1 . worms
+2 . rootkits
+3 . botnets
+4 . 
+Correct Answer: 0
+
+Explanation: The RAT is an abbreviation of Remote Access Trojans or Remote Administration Tools, which gives the total control of a Device, which means it, can control anything or do anything in the target device remotely. It allows the attacker administrative control just as if they have physical access to your device.
+
+ Index: 45
+Question: Which of the following statements is true about the Trojans?
+CodeBlock:
+
+Options:
+0 . trojans perform tasks for which they are designed or programmed
+1 . trojans replicates them self's or clone them self's through an infections
+2 . trojans do nothing harmful to the user's computer systems
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Trojans are a type of malware that will perform any types of actions for those they are design or programmed. Another important thing about Trojans is that the user may not know that the malware enters their system until the Trojan starts doing its job for which they are programmed.
+
+ Index: 46
+Question: Which of the following is just opposite to the Open Design principle?
+CodeBlock:
+
+Options:
+0 . security through obscurity
+1 . least common mechanism
+2 . least privileges
+3 . work factor
+4 . 
+Correct Answer: 0
+
+Explanation: The "Security through obscurity" is an approach which just opposite to the Open Design principle. So the correct option is A.
+
+ Index: 47
+Question: Which of the following is a type of independent malicious program that never required any host program?
+CodeBlock:
+
+Options:
+0 . trojan horse
+1 . worm
+2 . trap door
+3 . virus
+4 . 
+Correct Answer: 1
+
+Explanation: Warm is a type of independent malicious program that does not require any host programs(or attached with some programs). They typically cause damages to the systems by consuming the bandwidths and overloading the servers. Warms are quite different from the virus as they are stand-alone programs, whereas viruses need some type of triggers to activate by their host or required human interaction.
+
+ Index: 48
+Question: Which of the following usually considered as the default port number of apache and several other web servers?
+CodeBlock:
+
+Options:
+0 . 20
+1 . 40
+2 . 80
+3 . 87
+4 . 
+Correct Answer: 2
+
+Explanation: The default port number used by the apache and several other web servers is 80. So the correct answer will be C.
+
+ Index: 49
+Question: DNS translates a Domain name into _________
+CodeBlock:
+
+Options:
+0 . hex
+1 . binary
+2 . ip
+3 . url
+4 . 
+Correct Answer: 3
+
+Explanation: DNS stands for the Domain name system; the main work of a DNS is to translate the Domain name into an IP address that is understandable to the computers.
+
+ Index: 50
+Question: Which one of the following systems cannot be considered as an example of the operating systems?
+CodeBlock:
+
+Options:
+0 . windows 8
+1 . red hat linux
+2 . bsd linux
+3 . microsoft office
+4 . 
+Correct Answer: 3
+
+Explanation: Microsoft office is a type of software used for creating and managing documents, which is one of the most famous products of the Microsoft organization. So the correct answer will be the D.
+
+ Index: 51
+Question: In the CIA Triad, which one of the following is not involved?
+CodeBlock:
+
+Options:
+0 . availability
+1 . confidentiality
+2 . authenticity
+3 . integrity
+4 . 
+Correct Answer: 2
+
+Explanation: CIA refers to Confidentiality, Integrity, and Availability that are also considered as the CIA triad. However, the CIA triad does not involve Authenticity.
+
+ Index: 52
+Question: In an any organization, company or firm the policies of information security come under__________
+CodeBlock:
+
+Options:
+0 . cia triad
+1 . confidentiality
+2 . authenticity
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Confidentiality, Integrity, Availability are the three main principles. In Short, these three principles are also known as the CIA triad and plays a vital role as the cornerstone of the security structure of any organization.
+
+ Index: 53
+Question: Why are the factors like Confidentiality, Integrity, Availability, and Authenticity considered as the fundamentals?
+CodeBlock:
+
+Options:
+0 . they help in understanding the hacking process
+1 . these are the main elements for any security breach
+2 . they help to understand the security and its components in a better manner
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Confidentiality, Integrity, Availability and Authenticity all these four elements helps in understanding security and its components.
+
+ Index: 54
+Question: In order to ensure the security of the data/ information, we need to ____________ the data:
+CodeBlock:
+
+Options:
+0 . encrypt
+1 . decrypt
+2 . delete
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Data encryption is a type of method in which the plain text is converted into ciphertext, and only the authorized users can decrypt it back to plain text by using the right key. This preserves the Confidentiality of the Data.
+
+ Index: 55
+Question: Which one of the following is considered as the most secure Linux operating system that also provides anonymity and the incognito option for securing the user's information?
+CodeBlock:
+
+Options:
+0 . ubuntu
+1 . tails
+2 . fedora
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Tails is a type of Linux-based operating system that is considered to be one of the most secure operating systems in the world. It also provides many features such as anonymity and incognito options to insure that user information is always protected. The main reason why the tails operating system is famous among the user is that it is almost untraceable, which keep your privacy secure. 
+
+ Index: 56
+Question: Which type following UNIX account provides all types of privileges and rights which one can perform administrative functions?
+CodeBlock:
+
+Options:
+0 . client
+1 . guest
+2 . root
+3 . administrative
+4 . 
+Correct Answer: 3
+
+Explanation: If a user uses the Root account of the UNIX operating system, he can carry out all types of administrative functions because it provides all necessary privileges and rights to a user.
+
+ Index: 57
+Question: Which of the following is considered as the first hacker's conference?
+CodeBlock:
+
+Options:
+0 . oscon
+1 . devon
+2 . defcon
+3 . section
+4 . 
+Correct Answer: 2
+
+Explanation: DEFCON is one of the most popular and largest Hacker's as well as the security consultant's conference. It is always held once a year in Las Vegas, Nevada, where hackers of all types (such as black hats, gray hats, and white hat hackers), government agents as well as security professionals from around the world attend the conference attends this meeting.
+
+ Index: 58
+Question: Which of the following known as the oldest phone hacking techniques used by hackers to make free calls?
+CodeBlock:
+
+Options:
+0 . phreaking
+1 . phishing
+2 . cracking
+3 . spraining
+4 . 
+Correct Answer: 0
+
+Explanation: Phreaking is considered as one of the oldest phone hacking techniques used by hackers to make free calls.
+
+ Index: 59
+Question: Name of the Hacker who breaks the SIPRNET system?
+CodeBlock:
+
+Options:
+0 . john draper
+1 . kevin mitnick
+2 . john von neumann
+3 . kevin poulsen
+4 . 
+Correct Answer: 3
+
+Explanation: The SIPRNET (or Advanced Research Project Agency Network) system was first hacked by Kevin Poulsen as he breaks into the Pentagon network.
+
+]

@@ -1,0 +1,811 @@
+&[Index: 0
+Question: What is the 16-bit compiler allowable range for integer constants?
+CodeBlock:
+
+Options:
+0 . -3.4e38 to 3.4e38
+1 . -32767 to 32768
+2 . -32668 to 32667
+3 . -32768 to 32767
+4 . 
+Correct Answer: 3
+
+Explanation: In a 16-bit C compiler, we have 2 bytes to store the value.
+The range for signed integers is -32768 to 32767.
+The range for unsigned integers is 0 to 65535.
+The range for unsigned character is 0 to 255.
+
+
+ Index: 1
+Question: Study the following program:
+What will be the output of this program?
+CodeBlock:
+main()
+{printf("javatpoint");
+main();}
+
+Options:
+0 . wrong statement
+1 . it will keep on printing javatpoint
+2 . it will print javatpoint once
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: In this program, the main function will call itself again and again. Therefore, it will continue to print javatpoint.
+
+ Index: 3
+Question: What is required in each C program? 
+CodeBlock:
+
+Options:
+0 . the program must have at least one function.
+1 . the program does not require any function.
+2 . input data
+3 . output data
+4 . 
+Correct Answer: 0
+
+Explanation: Any C program has at least one function, and even the most trivial programs can specify additional functions. A function is a piece of code. In other words, it works like a sub-program.
+
+ Index: 4
+Question: What will this program print?
+CodeBlock:
+main()
+{
+  int i = 2;
+  {
+    int i = 4, j = 5;
+     printf("%d %d", i, j);
+  }  
+  printf("%d %d", i, j);
+}
+
+Options:
+0 . 4525
+1 . 2525
+2 . 4545
+3 . none of the these
+4 . 
+Correct Answer: 0
+
+Explanation: In this program, it will first print the inner value of the function and then print the outer value of the function.
+
+ Index: 5
+Question: Which of the following comment is correct when a macro definition includes arguments?
+CodeBlock:
+
+Options:
+0 . the opening parenthesis should immediately follow the macro name.
+1 . there should be at least one blank between the macro name and the opening parenthesis.
+2 . there should be only one blank between the macro name and the opening parenthesis.
+3 . all the above comments are correct.
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 6
+Question: What is a lint?
+CodeBlock:
+
+Options:
+0 . c compiler
+1 . interactive debugger
+2 . analyzing tool
+3 . c interpreter
+4 . 
+Correct Answer: 2
+
+Explanation: Lint is an analyzing tool that analyzes the source code by suspicious constructions, stylistic errors, bugs, and flag programming errors. Lint is a compiler-like tool in which it parses the source files of C programming. It checks the syntactic accuracy of these files.
+
+ Index: 7
+Question: What is the output of this statement "printf("%d", (a++))"?
+CodeBlock:
+
+Options:
+0 . the value of (a + 1)
+1 . the current value of a
+2 . error message
+3 . garbage
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 8
+Question: Study the following program:
+If abcdefg is the input, the output will be
+CodeBlock:
+main()
+{
+   char x [10], *ptr = x;
+  scanf ("%s", x);
+  change(&x[4]);
+}
+ change(char a[])
+ {
+   puts(a);
+ }
+
+Options:
+0 . abcd
+1 . abc
+2 . efg
+3 . garbage
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 10
+Question: Study the following program:
+What will be the output of this program?
+CodeBlock:
+main()
+{
+  int a = 1, b = 2, c = 3:
+  printf("%d", a + = (a + = 3, 5, a))
+}
+
+Options:
+0 . 6
+1 . 9
+2 . 12
+3 . 8
+4 . 
+Correct Answer: 3
+
+Explanation: It is an effect of the comma operator.a + = (a + = 3, 5, a)It first evaluates to "a + = 3" i.e. a = a + 3 then evaluate 5 and then evaluate "a".Therefore, we will get the output is 4.Then,a + = 4It gives 8 as the output.
+
+ Index: 12
+Question: What does this declaration mean?
+CodeBlock:
+int x : 4;
+
+Options:
+0 . x is a four-digit integer.
+1 . x cannot be greater than a four-digit integer.
+2 . x is a four-bit integer.
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: This means, "X" is a four bit integer.
+
+ Index: 13
+Question: Why is a macro used in place of a function?
+CodeBlock:
+
+Options:
+0 . it reduces execution time.
+1 . it reduces code size.
+2 . it increases execution time.
+3 . it increases code size.
+4 . 
+Correct Answer: 3
+
+Explanation: Macro is used in place of a function because it reduces code size, and very efficient.
+
+ Index: 14
+Question: In the C language, the constant is defined _______.
+CodeBlock:
+
+Options:
+0 . before main
+1 . after main
+2 . anywhere, but starting on a new line.
+3 . none of the these.
+4 . 
+Correct Answer: 2
+
+Explanation: In the C language, the constant is defined anywhere, but starting on a new line.
+
+ Index: 15
+Question: How many times will the following loop execute?
+CodeBlock:
+for(j = 1; j <= 10; j = j-1)
+
+Options:
+0 . forever
+1 . never
+2 . 0
+3 . 1
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 16
+Question: A pointer is a memory address. Suppose the pointer variable has p address 1000, and that p is declared to have type int*, and an int is 4 bytes long. What address is represented by expression p + 2?
+CodeBlock:
+
+Options:
+0 . 1002
+1 . 1004
+2 . 1006
+3 . 1008
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 17
+Question: What is the result after execution of the following code if a is 10, b is 5, and c is 10?
+CodeBlock:
+If ((a > b) && (a <= c))
+        a = a + 1;
+else
+        c = c+1;
+
+Options:
+0 . a = 10, c = 10
+1 . a = 11, c = 10
+2 . a = 10, c = 11
+3 . a = 11, c = 11
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 18
+Question: Which one of the following is a loop construct that will always be executed once?
+CodeBlock:
+
+Options:
+0 . for
+1 . while
+2 . switch
+3 . do while
+4 . 
+Correct Answer: 3
+
+Explanation: The body of a loop is often executed at least once during the do-while loop. Once the body is performed, the condition is tested. If the condition is valid, it will execute the body of a loop; otherwise, control is transferred out of the loop.
+
+ Index: 19
+Question: Which of the following best describes the ordering of destructor calls for stack-resident objects in a routine?
+CodeBlock:
+
+Options:
+0 . the first object created is the first object destroyed; last created is last destroyed.
+1 . the first object destroyed is the last object destroyed; last created is first destroyed.
+2 . objects are destroyed in the order they appear in memory, the object with the lowest memory address is destroyed first.
+3 . the order is undefined and may vary from compiler to compiler.
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 20
+Question: How many characters can a string hold when declared as follows?
+CodeBlock:
+char name[20]:
+
+Options:
+0 . 18
+1 . 19
+2 . 20
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 21
+Question: Directives are translated by the
+CodeBlock:
+
+Options:
+0 . pre-processor
+1 . compiler
+2 . linker
+3 . editor
+4 . 
+Correct Answer: 0
+
+Explanation: In C language, the pre-processor is a macro processor that is dynamically used by the C programmer to modify the program before it is properly compiled (Before construction, pro-processor directives are implemented).
+
+ Index: 22
+Question: How many bytes does "int = D" use?
+CodeBlock:
+
+Options:
+0 . 0
+1 . 1
+2 . 2 or 4
+3 . 10
+4 . 
+Correct Answer: 2
+
+Explanation: The int type takes 2 or 4 bytes.
+
+ Index: 23
+Question: What feature makes C++ so powerful?
+CodeBlock:
+
+Options:
+0 . easy implementation
+1 . reusing the old code
+2 . easy memory management
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 24
+Question: Which of the following will copy the null-terminated string that is in array src into array dest? 
+CodeBlock:
+
+Options:
+0 . dest = src;
+1 . dest == src;
+2 . strcpy(dest, src);
+3 . strcpy(src, dest);
+4 . 
+Correct Answer: 2
+
+Explanation: strcpy is a string function that is used to copy the string between the two files.
+strcpy(destination, source) 
+
+ Index: 25
+Question: In the statement "COUT << "javatpoint" << end1;", end1 is a ___.
+CodeBlock:
+
+Options:
+0 . extractor
+1 . inserter
+2 . manipulator
+3 . terminator
+4 . 
+Correct Answer: 2
+
+Explanation: End1 is an I/O manipulator that takes effect in printing a new line '\ n' character and then flushing the output stream.
+
+ Index: 26
+Question: Each instance of a class has a different set of
+CodeBlock:
+
+Options:
+0 . class interfaces
+1 . methods
+2 . return types
+3 . attribute values
+4 . 
+Correct Answer: 3
+
+Explanation: Each instance of the class has a different set of attribute values
+
+ Index: 27
+Question: How many instances of a class can be declared?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 10
+2 . as per required
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: You can always declare multiple instances of a class, as per required. Each object will hold its own individual inner variables (unless they are static, in which case they are shared).
+
+ Index: 28
+Question: What will the result of num variable after execution of the following statements?
+CodeBlock:
+int num = 58;
+num % = 11;
+
+Options:
+0 . 3
+1 . 5
+2 . 8
+3 . 11
+4 . 
+Correct Answer: 0
+
+Explanation: num = 58num % = 11num = num % 11num = 58 % 11num = 3
+
+ Index: 29
+Question: What is the maximum number of characters that can be held in the string variable char address line [40]? 
+CodeBlock:
+
+Options:
+0 . 38
+1 . 39
+2 . 40
+3 . 41
+4 . 
+Correct Answer: 1
+
+Explanation: None 
+
+ Index: 30
+Question: What will the result of num1 variable after execution of the following statements?
+CodeBlock:
+int j = 1, num1 = 4;
+while (++j <= 10)
+{
+  num1++;
+}
+
+Options:
+0 . 11
+1 . 12
+2 . 13
+3 . 14
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 31
+Question: What will the result of len variable after execution of the following statements?
+CodeBlock:
+int len;
+char str1[] = {"39 march road"};
+len = strlen(str1);
+
+Options:
+0 . 11
+1 . 12
+2 . 13
+3 . 14
+4 . 
+Correct Answer: 2
+
+Explanation: strlen is a string function that counts the word and also count the space in the string.
+(39 march road) = 13
+
+ Index: 32
+Question: Study the following statement
+What will be the output?
+CodeBlock:
+#include <stdio.h>
+    int main()
+    {
+        int *ptr, a = 10;
+        ptr = &a;
+        *ptr += 1;
+        printf("%d,%d/n", *ptr, a);
+    }
+
+Options:
+0 . 10, 10
+1 . 10, 11
+2 . 11, 10
+3 . 11, 11
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 34
+Question: Given the following statement, what will be displayed on the screen?
+CodeBlock:
+int * aPtr;
+*aPtr = 100;
+cout << *aPtr + 2;
+
+Options:
+0 . 100
+1 . 102
+2 . 104
+3 . 108
+4 . 
+Correct Answer: 1
+
+Explanation: aPtr is an integer pointer which value is 100.= *aPtr + 2= 100 + 2= 102
+
+ Index: 35
+Question: Give the following declarations and an assignment statement. Which one is equivalent to the expression str [4]?
+CodeBlock:
+char str[80];
+char * p;
+p = str;
+
+Options:
+0 . p + 4
+1 . *p + 4
+2 . *(p + 4)
+3 . p [3]
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 36
+Question: Which one is the correct description for the variable balance declared below?
+CodeBlock:
+int ** balance;
+
+Options:
+0 . balance is a point to an integer
+1 . balance is a pointer to a pointer to an integer
+2 . balance is a pointer to a pointer to a pointer to an integer
+3 . balance is an array of integer
+4 . 
+Correct Answer: 1
+
+Explanation: This code description states that the remainder is a pointer to a pointer to an integer.
+
+ Index: 37
+Question: A class D is derived from a class B, b is an object of class B, d is an object of class D, and pb is a pointer to class B object. Which of the following assignment statement is not valid?
+CodeBlock:
+
+Options:
+0 . d = d;
+1 . b = d;
+2 . d = b;
+3 . *pb = d:
+4 . 
+Correct Answer: 2
+
+Explanation: A class D is derived from a class B, so "d" is not equal to b.
+
+ Index: 38
+Question: Which of the following statement is not true?
+CodeBlock:
+
+Options:
+0 . a pointer to an int and a pointer to a double are of the same size.
+1 . a pointer must point to a data item on the heap (free store).
+2 . a pointer can be reassigned to point to another data item.
+3 . a pointer can point to an array.
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 39
+Question: Which of the following SLT template class is a container adaptor class?
+CodeBlock:
+
+Options:
+0 . stack
+1 . list
+2 . deque
+3 . vector
+4 . 
+Correct Answer: 0
+
+Explanation: Container Adaptors is the subset of Containers that provides many types interface for sequential containers, such as stack and queue.
+
+ Index: 40
+Question: What kinds of iterators can be used with vectors?
+CodeBlock:
+
+Options:
+0 . forward iterator
+1 . bi-directional iterator
+2 . random access iterator
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: An iteration is like a pointer, indicating an element inside the container. All these types of iterations can be used with vectors.
+
+ Index: 41
+Question: Let p1 be an integer pointer with a current value of 2000. What is the content of p1 after the expression p1++ has been evaluated?
+CodeBlock:
+
+Options:
+0 . 2001
+1 . 2002
+2 . 2004
+3 . 2008
+4 . 
+Correct Answer: 2
+
+Explanation: The size of one pointer integer is 4 bytes. The current value of p1 is 2000.p1++ = p1 + 1p1++ = 2004
+
+ Index: 42
+Question: Let p1 and p2 be integer pointers. Which one is a syntactically wrong statement?
+CodeBlock:
+
+Options:
+0 . p1 = p1 + p2;
+1 . p1 = p1 - 9;
+2 . p2 = p2 + 9;
+3 . cout << p1 - p2;
+4 . 
+Correct Answer: 0
+
+Explanation: None 
+
+ Index: 43
+Question: Suppose that cPtr is a character pointer, and its current content is 300. What will be the new value in cPtr after the following assignment?
+CodeBlock:
+cPtr = cPtr + 5;
+
+Options:
+0 . 305
+1 . 310
+2 . 320
+3 . 340
+4 . 
+Correct Answer: 0
+
+Explanation: cPtr = cPtr + 5cPtr = 300 + 5cPtr = 305
+
+ Index: 44
+Question: Which is valid expression in c language?
+CodeBlock:
+
+Options:
+0 . int my_num = 100,000;
+1 . int my_num = 100000;
+2 . int my num = 1000;
+3 . int my num == 10000;
+4 . 
+Correct Answer: 1
+
+Explanation: Special symbol, Space, and comma cannot be used in a variable name in c language.
+
+ Index: 45
+Question: If addition had higher precedence than multiplication, then the value of the expression (1 + 2 * 3 + 4 * 5) would be which of the following?
+CodeBlock:
+
+Options:
+0 . 27
+1 . 47
+2 . 69
+3 . 105
+4 . 
+Correct Answer: 3
+
+Explanation: (1 + 2 * 3 + 4 * 5)= (1 + 2) * (3 + 4) * 5= 3 * 7 * 5= 105
+
+ Index: 46
+Question: What will be the output of this program?
+CodeBlock:
+int main()    
+{    
+int a=10, b=20;      
+printf("a=%d b=%d",a,b);      
+a=a+b;    
+b=a-b;    
+a=a-b;    
+printf("a=%d b=%d",a,b);    
+return 0;  
+}   
+
+Options:
+0 . a = 20, b = 20
+1 . a = 10, b = 20
+2 . a = 20, b = 10
+3 . a = 10, b = 10
+4 . 
+Correct Answer: 2
+
+Explanation: This program is a swapping program.a = a + b → a = 10 + 20 → a = 30b = a - b → b = 30 - 20 → B = 10a = a - b → a = 30 - 10 → a = 20
+
+ Index: 47
+Question: The following statements are about EOF. Which of them is true?
+CodeBlock:
+
+Options:
+0 . its value is defined within stdio.h
+1 . its value is implementation dependent
+2 . its value can be negative
+3 . its value should not equal the integer equivalent of any character
+4 . all of the these
+Correct Answer: 4
+
+Explanation: All statements are true
+
+ Index: 48
+Question: What does this statement mean?
+CodeBlock:
+x - = y + 1;
+
+Options:
+0 . x = x - y + 1
+1 . x = -x - y - 1
+2 . x = x + y - 1
+3 . x = x - y - 1
+4 . 
+Correct Answer: 3
+
+Explanation: x - = y + 1x = x - (y + 1)So, x = x - y - 1
+
+ Index: 49
+Question: Study the following statement
+What will be the output?
+CodeBlock:
+for (i = 3; i < 15; i + = 3)
+{printf ("%d", i);
+ ++i;
+}
+
+Options:
+0 . 3 6 9 12
+1 . 3 6 9 12 15
+2 . 3 7 11
+3 . 3 7 11 15
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 51
+Question: Study the following statement
+What will be the output?
+CodeBlock:
+main()
+{	
+   char *s = "Hello,"
+   "World!";
+   printf("%s", s);
+}
+
+Options:
+0 . hello, world!
+1 . hello,world!
+2 . hello
+3 . compile error
+4 . 
+Correct Answer: 1
+
+Explanation: The output of this program is "Hello, World!". This program's output will not appear in the new line because the \ n escape sequence has not been used in this program.
+
+ Index: 53
+Question: Study the following array definition 
+Which of the following statement is correct?
+CodeBlock:
+int num[10] = {3, 3, 3};
+
+Options:
+0 . num[9] is the last element of the array num
+1 . the value of num[8] is 3
+2 . the value of num[3] is 3
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The num[9] is the last element of the array number because the total element in this array is 10, and the array starts with 0, so the last element of the array is the num[9].
+
+ Index: 55
+Question: What will the output after execution of the following statements? 
+CodeBlock:
+main()
+{
+  printf ("\\n ab");
+  printf ("\\b si");
+  printf ("\\r ha");
+}
+
+Options:
+0 . absiha
+1 . asiha
+2 . haasi
+3 . hai
+4 . 
+Correct Answer: 3
+
+Explanation:
+\\n - newline - printf("\\nab"); - Prints 'ab'
+\\b - backspace - printf("\\bsi"); - firstly '\\b' removes 'b' from 'ab ' and then prints 'si'. So, after execution of printf("\\bsi"); it is 'asi'
+\\r - linefeed - printf("\\rha"); - Now here '\\r' moves the cursor to the start of the current line and then override 'asi' to 'hai'
+
+
+ Index: 56
+Question: What will the output after execution of the following statements? 
+CodeBlock:
+void main()
+{
+  int i = 065, j = 65;
+  printf ("%d %d", i, j);
+}
+
+Options:
+0 . 065 65
+1 . 53 65
+2 . 65 65
+3 . syntax error
+4 . 
+Correct Answer: 1
+
+Explanation: This value (065) is an octal value, and it equals to the decimal value 53.
+
+]

@@ -1,0 +1,701 @@
+&[Index: 0
+Question: Which of the following sites of Indus Valley Civilization, a clay model of plow has been found?
+CodeBlock:
+
+Options:
+0 . rakhigarhi
+1 . banawali
+2 . kalibangam
+3 . mitahal
+4 . 
+Correct Answer: 1
+
+Explanation: Banawali is an archaeological site that belongs to the Indus Valley Civilization situated in the Fatehabad district of Haryana, where a clay model of plow has been found.
+
+ Index: 1
+Question: Which of the following kings wore the title of "Avanisimha"?
+CodeBlock:
+
+Options:
+0 . simhavarman
+1 . simhavishnu
+2 . mahendravarman i
+3 . shivaskandavarman
+4 . 
+Correct Answer: 1
+
+Explanation: Simhavishnu was the successor of Simhavarman, who ruled from 575 A.D to 600 A.D. Simhavishnu also wore the title of "Avanisimha."
+
+ Index: 2
+Question: Who wrote Rasaratnakara?
+CodeBlock:
+
+Options:
+0 . sridhara
+1 . madhavakar
+2 . nagarjuna
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In the 8th century A.D, Rasaratnakara was written by Nagarjuna. He was an Indian metallurgist and alchemist. This book describes the extraction of metals such as gold, silver, tin, and copper.
+
+ Index: 3
+Question: The Rashtrakutas were involved continuously in the fight against which rulers?
+CodeBlock:
+
+Options:
+0 . pallavas of kanchi
+1 . pandyas of madurai
+2 . eastern chalukyas of vengi
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The Rashtrakutas were continuously involved in the fight against the Pallavas, Pamdyas, and Chalukyas. Because the family of the imperial Rashtrakutas claimed that they were descended from the Yadu family of Mahabharata times.
+
+ Index: 4
+Question: Who founded the Rashtrakutas Kingdom?
+CodeBlock:
+
+Options:
+0 . krishna i
+1 . amoghavarsha i
+2 . dantidurga
+3 . dhruva
+4 . 
+Correct Answer: 2
+
+Explanation: Dantdurga was a Feudatory of Kirtivarman II. He ruled from c?733 to 756 CE. Dantidurga ascended the throne in c. 733 CE, when he takes control of the northern regions of the Chalukyas Empire.
+
+ Index: 5
+Question: What is the Ruling period of Pulkeshin I?
+CodeBlock:
+
+Options:
+0 . c. 5175 - 546 ce
+1 . c. 5305 - 556 ce
+2 . c. 535 - 566 ce
+3 . c. 515 - 536 ce
+4 . 
+Correct Answer: 2
+
+Explanation: Pulkeshin I ruled from c. 535 to 566 CE and founded the kingdom with capital at Vatapi or Badami. He performed several strata sacrifices, such as the Ashwamedha sacrifice.
+
+ Index: 6
+Question: Who captured Madurai and took the title of Madurantaka and Maduraikonda?
+CodeBlock:
+
+Options:
+0 . aditya i
+1 . parantaka i
+2 . parantaka ii
+3 . vijayalaya
+4 . 
+Correct Answer: 0
+
+Explanation: Parantaka I ruled between c. 907 -- 953 CE. He captured Madurai and adopted the titles of Madurantak, which means destroyer of Madurai, and Maduraikonda, which implies the capturer of Madurai.
+
+ Index: 7
+Question: Which is the Neolithic site of North-East India?
+CodeBlock:
+
+Options:
+0 . chirand
+1 . senuar
+2 . sarutaru
+3 . taradih
+4 . 
+Correct Answer: 2
+
+Explanation: Sarutaru is a Neolithic site, which is located in the Kamrup district of Assam. In the above-given options Taradih, Chirand, and Senuar are prehistoric sites located in Bihar.
+
+ Index: 8
+Question: What is the Upveda of the Yajur Veda?
+CodeBlock:
+
+Options:
+0 . dhanurveda
+1 . gandharva
+2 . shilpaveda
+3 . ayurveda
+4 . 
+Correct Answer: 0
+
+Explanation: The Yajur Veda majorly deals with the procedure for the performance of sacrifices. The Upveda of the Yajur Veda is called the Dhanur Veda. It contains a collection of short magic spells used by a specific class of priests at the time of sacrifices.
+
+ Index: 9
+Question: The phrase "Satyamev jayate" is mentioned in which of the following Upanishads?
+CodeBlock:
+
+Options:
+0 . katho upanishad
+1 . mandukyo upanishad
+2 . chhandogya upanishad
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The Upanishads focus a lot on the philosophy of life, the universe, self, body, sacrifice, etc. The Mandukyopanishad, which is the largest of all Upanishads, contains the phrase "Satyamev jayate."
+
+ Index: 10
+Question: Which of the following was regarded as the God of the Shudras?
+CodeBlock:
+
+Options:
+0 . rudra
+1 . vishnu
+2 . pushan
+3 . indra
+4 . 
+Correct Answer: 2
+
+Explanation: During the Later Vedic period, the Pushan, who was supposed to look after cattle, came to be regarded as the Shudras' God. Other gods of the Later Vedic period included Vishnu (conceived as the preserver and protector of people) and Rudra (the God of animals).
+
+ Index: 11
+Question: Who is called the father of Indian archaeology?
+CodeBlock:
+
+Options:
+0 . robert seawell
+1 . john marshal
+2 . colonel mackenzie
+3 . alexander cunningham
+4 . 
+Correct Answer: 3
+
+Explanation: Alexander Cunningham is the first Director-General of the Archaeological Survey of India (ASI). He is often called as the father of Indian archaeology.
+
+ Index: 12
+Question: In which of the following places Ochre Coloured Pottery culture (OCP) is mainly found?
+CodeBlock:
+
+Options:
+0 . bihar
+1 . eastern up
+2 . western up
+3 . bengal
+4 . 
+Correct Answer: 2
+
+Explanation: Ochre Coloured Pottery culture (OCP) is the Bronze Age culture of the Indo-Gangetic Plain. This culture is mainly found in Western UP.
+
+ Index: 13
+Question: Which among the following is not one of the realms of "being" as stated by Buddhism?
+CodeBlock:
+
+Options:
+0 . prani
+1 . preta
+2 . asura
+3 . bodhisattva
+4 . 
+Correct Answer: 2
+
+Explanation: The ten realms of being as stated in Buddhism are Buddha, Bodhisattva, Pratyeka Buddha, Sravaka, Heavenly beings, Human beings, Asura, Beasts, Preta, Depraved men. These ten realms co-occur, which means that each one domain has the remaining nine realms inclusive.
+
+ Index: 14
+Question: Who wrote the famous book 'Brihat Katha'?
+CodeBlock:
+
+Options:
+0 . gunadhya
+1 . sarva varman
+2 . panini
+3 . radhagupt
+4 . 
+Correct Answer: 0
+
+Explanation: The famous book 'Brihat Katha' was written by Gunadhya, the great scholar in Satvahana King Hala's court.
+
+ Index: 15
+Question: The conversation between Nagasena and Menander-I related to Buddhism is recorded in which book?
+CodeBlock:
+
+Options:
+0 . milindapanho
+1 . panhomenanda
+2 . nagapanho
+3 . menandapanho
+4 . 
+Correct Answer: 0
+
+Explanation: Menander (an Indo-Greek king) asked Nagasena many questions about Buddhism before becoming a Buddhist. All the questions and answers are recorded in a manuscript known as 'Milindapanho (or The Questions of Milinda).
+
+ Index: 16
+Question: The Mahasamghika School arose at which among the following places?
+CodeBlock:
+
+Options:
+0 . bodha gaya
+1 . rajagriha
+2 . sravasti
+3 . vaishali
+4 . 
+Correct Answer: 3
+
+Explanation: Also known as Mahasamghika, Mahasanghika, or Mahasanghika. »Great monastic community. »One of the first schools of Nikaya Buddhism »Result of (the first schism at) the Second Council at Vaishali where they were outvoted and seceded. »The teachings of this school concerning the nature of Buddhas and Bodhisattvas.
+
+ Index: 17
+Question: Who identified "Sandrokottus" of the Greco-Roman literature with Chandragupta Maurya?
+CodeBlock:
+
+Options:
+0 . d. r. bhandarkar
+1 . alexander cunningham
+2 . r. p. chanda
+3 . william jones
+4 . 
+Correct Answer: 3
+
+Explanation: Maurya Empire was the first and one of the greatest empires established in Indian history by Chandragupta Maurya. He dethroned the last Nanda ruler Dhananand and occupied Patliputra in 322 BC with the help of Kautilya(Chanakya). In 305 BC, he defeated Seleucus Nikator, one of Alexander The Great (Greek ruler). He is also well-known in the Greek texts as - Sandro Kottus, Androcottus, Sandokyptos.
+
+ Index: 18
+Question: What symbol represents the birth of Gautama Buddha?
+CodeBlock:
+
+Options:
+0 . bodh tree
+1 . lotus
+2 . horse
+3 . wheel
+4 . 
+Correct Answer: 1
+
+Explanation: Lotus and bull resembles the symbol of the birth of Gautama Buddha.
+
+ Index: 19
+Question: Who sent Megasthenes (the Greek ruler) to the court of Chandragupta Maurya?
+CodeBlock:
+
+Options:
+0 . antiochus
+1 . potlemy
+2 . magas
+3 . seleucus nicator
+4 . 
+Correct Answer: 3
+
+Explanation: Seleucus sent Megasthenes as an ambassador in the court of Chandragupta Maurya in Patliputra.
+
+ Index: 20
+Question: Which of the following ancient Tamil Kingdoms came to be known from Sangam Literature?
+CodeBlock:
+
+Options:
+0 . chera
+1 . chola
+2 . pandya
+3 . all of them
+4 . 
+Correct Answer: 3
+
+Explanation: The history of ancient Tamil kingdoms, i.e., Cholas, Cheras, and Pandyas, came to be known from Sangam Literature.
+
+ Index: 21
+Question: What is the correct location of an ancient site Deh Morasi Ghundai?
+CodeBlock:
+
+Options:
+0 . eastern persia
+1 . northern pakistan
+2 . afghanistan
+3 . modern turkey
+4 . 
+Correct Answer: 2
+
+Explanation: Deh Morasi Ghundai, located in Kandhar province of Afghanistan, is the first prehistoric site to be excavated in Afghanistan.
+
+ Index: 22
+Question: Pushkalavati was the capital of which of the following ancient Kingdoms?
+CodeBlock:
+
+Options:
+0 . kosal
+1 . gandhara
+2 . kashi
+3 . magadha
+4 . 
+Correct Answer: 1
+
+Explanation: Pushkalavati was the capital of the ancient Kingdom of Gandhara. Its ruins are currently located in Charsadda, Pakistan, located in Peshawar valley in the Khyber Pakhtunkhwa province (formerly NWFP). Pushkalavati was home to the Sanskrit grammarian Panini.
+
+ Index: 23
+Question: Heliodorus was the Greek ambassador of which of the following Indo-Greek kings?
+CodeBlock:
+
+Options:
+0 . seleucus nicator
+1 . antialcidas nikephoros
+2 . constantine
+3 . alexander
+4 . 
+Correct Answer: 1
+
+Explanation: Heliodorus was the Greek ambassador of Indo-Greek king Antialcidas Nikephoros of Taxila in the court of Sunga King Bhagbhadra. He erected the famous votive Heliodorus pillar around 110 BC near Vidisha, Madhya Pradesh.
+
+ Index: 24
+Question: Agnimitra, who is the hero of Kalidasa's 'Malvikagnimitram,' was a king of which of the following dynasties?
+CodeBlock:
+
+Options:
+0 . kanva
+1 . sunga
+2 . maurya
+3 . satavahana
+4 . 
+Correct Answer: 1
+
+Explanation: Malavikagnimitram is a Sanskrit play, which depicts Agnimitra as its hero. Malvika is a maidservant whom Agnimitra falls in love with. This was known to his chief queen, who imprisons her. Later, Malvika was of royal birth, and she was accepted as the queen of Agnimitra. Malavikagnimitram gives an account of Rajsuya Yajna of Pushyamitra Shunga, father of Agnimitra.
+
+ Index: 25
+Question: The first Indian Mathematician who treated Mathematics as a different discipline?
+CodeBlock:
+
+Options:
+0 . aryabhatta
+1 . varahmihira
+2 . baudhayan
+3 . ramanujan
+4 . 
+Correct Answer: 0
+
+Explanation: Aryabhatta was the first of the significant mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy. He treated mathematics as a different discipline.
+
+ Index: 26
+Question: Who assumed the title of 'Ksitipasatapatih' (Lord of hundred Kings)?
+CodeBlock:
+
+Options:
+0 . samudragupta
+1 . skandgupta
+2 . ashoka
+3 . chandragupta i
+4 . 
+Correct Answer: 1
+
+Explanation: The titles of Skandagupta are Parambhattaraka, Paramdevta, Maharajadhiraja, Kramaditya, Vikramaditya, etc. In the Kahaum inscription, he is also known as KsitipaSatapatih (or lord of a hundred kings).
+
+ Index: 27
+Question: Which among the following kings assassinated Brihadrath, the last Maurya King?
+CodeBlock:
+
+Options:
+0 . agnimitra
+1 . pushyamitra shunga
+2 . vasujyeshtha
+3 . vasumitra
+4 . 
+Correct Answer: 1
+
+Explanation: Brihadratha was a weak ruler, and his Senapati Pushymitra Shunga, while parading the entire Mauryan army before Brihadratha to show him the strength of the military, assassinated him, and this was the end of the Mauryas. Pushyamitra Shunga founded the Shunga dynasty in around 185-183 BC.
+
+ Index: 28
+Question: "Mahamaya," the mother of Gautama Buddha, belonged to which among the following dynasties?
+CodeBlock:
+
+Options:
+0 . shakya
+1 . koliyan
+2 . lichchavi
+3 . maurya
+4 . 
+Correct Answer: 1
+
+Explanation: Gautama Buddha's mother, 'Mahamaya,' belonged to the Koliya tribe, and she married Suddhodhana, who was the king of the Sakya clan. The Sakya and Koliya ruled on opposite Rohini river banks in the current Rupendehi District of Lumbini, Nepal. Both of them were republics.
+
+ Index: 29
+Question: The silver coins of which among the following kings carried portraits and bilingual legends, which were inspired by the Kshatrapa types?
+CodeBlock:
+
+Options:
+0 . satavahanas
+1 . kushanas
+2 . guptas
+3 . mauryas
+4 . 
+Correct Answer: 0
+
+Explanation: Satavahana kings are noted for issuing bilingual coins featuring the Middle Indo-Aryan language on one side and Tamil language on the other side.
+
+ Index: 30
+Question: Which one is the gesture of Katyotsarga's pose?
+CodeBlock:
+
+Options:
+0 . shiva
+1 . vishnu
+2 . gautam buddha
+3 . mahavira
+4 . 
+Correct Answer: 3
+
+Explanation: Katyotsarga pose is a gesture of Mahavira. It is a yogic posture, which is an essential part of Jain meditation. It can be done with seated cross-legged on a lion's throne in the posture of meditation. It is also called dhyana mudra.
+
+ Index: 31
+Question: Buddha got enlightenment under which of the following tree?
+CodeBlock:
+
+Options:
+0 . ficus religiosa
+1 . ficus benghalensis
+2 . ficus elastic
+3 . ficus microcarpa
+4 . 
+Correct Answer: 0
+
+Explanation: Ficus religiosa and is the botanical name of peepal. Ficus benghalensis is the Indian Banyan Tree, and Ficus microcarpa is Chinese Fig. Ficus elastica is the Indian Rubber Plant.
+
+ Index: 32
+Question: The port of Tamralipti in the Gupta Era was located in which of the following parts of India?
+CodeBlock:
+
+Options:
+0 . south india
+1 . north india
+2 . eastern india
+3 . western india
+4 . 
+Correct Answer: 2
+
+Explanation: Tamralipti was an ancient port city in Midnapur district, West Bengal. It was one of the Buddhist Kingdoms visited by Xuanzang in 639 AD. It was a port of the Gupta era for eastern India.
+
+ Index: 33
+Question: To which dynasty the Gandhara School of art is related?
+CodeBlock:
+
+Options:
+0 . kushanas
+1 . shakas
+2 . greeks
+3 . guptas
+4 . 
+Correct Answer: 0
+
+Explanation: The Gandhara School of art was developed in the first century A.D. and Mathura School during the reign of Kushana emperor Kanishka. Both Shakas and Kushanas were patrons of Gandhara School, which is known for the early sculptural representations of the Buddha in human form
+
+ Index: 34
+Question: The Rajukas were assisted in accounting, secretarial, and other miscellaneous works by which of the following?
+CodeBlock:
+
+Options:
+0 . pradeshikas
+1 . yukatas
+2 . gas
+3 . sthanikas
+4 . 
+Correct Answer: 1
+
+Explanation: The divisions in the Mauryan empire were divided into districts under officials called Rajukas. The Rajukas were assisted by Yuktas or clerks in accounting, secretarial, and other miscellaneous works.
+
+ Index: 35
+Question: Which of the following committee took care of foreigners in the Mauryan administration?
+CodeBlock:
+
+Options:
+0 . foreigners
+1 . foreign affairs
+2 . vital statistics
+3 . home affairs
+4 . 
+Correct Answer: 0
+
+Explanation: According to Strabo and Diodorus, the Mauryan Government took special care of the foreigners. The committee which was responsible for taking care of foreigners was "Foreigners." The duty of this committee was to take care of any foreigner who was in need.
+
+ Index: 36
+Question: Which of the following committee was responsible for collecting tax in the Mauryan Administration?
+CodeBlock:
+
+Options:
+0 . manufactured articles
+1 . tax collection
+2 . kara
+3 . trade, commerce, and market regulations
+4 . 
+Correct Answer: 1
+
+Explanation: In the Mauryan administration, the committee responsible for collecting tax was "Tax collection." The committee organized one-tenth of the prices of the articles or products sold as tax. The punishment for any fraud in the payment of this tax was the death penalty.
+
+ Index: 37
+Question: The term 'visit' refers to which of the following?
+CodeBlock:
+
+Options:
+0 . wage labour
+1 . forced labour
+2 . slave labour
+3 . none of them
+4 . 
+Correct Answer: 1
+
+Explanation: During the Mauryan age, the artisans living in towns had to pay taxes either in cash or kind or work free for the king. Vista was a form of forced labor. Arthashastra of Kautilya also mentions wage labor (karamakara), bonded labor, and slave labor (dasas and ahitakas). 
+
+ Index: 38
+Question: On which of the following, the new material culture of the Gangetic basin was based?
+CodeBlock:
+
+Options:
+0 . use of copper
+1 . use of iron
+2 . use of bronze
+3 . use of tin
+4 . 
+Correct Answer: 1
+
+Explanation: In the Mauryan period, we can see that the material culture rapidly developed in the Gangetic plains. The new material culture developed in the Gangetic valley revolved around the use of iron and iron implements.
+
+ Index: 39
+Question: Which of the following sect does King Kharvela belong to?
+CodeBlock:
+
+Options:
+0 . jainism
+1 . buddhism
+2 . shaivism
+3 . brahmanism
+4 . 
+Correct Answer: 0
+
+Explanation: The Hathigumpha inscriptions found in Udayagiri hills near Bhubaneshwar mention King Kharvela. He ruled the chedi Dynasty in the 1st century BCE. He expanded the kingdom from Ganga to the Kaveri river. He was a follower of Jainism.
+
+ Index: 40
+Question: Which of the following were the first to issue gold coins?
+CodeBlock:
+
+Options:
+0 . kushans
+1 . shakas
+2 . parthians
+3 . indo-greeks
+4 . 
+Correct Answer: 3
+
+Explanation: The Indo-Greeks were the first to issue gold coins. Much of Indo-Greeks' lineage is determined based on excavated coins that include coins of silver, copper, and nickel.
+
+ Index: 41
+Question: Who offered a bowl of milk-rice to Buddha?
+CodeBlock:
+
+Options:
+0 . kapila
+1 . sujata
+2 . suneeta
+3 . yashodhara
+4 . 
+Correct Answer: 1
+
+Explanation: When Buddha was moving towards the village of Senani, he was offered a bowl of milk-rice by a low-caste village girl named Sujata. Buddha Accepted from a grass-cutter a gift of kusa grass for a mat and took a seat under a Peepal tree facing the east.
+
+ Index: 42
+Question: Where did Buddha deliver his first Sermon?
+CodeBlock:
+
+Options:
+0 . sarnath
+1 . gaya
+2 . lumbini
+3 . kushinagar
+4 . 
+Correct Answer: 0
+
+Explanation: The Buddha delivered his first sermon in a deer park at Sarnath. This event is known as' DhammaChakka-Pavattana,' meaning 'turning the wheel of dharma.'
+
+ Index: 43
+Question: Who is the main expounder of materialistic philosophy?
+CodeBlock:
+
+Options:
+0 . charvaka
+1 . ajivikas
+2 . jainism
+3 . buddhism
+4 . 
+Correct Answer: 0
+
+Explanation: Charvaka was the main expounder of materialistic philosophy. Charvakas rejected Vedas and any rituals. They were opposed to the idea of God or any other supernatural power. Most of its literature is lost now.
+
+ Index: 44
+Question: Large territorial states in North India during the sixth century BCE were known as?
+CodeBlock:
+
+Options:
+0 . janapadas
+1 . jana
+2 . mahajanapadas
+3 . none of them
+4 . 
+Correct Answer: 2
+
+Explanation: Introduction of better iron tools and weapons enabled some territorial states during the sixth century BCE to become very large, and they came to be called Mahajanapadas meaning large territorial states, in North India.
+
+ Index: 45
+Question: What was the capital city during the 6th century BCE?
+CodeBlock:
+
+Options:
+0 . rajdhani
+1 . nigama
+2 . mahanagara
+3 . pura
+4 . 
+Correct Answer: 0
+
+Explanation: The beginning of the 6th century BCE was marked by an increase in the settlements and corresponding population growth in the Ganga valley. The name of the capital city was Rajdhani.
+
+ Index: 46
+Question: What were the rich peasants called in the 6th century BCE?
+CodeBlock:
+
+Options:
+0 . ganapati
+1 . gramabhojaka
+2 . kamikaze
+3 . gramakas
+4 . 
+Correct Answer: 0
+
+Explanation: The village lands were divided into cultivable plots that were allotted family-wise. The holdings were not of uniform size. The rich peasants were called 'Gahapati' whereas the hired agricultural laborers were known as 'Dasa-Kammakara.'
+
+ Index: 47
+Question: Ashoka is referred to as Buddhashakya in which of the following inscriptions?
+CodeBlock:
+
+Options:
+0 . sarnath inscription
+1 . maski edict
+2 . kandahar inscription
+3 . delhi - topra pillar edict
+4 . 
+Correct Answer: 1
+
+Explanation: Emperor Ashoka was identified with various names, including Buddhashakya and Ashoka, as mentioned in the Maski Rock Edict. In the Sarnath Pillar inscription, he is referred to as Dharmasoka.
+
+ Index: 48
+Question: Dhamma Mahamattas were mentioned in which of the following rock edicts?
+CodeBlock:
+
+Options:
+0 . fifth edict
+1 . third edict
+2 . seventh edict
+3 . sixth edict
+4 . 
+Correct Answer: 0
+
+Explanation: The Fifth Major Rock Edict of Ashoka mentions the appointment of Dhamma Mahamattas. Dhamma Mahamattas was an exceptional cadre of officials entrusted to spread dhamma within the kingdom.
+
+ Index: 49
+Question: Who was the founder of the Vatsagulma line of the Vakatakas?
+CodeBlock:
+
+Options:
+0 . pravarasena ii
+1 . rudrasena i
+2 . vindhyashakti ii
+3 . sarvasana
+4 . 
+Correct Answer: 3
+
+Explanation: The founder of the Vatsagulma line of the Vakatakas was Sarvasena. sarvasena was the son of Pravarasena I. Vatsagulma line is the second primary Vakataka line.
+
+]

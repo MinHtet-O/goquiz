@@ -1,0 +1,687 @@
+&[Index: 0
+Question: A process is a _______.
+CodeBlock:
+
+Options:
+0 . single thread of execution.
+1 . program in the execution
+2 . program in the memory
+3 . task
+4 . 
+Correct Answer: 1
+
+Explanation: A process is a program that is executed by the threads. It consists of multiple threads of execution.
+
+ Index: 1
+Question: The word processing feature that catches most random typographical errors and misspellings is known as _____.
+CodeBlock:
+
+Options:
+0 . grammar checker
+1 . spell checker
+2 . word checker
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: The word processing feature that catches most random typographical errors and misspellings is known as spell checker.
+
+ Index: 2
+Question: What is smallest unit of the information?
+CodeBlock:
+
+Options:
+0 . a bit
+1 . a byte
+2 . a block
+3 . a nibble
+4 . 
+Correct Answer: 0
+
+Explanation: The smallest unit of the information is a bit. All information is stored in the computer as bits.
+
+ Index: 3
+Question: What is the decimal equivalent of the binary number 10111?
+CodeBlock:
+
+Options:
+0 . 21
+1 . 39
+2 . 42
+3 . 23
+4 . 
+Correct Answer: 3
+
+Explanation: Binary number is 10111.= 1x24 + 0x23 + 1x22 + 1x21 + 1x20= 1x16 + 0x8 + 1x4 + 1x2 + 1x1= 16 + 0 + 4 + 2 + 1= 23
+
+ Index: 4
+Question: What is the term for a temporary storage area that compensates for differences in data rate and data flow between devices?
+CodeBlock:
+
+Options:
+0 . buffer
+1 . bus
+2 . channel
+3 . modem
+4 . 
+Correct Answer: 0
+
+Explanation: Buffer is the temporary storage that can be used to compensate for a difference in data rate and data flow between devices. In other words, a buffer is an area of physical memory storage used to store data temporarily.
+
+ Index: 5
+Question: How many color dots make up one color pixel on a screen?
+CodeBlock:
+
+Options:
+0 . 265
+1 . 16
+2 . 8
+3 . 3
+4 . 
+Correct Answer: 3
+
+Explanation: Three color dots form a color pixel on a screen, and these are the following color dots: red, blue, and green. you can make any color from these 3 colors on the screen.
+
+ Index: 6
+Question: Which of the following values is the correct value of this hexadecimal code 1F.01B?
+CodeBlock:
+
+Options:
+0 . 35.0065918
+1 . 32.0065918
+2 . 31.0065918
+3 . 30.0065918
+4 . 
+Correct Answer: 3
+
+Explanation: B and F are equal to 11 and 15 respectively.Therefore, equivalent decimal number is,= (1F.01B)16= (1x161 + 15x160 + 0x16-1 + 1x16-2 + 11x16-3)10= (16 + 15 + 0 + 0.00390625 + 0.00268554688)10= (31.0065918)10
+
+ Index: 7
+Question: How is the data stored on the diskette?
+CodeBlock:
+
+Options:
+0 . ink
+1 . laser bubbles
+2 . magnetism
+3 . circuits
+4 . 
+Correct Answer: 2
+
+Explanation: The data is stored on the diskette in magnetism form. A diskette is a removable data storage, and it is used with the PC.
+
+ Index: 8
+Question: Which of the following is the smallest visual element on a video monitor?
+CodeBlock:
+
+Options:
+0 . character
+1 . pixel
+2 . byte
+3 . bit
+4 . 
+Correct Answer: 1
+
+Explanation: A pixel is the smallest portion of the screen. The name Pixel is made from the "Picture element" and is also called the PEL. All screen is made by putting millions of pixels together in a matrix form.
+
+ Index: 9
+Question: Which of the following natural element is the primary element in computer chips?
+CodeBlock:
+
+Options:
+0 . silicon
+1 . carbon
+2 . iron
+3 . uranium
+4 . 
+Correct Answer: 0
+
+Explanation: Silicon is the primary element in computer chips. Silicon is a highly pure element which is now perfect for the massive computer chip industry. It is cost efficent and easy to use.
+
+ Index: 10
+Question: Which of the following programs enables you to calculate numbers related to rows and columns?
+CodeBlock:
+
+Options:
+0 . window program
+1 . spreadsheet program
+2 . graphics program
+3 . word program
+4 . 
+Correct Answer: 1
+
+Explanation: Spreadsheet programs help you to calculate numbers related to rows and columns. It can also graphically represent the data as per the user's requirement.
+
+ Index: 11
+Question: Which of the following is a structured programming technique that graphically represents the detailed steps required to solve a program?
+CodeBlock:
+
+Options:
+0 . object-oriented programming
+1 . pseudocode
+2 . flowchart
+3 . top-down design
+4 . 
+Correct Answer: 2
+
+Explanation: Flowchart is a structured programming technique that graphically represents the detailed steps required to solve a program. Usually, it shows the steps as boxes of different types, and these boxes are connected with arrows.
+
+ Index: 12
+Question: Which of the following values is the correct value of this hexadecimal code ABCDEF?
+CodeBlock:
+
+Options:
+0 . 11259375
+1 . 11259379
+2 . 11259312
+3 . 11257593
+4 . 
+Correct Answer: 2
+
+Explanation: A, B, C, D, E, AND F are equal to 10, 11, 12, 13, 14, and 15 respectively.Therefore, equivalent decimal number is,= (ABCDEF)16= (10x165 + 11x164 + 12x163 + 13x162 + 14x161 + 15x160)10= (10485760 + 720896+ 49152+ 3328 + 224 + 15)10= (11259375)10
+
+ Index: 13
+Question: Which of the following is an output device?
+CodeBlock:
+
+Options:
+0 . keyboard
+1 . mouse
+2 . light pen
+3 . vdu
+4 . 
+Correct Answer: 3
+
+Explanation: The full form of VDU is the Visual Display Unit. It is a hardware output device that uses a cathode ray tube to display a visual image.
+
+ Index: 14
+Question: Which of the following is an input device?
+CodeBlock:
+
+Options:
+0 . plotter
+1 . printer
+2 . vdu
+3 . mouse
+4 . 
+Correct Answer: 3
+
+Explanation: A mouse is a hardware input device that controls a cursor on a computer. With the help of the mouse, you can select, open, and move files, icons, folders, and text on the PC.
+
+ Index: 15
+Question: Which of the following is the extension of Notepad?
+CodeBlock:
+
+Options:
+0 . .txt
+1 . .xls
+2 . .ppt
+3 . .bmp
+4 . 
+Correct Answer: 0
+
+Explanation: The .txt file extension is a standard text document extension that contains the unformatted text. It is the default file extension for the notepad.
+
+ Index: 16
+Question: BIOS is used?
+CodeBlock:
+
+Options:
+0 . by operating system
+1 . by compiler
+2 . by interpreter
+3 . by application software
+4 . 
+Correct Answer: 0
+
+Explanation: BIOS is used by the operating system. It is used to configure and identify the hardware in a system such as the hard drive, floppy drive, optical drive, CPU, and memory.
+
+ Index: 17
+Question: What is the mean of the Booting in the system?
+CodeBlock:
+
+Options:
+0 . restarting computer
+1 . install the program
+2 . to scan
+3 . to turn off
+4 . 
+Correct Answer: 0
+
+Explanation: Booting is a process of the restart the computer. After restarting it, there is no software in the computer's main memory.
+
+ Index: 18
+Question: A computer is accurate, but if the result of a computation is false, what is the main reason for it?
+CodeBlock:
+
+Options:
+0 . power failure
+1 . the computer circuits
+2 . incorrect data entry
+3 . distraction
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 19
+Question: The central processing unit is located in the _____.
+CodeBlock:
+
+Options:
+0 . hard disk
+1 . system unit
+2 . memory unit
+3 . monitor
+4 . 
+Correct Answer: 1
+
+Explanation: The central processing unit is located in the system unit. The system unit controls the entire computer. It includes RAM, Processors, Optical drive, Power supply, Fans, Hardware, Peripheral devices, BIOS, etc.
+
+ Index: 20
+Question: Which one of the following groups contains graphical file extensions?
+CodeBlock:
+
+Options:
+0 . jpg, cpx, gcm
+1 . gif, tce, wmf
+2 . tcp, jpg, bmp
+3 . jpg, gif, bmp
+4 . 
+Correct Answer: 3
+
+Explanation: JPG, GIF, BMP are all extensions of graphical file. JPG stands for Joint Photographic Experts Group, GIF stands for Graphics Interchange Format, and BMP stands for Bitmap Image File. 
+
+ Index: 21
+Question: Which of the following is equal to a gigabyte?
+CodeBlock:
+
+Options:
+0 . 1024 bytes
+1 . 512 gb
+2 . 1024 megabytes
+3 . 1024 bits
+4 . 
+Correct Answer: 2
+
+Explanation: One gigabyte is made up of 1024 megabytes.1024 KB = 1 MB1024 MB = 1 GB
+
+ Index: 22
+Question: How many bytes does 4 kilobytes represent? 
+CodeBlock:
+
+Options:
+0 . 512
+1 . 1024
+2 . 4096
+3 . 8192
+4 . 
+Correct Answer: 2
+
+Explanation:1 kb = 210 bytes in binary1 kb = 1024 bytes in binary4 kb = 4 * 1024 bytes= 4096 bytes
+
+ Index: 23
+Question: Which type of program acts as an intermediary between a user of a computer and the computer hardware?
+CodeBlock:
+
+Options:
+0 . operating system
+1 . user thread
+2 . superuser thread
+3 . application program
+4 . 
+Correct Answer: 0
+
+Explanation: An OS is a kind of program that acts as an intermediary for computer hardware and computer user. The purpose of an operating system is to provide a user-friendly and effective environment.
+
+ Index: 24
+Question: What kind of language can computer understand?
+CodeBlock:
+
+Options:
+0 . normal language
+1 . computer language
+2 . assembly language
+3 . high-level language
+4 . 
+Correct Answer: 0
+
+Explanation: An assembly language is a scripting language capable of telling the computer explicitly what to do.
+
+ Index: 25
+Question: Which of the following values is the correct value of this binary code 1011 and 1111?
+CodeBlock:
+
+Options:
+0 . 11 and 14
+1 . 12 and 15
+2 . 11 and 15
+3 . 12 and 14
+4 . 
+Correct Answer: 2
+
+Explanation: 1011 = 1 × 23 + 0 × 22 + 1 × 21 + 1 × 20= 8 + 0 + 2 + 1= 111111 = 1 × 23 + 1 × 22 + 1 × 21 + 1 × 20= 8 + 4 + 2 + 1= 15
+
+ Index: 26
+Question: Which of the following is not one of the internal components of a CPU?
+CodeBlock:
+
+Options:
+0 . control sequencer
+1 . m-d-r
+2 . m-a-r
+3 . floppy disk
+4 . 
+Correct Answer: 3
+
+Explanation: Floppy disk is not an internal components of a CPU. It is a component of the secondary storage and external storage. It is a kind of data storage device.
+
+ Index: 27
+Question: What is the speed of computer measured in?
+CodeBlock:
+
+Options:
+0 . nanoseconds
+1 . kilo-seconds
+2 . gigahertz
+3 . megabytes
+4 . 
+Correct Answer: 2
+
+Explanation: The computer clock speed is normally calculated in gigahertz (GHz) or megahertz (MHz). a gigahertz is equal to one billion ticks per second, and a megahertz is equal to one million ticks per second.
+
+ Index: 28
+Question: What is the full form of RAM?
+CodeBlock:
+
+Options:
+0 . remote access memory
+1 . random access memory
+2 . remote access memory
+3 . random access memory
+4 . 
+Correct Answer: 1
+
+Explanation: The full name of RAM is random access memory. It is a hardware device located in a computer that stores data temporarily. Temporary means it only stores data for some time. RAM is also called main memory, primary memory, or system memory.
+
+ Index: 29
+Question: What is the full form of DRAM?
+CodeBlock:
+
+Options:
+0 . dynamic remote access memory
+1 . dynamic random-access memory
+2 . dependent remote access memory
+3 . dependent random-access memory
+4 . 
+Correct Answer: 1
+
+Explanation: The full name of DRAM is dynamic random-access memory. It needs a refresh power to work and it has transistor and capacitor for the memory cell. It is used in video game consoles, networking hardware, and system memory, etc.
+
+ Index: 30
+Question: Which one of the following software applications would be the most appropriate for performing numerical and statistical calculations?
+CodeBlock:
+
+Options:
+0 . database
+1 . document processor
+2 . graphics package
+3 . spreadsheet
+4 . 
+Correct Answer: 3
+
+Explanation: Spread Sheet is the most appropriate for performing numerical and statistical calculation. A spreadsheet is a computer application that is a copy of a paper that calculates a worksheet. It displays several cells that together form a mesh that includes rows and columns, each cell containing alphanumeric text, numeric values, or formulas.
+
+ Index: 31
+Question: Which of the following is not considered hardware?
+CodeBlock:
+
+Options:
+0 . operating system
+1 . cpu
+2 . keyboard
+3 . hard disk
+4 . 
+Correct Answer: 0
+
+Explanation: The operating system (OS) is a software that acts as an interface between a computer and a user. It is also called system software. OS is the first program to be loaded into a computer. It manages all the operations of the computer.
+
+ Index: 32
+Question: Which of the following is exclusively a sequential access storage device?
+CodeBlock:
+
+Options:
+0 . hard disk
+1 . floppy disk
+2 . magnetic tape
+3 . dvd
+4 . 
+Correct Answer: 2
+
+Explanation: Magnetic tape is exclusively a sequential access storage device. Sequential access memory is a type of data storage devices that read and write the data in a series.
+
+ Index: 33
+Question: Akshat has created a story of ten pages, but only wants to print the first two pages. Which printer command should he choose?
+CodeBlock:
+
+Options:
+0 . print all
+1 . print from 1 to 2
+2 . page setup
+3 . print preview
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 34
+Question: What is the full form of SRAM?
+CodeBlock:
+
+Options:
+0 . static random-access memory
+1 . static remote-access memory
+2 . setup random-access memory
+3 . setup remote-access memory
+4 . 
+Correct Answer: 0
+
+Explanation: The full name of SRAM is static random-access memory. It needs a constant power to work. Due to continuous power, it does not need to be refreshed.
+
+ Index: 35
+Question: What is the full form of USB?
+CodeBlock:
+
+Options:
+0 . unshielded system board
+1 . universal system board
+2 . unidentified system bus
+3 . universal system bus
+4 . 
+Correct Answer: 3
+
+Explanation: The full name of USB is Universal Serial Bus. It is a common interface that allows the communication between two devices.
+
+ Index: 36
+Question: Which one of the following is not a form of data storage media?
+CodeBlock:
+
+Options:
+0 . a database
+1 . magnetic tape
+2 . magnetic disc
+3 . optical disc
+4 . 
+Correct Answer: 0
+
+Explanation: A database is a collection of information that is organized in such a way that information can be easily accessed, managed, and updated. In the database, we can quickly and easily select the desired data. For example, the dictionary is analogous to a database that is like a file.
+
+ Index: 37
+Question: What is five main components of a computer system?
+CodeBlock:
+
+Options:
+0 . cpu, cd-rom, mouse, keyboard, sound card
+1 . memory, video card, monitor, software, hardware
+2 . modem, keyboard, word processor, printer, screen
+3 . cpu, memory, system bus, input, output
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 38
+Question: Which of the following numbers is a binary number?
+CodeBlock:
+
+Options:
+0 . 1 and 2
+1 . 0 and 0.1
+2 . 2 and 0
+3 . 0 and 1
+4 . 
+Correct Answer: 3
+
+Explanation: Binary numbers are represented by 0 and 1. The computer only works on binary numbering systems because according to electronics, any signal can either be in the on state or in the off state.
+
+ Index: 39
+Question: Which one of the following is the best fire extinguisher for IT equipment?
+CodeBlock:
+
+Options:
+0 . dry powder
+1 . bromo chloride
+2 . co2
+3 . water
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 41
+Question: Which of the following statement is correct regarding a template prepared by a word processing package?
+CodeBlock:
+
+Options:
+0 . any document can be saved as a template.
+1 . default template is used when you create a new file.
+2 . many templates contain text that gives one advice on how to use the template.
+3 . default settings are reflected by the normal document template and cannot be overwritten.
+4 . 
+Correct Answer: 0
+
+Explanation: A template is a file that acts as a framework for a new text. Any document or text can be saved as a template.
+
+ Index: 42
+Question: Which of the following would be the correct description for WORM virus?
+CodeBlock:
+
+Options:
+0 . it infects the boot sector.
+1 . it propagates through the internet and e-mail.
+2 . it has no effect in increasing the internet traffic.
+3 . it alters the folder structure.
+4 . 
+Correct Answer: 1
+
+Explanation: A worm virus is a malicious file. This virus can be spread across a network without human aid. It also requires a large amount of bandwidth and memory. It spreads through the internet and e-mail.
+
+ Index: 43
+Question: A hard disk drive can be directly connected to a PC via a _____.
+CodeBlock:
+
+Options:
+0 . scsi interface
+1 . parallel interface
+2 . wan interface
+3 . usb interface
+4 . 
+Correct Answer: 0
+
+Explanation: A hard disk drive can be directly connected to a PC via a SCSI interface. SCSI is a group of protocols that send the data between computers and external devices in a physical manner. 
+
+ Index: 44
+Question: The use of the IC in a computer has ______.
+CodeBlock:
+
+Options:
+0 . increased the amount of heating
+1 . reduced the size and cost of computers
+2 . reduced the peripheral devices to be used
+3 . reduced the performance capacity of the computer
+4 . 
+Correct Answer: 1
+
+Explanation: The use of the IC in a computer has reduced the cost of computers. It is an incredibly small electronics chip integrated with a set of electrical circuits and transistors. It is a very small chip.
+
+ Index: 45
+Question: Consider the following path C:\Device\Module\Module 1. What is name of the file in this path?
+CodeBlock:
+
+Options:
+0 . device
+1 . module
+2 . module 1
+3 . c
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 46
+Question: What is the full form of SCSI?
+CodeBlock:
+
+Options:
+0 . standard computer systems interface
+1 . small computer systems interface
+2 . super computer systems interface
+3 . small computer standard interface
+4 . 
+Correct Answer: 1
+
+Explanation: The full name of SCSI is Small computer system interface. SCSI is a group of protocols that send the data between computers and external devices in a physical manner.
+
+ Index: 47
+Question: Which one of the following is not input device?
+CodeBlock:
+
+Options:
+0 . keyboard
+1 . mouse
+2 . speaker
+3 . scanner
+4 . 
+Correct Answer: 2
+
+Explanation: Speaker is a hardware output device that is used for listening to audio by connecting it to a computer and other devices. The computer's sound card produces sound waves from the speaker.
+
+ Index: 48
+Question: Which one of the following is an example of the browser software?
+CodeBlock:
+
+Options:
+0 . microsoft word
+1 . notepad
+2 . internet navigator
+3 . internet explorer
+4 . 
+Correct Answer: 3
+
+Explanation: Internet explorer is a web browser software on the windows computer. It helps to search for anything in the world through the Internet. It is also known as Microsoft Edge. If you use a Windows computer, this software is already installed on your computer.
+
+ Index: 49
+Question: Which one of the following commands can be used to work on a file?
+CodeBlock:
+
+Options:
+0 . ctrl + xy
+1 . ctrl + 2
+2 . ctrl + c
+3 . none of the these
+4 . 
+Correct Answer: 2
+
+Explanation: Ctrl C is a copy command on the computer. It is a very useful command. This command first selects the text, files, and any data that is stored in the computer's hard disk and then copies it. It is a shortcut key on the computer.
+
+]

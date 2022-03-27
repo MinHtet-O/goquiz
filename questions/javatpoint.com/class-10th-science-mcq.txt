@@ -1,0 +1,701 @@
+&[Index: 0
+Question: What is a balanced chemical equation?
+CodeBlock:
+
+Options:
+0 . the equation in which the number of reactants is equal to the number of products.
+1 . the equation in which the size of the reactant is equal to the size of the product.
+2 . the equation in which the number of atoms of the reactant is equal to the number of atoms of the product.
+3 . the equation in which the number of the molecule is equal to the number of the product.
+4 . 
+Correct Answer: 2
+
+Explanation: An equation of mass value can neither be created nor destroyed, so the mass and atom value on both sides of the equation must be equal.
+
+ Index: 1
+Question: Sodium + Water →
+CodeBlock:
+
+Options:
+0 . sodium hydroxide + hydrogen
+1 . sodium hydrate + hydrogen
+2 . sodium hydroxide + water
+3 . sodium hydride + water
+4 . 
+Correct Answer: 0
+
+Explanation: Sodium + Water → Sodium Hydroxide + Hydrogen.
+
+ Index: 2
+Question: What is the color of the silver chloride? 
+CodeBlock:
+
+Options:
+0 . grey
+1 . white
+2 . brown
+3 . greenish
+4 . 
+Correct Answer: 1
+
+Explanation: The color of silver chloride is white, which turns gray from silver when sunlight.
+
+ Index: 3
+Question: Which thing changes after the rancidity of food?
+CodeBlock:
+
+Options:
+0 . smell and size
+1 . taste and size
+2 . smell and taste
+3 . taste and shape
+4 . 
+Correct Answer: 2
+
+Explanation: When fats and oils are oxidized it becomes rancid and their smell and taste change.
+
+ Index: 4
+Question: The bases change litmus paper from ___.
+CodeBlock:
+
+Options:
+0 . blue to red
+1 . red to blue
+2 . red to orange
+3 . orange to blue
+4 . 
+Correct Answer: 1
+
+Explanation: The bases change the litmus paper from red to blue, while acids change the litmus paper from blue to red.
+
+ Index: 5
+Question: Which of the following olfactory signals give the information about bases and acids?
+CodeBlock:
+
+Options:
+0 . color
+1 . odor
+2 . size
+3 . shape
+4 . 
+Correct Answer: 1
+
+Explanation: Olfactory indicators are substances that give information about acids and bases by changing their odor.
+
+ Index: 6
+Question: Metal oxide + Acid →
+CodeBlock:
+
+Options:
+0 . salt + hydrogen
+1 . metal hydrate + hydrogen
+2 . salt + water
+3 . metal hydrate + water
+4 . 
+Correct Answer: 2
+
+Explanation: Metal oxide + Acid → Salt + Water
+
+ Index: 7
+Question: What is the name of CaSO4.1/2H2O?
+CodeBlock:
+
+Options:
+0 . baking powder
+1 . baking soda
+2 . plaster of paris
+3 . gypsum
+4 . 
+Correct Answer: 2
+
+Explanation: On heating the gypsum at 373K, it converts into Calcium Sulphate Hemihydrate (CaSO4.1/2H2O). It is also known as plaster of Paris, which is used in cement industries and sculpture making.
+
+ Index: 8
+Question: Which of the following metal is not lustrous?
+CodeBlock:
+
+Options:
+0 . gallium
+1 . cesium
+2 . mercury
+3 . diamond
+4 . 
+Correct Answer: 3
+
+Explanation: Diamond is not a lustrous metal. It has no shining of its own. It only reflects the light falling on it.
+
+ Index: 9
+Question: Name the metal which is in liquid form at room temperature?
+CodeBlock:
+
+Options:
+0 . mercury
+1 . gallium
+2 . cesium
+3 . diamond
+4 . 
+Correct Answer: 0
+
+Explanation: All metals, except mercury, are solid at room temperature. It occurs in liquid form at room temperature because its melting point is low.
+
+ Index: 10
+Question: Which of the following metal is the most reactive metal? 
+CodeBlock:
+
+Options:
+0 . sodium
+1 . potassium
+2 . gold
+3 . aluminum
+4 . 
+Correct Answer: 1
+
+Explanation: Potassium is the most reactive metal due to its position in the reactive series.
+
+ Index: 11
+Question: Which of the following metal is not reactive metal?
+CodeBlock:
+
+Options:
+0 . sodium
+1 . potassium
+2 . gold
+3 . aluminum
+4 . 
+Correct Answer: 2
+
+Explanation: Gold is the most non-reactive metal due to its position in the reactive series.
+
+ Index: 12
+Question: What is the name of C3H8?
+CodeBlock:
+
+Options:
+0 . butane
+1 . propene
+2 . ethane
+3 . propane
+4 . 
+Correct Answer: 3
+
+Explanation: Propane has three carbon atoms and eight hydrogen atoms, so its chemical formula is C3H8.
+
+ Index: 13
+Question: Which of the following prefixes is correct for the carboxylic acid?
+CodeBlock:
+
+Options:
+0 . oic acid
+1 . ene
+2 . one
+3 . ol
+4 . 
+Correct Answer: 0
+
+Explanation: The chemical formula of a carboxylic acid is R-COOH. In which the carbon atom is a double bond with an oxygen atom and a single bond with a hydroxide molecule. Therefore, it takes the prefix oic acid.
+
+ Index: 14
+Question: What is the chemical formula of the ester compound?
+CodeBlock:
+
+Options:
+0 . ch3cooch2
+1 . ch3cooch2ch3
+2 . ch3cooch3ch
+3 . ch3cooch4
+4 . 
+Correct Answer: 1
+
+Explanation: The ester compound is a mixture of alcohol and carboxylic acids, and its chemical formula is CH3COOCH2CH3.
+
+ Index: 15
+Question: Soap creates a structure in the washing process. What is that structure called?
+CodeBlock:
+
+Options:
+0 . micelles
+1 . tail
+2 . head
+3 . hydrophilic
+4 . 
+Correct Answer: 0
+
+Explanation: Soap is a long chain of hydrocarbon. One end is hydrophilic, which connects with a water molecule. One is hydrophobic, which connects with dirt and oil particle and forms a structure called micelles.
+
+ Index: 16
+Question: According to Mendeleev's periodic table, what is the basis of the elements' chemical property?
+CodeBlock:
+
+Options:
+0 . charge
+1 . valency
+2 . atomic number
+3 . mass
+4 . 
+Correct Answer: 3
+
+Explanation: According to Mendeleev's periodic table, elements' chemical properties are functions of their mass, so they have arranged the elements according to their mass.
+
+ Index: 17
+Question: According to Mendeleev's periodic table, which of the following elements belongs to the seventh or first group?
+CodeBlock:
+
+Options:
+0 . helium
+1 . hydrogen
+2 . sodium
+3 . argon
+4 . 
+Correct Answer: 1
+
+Explanation: Hydrogen has one electron on its outer cell, so it belongs to the seventh and first group. Therefore, hydrogen could not find any place in the Mendeleev periodic table.
+
+ Index: 18
+Question: What is the number of groups in the modern periodic table?
+CodeBlock:
+
+Options:
+0 . 18
+1 . 17
+2 . 10
+3 . 12
+4 . 
+Correct Answer: 0
+
+Explanation: There are eighteen groups and seven periods in the modern periodic table.
+
+ Index: 19
+Question: Which group does chlorine belong to?
+CodeBlock:
+
+Options:
+0 . halogen group
+1 . alkaline metal group
+2 . alkaline earth metal group
+3 . noble gas group
+4 . 
+Correct Answer: 0
+
+Explanation: Chlorine has seven outermost electrons and has a valency of one, so it belongs to the 17th group i.e., the halogen group.
+
+ Index: 20
+Question: Name the process by which plants take their nutrition?
+CodeBlock:
+
+Options:
+0 . zylum
+1 . phloem
+2 . photosynthesis
+3 . osmosis
+4 . 
+Correct Answer: 2
+
+Explanation: Plants perform photosynthesis in which they get nutrition. In this process, plants are formed by synthesizing water and carbon dioxide in the presence of glucose and water made from sunlight, which gives them energy.
+
+ Index: 21
+Question: What is the name of the gland found in the human mouth?
+CodeBlock:
+
+Options:
+0 . thyroid
+1 . pitutory
+2 . gonads
+3 . salivary
+4 . 
+Correct Answer: 3
+
+Explanation: The salivary gland is present in the human mouth, which is secretive saliva. It is slightly acidic in nature, which helps in killing the germs that come with food and makes the food fluffy so that it can be easily digested.
+
+ Index: 22
+Question: What is the name of the main structure in the human body through which gases are exchanged?
+CodeBlock:
+
+Options:
+0 . lungs
+1 . nose
+2 . oesophagous
+3 . alveoli
+4 . 
+Correct Answer: 3
+
+Explanation: Alveoli is present in the human's lungs, in which the exchange of gases takes place. In the human lungs, carbon-di-oxide is taken up by alveoli and releases oxygen into human blood.
+
+ Index: 23
+Question: What is the basic unit of the kidney?
+CodeBlock:
+
+Options:
+0 . neuron
+1 . nephron
+2 . cell
+3 . glomerulus
+4 . 
+Correct Answer: 1
+
+Explanation: The basic unit of the kidney is the nephron. It consists of glomerulus, bowman's capsule, renal arteries. It helps in expelling water and minerals from the human body.
+
+ Index: 24
+Question: What is the basic unit of the nervous system?
+CodeBlock:
+
+Options:
+0 . neuron
+1 . nephron
+2 . cell
+3 . glomerulus
+4 . 
+Correct Answer: 0
+
+Explanation: The nervous system's basic unit is the neuron by which instructions are transferred from the brain to other parts of the body.
+
+ Index: 25
+Question: What is the full form of CNS?
+CodeBlock:
+
+Options:
+0 . centripetal nervous system
+1 . central neuron system
+2 . central nervous system
+3 . central neuron style
+4 . 
+Correct Answer: 2
+
+Explanation: The full form of CNS is the central nervous system. The central nervous system has two main parts: the brain and spinal cord.
+
+ Index: 26
+Question: How many parts of the human midbrain have?
+CodeBlock:
+
+Options:
+0 . one
+1 . two
+2 . three
+3 . four
+4 . 
+Correct Answer: 2
+
+Explanation: The three main parts of the human middle brain are the colliculi, tegmentum, and cerebral peduncles. This part is present at the top of the human brain, and it helps in balancing the body.
+
+ Index: 27
+Question: What is the name of the hormone secreted by gonads in the male reproductive system?
+CodeBlock:
+
+Options:
+0 . estrogen
+1 . testosterone
+2 . progesterone
+3 . fsh
+4 . 
+Correct Answer: 1
+
+Explanation: Testosterone is secreted by the gonads in the male reproductive system, which helps in the creation of sperm.
+
+ Index: 28
+Question: What is the full form of FSH?
+CodeBlock:
+
+Options:
+0 . follicle stimulating hormone
+1 . follicle stimuli hormone
+2 . file stimulating hormone
+3 . fuel stimulating hormone
+4 . 
+Correct Answer: 0
+
+Explanation: The full form of the FSH is Follicle Stimulating Hormone. It is secreted in females and helps in the menstrual cycle. It controls the growth of the egg.
+
+ Index: 29
+Question: What is the name of the process occurring in Hydra in reproduction?
+CodeBlock:
+
+Options:
+0 . fission
+1 . regeneration
+2 . budding
+3 . fragmentation
+4 . 
+Correct Answer: 2
+
+Explanation: Hydra is reproduced by budding. A small bud is produced in the body of hydra. When this bud matures, it separates from Hydra's body.
+
+ Index: 30
+Question: What is the name of the process occurring in the Bryophyllum plant in reproduction?
+CodeBlock:
+
+Options:
+0 . fission
+1 . regeneration
+2 . budding
+3 . vegetative propagation
+4 . 
+Correct Answer: 3
+
+Explanation: The name of the process occurring in the Bryophyllum plant is vegetative propagation. In this process, notches are formed on the margins of its leaves. When they mature, they are separated from the leaves of the plant.
+
+ Index: 31
+Question: What is the name of the reproductive organ of the female plant that sticks to pollinators?
+CodeBlock:
+
+Options:
+0 . style
+1 . stigma
+2 . ovule
+3 . ovary
+4 . 
+Correct Answer: 1
+
+Explanation: Stigma is the reproductive organ of a pollinating female plant. It stimulates the formation of the tube in style through which pollen particles flow and reach the ovary.
+
+ Index: 32
+Question: How many chromosomes are found in the human body?
+CodeBlock:
+
+Options:
+0 . 22 pairs
+1 . 23 pairs
+2 . 24 pairs
+3 . 23 chromosomes
+4 . 
+Correct Answer: 1
+
+Explanation: A human has 23 pairs of chromosomes. One pair has the sex chromosome that determines the sex of the human body, and the other 22 pairs are autosomes.
+
+ Index: 33
+Question: How many numbers of characters are in the pea plant on which Mendel experiment? 
+CodeBlock:
+
+Options:
+0 . five
+1 . three
+2 . seven
+3 . nine
+4 . 
+Correct Answer: 2
+
+Explanation: Mandel experiment on the pea plant in which he finds seven-character which are different in one sense. After crossing the plant of a different character, he gives the theory of heredity.
+
+ Index: 34
+Question: Who is the father of evolution?
+CodeBlock:
+
+Options:
+0 . george mendel
+1 . mendeleev
+2 . charles darwin
+3 . madam curie
+4 . 
+Correct Answer: 2
+
+Explanation: The father of evolution is Charles Darwin. Charles Darwin was a British naturalist who proposed the theory of biological evolution by natural selection.
+
+ Index: 35
+Question: Which of the following statements is correct about the analogous organ?
+CodeBlock:
+
+Options:
+0 . the organs whose work are the same but structure is different.
+1 . the organs of which both structure and work are the same.
+2 . the organs of which both structure and work are different.
+3 . none of the these
+4 . 
+Correct Answer: 0
+
+Explanation: Analogous organs are those organs which work are the same, but their structure is different-for example, both the bat's hand and the bird's hand fly, but their internal structures are different.
+
+ Index: 36
+Question: What is another name of the convex mirror?
+CodeBlock:
+
+Options:
+0 . converging mirror
+1 . diverging mirror
+2 . curved mirror
+3 . concave mirror
+4 . 
+Correct Answer: 1
+
+Explanation: Convex mirror is also known as the diverging mirror because it diverges the ray of light falling on it.
+
+ Index: 37
+Question: What is the relationship between the radius of curvature and focal length of the mirror?
+CodeBlock:
+
+Options:
+0 . r = 2f
+1 . r = 3f
+2 . 2r = f
+3 . r = 1/2 (f)
+4 . 
+Correct Answer: 0
+
+Explanation: The radius of curvature is twice the focal length of the mirror. Therefore, option a is the correct answer.
+
+ Index: 38
+Question: What is the SI unit of power of a lens?
+CodeBlock:
+
+Options:
+0 . watt
+1 . joule
+2 . meter
+3 . diopter
+4 . 
+Correct Answer: 3
+
+Explanation: The SI unit of the lens is diopter that is equal to the reciprocal of the focal length of the mirror (P = 1 / F)
+
+ Index: 39
+Question: What is the chemical formula of ozone?
+CodeBlock:
+
+Options:
+0 . o3
+1 . o2
+2 . o4
+3 . o
+4 . 
+Correct Answer: 0
+
+Explanation: Ozone is made by the addition of O2 with O. Therefore, the chemical formula of the ozone is O3.
+
+ Index: 40
+Question: The person suffering from myopia clearly unable to see
+CodeBlock:
+
+Options:
+0 . distant object
+1 . close object
+2 . both object
+3 . not any object
+4 . 
+Correct Answer: 0
+
+Explanation: A person suffering from myopia is unable to see a distant object because his cornea is enlarged, due to which image is not formed at the retina.
+
+ Index: 41
+Question: How many colors are there in the rainbow?
+CodeBlock:
+
+Options:
+0 . five
+1 . six
+2 . seven
+3 . eight
+4 . 
+Correct Answer: 2
+
+Explanation: The rainbow has seven colors (Violet, Indigo, Blue, Green, Yellow, Orange, Red)
+
+ Index: 42
+Question: What is the name of the part of the eye on which the image forms?
+CodeBlock:
+
+Options:
+0 . pupil
+1 . lens
+2 . cornea
+3 . retina
+4 . 
+Correct Answer: 3
+
+Explanation: Images are formed on the retina in the eye. Pictures are inverted on the retina. The retina sends images to the brain using optical nerves.
+
+ Index: 43
+Question: What is the formula of absolute refractive index (n) of any medium?
+CodeBlock:
+
+Options:
+0 . c = v / n
+1 . n = c / v
+2 . n = c * v
+3 . c = v + n
+4 . 
+Correct Answer: 1
+
+Explanation: Absolute refractive index is equal to the ratio of the speed of light in air (c) and speed of light in that medium for which we calculate the refractive index (v). The formula of absolute refractive index n = c/v.Where,n = Absolute refractive indexc = Speed of light in airv = Speed of light in medium
+
+ Index: 44
+Question: What is the mathematical notation of ohm's law?
+CodeBlock:
+
+Options:
+0 . v = ir
+1 . v = rt
+2 . i = rv
+3 . r = vi
+4 . 
+Correct Answer: 0
+
+Explanation: According to ohm's law, electric current through a current-carrying conductor is directly proportional to the applied voltage to the conductor.
+
+ Index: 45
+Question: What is the SI unit of potential?
+CodeBlock:
+
+Options:
+0 . watt
+1 . joule
+2 . volt
+3 . tesla
+4 . 
+Correct Answer: 2
+
+Explanation: The SI unit of potential is volt. A volt is defined as the energy used in bringing a unit charge from infinity to that point in an electric field.
+
+ Index: 46
+Question: What is the name of the unit that remains constant when resistance is applied in series?
+CodeBlock:
+
+Options:
+0 . voltage
+1 . power
+2 . electric field
+3 . current
+4 . 
+Correct Answer: 3
+
+Explanation: According to Kirchhoff's law, the current in a loop is the same throughout the loop. When we apply resistance in series, the current is constant across all resistors.
+
+ Index: 47
+Question: The electric generator works on whose basic principle?
+CodeBlock:
+
+Options:
+0 . electromagnetic field
+1 . fleming right-hand rule
+2 . electromagnetic induction
+3 . coulomb law
+4 . 
+Correct Answer: 2
+
+Explanation: Electric generator is work on the basic principle of electromagnetic induction. It says that "In a magnetic field when current across the wire is changed then a force is applied on that wire in the direction according to Fleming's right-hand rule".
+
+ Index: 48
+Question: Which is the correct sequence of airways during breathing?
+CodeBlock:
+
+Options:
+0 . nostrils → larynx → pharynx → trachea → lungs
+1 . nasal passage → trachea → pharynx → larynx → alveoli
+2 . larynx → nostrils → pharynx → lungs
+3 . nostrils → pharynx → larynx → trachea → alveoli
+4 . 
+Correct Answer: 3
+
+Explanation: Nostrils → pharynx → larynx → trachea → alveoli. The alveoli provide a surface where gases can be exchanged.
+
+ Index: 49
+Question: What is the name of the gas produced in large quantities in a bio-gas plant?
+CodeBlock:
+
+Options:
+0 . methane
+1 . carbon-di-oxide
+2 . hydrogen sulphide
+3 . chlorofluorocarbon
+4 . 
+Correct Answer: 0
+
+Explanation: Biogas plants produce methane, carbon dioxide, and hydrogen sulphide, in which methane is produced in large quantities. It serves as a fuel and is used domestically for energy. In this way, it acts as a traditional source of energy.
+
+]

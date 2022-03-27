@@ -1,0 +1,645 @@
+&[Index: 0
+Question: Which of the following are the main states of matter?
+CodeBlock:
+
+Options:
+0 . liquid, solid, foam
+1 . liquid, gas, gel
+2 . liquid, solid, gas
+3 . liquid, foam, gel
+4 . 
+Correct Answer: 2
+
+Explanation: There are three main states of any matter, which are solid-state, liquid state, and gaseous state. Matters can change their states from one state to another state. For example, Ice. 
+
+ Index: 1
+Question: In which case the matter intermolecular force is stronger?
+CodeBlock:
+
+Options:
+0 . solid
+1 . liquid
+2 . gas
+3 . plasma
+4 . 
+Correct Answer: 0
+
+Explanation: There are three main states of matter: solid, liquid, and gas. In solid state, the intermolecular force of attraction is maximum in comparison to liquid or gas.
+
+ Index: 2
+Question: Which of the following process converts solid into gas?
+CodeBlock:
+
+Options:
+0 . sublimation
+1 . vaporization
+2 . deposition
+3 . fusion
+4 . 
+Correct Answer: 0
+
+Explanation: The process by which solid is converted into gas is called sublimation. Vaporization is the process by which liquid is converted into gas. The deposition is the process by which gas is converted into solid. 
+
+ Index: 3
+Question: Which of the following process converts liquid into solid? 
+CodeBlock:
+
+Options:
+0 . fusion
+1 . sublimation
+2 . solidification
+3 . condensation
+4 . 
+Correct Answer: 0
+
+Explanation: The process by which liquid is converted into solid is called fusion. In this process, the intermolecular force increases, so the density is increased. 
+
+ Index: 4
+Question: How many types of the mixture are present in nature?
+CodeBlock:
+
+Options:
+0 . six
+1 . ten
+2 . two
+3 . five
+4 . 
+Correct Answer: 1
+
+Explanation: There are two types of mixtures present in nature: "homogeneous" and "heterogeneous". Homogeneous are those mixtures in which solute is completely mixed with a solvent. Heterogeneous refers to those mixtures in which solute is not mixed with a solvent.
+
+ Index: 5
+Question: Which of the following substance is present in large quantities in the solution?
+CodeBlock:
+
+Options:
+0 . solute
+1 . solvent
+2 . water
+3 . benzene
+4 . 
+Correct Answer: 1
+
+Explanation: There are two types of substance present in the solution: "Solvent" and "Solute". A solution contains a large quantity of solvent and a small quantity of solute.
+
+ Index: 6
+Question: Name the process by which we can obtain various gases from the air?
+CodeBlock:
+
+Options:
+0 . distillation
+1 . hydrolysis
+2 . fractional distillation
+3 . froth flotation
+4 . 
+Correct Answer: 2
+
+Explanation: The process by which we can obtain various gases from the air is fractional distillation. In this process, we distill the air at different temperatures. 
+
+ Index: 7
+Question: Name the scientist who gives the law of constant proportions?
+CodeBlock:
+
+Options:
+0 . newton
+1 . dalton
+2 . lavoisier
+3 . proust
+4 . 
+Correct Answer: 3
+
+Explanation: Joseph Proust gives the law of constant proportion. According to Joseph Proust, elements in a chemical-substance are always present in definite proportions by mass.
+
+ Index: 8
+Question: What is the atomic number of sodium (Na)?
+CodeBlock:
+
+Options:
+0 . 10
+1 . 23.5
+2 . 18
+3 . 11
+4 . 
+Correct Answer: 3
+
+Explanation: The atomic number and mass of sodium (Na) are 11 and 23, respectively. The sodium (Na) comes in the category of alkali metal, so its valency is 1.
+
+ Index: 9
+Question: Which of the following formula is correct about magnesium chloride?
+CodeBlock:
+
+Options:
+0 . mgcl
+1 . mgcl2
+2 . mgcl3
+3 . mgcl4
+4 . 
+Correct Answer: 1
+
+Explanation: The chemical formula of magnesium chloride is MgCl2. Magnesium has a valency of 2, and chloride has 1. Therefore, two atoms of chloride and one atom of magnesium together make magnesium chloride.
+
+ Index: 10
+Question: What is the molecular mass of the H2O?
+CodeBlock:
+
+Options:
+0 . 10
+1 . 12
+2 . 16
+3 . 18
+4 . 
+Correct Answer: 3
+
+Explanation: The molecular-mass of hydrogen is one, and the molecular-mass of oxygen is 16. In the water, there are two moles of hydrogen and 1 mole of oxygen. So, the total molecular mass of water is 18 (1 + 1 + 16 = 18).
+
+ Index: 11
+Question: What is the second name of Thomson's model of the atom?
+CodeBlock:
+
+Options:
+0 . pulm model
+1 . watermelon model
+2 . strawberry model
+3 . alpha particle model
+4 . 
+Correct Answer: 1
+
+Explanation: Thomson's model's second name is the watermelon model because this model looks like a watermelon.
+
+ Index: 12
+Question: What is the amount of charge on a neutron?
+CodeBlock:
+
+Options:
+0 . 9.3 * 10-31
+1 . 6.26 * 10-27
+2 . 1.9 * 10-19
+3 . 0
+4 . 
+Correct Answer: 3
+
+Explanation: Neutrons have neither negative nor positive charge elements. It is neutral, so the charge on the neutron is zero.
+
+ Index: 13
+Question: What is the valency of oxygen?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 65
+2 . 2
+3 . 16
+4 . 
+Correct Answer: 2
+
+Explanation: The valency of oxygen is 2. Its molecular number is eight, so there are 6 electrons in its outermost shell. It needs two more electrons to complete its outermost shell, so it has a valency of 2.
+
+ Index: 14
+Question: Name the basic or structural unit of the human body?
+CodeBlock:
+
+Options:
+0 . neuron
+1 . nephron
+2 . cell
+3 . tissue
+4 . 
+Correct Answer: 2
+
+Explanation: The basic or structural unit of the human body is the cell. It consists of a nucleus and many other cell organelles. It is divided by mitosis and meiosis.
+
+ Index: 15
+Question: The plant cell wall is mainly composed of ______.
+CodeBlock:
+
+Options:
+0 . chitin
+1 . cellulose
+2 . protein
+3 . xylem
+4 . 
+Correct Answer: 1
+
+Explanation: The cell wall of the plant is mainly composed of cellulose. It makes the cell of the plant hard and gives strength to the plants. 
+
+ Index: 16
+Question: Which of the following cell organelle is also called the 'suicide-bag' of the cells?
+CodeBlock:
+
+Options:
+0 . xylem
+1 . lysosome
+2 . cellulose
+3 . mitochondria
+4 . 
+Correct Answer: 1
+
+Explanation: Lysosome is also called the suicide bag. Because it gets bursts and digests itself, it is present outside the nucleus in the cell. 
+
+ Index: 17
+Question: Which of the following names is correct about simple permanent tissues present in plants?
+CodeBlock:
+
+Options:
+0 . parenchyma, collenchyma, sclerenchyma
+1 . collenchyma, xylem, phloem
+2 . sclerenchyma, collenchyma, phloem
+3 . xylem, phloem, parenchyma
+4 . 
+Correct Answer: 0
+
+Explanation: There are mainly three simple permanent tissues: Parenchyma, Collenchyma, Sclerenchyma. These permanent tissues help in the development of plants.
+
+ Index: 18
+Question: Which of the following names is correct about the complex permanent tissues present in plants?
+CodeBlock:
+
+Options:
+0 . parenchyma, collenchyma, sclerenchyma
+1 . collenchyma, xylem, phloem
+2 . sclerenchyma, collenchyma, phloem
+3 . xylem, phloem
+4 . 
+Correct Answer: 3
+
+Explanation: There are two complex-permanent-tissues present in plants: Xylem and Phloem. These tissues help in the transfer of water and minerals to plants.
+
+ Index: 19
+Question: How many types of tissues are found in the human body?
+CodeBlock:
+
+Options:
+0 . ten
+1 . five
+2 . nine
+3 . four
+4 . 
+Correct Answer: 3
+
+Explanation: There are four types of tissues found in the human body, and these are nervous, epithelial, connective, and muscle tissue.
+
+ Index: 20
+Question: The unit of nervous tissue is ______.
+CodeBlock:
+
+Options:
+0 . cell
+1 . nephron
+2 . blood
+3 . neuron
+4 . 
+Correct Answer: 3
+
+Explanation: The unit of the nervous tissue is the neuron. It helps in transmitting the signals. It consists of dendrites that make contact with the axon of the next neuron.
+
+ Index: 21
+Question: Paramecium belongs to which species?
+CodeBlock:
+
+Options:
+0 . fungi
+1 . prokaryotes
+2 . protista
+3 . porifera
+4 . 
+Correct Answer: 2
+
+Explanation: Paramecium belongs to the Protista species because it is unicellular. It contains cilia which help in the motion of the Paramecium. 
+
+ Index: 22
+Question: Name the species which is prokaryotes as well as unicellular?
+CodeBlock:
+
+Options:
+0 . cila
+1 . oil
+2 . thallophyta
+3 . porifera
+4 . 
+Correct Answer: 3
+
+Explanation: Porifera is a species that is prokaryotes as well as unicellular. The best examples of these species are bacteria and archaea.
+
+ Index: 23
+Question: 'Fern' is related to which species?
+CodeBlock:
+
+Options:
+0 . monera
+1 . cila
+2 . pteridophyta
+3 . bacteria
+4 . 
+Correct Answer: 2
+
+Explanation: Fern is related to pteridophyte species. These species have different leaves and branches. But there is no seed in the plants of this species.
+
+ Index: 24
+Question: Name the species of plants that have not differentiated the plant's part?
+CodeBlock:
+
+Options:
+0 . thallophyta
+1 . protista
+2 . pteridophyta
+3 . prokaryotes
+4 . 
+Correct Answer: 0
+
+Explanation: The species of plants that have not differentiated the plant's part is thallophyta. Their body is whole and not differentiated into body parts.
+
+ Index: 25
+Question: Which of the following formulas is correct about the speed?
+CodeBlock:
+
+Options:
+0 . mass / volume
+1 . distance / time
+2 . distance / volume
+3 . mass / time
+4 . 
+Correct Answer: 1
+
+Explanation: The formula of speed is distance / time, and it is defined as the distance traveled per unit time. The S.I unit of the speed is m/s.
+
+ Index: 26
+Question: What is the S.I unit of acceleration?
+CodeBlock:
+
+Options:
+0 . m / s
+1 . m / s2
+2 . m / s3
+3 . ms2
+4 . 
+Correct Answer: 1
+
+Explanation: The S.I unit of acceleration is m/s2. It is defined as the change in speed per unit time. 
+
+ Index: 27
+Question: If a man is covering a distance of 5 meters in 10 sec, what is the man's speed?
+CodeBlock:
+
+Options:
+0 . 2 m/s
+1 . 5 m/s
+2 . ½ m/s
+3 . ¼ m/s
+4 . 
+Correct Answer: 2
+
+Explanation: We know thatspeed = distance / time.In this case, the distance travelled is 5 meter and time is 10 sec so speed is 5 / 10 = 1 / 2 m/s.
+
+ Index: 28
+Question: If a man starts from home to his office, travels at a speed of 5 m/s, and returns to home with the same speed, then what is his total velocity?
+CodeBlock:
+
+Options:
+0 . 10 m/s
+1 . 0
+2 . 5 m/s
+3 . 20 m/s
+4 . 
+Correct Answer: 1
+
+Explanation: The correct answer is 0. In this case, the man starts from home and returns home again, so the total displacement is 0, and the velocity is also zero. 
+
+ Index: 29
+Question: What is the S.I unit of force?
+CodeBlock:
+
+Options:
+0 . watt
+1 . calvin
+2 . joule
+3 . newton
+4 . 
+Correct Answer: 3
+
+Explanation: The S.I unit of force is the newton. Force is defined as mass * acceleration. The S.I unit of mass is kg. The S.I unit of acceleration is m/s2. So, the unit of force is kg * m/s2 which is equal to newton.
+
+ Index: 30
+Question: How many laws of motion are given by Newton?
+CodeBlock:
+
+Options:
+0 . 5
+1 . 4
+2 . 3
+3 . 8
+4 . 
+Correct Answer: 2
+
+Explanation: Newton gives three laws of motion. The first law of motion is inertia, the second law is the change in momentum, and the third law is action-reaction.
+
+ Index: 31
+Question: What is the correct formula of momentum?
+CodeBlock:
+
+Options:
+0 . p = ma
+1 . p = fa
+2 . p = md
+3 . p = mv
+4 . 
+Correct Answer: 3
+
+Explanation: The formula of momentum is p = mv. Where, m = mass and v = velocity. Momentum is equal to mass * velocity. So, it is equal to the applied force.
+
+ Index: 32
+Question: What is the formula of gravitational force?
+CodeBlock:
+
+Options:
+0 . f = g * mm / r2
+1 . f = g * mm / r4
+2 . f = g * mm / r3
+3 . f = g * mm / r
+4 . 
+Correct Answer: 0
+
+Explanation: Gravitational force is directly proportional to both the particles' mass, and it is inversely proportional to the square of the distance. So, it is equal to F = G * Mm / r2.
+
+ Index: 33
+Question: What is the value of gravitational acceleration (g)?
+CodeBlock:
+
+Options:
+0 . 98 m / s2
+1 . 8 m / s2
+2 . 98 m / s2
+3 . 10 m / s2
+4 . 
+Correct Answer: 1
+
+Explanation: The value of gravitational acceleration (g) is 9.8 m / s2. It is the force applied to the unit mass that falls freely by the Earth.
+
+ Index: 34
+Question: What is the S.I unit of pressure?
+CodeBlock:
+
+Options:
+0 . watt
+1 . joule
+2 . pascal
+3 . newton
+4 . 
+Correct Answer: 2
+
+Explanation: The S.I unit of pressure is the pascal. It is equal to the force per unit area. A pascal is defined as the unit force applied to the unit area. 
+
+ Index: 35
+Question: What is the S.I unit of work?
+CodeBlock:
+
+Options:
+0 . watt
+1 . joule
+2 . pascal
+3 . newton
+4 . 
+Correct Answer: 1
+
+Explanation: The S.I unit of work is the joule. Work is equal to force into displacement. One joule is equal to unit force which gives the unit displacement.
+
+ Index: 36
+Question: What is the formula of kinetic energy?
+CodeBlock:
+
+Options:
+0 . k.e = 1 / 2 mv
+1 . k.e = 1 / 2 mv2
+2 . k.e = mv2
+3 . k.e = m * g * h
+4 . 
+Correct Answer: 1
+
+Explanation: The formula of kinetic energy is KE = 1 / 2 MV2. Where, M = mass, V = velocity. This is the energy due to the motion of an object.
+
+ Index: 37
+Question: What is the formula of potential energy?
+CodeBlock:
+
+Options:
+0 . p.e = ½ mv
+1 . p.e = 1/2 mv2
+2 . p.e = mv2
+3 . p.e = m * g * h
+4 . 
+Correct Answer: 3
+
+Explanation: The formula of potential energy is PE = m * g * h. Where, M = mass, g = acceleration due to gravity, h = height. This is energy due to the statics of the object.
+
+ Index: 38
+Question: What is the S.I unit of power?
+CodeBlock:
+
+Options:
+0 . watt
+1 . joule
+2 . pascal
+3 . newton
+4 . 
+Correct Answer: 0
+
+Explanation: The S.I unit of power is the watt. It is defined as work per unit time. One unit power is equal to unit work done per unit time.
+
+ Index: 39
+Question: What is the nature of sound waves?
+CodeBlock:
+
+Options:
+0 . longitudinal
+1 . transverse
+2 . parabola
+3 . hyperbola
+4 . 
+Correct Answer: 0
+
+Explanation: The nature of sound waves is longitudinal. A sound wave needs a medium for its transmission. So, it travels with the help of particles of the medium.
+
+ Index: 40
+Question: What is the amplitude of the wave?
+CodeBlock:
+
+Options:
+0 . no of cycles
+1 . no of cycles per unit distance
+2 . a wave carries the maximum distance from its equilibrium position.
+3 . speed of the wave.
+4 . 
+Correct Answer: 2
+
+Explanation: The wave's amplitude is the maximum distance or displacement traveled by a wave from its equilibrium position. So, it determines the magnitude of the wave.
+
+ Index: 41
+Question: What is the S.I unit of frequency of the sound wave?
+CodeBlock:
+
+Options:
+0 . eta
+1 . lambda
+2 . hertz
+3 . pi
+4 . 
+Correct Answer: 2
+
+Explanation: The S.I unit of frequency of the sound wave is hertz. Frequency is the cycle per unit time. It is mentioned by hertz. So, its S.I unit is hertz.
+
+ Index: 42
+Question: What is the range of hearing of a human's ear?
+CodeBlock:
+
+Options:
+0 . 20hz to 10khz
+1 . 20hz to 20khz
+2 . 10hz to 20khz
+3 . 10hz to 10khz
+4 . 
+Correct Answer: 1
+
+Explanation: The range of hearing of a human's ear is 20HZ to 20KHZ. The human's ear is not able to hear the sound beyond this range. The sound below 20HZ is called hypotonic sound, and a sound above 20KHZ is called hypertonic sound.
+
+ Index: 43
+Question: Name the species which give the indication of the quality of air pollution?
+CodeBlock:
+
+Options:
+0 . humus
+1 . bees
+2 . mosquitos
+3 . lichens
+4 . 
+Correct Answer: 3
+
+Explanation: The species which give the indication of the quality of air pollution are lichens. Lichens become black in polluted places. So, by changing its color, it gives the indication of pollution.
+
+ Index: 44
+Question: What is the meaning of poultry farming?
+CodeBlock:
+
+Options:
+0 . farming of bees
+1 . farming of hens
+2 . farming of cattle
+3 . farming of grass
+4 . 
+Correct Answer: 1
+
+Explanation: The farming of hens is called poultry farming. In this type of farming, hens are domesticated. These hens are used for the production of eggs. It is also used in meat production.
+
+ Index: 45
+Question: What is the formula for the percentage of a solution in terms of mass by mass?
+CodeBlock:
+
+Options:
+0 . (solute / solution) * 100
+1 . (solute mass / solution mass) * 100
+2 . (solute volume / solvent volume) * 100
+3 . (solute weight / solution volume) * 100
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+]

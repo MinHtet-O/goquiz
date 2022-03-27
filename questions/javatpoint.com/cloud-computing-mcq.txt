@@ -1,0 +1,2049 @@
+&[Index: 0
+Question: What type of computing technology refers to services and applications that typically run on a distributed network through virtualized resources?
+CodeBlock:
+
+Options:
+0 . distributed computing
+1 . cloud computing
+2 . soft computing
+3 . parallel computing
+4 . 
+Correct Answer: 1
+
+Explanation: Cloud computing is a computing technique in which applications are accessed by common internet protocols and networking standards.
+
+ Index: 1
+Question: Which one of the following options can be considered as the Cloud?
+CodeBlock:
+
+Options:
+0 . hadoop
+1 . intranet
+2 . web applications
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: Whenever any intranet becomes large enough in size that a diagram is not able to differentiate the individual physical system, so at that stage intranet also becomes known as a cloud. Hadoop can be considered as a cloud.
+
+ Index: 2
+Question: Cloud computing is a kind of abstraction which is based on the notion of combining physical resources and represents them as _______resources to users.
+CodeBlock:
+
+Options:
+0 . real
+1 . cloud
+2 . virtual
+3 . none of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: Cloud Computing is a kind of new model for providing resources for applications such as staging applications, platform-independent user access to services.
+
+ Index: 3
+Question: Which of the following has many features of that is now known as cloud computing?
+CodeBlock:
+
+Options:
+0 . web service
+1 . softwares
+2 . all of the mentioned
+3 . internet
+4 . 
+Correct Answer: 3
+
+Explanation: Internet provides the abstraction, runs through the same set of protocols and standards, and uses the same operating system and applications.
+
+ Index: 4
+Question: Which one of the following cloud concepts is related to sharing and pooling the resources?
+CodeBlock:
+
+Options:
+0 . polymorphism
+1 . virtualization
+2 . abstraction
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: The application runs on physical systems that are not specified in real. The information stored in the locations that are also not specified or unknown, administration of the systems are outsourced to others and can be accessed by the user.
+
+ Index: 5
+Question: Which one of the following statements is not true?
+CodeBlock:
+
+Options:
+0 . the popularization of the internet actually enabled most cloud computing systems.
+1 . cloud computing makes the long-held dream of utility as a payment possible for you, with an infinitely scalable, universally available system, pay what you use.
+2 . soft computing addresses a real paradigm in the way in which the system is deployed.
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: Cloud computing is distinguished by the notion that resources are virtual and infinite and describe the physical systems on which software runs in the abstracted manner from the user.
+
+ Index: 6
+Question: Which one of the following can be considered as a utility is a dream that dates from the beginning of the computing industry itself?
+CodeBlock:
+
+Options:
+0 . computing
+1 . model
+2 . software
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: Cloud computing takes the technology, services, and applications that are similar to those on the Internet and turns them into a self-service utility.
+
+ Index: 7
+Question: Which of the following is an essential concept related to Cloud?
+CodeBlock:
+
+Options:
+0 . reliability
+1 . abstraction
+2 . productivity
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: Cloud computing hides all the detail of system implementation from users and developers.
+
+ Index: 8
+Question: Which one of the following is Cloud Platform by Amazon?
+CodeBlock:
+
+Options:
+0 . azure
+1 . aws
+2 . cloudera
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: Amazon web service is one of the most successful cloud-based businesses, which offers infrastructure as a service and lets you rent virtual computers on its own infrastructure. 
+
+ Index: 9
+Question: Which of the following statement is not true?
+CodeBlock:
+
+Options:
+0 . through cloud computing, one can begin with very small and become big in a rapid manner.
+1 . all applications benefit from deployment in the cloud.
+2 . cloud computing is revolutionary, even though the technology it is built on is evolutionary.
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: A variety of issues, such as issues with latency, security, and regulatory compliance, all are subject to concern. AWS is one of the most successful cloud-based businesses, which is a type of infrastructure as a service and lets you rent virtual computers on its own infrastructure.
+
+ Index: 10
+Question: In the Planning Phase, Which of the following is the correct step for performing the analysis?
+CodeBlock:
+
+Options:
+0 . cloud computing value proposition
+1 . cloud computing strategy planning
+2 . both a and b
+3 . business architecture development
+4 . 
+Correct Answer: 2
+
+Explanation: In the planning phase, we actually analyze the strategy related problems which customers might face. There are usually two steps to perform the analysis: Cloud Computing Planning and Cloud Computing Value Proposition.
+
+ Index: 11
+Question: In which one of the following, a strategy record or Document is created respectively to the events, conditions a user may face while applying cloud computing mode.
+CodeBlock:
+
+Options:
+0 . cloud computing value proposition
+1 . cloud computing strategy planning
+2 . planning phase
+3 . business architecture development
+4 . 
+Correct Answer: 1
+
+Explanation: Cloud Computing Strategy Planning: The establishment of the strategy is based on the above step's analysis result. In this phase, a strategy document is prepared according to the conditions faced by the customer while implementing the cloud computing mode
+
+ Index: 12
+Question: What is Business Architecture Development?
+CodeBlock:
+
+Options:
+0 . we recognize the risks that might be caused by cloud computing application from a business perspective.
+1 . we identify the applications that support the business processes and the technologies required to support enterprise applications and data systems.
+2 . we formulate all kinds of plans that are required to transform the current business to cloud computing modes.
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Business Architecture Development: In this phase, we identify the risks that can be caused by a cloud computing application from a business point of view.
+
+ Index: 13
+Question: Which one of the following refers to the non-functional requirements like disaster recovery, security, reliability, etc.
+CodeBlock:
+
+Options:
+0 . service development
+1 . quality of service
+2 . plan development
+3 . technical service
+4 . 
+Correct Answer: 1
+
+Explanation: Quality of service refers to the non-functional requirements such as reliability, security, disaster recovery, etc.
+
+ Index: 14
+Question: Which one of the following is a phase of the Deployment process?
+CodeBlock:
+
+Options:
+0 . selecting cloud computing provider
+1 . it architecture development
+2 . business architecture development
+3 . transformation plan development
+4 . 
+Correct Answer: 3
+
+Explanation: Deployment phase: This phase focuses on both steps. It consists of the following two steps: Selecting a cloud computing provider, maintenance and technical service.
+
+ Index: 15
+Question: This phase involves selecting a cloud provider based on the Service Level Agreement (SLA), which defines the level of service the provider receives.
+CodeBlock:
+
+Options:
+0 . maintenance and technical service
+1 . selecting cloud computing provider
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: This phase involves selecting a cloud provider based on the Service Level Agreement (SLA), that defines the level of service the provider receives.
+
+ Index: 16
+Question: In which one of the following phases, IT Architecture Development came?
+CodeBlock:
+
+Options:
+0 . strategy phase
+1 . planning phase
+2 . deployment phase
+3 . development phase
+4 . 
+Correct Answer: 1
+
+Explanation: IT Architecture Development steps in Planning Phase
+
+ Index: 17
+Question: Which of the model involves the special types of services that users can access on a Cloud Computing platform?
+CodeBlock:
+
+Options:
+0 . service
+1 . planning
+2 . deployment
+3 . application
+4 . 
+Correct Answer: 0
+
+Explanation: The service model contains the specials types of services that users can access on a cloud computing platform.
+
+ Index: 18
+Question: Which one of the following is related to the services provided by Cloud?
+CodeBlock:
+
+Options:
+0 . sourcing
+1 . ownership
+2 . reliability
+3 . paas
+4 . 
+Correct Answer: 0
+
+Explanation: Insourced or Outsourced means whether the service is provided by the customer or the service provider.
+
+ Index: 19
+Question: How many phases are present in Cloud Computing Planning?
+CodeBlock:
+
+Options:
+0 . 2
+1 . 3
+2 . 4
+3 . 5
+4 . 
+Correct Answer: 1
+
+Explanation: In Cloud Computing Planning, there are usually three phases that are Strategy Phase, Planning Phase, and Deployment Phase.
+
+ Index: 20
+Question: Cloud computing architecture is a combination of?
+CodeBlock:
+
+Options:
+0 . service-oriented architecture and grid computing
+1 . utility computing and event-driven architecture.
+2 . service-oriented architecture and event-driven architecture.
+3 . virtualization and event-driven architecture.
+4 . 
+Correct Answer: 2
+
+Explanation: Cloud computing architecture is a combination of service-oriented architecture and event-driven architecture.
+
+ Index: 21
+Question: In how many parts we can broadly divide the architecture of the Cloud? 
+CodeBlock:
+
+Options:
+0 . 4
+1 . 3
+2 . 2
+3 . 5
+4 . 
+Correct Answer: 2
+
+Explanation: The architecture of the Cloud can broadly be divided into two main parts that are Back-end and Front-end.
+
+ Index: 22
+Question: Which one of the following refers to the user's part of the Cloud Computing system?
+CodeBlock:
+
+Options:
+0 . back end
+1 . management
+2 . infrastructure
+3 . front end
+4 . 
+Correct Answer: 3
+
+Explanation: It is the front-end that refers to the user's part of the cloud computing system. It includes many applications and interfaces that are required to access or use the cloud computing platform.
+
+ Index: 23
+Question: Which one of the following can be considered as the example of the Front-end?
+CodeBlock:
+
+Options:
+0 . web browser
+1 . google compute engine
+2 . cisco metapod
+3 . amazon web services
+4 . 
+Correct Answer: 0
+
+Explanation: From the following given options, we can consider the Web-browser as the perfect example of the Front-end.
+
+ Index: 24
+Question: By whom is the backend commonly used?
+CodeBlock:
+
+Options:
+0 . client
+1 . user
+2 . stockholders
+3 . service provider
+4 . 
+Correct Answer: 3
+
+Explanation: It is commonly used by the service provider in order to manage all resources required to provide the Cloud Computing Services.
+
+ Index: 25
+Question: Through which, the backend and front-end are connected with each other?
+CodeBlock:
+
+Options:
+0 . browser
+1 . database
+2 . network
+3 . both a and b
+4 . 
+Correct Answer: 2
+
+Explanation: Typically using an internet connection, both the front and back end are connected to the others through a network.
+
+ Index: 26
+Question: How many types of services are there those are offered by the Cloud Computing to the users?
+CodeBlock:
+
+Options:
+0 . 2
+1 . 4
+2 . 3
+3 . 5
+4 . 
+Correct Answer: 2
+
+Explanation: Usually, Cloud Computing offers three types of services to the users that are Platform as a service (or PaaS), Application as a service (or AssS), and Software as a service (or SaaS).
+
+ Index: 27
+Question: The Foce.com and windows Azure are examples of which of the following?
+CodeBlock:
+
+Options:
+0 . iaas
+1 . paas
+2 . saas
+3 . both a and b
+4 . 
+Correct Answer: 1
+
+Explanation: Both Force.com and Windows Azure are examples of the Platform as a service
+
+ Index: 28
+Question: Which of the following is one of the backend's built-in components of cloud computing? 
+CodeBlock:
+
+Options:
+0 . security
+1 . application
+2 . storage
+3 . service
+4 . 
+Correct Answer: 0
+
+Explanation: Security is one of the back-end's built-in components of cloud computing. 
+
+ Index: 29
+Question: Which of the following provides the Graphic User Interface (GUI) for interaction with the cloud? 
+CodeBlock:
+
+Options:
+0 . client
+1 . client infrastructure
+2 . application
+3 . server
+4 . 
+Correct Answer: 1
+
+Explanation: The Client Infrastructure is one of the front-end components that provide the way of communication in the form of a Graphic User Interface to communicate with the Cloud.
+
+ Index: 30
+Question: Which one of the following a technology works behind the cloud computing platform?
+CodeBlock:
+
+Options:
+0 . virtualization
+1 . soa
+2 . grid computing
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Several technologies work behind the Cloud Computing platforms, which provide features like Flexibility, reliability, and usability to cloud computing.
+
+ Index: 31
+Question: Which one of the following is a kind of technique that allows sharing the single physical instance of an application or the resources among multiple organizations/customers? 
+CodeBlock:
+
+Options:
+0 . virtualization
+1 . service-oriented architecture
+2 . grid computing
+3 . utility computing
+4 . 
+Correct Answer: 0
+
+Explanation: Virtualization is a kind of technique that allows us to share the single physical instance of a resource or application between several organizations/users.
+
+ Index: 32
+Question: Which one of the following statement is true about the Virtualization?
+CodeBlock:
+
+Options:
+0 . it provides a logical name for a physical resource, and on-demand provides an indicator of that physical resource.
+1 . in virtualization, we analyze the strategy related problems that customers may face.
+2 . in virtualization, it is necessary to compile the multitenant properly.
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: It provides a logical name to the physical resource when the demand is correct regarding virtualization and provides an indicator of that physical resource.
+
+ Index: 33
+Question: In Virtualization, which architecture provides the virtual isolation between the several tenants?
+CodeBlock:
+
+Options:
+0 . it architecture
+1 . multitenant
+2 . deployment
+3 . business architecture
+4 . 
+Correct Answer: 1
+
+Explanation: The Multitenant architecture provides us the virtual isolation in between several tenants. Hence the organization can easily use and also modify their application as they each have their instances running.
+
+ Index: 34
+Question: On which one of the following utility computing is based?
+CodeBlock:
+
+Options:
+0 . grid computing model
+1 . soa model
+2 . virtual isolation model
+3 . pay-per-use model
+4 . 
+Correct Answer: 3
+
+Explanation: Utility computing is based on the pay-what-you use model.
+
+ Index: 35
+Question: Which one of the following statement is true about the Service-Oriented Architecture?
+CodeBlock:
+
+Options:
+0 . it is possible to exchange data between applications from different vendors without using additional programming.
+1 . it provides computational resources on-demand as a metered service.
+2 . service-oriented architecture allows using the application as a service for other applications.
+3 . both a and c
+4 . 
+Correct Answer: 3
+
+Explanation: The service-oriented architecture helps to be used as a service for other applications regardless of vendor, product, or technology type. Therefore, it is possible to exchange data between different vendors' applications without changes in additional programming or services.
+
+ Index: 36
+Question: In Grid Computing, which types of computer resources are there?
+CodeBlock:
+
+Options:
+0 . heterogeneous dispersed.
+1 . geographically dispersed.
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In grid computing, heterogeneous types of resources are used that are geographically dispersed.
+
+ Index: 37
+Question: Managed IT services are based on the concept of which one of the following?
+CodeBlock:
+
+Options:
+0 . virtualization
+1 . utility computing
+2 . grid computing
+3 . soa
+4 . 
+Correct Answer: 1
+
+Explanation: In Cloud Computing, managed IT services and grid computing are based on the concept of Utility Computing.
+
+ Index: 38
+Question: Which one of the following refers to the Distributed Computing, in which several sets of computers distributed on multiple geographical locations and are connected with each other to achieve a common goal?
+CodeBlock:
+
+Options:
+0 . virtualization
+1 . soa
+2 . grid computing
+3 . utility computing
+4 . 
+Correct Answer: 2
+
+Explanation: Grid Computing refers to the Distributed Computing, in which several sets of computers distributed on multiple geographically dispersed, and are connected with each other to achieve a common goal.
+
+ Index: 39
+Question: Which one of the following statement is true about Grid Computing?
+CodeBlock:
+
+Options:
+0 . pieces combine small tasks into complex tasks
+1 . the subscription tier plays an important role in grid computing.
+2 . breaks complex tasks into small operations
+3 . both a and c
+4 . 
+Correct Answer: 2
+
+Explanation: Grid computing breaks down complex tasks into smaller pieces, which are distributed to the CPU residing within the grid.
+
+ Index: 40
+Question: Which one of the following given programs provides the isolation (abstraction) and partitioning?
+CodeBlock:
+
+Options:
+0 . system hypervisor
+1 . software hypervisor
+2 . hardware hypervisor
+3 . virtualization hypervisor
+4 . 
+Correct Answer: 3
+
+Explanation: The virtualization hypervisor program provides the isolation (abstraction) and partitioning
+
+ Index: 41
+Question: On which one of the following hypervisor runs directly on the underlying host system, it is also known as________?
+CodeBlock:
+
+Options:
+0 . bare metal hypervisor
+1 . hosted hypervisor
+2 . native hypervisor
+3 . both a and c
+4 . 
+Correct Answer: 3
+
+Explanation: The Hypervisor runs directly on the underlying host system, and sometimes it is also known as "Native Hypervisor" or "Bare metal hypervisor." 
+
+ Index: 42
+Question: Which of the following behaves like the monitor's entry point and reroutes the instructions of the virtual machine?
+CodeBlock:
+
+Options:
+0 . dispatcher
+1 . allocator
+2 . interpreter
+3 . both a and b
+4 . 
+Correct Answer: 0
+
+Explanation: The Dispatcher acts as the monitor's entry point and reruns the instructions (statements) of the virtual machine instance to one of the other two modules.
+
+ Index: 43
+Question: Which one of the following is also known as a Hypervisor?
+CodeBlock:
+
+Options:
+0 . vma
+1 . vmm
+2 . vms
+3 . vmr
+4 . 
+Correct Answer: 1
+
+Explanation: A Virtual Machine Monitor (or VMM) is sometimes also known as the Hypervisor.
+
+ Index: 44
+Question: How many kinds of Hypervisor are there?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 3
+2 . 2
+3 . 5
+4 . 
+Correct Answer: 2
+
+Explanation: There are only two kinds of Hypervisors that are Type1-Hypervisor and Type2-Hypervisor.
+
+ Index: 45
+Question: Which one of the following is not an example of the Type1-Hypervisor?
+CodeBlock:
+
+Options:
+0 . vmware esxi
+1 . citrix xenserver
+2 . microsoft hyper-v hypervisor
+3 . vmware player
+4 . 
+Correct Answer: 3
+
+Explanation: VMware Player is one of the examples of Typ2-Hypervisor not of the Type1-Hypervisor
+
+ Index: 46
+Question: How many main modules are needed to coordinate in order to emulate the underlying hardware?
+CodeBlock:
+
+Options:
+0 . 3
+1 . 2
+2 . 4
+3 . 5
+4 . 
+Correct Answer: 0
+
+Explanation: In order to emulate the underlying hardware, there are three main modules needed to coordinate, which are as follows:
+Interpreter
+Allocator
+Dispatcher
+
+
+ Index: 47
+Question: Which one of the following is used to call the allocator?
+CodeBlock:
+
+Options:
+0 . interpreter
+1 . type-2 hypervisor
+2 . both a and b
+3 . dispatcher
+4 . 
+Correct Answer: 3
+
+Explanation: Each time when the virtual machine wants to execute an operation or instruction, it will result in allowing in changing the machine's resources associated with the virtual machine. Hence the allocator is called by the Dispatcher.
+
+ Index: 48
+Question: The Parallels Desktop can be considered as the example of which of the following?
+CodeBlock:
+
+Options:
+0 . type-2 hypervisor
+1 . dispatcher
+2 . type-1 hypervisor
+3 . interpreter
+4 . 
+Correct Answer: 0
+
+Explanation: Parallels Desktop or VMware Player is one of the examples of the Type2-Hypervisor. Almost all the hosted hypervisors are usually found on endpoints such as PCs. 
+
+ Index: 49
+Question: Which one of the following statements is not true?
+CodeBlock:
+
+Options:
+0 . whenever a command begins a process, immediately the process virtual machine gets instantiated.
+1 . usually, the guest operating systems are mores faster in full virtualization as compared to other virtualization schemes.
+2 . it is necessary for the full virtualization that the host os (operating system ) offers a virtual machine interface for the guest operating system by which the guest operating system can access the hardware through the host vm.
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The statement give in the option c is not true at all. 
+
+ Index: 50
+Question: Which of the following statements is not true?
+CodeBlock:
+
+Options:
+0 . load balancing virtualizes systems and resources by mapping a logical address to a physical address
+1 . multiple instances of various google applications are running on different hosts
+2 . google uses hardware virtualization
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Google performs the load balancing for distributing the processing load in order to achieve high utilization rates.
+
+ Index: 51
+Question: Which one of the following can be considered as the example of the Type2 Virtual Machine monitors?
+CodeBlock:
+
+Options:
+0 . kvm
+1 . microsoft hyper v
+2 . parallels desktop
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: KVM, Microsoft Hyper V, and Parallels Desktop for Mac are examples of the Type2 Virtual Machine Monitors. 
+
+ Index: 52
+Question: Which one of the following is a type of software that supports the virtual machine?
+CodeBlock:
+
+Options:
+0 . kernel
+1 . hypervisor
+2 . vmm
+3 . both b and c
+4 . 
+Correct Answer: 3
+
+Explanation: The VMM and kernel both are a kind of software that supports the Virtual Machine. 
+
+ Index: 53
+Question: Which one of the following runs on Xen Hypervisor?
+CodeBlock:
+
+Options:
+0 . azure
+1 . aws ec2
+2 . c aws ec3
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: AWS EC2 runs on Xen Hypervisor
+
+ Index: 54
+Question: Which one of the following is the type of a service that manages and creates virtual network interfaces?
+CodeBlock:
+
+Options:
+0 . vmware vstorage
+1 . application services
+2 . vmware vcompute
+3 . vmware vnetwork
+4 . 
+Correct Answer: 3
+
+Explanation: VMware vNetwork is a kind of service that manages and creates virtual network interfaces. 
+
+ Index: 55
+Question: In which one of the following, the virtual machine simulates hardware, through which it can be independent of the underlying system hardware?
+CodeBlock:
+
+Options:
+0 . para-virtualization
+1 . full virtualization
+2 . emulation
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In emulation, the virtual machine simulates hardware, through that it can be independent of the underlying system hardware
+
+ Index: 56
+Question: Which one of the following will be the host operating system for Windows Server?
+CodeBlock:
+
+Options:
+0 . virtuallogix vlx
+1 . microsoft hyper-v
+2 . xen
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Type 2 virtual machines are installed over a host operating system.
+
+ Index: 57
+Question: In Which Type of VM, full virtualization can be possible?
+CodeBlock:
+
+Options:
+0 . type4
+1 . type2
+2 . type3
+3 . type1
+4 . 
+Correct Answer: 3
+
+Explanation: In Type1, the full virtualization can be possible because it provides a complete simulation of the hardware on which it is currently running.
+
+ Index: 58
+Question: Which one of the following can be considered as another name of Virtual Machine?
+CodeBlock:
+
+Options:
+0 . software virtual machine
+1 . real machine
+2 . process virtual machine
+3 . virtualization hypervisor
+4 . 
+Correct Answer: 2
+
+Explanation: Some kinds of Virtual Machines are specially designed so that they can able to run only a single process or application. Hence, these kinds of virtual machines are referred as the process Virtual Machines.
+
+ Index: 59
+Question: Which of the following is the correct full form of SaaS?
+CodeBlock:
+
+Options:
+0 . storage-as-a-service
+1 . server-as-a-software
+2 . software-as-a-service
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The term "SaaS" stands for the "Software as a Service," a type of model that allows to offer Software application as a service for the customers. For Example: MailChimp, Google Apps, Dropbox, Salesforce, etc
+
+ Index: 60
+Question: Through which one of the following models, SaaS supports multiple users and offers a shared data model?
+CodeBlock:
+
+Options:
+0 . single-tenancy
+1 . multiple-instance
+2 . multi-tenancy
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: There is also an alternate of the Software virtualization of the single individual instances that exist, although it is not that common.
+
+ Index: 61
+Question: Which of the following is the SaaS's Characteristics?
+CodeBlock:
+
+Options:
+0 . usually, the license is subscription-based or usage-based and is billed on a recurring basis.
+1 . the software and the service are observed and maintained usually by the vendor.
+2 . software mostly available over the internet across the world and can be provided according to the demand through the browser.
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Sometimes it may be the client-side executable code. Still, it is not the end-user's responsibility to maintain that code and maintain its interaction with the services at all.
+
+ Index: 62
+Question: Which of the following is a characteristic of the SaaS applications?
+CodeBlock:
+
+Options:
+0 . saas applications are reliable
+1 . saas applications are not customizable
+2 . saas applications are customizable
+3 . non-reliable
+4 . 
+Correct Answer: 2
+
+Explanation: SaaS offers Application Programming Interface (API) to the users, which allows the users/developers to develop a customized application.
+
+ Index: 63
+Question: Which types of issues are associated with the SaaS?
+CodeBlock:
+
+Options:
+0 . modest software tools
+1 . multitenant solutions
+2 . centralized management and data
+3 . network dependence
+4 . 
+Correct Answer: 3
+
+Explanation: There are many issues associated with the SaaS (Software as a Service), such as Lack of portability between SaaS clouds, Web-browser related issues, and Network dependence. 
+
+ Index: 64
+Question: Which one of the following statements can be considered as the true characteristics of software as a Service (SaaS) model?
+CodeBlock:
+
+Options:
+0 . software applications are generally maintained by the service provider (or vendor)
+1 . saas provides the best cost-effective applications because they do not need any maintenance at the customer side.
+2 . they can easily scale up or scale down according to the conditions.
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: All the statements provided in the above question are the characteristics of the SaaS or Software as a Service model.
+
+ Index: 65
+Question: Which one of the following is not the correct statement?
+CodeBlock:
+
+Options:
+0 . saas may be also be described as software deployed on a hosted service.
+1 . the platform can be based on the types of software development languages, frameworks, and several other constructs.
+2 . saas is the cloud-based equivalent of shrink-wrapped software
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: SaaS can be accessed globally through the internet, usually in a browser.
+
+ Index: 66
+Question: Which one of the following can be considered as the most complete cloud computing service model?
+CodeBlock:
+
+Options:
+0 . paas
+1 . iaas
+2 . caas
+3 . saas
+4 . 
+Correct Answer: 3
+
+Explanation: The most complete cloud computing service model must contain the computing hardware and software, as well as the solution itself. Hence the SaaS model has all these features.
+
+ Index: 67
+Question: In SaaS, the used open-source software are also known as_____
+CodeBlock:
+
+Options:
+0 . closed
+1 . free
+2 . open
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: In general, a huge part of the SaaS Software's is based on the open-sourced software.
+
+ Index: 68
+Question: Which one of the following statements is not true about SaaS? 
+CodeBlock:
+
+Options:
+0 . saas applications are offered in all shapes and sizes.
+1 . all users with a little knowledge or know how to operate a computer also know about the saas.
+2 . saas software is not customizable.
+3 . none of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Every computer user is well familiar with SaaS, which is an alternate for the locally installed software. 
+
+ Index: 69
+Question: Which type of PaaS does not contains any type of license or technical dependencies on specific SaaS applications?
+CodeBlock:
+
+Options:
+0 . add-on development facilities
+1 . application delivery-only environments
+2 . open platform as a service
+3 . stand-alone development environments
+4 . 
+Correct Answer: 3
+
+Explanation: The PaaS is a type of stand-alone, works as the independent entity for the unique function. It also does not require technical dependencies and licensing on any special SaaS (Software as a service) applications.
+
+ Index: 70
+Question: Which one of the following is associated heavily with vendor lock-in?
+CodeBlock:
+
+Options:
+0 . daas
+1 . saas
+2 . iaas
+3 . paas
+4 . 
+Correct Answer: 3
+
+Explanation: The main problem with the "Platform as a service" (or PaaS) is that it normally tie the developer and the customer in such a solution, in which both the developer and customers have to depend on the platform vendor.
+
+ Index: 71
+Question: Which one of the following is a type of PaaS that usually allows customizing the existing SaaS platform?
+CodeBlock:
+
+Options:
+0 . stand-alone development environments
+1 . add-on development facilities
+2 . open platform as a service
+3 . application delivery-only environments
+4 . 
+Correct Answer: 1
+
+Explanation: Add-on development facilities are a type of Paas that allows us to customize the existing SaaS platform.
+
+ Index: 72
+Question: Which one of the following of PaaS type that involves on-demand scaling and application security?
+CodeBlock:
+
+Options:
+0 . stand-alone development environments
+1 . open platform as a service
+2 . application delivery-only environments
+3 . add-on development facilities
+4 . 
+Correct Answer: 2
+
+Explanation: The application delivery-only environment contains features like application security and on-demand scaling.
+
+ Index: 73
+Question: How many types of PaaS are there?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 3
+2 . 2
+3 . 5
+4 . 
+Correct Answer: 0
+
+Explanation: On the basis of function, there are four types of PaaS.
+
+ Index: 74
+Question: Which one of the following can be considered as the benefit of PaaS?
+CodeBlock:
+
+Options:
+0 . lower administrative overhead
+1 . lower total cost of ownership
+2 . more current system software
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Lower administrative overhead, the lower total cost of ownership and more current network all are the benefits of the PaaS (Platform as a service).
+
+ Index: 75
+Question: In AWS, which of the following is the AWS Management Console?
+CodeBlock:
+
+Options:
+0 . cas
+1 . cdss
+2 . ccs
+3 . cda
+4 . 
+Correct Answer: 2
+
+Explanation: CSS is the AWS Management Console in the AWS.
+
+ Index: 76
+Question: Which of the following can be considered PaaS offering?
+CodeBlock:
+
+Options:
+0 . youtube
+1 . google earth
+2 . google adsense
+3 . google maps
+4 . 
+Correct Answer: 3
+
+Explanation: In most cases, vendors of PaaS solutions are the developer who provides a complete solution to the customer.
+
+ Index: 77
+Question: Which one of the following is not the correct statement?
+CodeBlock:
+
+Options:
+0 . the customer assumes no responsibility for maintaining the hardware, software or the development of applications.
+1 . google's app engine platform is one of the iaas offerings.
+2 . the vendor is usually responsible for all operational aspects of the services.
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The customer is generally responsible only for his interaction with the Platform. 
+
+ Index: 78
+Question: Which one of the following statements is correct about the PaaS?
+CodeBlock:
+
+Options:
+0 . the platform as a service (or paas) systems usually support standards like javascript, html, and several other rich media technologies.
+1 . platform as a service provides the runtime environment for the applications.
+2 . the platform as a service is a completely integrated development environment.
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: All statements mentioned in the above questions are true about the PaaS, so that the correct option will be the D.
+
+ Index: 79
+Question: The terms "Iaas" stand for?
+CodeBlock:
+
+Options:
+0 . it-as-a-service
+1 . infrastructure-as-a-service
+2 . internet-as-a-service
+3 . interoperability-as-a-service
+4 . 
+Correct Answer: 1
+
+Explanation: The full form of the term IaaS is "Infrastructure as a Service." 
+
+ Index: 80
+Question: The resources like IP addresses and VLANs are provided to the end-users by which of the following?
+CodeBlock:
+
+Options:
+0 . server virtualization.
+1 . client virtualization.
+2 . end-user virtualization.
+3 . iaas
+4 . 
+Correct Answer: 0
+
+Explanation: Resources such as the IP addresses and VLANs are offered to the end-users through the server virtualization.
+
+ Index: 81
+Question: Which one of the following is a kind of open standard protocol?
+CodeBlock:
+
+Options:
+0 . soap
+1 . wsdl
+2 . dhml
+3 . simple
+4 . 
+Correct Answer: 3
+
+Explanation: The term "SIMPLE" is a type of open standard protocol.
+
+ Index: 82
+Question: In the virtual appliance, the content can be _____.
+CodeBlock:
+
+Options:
+0 . structured
+1 . unstructured
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In a virtual appliance, the content can be either structured or unstructured.
+
+ Index: 83
+Question: How many kinds of virtual private server instances are there partitioned in the IaaS stack?
+CodeBlock:
+
+Options:
+0 . 3
+1 . 2
+2 . 4
+3 . 5
+4 . 
+Correct Answer: 0
+
+Explanation: There are only three types of workloads that need three different sizes of computers, such as large, medium, and small.
+
+ Index: 84
+Question: Which of the following forms the basis for almost all web services stacks?
+CodeBlock:
+
+Options:
+0 . wsdl
+1 . soap
+2 . uddi
+3 . vmcc. soa
+4 . 
+Correct Answer: 1
+
+Explanation: The term "SOAP" stands for the Simple Object Access Protocol, and it forms the basis for most Web Service Stacks. 
+
+ Index: 85
+Question: Which of the following is the most commonly used model for description and discovery and is also used with SOAP messaging?
+CodeBlock:
+
+Options:
+0 . dhml
+1 . vmc
+2 . wsdl
+3 . soa
+4 . 
+Correct Answer: 2
+
+Explanation: Web Services Description Language (WSDL) is the model that is usually used for description and discovery, and it is also used with SOAP messaging.
+
+ Index: 86
+Question: The Infrastructure as a service (IaaS) provides a type of isolated environment to each customer individually by using_____.
+CodeBlock:
+
+Options:
+0 . renting
+1 . virtual machine sprawl
+2 . security vulnerabilities
+3 . hypervisor
+4 . 
+Correct Answer: 3
+
+Explanation: The Infrastructure as a service (or IaaS) provides a type of isolated environment to each customer individually through the hypervisors. 
+
+ Index: 87
+Question: IaaS usually shares issues with the ______.
+CodeBlock:
+
+Options:
+0 . paas
+1 . saas
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: It usually shares issues with both PaaS (Platform as a service) and SaaS (Software as a service)
+
+ Index: 88
+Question: Which of the following is an advantage of IaaS (Infrastructure as service)?
+CodeBlock:
+
+Options:
+0 . efficient and flexible renting of computer hardware.
+1 . portability, interoperability with legacy applications.
+2 . complete control of the computing resources through administrative access to vms.
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: All statements mentioned in the above questions are the advantages of the IaaS (Infrastructure as a service)
+
+ Index: 89
+Question: Which one of the following is not a correct statement?
+CodeBlock:
+
+Options:
+0 . the distributed audit service offers accountability for users accessing a system.
+1 . the cardspace and openid specifications support the authentication type of data object.
+2 . distributed transaction systems like as cloud computing systems, internetworks and several others usually increases the obstacles faced by identity management systems.
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: OpenID is a type of developing industry standard to authenticate the End Users, by sorting the digital identity of the users in a specific format.
+
+ Index: 90
+Question: Which one of the following frameworks uses i-Card metaphor?
+CodeBlock:
+
+Options:
+0 . higgins
+1 . hughes
+2 . hinges
+3 . xacml
+4 . 
+Correct Answer: 0
+
+Explanation: The Higgins open source identity framework is typically used to create a vendor-neutral cloud-based authentication service
+
+ Index: 91
+Question: Which of the following is a type of XML request or response language commonly used to integrate and interrupt services that handle requests?
+CodeBlock:
+
+Options:
+0 . xacml
+1 . fidm
+2 . ssp
+3 . spml
+4 . 
+Correct Answer: 3
+
+Explanation: SPML is a type an XML request/response language, which usually used to integrate and interoperate service provisioning requests.
+
+ Index: 92
+Question: In order to provide more secure authentication, which of the following is required at least?
+CodeBlock:
+
+Options:
+0 . three-factor authentication.
+1 . two -factor authentication.
+2 . four-factor authentication.
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In order to provide more secure authentication, the two-factor authentication is required at least.
+
+ Index: 93
+Question: Which one of the following groups is usually dedicated to supporting technologies that implement enterprise mashups?
+CodeBlock:
+
+Options:
+0 . open mashup alliance
+1 . open alliance apache
+2 . open tech alliance
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Open Mashup Alliances group usually predicts that the use of mashups will increase by a factor of 10 within just some years.
+
+ Index: 94
+Question: Which one of the following statements is correct about the FIDM?
+CodeBlock:
+
+Options:
+0 . saml have access control
+1 . it typically uses the security markup language (saml) for packaging the user's security credentials.
+2 . it describes the protocols and technologies.
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: FIDM addresses the protocols and technologies that enable a user for packaging the security credentials across the security domains.Usually, the SAML (or Security Markup Language) is used to package the user's security credentials.
+
+ Index: 95
+Question: Which of the following allows the users to login into a several different websites with the same single account ?
+CodeBlock:
+
+Options:
+0 . openid
+1 . fidm
+2 . sso
+3 . identity
+4 . 
+Correct Answer: 0
+
+Explanation: OpenID allows users to login into several different websites with the same single account. Google, Myspace, Yahoo!, Flickr and several others are the companies which support the OpenID.
+
+ Index: 96
+Question: Which one of the following statements is true about the SSO?
+CodeBlock:
+
+Options:
+0 . it has multiple authentication servers
+1 . it manages single accesses to other systems
+2 . in sso, user sends the ticket to intranet server.
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: It has the single authentication instead of multiple authentication servers and manages multiple accessed to the other systems. In this, the user sends the ticket/token to intranet server.
+
+ Index: 97
+Question: Among the following, which one has the single authentication server and manages multiple accesses to the other systems?
+CodeBlock:
+
+Options:
+0 . soap
+1 . idaas
+2 . sso
+3 . soa
+4 . 
+Correct Answer: 2
+
+Explanation: It is the SSO, which has the one single authentication server, and manages the multiple accesses to the other systems.
+
+ Index: 98
+Question: The term "IDaaS" stands for?
+CodeBlock:
+
+Options:
+0 . id-as-a-service
+1 . interoperability-as-a-service
+2 . intranet-as-a-service
+3 . identity-as-a-service
+4 . 
+Correct Answer: 3
+
+Explanation: In order to solve the several other problems a new technology is introduced known as the IDaas or Identity as a Service.
+
+ Index: 99
+Question: Which of the following can be referred to the location and management of the cloud's infrastructure?
+CodeBlock:
+
+Options:
+0 . service
+1 . deployment
+2 . application
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: The deployment model tells us where the cloud is located.
+
+ Index: 100
+Question: _________ model consists of the particular types of services that you can access on a cloud computing platform.
+CodeBlock:
+
+Options:
+0 . service
+1 . deployment
+2 . application
+3 . none of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: Service models describe the type of service that the service provider is offering.
+
+ Index: 101
+Question: Which one of the following statements is wrong?
+CodeBlock:
+
+Options:
+0 . the use of the word "cloud" makes reference to the two essential concepts.
+1 . cloud computing abstracts systems by pooling and sharing resources
+2 . cloud computing is nothing more than the internet.
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: Abstraction and virtualization are the two essential concepts. 
+
+ Index: 102
+Question: Which of the following is the deployment model?
+CodeBlock:
+
+Options:
+0 . public
+1 . private
+2 . hybrid
+3 . all of the mentioned
+4 . 
+Correct Answer: 3
+
+Explanation: Public, private, community and hybrid clouds are the deployment models.
+
+ Index: 103
+Question: Which one of the following statements is wrong?
+CodeBlock:
+
+Options:
+0 . cloud computing has two distinct sets of models.
+1 . amazon has built a worldwide network of data centers to service its search engine.
+2 . azure enables .net framework applications to run over the internet.
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: Google has built mega data centers for its search engine. Hence it not true that Amazon has built a worldwide network of data centers to services its search engine.
+
+ Index: 104
+Question: Which one of the following is considered the best-known service model?
+CodeBlock:
+
+Options:
+0 . saas
+1 . iaas
+2 . paas
+3 . all of the mentioned
+4 . 
+Correct Answer: 3
+
+Explanation: The best-known service models are Software as a Service, Platform as a Service, and Infrastructure as a Service?the SPI model.
+
+ Index: 105
+Question: The __________ model originally did not require a cloud to use virtualization to pool resources.
+CodeBlock:
+
+Options:
+0 . neft
+1 . nist
+2 . nit
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: NIST stands for the National Institute of Standards and Technology.
+
+ Index: 106
+Question: Which one of the following dimensions is related to the organization's boundaries?
+CodeBlock:
+
+Options:
+0 . the physical location of data
+1 . ownership
+2 . security boundary
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: Internal (I) / External (E) determines the organization's boundaries so that the correct option will be A.
+
+ Index: 107
+Question: How many types of dimensions exist in the Cloud Cube Model?
+CodeBlock:
+
+Options:
+0 . one
+1 . two
+2 . three
+3 . four
+4 . 
+Correct Answer: 3
+
+Explanation: There are four types of dimensions in Cloud Cube Model.
+
+ Index: 108
+Question: _______ model attempts to categorize a cloud network based on four-dimensional factors.
+CodeBlock:
+
+Options:
+0 . cloud square
+1 . cloud service
+2 . cloud cube
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: The Cloud Cube model is mainly used for secure collaboration.
+
+ Index: 109
+Question: A hybrid cloud combines multiple clouds where those clouds retain their unique identities but are bound together as a unit.
+CodeBlock:
+
+Options:
+0 . public
+1 . private
+2 . community
+3 . hybrid
+4 . 
+Correct Answer: 3
+
+Explanation: A hybrid cloud can offer standardized or proprietary access to data and applications, as well as application portability.
+
+ Index: 110
+Question: Which one of the following is the wrong statement?
+CodeBlock:
+
+Options:
+0 . a deployment model defines the purpose of the cloud and the nature of how the cloud is located.
+1 . the service model defines the purpose of the cloud and the nature of how the cloud is located.
+2 . cloud square model is meant to show us that the traditional notion of a network boundary being the network's firewall no longer applies in cloud computing.
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: Four types of deployment models exist.
+
+ Index: 111
+Question: Which one of the following is the wrong statement?
+CodeBlock:
+
+Options:
+0 . public cloud may be managed by the constituent organization(s) or by a third party.
+1 . a community cloud may be managed by the constituent organization(s) or by a third party.
+2 . private clouds may be either on- or off-premises
+3 . none of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: The public cloud infrastructure is available for public use, alternatively for a large industry group.
+
+ Index: 112
+Question: How many types of security threshold values are actually present in the cloud cube model?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: There are only two types of depending upon the network firewall.
+
+ Index: 113
+Question: Which of the following is offered by the ownership dimension of the Cloud Cube Model?
+CodeBlock:
+
+Options:
+0 . proprietary
+1 . owner
+2 . p
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: P stands for Proprietary ownership
+
+ Index: 114
+Question: Which of the following is a measure of knowing whether the operation is inside or outside the security limits?
+CodeBlock:
+
+Options:
+0 . per
+1 . p
+2 . pre
+3 . all of the mentioned
+4 . 
+Correct Answer: 3
+
+Explanation: All options mentioned in the above questions are the ways of knowing whether the operation is inside or outside the security limits, we can also call it a network firewall.
+
+ Index: 115
+Question: Which one of the following is related to the services offered by the Cloud?
+CodeBlock:
+
+Options:
+0 . sourcing
+1 . ownership
+2 . reliability
+3 . aaas
+4 . 
+Correct Answer: 0
+
+Explanation: It can be understood as the Outsourced or Insourced, which refers to the services that are provided by the service provider.
+
+ Index: 116
+Question: Which one of the following dimensions corresponds to two different states in the possible eight cloud forms?
+CodeBlock:
+
+Options:
+0 . the physical location of data
+1 . ownership
+2 . security boundary
+3 . none of the mentioned
+4 . 
+Correct Answer: 3
+
+Explanation: None of the following given dimension corresponds to two different states in the eight possible cloud forms.
+
+ Index: 117
+Question: Which one of the following options is correct cloud infrastructure operated for the exclusive use of an organization?
+CodeBlock:
+
+Options:
+0 . public
+1 . private
+2 . community
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: The Cloud can be managed by the third party or by that organization.
+
+ Index: 118
+Question: Which one of the following is a type of the Cloud that is organized in such a way to serve the common purpose or the functions?
+CodeBlock:
+
+Options:
+0 . public
+1 . private
+2 . community
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: The management of a community cloud can be managed by the constituent organization(s) or a third party.
+
+ Index: 119
+Question: Which one of the following is the wrong statement?
+CodeBlock:
+
+Options:
+0 . everything from application to infrastructure is the responsibility of the vendor.
+1 . aaas provides several sources such as the applications, development frameworks, operating systems, virtual machines, control structures, transactions, etc.
+2 . in the deployment model, different types of clouds are referred to as an expression of the infrastructure's approach.
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: It is the Paas (the Platform As A Services) that provides several sources or services such as the applications, development frameworks, operating systems, virtual machines, control structures, and transactions etc. not the AaaS (or the Application As A Service).
+
+ Index: 120
+Question: Which one of the following provides the resources or services such as the virtual infrastructure, virtual machines, virtual storage, and several other hardware assets?
+CodeBlock:
+
+Options:
+0 . iaas
+1 . saas
+2 . paas
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: The IaaS (or Infrastructure As A Service) service provider maintains all infrastructure, while on the other hand client is responsible for several other deployment aspects. 
+
+ Index: 121
+Question: Which one of the following offers the control structures and development frameworks?
+CodeBlock:
+
+Options:
+0 . iaas
+1 . saas
+2 . paas
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: The correct answer is the IaaS (the infrastructure As a Service) because it is a kind of cloud computing that uniquely provides resources such as the virtualized computing over the internet. 
+
+ Index: 122
+Question: Which one of the following is the wrong statement?
+CodeBlock:
+
+Options:
+0 . the platform as a service includes the integration features, middleware, and several other orchestrations choreography services to the iaas model.
+1 . hybrid cloud computing offers xaas or "anything as a service" as the delivery of it as a service.
+2 . maas (or the monitoring as a service) is currently still an emerging piece of cloud jigsaw.
+3 . none of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: Monitoring as a service (or MaaS) provides the option of unloading a large portion of those costs from running as a service as opposed to a complete investment in-home tool.
+
+ Index: 123
+Question: Which one of the following was owned by an organization that sells cloud services?
+CodeBlock:
+
+Options:
+0 . hybrid
+1 . private
+2 . community
+3 . public
+4 . 
+Correct Answer: 3
+
+Explanation: The public Cloud is one of the cloud infrastructures that are available for public use as the alternative for the large industry group.
+
+ Index: 124
+Question: Find out which one can be considered the complete operating environment with applications, management?
+CodeBlock:
+
+Options:
+0 . iaas
+1 . saas
+2 . paas
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: In the Software as a Service model (the SAAS), the application is usually provided to the users through a thin client interface.
+
+ Index: 125
+Question: Which one of the following is considered a type of cloud computing model involving the three different service models together?
+CodeBlock:
+
+Options:
+0 . cpi
+1 . sip
+2 . spi
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: SPI is actually an acronym( or we can say the Short form of any words) for the most standard cloud computing services models, such as the infrastructure as a Service, Platform as a Service, and Software as a Service.
+
+ Index: 126
+Question: The term "Caas" stands for_____ as a service?
+CodeBlock:
+
+Options:
+0 . compliance as a service
+1 . computer as a service
+2 . community as a service
+3 . communication as a service
+4 . 
+Correct Answer: 3
+
+Explanation: The term "CAAS" stands for Communication as a service, which enables the clients to utilize resources like the Unified Communications, and Enterprise Level PBX, VPNs, VoIP without the expense of hosting, purchasing, and maintaining the infrastructure. 
+
+ Index: 127
+Question: Which one of the following is a type of infrastructure as a service?
+CodeBlock:
+
+Options:
+0 . ec2
+1 . ec1
+2 . ec10
+3 . hybrid
+4 . 
+Correct Answer: 0
+
+Explanation: Amazon EC2 stands for the Amazon Elastic Compute Cloud that offers the scalable computing capacity in the AWS (or Amazon Web Services) cloud to its clients. One can eliminate his investment in hardware upfront using the Amazon Elastic Compute Cloud and boost the development and deployment application process.
+
+ Index: 128
+Question: Which one of the following was one of the top 5 cloud applications in late 2010?
+CodeBlock:
+
+Options:
+0 . cloud backup
+1 . web applications
+2 . business applications
+3 . all of the mentioned
+4 . 
+Correct Answer: 3
+
+Explanation: The economics of software delivery has been shifted in a significant manner, just like the music downloads has been shifted the delivery of the music.
+
+ Index: 129
+Question: Which one of the following statements is not true?
+CodeBlock:
+
+Options:
+0 . google's cloud involves approx ten data-centers in all over the world.
+1 . data centers are sited in such a way that the overall system latency can be optimized.
+2 . the online shopping website, such as flipkart.com, has the infrastructure built so that it can support the elastic demand so the system will be capable of accommodating peak traffic.
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Data-centers can help lower land costs and reduce occupations.
+
+ Index: 130
+Question: Which of the following benefits is related to creating stored resources together in a system that supports multi-tenant use?
+CodeBlock:
+
+Options:
+0 . on-demand self-service
+1 . extensive network access
+2 . resource pooling
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The cloud service provider creates resources that support multi-tenant usage in a system.
+
+ Index: 131
+Question: Which one of the following is something that a user can obtain it under the contract from his/her vendor? 
+CodeBlock:
+
+Options:
+0 . pos
+1 . sos
+2 . qos
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: Usually, it totally depends on the type of services being offered. One can find that he/she does not require any software or hardware licensees in order to implement his/her services.
+
+ Index: 132
+Question: All cloud computing applications suffer from the inherent _______ that is intrinsic in their WAN connectivity.
+CodeBlock:
+
+Options:
+0 . propagation
+1 . latency
+2 . noise
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: While cloud computing applications excel at large-scale processing tasks, if your application needs large amounts of data transfer, cloud computing may not be the best model for you.
+
+ Index: 133
+Question: Which of the following architectural standards is working with the cloud computing industry?
+CodeBlock:
+
+Options:
+0 . service-oriented architecture
+1 . standardized web services
+2 . web-application frameworks
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: These standards help to enable different business models that cloud computing vendors can support, most notably Software as a Service (SaaS), Web 2.0 applications, and utility computing. When your data travels over and rests on systems that are no longer under your control, you have increased risk due to others' interception and malfeasance.
+
+ Index: 134
+Question: Which one of the following is the most important subject of concern in cloud computing?
+CodeBlock:
+
+Options:
+0 . security
+1 . storage
+2 . scalability
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: When your data travels over and rests on systems that are no longer under your control, you have increased risk due to others' interception and malfeasance.
+
+ Index: 135
+Question: You cannot rely on a cloud provider for maintaining its _____ in the event of government work.
+CodeBlock:
+
+Options:
+0 . scalability
+1 . reliability
+2 . privacy
+3 . none of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: The Cloud computing industry continues to address security concerns.
+
+ Index: 136
+Question: _______ enables batch processing, which greatly speeds up high-processing applications.
+CodeBlock:
+
+Options:
+0 . scalability
+1 . reliability
+2 . elasticity
+3 . utility
+4 . 
+Correct Answer: 0
+
+Explanation: This feature obviates the need for planning and provisioning.
+
+ Index: 137
+Question: _______ feature allows you to optimize your system and capture all possible transactions.
+CodeBlock:
+
+Options:
+0 . scalability
+1 . reliability
+2 . elasticity
+3 . none of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: You have the ability to right-size resources as required.
+
+ Index: 138
+Question: _______ is a pay-as-you-go model matches resources to need on an ongoing basis.
+CodeBlock:
+
+Options:
+0 . utility
+1 . elasticity
+2 . low barrier to entry
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: This eliminates waste and has the added benefit of shifting risk from the client.
+
+ Index: 139
+Question: Which of the following is the most refined and restrictive service model?
+CodeBlock:
+
+Options:
+0 . iaas
+1 . caas
+2 . paas
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: When the service requires the client to use a complete hardware/software/application stack, it is used the most refined and restrictive service model.
+
+ Index: 140
+Question: When you add a software stack, such as an operating system and applications to the service, the model shifts to _____ model.
+CodeBlock:
+
+Options:
+0 . saas
+1 . paas
+2 . iaas
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: Microsoft's Windows Azure Platform is best described as currently using the SaaS model.
+
+ Index: 141
+Question: Which one of the following is a false statement?
+CodeBlock:
+
+Options:
+0 . a cloud is defined as the combination of the infrastructure of a data-center with the ability to provision hardware and software.
+1 . high touch applications are best done on-premises.
+2 . the google app engine follows iaas.
+3 . none of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: The Google App Engine follows PaaS (or Platform as a service).
+
+ Index: 142
+Question: Service that generally focuses on the hardware follows which one of the following service models?
+CodeBlock:
+
+Options:
+0 . iaas
+1 . caas
+2 . paas
+3 . all of the mentioned
+4 . 
+Correct Answer: 0
+
+Explanation: Amazon web service follows the PaaS model.
+
+ Index: 143
+Question: Which of the following types of applications works with cloud computing that has low risks, low margins?
+CodeBlock:
+
+Options:
+0 . high touch
+1 . low touch
+2 . moderate touch
+3 . all of the mentioned
+4 . 
+Correct Answer: 1
+
+Explanation: The "low touch" applications that come with low margins require committed resources and pose less risk.
+
+ Index: 144
+Question: Which one of the following statements is false?
+CodeBlock:
+
+Options:
+0 . service level agreements (slas) is a small aspect of cloud computing.
+1 . cloud computing does not have an impact on software licensing.
+2 . cloud computing present new opportunities to users and developers.
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: The answer will be the C because it is based on the paradigm of a shared multi-tenant utility.
+
+ Index: 145
+Question: Which one of the following is a special attribute of cloud computing?
+CodeBlock:
+
+Options:
+0 . utility type of delivery
+1 . elasticity
+2 . low barrier to entry
+3 . all of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: These attributes change how applications are created, priced, and delivered.
+
+]

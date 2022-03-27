@@ -1,0 +1,841 @@
+&[Index: 0
+Question: Mach number is defined as
+CodeBlock:
+
+Options:
+0 . the ratio of a mass number to weight
+1 . the ratio of characteristic velocity to velocity of sound
+2 . the ratio of force to velocity
+3 . the ratio of friction to acceleration
+4 . 
+Correct Answer: 1
+
+Explanation: Mach number refers to a non-dimensional number in fluid mechanics which defines the velocity of the fluid with respect to the velocity of sound in air or any fluidic medium through which the body travels. In other words, we can say that it is the ratio of the velocity of the object to the speed of sound in air or vacuum. Consider an example to understand this concept, suppose an airplane travels at a speed of 420 m/s has a Mach number of 4, find the velocity of sound in air?Where, M = Mach numberC = speed of an objecta = Velocity of the sound in air or any fluidic mediumtherefore,
+
+ Index: 1
+Question: If gram crop has a kor period of 24 days and kor depth of 16 cm, find the duty of the gram
+CodeBlock:
+
+Options:
+0 . 1866 ha/cumec
+1 . 2036 ha/cumec
+2 . 1296 ha/cumec
+3 . 882 ha/cumec
+4 . 
+Correct Answer: 2
+
+Explanation:Given;Kor period = 24 daysKor depth = 16 cmWe know that,Where,B = Kor period = 24 daysa = Kor depth = 16 cmtherefore,
+
+ Index: 2
+Question: 1 litre of sewage, when enabled to settle for 60 minutes, gives a sludge volume of 36 cm3. If the dry weight of this sludge is 6 grams, find its sludge volume index?
+CodeBlock:
+
+Options:
+0 . 12
+1 . 10
+2 . 6
+3 . 14
+4 . 
+Correct Answer: 2
+
+Explanation:Given;Settled sludge volume = 36 cm3The dry weight of this sludge =6 gramsWe know that,
+
+ Index: 3
+Question: In an irrigation project, in a specific year, 70% and 40% of the cultivable command area in Rabi and Kharif, respectively, remained without water and the rest of the area got irrigation water. Find the intensity of irrigation in that year for the project
+CodeBlock:
+
+Options:
+0 . 60 %
+1 . 70 %
+2 . 80 %
+3 . 90 %
+4 . 
+Correct Answer: 3
+
+Explanation:Given;Area under Kharif crop = 100 - 40 = 60Area under Rabi crop = 100 - 70 = 30We know that,Intensity of irrigation = Area under kharif crop + Area under Rabi crop= 60 + 30 = 90 %
+
+ Index: 4
+Question: The plan of a map was photocopied to a reduced size such that a line originally 300 mm measurer 280 mm, the original scale of the plan was 1: 1200. Find the revised scale?
+CodeBlock:
+
+Options:
+0 . https://static.javatpoint.com/blog/images/civil-engineering-mcq-q5.png
+1 . 
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation:Given;Measured length = 280Original length = 300Original scale = 1:1200We know that,
+
+ Index: 5
+Question: The width of the expansion joint gap is 3 cm in a cement concrete pavement. Find the spacing between the expansion joint for a maximum rise in temperature of 40 0C. (Assume the coefficient of thermal expansion is 10 × 10 -6 per degree C)
+CodeBlock:
+
+Options:
+0 . 67.6 m
+1 . 37.5 m
+2 . 47.9 m
+3 . 97.8 m
+4 . 
+Correct Answer: 1
+
+Explanation:
+
+ Index: 6
+Question: The PCU for motor cycle on urban road is
+CodeBlock:
+
+Options:
+0 . 1
+1 . 0.5
+2 . 3
+3 . 0.2
+4 . 
+Correct Answer: 3
+
+Explanation: PCU stands for Passenger car unit. The PCU for motorcycles on the urban road is 0.2. The PCU for Car/ jeep on the urban road is 1. The PCU for 2 axile trucks on the urban road is 4. The PCU for three axile trucks on the urban road is 5.
+
+ Index: 7
+Question: The number of revolution of a current meter is 60 seconds were found to be 18 and 40, corresponding to the velocity of 0.5 and 0.6 m/s, respectively. What velocity would be indicated by 80 revolutions of the current meter in two minutes?
+CodeBlock:
+
+Options:
+0 . 0.78
+1 . 0.98
+2 . 0.38
+3 . 0.58
+4 . 
+Correct Answer: 0
+
+Explanation:Velocity for current meterV = a Ns + bIn first case,V = a Ns + b0.5 = a × 18 + bIn second case,V = a Ns + b0.6 = a × 40 + bFrom case 1 and 2We get,a = 0.0045b = 0.42For 80 revoutionsNumber of revolutions for 60 secondsVelocity ( V ) = a Ns + bV = 0.0045= 0.78
+
+ Index: 8
+Question: In duty (D) is 1800 hectare/cemec and base period (B) is 150 days for an irrigated crop; find the value ∆ in a meter?
+CodeBlock:
+
+Options:
+0 . 0.22
+1 . 0.92
+2 . 0.72
+3 . 0.32
+4 . 
+Correct Answer: 2
+
+Explanation:We know that,Duty (D) = 1800 hectare/cemecB = 150 days
+
+ Index: 9
+Question: The surveying method used to determine additional details such as boundaries of fields is called.
+CodeBlock:
+
+Options:
+0 . rural surveying
+1 . urban surveying
+2 . cadastral surveying
+3 . isolated surveying
+4 . 
+Correct Answer: 2
+
+Explanation: Cadastral surveying is used to calculate additional details such as boundaries of fields and determine the area of land.
+
+ Index: 10
+Question: The beam is a structural member predominantly subjected to
+CodeBlock:
+
+Options:
+0 . tensile strength
+1 . coaxial forces
+2 . transverse loads
+3 . magnetic moment
+4 . 
+Correct Answer: 2
+
+Explanation: The beam is a structural element that usually resists load applied to the beam axis.
+
+ Index: 11
+Question: Find the tensile stress of a steel rod made up of mild steel of 15 mm diameter with a load of 10 ton
+CodeBlock:
+
+Options:
+0 . 0.88 ton/mm2
+1 . 0.579 ton/mm2
+2 . 0.324 ton/mm2
+3 . 0.067 ton/mm2
+4 . 
+Correct Answer: 3
+
+Explanation:Given;Diameter = 20 mmLoad = 10 tonWe know that,
+
+ Index: 12
+Question: Rankine's Gorden formula is used to calculate the buckling load of the column.
+CodeBlock:
+
+Options:
+0 . rectangular column
+1 . medium column
+2 . square column
+3 . long column
+4 . 
+Correct Answer: 1
+
+Explanation: Rankine's Gorden formula is used to calculate the buckling load of a medium column, whereas the Euler formula is used to calculate the buckling load of the long column.
+
+ Index: 13
+Question: The procedure of implementing cement mortar under pressure through a nozzle is called.
+CodeBlock:
+
+Options:
+0 . soffit
+1 . guniting
+2 . balusters
+3 . tread
+4 . 
+Correct Answer: 1
+
+Explanation: Guniting refers to the process of putting cement mortar under specific pressure through a nozzle. The equipment which is used for guniting is known as cement gun. It applies a pressure of 2.5 kg/cm2 to 3.5 kg/cm2 through the nozzle.
+
+ Index: 14
+Question: If the undistributed strength of a soil sample is 70 units while the remolded strength is 30 units, find the sensitivity of the soil?
+CodeBlock:
+
+Options:
+0 . 2.3
+1 . 3.7
+2 . 4.6
+3 . 5.1
+4 . 
+Correct Answer: 0
+
+Explanation:Given,Undistributed strength - 70 unitsRemolded strength - 30 unitsWe know that,
+
+ Index: 15
+Question: The relationship between ac (air content of soil) and its Sr(degree of saturation) is given as
+CodeBlock:
+
+Options:
+0 . ac = 1 - sr
+1 . ac = sr-1
+2 . ac = 1 + sr
+3 . ac = 1 × sr
+4 . 
+Correct Answer: 0
+
+Explanation:We know that,Relationship between air content of soil ac and its degree of saturation Srac = 1 - Srac+ Sr= 1Where,S = Degree of saturationac = air content
+
+ Index: 16
+Question: 1 torr pressure is equal to
+CodeBlock:
+
+Options:
+0 . 1 atm pressure
+1 . 1 mm of mercury
+2 . 100 kg - m
+3 . 1 newton
+4 . 
+Correct Answer: 1
+
+Explanation:We know that,760 torr = 1 atm pressure760 mm = 1 atm pressureIt means 1 mm of mercury = 760 torr
+
+ Index: 17
+Question: A liquid compressed in the cylinder has a volume of 0.06 m3 at 60 N/cm2 and a volume of 0.047 m3 at 160 N/cm2. Find the build modulus of elasticity of liquid
+CodeBlock:
+
+Options:
+0 . 991 n/m2
+1 . 304 n/m2
+2 . 461 n/m2
+3 . 3202 n/m2
+4 . 
+Correct Answer: 2
+
+Explanation: We know that,
+
+ Index: 18
+Question: Find the pressure in pascals at a depth of 5 m below the free surface of a body of water?
+CodeBlock:
+
+Options:
+0 . 60050 pa
+1 . 49050 pa
+2 . 67068 pa
+3 . 89070 pa
+4 . 
+Correct Answer: 1
+
+Explanation:Given,h = 5 mg = 9.81 and ρ=1000We know that,Pressure (P) = ρgh= 1000 × 9.81 × 5= 49050 Pa
+
+ Index: 19
+Question: Contour interval is
+CodeBlock:
+
+Options:
+0 . directly proportional to the scale of a map
+1 . inversely proportional to the scale of a map
+2 . short for accurate work
+3 . square of the flatness of the ground
+4 . 
+Correct Answer: 1
+
+Explanation: Contour interval refers to the vertical distance between two consecutive contours. It is inversely proportional to the scale of a map, money, and time.
+
+ Index: 20
+Question: If the distance between two stations, P and Q, can be accurately measured with one complete Gunter's chain and one complete engineer's chain, find the distance between P and Q?
+CodeBlock:
+
+Options:
+0 . 296 ft
+1 . 326 ft
+2 . 586 ft
+3 . 166 ft
+4 . 
+Correct Answer: 3
+
+Explanation:Given,Gunter's chain = 66 ftEngineers chain = 100 ftSo the distance between two stations P and Q = Gunter's chain + Engineers chain= 66 ft + 100 ft= 166 ft
+
+ Index: 21
+Question: The modular ratio is given by
+CodeBlock:
+
+Options:
+0 . https://static.javatpoint.com/blog/images/civil-engineering-mcq-q22.png
+1 . 
+2 . 
+3 . 
+4 . 
+Correct Answer: 2
+
+Explanation:We know that,Where,m = Modular Ratio, and σcbc=Permissible stress in concrete in bending compression
+
+ Index: 22
+Question: If the soil has a bulk density of 48 kN/m3 and water content is 20%, find the dry density?
+CodeBlock:
+
+Options:
+0 . 40 kn/m3
+1 . 80 kn/m3
+2 . 120 kn/m3
+3 . 20 kn/m3
+4 . 
+Correct Answer: 0
+
+Explanation:Given,bulk density Yb = 48 kN/m3Water content w = 20%We know that
+
+ Index: 23
+Question: A vehicle has a wheelbase of 8.5 m. find the off-tranking while negotiating a curved path with a mean radius of 40 m?
+CodeBlock:
+
+Options:
+0 . 0.30
+1 . 0.60
+2 . 0.90
+3 . 1.20
+4 . 
+Correct Answer: 2
+
+Explanation:Length of the wheelbase (I) = 8.5mRadius (R) = 40 m.Off tracking =?We know that
+
+ Index: 24
+Question: The condition of zero atmospheric pressure can be expected
+CodeBlock:
+
+Options:
+0 . upper sea level
+1 . lower sea level
+2 . mean sea level
+3 . phreatic surface
+4 . 
+Correct Answer: 3
+
+Explanation: Phreatic line refers to the upper flow line, which distinguishes the saturated soil mass from the unsaturated soil mass. The pressure below the phreatic line is called hydrostatic pressure, and the pressure on and beyond the phreatic line is the atmosphere. Therefore, a condition of zero atmospheric pressure can be expected at the phreatic surface.
+
+ Index: 25
+Question: The critical depth of flow in a most economic triangular channel section for a discharge of 2 m3/sec is given by?
+CodeBlock:
+
+Options:
+0 . (0.296) 1/5 m
+1 . (0.746) 1/5 m
+2 . (0.816) 1/5 m
+3 . (0.586) 1/5 m
+4 . 
+Correct Answer: 2
+
+Explanation:Given,Discharge(Q) = 2 m3/secFor the most economical triangular channel section, the side slope m is given bym = tanθ = tan 450 = 1We know that, the critical depth for tringular channel section is given by
+
+ Index: 26
+Question: The equation gives the angle of twist of a circular shaft under the action of a torsional moment T
+CodeBlock:
+
+Options:
+0 . lt/gj
+1 . gl/tj
+2 . jl/tj
+3 . gt/jl
+4 . 
+Correct Answer: 0
+
+Explanation:From the equation of torsionWhere, θ=Angle of twistL = Length of the shaftT = Applied twisting momentJ = Polar moment of inertiaG = Modulus of rigidity
+
+ Index: 27
+Question: A soil sample has liquid limit of 40% ,plastic limit of 30%, and shrinkage limit of 20% for natural water content of 25%, find the consistency index for the sample
+CodeBlock:
+
+Options:
+0 . 50 %
+1 . 100 %
+2 . 150 %
+3 . 200 %
+4 . 
+Correct Answer: 2
+
+Explanation:Given,Liquid limit (WL) = 40% = 0.40Plastic limit (WP) = 30% = 0.30Liquid limit (WS) = 20% = 0.20Natural water content (WN) = 25% = 0.25We know that,
+
+ Index: 28
+Question: Pycnometer method is used to calculate
+CodeBlock:
+
+Options:
+0 . latent heat
+1 . specific heat
+2 . specific gravity
+3 . tensile strength
+4 . 
+Correct Answer: 2
+
+Explanation: Specific gravity refers to the ratio of the mass of a unit volume of solid at a given temperature to the mass of the same volume of gas-free distilled water at a given temperature. The pycnometer method is used to calculate the specific gravity.
+
+ Index: 29
+Question: Find the value of peak factor considered in the estimation of water demand for the population of 2,50,222?
+CodeBlock:
+
+Options:
+0 . 3.0
+1 . 4.5
+2 . 3.5
+3 . 2.0
+4 . 
+Correct Answer: 3
+
+Explanation:If the population is more than 2 lakhs, the peak factor is considered as 2.0If the population is between 50,000 to 2 lakhs, the peak factor is considered as 2.5If the population is upto 50000, the peak factor is considered as 3
+
+ Index: 30
+Question: The lost time due to starting delay on a traffic signal is noted to be 5s, the actual green time is the 20s, and the yellow tine is 2s. Find the value of effective green time?
+CodeBlock:
+
+Options:
+0 . 11 seconds
+1 . 17 seconds
+2 . 24 seconds
+3 . 34 seconds
+4 . 
+Correct Answer: 1
+
+Explanation:Effective green time is given as= Actual green time + yellow time - lost time= 20 + 2 - 5= 17 seconds.
+
+ Index: 31
+Question: If the allowable percentage limit error in the estimate of basic rainfall is "E" and the coefficient of variation of rainfall is a CV, find the optimum number of rain gauges.
+CodeBlock:
+
+Options:
+0 . https://static.javatpoint.com/blog/images/civil-engineering-mcq-q32.png
+1 . 
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation:The following equation gives the optimum number of rain gaugesWhere,N = Number of rain gauges.CV = Coefficient of variation of rainfall.E = Allowable percentage error.Here,
+
+ Index: 32
+Question: A soil has a discharge velocity of 8 × 10 -9 m/s and a void ratio of 0.8. Find its seepage velocity?
+CodeBlock:
+
+Options:
+0 . 29.28 × 10 -9 m/s
+1 . 48.58 × 10 -8 m/s
+2 . 78.18 × 10 -7 m/s
+3 . 18.18 × 10 -9 m/s
+4 . 
+Correct Answer: 3
+
+Explanation:Given,Discharge velocity (V) = 8 × 10 -9 m/sVoid ratio(e) = 0.8We know that,
+
+ Index: 33
+Question: If the coefficient of permeability for the soil is 10-2 cm/sec, the soil can be classified as
+CodeBlock:
+
+Options:
+0 . sand
+1 . gravel
+2 . silt
+3 . clay
+4 . 
+Correct Answer: 0
+
+Explanation:The coefficient of permeability for the soil is 1 - 10- 3 cm/sec; the soil can be classified as Sand.The coefficient of permeability for the soil is 10-3 - 10-6 cm/sec; the soil can be classified as Silt.The coefficient of permeability for the soil is < 10-6 cm/sec; the soil can be classified as Clay.The coefficient of permeability for the soil is > 1 cm/sec; the soil can be classified as Gravel.
+
+ Index: 34
+Question: According to the Kuichling formula, if K is the population of a thousand, find the fire demand of water in liters per minute?
+CodeBlock:
+
+Options:
+0 . 1818√k
+1 . 6316√k
+2 . 3182√k
+3 . 2589√k
+4 . 
+Correct Answer: 2
+
+Explanation:According to the Kuichling formula, fire demand is given by the equationQ = 3182√KWhere,Q = I/ minK = Population (In thousand)
+
+ Index: 35
+Question: According to the Indian soil classification system, inorganic silts of high compressibility are given by the symbol.
+CodeBlock:
+
+Options:
+0 . ki
+1 . mh
+2 . th
+3 . gh
+4 . 
+Correct Answer: 1
+
+Explanation:As per the Indian soil classification system,MH = High compressible salt.MI = Medium compressible salt.ML = Low compressible salt.
+
+ Index: 36
+Question: A substance bar is used to determine
+CodeBlock:
+
+Options:
+0 . vertical distances
+1 . displacements
+2 . horizontal distances
+3 . none of these
+4 . 
+Correct Answer: 2
+
+Explanation:Substance bar is used to determine the perpendicular angle (900) in any point and drawing perpendicular by exterior point. It is also used to measure horizontal distance.
+
+ Index: 37
+Question: If the duty of a crop is 950 hectare/cumec and the base period is 150 days, find the delta of the crop?
+CodeBlock:
+
+Options:
+0 . 130 cm
+1 . 140 cm
+2 . 150 cm
+3 . 160 cm
+4 . 
+Correct Answer: 0
+
+Explanation:Given,Duty of a crop (D)= 950 hectare/cumecBase period (B)= 150 days∆ =?We know that the relation between ∆ and duty is
+
+ Index: 38
+Question: If the fineness modulus of sand is 3.1, it is graded as
+CodeBlock:
+
+Options:
+0 . fine sand
+1 . low sand
+2 . coarse sand
+3 . medium sand
+4 . 
+Correct Answer: 2
+
+Explanation: The fineness modulus of sand having a value of 3.1 is graded as coarse sand.
+
+ Index: 39
+Question: If the weight of a dia is 40 mm, find the bar per meter length?
+CodeBlock:
+
+Options:
+0 . 6.587 kg
+1 . 4.859 kg
+2 . 7.394 kg
+3 . 9.888 kg
+4 . 
+Correct Answer: 3
+
+Explanation: The weight of bar per meter length is given by the equation= 0.00618 × (40)2= 9.888 kg
+
+ Index: 40
+Question: If the stopping distance of a vehicle is 24 m and the average length is 8m, find the theoretical maximum capacity (vehicle/hour) of a traffic lane at a speed of 12m/sec?
+CodeBlock:
+
+Options:
+0 . 1350
+1 . 1750
+2 . 1930
+3 . 2275
+4 . 
+Correct Answer: 0
+
+Explanation:Given;Stopping distance of a vechile = 24 mAverage length = 8mSpeed (V) = 12m/sec = 12 × 3.6 = 43.2 km/hrWe know that,Space headway (S) = sight distance + average length of the vechile (L) = 24 + 8 = 32mSo, when we apply the Theoretical maximum capacity formula we get,
+
+ Index: 41
+Question: The detailed plotting in a plane table surveying is usually done by
+CodeBlock:
+
+Options:
+0 . dumpy level
+1 . radiation
+2 . traversing
+3 . both option a and c
+4 . 
+Correct Answer: 1
+
+Explanation: The detailed plotting in a plane table surveying is usually done by the radiation method. In the radiation method, the instrument is set up at a particular station, and the rays are drawn to multiple stations, which are to be plotted.
+
+ Index: 42
+Question: If an ascending gradient of 1 in 60 meets another ascending gradient of 1 in 20, find the deviation angle?
+CodeBlock:
+
+Options:
+0 . https://static.javatpoint.com/blog/images/civil-engineering-mcq-q43.png
+1 . 
+2 . 
+3 . 
+4 . 
+Correct Answer: 2
+
+Explanation:
+
+ Index: 43
+Question: The absolute minimum radius of the horizontal curve for a design speed 40 kmph
+CodeBlock:
+
+Options:
+0 . 65.88 m
+1 . 63.66 m
+2 . 44.59 m
+3 . 57.26 m
+4 . 
+Correct Answer: 3
+
+Explanation:According to IRC, the maximum super elevation for plain and rolling terraine = 0.07 and f = 0.15Given;V = 40 kmphWe know that,Absolute minimum radius
+
+ Index: 44
+Question: As per the classification of ordinary portland cement by the Indian Standard Bureau, which of the given cement is a grade of cement?
+CodeBlock:
+
+Options:
+0 . grade 95
+1 . grade 53
+2 . grade 63
+3 . grade 15
+4 . 
+Correct Answer: 2
+
+Explanation: The classification of ordinary portland cement by Indian Standard Bureau grade 63 cement is a grade of cement.
+
+ Index: 45
+Question: If a transition curve is applied between a straight and a curve such that a superelevation of 18 cm is applied over a curve and if the rate of superelevation is 1 IN 600, find the length in a meter of the transition curve?
+CodeBlock:
+
+Options:
+0 . 75 meter
+1 . 118 meter
+2 . 108 meter
+3 . 125 meter
+4 . 
+Correct Answer: 2
+
+Explanation:Given;Super elevation(e) = 18 cmRate of super elevation = 1 IN 600So the length in transition curve = 600 × 0.18= 108 meter
+
+ Index: 46
+Question: Find the strainer length required for a deep tube well, giving a discharge of 12 liters per second? Assume permissible entrance velocity of 3 cm/second. It is desired to have the strainer of slot sizes 25mm × 0.4 mm with a number of slots per cm length of the strainer as 120.
+CodeBlock:
+
+Options:
+0 . 2.7 m
+1 . 4.9 m
+2 . 6.7 m
+3 . 9.2 m
+4 . 
+Correct Answer: 0
+
+Explanation:Let us suppose the length of the strainer is 'p' meter= 25 × 0.4 × 10 -6 m2 × 3 × 10 -2 m/s x p × 120 × 120 = 12 × 10 -3 m3/sec= 2.7 m
+
+ Index: 47
+Question: A soil sample is having a specific gravity of 3.4 and a void ratio of 0.54. If the water content in percentage required to fully saturate the soil, find the void ratio?
+CodeBlock:
+
+Options:
+0 . 16 %
+1 . 26 %
+2 . 36 %
+3 . 46 %
+4 . 
+Correct Answer: 0
+
+Explanation:GivenSpecific gravity (g) =3.4Void ratio (e) = 0.54We know that,eS = wg0.54 × 1 = w × 3.4 (For fully saturated soil s is considered as 1)
+
+ Index: 48
+Question: The permissible stress in steel is 160 MPa in the water tank of diameter 1.8 m which is designed to resist direct tensile force (T) of 240 N per meter width. Find the required area of tension steel in mm2/m.
+CodeBlock:
+
+Options:
+0 . 2500 mm2
+1 . 1500 mm2
+2 . 3500 mm2
+3 . 4500 mm2
+4 . 
+Correct Answer: 1
+
+Explanation:Given;σst = 160 MPaDiameter of tank =1.8 mTensile force (T) = 240 N/meter = 240 × 10 3N
+
+ Index: 49
+Question: If the actual thickness of a brick masonry wall is 25 cm, its effective length is 3.45m. Its effective height is 3.25 m, and its code-specified stiffening coefficient is 1.6. find the tenderness ratio(For design) of the wall?
+CodeBlock:
+
+Options:
+0 . 7.627
+1 . 3.129
+2 . 2.189
+3 . 8.125
+4 . 
+Correct Answer: 3
+
+Explanation:Given;Actual thickness = 25 cmEffective length = 3.45mEffective height = 3.25 mStiffening coefficent = 1.6We know that,Effective thickness = Actual thickness ×stiffening coefficientEffective thickness = 25 ×1.6 = 40 cmStenderness ratio = Minimum of (effective length/effective thickness) or (effective height/effective thickness)Slenderness ratio = Minimum of (3.45×100/40) or (3.25 ×100/40)Hence standerness ratio is 8.125
+
+ Index: 50
+Question: Construction equipment has a useful life of 4 years after which it is to be replaced by a new one. If the interest rate is 6 %, find the nearest value of the sinking fund factor?
+CodeBlock:
+
+Options:
+0 . 2.30
+1 . 3.30
+2 . 4.30
+3 . 5.30
+4 . 
+Correct Answer: 0
+
+Explanation:Given;Life(n) = 4 yearsInterest rate(i) = 6 % = 0.06Sinking fund factor = ?We know that,
+
+ Index: 51
+Question: A compression member is having gross effective cross-sectional areas of 1800 mm2 and 1400 mm2, respectively. If the compressive stress is 160 MPa, find the compressive design strength of the column?
+CodeBlock:
+
+Options:
+0 . 433 kn
+1 . 288 kn
+2 . 127 kn
+3 . 632 kn
+4 . 
+Correct Answer: 1
+
+Explanation:For compression members, design strength is determined based on gross cross-sectional area.Hence design compressive strength= 160 MPa 1800 mm2= 288 kN
+
+ Index: 52
+Question: For the relationship , u = 33 - 0.44k, find the maximum flow in vechile/hour?
+CodeBlock:
+
+Options:
+0 . 445
+1 . 666
+2 . 939
+3 . 396
+4 . 
+Correct Answer: 3
+
+Explanation:We know that,q = k uor q = k (33 - 0.44k)For maximum flow dq/dk = 33 - 0.44 ×2k = 0So, k = 60 vechiles/kmTherefore, qmax = 60 (33 - 0.44 ×60 ) = 396
+
+ Index: 53
+Question: A layer of soil with G = 2.70 and e = 0.70 is subjected to an upward head of 1.8 m due to water seepage. Find the depth of the soil layer required to provide a factor of safety 2 against piping?
+CodeBlock:
+
+Options:
+0 . 9.6 m
+1 . 12.6 m
+2 . 3.6 m
+3 . 1.6 m
+4 . 
+Correct Answer: 2
+
+Explanation:GivenG = 2.70e = 0.70We know that critical hydraulic gradient
+
+ Index: 54
+Question: While designing a hydraulic structure, the piezometric head at the bottom of the floor is computed as 15m. The datum is 4 m below the bottom floor. The assured standing water depth above the floor is 3 m. if the specific gravity of the floor material is 3, find the thickness of the floor.
+CodeBlock:
+
+Options:
+0 . 1 m
+1 . 2 m
+2 . 3 m
+3 . 4 m
+4 . 
+Correct Answer: 3
+
+Explanation:
+
+ Index: 55
+Question: The depth of flow in an alluvial channel is 2 m. If the critical velocity ratio is 1.5 and manning's n is 0.025, find the critical velocity of the channel as per Kennedy's method
+CodeBlock:
+
+Options:
+0 . 1.28 m/sec
+1 . 2.98 m/sec
+2 . 7.26 m/sec
+3 . 9.85 m/sec
+4 . 
+Correct Answer: 0
+
+Explanation:The depth of flow in a alluvial channel (y) = 2 mCritical velocity ratio (m) = 1.5manning's n = 0.025We know that, the velocity as per kennedy methodVo = 0.55 × m × (y) 0.64Vo = 0.55 × 1.5 × (2) 0.64= 1.28 m/sec
+
+ Index: 56
+Question: If a soil has a liquid of 50 % and a plasticity index of 25 %, find the plastic limit of the soil?
+CodeBlock:
+
+Options:
+0 . 20 %
+1 . 25%
+2 . 40 %
+3 . 50%
+4 . 
+Correct Answer: 1
+
+Explanation:Given;Liquid WL = 50 %Plasticity index Ip = 25 %Plastic limit Wp = ?We know that,Ip = WL - Wp25 % = 50 % - WpWp = 25 %
+
+ Index: 57
+Question: In an experiment, it found that the bulk modulus of a material is equal to its shear modulus. Find the Poisson's ratio?
+CodeBlock:
+
+Options:
+0 . https://static.javatpoint.com/blog/images/civil-engineering-mcq-q58.png
+1 . 
+2 . 
+3 . 
+4 . 
+Correct Answer: 1
+
+Explanation:
+
+ Index: 58
+Question: A 40 m metric chain is found to be 0.2 m too short throughout the measurement. If the distance measured is recorded as 400 m, find the actual distance measured?
+CodeBlock:
+
+Options:
+0 . 523
+1 . 669
+2 . 398
+3 . 989
+4 . 
+Correct Answer: 2
+
+Explanation:Given;Correct length of the chain (l) = 40 mWrong length of the chain (l') = 40 - 0.2 = 39.8 m.Wrong length og measured line (L') = 400mCorrect length of the measured line (L) = ?= L × l = l^'×L'= L ×40 = 39.8 × 400L = 398
+
+ Index: 59
+Question: If the ultimate load is 12.0 tons, find the tensile stress of a mild steel rod of 24 mm diameter?
+CodeBlock:
+
+Options:
+0 . 0.0004 ton/mm2
+1 . 0.0548 ton/mm2
+2 . 0.7859 ton/mm2
+3 . 0.0058 ton/mm2
+4 . 
+Correct Answer: 0
+
+Explanation:Given;Diameter = 24 mmUltimate load = 12.0 tonWe know that,
+
+]

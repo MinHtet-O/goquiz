@@ -1,0 +1,701 @@
+&[Index: 0
+Question: For two vectors defined by an arrow with a head and a tail. The length of each vector and the angle between them represents:
+CodeBlock:
+
+Options:
+0 . their magnitude and direction of the line of action, respectively
+1 . their magnitude's square and direction of the line of action, respectively
+2 . magnitude's square and the ratio of their lengths, respectively
+3 . magnitude's square root and direction of the line of action, respectively
+4 . 
+Correct Answer: 0
+
+Description: The length of each vector and the angle between them represent their magnitude and direction of the action line, respectively. The head/tip of the arrow indicates the sense of direction of the vector.
+
+ Index: 1
+Question: A force vector with magnitude R and making an angle α with the x-axis is having its component along the x-axis and y-axis as:
+CodeBlock:
+
+Options:
+0 . rcosine (180-α) and rsine(α)
+1 . rcosine (α) and rsine(α)
+2 . rcosine (α) and rsine(180+α)
+3 . rcosine (180-α) and rsine(180+α)
+4 . 
+Correct Answer: 1
+
+Description: The component along the x-axis is the cosine component of the vector. And the y-axis component of the vector is the sine component if the angle is being made with the x-axis. And 180- α for some of the trigonometric functions may change their sign.
+
+ Index: 2
+Question: Shown as in the figure below, A=60 degree and B=30 degree. Calculate the total length obtained by adding the x-axis component of both vectors.
+CodeBlock:
+
+Options:
+0 . 4.35m
+1 . 3.23m
+2 . 1.5m
+3 . 2.50m
+4 . 
+Correct Answer: 1
+
+Description: After getting the cosine components of the given vectors, we obtain the total length of the x-axis components to be 3cos60 + 2cos30 = 3.23.
+
+ Index: 3
+Question: If two equal vector forces are mutually perpendicular, then the resultant force is acting at which angle as compared to one of the vector?
+CodeBlock:
+
+Options:
+0 . 0 degree
+1 . 45 degree
+2 . 90 degree
+3 . 180 degree
+4 . 
+Correct Answer: 1
+
+Description: The vectors are mutually perpendicular. It means that the angle between the forces is 90 degree. Thus the results will form at 45 degrees to any of the vector.
+
+ Index: 4
+Question: If A is any vector with Ai + Bj + Ck, then what is the y-axis component of the vector?
+CodeBlock:
+
+Options:
+0 . a units
+1 . b units
+2 . c units
+3 . the square root of a sum of squares of the three, i.e., a, b, and c
+4 . 
+Correct Answer: 1
+
+Description: As the given vector is shown in the Cartesian system, the number with "j" is the given vector's Y-axis component. The numbers with "i" represent components of the x-axis and "k" representing the z-axis, respectively.
+
+ Index: 5
+Question: Which statement is right for force vector F = Ai + Bj + Ck?
+CodeBlock:
+
+Options:
+0 . in rectangular components representation of any vector, we have vector f = ax + by + cz
+1 . in rectangular components representation of any vector we have vector f = ai + bj + ck
+2 . in rectangular components representation of any vector we have vector f = fi + fj + fk
+3 . in rectangular components representation of any vector we have vector f = fx + fy + fz
+4 . 
+Correct Answer: 0
+
+Description: As given the vector is F = Ai + Bj + Ck, this implies that the x,y, and z-axis components of this vector are A, B, and C, respectively. But, in the rectangular component's representation of any vector, the vector is written as F = Fx + Fy + Fz.
+
+ Index: 6
+Question: For a vector F, Fcosβ is equal to zero. What does this refer to?
+CodeBlock:
+
+Options:
+0 . y-axis component is zero
+1 . x-axis component is zero
+2 . β = 180°
+3 . z-axis component is zero
+4 . 
+Correct Answer: 0
+
+Description: As we know, the α, β, and γ are the angles made by the x, y, and z-axis, respectively. Thus y-axis component is zero, or β = 90°. Thus, if the angle gives a component to zero, the vector in that particular axis is perpendicular to that axis.
+
+ Index: 7
+Question: Find the angle α, for the vector making an angle by y and z-axis as 60° and 45°, respectively. It makes an angle of α with the x-axis. The magnitude of the force is 200N.
+CodeBlock:
+
+Options:
+0 . 120°
+1 . 60°
+2 . 90°
+3 . 45°
+4 . 
+Correct Answer: 1
+
+Description: When you will resolve the vector in its x, y, and z-axis components, you will get an equation containing cosα. After getting the α correctly, you need to put that value in the previous equation of components directly. α = 60°. As 120° will give a negative component. Just try to resolve the vector in its components.
+
+ Index: 8
+Question: Express the vector in the Cartesian Form if the angle made by it with y and z-axis is 60° and 45° respectively. Also, it makes an angle of α with the x-axis. The magnitude of the force is 200N.
+CodeBlock:
+
+Options:
+0 . 100i - 100j + 141.4k n
+1 . 100i + 100j + 141.4k n
+2 . 100i - 100j - 141.4k n
+3 . 100i + 100j - 141.4k n
+4 . 
+Correct Answer: 1
+
+Description: When you will resolve the vector in its x, y, and z-axis components, you will get an equation containing cosα. After getting the correct, you need to put that value in the previous equation of components directly.
+
+ Index: 9
+Question: What if we multiply a scalar to the unit vector?
+CodeBlock:
+
+Options:
+0 . the magnitude will change accordingly
+1 . the direction will change accordingly
+2 . the direction will change by a factor of the square root of the scalar
+3 . the magnitude will not change accordingly
+4 . 
+Correct Answer: 0
+
+Description: The magnitude of the unit vector will change by the amount of the scalar multiplied. Not the direction. Because the direction is being fixed after applying the unit vector's calculation, the vector is divided by its magnitude.
+
+ Index: 10
+Question: Which statement is right?
+CodeBlock:
+
+Options:
+0 . multiplicative law: a(a.b) = ax(ab)
+1 . communitive law: a.b =b.a
+2 . communitive law: a(a.b) = a.(ab)
+3 . multiplicative law: a.(b+d) = (a.b) + (a.d)
+4 . 
+Correct Answer: 1
+
+Description: For three vectors A, B and D the various laws are. Communitive law: A.B =B.A. While distributive law is A.(B+D) = (A.B) + (A.D). And multiplication law is a(A.B) = A.(aB).
+
+ Index: 11
+Question: What is (AxB).(BxA); or A = A1i + A2j + A3k and B = B1i + B2j + B3k?
+CodeBlock:
+
+Options:
+0 . a1b1a2b2i + a2b2a3b3j + a3b3a1b1k
+1 . a1b1a1b2i + a2b2a3b2j + a3b3a1b3k
+2 . a1b1a2b1i + a2b2a2b3j + a3b3a2b1k
+3 . 0
+4 . 
+Correct Answer: 3
+
+Description: Here, we are trying to do the two vectors' cross product in the same plane, which will give us zero. Simultaneously, the dot product of the same plane vector will give a scalar quantity, not zero.
+
+ Index: 12
+Question: What is the dot product of two vectors which are having a magnitude equal to unity and are making an angle of 45°?
+CodeBlock:
+
+Options:
+0 . -0.707
+1 . 0.707
+2 . -1.414
+3 . 1.414
+4 . 
+Correct Answer: 1
+
+Description: The dot product of two vectors having the angle between them equal to 45° will have the product of the vector's magnitude. As the vectors are of unit magnitude, their product will be unity. Thus the magnitude factor would be cosine function at 45 °.
+
+ Index: 13
+Question: What is the magnitude of the resultant vector's unit vector? (Resultant vector of the two vectors shown in the figure below)
+CodeBlock:
+
+Options:
+0 . 225n
+1 . 1n
+2 . 55n
+3 . 110n
+4 . 
+Correct Answer: 1
+
+Description: The question asked is asking for the magnitude of the unit vector of the resultant vector. Thus the answer is 1. Whether the vector's magnitude is any quantity, the unit vector will have a magnitude equal to unity. And the direction given by the unit vector will be in the same direction as that of the vector.
+
+ Index: 14
+Question: Determine the value of the q, parallel to the z-axis. That is the point of intersection of the projections of the points A, B, and C parallel to the xy plane. The distance between the tri-section point and the points A, B, and C be equal to 0.6m.
+CodeBlock:
+
+Options:
+0 . 51.9mm
+1 . 51.9cm
+2 . 51.19mm
+3 . 51.9m
+4 . 
+Correct Answer: 1
+
+Description: The application of the equilibrium equation will yield the result. The resultant along the z-axis will remain zero, which gives the value of γ as 50°. And therefore q=51.9cm.
+
+ Index: 15
+Question: If anybody is tied to three or more ropes and is allowed to achieve its equilibrium. Then the equilibrium achieved is achieved w.r.t what?
+CodeBlock:
+
+Options:
+0 . the ground
+1 . the 3-axis of the body
+2 . the weight direction
+3 . the ropes direction
+4 . 
+Correct Answer: 0
+
+Description: Yes, the equilibrium is being achieved w.r.t the ground. Like the motion, w.r.t ground need be zero. The relative velocity of the object or the body must be zero w.r.t the ground. This means motion is in equilibrium.
+
+ Index: 16
+Question: The tendency of rotation of the body along any axis is also called ______
+CodeBlock:
+
+Options:
+0 . moment of couple
+1 . moment of inertia
+2 . force
+3 . torque
+4 . 
+Correct Answer: 3
+
+Description: The tendency of rotation of the body along any axis, also called the torque. It is the moment of the force acting perpendicular to the direction of the axis of rotation. If the axis and the force are meeting, then there is no moment applied by force.
+
+ Index: 17
+Question: The moment is the cross product of which two vectors?
+CodeBlock:
+
+Options:
+0 . radius and force vectors
+1 . force and radius vectors
+2 . radius and force scalars
+3 . force and radius scalars
+4 . 
+Correct Answer: 0
+
+Description: The cross product needs to take in the proper sequence. If not taken, then the answer is just the opposite of the true answer. That's why the answer is not the Force and Radius vectors but the Radius and Force vectors. Because the moment has its direction, as many of the cross products have, precaution needs to be taken.
+
+ Index: 18
+Question: Which of the following is correct w.r.t the moment (M) of the force (F) acting on the body at a distance L from the axis of the rotation?
+CodeBlock:
+
+Options:
+0 . m=flcosθ
+1 . m=flsinθ
+2 . m=fxlsinθ
+3 . m=f.lsinθ
+4 . 
+Correct Answer: 1
+
+Description: The moment of the force about the axis of rotation by the application of the force on the body is given by the cross product of both. If the force was not perpendicular to the axis and angle θ, the form of angle is used. As usually used in the cross product.
+
+ Index: 19
+Question: If a force is applied at any point in its line of action and is still creating the same moment about any fixed point, say P, then the force is said to be a sliding vector. What is the name of this property?
+CodeBlock:
+
+Options:
+0 . distributive property
+1 . associative property
+2 . principle transmissibility of the force
+3 . negative associative property
+4 . 
+Correct Answer: 2
+
+Description: If a force is applied at any point in its line of action and is still creating the same moment about any fixed point, say P, then the force is said to be a sliding vector. This is because the moment of the force which is acting on its line of the axis at point P is the same throughout. It is known as the principle transmissibility of the force.
+
+ Index: 20
+Question: Which of the following is correct? (For A representing the vector representation of the axis of rotation, r the radius vector and F the force vector)
+CodeBlock:
+
+Options:
+0 . ax(rxf)
+1 . a.(rxf)
+2 . fx(r.f)
+3 . a.(r.f)
+4 . 
+Correct Answer: 0
+
+Description: The correct form of the equation is given by A.(rxF). A represents the vector of the rotation's axis, r the radius vector, and F the force vector. Usually, it can be done to determine the moment of the force about the axis. That is if the force is rotating the body about an axis.
+
+ Index: 21
+Question: Which of the following forces do not cause the rotation. Suppose the rotation is considered inside the body's axis or the centroid axis of the body.
+CodeBlock:
+
+Options:
+0 . concurrent
+1 . non-concurrent
+2 . non-parallel
+3 . parallel
+4 . 
+Correct Answer: 0
+
+Description: The concurrent forces are the axis of rotation. If any of the force touches that axis, that force is not considered insufficient to cause a rotation. If a force is concurrent, then the force's perpendicular distance from the axis line is zero, thus no rotation. As we know, rotation is caused by a moment.
+
+ Index: 22
+Question: Which of the following is correct for the moment of couple M caused by two forces of the same magnitude F and are separated by a distance of r?
+CodeBlock:
+
+Options:
+0 . m = r.f
+1 . m = rxf
+2 . m = -(r.f)
+3 . m = -(rxf)
+4 . 
+Correct Answer: 1
+
+Description: The answer is M = rxF. The moment is the cross product of the distance and the forces. It is the direction as directed by the curling of the hand. The thumb is representing the direction of the moment. The finger's motion is the rotation that gives the direction of the rotation caused by the forces.
+
+ Index: 23
+Question: Determine the couple moment acting on the triangular plane shown.
+CodeBlock:
+
+Options:
+0 . 100nm
+1 . 1600nm
+2 . 600nm
+3 . 2600nm
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 24
+Question: The principle of transmissibility is
+CodeBlock:
+
+Options:
+0 . it states that the force acting on the body is a rolling vector
+1 . it states that the force acting on the body is a sliding vector
+2 . it states that the force acting on the body is a unit vector
+3 . it states that the force acting on the body is a unit vector
+4 . 
+Correct Answer: 1
+
+Description: The principle of transmissibility states that the force acting on the body is a sliding vector. That is, it can be applied at any point of the body. It will give the same effect as if applied at any point other than the specific point. Thus the answer.
+
+ Index: 25
+Question: What is the main motto of simplification?
+CodeBlock:
+
+Options:
+0 . to add the forces with the couples and take out the total
+1 . to reduce the calculation
+2 . to multiply the forces with the couples and take out the total
+3 . to subtract the forces with the couples and take out the total
+4 . 
+Correct Answer: 1
+
+Description: The main moto of simplification is to reduce the calculation. The forces are simplified, and the couples to are simplified. This gives us the total force and the total moment acting on the body. This gives us a single value of the respective thing and hence reduces the work.
+
+ Index: 26
+Question: Just like the collinear forces, there is a collinear couple, and the net moment is taken out from it.
+CodeBlock:
+
+Options:
+0 . the first part of the statement is false, and the other part is false too
+1 . the first part of the statement is false, and the other part is true
+2 . the first part of the statement is true, and the other part is true too
+3 . the first part of the statement is true, and the other part is false
+4 . 
+Correct Answer: 3
+
+Description: Both of them are vector quantities. And both of them can be easily simplified. If taken in the vector form, then the task is even easier. Thus it is not necessary for the force or the couple to be vector only. Even if the magnitude is taken, the simplification is done in the 2D.
+
+ Index: 27
+Question: There are two types of loading. The uniformly distributed and the non-uniformly distributed, that is the one having two different values at corners.
+CodeBlock:
+
+Options:
+0 . the first part of the statement is false, and the other part is false too
+1 . the first part of the statement is false, and the other part is true
+2 . the first part of the statement is true, and the other part is true too
+3 . the first part of the statement is true, and the other part is false
+4 . 
+Correct Answer: 2
+
+Description: The two loading forms are uniformly distributed and non-uniformly distributed with two different values at corners. The uniform distributed load is not having two different values of the load per unit meter on the corner.
+
+ Index: 28
+Question: In the simplification of the loading system, the net force acts at the ___________ of the loading body.
+CodeBlock:
+
+Options:
+0 . the center axis
+1 . centroid
+2 . the base
+3 . the corner
+4 . 
+Correct Answer: 1
+
+Description: In simplifying the loading system, the net force acts at the loading body's centroid. If the loading system is in the form of the triangle, then at a distance two by 3 of the base, the loading's net force will act. And the load will be half the area of the loading.
+
+ Index: 29
+Question: In triangle distributed loading, the loading at any distance can be easily found by using which of the following trigonometry function?
+CodeBlock:
+
+Options:
+0 . sine
+1 . tangent
+2 . sine inverse
+3 . cosine
+4 . 
+Correct Answer: 1
+
+Description: In triangle distributed loading, the loading at any distance can be easily found by using the Tangent trigonometry function. That is because the linear distance only determines the vertical loading. That is, the loading is uniform along with the linear distance. If the linear distance is more, the loading is more.
+
+ Index: 30
+Question: The resultant force acting of the uniformly distributed loading is dependent on:
+CodeBlock:
+
+Options:
+0 . vertical distance
+1 . area
+2 . the distance of the supports between them
+3 . length of the supports
+4 . 
+Correct Answer: 1
+
+Description: The resultant force acting of the uniformly distributed loading is dependent on the area that the distribution is covering. The more the area, the more is the force. That is more the tension created over the structure on which loading is kept. Hence the answer.
+
+ Index: 31
+Question: Determine the vertical components of the reaction on the beam caused by the pin at Q. The force 60N is multiplied by ten and then is applied.
+CodeBlock:
+
+Options:
+0 . 445n
+1 . 319n
+2 . 40n
+3 . 45n
+4 . 
+Correct Answer: 1
+
+Description: The summation of the forces needs to be zero. So does the summation of the moments need to zero? But talking about the angles, they not needed to zero. But the forces acting at particular angles must be equal to zero?the basic need of the forces to put the body in equilibrium.
+
+ Index: 32
+Question: Which of the following statement for the three force system is true?
+CodeBlock:
+
+Options:
+0 . the forces are not always in the equilibrium
+1 . the moment need not be seen for the equilibrium. it is always in equilibrium
+2 . the moments are always in equilibrium
+3 . the forces are always in equilibrium
+4 . 
+Correct Answer: 0
+
+Description: The forces in the three-force system are not always in equilibrium. The equilibrium is established when the forces cancel out each other. Also, when the net moment is zero. Then only the equilibrium is established in the three force system.
+
+ Index: 33
+Question: A force is developed by the support that not allows the ________ of its attached member.
+CodeBlock:
+
+Options:
+0 . rotation
+1 . translation
+2 . subtraction
+3 . addition
+4 . 
+Correct Answer: 1
+
+Description: The force developed by support doesn't allow the translation of its attached member. This is the basic condition for the equilibrium of the forces in any dimension. This rule is applied when the support reactions are taken into account for the body's equilibrium.
+
+ Index: 34
+Question: The single pin, single bearing, and single hinge resist _____
+CodeBlock:
+
+Options:
+0 . couple moments
+1 . force
+2 . inertia
+3 . both force and couple moments
+4 . 
+Correct Answer: 3
+
+Description: The experiments have founded that the single pin, single bearing, and single hinge resist both force and couple moments. It helps in attaining the equilibrium of the body. Thus proper guidance must be taken while solving the question on the same.
+
+ Index: 35
+Question: If the supports are properly aligned, the reaction forces developed adequately support the body.
+CodeBlock:
+
+Options:
+0 . the statement is true only in 3d
+1 . the statement is true only in 2d
+2 . the statement is true only in 1d
+3 . the statement is true throughout
+4 . 
+Correct Answer: 3
+
+Description: This is the basic nature observed during the experiments on the beams and all the support systems. The dimension doesn't affect the equilibrium conditions. The main motto is to achieve equilibrium. It is achieved by equating the net force equal to zero.
+
+ Index: 36
+Question: What is redundant support?
+CodeBlock:
+
+Options:
+0 . the supports consisting of hinge only
+1 . the supports consisting of a hinge and a roller
+2 . the supports more than necessary to hold the structure
+3 . the supports consisting of roller only
+4 . 
+Correct Answer: 2
+
+Description: The supports, if they are more than the supports required to hold the structure, are termed as the reductant supports. It becomes statically indeterminate. It creates a problem in achieving the equilibrium and affects the calculation of the equilibrium.
+
+ Index: 37
+Question: What is Statically indeterminacy?
+CodeBlock:
+
+Options:
+0 . there will be more equations available for equilibrium than the unknown loadings
+1 . there will be fewer equations available for equilibrium than the unknown loadings
+2 . the support reactions are opposite to each other
+3 . there will be equal equations available for equilibrium as the unknown loadings
+4 . 
+Correct Answer: 1
+
+Description: Statically indeterminacy is the condition when fewer equations are available for equilibrium than the unknown loadings. It not only creates a problem in achieving the equilibrium but also affects the calculation of the equilibrium. Thus this is the stuff that one needs to prevent from happening.
+
+ Index: 38
+Question: In 3D, the body will be improperly constrained if the reaction forces intersect the axis.
+CodeBlock:
+
+Options:
+0 . the statement is wrong
+1 . the statement is right
+2 . the statement is right if there is a 'support reaction.'
+3 . the statement is right if there is '2d.'
+4 . 
+Correct Answer: 1
+
+Description: In 3D, the body will be improperly constrained if the reaction forces intersect the axis. It is because there will be small moments that will occur in real situations. But they will not be matched in the calculations done for determining the equilibrium. Thus the statement is right.
+
+ Index: 39
+Question: The couple is a scalar quantity, and the force is a vector quantity; hence, only force can be simplified in free body diagrams.
+CodeBlock:
+
+Options:
+0 . the first part of the statement is false, and the other part is false too
+1 . the first part of the statement is false, and the other part is true
+2 . the first part of the statement is true, and the other part is true too
+3 . the first part of the statement is true, and the other part is false
+4 . 
+Correct Answer: 1
+
+Description: Both of them are vector quantities. And both of them can be easily simplified. If taken in the vector form, then the task is even easier. Thus it is not necessary for the force or the couple to be vector only. Even if the magnitude is taken, the simplification is done in the 2D.
+
+ Index: 40
+Question: The couple and the other two force systems in free body diagrams can be easily simplified.
+CodeBlock:
+
+Options:
+0 . statement is right
+1 . statement is wrong
+2 . the statement is right if we remove the 'force' part
+3 . the statement is right if we remove the 'couple' part
+4 . 
+Correct Answer: 0
+
+Description: Both of them are vector quantities. And both of them can be easily simplified. If taken in the vector form, then the task is even easier. Thus it is not necessary for the force or the couple to be vector only. Even if the magnitude is taken, the simplification is done in the 2D.
+
+ Index: 41
+Question: What is a collinear system of forces for free body diagrams?
+CodeBlock:
+
+Options:
+0 . the force system having all the forces perpendicular to each other
+1 . the force system having all the forces parallel to each other
+2 . forces cannot form a collinear system of forces. it is not possible
+3 . the force system having all the forces emerging from a single point
+4 . 
+Correct Answer: 3
+
+Description: The force system having all the forces emerging from a point is called the force's collinear system. It is a type of system of force, which is easy the simplification. As the forces are the vector quantity, the vector math is applied, and the simplification is done.
+
+ Index: 42
+Question: To design the trusses, which of the following rules is followed?
+CodeBlock:
+
+Options:
+0 . the loads are applied at the joints
+1 . the use of cables applies all the loads
+2 . the loads are not applied at all to the joints
+3 . all the loads are not applied at the joints
+4 . 
+Correct Answer: 0
+
+Description: The set of rules which are used to design the trusses have various rules. To them, one is that the loads are applied at the joints. It is done with the neglecting of the weight of the trusses section.
+
+ Index: 43
+Question: What does Newton's third law state?
+CodeBlock:
+
+Options:
+0 . for every reaction, there is an equal and opposite reaction
+1 . the rate of change of momentum is equal to the force applied
+2 . the body is rest until a force is applied
+3 . the body tends to be rotated if the force is applied tangentially
+4 . 
+Correct Answer: 0
+
+Description: The requirement of the third law is important in the equilibrium of the body. Especially the rigid bodies. The rigid body particles are in equilibrium. Due to which they are facing the forces. They also react and apply the opposite force, and thus Newton's third law to be in equilibrium.
+
+ Index: 44
+Question: If the body is in equilibrium, but it is having a rotational curled ray shown in the free body diagram, then:
+CodeBlock:
+
+Options:
+0 . such rotations can't be shown in the fbds(free-body diagrams)
+1 . the diagram is wrong
+2 . the body is said to be in equilibrium only, as the other forces will cancel out that rotation
+3 . the ray shown may be correct, but the body is not said to be in equilibrium
+4 . 
+Correct Answer: 2
+
+Description: The body having equilibrium will not rotate at any cost. Yes, the diagram may contain the rotational array showing the couple being acted over the structure. But the thing is that the forces, i.e., the other forces outside the dependency of this rotation, will cancel out this rotation, and thus the body is in equilibrium.
+
+ Index: 45
+Question: If five forces are acting on the single-particle and having an angle of 72° between each and are collinear, then:
+CodeBlock:
+
+Options:
+0 . the net force acting on the body is horizontal
+1 . the net force acting on the body is zero
+2 . the net force acting on the body is at an angle of 45
+3 . the net force acting on the body is vertical
+4 . 
+Correct Answer: 1
+
+Description: The net force acting on the body is zero. It means that the forces cancel out. This means that the body is in equilibrium and doesn't need any external force to make itself in equilibrium.
+
+ Index: 46
+Question: The difference between the two and the three force members is:
+CodeBlock:
+
+Options:
+0 . the former is parallel, and the latter is perpendicular
+1 . the former are collinear, and the latter is parallel
+2 . the former is acting on two points in the body while the latter is on three points
+3 . the former is perpendicular, and the latter is collinear
+4 . 
+Correct Answer: 2
+
+Description: The two force member's definition only defines that the forces are acting on the two points on the body. So does is the definition of the three forces members. The points of action of the three forces are three.
+
+ Index: 47
+Question: Which of the following statement for the three force system is true?
+CodeBlock:
+
+Options:
+0 . the forces are not always in the equilibrium
+1 . the moment need not be seen for the equilibrium. it always in equilibrium
+2 . the moments are always in equilibrium
+3 . the forces are always in equilibrium
+4 . 
+Correct Answer: 0
+
+Description: The forces in the three-force system are not always in equilibrium. The equilibrium is established when the forces cancel out each other. Also, when the net moment is zero. Then only the equilibrium is established in the three force system.
+
+ Index: 48
+Question: All the forces need to be collinear in the three-force system. Then only will they for the equilibrium state.
+CodeBlock:
+
+Options:
+0 . the first part of the statement is false, and the other part is false too
+1 . the first part of the statement is false, and the other part is true
+2 . the first part of the statement is true, and the other part is true too
+3 . the first part of the statement is true, and the other part is false
+4 . 
+Correct Answer: 2
+
+Description: The forces need to be collinear. If they are not so, then the equilibrium is not possible. If they are parallel, too, then it is assumed that they are meeting in infinity. And hence the equilibrium is established between the forces. Thus the forces must be collinear.
+
+ Index: 49
+Question: A couple of moment is developed when _______ of the attached member is prevented.
+CodeBlock:
+
+Options:
+0 . rotation
+1 . translation
+2 . subtraction
+3 . addition
+4 . 
+Correct Answer: 0
+
+Description: The development of the couple moment is when there is a prevention of the attached member's rotation. This is the basic condition for the equilibrium of the couple moments in any dimension. This rule is applied when the couple moments are taken into account for the equilibrium of the body.
+
+]

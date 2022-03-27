@@ -1,0 +1,952 @@
+&[Index: 0
+Question: PHP stands for -
+CodeBlock:
+
+Options:
+0 . hypertext preprocessor
+1 . pretext hypertext preprocessor
+2 . personal home processor
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: PHP stands for Hypertext Preprocessor. PHP is an open-source, interpreted, and object-oriented scripting language that can be executed on the server-side. It is well suited for web development.
+
+ Index: 1
+Question: Who is known as the father of PHP?
+CodeBlock:
+
+Options:
+0 . drek kolkevi
+1 . list barely
+2 . rasmus lerdrof
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: PHP was created by Rasmus Lerdorf in 1994 but appeared in the market in 1995. PHP 7.4.0 is the latest version of PHP, which was released on 28 November.
+
+ Index: 2
+Question: Variable name in PHP starts with -
+CodeBlock:
+
+Options:
+0 . ! (exclamation)
+1 . $ (dollar)
+2 . & (ampersand)
+3 . # (hash)
+4 . 
+Correct Answer: 1
+
+Description: In PHP, a variable is declared using a $ (Dollar) sign followed by the variable name.As PHP is a loosely typed language, so we do not need to declare the data types of the variables. It automatically analyzes the values and makes conversions to its correct datatype. Variables in PHP are case-sensitive, as an instance the variables $name and $NAME both are treated as different variables.
+
+ Index: 3
+Question: Which of the following is the default file extension of PHP?
+CodeBlock:
+
+Options:
+0 . .php
+1 . .hphp
+2 . .xml
+3 . .html
+4 . 
+Correct Answer: 0
+
+Description: Generally, a PHP file contains HTML tags and some PHP scripting code. It is very easy to create a simple PHP example. The programs in php are saved with the .php extension.
+
+ Index: 4
+Question: Which of the following is not a variable scope in PHP?
+CodeBlock:
+
+Options:
+0 . extern
+1 . local
+2 . static
+3 . global
+4 . 
+Correct Answer: 0
+
+Description: The scope of a variable is defined as its range in the program under which it can be accessed. PHP has three types of variable scopes:
+Local variable
+Global variable
+Static variable
+
+
+ Index: 5
+Question: Which of the following is correct to add a comment in php?
+CodeBlock:
+
+Options:
+0 . & …… &
+1 . // ……
+2 . /* …… */
+3 . both (b) and (c)
+4 . 
+Correct Answer: 3
+
+Description: PHP comments can be used to describe any line of code so that other developers can understand the code easily. PHP supports single-line and multi-line comments. There are two ways to use single-line comments in PHP.
+// (C++ style single line comment)
+# (Unix Shell style single line comment)
+For multiple lines comment in PHP, we need to enclose all lines within /* …..*/.
+
+ Index: 6
+Question: Which of the following is used to display the output in PHP?
+CodeBlock:
+
+Options:
+0 . echo
+1 . write
+2 . print
+3 . both (a) and (c)
+4 . 
+Correct Answer: 3
+
+Description: In PHP, both echo and print are language constructs. Both echo and print statements can be used with or without parentheses. We can use these statements to output variables or strings. The echo is a statement, which is used to display the output. The print is a statement used as an alternative to echo at many times to display the output.
+
+ Index: 7
+Question: Which of the following is the use of strlen() function in PHP?
+CodeBlock:
+
+Options:
+0 . the strlen() function returns the type of string
+1 . the strlen() function returns the length of string
+2 . the strlen() function returns the value of string
+3 . the strlen() function returns both value and type of string
+4 . 
+Correct Answer: 1
+
+Description: The strlen() function is predefined function of PHP. It is used to find the length of string or returns the length of a string including all the whitespaces and special character.
+
+ Index: 8
+Question: Which of the following is used for concatenation in PHP?
+CodeBlock:
+
+Options:
+0 . + (plus)
+1 . * (asterisk)
+2 . . (dot)
+3 . append()
+4 . 
+Correct Answer: 2
+
+Description: In PHP, the . (dot) operator is used for concatenation. Suppose there are two variables $a and $b, so the statement $a . $b will concatenate both $a and $b.
+
+ Index: 9
+Question: Which of the following starts with __ (double underscore) in PHP?
+CodeBlock:
+
+Options:
+0 . inbuilt constants
+1 . user-defined constants
+2 . magic constants
+3 . default constants
+4 . 
+Correct Answer: 2
+
+Description: Magic constants are the predefined constants in PHP which get changed on the basis of their use. They start with a double underscore (__) and end with double underscore. They are similar to other predefined constants, but as they change their values with the context, they are called magic constants.
+
+ Index: 10
+Question: Which of the following is the use of strpos() function in PHP?
+CodeBlock:
+
+Options:
+0 . the strpos() function is used to search for the spaces in a string
+1 . the strpos() function is used to search for a number in a string
+2 . the strpos() function is used to search for a character/text in a string
+3 . the strpos() function is used to search for a capitalize character in a string
+4 . 
+Correct Answer: 2
+
+Description: The strops() is in-built function of PHP. It is used to find the position of the first occurrence of a string inside another string or substring in a string.
+
+ Index: 11
+Question: What does PEAR stands for?
+CodeBlock:
+
+Options:
+0 . php extension and application repository
+1 . php enhancement and application reduce
+2 . php event and application repository
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: PEAR is a framework and repository for reusable PHP components. PEAR stands for PHP Extension and Application Repository. It contains all types of PHP code snippets and libraries.
+
+ Index: 12
+Question: Which of the following is the correct way to create a function in PHP?
+CodeBlock:
+
+Options:
+0 . create myfunction()
+1 . new_function myfunction()
+2 . function myfunction()
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: We can declare and call user-defined functions easily. The syntax to declare user-defined functions is given below -function functionname(){  
+//code to be executed  
+}
+
+
+ Index: 13
+Question: Which of the following PHP function is used to generate unique id?
+CodeBlock:
+
+Options:
+0 . id()
+1 . mdid()
+2 . uniqueid()
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: We can declare and call user-defined functions easily. The syntax to declare user-defined functions is given below -function functionname(){  
+//code to be executed  
+}
+
+
+ Index: 14
+Question: Which of the following is the correct way of defining a variable in PHP?
+CodeBlock:
+
+Options:
+0 . $variable name = value;
+1 . $variable_name = value;
+2 . $variable_name = value
+3 . $variable name as value;
+4 . 
+Correct Answer: 1
+
+Description: In PHP, a variable is declared using a $ sign followed by the variable name. A PHP variable name cannot contain spaces.Syntax of declaring a variable in PHP is given below:$variable_name=value;
+
+
+ Index: 15
+Question: Which of the following is the correct use of the strcmp() function in PHP?
+CodeBlock:
+
+Options:
+0 . the strcmp() function is used to compare the strings excluding case
+1 . the strcmp() function is used to compare the uppercase strings
+2 . the strcmp() function is used to compare the lowercase strings
+3 . the strcmp() function is used to compare the strings including case
+4 . 
+Correct Answer: 3
+
+Description: The strcmp() is a string comparison function in PHP. It is a built-in function of PHP, which is case sensitive, which means it treats capital and the small case separately. It is used to compare two strings from each other. This function compares two strings and tells whether a string is greater, less, or equal to another string. 
+
+ Index: 16
+Question: What is the use of fopen() function in PHP?
+CodeBlock:
+
+Options:
+0 . the fopen() function is used to open folders in php
+1 . the fopen() function is used to open remote server
+2 . the fopen() function is used to open files in php
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: PHP fopen() function is used to open file or URL and returns resource. The fopen() function accepts two arguments: $filename and $mode. The $filename represents the file to be opended and $mode represents the file mode for example read-only, read-write, write-only etc.
+
+ Index: 17
+Question: What is the use of isset() function in PHP?
+CodeBlock:
+
+Options:
+0 . the isset() function is used to check whether variable is set or not
+1 . the isset() function is used to check whether the variable is free or not
+2 . the isset() function is used to check whether the variable is string or not
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: The isset() function is a built-in function of PHP, which is used to determine that a variable is set or not. If a variable is considered set, it means the variable is declared and has a different value from the NULL. In short, it checks that the variable is declared and not null. This function returns true if the variable is not null, otherwise it returns false.
+
+ Index: 18
+Question: What is the use of sprintf() function in PHP?
+CodeBlock:
+
+Options:
+0 . the sprintf() function is used to print the output of program
+1 . the sprintf() function is used to send output to variable
+2 . both of the above
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: The sprintf() is an in-built function of PHP which writes a formatted string to a variable. It returns a formatted string. The sprintf() function is similar to the printf() function, but the only difference between both of them is that sprint() saves the output into a string instead of displaying the formatted message on browser like printf() function.
+
+ Index: 19
+Question: Which of the following is the correct way to open the file "sample.txt" as readable?
+CodeBlock:
+
+Options:
+0 . fopen("sample.txt", "r");
+1 . fopen("sample.txt", "r+");
+2 . fopen("sample.txt", "read");
+3 . fopen("sample.txt");
+4 . 
+Correct Answer: 0
+
+Description: The fopen() function accepts two arguments: $filename and $mode. The $filename represents the file to be opended and $mode represents the file mode for example, read-only, read-write, write-only etc. The "r" mode opens the file in read-only mode. It places the file pointer at the beginning of the file.
+
+ Index: 20
+Question: Which of the following function displays the information about PHP and its configuration?
+CodeBlock:
+
+Options:
+0 . php_info()
+1 . phpinfo()
+2 . info()
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: The phpinfo() function gives us the information about the PHP configuration and installation in our system. The phpinfo() function is generally used to check the configuration settings.
+
+ Index: 21
+Question: Which of the following function is used to find files in PHP?
+CodeBlock:
+
+Options:
+0 . glob()
+1 . fold()
+2 . file()
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: The glob() function in PHP is used to return an array of filenames or directories that matches a specified pattern.
+
+ Index: 22
+Question: Which of the following function is used to set cookie in PHP?
+CodeBlock:
+
+Options:
+0 . createcookie()
+1 . makecookie()
+2 . setcookie()
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: PHP cookie is a small piece of information that is stored at client browser. It is used to recognize the user. PHP setcookie() function is used to set cookie with HTTP response. Once the cookie is set, you can access it by the $_COOKIE superglobal variable.
+
+ Index: 23
+Question: Which of the following function is used to get the ASCII value of a character in PHP?
+CodeBlock:
+
+Options:
+0 . val()
+1 . asc()
+2 . ascii()
+3 . chr()
+4 . 
+Correct Answer: 3
+
+Description: The PHP chr() function is used to generate a single byte string from a number. In other words, we can say that it returns a character from a specified ASCII value.
+
+ Index: 24
+Question: Which of the following function is used to unset a variable in PHP?
+CodeBlock:
+
+Options:
+0 . delete()
+1 . unset()
+2 . unlink()
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: The unset() function is a predefined variable handling function of PHP, which is used to unset a specified variable. In other words, "the unset() function destroys the variables".
+
+ Index: 25
+Question: Which of the following function is used to sort an array in descending order?
+CodeBlock:
+
+Options:
+0 . sort()
+1 . asrot()
+2 . dsort()
+3 . rsort()
+4 . 
+Correct Answer: 3
+
+Description: The PHP rsort( ) function is used to sort an array in descending order. This function introduced in PHP 4.0.
+
+ Index: 26
+Question: Which of the following is/are the code editors in PHP?
+CodeBlock:
+
+Options:
+0 . notepad++
+1 . notepad
+2 . adobe dreamweaver
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Description: PHP programs can be written on any editor, such as - Notepad, Notepad++, Dreamweaver, etc. These programs save with .php extension, i.e., filename.php inside the htdocs folder.
+
+ Index: 27
+Question: Which of the following is used to end a statement in PHP?
+CodeBlock:
+
+Options:
+0 . . (dot)
+1 . ; (semicolon)
+2 . ! (exclamation)
+3 . / (slash)
+4 . 
+Correct Answer: 1
+
+Description: PHP statements end with a semicolon (;).
+
+ Index: 28
+Question: Which of the following function in PHP can be used to test the type of any variable?
+CodeBlock:
+
+Options:
+0 . showtype()
+1 . gettype()
+2 . settype()
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: The gettype() function is an inbuilt function in PHP, and as its name implies, it returns the type of a variable. The gettype() function in PHP is used to check the type of existing variable.
+
+ Index: 29
+Question: String values in PHP must be enclosed within -
+CodeBlock:
+
+Options:
+0 . double quotes
+1 . single quotes
+2 . both (a) and (b)
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: There are 4 ways to specify a string literal in PHP.
+single quoted
+double quoted
+heredoc syntax
+newdoc syntax (since PHP 5.3)
+We can create a string in PHP by enclosing the text in a single-quote. It is the easiest way to specify string in PHP. In PHP, we can specify string through enclosing text within double quote also. But escape sequences and variables will be interpreted using double quote PHP strings.
+
+ Index: 30
+Question: Which of the following variable name is invalid?
+CodeBlock:
+
+Options:
+0 . $newvar
+1 . $new_var
+2 . $new-var
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Description: In PHP, a variable is declared using a $ sign followed by the variable name. A variable name must start with a letter or underscore (_) character.A PHP variable name cannot contain spaces.
+
+ Index: 31
+Question: Which of the following is the correct way to create an array in PHP?
+CodeBlock:
+
+Options:
+0 . $season = array["summer" , "winter" , "spring" , "autumn"];
+1 . $season = array("summer" , "winter" , "spring" , "autumn");
+2 . $season = "summer" , "winter" , "spring" , "autumn";
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Description: None.
+
+ Index: 32
+Question: Which of the following is a built-in function in PHP that adds a value to the end of an array?
+CodeBlock:
+
+Options:
+0 . array_push()
+1 . inend_array()
+2 . into_array()
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: The array_push() is a built-in function of PHP. This function helps the users to add the elements at the end of the array. It allows to insert any number of elements in an array. Even you can add a string as well as numeric values.
+
+ Index: 33
+Question: Which of the following function in PHP returns a text in title case from a variable?
+CodeBlock:
+
+Options:
+0 . toupper($var)
+1 . ucwords($var)
+2 . ucword($var)
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Description: The ucwords() is an in-built function of PHP, which is used to convert the first character of each word to uppercase in a string. It takes a string as an input and converts the first character of each word of the string to uppercase. The other characters of the string remain the same.
+
+ Index: 34
+Question: Which of the following is the correct way to print "Hello World" in PHP?
+CodeBlock:
+
+Options:
+0 . "hello world";
+1 . write("hello world");
+2 . echo "hello world";
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: PHP echo is a language construct, not a function. Therefore, you don't need to use parenthesis with it. The correct way to print "Hello World" in PHP is:echo "Hello World";
+
+ Index: 35
+Question: Which of the following function is used to compress a string in PHP?
+CodeBlock:
+
+Options:
+0 . compress()
+1 . zip_compress()
+2 . gzcompress()
+3 . zip()
+4 . 
+Correct Answer: 2
+
+Description: The gzcompress() in PHP compresses the given string using the ZLIB format.
+
+ Index: 36
+Question: What does SPL stands for in PHP?
+CodeBlock:
+
+Options:
+0 . standard php library
+1 . simple php library
+2 . simple php list
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: In PHP, SPL stands for "Standard PHP Library". 
+
+ Index: 37
+Question: Which of the following function converts a string to all uppercase?
+CodeBlock:
+
+Options:
+0 . upper()
+1 . uppercase()
+2 . struppercase()
+3 . strtoupper()
+4 . 
+Correct Answer: 3
+
+Description: The strtoupper() is one of the most popular functions of PHP, which is widely used to convert the string into uppercase. It takes a string as a parameter and converts all lowercase English character of that string to uppercase.
+
+ Index: 38
+Question: The function in PHP that can be used to concatenate array elements to form a single delimited string is -
+CodeBlock:
+
+Options:
+0 . implode()
+1 . concat()
+2 . explode()
+3 . concatenate()
+4 . 
+Correct Answer: 0
+
+Description: PHP implode() is a string function, which joins the array elements in a string. The implode() function works the same as the join() function and returns a string created from the elements of the array. Basically, this function joins all elements of an array in one string.
+
+ Index: 39
+Question: Which PHP function determines the last access time of a file?
+CodeBlock:
+
+Options:
+0 . filetime()
+1 . fileatime()
+2 . filectime()
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: The fileatime() function in PHP is used to return the last access time of a file as a UNIX timestamp. On failure, the fileatime() returns false.
+
+ Index: 40
+Question: Which PHP function is capable to read specific number of characters from a file?
+CodeBlock:
+
+Options:
+0 . filegets()
+1 . fget()
+2 . fgets()
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: The PHP fgets() function is used to read a single line from the file.
+
+ Index: 41
+Question: Which PHP function is used to find the position of the last occurrence of a substring inside another string?
+CodeBlock:
+
+Options:
+0 . strops()
+1 . strrpos()
+2 . strtr()
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: The strrpos() is an in-built function of PHP which is used to find the position of the last occurrence of a substring inside another string. It is a case-sensitive function of PHP, which means it treats uppercase and lowercase characters differently.
+
+ Index: 42
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+echo "Welcome" . "to" . "the" . "javaTpoint.com";
+?>
+
+Options:
+0 . welcome to the javatpoint.com
+1 . welcome, to, the, javatpoint.com
+2 . com
+3 . error
+4 . 
+Correct Answer: 2
+
+Description: In echo statement the . (dot) operator is used to join strings.
+
+ Index: 43
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+echo "Welcome" , "to" , "the" , "javaTpoint.com";
+?>
+
+Options:
+0 . welcome to the javatpoint.com
+1 . welcome, to, the, javatpoint.com
+2 . com
+3 . error
+4 . 
+Correct Answer: 2
+
+Description: We can pass multiple strings separated by a comma (,) in echo. In echo statement the , (comma) operator is also used to join strings.
+
+ Index: 44
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+$var1 = "Hello";
+$var2 = "World";
+echo $var1, $var2;
+?>
+
+Options:
+0 . helloworld
+1 . hello, world
+2 . hello world
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: We can pass multiple strings separated by a comma (,) in echo. In echo statement the , (comma) operator is also used to join strings.
+
+ Index: 45
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+$var1 = "Hello";
+$var2 = "World";
+echo "$var1$var2";
+?>
+
+Options:
+0 . helloworld
+1 . "$var1$var2"
+2 . hello world
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: In the given echo statement, both variables are inside the double quotes, so the variable's value will be substituted and printed on the screen.
+
+ Index: 46
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+$a;
+if ($a)
+{
+echo "hi";
+}
+else
+{
+echo "How are you";
+}
+?>
+
+Options:
+0 . hi how are you
+1 . how are you
+2 . hi
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: In the given program, the variable $a is uninitialized. So, the if condition will fail, and the echo statement of else block will be printed on screen.
+
+ Index: 47
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+$a = 0;
+while ($a++)
+{
+echo "$a";
+}
+echo $a;
+?>
+
+Options:
+0 . 0
+1 . 1
+2 . 01
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: In the given program there is post-increment. So, first, the condition is checked, therefore at first, the value 0 is tested and does not enter the loop. So, the program will print 1.
+
+ Index: 48
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+echo ucwords("welcome to the javaTpoint.com");
+?>
+
+Options:
+0 . welcome to the javatpoint.com
+1 . welcome to the javatpoint.com
+2 . welcome to the javatpoint.com
+3 . welcome to the javatpoint.com
+4 . 
+Correct Answer: 2
+
+Description: The ucwords() is an in-built function of PHP, which is used to convert the first character of each word to uppercase in a string. It takes a string as an input and converts the first character of each word of the string to uppercase. The other characters of the string remain the same.
+
+ Index: 49
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+$a = 15;
+function show()
+{
+$a = 20;
+echo "$a";
+}
+show();
+echo "$a";
+?>
+
+Options:
+0 . 2015
+1 . 2020
+2 . 1515
+3 . 0
+4 . 
+Correct Answer: 0
+
+Description: In the given program, first the show() function is called, and the variable $a is initialized to 20, and 20 is printed on the screen. Later, the global variable $a is initialized to 15, and the value 15 is printed on the screen. So the output of the above program will be 2015.
+
+ Index: 50
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+$x = 15;
+$y = 20;
+if($x < ++$x || $y < ++$y)
+{
+echo "Hello World";
+}
+else 
+{
+echo "Hii everyone";
+}
+?>
+
+Options:
+0 . hii everyone
+1 . hello world
+2 . hello world hii everyone
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: The precedence of ++ is higher than <, so first increment happens and then comparison. But when comparison happens, both OR operator condition will return false. Therefore, the if loop will not run, and the echo statement in the else block will be printed. 
+
+ Index: 51
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+echo lcfirst("Welcome To The JavaTpoint.com");
+?>
+
+Options:
+0 . welcome to the javatpoint.com
+1 . welcome to the javatpoint.com
+2 . welcome to the javatpoint.com
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: The lcfirst() is in-built PHP string function. It is used to convert the first character of a string to lowercase. In other words, we can say that it makes a string's first character lowercase. It returns the converted string.
+
+ Index: 52
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+$a = "1";
+switch($a)
+{
+case 1:
+echo "Hello";
+case 2:
+echo "World";
+default:
+echo "This is javaTpoint.com";
+}
+?>
+
+Options:
+0 . helloworld
+1 . this is javatpoint.com
+2 . hello
+3 . helloworldthis is javatpoint.com
+4 . 
+Correct Answer: 3
+
+Description: In the given program, there is no break provided, so all cases will get executed. Given variable $a is initialized with 1, so case 1 will execute first and then case 2 and at last default will be executed. 
+
+ Index: 53
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+echo strtr("Walcoma to the juvuTpoint.com", "au", "ea");
+?>
+
+Options:
+0 . welcome to the javatpoint.com
+1 . wulcomu to tha juvutpoint.com
+2 . walcoma to the jevetpoint.com
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: The strtr() is an in-built function of PHP, which is used to replace a substring inside the other string. It provides the facility to change the particular word in a string. The strtr() function translates characters or replaces the substrings. It is a case-sensitive function.
+
+ Index: 54
+Question: What will be the output of the following program?
+CodeBlock:
+<?php
+while()
+{
+echo "Hello World";
+}
+?>
+
+Options:
+0 . hello world
+1 . infinite loop
+2 . no output
+3 . error
+4 . 
+Correct Answer: 3
+
+Description: The while loop is also called an Entry control loop because the condition is checked before entering the loop body. This means that first, the condition is checked. If the condition is true, the block of code will be executed. So, a while loop cannot be defined without a condition.
+
+ Index: 55
+Question: What will be the output of the following program?
+CodeBlock:
+<?php  
+  $var1="Hello World";  
+  echo strrev("$var1");   
+?>   
+
+Options:
+0 . dlrow olleh
+1 . olleh dlrow
+2 . hello dlrow
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: The strrev() function is a predefined function of PHP. As its name implies, it is used to reverse a string. It is one of the most basic string operations which are used by programmers and developers.
+
+ Index: 56
+Question: Which of the following function is used to compute the difference between two arrays in PHP?
+CodeBlock:
+
+Options:
+0 . diff_array
+1 . array_diff
+2 . arrays_diff
+3 . diff_arrays
+4 . 
+Correct Answer: 1
+
+Description: The array_diff() function compares two or more arrays and returns an array with the keys and values from the first array, only if the value is not present in any of the other arrays.
+
+ Index: 57
+Question: What will be the output of the following program?
+CodeBlock:
+<?php  
+$a = array(16, 5, 2);
+echo array_product($a);
+?>     
+
+Options:
+0 . 160
+1 . 1652
+2 . 80
+3 . 32
+4 . 
+Correct Answer: 0
+
+Description: The array_product() function calculates the product of an array. It is an inbuilt function of PHP.
+
+ Index: 58
+Question: Which PHP function converts an English text datetime into a Unix timestamp?
+CodeBlock:
+
+Options:
+0 . str_to_time()
+1 . strtodate()
+2 . strtotime()
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: The PHP strtotime() function is used to convert an English text datetime into a Unix timestamp.
+
+ Index: 59
+Question: Which of the following function in PHP returns the time of sunrise of a particular day and location?
+CodeBlock:
+
+Options:
+0 . date_sunrise()
+1 . date-sunrise()
+2 . sunrise()
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: This date_sunrise() function is used to get the timing of sunrise of a particular day and location. This function returns the sunrise time of different locations.
+
+]

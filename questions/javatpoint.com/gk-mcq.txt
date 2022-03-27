@@ -1,0 +1,735 @@
+&[Index: 0
+Question: What is the pH value of the human body?
+CodeBlock:
+
+Options:
+0 . 9.2 to 9.8
+1 . 7.0 to 7.8
+2 . 6.1 to 6.3
+3 . 5.4 to 5.6
+4 . 
+Correct Answer: 1
+
+Explanation: The pH range of the human body under favorable conditions is 7.0-7.8. Usually, it depends on the part of the body. Saliva is usually about 7.1 to 7.5, blood needs to be 7.35 to 7.45, stomach acid is 1.5 to 3.5, and urine can range from 4.6 to 8.0, depending on what you have been eating or drinking, and how much water you have been drinking. pH is maintained in the body through three important mechanisms; respiratory control, renal control, and buffer systems.
+
+ Index: 1
+Question: Which of the following are called "Key Industrial animals"?
+CodeBlock:
+
+Options:
+0 . producers
+1 . tertiary consumers
+2 . primary consumers
+3 . none of these
+4 . 
+Correct Answer: 2
+
+Explanation: According to Elton (1939), the term "Key Industrial animals" for primary consumers as they convert the plant material into animal material.Primary consumers, which is more or less synonymous with "herbivores," eat the things that turn sunlight into energy. Secondary consumers are carnivores who eat the primary consumers.
+
+ Index: 2
+Question: Which of the given amendments made it compulsory for the president to consent to the constitutional Amendment bills?
+CodeBlock:
+
+Options:
+0 . 27th
+1 . 29th
+2 . 24th
+3 . 22th
+4 . 
+Correct Answer: 2
+
+Explanation: The Twenty-fourth Amendment of the Indian constitution is known as "The Constitution (24th amendment) Act, 1971". It came into existence on 5 November 1971.
+
+ Index: 3
+Question: Elections to panchayats in state are regulated by
+CodeBlock:
+
+Options:
+0 . gram panchayat
+1 . nagar nigam
+2 . election commission of india
+3 . state election commission
+4 . 
+Correct Answer: 3
+
+Explanation: Election to panchayats in the state are regulated by the State Election Commission. State Election Commissioner is the leader of the State Election Commission. He controls Local elections like Panchayats. He's appointed by the governor of that state. State Election Commissioner is nominated by the Governor.
+
+ Index: 4
+Question: Which of the following Himalayan regions is called "Shivalik's"?
+CodeBlock:
+
+Options:
+0 . upper himalayas
+1 . lower himalayas
+2 . outer himalayas
+3 . inner himalayas
+4 . 
+Correct Answer: 2
+
+Explanation: The outer Himalayas are called Shivalik's. Himalaya is divided into three different sections depending on their height.The first section is known as Himadri or Greater Himalaya. The average height of Greater Himalaya is more than 6000mThe second section is the Himalayas or Himachal. The average height of the Himalayas lies between 3700m - 4500m. The following famous Indian cities lie in this range, Shimla, Darjeeling, Mussoorie, Nanital, and many more.The third section is called or The Shivalik's. The average height of the Outer Himalayas is around 900m-1200m. The following famous Indian cities lie in this range Rishikesh, Haridwar, Dev Prayag, Rudra Prayag.
+
+ Index: 5
+Question: Forming of Association in India is
+CodeBlock:
+
+Options:
+0 . legal right
+1 . illegal right
+2 . natural right
+3 . fundamental right.
+4 . 
+Correct Answer: 3
+
+Explanation: Forming of Association is a fundamental right given in the Constitution of India under Article 19(1)(c)
+
+ Index: 6
+Question: The Samkhya School of Philosophy was founded by
+CodeBlock:
+
+Options:
+0 . gautam buddha
+1 . mahipala
+2 . gopala
+3 . kapila
+4 . 
+Correct Answer: 3
+
+Explanation: The Samkhya School of Philosophy was founded by Kapila. There are six schools of Indian philosophy named Samkhya, Vedanta, Mimansa, Vaisheshik, nyay, and Yoga. Samkhya philosophy school doesn't consider God. 
+
+ Index: 7
+Question: Pustaz grasslands are situated at?
+CodeBlock:
+
+Options:
+0 . south africa
+1 . china
+2 . hungary
+3 . usa
+4 . 
+Correct Answer: 2
+
+Explanation: Pustaz grasslands are situated in Hungary. Hungary is a country which is located in Central Europe. The capital of Hungary is Budapest.
+
+ Index: 8
+Question: Right to emergency medical aid is a 
+CodeBlock:
+
+Options:
+0 . legal right
+1 . illegal right
+2 . constitutional right
+3 . fundamental right.
+4 . 
+Correct Answer: 3
+
+Explanation: The Right to emergency medical aid is a fundamental Right.Article 21, which is in Part -III of the Indian constitution, therefore, it is a fundamental right that talks about the Right to Life in which it is stated that "No person shall be deprived of his/her life or personal liberty except according to procedure established by law."It should be noted here that over the years Supreme Court has expanded the ambit of this important fundamental Right to include some essential components like the Right to live with dignity, among others. Recently the Right to Privacy was also included in its ambit. Recently, In the Pandemic (COVID 19), the emergency medical aid facility is also provided by the state government to the citizens.
+
+ Index: 9
+Question: On the recommendation of which of the given committee, the abolition of reservation of items for the small-scale sector in industry is considered?
+CodeBlock:
+
+Options:
+0 . lohia committee
+1 . narasimhan committee
+2 . ajit kumar committee
+3 . abid hussain committee
+4 . 
+Correct Answer: 3
+
+Explanation: On the recommendation of the Abid Hussain committee, the abolition of reservation of items for the small-scale sector in industry is considered. Abid Hussain was awarded Padma Bhushan in 1988. 
+
+ Index: 10
+Question: Chelaiya Samiti is related to which of the following?
+CodeBlock:
+
+Options:
+0 . banking sector
+1 . insurance sector
+2 . health sector
+3 . tax reforms
+4 . 
+Correct Answer: 3
+
+Explanation: Chelaiya Samiti is related to Tax reforms. The Government of India made a Tax Reforms Committee under Prof. Raja Chelaiya for reforming the Indian Tax System. 
+
+ Index: 11
+Question: Which of the given devices is used for counting blood cells?
+CodeBlock:
+
+Options:
+0 . hmelethometer
+1 . spyscometer
+2 . hemocytometer
+3 . hamosytometer
+4 . 
+Correct Answer: 2
+
+Explanation: Hemocytometer is used for counting blood cells. Louis Charles Malassez was invented the hemocytometer. It consists of a thick glass microscope slide with a rectangle shape indentation that builds a chamber.
+
+ Index: 12
+Question: Which of the given compounds is used to make fireproof clothing?
+CodeBlock:
+
+Options:
+0 . aluminum chloride
+1 . aluminum sulphate
+2 . magnesium chloride
+3 . magnesium sulphate
+4 . 
+Correct Answer: 1
+
+Explanation: Aluminum Sulphate is used to make fireproof clothing. The chemical formula of Aluminum Sulphate is Al2SO4. It is a chemical agent specifically used in water purification, for the pH regulation of garden soil, and in waste water treatment.
+
+ Index: 13
+Question: Which of the given cities is located on the bank of river Ganga?
+CodeBlock:
+
+Options:
+0 . patna
+1 . gwalior
+2 . bhopal
+3 . mathura
+4 . 
+Correct Answer: 0
+
+Explanation: Patna has located on the bank of river Ganga. Gwalior is located on the bank of the river Chambal. Bhopal is situated on the bank of the Indravati River. Mathura has situated on the bank of the river Yamuna.
+
+ Index: 14
+Question: The driving force of an ecosystem is 
+CodeBlock:
+
+Options:
+0 . carbon mono oxide
+1 . biogas
+2 . solar energy
+3 . carbon dioxide
+4 . 
+Correct Answer: 2
+
+Explanation: Solar energy is the driving force of an ecosystem. Solar energy refers to the energy created by heat and sunlight. Solar power is produced when solar energy is converted into electricity.
+
+ Index: 15
+Question: Which of the given is a disease caused by protozoa?
+CodeBlock:
+
+Options:
+0 . cancer
+1 . typhoid
+2 . kala-azar
+3 . chicken pox
+4 . 
+Correct Answer: 2
+
+Explanation: Kala-azar is a disease caused by the protozoan Leishmania parasites transmitted by the bite of infected female phlebotomine. 
+
+ Index: 16
+Question: The term "Samantas" is usually seen in the medieval history of India about 
+CodeBlock:
+
+Options:
+0 . artists
+1 . big landlords
+2 . servants
+3 . queens
+4 . 
+Correct Answer: 1
+
+Explanation: During the 17th century, big landlords in different regions of India generally termed Samanthas. They used to serve their kings by providing them military support. They also bring gifts for their kings. 
+
+ Index: 17
+Question: Which of the given coins was known as 'Karshapana' in ancient literature?
+CodeBlock:
+
+Options:
+0 . gold coins
+1 . bronze coins
+2 . punch marked coins
+3 . iron coins
+4 . 
+Correct Answer: 2
+
+Explanation: The earliest trading activities were managed through the barter system. In ancient times, the famous 'punch-marked' were known as Karshapana. The punch-marked coins were primarily made of silver, copper, and other metal alloys. The shape of these coins is usually rectangular. On these coins, different figures are marked, and nothing was written on them. The term 'Karshapana has first appeared in Sutra literature.
+
+ Index: 18
+Question: Digestion of food in human beings begins in which part of the alimentary canal?
+CodeBlock:
+
+Options:
+0 . liver
+1 . kidney
+2 . mouth
+3 . large intestine
+4 . 
+Correct Answer: 2
+
+Explanation: The digestion of food in human beings starts in the mouth when they chew. In other words, we can say that digestion begins in the mouth before we have even taken the first bite. When we smell, see or think about the food, our mouth will usually start salivating. When we take our first bite, this saliva mixes with the food to help break it down so that our body can absorb it. 
+
+ Index: 19
+Question: When the metal reacts with dilute acid, which gas is formed?
+CodeBlock:
+
+Options:
+0 . carbon dioxide
+1 . helium
+2 . neon
+3 . hydrogen
+4 . 
+Correct Answer: 3
+
+Explanation: When we consider dilute acids, the first metals placed in the metal activity above hydrogen will react with strong mineral acids to produce their respective salts and liberate hydrogen gas.Metal + Acid - Salt + HydrogenMg + 2HCL - MgCl2 + H2Magnesium+ 2(Hydrochloric Acid) - Magnesium Dichloride + Hydrogen.There is an exception, dilute HNO3 is a very strong oxidizing agent, and thus it will oxidize the hydrogen gas liberated to water.Only two metals, namely magnesium and manganese, can react with very dilute (1% dilute) nitric acid to produce hydrogen gas.
+
+ Index: 20
+Question: What is the name of the lower layer of the Earth's three concentric layers?
+CodeBlock:
+
+Options:
+0 . sail
+1 . sima
+2 . sama
+3 . sial
+4 . 
+Correct Answer: 1
+
+Explanation: In geological terms, SIMA refers to the name of the lower layer of the Earth's crust. The term "SIMA" was taken from the combination of the first two letters of silica and Magnesia. This layer is made up of rocks rich in magnesium silicate minerals. It is also called oceanic crust because the ocean floor is primarily SIMA.
+
+ Index: 21
+Question: The term 'barani' refers to in the context of agriculture?
+CodeBlock:
+
+Options:
+0 . dryland farming
+1 . mixed farming
+2 . rainfed farming
+3 . none of these
+4 . 
+Correct Answer: 2
+
+Explanation: The term "barani" refers to rainfed farming in the context of agriculture. Rainfed farming refers to a farming technique that primarily depends on rainfall for water management. It provides much food consumed by the BPL (Below Poverty Line) people or poor communities in developing countries.
+
+ Index: 22
+Question: Which canyon is known as 'The Grand Canyon of India' or The Arizona of India?
+CodeBlock:
+
+Options:
+0 . gandikota canyon
+1 . colca canyon
+2 . copper canyon
+3 . grand canyon
+4 . 
+Correct Answer: 0
+
+Explanation: Gandikota canyon is known as 'The Grand Canyon of India' or The Arizona of India. It is located near Hyderabad (Andhra Pradesh). It is formed by the Pennar River by cutting Erramala Hills.
+
+ Index: 23
+Question: Which of the given vitamin is a water-soluble vitamin?
+CodeBlock:
+
+Options:
+0 . vitamin a
+1 . vitamin b
+2 . vitamin k
+3 . vitamin d
+4 . 
+Correct Answer: 1
+
+Explanation: The term "Vitamin" is given by C. Funk in 1911. It is named after the English alphabet, i.e., A, B, C, D, E, K, etc. Vitamins refer to a non-caloric organic micro-nutrient that is essentially needed in the diet for normal growth, development, metabolic and physiological functions of the body. Vitamins are also required for the maintenance of optimal health.Based on solubility, Vitamins are classified into two classes,Water-soluble Vitamins - Usually, it includes Vitamin B complex and Vitamin C.Fat-soluble Vitamins - Usually, it includes Vitamin A, D, E, and K.
+
+ Index: 24
+Question: Which of the following is responsible for nitrogen fixation?
+CodeBlock:
+
+Options:
+0 . fungus
+1 . bacteria
+2 . virus
+3 . insects
+4 . 
+Correct Answer: 1
+
+Explanation: Bacteria is responsible for nitrogen fixation. The term "Fixation" comes from the sense 'Fix' which means to make something stick to one place that means converting nitrogen gas to a non-gaseous compound.
+
+ Index: 25
+Question: Press Council of India is a
+CodeBlock:
+
+Options:
+0 . profitable organization
+1 . the constitutional quasi-judicial body
+2 . the statutory quasi-judicial body
+3 . none of these.
+4 . 
+Correct Answer: 2
+
+Explanation: The press council of India was established under Press Council Act, 1978. It is a statutory quasi-judicial body. The primary responsibility of the Press Council is to maintain the freedom of the press and improve the standards of the newspapers and news agencies in the country. Press council comprises 29 members, including the chairman.
+
+ Index: 26
+Question: Population dividend means
+CodeBlock:
+
+Options:
+0 . the total population of the world
+1 . migration of people from the poorer region to richer region
+2 . total no of the population above 60
+3 . the youthful age structure of a population.
+4 . 
+Correct Answer: 3
+
+Explanation: The term "Population" is related to "Demographic," and Dividend means the profit divided among the number of people. As per UNFPA (United Nations Population Fund), Population dividend means "the economic growth potential that is a result of shifting age structure, when the share of the age group lies between 15 to 64(Working age) is greater than the share of the age group lies below 15 and above 64 (Non-working age group).
+
+ Index: 27
+Question: Who among the following decides if an individual Bill is a Money Bill or not?
+CodeBlock:
+
+Options:
+0 . prime minister
+1 . president
+2 . member of lok sabha
+3 . speaker of lok sabha
+4 . 
+Correct Answer: 3
+
+Explanation: The speaker of Lok Sabha decides the bill as a money bill before forwarding it to the upper house, and the decision of the speaker is mandatory on both houses. The money bill must be returned to the Lok Sabha within two weeks. 
+
+ Index: 28
+Question: "Rashtriya Swasthya Bima Yojana" Launched under Social Security Act 2008 Involves
+CodeBlock:
+
+Options:
+0 . only rural workers
+1 . only social workers
+2 . only unorganized sector workers
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: "Rashtriya Swasthya Bima Yojana" Launched under Social Security Act 2008 Involves only unorganized sector workers. The people who belong to below poverty line, whose details are included in the district BPL family list.
+
+ Index: 29
+Question: Which of the given vitamins is responsible for blood clotting?
+CodeBlock:
+
+Options:
+0 . vitamin a
+1 . vitamin b
+2 . vitamin k
+3 . vitamin d
+4 . 
+Correct Answer: 2
+
+Explanation: Vitamin C is responsible for blood clotting.
+
+ Index: 30
+Question: Who is the author of the book titled 'Tipane Kashmirchi'?
+CodeBlock:
+
+Options:
+0 . arun karmakar
+1 . arun jaitley
+2 . arun sharma
+3 . manoj sinha
+4 . 
+Correct Answer: 0
+
+Explanation: The lieutenant governor of India, Manoj Sinha, has released the book titled 'Tipane Kashmirchi' that features the researched facts about the Jammu and Kashmir authored Arun Karmakar.
+
+ Index: 31
+Question: Gibraltar straits links which of the following?
+CodeBlock:
+
+Options:
+0 . the pacific ocean and the mediterranean sea
+1 . the mediterranean sea and the red sea
+2 . the red sea and the atlantic ocean
+3 . the atlantic ocean and the mediterranean sea
+4 . 
+Correct Answer: 3
+
+Explanation: The Gibraltar straits is a narrow-straits that links the Atlantic Ocean and the Mediterranean Sea.Malacca Straits: The Malacca straits link the Andaman sea and the South China Sea.Yucatan Straits: The Yucatan straits link the Gulf of Mexico and the Caribbean Sea.Palk Straits: The Palk Straits links the Palk way and the Way of Bengal.
+
+ Index: 32
+Question: Which of the given states or U.T(Union Territories) has the least number of females per 1000 males as per the Census 2011?
+CodeBlock:
+
+Options:
+0 . daman and diu
+1 . meghalaya
+2 . andaman nicobar
+3 . haryana
+4 . 
+Correct Answer: 0
+
+Explanation: As per the Census 2011, the total number of females per 1000 males is least in Daman and Diu.
+
+ Index: 33
+Question: Nepenthes Khasiana an endangered and rare plant found in 
+CodeBlock:
+
+Options:
+0 . bihar
+1 . meghalaya
+2 . orrisa
+3 . madhya pradesh
+4 . 
+Correct Answer: 1
+
+Explanation: The pitcher plant named Nepenthes Khasiana is the only indigenous insectivorous plant found in the Meghalaya (Khasi Hills) state of India.
+
+ Index: 34
+Question: Which of the given bio transformations gives maximum energy to the human body?
+CodeBlock:
+
+Options:
+0 . amp-adp
+1 . adp-atp
+2 . acp-amp
+3 . amp-atp
+4 . 
+Correct Answer: 1
+
+Explanation: Maximum energy provides to the human body in bio transformation by ADP-ATP. ADP stands for Adenosine diphosphate, and ATP stands for Adenosine triphosphate. 
+
+ Index: 35
+Question: The hero of the Malvikagnimitram of Kalidas is associated with which of the given dynasties?
+CodeBlock:
+
+Options:
+0 . the sunga dynasty
+1 . pallava dynasty
+2 . magadha dynasty
+3 . vakataka dynasty
+4 . 
+Correct Answer: 0
+
+Explanation: The hero of the Malvikagnimitram of Kalidas is associated with the Sunga Dynasty. Malvikagnimitram is one of the most popular dramas of Kalidas, who is acknowledged unparalleled poet and dramatist by the world of litterateurs. Eminent German philosopher Schopenhauer vehemently says that a narrative work Meghdutam of Kalidas cannot be compared to other literary works of world literature.
+
+ Index: 36
+Question: Where is Lomus Rishi Cave located?
+CodeBlock:
+
+Options:
+0 . nasik
+1 . gaya
+2 . varanasi
+3 . bhubaneswar
+4 . 
+Correct Answer: 1
+
+Explanation: Lomus Rishi Cave is located at Barbar hills Gaya Bihar. The entrance gate of the cave looks tempting because it is decorated with a semicircle chaitya arch.
+
+ Index: 37
+Question: The tropic of cancer does pass through which state of India?
+CodeBlock:
+
+Options:
+0 . uttar pradesh
+1 . madhya pradesh
+2 . bihar
+3 . andhra pradesh
+4 . 
+Correct Answer: 1
+
+Explanation: Tropic of Cancer passes through 8 states of India. From west part of India to East, i.e., Chhattisgarh, West Bengal, Jharkhand, Tripura, Mizoram, Madya Pradesh, Gujrat, and Rajasthan. Therefore, the tropic of cancer is passing through only two northeastern states named Mizoram and Tripura. Other than the north Indian state tropic of cancer not passing are Assam, Meghalaya, Andhra Pradesh, Nagaland, Manipur, and Sikkim.
+
+ Index: 38
+Question: Who among the given had translated the Upanishads from Sanskrit to Persian
+CodeBlock:
+
+Options:
+0 . dara shukoh
+1 . babar
+2 . mirza galib
+3 . abul fazal
+4 . 
+Correct Answer: 0
+
+Explanation: Dara Shukoh had translated the Upanishads from Sanskrit to Persian. Dara Shukoh was the eldest son of the Mughal emperor Shah Jahan. He has lost the battle for the throne of Delhi to his brother Aurangzeb.
+
+ Index: 39
+Question: Musi is a tributary of which of the given rivers?
+CodeBlock:
+
+Options:
+0 . ganga
+1 . krishna
+2 . kaveri
+3 . chambal
+4 . 
+Correct Answer: 1
+
+Explanation: Musi river is a tributary of the Krishna river. The city Hyderabad is located on the bank of the river Musi. Musi flows through Telangana.
+
+ Index: 40
+Question: Which of the given shows the density gradient in a body of water?
+CodeBlock:
+
+Options:
+0 . pycnocline
+1 . picnoclyne
+2 . econoline
+3 . pyctolene
+4 . 
+Correct Answer: 0
+
+Explanation: Pycnocline shows the density gradient in a body of water.
+
+ Index: 41
+Question: Which type of forest among the given occupies the largest area in India?
+CodeBlock:
+
+Options:
+0 . tropical moist deciduous forest
+1 . tropical dry deciduous forest
+2 . tropical dry evergreen forest
+3 . montane dry temperate forest
+4 . 
+Correct Answer: 0
+
+Explanation: Tropical moist deciduous forest occupies 37 percent of the total area. It is the most extensive forest.India has five major types of forests.
+Tropical evergreen
+Tropical Deciduous
+Thorny Scrubs
+Montane forests
+Mangrove forests
+These are the forests that flourish in regions with rainfall averaging from 75cm to 200 cm annually. Incidentally, the average annual rainfall in India is 125cm.
+
+ Index: 42
+Question: How many goals are added in Sustainable Developments Goals adopted by the UN?
+CodeBlock:
+
+Options:
+0 . 18
+1 . 17
+2 . 20
+3 . 21
+4 . 
+Correct Answer: 1
+
+Explanation: Sustainable Development Goals (SDGs) are a global plan comprised of 17 goals to be achieved in 2030 by all member states. Sustainable development goals SDGs succeeded the Millennium Development Goals (MDGs) that were eight international development goals set for 2015.
+
+ Index: 43
+Question: Which of the given Mughal emperors had introduced the Mansabdari system?
+CodeBlock:
+
+Options:
+0 . shahjahan
+1 . babar
+2 . akbar
+3 . aurangzeb
+4 . 
+Correct Answer: 1
+
+Explanation: Akbar had administrated the Mansabdari system. Mansabdari system was a unique system devised by the Mughals in India. 
+
+ Index: 44
+Question: Which of the given industries uses limestone as a raw material?
+CodeBlock:
+
+Options:
+0 . paper
+1 . cement
+2 . textile
+3 . leather
+4 . 
+Correct Answer: 1
+
+Explanation: The cement industry uses limestone as a raw material. Limestone is calcium carbonate (CaCO3) in composition and occurs in sedimentary deposits. It mainly contains calcite minerals. Limestone gets generally carbonaceous material with shells, corals, algae, and other skeletal remains of sea species. Limestone is abundantly available in nature and very useful and main raw material for making Portland cement. Limestone deposits are plenty, and good grade limestone material is useful for making cement and other building materials.
+
+ Index: 45
+Question: Which of the following is a scalar quantity?
+CodeBlock:
+
+Options:
+0 . force
+1 . pressure
+2 . momentum
+3 . acceleration
+4 . 
+Correct Answer: 1
+
+Explanation: The pressure is a scalar quantity because it has magnitude but no direction associated with it. Pressure refers to a perpendicular force applied per unit area on a surface. Force, momentum, and acceleration are vector quantity because they have magnitude as well as direction.
+
+ Index: 46
+Question: Under which act, a council of 15 members, 'India Council' was formed to facilitate the secretary of India?
+CodeBlock:
+
+Options:
+0 . indian council act, 1858
+1 . government of india act, 1858
+2 . indian council act, 1935
+3 . government of india act, 1935
+4 . 
+Correct Answer: 1
+
+Explanation: Under the government of India act 1858, a council of 15 members, 'India Council,' was formed to facilitate the secretary of India. The appointment of 8 of its members was under the crown of Britain, and the Right to appoint the remaining seven members was under the directors of the company.
+
+ Index: 47
+Question: Who among the following nations is not a member of BRICS?
+CodeBlock:
+
+Options:
+0 . india
+1 . china
+2 . russia
+3 . japan
+4 . 
+Correct Answer: 3
+
+Explanation: BRICS is the association of five countries: Brazil, Russia, India, China, and South Africa. 
+
+ Index: 48
+Question: The tomb of a Sufi Saint is known as
+CodeBlock:
+
+Options:
+0 . idgah
+1 . masjid
+2 . dargah
+3 . none of these
+4 . 
+Correct Answer: 2
+
+Explanation: The tomb of a Sufi Saint is called dargah. Dargah is more of a shrine built over a grave of a religious head, sometimes known as Aliyah. Muslims generally do a Ziarat (pilgrimage) in a dargah. An Idgah is an open place for offering prayers on Eid.
+
+ Index: 49
+Question: Which of the given clouds are responsible for the formation of the Sun's halo?
+CodeBlock:
+
+Options:
+0 . cumulus clouds
+1 . cirrus clouds
+2 . altostratus clouds
+3 . cumulus clouds
+4 . 
+Correct Answer: 1
+
+Explanation: Cirrus clouds are responsible for the formation of the Sun's halo. Cloud refers to a visible mass of small water droplets or ice particles suspended in the sky.When the extra moisture changes into small drops of water form clouds. No two clouds are exactly alike, and they are always changing their shape. We have different clouds in which the cloud formation takes place at different heights and temperatures.There are three major types of clouds.High-level clouds (Ranges from 5 km to 13 km): cirrocumulus, cirrus, and cirrostratus.Mid-level clouds (Ranges from 2 km to 7 km): altocumulus, altostratus, and nimbostratus.Low-level clouds (Ranges from 0 km to 2 km): stratus, cumulus, cumulonimbus, and stratocumulus.
+
+ Index: 50
+Question: The Instrument Wind vane is used for measuring.
+CodeBlock:
+
+Options:
+0 . atmospheric pressure
+1 . velocity of air
+2 . direction of wind
+3 . air pressure
+4 . 
+Correct Answer: 2
+
+Explanation: The Instrument Wind vane is used for measuring the direction of the wind. Wind refers to the moment of air from a high-pressure area to low pressure area. There are three types of wind; permanent winds, Seasonal winds, and local winds. The wind vane, in its simplest form, stands on the top of a house, pointing towards the wind. On a sailboat, it is installed on the top of the mast. The most common model is called a Windex.Sometimes, the wind vane is coupled with an anemometer, showing the speed of the wind. Modern such instruments are digital and show both wind direction and force on a dial.
+
+ Index: 51
+Question: Salt is obtained from sea water through which process.
+CodeBlock:
+
+Options:
+0 . adsorption
+1 . evaporation
+2 . sublimation
+3 . absorption
+4 . 
+Correct Answer: 1
+
+Explanation: Salt is obtained from sea water through the evaporation process. Evaporation refers to the process in which the liquid changing into a vapor state. For example, evaporation is water turning into steam. 
+
+]

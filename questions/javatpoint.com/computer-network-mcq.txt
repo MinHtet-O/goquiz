@@ -1,0 +1,701 @@
+&[Index: 0
+Question: Which of these is a standard interface for serial data transmission?
+CodeBlock:
+
+Options:
+0 . ascii
+1 . rs232c
+2 . 2
+3 . centronics
+4 . 
+Correct Answer: 1
+
+Explanation: The RS232C is a standard interface for serial data transmission that defines the protocol and physical interface for transmitting serial data fairly easily between associated appliances and computers.
+
+ Index: 1
+Question: Which type of topology is best suited for large businesses which must carefully control and coordinate the operation of distributed branch outlets? 
+CodeBlock:
+
+Options:
+0 . ring
+1 . local area
+2 . hierarchical
+3 . star
+4 . 
+Correct Answer: 3
+
+Explanation: The star topology is the best network topology for large businesses because it is simple to control and coordinate from the central computer.
+
+ Index: 2
+Question: Which of the following transmission directions listed is not a legitimate channel?
+CodeBlock:
+
+Options:
+0 . simplex
+1 . half duplex
+2 . full duplex
+3 . double duplex
+4 . 
+Correct Answer: 3
+
+Explanation: Double duplex is not a legitimate channel for transmission in computer network.
+
+ Index: 3
+Question: "Parity bits" are used for which of the following purposes?
+CodeBlock:
+
+Options:
+0 . encryption of data
+1 . to transmit faster
+2 . to detect errors
+3 . to identify the user
+4 . 
+Correct Answer: 2
+
+Explanation: The parity bit is also known as the check bit, and has a value of 0 or 1. It is used for error detection for blocks of data.
+
+ Index: 4
+Question: What kind of transmission medium is most appropriate to carry data in a computer network that is exposed to electrical interferences?
+CodeBlock:
+
+Options:
+0 . unshielded twisted pair
+1 . optical fiber
+2 . coaxial cable
+3 . microwave
+4 . 
+Correct Answer: 1
+
+Explanation: The optical fiber is made of glass or plastic. In this cable, the transmission of data occurs in the form of light rather than the electric current, so this cable provides higher data transfer speed than other cables.
+
+ Index: 5
+Question: A collection of hyperlinked documents on the internet forms the ?.?
+CodeBlock:
+
+Options:
+0 . world wide web (www)
+1 . e-mail system
+2 . mailing list
+3 . hypertext markup language
+4 . 
+Correct Answer: 0
+
+Explanation: World Wide Web (WWW) creates a collection of hyperlinked documents on the Internet.
+
+ Index: 6
+Question: The location of a resource on the internet is given by its?
+CodeBlock:
+
+Options:
+0 . protocol
+1 . url
+2 . e-mail address
+3 . icq
+4 . 
+Correct Answer: 1
+
+Explanation: A URL (Uniform Resource Locator) is a database connection that describes the database's location on a computer network and the retrieval process. A URL is a different form of URI (Uniform Resource Identifier) although the two words are used interchangeably by many people.
+
+ Index: 7
+Question: The term HTTP stands for?
+CodeBlock:
+
+Options:
+0 . hyper terminal tracing program
+1 . hypertext tracing protocol
+2 . hypertext transfer protocol
+3 . hypertext transfer program
+4 . 
+Correct Answer: 2
+
+Explanation: The term HTTP stands for Hypertext transfer protocol.
+
+ Index: 8
+Question: A proxy server is used as the computer?
+CodeBlock:
+
+Options:
+0 . with external access
+1 . acting as a backup
+2 . performing file handling
+3 . accessing user permissions
+4 . 
+Correct Answer: 0
+
+Explanation: A proxy server is a computer that acts as a gateway between a user's computer and the Internet. The proxy server is also called application level gateway. By this the client computer can establish indirect network connection to another network.
+
+ Index: 9
+Question: Which one of the following would breach the integrity of a system?
+CodeBlock:
+
+Options:
+0 . looking the room to prevent theft
+1 . full access rights for all users
+2 . fitting the system with an anti-theft device
+3 . protecting the device against willful or accidental damage
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 10
+Question: Which software prevents the external access to a system?
+CodeBlock:
+
+Options:
+0 . firewall
+1 . gateway
+2 . router
+3 . virus checker
+4 . 
+Correct Answer: 0
+
+Explanation: A firewall is a network securing software that prevents unauthorized users and dangerous elements from accessing the network. Software firewall acts as a filter for our network which prevents harmful information.
+
+ Index: 11
+Question: Which one of the following is a valid email address?
+CodeBlock:
+
+Options:
+0 . [email protected]
+1 . gmail.com
+2 . [email protected]
+3 . [email protected]
+4 . 
+Correct Answer: 0
+
+Explanation: A proper email address is a combination of the email prefix and email domain, both in appropriate formats. The domain appears to the right side of the @ symbol and the prefix appears to the left side of the @ symbol.For example, in this email address [email protected], "javat" is the prefix, and "point.com" is the domain.
+
+ Index: 12
+Question: Which of the following best describes uploading information?
+CodeBlock:
+
+Options:
+0 . sorting data on a disk drive
+1 . sending information to a host computer
+2 . receiving information from a host computer
+3 . sorting data on a hard drive
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 13
+Question: Which one of the following is the most common internet protocol? 
+CodeBlock:
+
+Options:
+0 . html
+1 . netbeui
+2 . tcp/ip
+3 . ipx/spx
+4 . 
+Correct Answer: 2
+
+Explanation: TCP/IP is the most common internet protocol because it is the most widely used network protocol.
+
+ Index: 14
+Question: Software programs that allow you to legally copy files and give them away at no cost are called which of the following?
+CodeBlock:
+
+Options:
+0 . probe ware
+1 . timeshare
+2 . shareware
+3 . public domain
+4 . 
+Correct Answer: 3
+
+Explanation: Public domain software can be modified, distributed or sold by anyone without any attention, but no one can ever own it.
+
+ Index: 15
+Question: The term FTP stands for?
+CodeBlock:
+
+Options:
+0 . file transfer program
+1 . file transmission protocol
+2 . file transfer protocol
+3 . file transfer protection
+4 . 
+Correct Answer: 2
+
+Explanation: The term FTP stands for File transfer protocol.
+
+ Index: 16
+Question: At what speed does tele-computed refer?
+CodeBlock:
+
+Options:
+0 . interface speed
+1 . cycles per second
+2 . baud rate
+3 . megabyte load
+4 . 
+Correct Answer: 2
+
+Explanation: In telecommunication, baud rate is a specific unit of the speed rate. It is one of the significant functions that determine the speed of the communication over the data channel.
+
+ Index: 17
+Question: Which one of the following is not a network topology? 
+CodeBlock:
+
+Options:
+0 . star
+1 . ring
+2 . bus
+3 . peer to peer
+4 . 
+Correct Answer: 3
+
+Explanation: Peer to Peer network is a network to which all computers are used the same resources and rights as other computers. Its network designed primarily for the small local area.
+
+ Index: 18
+Question: The maximum length (in bytes) of an IPv4 datagram is?
+CodeBlock:
+
+Options:
+0 . 32
+1 . 1024
+2 . 65535
+3 . 512
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 19
+Question: Which of the following statements could be valid with respect to the ICMP (Internet Control Message Protocol)?
+CodeBlock:
+
+Options:
+0 . it reports all errors which occur during transmission.
+1 . a redirect message is used when a router notices that a packet seems to have been routed wrongly.
+2 . it informs routers when an incorrect path has been taken.
+3 . the "destination unreachable" type message is used when a router cannot locate the destination.
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 20
+Question: The IP network 192.168.50.0 is to be divided into 10 equal sized subnets. Which of the following subnet masks can be used for the above requirement?
+CodeBlock:
+
+Options:
+0 . 255.243.240
+1 . 255.255.0.0
+2 . 255.255.0
+3 . 255.255.255
+4 . 
+Correct Answer: 2
+
+Explanation: This address belongs to class C, so 8 bits are reserved for the host ID. 24 bits are reserved for network ID.
+
+ Index: 21
+Question: When the mail server sends mail to other mail servers it becomes ___ ?
+CodeBlock:
+
+Options:
+0 . smtp client
+1 . smtp server
+2 . peer
+3 . master
+4 . 
+Correct Answer: 0
+
+Explanation: The SMTP client is an organization that allows sending emails using the SMTP server. SMTP servers can't send emails to other SMTP servers separately. It is based on client-server architecture.
+
+ Index: 22
+Question: The length of an IPv6 address is?
+CodeBlock:
+
+Options:
+0 . 32 bits
+1 . 64 bits
+2 . 128 bits
+3 . 256 bits
+4 . 
+Correct Answer: 2
+
+Explanation: An IPv6 address is 128 bits long, which has 2^128 address space.
+
+ Index: 23
+Question: Consider the following:
+CodeBlock:
+
+Options:
+0 . (1) and (5)
+1 . (1) and (2)
+2 . (1) (2) and (5)
+3 . (1) (2) (3) and (5)
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 24
+Question: Which of the following address belongs class A?
+CodeBlock:
+
+Options:
+0 . 121.12.12.248
+1 . 130.12.12.248
+2 . 128.12.12.248
+3 . 129.12.12.248
+4 . 
+Correct Answer: 0
+
+Explanation: 121.12.12.248 address belongs the class A because the first octet value of this address lies between 0 and 127. 
+
+ Index: 25
+Question: Which of the following is correct IPv4 address?
+CodeBlock:
+
+Options:
+0 . 124.201.3.1.52
+1 . 01.200.128.123
+2 . 300.142.210.64
+3 . 10110011.32.16.8
+4 . 128.64.0.0
+Correct Answer: 4
+
+Explanation: 128.64.0.0 is correct IPv4 address because IPv4 is a standard numbering system that uses four integers from 0 to 255. The IP address is a group of numbers that identify user system on the network. 
+
+ Index: 26
+Question: Which of the following IP addresses can be used as (a) loop-back addresses?
+CodeBlock:
+
+Options:
+0 . 0.0.0.0
+1 . 127.0.0.1
+2 . 255.255.255.255
+3 . 0.255.255.255
+4 . 
+Correct Answer: 1
+
+Explanation: A loopback address is a special IP address whose IP address is between 127.0.0.1 to 127.255.255.255. It is reserved for loopback. It doesn't require a physical connection to a network.
+
+ Index: 27
+Question: The term WAN stands for? 
+CodeBlock:
+
+Options:
+0 . wide area net
+1 . wide access network
+2 . wide area network
+3 . wide access net
+4 . 
+Correct Answer: 2
+
+Explanation: The term WAN stands for Wide Area Network.
+
+ Index: 28
+Question: Which of the following cannot be used as a medium for 802.3 ethernet?
+CodeBlock:
+
+Options:
+0 . a thin coaxial cable
+1 . a twisted pair cable
+2 . a microwave link
+3 . a fiber optical cable
+4 . 
+Correct Answer: 2
+
+Explanation: A microwave link cannot be used as a medium for 802.3 ethernets, because a microwave link is a transmission network that utilizes a beam of radio waves in the microwave frequency spectrum to relay video, audio, or data between two places.
+
+ Index: 29
+Question: What IP address class allocates 8 bits for the host identification part?
+CodeBlock:
+
+Options:
+0 . class a
+1 . class b
+2 . class c
+3 . class d
+4 . 
+Correct Answer: 2
+
+Explanation: In class C only, 8 bits are reserved for the host ID, and 24 bits are reserved for network ID.
+
+ Index: 30
+Question: The term IANA stands for?
+CodeBlock:
+
+Options:
+0 . internet assigned numbers authority
+1 . internal assigned numbers authority
+2 . internet associative numbers authoritative
+3 . internal associative numbers authority
+4 . 
+Correct Answer: 0
+
+Explanation: The term IANA stands for Internet Assigned Numbers Authority.
+
+ Index: 31
+Question: How many versions available of IP?
+CodeBlock:
+
+Options:
+0 . 6 version
+1 . 4 version
+2 . 2 version
+3 . 1 version
+4 . 
+Correct Answer: 2
+
+Explanation: There are only two IP versions are avilable in the present: IP version 4 (IPv4) and IP version 6 (IPv6).
+
+ Index: 32
+Question: Which layer of the TCP / IP stack corresponds to the OSI model transport layer?
+CodeBlock:
+
+Options:
+0 . host to host
+1 . application
+2 . internet
+3 . network access
+4 . 
+Correct Answer: 0
+
+Explanation: The host to host layer conforms the transport layer of the OSI model. This layer is responsible for the final correspondence and error-free distribution of data.
+
+ Index: 33
+Question: An Aloha network uses an 18.2 kbps channel for sending message packets of 100 bits long size. Calculate the maximum throughput.
+CodeBlock:
+
+Options:
+0 . 5999
+1 . 6900
+2 . 6027
+3 . 5027
+4 . 
+Correct Answer: 2
+
+Explanation: In Pure Aloha, Efficiency = 18.4%Usable bandwidth for 18.2 kbps = 18.2 * 0.18 = 3.276 kbpsTherefore, the maximum throughput of Pure Aloha= 1/2e * 3.276= (18.4 * 3.276) / 100= 0.6027
+
+ Index: 34
+Question: On a simplex data link, which of the following is a possible error recovery technique?
+CodeBlock:
+
+Options:
+0 . backward error correction (bec)
+1 . the use of hamming codes
+2 . automatic repeat request (arq)
+3 . downward error correction (dec)
+4 . 
+Correct Answer: 1
+
+Explanation: The hamming codes is an error recovery technique that can be used to detect and correct the errors. It was developed by R.W. Hamming.
+
+ Index: 35
+Question: Which of the statement is correct with regard to Time Division Multiplexing (TDM) and its variants?
+CodeBlock:
+
+Options:
+0 . statistical tdm makes efficient use of the bandwidth only if the arrival pattern of the data stream is probabilistic.
+1 . tdm requires the transmitter and receiver to be synchronized periodically.
+2 . tdm performs efficiently if the arrival pattern of the data stream is probabilistic.
+3 . statistical tdm is efficient if the data stream is deterministic.
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 36
+Question: The term IPv4 stands for?
+CodeBlock:
+
+Options:
+0 . internet protocol version 4
+1 . internet programming version 4
+2 . international programming version 4
+3 . none of these
+4 . 
+Correct Answer: 0
+
+Explanation: The term IPv4 stands for Internet Protocol Version 4.
+
+ Index: 37
+Question: The term LAN stands for?
+CodeBlock:
+
+Options:
+0 . local area net
+1 . local aera network
+2 . local array network
+3 . local array net
+4 . 
+Correct Answer: 1
+
+Explanation: The term LAN stands for Local Area Network.
+
+ Index: 38
+Question: Which of the through is share the data of two computer?
+CodeBlock:
+
+Options:
+0 . library
+1 . network
+2 . grouping
+3 . integrated system
+4 . 
+Correct Answer: 1
+
+Explanation: There are many ways to share data between two computers, but a network connection is established before data sharing.
+
+ Index: 39
+Question: In specific, if the systems use separate protocols, which one of the following devices is used to link two systems?
+CodeBlock:
+
+Options:
+0 . repeater
+1 . gateway
+2 . bridge
+3 . hub
+4 . 
+Correct Answer: 1
+
+Explanation: If the system used separate protocols, gateway device is used to link two systems.
+
+ Index: 40
+Question: How many digits of the Data Network Identification Code (DNIC) identify the country?
+CodeBlock:
+
+Options:
+0 . first three
+1 . first four
+2 . first five
+3 . first six
+4 . none of the above
+Correct Answer: 0
+
+Explanation: The first three digits of the Data Network Identification Code (DNIC) is identify the country (first digit to identify a zone and other two digits to identify the country within the zone).
+
+ Index: 41
+Question: Which of the following methods is used to broadcast two packets on the medium at a time?
+CodeBlock:
+
+Options:
+0 . collision
+1 . synchronous
+2 . asynchronous
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: A collision occurs when two or more computers are attempting to transfer data across a network at a time.
+
+ Index: 42
+Question: Which of the following is true with regard to the ping command?
+CodeBlock:
+
+Options:
+0 . ping stands for packet internet generator.
+1 . the ping command checks the port level connectivity between source destinations end points.
+2 . ping summarizes the packet loss and round-trip delay between two ip end points.
+3 . the ping command activates the rarp protocol of the ip layer.
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 43
+Question: The private key in asymmetric key cryptography is kept by?
+CodeBlock:
+
+Options:
+0 . sender
+1 . receiver
+2 . sender and receiver
+3 . none of the these
+4 . 
+Correct Answer: 1
+
+Explanation: Only the receiver keeps the private key. Its purpose is to ensure that the message can only be decrypted by the intended receiver.
+
+ Index: 44
+Question: Which of the following algorithms is not used in asymmetric-key cryptography?
+CodeBlock:
+
+Options:
+0 . rsa algorithm
+1 . diffie-hellman algorithm
+2 . electronic code book algorithm
+3 . none of the mentioned
+4 . 
+Correct Answer: 2
+
+Explanation: An electronic code book algorithm is a mode of operation for a block cipher, where each frame of text in an encrypted document refers to a data field. In other terms, the same plaintext value would also give the same value for ciphertext.
+
+ Index: 45
+Question: In the cryptography, the sequence of the letters is rearranged by?
+CodeBlock:
+
+Options:
+0 . transposition ciphers
+1 . substitution ciphers
+2 . both a and b
+3 . none of these
+4 . 
+Correct Answer: 0
+
+Explanation: A predefined technique shuffles the sequence of letters in a plaintext message in the transposition ciphers.
+
+ Index: 46
+Question: What is the maximum efficiency of pure aloha at G = 1/2?
+CodeBlock:
+
+Options:
+0 . 1.89
+1 . 17.99
+2 . 18.999
+3 . 18.4
+4 . 
+Correct Answer: 3
+
+Explanation: The maximum efficiency of pure aloha formula is G * e-2G.Given, G =1/2=1/2 x e-2 x 1/2= 1 / 2e= 0.184= 18.4%
+
+ Index: 47
+Question: What is the maximum efficiency of slotted aloha at G = 1?
+CodeBlock:
+
+Options:
+0 . 36.8
+1 . 35.8
+2 . 35.5
+3 . 37.8
+4 . 
+Correct Answer: 0
+
+Explanation: The maximum efficiency of slotted aloha formula is G * e-G.Given, G = 1= 1 x e-1= 1 / e= 0.368= 36.8%
+
+ Index: 48
+Question: Which of the following statement is true about error detection techniques used on communications link?
+CodeBlock:
+
+Options:
+0 . cyclic redundancy check (crc) sequence can detect as well as correct errors.
+1 . error detection cannot be used on simplex links.
+2 . hamming code can detect up to 3-bit errors.
+3 . all of the these
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 49
+Question: The correct order of corresponding OSI layers for having functionalities of routing and reconciling machine representation differences with shared access resolution and ASCII test protocol is?
+CodeBlock:
+
+Options:
+0 . network, physical, transport, data link
+1 . network, physical, data link, application
+2 . network, presentation, data link, application
+3 . network, presentation, physical, transport
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+]

@@ -1,0 +1,701 @@
+&[Index: 0
+Question: What is a Microsoft PowerPoint?
+CodeBlock:
+
+Options:
+0 . spreadsheet program
+1 . presentation program
+2 . database program
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: PowerPoint is a tool of Microsoft that is used to make presentations. It contains slides to present the data. With the help of the MS PowerPoint tool, you can represent your idea or plan virtually using text, video, and images.
+
+ Index: 1
+Question: Which of the following is the file extension of the PowerPoint application?
+CodeBlock:
+
+Options:
+0 . .ppt
+1 . .jpg
+2 . .html
+3 . .docs
+4 . 
+Correct Answer: 0
+
+Explanation: PowerPoint uses .ppt extension to save a presentation file. PPT is also an acronym for the PowerPoint presentation. It means that people usually call the PowerPoint presentation as PPT.
+
+ Index: 2
+Question: Which of the following is called as page to create a presentation in PowerPoint?
+CodeBlock:
+
+Options:
+0 . sheet
+1 . slide
+2 . paper
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Presentation is created on slides. It lies in the center of the PowerPoint window.
+
+ Index: 3
+Question: In a presentation of PowerPoint, the special effects used to introduce slides are known as -
+CodeBlock:
+
+Options:
+0 . custom animation
+1 . transitions
+2 . annotations
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Transition effects appear when one slide changes into the next slide in a Slide Show. MS PowerPoint offers several types of transitions, which makes the presentation attractive and effective. When you add a transition on a slide, the slide changes in a different way rather than simple.
+
+ Index: 4
+Question: Which of the following shortcut key is used to start the slideshow?
+CodeBlock:
+
+Options:
+0 . using f5 key
+1 . using f3 key
+2 . using f1 key
+3 . using f6 key
+4 . 
+Correct Answer: 0
+
+Explanation: We can press the F5 key to start the slideshow of a PowerPoint presentation.
+
+ Index: 5
+Question: Which of the following is the shortcut key to insert a new slide between the current presentation?
+CodeBlock:
+
+Options:
+0 . ctrl + n
+1 . ctrl + k
+2 . ctrl + m
+3 . ctrl + o
+4 . 
+Correct Answer: 2
+
+Explanation: We can use the Ctrl + M shortcut command to insert a new slide to the current presentation. It will add a new slide below the slide open currently.
+
+ Index: 6
+Question: The maximum percentage of zoom in PowerPoint is -
+CodeBlock:
+
+Options:
+0 . 400%
+1 . 200%
+2 . 350%
+3 . 100%
+4 . 
+Correct Answer: 0
+
+Explanation: Zoom Control has a range meter containing a range of 10 to 400. Usually, PowerPoint user Keeps this meter at 69% or 71% readability.
+
+ Index: 7
+Question: What we have to type in the Run dialog box to open Powerpoint?
+CodeBlock:
+
+Options:
+0 . powerpoint
+1 . powerpoint
+2 . pwrpoint
+3 . powerpnt
+4 . 
+Correct Answer: 3
+
+Explanation: We can open the PowerPoint by typing the word Powerpnt in the run dialog box. The window + r shortcut key is used to open the run dialog box.
+
+ Index: 8
+Question: Which of the following is the default standard layout in PowerPoint?
+CodeBlock:
+
+Options:
+0 . blank slide
+1 . title and content slide
+2 . title slide
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Title slide is a default standard layout in powerpoint. Title slide contains the title and basic information about the presenter and presentation. It sets a tone for the presentation.
+
+ Index: 9
+Question: Which of the following is the shortcut key to open the existing presentation in the powerpoint?
+CodeBlock:
+
+Options:
+0 . ctrl + m
+1 . ctrl + n
+2 . ctrl + o
+3 . ctrl + k
+4 . 
+Correct Answer: 2
+
+Explanation: Ctrl + O is a shortcut command which is used to open an existing document in PowerPoint.
+
+ Index: 10
+Question: Which of the following shortcut key is used to stop the slide show?
+CodeBlock:
+
+Options:
+0 . esc key
+1 . ctrl + o
+2 . ctrl + n
+3 . ctrl + k
+4 . 
+Correct Answer: 0
+
+Explanation: To exit from the slideshow, use Esc (Escape Key).
+
+ Index: 11
+Question: In Powerpoint, the objects on the slide used to hold the text are called as -
+CodeBlock:
+
+Options:
+0 . placeholders
+1 . textbox
+2 . text holders
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The areas enclosed by the dotted borders on the slides are called Placeholders. Simply, you can say that placeholder is the enclosed areas on the slide. A placeholder is used to hold the text on the slide. It is a container that can hold text, image, graphics, table, video or audio clip, and anything you want to add into the slide.
+
+ Index: 12
+Question: Which of the following command in powerpoint is used to bring the user directly to the first slide of the presentation?
+CodeBlock:
+
+Options:
+0 . ctrl + home
+1 . alt + home
+2 . shift + home
+3 . home
+4 . 
+Correct Answer: 0
+
+Explanation: Using the Ctrl + Home command, we can directly jump to the first slide of the PowerPoint presentation.
+
+ Index: 13
+Question: Which of the following command in powerpoint is used to bring the user directly to the last slide of the presentation?
+CodeBlock:
+
+Options:
+0 . ctrl + end
+1 . alt + end
+2 . shift + end
+3 . end
+4 . 
+Correct Answer: 0
+
+Explanation: Using the Ctrl + End command, we can directly jump to the last slide of the PowerPoint presentation.
+
+ Index: 14
+Question: In PowerPoint, is it allowed to make a PDF of the powerpoint presentation? 
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . can't say
+3 . may be
+4 . 
+Correct Answer: 0
+
+Explanation: Yes, you can make the PDF of the PowerPoint presentation. PowerPoint allows the users to convert the PowerPoint slides to PDF documents. We can do the same using some easy steps.
+
+ Index: 15
+Question: Is it possible to apply the same transition on all slides in a powerpoint presentation?
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . can't say
+3 . may be
+4 . 
+Correct Answer: 0
+
+Explanation: Yes, we can apply the same transition on all slides of a PowerPoint presentation. It can be done by applying some easy steps.
+
+ Index: 16
+Question: Which of the following is the shortcut key for checking the spelling in PowerPoint?
+CodeBlock:
+
+Options:
+0 . f5
+1 . f7
+2 . f6
+3 . f3
+4 . 
+Correct Answer: 1
+
+Explanation: The F7 is a shortcut key used for spell checking in PowerPoint.
+
+ Index: 17
+Question: Which of the following fill effects can be used to fill the background of the slide?
+CodeBlock:
+
+Options:
+0 . picture
+1 . gradient
+2 . texture
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: We can use the picture, gradient, texture to fill the background of the slide.
+
+ Index: 18
+Question: We can create a new presentation in powerpoint from -
+CodeBlock:
+
+Options:
+0 . blank presentation
+1 . from existing presentation
+2 . both (a) and (b)
+3 . neither (a) nor (b)
+4 . 
+Correct Answer: 2
+
+Explanation: PowerPoint allows the users to create a new presentation in three different ways that are defined as follows -Using Blank presentation - Use a new blank presentation slide to create a new presentation.From design template - We can use any design template of PowerPoint instead of the blank slide to create a new slide.Using Existing presentation - We can use an old presentation and use its format to create a new presentation.
+
+ Index: 19
+Question: Which of the following option is correct to insert the chart as part of the powerpoint presentation?
+CodeBlock:
+
+Options:
+0 . insert -> chart
+1 . edit -> chart
+2 . view -> chart
+3 . all of the above
+4 . 
+Correct Answer: 0
+
+Explanation: By embedding the chart of Excel in our PowerPoint presentation, we can directly show the excel data here. So, the user does not require to create a table here to show the data. We can insert the chart by clicking the insert -> chart.
+
+ Index: 20
+Question: Which of the following are the types of sound files?
+CodeBlock:
+
+Options:
+0 . wav files
+1 . log files
+2 . dat files
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 21
+Question: Which of the following shortcut key in powerpoint is used to repeat the recent find?
+CodeBlock:
+
+Options:
+0 . f1
+1 . f2
+2 . f3
+3 . f4
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 22
+Question: What happens when you select first and second slide and then try to insert the new slide?
+CodeBlock:
+
+Options:
+0 . new slide will be inserted as first slide
+1 . new slide will be inserted as last slide
+2 . new slide will be inserted as third slide
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 23
+Question: What is the shortcut key to insert a hyperlink in the slide?
+CodeBlock:
+
+Options:
+0 . ctrl + h
+1 . ctrl + k
+2 . ctrl + a
+3 . not possible to insert hyperlinks
+4 . 
+Correct Answer: 1
+
+Explanation: Press the Ctrl + K shortcut key; this will directly take you to the Insert Hyperlink window, where you have to choose a file you would like to make a hyperlink.
+
+ Index: 24
+Question: What is the motion path in powerpoint?
+CodeBlock:
+
+Options:
+0 . a path from where the powerpoint program installed
+1 . a method of moving the objects on a slide
+2 . both (a) and (b)
+3 . neither (a) and (b)
+4 . 
+Correct Answer: 1
+
+Explanation: A motion path is a method of moving objects on a slide. PowerPoint allows its users to add motion to an object in the slide. You can add motion to an object from the Animation tab by selecting an object.
+
+ Index: 25
+Question: Which of the following is the shortcut key used to start the presentation from the current slide?
+CodeBlock:
+
+Options:
+0 . f5
+1 . shift + f5
+2 . ctrl + f5
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Shift + F5 helps to start the slide show from the selected slide. For example, if you have 20 slides in your file and you want to start a slide show from the 5th slide, you need to select the 5th slide and press Shift+F5.
+
+ Index: 26
+Question: Which of the following are the uses of the PowerPoint presentation?
+CodeBlock:
+
+Options:
+0 . it can be used for project presentations
+1 . communication of planning
+2 . used to represent the data in an attractive way
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: PowerPoint is a tool of Microsoft that is used to make presentations. It contains slides to present the data. With the help of the MS PowerPoint tool, you can represent your idea or plan virtually using text, video, and images. PowerPoint helps to represent the data in an attractive way by allowing the user to add text, image, graphics, audio, and video to it.
+
+ Index: 27
+Question: Which of the following is used to see all slides at once?
+CodeBlock:
+
+Options:
+0 . using slide sorter view
+1 . using slide view
+2 . using normal view
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Slide Sorter View is a view to see the slides presentation in a shorter view. It allows the users to see all the slides in a single view. Slide Sorter View makes it easy for the users to sort and organize the slides in a sequence if they want to print their slides. You can get this slide sorter view near the Reading View option in the toolbar section.
+
+ Index: 28
+Question: Which of the following feature of powerpoint allows us to quickly create a simple presentation?
+CodeBlock:
+
+Options:
+0 . chart wizard
+1 . auto content wizard
+2 . transition wizard
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Auto Content Wizard provides the sample content to its users. On the other side, slide Design is a simple design format of PowerPoint that does not provide any sample content. 
+
+ Index: 29
+Question: The shortcut to print powerpoint presentation is -
+CodeBlock:
+
+Options:
+0 . ctrl + a
+1 . ctrl + p
+2 . ctrl + shift + p
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Ctrl + P shortcut key is used to open the print window and allows you to print the pages.
+
+ Index: 30
+Question: Which of the following is not a type of view in powerpoint?
+CodeBlock:
+
+Options:
+0 . slide show
+1 . slide sorter
+2 . normal
+3 . none of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Slide View is a view to see the presentation slides in four different modes that are Normal, Slide Sorter, Reading View, and Slide Show.In PowerPoint, all four slide modes available at the bottom of PowerPoint.
+
+ Index: 31
+Question: In which of the following menu, the slide sorter view is available in powerpoint?
+CodeBlock:
+
+Options:
+0 . insert
+1 . view
+2 . design
+3 . animations
+4 . 
+Correct Answer: 1
+
+Explanation: Slide Sorter View is a view to see the slides presentation in a shorter view. You can get this slide sorter view near the Reading View option in the toolbar section. Besides that, you can also get it at the bottom of the slide window on the taskbar or inside the View tab on the ribbon.
+
+ Index: 32
+Question: Which of the following is the best way to create a duplicate slide?
+CodeBlock:
+
+Options:
+0 . click the slide and select it using ctrl + a, then copy it and paste it into new slide.
+1 . redo everything on new slide
+2 . choose duplicate slide from insert slide
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 33
+Question: The special effects in a powerpoint presentation used to introduce slides are called as -
+CodeBlock:
+
+Options:
+0 . effect
+1 . transitions
+2 . slide animation
+3 . custom animation
+4 . 
+Correct Answer: 1
+
+Explanation: Transition effects appear when one slide changes into next slide in a Slide Show. MS PowerPoint offers several types of transitions, which makes the presentation attractive and effective. On adding a transition to a slide, the slide changes in a different way rather than simple.
+
+ Index: 34
+Question: Which of the following is used to add text in a slide?
+CodeBlock:
+
+Options:
+0 . text box
+1 . comment box
+2 . note box
+3 . custom animation
+4 . 
+Correct Answer: 0
+
+Explanation: In addition to placeholders, you can insert text boxes in the slide. You can move and resize the text box. There are some steps to add a text box -Open the Insert tabIn Text group click the Text Box commandClick on the slide and drag the cursor until text box takes the desired width.Then release the mouse.
+
+ Index: 35
+Question: What is the slide transition?
+CodeBlock:
+
+Options:
+0 . letters
+1 . overheads
+2 . it is a special effect used to introduce a slide in a slide show.
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Transition effects appear when one slide changes into next slide in a Slide Show. MS PowerPoint offers several types of transitions, which makes the presentation attractive and effective. On adding a transition to a slide, the slide changes in a different way rather than simple.
+
+ Index: 36
+Question: Which of the following is the collection of design choices, including special effects, colors, and fonts?
+CodeBlock:
+
+Options:
+0 . data
+1 . theme
+2 . slide
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Themes are design templates that make the presentation colorful and stylist. With a single click, you can apply a theme to the entire presentation.
+
+ Index: 37
+Question: Which of the following menu in powerpoint includes the Picture, Text Box, Shapes, Clip Art?
+CodeBlock:
+
+Options:
+0 . file
+1 . insert
+2 . design
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The insert menu in powerpoint includes many options in which some of them are Clip Art, Picture, Shapes, and Text Box.
+
+ Index: 38
+Question: What is the difference between the slide design and auto content wizard?
+CodeBlock:
+
+Options:
+0 . both are same
+1 . slide design does not provide sample content, whereas the auto content wizard provides the sample content
+2 . slide design provides the sample content, whereas the auto content wizard does not provide the sample content
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Auto Content Wizard provides the sample content to its users. On the other side, slide Design is a simple design format of PowerPoint that does not provide any sample content.
+
+ Index: 39
+Question: Which of the following view in powerpoint is used to add comments?
+CodeBlock:
+
+Options:
+0 . slide sorter view
+1 . notes page view
+2 . normal view
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Notes page view in powerpoint provides the space below the slide to add notes.
+
+ Index: 40
+Question: Is it allowed to make a PDF of the powerpoint presentation?
+CodeBlock:
+
+Options:
+0 . yes
+1 . no
+2 . may be
+3 . can't say
+4 . 
+Correct Answer: 0
+
+Explanation: Yes, you can make the PDF of the PowerPoint presentation. PowerPoint allows the users to convert the PowerPoint slides to PDF documents.
+
+ Index: 41
+Question: Is it possible to convert a powerpoint presentation into a video?
+CodeBlock:
+
+Options:
+0 . yes
+1 . no
+2 . may be
+3 . can't say
+4 . 
+Correct Answer: 0
+
+Explanation: Yes, we can export a PowerPoint presentation into a video. MS PowerPoint allows the users to convert a presentation into different formats like PDF/XPS document, video document, Handout, and more. It also allows the users to export a presentation as a package presentation for CD.
+
+ Index: 42
+Question: What term will be used when you hold the left key of the mouse on an object and move it on the slide?
+CodeBlock:
+
+Options:
+0 . dragging
+1 . moving
+2 . highlighting
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: When one holds the left key of the mouse on an object and moves it on the PowerPoint slide, this action is called dragging.
+
+ Index: 43
+Question: In a powerpoint presentation -
+CodeBlock:
+
+Options:
+0 . we can insert movie clips but not the sound clips
+1 . we can insert sound clips but not the movie clips
+2 . both movie clips and sound clips can be inserted
+3 . both movie clips and sound clips cannot be inserted
+4 . 
+Correct Answer: 2
+
+Explanation: PowerPoint helps to represent the data in an attractive way by allowing the user to add text, image, graphics, audio, and video to it.
+
+ Index: 44
+Question: In a powerpoint presentation, how would you insert a logo that will appear in the same position on all the slides? 
+CodeBlock:
+
+Options:
+0 . insert logo on handout master
+1 . insert logo on the slide master
+2 . insert logo on notes master
+3 . insert logo individually on each slide of the presentation
+4 . 
+Correct Answer: 1
+
+Explanation: You can insert the logo on the Slide master. So, the logo will appear in the same position on all the slides.
+
+ Index: 45
+Question: Which of the following adds a text box on a slide of the powerpoint presentation?
+CodeBlock:
+
+Options:
+0 . insert -> text box
+1 . design -> text box
+2 . format -> text box
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The steps to add a text box in powerpoint are given below -Open the Insert tabIn Text group click the Text Box commandClick on the slide and drag the cursor until text box takes the desired widthThen release the mouse
+
+ Index: 46
+Question: Which of the following shortcut key is used for help in powerpoint?
+CodeBlock:
+
+Options:
+0 . f1
+1 . f2
+2 . f3
+3 . f4
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 47
+Question: Which of the following shortcut key is used to center align the text in a slide?
+CodeBlock:
+
+Options:
+0 . ctrl + e
+1 . ctrl + l
+2 . ctrl + r
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 48
+Question: Which of the following shortcut key is used to change the case of the selected text?
+CodeBlock:
+
+Options:
+0 . shift + f3
+1 . shift + f1
+2 . shift + f2
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Shift + F3 allows the users to change the selected text into uppercase or lowercase and can be used to change the first letter of a word into a capital letter. If the text is not selected, only the first word after the cursor will be changed.
+
+ Index: 49
+Question: Which of the following shortcut key is used to show or hide the grid in powerpoint?
+CodeBlock:
+
+Options:
+0 . shift + f9
+1 . shift + f1
+2 . shift + f2
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Shift + F9 is used to show or hide the grid on the slide in Microsoft PowerPoint.
+
+]

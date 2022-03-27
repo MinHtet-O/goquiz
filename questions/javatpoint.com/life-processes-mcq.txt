@@ -1,0 +1,701 @@
+&[Index: 0
+Question: Which of the following are examples of autotrophic organisms?
+CodeBlock:
+
+Options:
+0 . fungi and virus
+1 . virus and bacteria
+2 . green plants and some bacteria
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The organisms which can use materials from inorganic sources to produce their own food are known as Autotrophs. Generally, the autotrophs are certain kinds of bacteria, algae as well as plants?for example, Cyanobacteria, algae, plants, etc.
+
+ Index: 1
+Question: Which of the following is required in the autotrophic mode of nutrition?
+CodeBlock:
+
+Options:
+0 . sunlight
+1 . chlorophyll
+2 . water and carbon dioxide
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: The term Autotroph means "self-feeder". So, autotrophs refer to those organisms which can produce their own food using light, water, carbon dioxide, and other chemicals. They are producers in a food chain, e.g., plants on land and algae in the water.
+
+ Index: 2
+Question: Which of the following is the green pigment used in photosynthesis?
+CodeBlock:
+
+Options:
+0 . chlorophyll
+1 . hemoglobin
+2 . phytochrome
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In green plants, chlorophyll pigment, which is present in the plant cell that helps to synthesis their own food by absorbing energy from the sunlight.
+
+ Index: 3
+Question: Chlorophyll is mainly located in which of the following part of the plant?
+CodeBlock:
+
+Options:
+0 . stem
+1 . root
+2 . green leaf
+3 . bark
+4 . 
+Correct Answer: 2
+
+Explanation: Chlorophyll is mainly present in the leaves of a plant.
+
+ Index: 4
+Question: Which of the following is the largest gland of the human body?
+CodeBlock:
+
+Options:
+0 . gastric glands
+1 . pancreas
+2 . liver
+3 . salivary glands
+4 . 
+Correct Answer: 2
+
+Explanation: The liver is the largest gland in the human body. It plays an important role in digestion. The liver is one of the largest organs in the body which metabolizes, detoxifies, and filters harmful drugs and substances in our body. It also stores vitamins, minerals and synthesizes proteins, enzymes and bile.
+
+ Index: 5
+Question: Which of the following mode of nutrition is found in fungi?
+CodeBlock:
+
+Options:
+0 . autotrophic nutrition
+1 . saprotrophic nutrition
+2 . holozoic nutrition
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Saprotrophic nutrition occurs in saprotrophs and is associated with fungi and soil bacteria. 
+
+ Index: 6
+Question: The instrument used to measure the blood pressure is -
+CodeBlock:
+
+Options:
+0 . sphygmomanometer
+1 . barometer
+2 . photometer
+3 . manometer
+4 . 
+Correct Answer: 0
+
+Explanation: A sphygmomanometer is used to measure blood pressure in humans. The blood pressure reading obtained by using a sphygmomanometer is composed of two numbers that indicate systolic and diastolic pressures. E.g., 120/80 mm Hg.
+
+ Index: 7
+Question: The normal range of blood pressure in a human being is -
+CodeBlock:
+
+Options:
+0 . 120/80 mm hg
+1 . 120/90 mm hg
+2 . 160/80 mm hg
+3 . 130/80 mm hg
+4 . 
+Correct Answer: 0
+
+Explanation: The normal range of blood pressure is categorized within a number less than 120 to 80 mm Hg. If the blood pressure results fit into this category, we have to stick with heart-healthy habits like a balanced diet and exercise.
+
+ Index: 8
+Question: Which of the following process converts the light energy into chemical energy?
+CodeBlock:
+
+Options:
+0 . respiration
+1 . transpiration
+2 . photosynthesis
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Photosynthesis is a biological process through which plants manufacture their food with light from the sun and inorganic sources. Green plants convert light energy into chemical energy by photosynthesis, or they are able to fix carbon from the carbon dioxide into organic compounds.
+
+ Index: 9
+Question: What is the full form of ATP?
+CodeBlock:
+
+Options:
+0 . adenosine diphosphate
+1 . adenosine phosphate
+2 . adenosine triphosphate
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: ATP stands for Adenosine Triphosphate. It a high-energy molecule found in the cells of the human body, animals, plants, etc. It is capable of storing and supplying the energy needed by cells.
+
+ Index: 10
+Question: Which of the following is the primary function of the hemoglobin?
+CodeBlock:
+
+Options:
+0 . to make blood calories.
+1 . to kill harmful bacteria.
+2 . transport of o2
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Haemoglobin is present in the red blood cells. It transports oxygen to the tissues of the human body. Hemoglobin carries oxygen throughout the body. The iron in hemoglobin gives RBC/blood its red color.
+
+ Index: 11
+Question: Respiration in plants takes place in -
+CodeBlock:
+
+Options:
+0 . only in night
+1 . only in day
+2 . only in evening
+3 . in day and night both
+4 . 
+Correct Answer: 3
+
+Explanation: The term Respiration is a biochemical process that is used to release energy from the organic compounds that are then used to carry out various physical activities. Respiration in plants takes place all-time, day and night. 
+
+ Index: 12
+Question: What happens in the human body during respiration?
+CodeBlock:
+
+Options:
+0 . formation of new cells
+1 . formation of glucose
+2 . oxidization of glucose
+3 . formation of protein
+4 . 
+Correct Answer: 2
+
+Explanation: Respiration is a continuous process that occurs in the cells of all living organisms to produce energy. In this process, energy is released by breaking down glucose in the cells of the body.
+
+ Index: 13
+Question: The left atrium receives the pure blood from the -
+CodeBlock:
+
+Options:
+0 . superior venacava
+1 . pulmonary artery
+2 . pulmonary veins
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Pulmonary veins transfer the oxygenated blood from the lungs to the heart. From the lungs, the oxygenated blood enters the left atrium (left upper chamber) through the pulmonary vein and then enters the left ventricle (left lower chamber). From here, the oxygenated blood is pumped throughout the body via the aorta or arteries.
+
+ Index: 14
+Question: Which of the following procedure is used to clean the blood of a person by separating urea from it?
+CodeBlock:
+
+Options:
+0 . filtration
+1 . osmosis
+2 . dialysis
+3 . 
+4 . 
+Correct Answer: 2
+
+Explanation: Dialysis is a procedure that is used to clean the person's blood by separating the urea from it.
+
+ Index: 15
+Question: Which of the following tube connects the kidneys to the urinary bladder?
+CodeBlock:
+
+Options:
+0 . ureter
+1 . urethra
+2 . tubule
+3 . nephron
+4 . 
+Correct Answer: 0
+
+Explanation: Ureter are the narrow tubes that carry urine from the kidneys to the bladder. The ureter is the tubes that connect the kidney and urinary bladder.
+
+ Index: 16
+Question: Which of the following body organ filters the dirty blood?
+CodeBlock:
+
+Options:
+0 . lungs
+1 . heart
+2 . kidneys
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Kidneys filter the toxins and waste out of the blood. Kidneys are the bean-shaped organs that filter the blood and remove the waste.
+
+ Index: 17
+Question: In which part of the cell, glycolysis process occurs?
+CodeBlock:
+
+Options:
+0 . nucleus
+1 . mitochondria
+2 . chloroplast
+3 . cytoplasm
+4 . 
+Correct Answer: 3
+
+Explanation: Glycolysis takes place in the cytoplasm. The cytoplasm is a gel-like material or fluid present inside the cell and is surrounded by the cell membrane. It mostly comprises water, salts, and proteins. The organelles of the cell remain suspended in the cytoplasm. 
+
+ Index: 18
+Question: The process through which the roots of plants absorb water from the soil is -
+CodeBlock:
+
+Options:
+0 . transpiration
+1 . osmosis
+2 . diffusion
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The roots of plants absorb the water from the soil through osmosis.
+
+ Index: 19
+Question: A network of extremely narrow tubes through which the arteries and veins are connected is known as -
+CodeBlock:
+
+Options:
+0 . vena cava
+1 . capillaries
+2 . valves
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 20
+Question: In amoeba, digestion of food occurs in -
+CodeBlock:
+
+Options:
+0 . cytoplasm
+1 . nucleus
+2 . food vacuole
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: In amoeba, the food is digested in the food vacuole with the help of enzymes. 
+
+ Index: 21
+Question: Which of the following is the function of the large intestine?
+CodeBlock:
+
+Options:
+0 . assimilation of food
+1 . digestion of fats
+2 . digestion of carbohydrates
+3 . absorption of water
+4 . 
+Correct Answer: 3
+
+Explanation: The functions of the large intestine include absorbing water and electrolytes, producing and absorbing vitamins, etc.
+
+ Index: 22
+Question: Which of the following is the functional unit of the lung?
+CodeBlock:
+
+Options:
+0 . bronchus
+1 . alveoli
+2 . bronchiole
+3 . trachea
+4 . 
+Correct Answer: 1
+
+Explanation: Alveoli are the functional units of the lungs that form the site of gaseous exchange.
+
+ Index: 23
+Question: In a minute, how many times human heartbeats?
+CodeBlock:
+
+Options:
+0 . 108
+1 . 120
+2 . 180
+3 . 72
+4 . 
+Correct Answer: 3
+
+Explanation: A normal resting heart rate for an adult human is 60-100 beats per minute. When the rate of beats is higher than 100bpm at rest, it is called Tachycardia, and the rate of heartbeat lower than 60bpm at rest is called Bradycardia. During sleep, the slower speed of heartbeat around 40-50bpm is considered normal.
+
+ Index: 24
+Question: Which of the following is the strongest chamber of the human heart?
+CodeBlock:
+
+Options:
+0 . left ventricle
+1 . left atrium
+2 . right ventricle
+3 . right atrium
+4 . 
+Correct Answer: 0
+
+Explanation: The human heart has four chambers: two atria (singular: atrium) in the upper half and two ventricles in the lower half. Although the left and right ventricles are the stronger chambers, the left ventricle is the strongest chamber of the heart. The left ventricle pumps oxygen-rich blood to the entire body.
+
+ Index: 25
+Question: What happens when the pH in the blood reduces?
+CodeBlock:
+
+Options:
+0 . blood supply to the brain reduces
+1 . affinity of hemoglobin with oxygen decreases
+2 . rate of heartbeat reduces
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 26
+Question: Which of the pair of an organ is meant for respiration in humans?
+CodeBlock:
+
+Options:
+0 . kidney
+1 . lung
+2 . hand
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Lungs are the important organs that help human beings in respiration. The term Respiration means a biochemical process that is used to release energy from the organic compounds that are then used to carry out various physical activities.
+
+ Index: 27
+Question: Is it true that Herbivores have a longer small intestine than a carnivore?
+CodeBlock:
+
+Options:
+0 . false
+1 . true
+2 . can't say
+3 . may be
+4 . 
+Correct Answer: 1
+
+Explanation: In herbivores, the small intestine is longer than in carnivores. Herbivores eat grass that contains cellulose which takes a long time to digest. So herbivores need the longer small intestine to digest cellulose.
+
+ Index: 28
+Question: Which of the following enzyme degrades the oils and fats into simpler fatty acids?
+CodeBlock:
+
+Options:
+0 . trypsin
+1 . cellulase
+2 . lipase
+3 . amylase
+4 . 
+Correct Answer: 2
+
+Explanation: Amylase and Lipase are digestive enzymes. Lipase enzyme helps the body to digest fats. It is made by the pancreas and released into the digestive tract on eating.
+
+ Index: 29
+Question: Which of the following is the role of bile juice?
+CodeBlock:
+
+Options:
+0 . emulsification of fat
+1 . digestion of starch
+2 . digestion of fat
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Bile juice helps in the emulsification of fats, and it also activates the lipase enzyme. Bile salts in bile are required for the emulsification of fats for the purpose of digestion.
+
+ Index: 30
+Question: Which of the following is the respiratory pigment in the human being?
+CodeBlock:
+
+Options:
+0 . enzymes
+1 . hemoglobin
+2 . insulin
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Haemoglobin is present in the human blood and red in color. It is the respiratory pigment in human beings. It is vital for human survival as it carries the dissolved oxygen.
+
+ Index: 31
+Question: In which of the following form the plants absorb the nitrogen from the atmosphere?
+CodeBlock:
+
+Options:
+0 . nitrates and nitrites
+1 . amino acids
+2 . proteins
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 32
+Question: Which of the following respiration is much efficient?
+CodeBlock:
+
+Options:
+0 . anaerobic respiration
+1 . aerobic respiration
+2 . both (a) and (b)
+3 . neither (a) nor (b)
+4 . 
+Correct Answer: 1
+
+Explanation: Aerobic respiration occurs in the presence of oxygen (requires oxygen). A large amount of energy is released in aerobic respiration. It generates 36 ATP molecules per glucose molecule. It occurs in multicellular organisms like plants, animals, humans, etc.
+
+ Index: 33
+Question: The approximate length of an alimentary canal in human beings is -
+CodeBlock:
+
+Options:
+0 . 1m
+1 . 6m - 9m
+2 . 3m - 4m
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The alimentary canal is a continuous passage that starts from the mouth and ends at the anus. It is a significant part of the digestive system as it carries the food through different digestive system parts. It is approximately 9m long from the oesophagus to the anus. So, the correct answer is 6m - 9m.
+
+ Index: 34
+Question: How many milk teeth are present in humans? 
+CodeBlock:
+
+Options:
+0 . 32
+1 . 38
+2 . 20
+3 . 24
+4 . 
+Correct Answer: 2
+
+Explanation: Teeth are one of the essential parts of the human body. They participate in many activities of the human body. Teeth start to appear as soon as children start to wean. Children usually have 20 teeth, called primary, temporary, or milk teeth.
+
+ Index: 35
+Question: After digestion, proteins are converted into -
+CodeBlock:
+
+Options:
+0 . starch
+1 . globules
+2 . carbohydrates
+3 . amino acids
+4 . 
+Correct Answer: 3
+
+Explanation: Proteins are converted into amino acids after digestion.
+
+ Index: 36
+Question: Which of the following is secreted by the liver?
+CodeBlock:
+
+Options:
+0 . gastric juice
+1 . saliva
+2 . pancreatic juice
+3 . bile juice
+4 . 
+Correct Answer: 3
+
+Explanation: Bile is a digestive juice that is secreted by the liver. It is stored in the gallbladder.
+
+ Index: 37
+Question: The impure blood from the right ventricle goes into -
+CodeBlock:
+
+Options:
+0 . liver
+1 . lungs
+2 . heart
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The deoxygenated blood enters the right atrium (right upper chamber) through the superior vena cava (vein), then passed to the right ventricle (right lower chamber), and then pumped to the lungs through the pulmonary artery.
+
+ Index: 38
+Question: Which of the following vitamin is water-soluble?
+CodeBlock:
+
+Options:
+0 . vitamin c
+1 . vitamin a
+2 . vitamin d
+3 . vitamin k
+4 . 
+Correct Answer: 0
+
+Explanation: Vitamin C and all types of vitamin B are water-soluble. People need to regularly consume water-soluble vitamins because the body removes them more quickly, and it cannot store them easily. 
+
+ Index: 39
+Question: Which part of the alimentary canal receives the bile from the liver?
+CodeBlock:
+
+Options:
+0 . small intestine
+1 . large intestine
+2 . stomach
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The small intestine receives the bile from the liver.
+
+ Index: 40
+Question: Which of the following statement is correct about heterotrophs?
+CodeBlock:
+
+Options:
+0 . heterotrophs synthesize their own food.
+1 . heterotrophs do not synthesize their own food.
+2 . heterotrophs utilize solar energy.
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Heterotrophs are those organisms that are unable to prepare their own food, and for their food, they depend on green plants or producers and other animals. This mode of nutrition is called the heterotrophic mode of nutrition.
+
+ Index: 41
+Question: During respiration in humans, gaseous exchange takes place in -
+CodeBlock:
+
+Options:
+0 . alveoli of lungs
+1 . throat and larynx
+2 . alveoli and throat
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Alveoli are the functional units of the lungs that form the site of gaseous exchange.
+
+ Index: 42
+Question: Which of the following plant tissue is used to transport minerals and water from the roots to the leaf?
+CodeBlock:
+
+Options:
+0 . phloem
+1 . parenchyma
+2 . xylem
+3 . collenchyma
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 43
+Question: Which of the following is the correct sequence of body parts in the human alimentary canal?
+CodeBlock:
+
+Options:
+0 . mouth --> oesophagus --> large intestine --> stomach --> small intestine
+1 . mouth --> oesophagus --> small intestine --> stomach --> large intestine
+2 . mouth --> oesophagus --> stomach --> large intestine --> small intestine
+3 . mouth --> oesophagus --> stomach --> small intestine --> large intestine
+4 . 
+Correct Answer: 3
+
+Explanation: None
+
+ Index: 44
+Question: Which of the following is the correct path of urine in human body?
+CodeBlock:
+
+Options:
+0 . kidney --> ureter --> urinary bladder --> urethra
+1 . kidney --> urinary bladder --> ureter --> urethra
+2 . kidney --> ureter --> urethra --> urinary bladder
+3 . urinary bladder --> kidney --> ureter --> urethra
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 45
+Question: The correct sequence of air passage during inhalation is -
+CodeBlock:
+
+Options:
+0 . larynx --> trachea --> pharynx --> lungs --> nostrils
+1 . nostrils --> pharynx --> larynx --> trachea --> alveoli
+2 . nostrils --> trachea --> pharynx --> lungs --> larynx
+3 . trachea --> lungs --> pharynx --> lungs --> alveoli
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 46
+Question: Which of the following is correct?
+CodeBlock:
+
+Options:
+0 . lymph = plasma + rbc + wbc
+1 . plasma = blood - lymphocytes
+2 . blood = plasma + rbc + wbc
+3 . serum = blood + fibrinogen
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 47
+Question: Which of the following are the filtration units of kidneys?
+CodeBlock:
+
+Options:
+0 . ureter
+1 . neurons
+2 . nephrons
+3 . urethra
+4 . 
+Correct Answer: 2
+
+Explanation: None
+
+ Index: 48
+Question: Which of the following is the correct sequence of anaerobic respiration?
+CodeBlock:
+
+Options:
+0 . glucose --> pyruvate --> carbon-dioxide + ethanol + energy
+1 . glucose --> pyruvate --> lactic acid
+2 . glucose --> pyruvate --> adp --> lactic acid
+3 . pyruvate --> glucose --> ethanol + energy
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 49
+Question: Which of the following blood corpuscles destroy bacteria?
+CodeBlock:
+
+Options:
+0 . b.c.
+1 . b.c.
+2 . blood platelets
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+]

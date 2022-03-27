@@ -1,0 +1,555 @@
+&[Index: 0
+Question: Which of the following statement is correct for AngularJS?
+CodeBlock:
+
+Options:
+0 . angularjs is an html framework
+1 . angularjs is a java framework
+2 . angularjs is a javascript framework
+3 . angularjs is a sql framework
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 1
+Question: On which of the Architectural pattern AngularJS is based? 
+CodeBlock:
+
+Options:
+0 . observer pattern
+1 . decorator pattern
+2 . mvc architecture pattern
+3 . mvvm architectural pattern
+4 . 
+Correct Answer: 3
+
+
+
+ Index: 2
+Question: AngularJS is perfect for?
+CodeBlock:
+
+Options:
+0 . spas
+1 . mpas
+2 . dpas
+3 . cpas
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 3
+Question: Which of the following is the correct syntax for writing AngularJS expressions? 
+CodeBlock:
+
+Options:
+0 . (expression)
+1 . {{expression}}
+2 . {{{expression}}}
+3 . [expression]
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 4
+Question: Do AngularJS provide reusable components?
+CodeBlock:
+
+Options:
+0 . yes
+1 . no
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 5
+Question: Which of the following directive is used to bind the application data to the HTML view in AngularJS?
+CodeBlock:
+
+Options:
+0 . ng-app directive
+1 . ng-model directive
+2 . ng-bind directive
+3 . ng-init directive
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 6
+Question: Which of the following syntax is correct for applying multiple filters in AngularJS?
+CodeBlock:
+
+Options:
+0 . {{ expression | filter1 | filter2 | ... }}
+1 . {{ expression | {filter1} | {filter2} | ... }}
+2 . {{ expression - {filter1} - {filter2} - ... }}
+3 . {{ {filter1} | {filter2} | ...-expression}}
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 7
+Question: Which of the following statement is true about the lowercase filter?
+CodeBlock:
+
+Options:
+0 . the lowercase filter converts a text to lower case text.
+1 . the lowercase filter is a function that takes text as input.
+2 . both of the above.
+3 . none of the above.
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 8
+Question: Which of the following is an advantage of AngularJS?
+CodeBlock:
+
+Options:
+0 . angularjs code is unit testable.
+1 . angularjs provides reusable components.
+2 . angularjs uses dependency injection and makes use of separation of concerns.
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+
+
+ Index: 9
+Question: Which of the following statement is true about $dirty flag?
+CodeBlock:
+
+Options:
+0 . $dirty flag is used to state that value has been changed.
+1 . $dirty flag is used to state that the form has invalid data.
+2 . both of the above.
+3 . none of the above.
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 10
+Question: What will be the output for the following code?
+CodeBlock:
+<div ng-app="""" ng-init=""points=[1,15,19,2,40]"">
+<p>The output is {{ points[2] }}</p>
+</div>
+
+Options:
+0 . the output is 1
+1 . the output is 15
+2 . the output is 19
+3 . the output is 2
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 11
+Question: What is the use of Angular Controllers in the application?
+CodeBlock:
+
+Options:
+0 . angular controllers are used for controlling the data.
+1 . angular controllers are used for displaying the data.
+2 . both of the above are correct.
+3 . none of the above is correct.
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 12
+Question: Which of the following syntax is used to create a module in AngularJS?
+CodeBlock:
+
+Options:
+0 . var mymodule= angular.module();
+1 . var mymodule= new module();
+2 . module("app", []);
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 13
+Question: Which of the following is used to share data between controller and view in AngularJS?
+CodeBlock:
+
+Options:
+0 . using model
+1 . using services
+2 . using factory
+3 . using $scope
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 14
+Question: Which of the following statement specifies the data-binding in AngularJS?
+CodeBlock:
+
+Options:
+0 . synchronization of data between the model and view components.
+1 . synchronization of data between the model and controller components.
+2 . synchronization of data between the controller and view components.
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 15
+Question: Which of the following is not a valid AngularJS filter?
+CodeBlock:
+
+Options:
+0 . lowercase
+1 . orderby
+2 . email
+3 . currency
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 16
+Question: Who is known as the father of AngularJS?
+CodeBlock:
+
+Options:
+0 . brad green
+1 . misko hevery
+2 . adam abrons
+3 . mike adams
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 17
+Question: Which of the following directive is used to bind the value of HTML controls to application data?
+CodeBlock:
+
+Options:
+0 . ng-app
+1 . ng-init
+2 . ng-model
+3 . ng-hide
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 18
+Question: Which of the following community Angular JS belong to?
+CodeBlock:
+
+Options:
+0 . twitter
+1 . facebook
+2 . google
+3 . microsoft
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 19
+Question: Is AngularJS completely based on HTML and JavaScript?
+CodeBlock:
+
+Options:
+0 . yes
+1 . no
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 20
+Question: A module created by using the AngularJS function is called?
+CodeBlock:
+
+Options:
+0 . module()
+1 . module()
+2 . mod()
+3 . angular module()
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 21
+Question: Which of the following types of the component can be used to create a custom directive?
+CodeBlock:
+
+Options:
+0 . element directives
+1 . attribute
+2 . css
+3 . all of the above.
+4 . 
+Correct Answer: 3
+
+
+Element directives: This is activated when a matching element is encountered.
+Attribute: This is activated when a matching attribute is encountered.
+CSS: This is activated when a matching CSS style is encountered.
+Comment: This is activated when a matching comment is encountered.
+
+
+ Index: 22
+Question: How many $RootScope an AngularJS application can have?
+CodeBlock:
+
+Options:
+0 . zero
+1 . one
+2 . two
+3 . infinity
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 23
+Question: Which of the following is true about the currency filter?
+CodeBlock:
+
+Options:
+0 . a currency filter is used to format the text in a currency format.
+1 . a currency filter is a function that takes text as input.
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 24
+Question: Which of the following statement is true in the case of a controller in MVC?
+CodeBlock:
+
+Options:
+0 . a controller is a software code that controls the interactions between the model and view.
+1 . a controller is a software code that stores the data.
+2 . a controller is a software code that renders the user interface.
+3 . all of the above.
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 25
+Question: Which of the following components can be injected as a dependency in AngularJS?
+CodeBlock:
+
+Options:
+0 . value
+1 . factory
+2 . constant
+3 . application module
+4 . 
+Correct Answer: 3
+
+
+
+ Index: 26
+Question: What is deep linking in AngularJS? 
+CodeBlock:
+
+Options:
+0 . deep linking is an seo-based technique.
+1 . deep linking refers to linking various views to the main page.
+2 . deep linking allows you to encode the state of an application in the url so that it can be bookmarked.
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 27
+Question: AngularJS applications are a mix of which of the following technologies?
+CodeBlock:
+
+Options:
+0 . html and php
+1 . html and javascript
+2 . html and typescript
+3 . php and javascript
+4 . 
+Correct Answer: 1
+
+
+
+ Index: 28
+Question: Which of the following template can be used to write AngularJS directives?
+CodeBlock:
+
+Options:
+0 . tag
+1 . attribute
+2 . class name
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+
+
+ Index: 29
+Question: Which of the following statement is true in the case of $routeProvider?
+CodeBlock:
+
+Options:
+0 . it is a service.
+1 . it is a module.
+2 . it is a component.
+3 . none of the above.
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 30
+Question: Which of the following statement justify the working of AngularJS? 
+CodeBlock:
+
+Options:
+0 . module is primarily used to create application modules.
+1 . module is used to create angularjs modules along with its dependent modules.
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+
+
+ Index: 31
+Question: The [] parameter in the module definition is used to define dependent modules.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . can be true or false
+3 . cannot say
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 32
+Question: In AngularJS, the $http service is used to make an Ajax call to the server.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 33
+Question: AngularJS facilitates developers to write less code and get more functionality.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 34
+Question: While using the factory method, we must first define a factory and then assign a method to it. 
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 35
+Question: OrderBy filter is applied to an expression using pipe character. 
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 36
+Question: AngularJS application expressions are pure JavaScript expressions.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 37
+Question: AngularJS support two-way data binding.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+ Index: 38
+Question: AngularJS supports internationalization?
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+
+
+]

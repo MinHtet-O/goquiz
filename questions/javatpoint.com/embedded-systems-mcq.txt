@@ -1,0 +1,701 @@
+&[Index: 0
+Question: Which design allows the reuse of the software and the hardware components?
+CodeBlock:
+
+Options:
+0 . memory design
+1 . input design
+2 . platform-based design
+3 . peripheral design
+4 . 
+Correct Answer: 2
+
+Description: The software and the hardware can be reused using the platform design to cope with the increasing complexity in creating embedded systems.
+
+ Index: 1
+Question: Which design considers both the hardware and software during the embedded design?
+CodeBlock:
+
+Options:
+0 . memory design
+1 . software/ hardware codesign
+2 . platform-based design
+3 . peripheral design
+4 . 
+Correct Answer: 1
+
+Description: It will consider both the hardware and software design concerns. It helps in the right combination of the hardware and the software for the efficient product.
+
+ Index: 2
+Question: What does API stand for?
+CodeBlock:
+
+Options:
+0 . application programming interface
+1 . address programming interface
+2 . accessing peripheral through the interface
+3 . none of them
+4 . 
+Correct Answer: 0
+
+Description: The API stands for Application Programming Interface. It helps in extending the platform towards software applications.
+
+ Index: 3
+Question: Which design activity can be used for the mapping operation to hardware?
+CodeBlock:
+
+Options:
+0 . high-level transformation
+1 . scheduling
+2 . compilation
+3 . hardware / software partitioning
+4 . 
+Correct Answer: 3
+
+Description: The activity is in charge of mapping operations to the software or the hardware.
+
+ Index: 4
+Question: Which process can be used in analyzing the set of possible designs?
+CodeBlock:
+
+Options:
+0 . scheduling
+1 . design space exploration
+2 . hardware / software partitioning
+3 . compilation
+4 . 
+Correct Answer: 1
+
+Description: It is the process of analyzing the set of designs, and the method which meets the specification is selected.
+
+ Index: 5
+Question: What does FRIDGE stand for?
+CodeBlock:
+
+Options:
+0 . the floating-point programming design environment
+1 . the fixed-point programming design environment
+2 . floating-point programming decoding
+3 . fixed-point programming decoding
+4 . 
+Correct Answer: 1
+
+Description: FRIDGE stands for Fixed-Point programming Design Environment, which can be developed for the optimization programs.
+
+ Index: 6
+Question: Which of the following tool can replace floating-point arithmetic with fixed-point arithmetic?
+CodeBlock:
+
+Options:
+0 . fat
+1 . sds
+2 . fridge
+3 . vfat
+4 . 
+Correct Answer: 2
+
+Description: There are specific tools available for the optimization programs. One such tool is the FRIDGE or fixed-point programming design environment, commercially made available by Synopsys System Studio. This tool can be used in the transformation program, converting floating-point arithmetic to fixed-point arithmetic. This is widely used in signal processing.
+
+ Index: 7
+Question: Which of the following can reduce the loop overhead and thus increase the speed?
+CodeBlock:
+
+Options:
+0 . loop tiling
+1 . loop unrolling
+2 . loop fusion
+3 . loop permutation
+4 . 
+Correct Answer: 1
+
+Description: The loop unrolling can reduce the loop overhead, that is, the fewer branches per execution of the loop body, which in turn increases the speed but is only restricted to loops with an endless number of iteration. The unrolling can improve the code size.
+
+ Index: 8
+Question: Which part of the COOL input comprises information about the available hardware platform components?
+CodeBlock:
+
+Options:
+0 . design constraints
+1 . target technology
+2 . behavior
+3 . both behavior and design constraints
+4 . 
+Correct Answer: 1
+
+Description: The codesign tool consists of three input ports described as target technology, design constraints, and behavior. Each input does different functions. The target technology comprises information about the various hardware platform components available within the system.
+
+ Index: 9
+Question: What does Index set L denotes?
+CodeBlock:
+
+Options:
+0 . task graph node
+1 . processor
+2 . hardware components
+3 . task graph node type
+4 . 
+Correct Answer: 3
+
+Description: The index set is used in the IP or the integer programming model. The Index set KP denotes the processor, I represent the task graph nodes, and L means the task graph node type.
+
+ Index: 10
+Question: Which design can be used to reduce the energy consumption of the embedded system?
+CodeBlock:
+
+Options:
+0 . simulator
+1 . compiler
+2 . emulator
+3 . debugger
+4 . 
+Correct Answer: 1
+
+Description: The compiler can be used to reduce the energy consumption of the embedded system. It performs the available energy optimizations.
+
+ Index: 11
+Question: What is the main ingredient for power optimization?
+CodeBlock:
+
+Options:
+0 . power model
+1 . energy model
+2 . power compiler
+3 . watt model
+4 . 
+Correct Answer: 0
+
+Description: You can save energy at any stage of the embedded system development. High-level optimization techniques can reduce power consumption. Similarly, compiler optimization can also reduce power consumption, and the essential thing in power optimization is the power model.
+
+ Index: 12
+Question: Who proposed the first power model?
+CodeBlock:
+
+Options:
+0 . russell
+1 . jacome
+2 . russel and jacome
+3 . tiwari
+4 . 
+Correct Answer: 3
+
+Description: Tiwari proposed the first power model in the year 1974. The model includes the so-called bases and the inter-instruction instructions. The education's base costs correspond to the energy consumed per instruction execution when an infinite sequence of that instruction is executed. Inter instruction costs model the additional power consumed by the processor if instructions change.
+
+ Index: 13
+Question: Which model is based on precise measurements using real hardware?
+CodeBlock:
+
+Options:
+0 . first power model
+1 . encc energy-aware compiler
+2 . second power model
+3 . third power model
+4 . 
+Correct Answer: 0
+
+Description: The enccenergy-aware compiler uses the energy model by Steinke et al. it is based on the actual hardware's precise measurements. The power consumption of the memory, as well as the processor, is included in this model.
+
+ Index: 14
+Question: How can one compute the power consumption of the cache?
+CodeBlock:
+
+Options:
+0 . first power model
+1 . lee power model
+2 . cacti
+3 . third power model
+4 . 
+Correct Answer: 2
+
+Description: The CACTI can compute the cache's power consumption, which Wilton and Jouppi proposed in 1996.
+
+ Index: 15
+Question: Which of the following function can interpret data in the C language?
+CodeBlock:
+
+Options:
+0 . scanf
+1 . printf
+2 . file
+3 . proc
+4 . 
+Correct Answer: 0
+
+Description: The scanf and printf are the C language functions used to interpret data and print data.
+
+ Index: 16
+Question: Which statement replaces all occurrences of the identifier with string?
+CodeBlock:
+
+Options:
+0 . # include
+1 . # define identifier string
+2 . # ifdef
+3 . # define macro()
+4 . 
+Correct Answer: 1
+
+Description: # define statement can replace all occurrences of the identifier with string. Similarly, it can determine the constants, which also makes the code easier to understand.
+
+ Index: 17
+Question: Which of the following is also known as loader?
+CodeBlock:
+
+Options:
+0 . linker
+1 . locator
+2 . assembler
+3 . compiler
+4 . 
+Correct Answer: 0
+
+Description: The linker is also known as a loader. It can take the object file and searches the library files to find the routine it calls.
+
+ Index: 18
+Question: Which command takes the object file and searches library files to find the routine calls?
+CodeBlock:
+
+Options:
+0 . emulator
+1 . simulator
+2 . linker
+3 . debugger
+4 . 
+Correct Answer: 2
+
+Description: The linker is also known as a loader. It can take the object file and searches the library files to find the routine it calls. The linker can give the programmer the final control concerning how unresolved references are reconciled, where the sections are located in the memory, which routines are used, etc.
+
+ Index: 19
+Question: Which of the following language can describe the hardware?
+CodeBlock:
+
+Options:
+0 . c++
+1 . c
+2 . vhdl
+3 . java
+4 . 
+Correct Answer: 2
+
+Description: The VHDL is the hardware description language that describes the hardware, whereas C, C++, and JAVA are software languages.
+
+ Index: 20
+Question: Which simulator/ debugger is capable of displaying output signal waveform resulting from stimuli applied to the inputs?
+CodeBlock:
+
+Options:
+0 . vhdl emulator
+1 . vhdl simulator
+2 . vhdl locator
+3 . vhdl debugger
+4 . 
+Correct Answer: 1
+
+Description: The VHDL simulator can display the output signal waveforms that result from the stimuli or trigger applied to the input.
+
+ Index: 21
+Question: What describes the connections between the entity port and the local component?
+CodeBlock:
+
+Options:
+0 . one-to-one map
+1 . many-to-one map
+2 . one-to-many maps
+3 . port map
+4 . 
+Correct Answer: 3
+
+Description: The port map describes the connection between the entity port and the local component. The component is declared by component declaration, and the entity ports are mapped with the port mapping.
+
+ Index: 22
+Question: Which of the following is an abstraction of the signal impedance?
+CodeBlock:
+
+Options:
+0 . strength
+1 . nature
+2 . size
+3 . level
+4 . 
+Correct Answer: 3
+
+Description: Most of the systems contain electrical signals of different strengths and levels. The signal's level is the abstraction of the signal voltage, and the power is the abstraction of the signal impedance.
+
+ Index: 23
+Question: How many types of wait statements are available in the VHDL design?
+CodeBlock:
+
+Options:
+0 . 4
+1 . 3
+2 . 6
+3 . 5
+4 . 
+Correct Answer: 0
+
+Description: There are four kinds of wait statements. These are waiting on, wait for, wait until and wait.
+
+ Index: 24
+Question: Which of the following is a C++ class library?
+CodeBlock:
+
+Options:
+0 . c
+1 . java
+2 . systemc
+3 . c++
+4 . 
+Correct Answer: 2
+
+Description: System C is a C++ class library that helps solve behavioral, resolution, simulation time problems.
+
+ Index: 25
+Question: Which C++ class is similar to the hardware description language like VHDL?
+CodeBlock:
+
+Options:
+0 . verilog
+1 . c
+2 . java
+3 . systemc
+4 . 
+Correct Answer: 3
+
+Description: SystemC is a C++ class similar to the hardware description languages like VHDL and Verilog. The execution and simulation time in the SystemC is almost identical to the VHDL.
+
+ Index: 26
+Question: Which of the following is standardized as IEEE 1364?
+CodeBlock:
+
+Options:
+0 . c++
+1 . c
+2 . verilog
+3 . fortran
+4 . 
+Correct Answer: 2
+
+Description: It is a hardware description language. Verilog was developed for modeling hardware and electronic devices. It is then standardized by the IEEE standard 1364.
+
+ Index: 27
+Question: Which of the following is an analog extension of the VHDL?
+CodeBlock:
+
+Options:
+0 . system vhdl
+1 . vhdl-ams
+2 . system verilog
+3 . verilog
+4 . 
+Correct Answer: 1
+
+Description: The extension of the VHDL includes the analog and mixed behavior of the signals.
+
+ Index: 28
+Question: Which level simulates the algorithms that are used within the embedded systems?
+CodeBlock:
+
+Options:
+0 . circuit level
+1 . gate level
+2 . algorithmic level
+3 . switch level
+4 . 
+Correct Answer: 0
+
+Description: It simulates the algorithm which is used within the embedded system.
+
+ Index: 29
+Question: Which of the following models the components like resistors, capacitors, etc.?
+CodeBlock:
+
+Options:
+0 . layout model
+1 . register-transfer level
+2 . switch-level model
+3 . circuit level model
+4 . 
+Correct Answer: 3
+
+Description: This simulation can be used for the circuit theory and its components such as the resistors, inductors, capacitors, voltage sources, current sources. This simulation also involves partial differential equations.
+
+ Index: 30
+Question: Which models communicate between the components?
+CodeBlock:
+
+Options:
+0 . fine-grained modeling
+1 . transaction level modeling
+2 . circuit-level model
+3 . coarse-grained modeling
+4 . 
+Correct Answer: 1
+
+Description: The transaction-level modeling is a type of instruction set level model. This modeling helps in the modeling of components which is used for the communication purpose. It also models the transaction, such as read and writes cycles.
+
+ Index: 31
+Question: Which model is used to denote the Boolean functions?
+CodeBlock:
+
+Options:
+0 . gate-level model
+1 . switch level
+2 . layout model
+3 . circuit level
+4 . 
+Correct Answer: 0
+
+Description: The gate-level model is used to denote the boolean functions, and the simulation only considers the gate's behavior.
+
+ Index: 32
+Question: n which model, the effect of instruction is simulated, and their timing is not considered?
+CodeBlock:
+
+Options:
+0 . circuit model
+1 . gate-level model
+2 . layout model
+3 . coarse-grained model
+4 . 
+Correct Answer: 3
+
+Description: The coarse-grained model is a kind of instruction set level modeling in which only the effect of instruction is simulated, and the timing is not considered. The information which is provided in the manual is sufficient for this type of modeling.
+
+ Index: 33
+Question: Which of the following is a set of specially selected input patterns?
+CodeBlock:
+
+Options:
+0 . debugger pattern
+1 . test pattern
+2 . byte pattern
+3 . bit pattern
+4 . 
+Correct Answer: 1
+
+Description: While testing any devices or embedded systems, we apply some selected inputs known as the test pattern and observe the output. This output is compared with the expected outcome. The test patterns usually are used in the already manufactured systems.
+
+ Index: 34
+Question: Which of the following have flip-flops which are connected to form shift registers?
+CodeBlock:
+
+Options:
+0 . test pattern
+1 . scan design
+2 . crc
+3 . bit pattern
+4 . 
+Correct Answer: 1
+
+Description: All the flip-flop storing states are connected to form a shift register in the scan design. It is a kind of test path.
+
+ Index: 35
+Question: Which gate is used in the geometrical representation if a single event causes hazards?
+CodeBlock:
+
+Options:
+0 . not
+1 . or
+2 . and
+3 . nand
+4 . 
+Correct Answer: 1
+
+Description: The fault tree analysis is done graphically using gates, mainly AND gates and OR gates. The OR gate is used to represent a single event that is hazardous. Similarly, AND gates are used in the graphical representation if several events cause hazards.
+
+ Index: 36
+Question: Which of the following can compute the exact number of clock cycles required to run an application?
+CodeBlock:
+
+Options:
+0 . coarse-grained model
+1 . layout model
+2 . register-transaction model
+3 . fine-grained model
+4 . 
+Correct Answer: 3
+
+Description: The fine-grained model has the cycle-true instruction set simulation. In this modeling, it is possible to compute the exact number of clock cycles required to run an application.
+
+ Index: 37
+Question: Which of the following is possible to locate errors in the specification of the future bus protocol?
+CodeBlock:
+
+Options:
+0 . hol
+1 . emc
+2 . fol
+3 . bdd
+4 . 
+Correct Answer: 3
+
+Description: The model checking was developed using the binary decision diagram and the BDD, and it was possible to locate errors in the specification of the future bus protocol.
+
+ Index: 38
+Question: What is CTL?
+CodeBlock:
+
+Options:
+0 . code tree logic
+1 . cpu tree logic
+2 . computer tree logic
+3 . computational tree logic
+4 . 
+Correct Answer: 3
+
+Description: The EMC-system is a popular system for model checking developed by Clark that describes the CTL formulas, also known as computational tree logic. The CTL consist of two parts, a path quantifier and a state quantifier.
+
+ Index: 39
+Question: Which is a top-down method of analyzing risks?
+CodeBlock:
+
+Options:
+0 . fmea
+1 . fta
+2 . damages
+3 . hazards
+4 . 
+Correct Answer: 1
+
+Description: The FTA is Fault tree analysis which is a top-down method of analyzing risks. It starts with damage and comes up with the reasons for the damage. The research is done graphically by using gates.
+
+ Index: 40
+Question: Which of the following microprocessor is designed by Zilog?
+CodeBlock:
+
+Options:
+0 . zigbee
+1 . z80
+2 . 8087
+3 . 80386
+4 . 
+Correct Answer: 1
+
+Description: Designed by Zilog in 1976. 80386 and 8087 are the processors designed by Intel, and Zigbee is IEEE based, which is used for high-level communication protocol.
+
+ Index: 41
+Question: How an alternate set of the register can be identified in Z80?
+CodeBlock:
+
+Options:
+0 . 'prefix
+1 . 'suffix
+2 . , prefix
+3 . , suffix
+4 . 
+Correct Answer: 1
+
+Description: To identify the main register and alternate register ' is used in the suffix.
+
+ Index: 42
+Question: What is the purpose of the memory refresh register of Z80?
+CodeBlock:
+
+Options:
+0 . to control on-chip sram
+1 . to control on-chip dram
+2 . to clear cache
+3 . to control rom
+4 . 
+Correct Answer: 1
+
+Description: In addition to the general-purpose registers, a stack pointer, program counter, and two index registers are included in Z80. It was also used in many embedded designs because of its high-quality performance and its in-built refresh circuitry for DRAMs.
+
+ Index: 43
+Question: Which signal is used to differentiates the access from a standard memory cycle?
+CodeBlock:
+
+Options:
+0 . reset
+1 . halt
+2 . iorq
+3 . mreq
+4 . 
+Correct Answer: 2
+
+Description: The IORQ signal is used to differentiate the access from a standard memory cycle. These input/output accesses are similar from a hardware perspective to a memory cycle but only occur when an input/output port instruction is executed.
+
+ Index: 44
+Question: What supports multitasking in 80386?
+CodeBlock:
+
+Options:
+0 . external paging memory management unit
+1 . read mode
+2 . on-chip paging memory management unit
+3 . paging and segmentation
+4 . 
+Correct Answer: 2
+
+Description: Because of the efficient paging mechanism of 80386 in the memory management unit, it supports multitasking. That is, different tasks can be done at a time, a kind of parallel port.
+
+ Index: 45
+Question: Which one of the following is the successor of the 8086 and 8088 processor?
+CodeBlock:
+
+Options:
+0 . 80387
+1 . 80286
+2 . 8087
+3 . 8051
+4 . 
+Correct Answer: 1
+
+Description: 80286 is the successor of 8086 and 8088 because it possesses a CPU based on 8086 and 8088. 8051 is a microcontroller designed by Intel which is commonly known as Intel MCS-51. 8087 is the first floating-point coprocessor of 8086.
+
+ Index: 46
+Question: Which are the two modes of 80286?
+CodeBlock:
+
+Options:
+0 . mode1 and mode2
+1 . mode a and mode b
+2 . real mode and protected mode
+3 . alternate and main
+4 . 
+Correct Answer: 2
+
+Description: It possesses two modes which are called fundamental and protected methods. In natural ways, it adds some additional register to access a size greater than 16MB but still preserves its compatibility with 8086 and 8088.
+
+ Index: 47
+Question: When is the register set gets expanded in 80286?
+CodeBlock:
+
+Options:
+0 . in expanded mode
+1 . interrupt mode
+2 . in real mode
+3 . in protected mode
+4 . 
+Correct Answer: 3
+
+Description: In protected mode, two additional register instances are called index register and base pointer register, which helps expand the register.
+
+ Index: 48
+Question: Which of the following processors can perform exponential, logarithmic, and trigonometric functions?
+CodeBlock:
+
+Options:
+0 . 8087
+1 . 8088
+2 . 8086
+3 . 8080
+4 . 
+Correct Answer: 0
+
+Description: 8087 is a coprocessor that can perform all the mathematical functions, including addition, subtraction, multiplication, division, exponential, logarithmic, trigonometric, etc. 8086, 8080, and 8088 are microprocessors that require the help of a coprocessor for floating-point arithmetic.
+
+ Index: 49
+Question: How are negative numbers stored in a coprocessor?
+CodeBlock:
+
+Options:
+0 . decimal
+1 . gray
+2 . 1's complement
+3 . 2's complement
+4 . 
+Correct Answer: 3
+
+Description: In a coprocessor, negative numbers are stored in 2's complement with its leftmost sign bit of 1, whereas positive numbers are stored in the form of actual value with its leftmost sign bit of 0.
+
+]

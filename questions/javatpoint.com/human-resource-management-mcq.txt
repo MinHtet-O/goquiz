@@ -1,0 +1,718 @@
+&[Index: 0
+Question: Which of the following is the correct abbreviation of HRM?
+CodeBlock:
+
+Options:
+0 . human resource management
+1 . human resourcefulness management
+2 . human relation management
+3 . humanistic relation management
+4 . 
+Correct Answer: 0
+
+Explanation: Human resource management is strategic planning followed by several organizations that focus on recruiting, managing, and guiding newly hired employees.
+
+ Index: 1
+Question: Which of the following correctly defines the Human Resource Department?
+CodeBlock:
+
+Options:
+0 . functional department
+1 . service department
+2 . line department
+3 . authority department
+4 . 
+Correct Answer: 1
+
+Explanation: As the name suggests, the human resource department handles all the organization's activities pertaining to the employees. 
+
+ Index: 2
+Question: Human factor can be defined as __________
+CodeBlock:
+
+Options:
+0 . the entire concept of human behavior
+1 . interrelated physiological, psychological and socio-ethical aspects of a human being.
+2 . micro and macro issues of socioeconomic factor
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: None.
+
+ Index: 3
+Question: Finding ways to reduce __________ is a crucial responsibility of management.
+CodeBlock:
+
+Options:
+0 . stress
+1 . dissatisfaction
+2 . uncertainty
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The primary role of a manager is to ensure the daily functioning of a department or group of employees.
+
+ Index: 4
+Question: Which of the following components are reformed to support the strategies of human resource function?
+CodeBlock:
+
+Options:
+0 . control systems
+1 . appointment
+2 . rewards
+3 . job allotment
+4 . 
+Correct Answer: 0
+
+Explanation: In order to support the strategies of human resource functions, control systems and rewards are altered. Strategic human resource management is a kind of practice in which employees are fascinated, developed, rewarded, and retained for the growth of both the employees and the organization. 
+
+ Index: 5
+Question: What is the need for Human Resource Planning?
+CodeBlock:
+
+Options:
+0 . for undergoing an effective employee development program
+1 . to represent a base for recruitment
+2 . to represent a base for selection policy
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Human resource planning is one of the most strategic functions incorporated by the Human Resource Management team, which analyzes its employees' capabilities and the demand or supply of work in the market.
+
+ Index: 6
+Question: Directing, being one of the preeminent functions of Human Resource Management that falls under __________
+CodeBlock:
+
+Options:
+0 . operative functions
+1 . technical functions
+2 . managerial functions
+3 . behavioral functions
+4 . 
+Correct Answer: 2
+
+Explanation: In order to meet the desired goals or the end results, the manager directs the workers by means of instructing, guiding, and overviewing their performance.
+
+ Index: 7
+Question: Human relation approach refers to __________
+CodeBlock:
+
+Options:
+0 . an approach in which workers are facilitated with humanity at the workplace.
+1 . a shared teamwork between the employee and the employer for solving problematic issues.
+2 . forming a group of people on the work front so as to inspire them to work collectively for the company's growth in terms of social, economic, and psychological productivity.
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Human relations are defined as the study of group behavior for the purpose of improving interpersonal relationships as among employees.
+
+ Index: 8
+Question: Which of the following fields requires a skilled HR professional?
+CodeBlock:
+
+Options:
+0 . people handling
+1 . clarifying
+2 . both (a) and (b)
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: HR professionals are required to be skilled in the field of clarifying fuzzy visions followed by providing feedback to the managers and the higher authority at the same time.
+
+ Index: 9
+Question: Which of the following is considered as strategic activity?
+CodeBlock:
+
+Options:
+0 . productivity
+1 . recruitment
+2 . planning
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Recruitment refers to a strategic activity as it mainly focuses on fascinating the desired candidates for the specific roles. Selecting is a process undertaken to recognize and select the eligible candidate for the desired job. So, we can conclude that recruitment is not an operational activity but plays a vital role in any organization's strategic activity. 
+
+ Index: 10
+Question: Who laid the foundation of Human Resource Management practices?
+CodeBlock:
+
+Options:
+0 . david c. mcclelland
+1 . roethlisberger and dickinson
+2 . peter drucker and douglas mcgregor
+3 . elton mayo
+4 . 
+Correct Answer: 2
+
+Explanation: Peter Drucker and Douglas McGregor laid the foundation of HRM practices.
+
+ Index: 11
+Question: The business side of the process begins with the strategic __________ as one of the guiding frameworks.
+CodeBlock:
+
+Options:
+0 . policy
+1 . hr
+2 . plan
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The business side of the process begins with the strategic plan as the guiding framework. Strategic planning can be understood as a process of managing a company's resources to meet the end results, which mainly involves setting up the objectives, a complete analysis of the competitive environment and internal organization, assessing strategies accompanied by ensuring that management has rolled out the policies across the organization.
+
+ Index: 12
+Question: How has HRM become one of the highly focused jobs?
+CodeBlock:
+
+Options:
+0 . it focuses on obtaining as well as maintaining a satisfied workforce.
+1 . it results in maximum output with the increased customer satisfaction.
+2 . it promotes group satisfaction with individual development.
+3 . optimum utilization of manpower by motivation and improving efficiency.
+4 . 
+Correct Answer: 1
+
+Explanation: None
+
+ Index: 13
+Question: What does a job specification include?
+CodeBlock:
+
+Options:
+0 . personal characteristics
+1 . physical characteristics
+2 . psychological characteristics
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: In general, a job specification labels the knowledge, skills, education, experience, and abilities required in a person for the desired job.
+
+ Index: 14
+Question: What are those aspects on which the HR professionals apply the risk management techniques?
+CodeBlock:
+
+Options:
+0 . hr competencies
+1 . hr strategies
+2 . both (a) and (b)
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The Human Resource Strategy refers to an overall plan of a business that helps manage the human capital to align it with its business activities. It sets a direction for all the major areas of HR that includes the hiring process, performance appraisal, development, and compensation.
+
+ Index: 15
+Question: Developing characteristics of people are needed to run business in __________.
+CodeBlock:
+
+Options:
+0 . short term
+1 . medium term
+2 . long term
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The developing characteristics of people need to run business in the long term. The long-run refers to the time horizon required for a producer to have flexibility over all relevant production decisions.
+
+ Index: 16
+Question: Which of the following issues tends to be well disguised?
+CodeBlock:
+
+Options:
+0 . territorial
+1 . social
+2 . political
+3 . economical
+4 . 
+Correct Answer: 0
+
+Explanation: Territorial issues tend to be well disguised. Sales operations adjust territories at least annually and usually include input from first-line managers, who bring local knowledge to the table. When making adjustments to territories, they consider workload, relationships, and even sales rep characteristics such as tenure and experience.
+
+ Index: 17
+Question: Who suggested that Human Resource Strategy isn't as effective as it was supposed to be?
+CodeBlock:
+
+Options:
+0 . tony groundy
+1 . peter ducker
+2 . anonymous
+3 . john zimmerman
+4 . 
+Correct Answer: 0
+
+Explanation: Tony Groundy suggested that Human Resource Strategies are not much effective. Mainly HR Strategy (Human Resource Strategy) is designed for a long-term plan created to achieve objectives in the field of human resource and human capital management and development within the organization. Human Resource strategy is one of the outputs of strategic management in the field of human resources management.
+
+ Index: 18
+Question: How many factors were identified by Pettigrew & Whipp to manage the successful change?
+CodeBlock:
+
+Options:
+0 . four
+1 . five
+2 . three
+3 . six
+4 . 
+Correct Answer: 1
+
+Explanation: Pettigrew & Whipp postulated five key factors such as environmental assessment," "leading change," "linking strategic and operational change," "human resources as assets and liability," and "coherence" that are needed to manage the change. It is one such important factor, which is being shared among the high organization.
+
+ Index: 19
+Question: What is the scope of Human Resource Management?
+CodeBlock:
+
+Options:
+0 . performing training and development sessions for employee growth.
+1 . maintaining good impersonal industrial relations and worker's morale for companies' productivity.
+2 . accomplishing advanced research in behavioral sciences, new ideas in man, management, and advances in the field of training and development.
+3 . none of the above.
+4 . 
+Correct Answer: 2
+
+Explanation: The scope of human resource management refers to all the activities accompanied under the HRM, which are as follows:
+Human Resource Planning
+Job Analysis Design
+Recruitment and Selection
+Orientation and Induction
+Training and Development
+Performance Appraisal
+Compensation, Planning, and Remuneration
+Motivation, health, safety, and welfare
+Industrial relations.
+
+
+ Index: 20
+Question: Which of the following takes a full interest in the process of strategic planning?
+CodeBlock:
+
+Options:
+0 . training & development
+1 . quality control
+2 . human resource
+3 . production
+4 . 
+Correct Answer: 0
+
+Explanation: The training & Development team takes full part in the strategic planning process. It identifies the target that an organization is trying to accomplish and enlists the desired steps that are needed to encounter while reaching the target.
+
+ Index: 21
+Question: Which of the following tells the correct importance of controlling?
+CodeBlock:
+
+Options:
+0 . power to influence people's behavior
+1 . process of regulating the activities
+2 . an important mental process on the part of the manager
+3 . to ensure that all of the activities are coordinated as per the plan.
+4 . 
+Correct Answer: 3
+
+Explanation: The process of controlling helps to achieve the organizational goals and objectives.
+
+ Index: 22
+Question: Which of the following aims to put the financial measure on an organization's intellectual capital?
+CodeBlock:
+
+Options:
+0 . exchange of knowledge
+1 . financial knowledge
+2 . the consortium
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Knowledge exchange aims to put a financial measure on an organization's intellectual capital. Information and knowledge can be defined as today's thermonuclear weapons. Knowledge is stronger and more valuable than natural sources, huge factories, or swollen bank accounts. Organizations perform by using three types of capital: Physical Capital, Financial Capital, and Intellectual Capital.
+
+ Index: 23
+Question: What is mean by decision in management?
+CodeBlock:
+
+Options:
+0 . to formulate a proper conclusion after considerations.
+1 . a decision that looks out for the alternatives.
+2 . a decision is the outcome of a group of people or an individual.
+3 . all of the above.
+4 . 
+Correct Answer: 0
+
+Explanation: None
+
+ Index: 24
+Question: What does quantitative technique refer to?
+CodeBlock:
+
+Options:
+0 . waiting line problems and the queuing theory
+1 . gaming, game theory and probability theory
+2 . models, simulation, and resource allocation technique
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: None.
+
+ Index: 25
+Question: Which of the following is evolved in staffing?
+CodeBlock:
+
+Options:
+0 . termination
+1 . estimation of workload
+2 . personnel appointments and placements
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Staffing is a constant process that finds, selects, evaluates, and develops a healthy relationship on the work front between the present and forthcoming employees.
+
+ Index: 26
+Question: Which of the following is the correct abbreviation of MPDQ?
+CodeBlock:
+
+Options:
+0 . modern positions developed qualitatively
+1 . management process descriptive questions
+2 . management position description questionnaire
+3 . methods for personality development questions
+4 . 
+Correct Answer: 2
+
+Explanation: The MPDQ, which stands for Management Position Description Questionnaire, refers to an inquiry form that is utilized in human resource management for analyzing the management positions.
+
+ Index: 27
+Question: What is defined as a record of outcomes resulting from a particular job or an activity at a specific time?
+CodeBlock:
+
+Options:
+0 . evaluation
+1 . work function
+2 . performance
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Performance can be defined as a set of outcome records generated by a specific job function or activity during a particular time period. The assessment of employee's performance discloses one's contribution company's objectives.
+
+ Index: 28
+Question: A/An __________ is a plan or a program scheme that helps to motivate an individual or a group to deliver outstanding performance.
+CodeBlock:
+
+Options:
+0 . promotion scheme
+1 . incentive scheme
+2 . reward
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: An incentive scheme is a plan or program that motivates an individual or group performance. Incentive schemes attempt to link at least a portion of pay to job performance to encourage higher productivity. Incentives, as often called, should be aligned with the behaviors that help achieve organizational goals or performance. Incentives are either individual or group (organization-wide).
+
+ Index: 29
+Question: A/An __________ is considered to be a vertical move in terms of rank and responsibilities.
+CodeBlock:
+
+Options:
+0 . appraisal
+1 . reward
+2 . increment
+3 . promotion
+4 . 
+Correct Answer: 3
+
+Explanation: A promotion is considered to be a vertical move in terms of rank and responsibilities. The act of promotion elevates an employee to a new position offering higher pay, privileges, or status than the previous one. It mainly refers to the vertical movement in terms of rank and responsibility.
+
+ Index: 30
+Question: Which of the following provides necessary information for job evaluation?
+CodeBlock:
+
+Options:
+0 . job enrichment
+1 . job description
+2 . job ranking
+3 . job enlargement
+4 . 
+Correct Answer: 1
+
+Explanation: The job description provides all the desired information which is required for evaluating a job. Job analysis is a systematic process that collects all the relevant statistics about the job for articulating job description and job specification, required for selecting an employee, providing job satisfaction and motivation, etc.
+
+ Index: 31
+Question: What is the 'Laisezz Fair' viewpoint?
+CodeBlock:
+
+Options:
+0 . a view popularized by ronssean, bentham, and hobbes.
+1 . a minimum of public intervention in economic activities.
+2 . the business enterprise must get the opportunity to earn more profits.
+3 . the change in the concept of labor from the commodity approach to the human concept.
+4 . 
+Correct Answer: 1
+
+Explanation: None.
+
+ Index: 32
+Question: What do you understand by the written record of duties, responsibilities, and conditions of a job?
+CodeBlock:
+
+Options:
+0 . job enrichment
+1 . job ranking
+2 . job enlargement
+3 . job description
+4 . 
+Correct Answer: 3
+
+Explanation: A job description refers to a written record of duties, responsibilities, and conditions, including a complete informative portrayal in terms of scope, tasks, duties, obligations, and work environment for any specific job profile.
+
+ Index: 33
+Question: What are the possible factors that help in understanding the nature of a human being?
+CodeBlock:
+
+Options:
+0 . as per one's behavior at his/her workplace.
+1 . based on how successfully a management team influences an individual employee or a group.
+2 . with the help of human behavior's determinants.
+3 . by studying the human behavior of each employee in alliance with the organization.
+4 . 
+Correct Answer: 0
+
+Explanation: The following factors help understand human nature:
+Tasks and workload patterns
+Working environment
+Leadership quality
+Availability of resources
+Skills acquired by an individual
+Employee attitude, risk tolerance, and personality
+
+
+ Index: 34
+Question: What is meant by the factual statement of the duties and responsibilities?
+CodeBlock:
+
+Options:
+0 . job analysis
+1 . job specification
+2 . job evaluation
+3 . job description
+4 . 
+Correct Answer: 3
+
+Explanation: The job description provides all the desired information which is required for evaluating a job. Job analysis is a systematic process that collects all the relevant statistics about the job for articulating job description and job specification, required for selecting an employee, providing job satisfaction and motivation, etc.
+
+ Index: 35
+Question: Why is the career path in Japanese employee management non-specified?
+CodeBlock:
+
+Options:
+0 . rotational job results in providing a benefit such skills that are necessary for top-quality executives.
+1 . at the time of induction, the employees within the organization get exposure to switch their careers in different job domains and get themselves trained to have hands-on trending technologies.
+2 . in order to keep the employee up to date, the japanese industries offer rotational jobs.
+3 . japanese management system emphasizes creating skilled workers by making them adapt to organizational changes as and when required.
+4 . 
+Correct Answer: 3
+
+Explanation: None.
+
+ Index: 36
+Question: Which of the following are one of kind of skills inventory, regression, replacement charts, Markov analysis?
+CodeBlock:
+
+Options:
+0 . training plan
+1 . retention plan
+2 . redundancy plan
+3 . forecasting methods
+4 . 
+Correct Answer: 3
+
+Explanation: Forecasting refers to a process of formulating the predictions of upcoming events, which requires historical data.
+
+ Index: 37
+Question: For closure, each worker has to compensate with __________ average pay for each preceding year of completed service.
+CodeBlock:
+
+Options:
+0 . 20 days
+1 . 15 days
+2 . 25 days
+3 . 30 days
+4 . 
+Correct Answer: 1
+
+Explanation: For closure, each worker has to compensate with 15 days average pay for each preceding year of completed service. The retrenched employee must be provided with 15 days of average pay for a year of continuous service or any part thereof in excess of six months.
+
+ Index: 38
+Question: Which of the following refers to the term quality improvement?
+CodeBlock:
+
+Options:
+0 . a team effort.
+1 . achieved by the quality inspector.
+2 . zero things went wrong.
+3 . tough job; somewhat impossible task.
+4 . 
+Correct Answer: 1
+
+Explanation: Quality improvement can be identified as a structured approach that helps in assessing the performance of systems and processes, followed by determining if there is any need for improvement in both functional and operational areas.
+
+ Index: 39
+Question: Which of the following pairs in the given sequence represents the initial as well as the final step incurred in the T&D program?
+CodeBlock:
+
+Options:
+0 . evaluating t&d program followed by implementing it.
+1 . determining the need for the t&d program and then evaluating the t&d program.
+2 . determining the need for the t&d program followed by designing the t&d program itself.
+3 . designing the t&d program and then implementing it.
+4 . 
+Correct Answer: 1
+
+Explanation: The (T&D) program, which is abbreviated as "Training and Development," is one of the most powerful and essential programs for organizations as it makes it easier to make an improvement and develop the skills and knowledge of their employees.
+
+ Index: 40
+Question: How are the union leaders elected at different federations?
+CodeBlock:
+
+Options:
+0 . based on employer's recommendations
+1 . based on the seniority
+2 . based on political considerations
+3 . based on the democratic principle
+4 . 
+Correct Answer: 3
+
+Explanation: Union leaders at different levels and federation get elected on the basis of democratic principle. Organizational democracy refers to the system of organization, which is more focused on freedom than that of fear and control.
+
+ Index: 41
+Question: What does job evaluation seek?
+CodeBlock:
+
+Options:
+0 . evaluating the importance of different jobs within the organization.
+1 . evaluating employee's performance of their respective job profiles.
+2 . determining the relative worth of various jobs within the organization in monetary terms.
+3 . establishing the hierarchy of different job profiles in the organization.
+4 . 
+Correct Answer: 2
+
+Explanation: A job evaluation refers to an efficient way of defining the value of a job in contrast to other jobs within an organization.
+
+ Index: 42
+Question: What is included in the content of the job description?
+CodeBlock:
+
+Options:
+0 . skills and educational qualification
+1 . job title and work environment
+2 . both (a) and (b)
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The job description provides all the desired information which is required for evaluating a job. Job analysis is a systematic process that collects all the relevant statistics about the job for articulating job description and job specification, required for selecting an employee, providing job satisfaction and motivation, etc.
+
+ Index: 43
+Question: What is the difference between the Japanese management system and other management systems?
+CodeBlock:
+
+Options:
+0 . it is a system in contrast to the american management system.
+1 . it is mainly concern with high quality and performance standards.
+2 . it is encouraged to perform repetitively and reliably.
+3 . none of the above.
+4 . 
+Correct Answer: 0
+
+Explanation: Japanese management system emphasizes creating skilled workers by making them adapt to organizational changes, as and when required.
+
+ Index: 44
+Question: Which of the following is enhanced by 360-degree feedback?
+CodeBlock:
+
+Options:
+0 . managerial decisions
+1 . hr decisions
+2 . hrd
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: 360-Degree Feedback enhances the quality of HR, Management, and HRD decisions.
+
+ Index: 45
+Question: Stress is laid on __________ in the grid seminars.
+CodeBlock:
+
+Options:
+0 . professionalism
+1 . training and development
+2 . teaching
+3 . all of the above
+4 . 
+Correct Answer: 2
+
+Explanation: Stress is laid on teaching in the grid seminars. In general, the Grid Training refers to a comprehensive organizational development program, which was formerly developed by Blake and Mouton to put emphasis on the complete development of individuals, groups, and the organization as a whole.
+
+ Index: 46
+Question: Which of the following involves one to one interaction amid the administer and the participant?
+CodeBlock:
+
+Options:
+0 . motivation
+1 . counseling
+2 . training
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Explanation: To formulate self-difficulties like stress or emotional feelings caused due to heartbreaks or any professional/personal issues, the client set a meeting with the counselor to undertake a counseling session.
+
+ Index: 47
+Question: Under which of the following methods, common factors related to all jobs are identified?
+CodeBlock:
+
+Options:
+0 . merit
+1 . ranking
+2 . factor comparison
+3 . point
+4 . 
+Correct Answer: 3
+
+Explanation: Under the Point method, common factors related to all the jobs are identified. It identifies all the possible job factors under primary groups (i.e., skill, effort, responsibilities, working conditions), typically up to five groups, where each factor is assigned with a dollar value (as opposed to pointing value).
+
+ Index: 48
+Question: Which of the following is involved in the in-basket training?
+CodeBlock:
+
+Options:
+0 . simulation
+1 . on-the-job training
+2 . vestibule training
+3 . coaching
+4 . 
+Correct Answer: 0
+
+Explanation: In-basket training is a kind of exercise that is accompanied by the organizations while hiring and promoting an employee.
+
+ Index: 49
+Question: __________ is considered as first wage incentive plan in the modern era of the industry.
+CodeBlock:
+
+Options:
+0 . barth plan
+1 . halsey plan
+2 . gantt task plan
+3 . taylor's differential piece-rate plan
+4 . 
+Correct Answer: 3
+
+Explanation: None.
+
+]

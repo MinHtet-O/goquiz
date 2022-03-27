@@ -1,0 +1,701 @@
+&[Index: 0
+Question: A rectangular tank is moving horizontally in the direction of its length with a constant acceleration of 4.8 m/s2. The size of the tank is 7 m, and the depth is 1.5 m. If the tank is open at the top, then calculate the maximum pressure intensity at the bottom.
+CodeBlock:
+
+Options:
+0 . 3.15 n/cm2
+1 . 6.3 n/cm2
+2 . 1.6 n/cm2
+3 . 12.6 n/cm2
+4 . 
+Correct Answer: 0
+
+Description:tanθ=a/gtanθ=4.8/9.8θ=26.07⁰h= d+(L/2)tanθ= 1.5+3.5tan26.07= 3.21 mp=ρ*g*h=3.15 N/cm2.
+
+ Index: 1
+Question: A rectangular tank is moving horizontally in the direction of its length with a constant acceleration of 4.5 m/s2.The tank's size, width, and depth are 7 m, 3m, 2.5m, respectively. If the tank is open at the top, then calculate the total force due to water acting on the tank's higher pressure end.
+CodeBlock:
+
+Options:
+0 . 2.14 mn
+1 . 1.07 mn
+2 . 1.07 mn
+3 . 4.28 mn
+4 . 
+Correct Answer: 1
+
+Description:tanθ=a/gtanθ=4.5/9.8θ=24.64⁰h= d+(L/2)tanθ= 2.5+3.5tan24.64= 4.1 mF=wAĥ=9810*2.68*4.1= 1.07 MN.
+
+ Index: 2
+Question: A tank containing water upto a depth of 650 mm is stationary. Find the force exerted by the fluid of specific gravity .55 on the side of the tank. The width of the tank is 1.5m
+CodeBlock:
+
+Options:
+0 . 3419.4n
+1 . 1709.9 n
+2 . 1367.75 n
+3 . 6838.8 n
+4 . 
+Correct Answer: 1
+
+Description:p=ρ*g*h=550*9.81*0.65=3507 N/m2F=wAĥ= 0.5*0.65*3507*1.5= 1709.7N.
+
+ Index: 3
+Question: If the tank is moving vertically, which of its component is subjected to maximum total pressure?
+CodeBlock:
+
+Options:
+0 . the higher part of vertical walls
+1 . the lower part of vertical walls
+2 . base
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: Base bores the direct pressure
+
+ Index: 4
+Question: In a stationary fluid, how does the local pressure of the liquid vary?
+CodeBlock:
+
+Options:
+0 . in the horizontal direction, only
+1 . with depth only
+2 . neither with depth nor along the horizontal direction
+3 . both with depth and along the horizontal direction
+4 . 
+Correct Answer: 1
+
+Description: According to Pascal's law, a fluid's local pressure is the same in all directions. Hence, the pressure won't vary along the x and y-direction. The local pressure will increase with an increase in depth due to the water column's extra weight above that point.
+
+ Index: 5
+Question: Which of the following cannot be the value of a fluid's absolute pressure at any point?
+CodeBlock:
+
+Options:
+0 . 1.013 bar
+1 . 0
+2 . 200 bar
+3 . - 1 bar
+4 . 
+Correct Answer: 3
+
+Description: Absolute zero pressure is the reference used for the measurement of absolute pressure. Absolute zero pressure is possible (theoretically). Hence, 0 and positive values are possible, but a negative value is impossible.
+
+ Index: 6
+Question: In a U-tube manometer, one end is open to the atmosphere, the other end attached to a pressurized gas of gauge pressure 40 kPa. The height of the fluid column on the atmospheric side is 60 cm, and that on the gas side is 30 cm. The manometric fluid used is: (Take g = 9.8 m/s2).
+CodeBlock:
+
+Options:
+0 . liquid ammonia
+1 . water
+2 . mercury
+3 . oil
+4 . 
+Correct Answer: 2
+
+Description: Gauge pressure = 40000 Pa. Height difference = 60 - 30 = 30 cm = 0.3 m. ρ*g*(h2 - h1) = 40000. We get, ρ = 13605 kg/m3 = Density of mercury.
+
+ Index: 7
+Question: Find the center of buoyancy's position for a wooden block of width 3.5 m and depth 1 m when it floats horizontally in the water. The density of the wooden block is 850 kg/m3, and its length 7.0 m.
+CodeBlock:
+
+Options:
+0 . 0.85
+1 . 0.95
+2 . 1.65
+3 . 1.05
+4 . 
+Correct Answer: 0
+
+Description: Weight of the block = ρ*g*Volume = 850*9.81*7*3.5*1 = 204.29 kNVolume of water displaced = Weight of water displaced/weight density of water = 20.825 m3. h=20.825/3.5*7=0.85 m.
+
+ Index: 8
+Question: A body of dimensions 2.7 m * 3.8 m * 2.5 m, weighs 2500 N in water.Find its weight in air.
+CodeBlock:
+
+Options:
+0 . 508.25 kn
+1 . 254.12 kn
+2 . 127.06 kn
+3 . 101.65 kn
+4 . 
+Correct Answer: 1
+
+Description: Weight of stone in air = Weight of water displaced + Weight of stone in water = 9.81*1000*2.7*3.8*2.5+2500=254.12 kN.
+
+ Index: 9
+Question: What happens to the buoyant force acting on the airship as it rises in the air?
+CodeBlock:
+
+Options:
+0 . buoyant force decreases
+1 . buoyant force increases
+2 . buoyant force first increases then show a decrease
+3 . buoyant force remains constant
+4 . 
+Correct Answer: 0
+
+Description: Buoyant force acting on the airship decreases as it rises in the air as air at higher altitudes becomes rarer, and its density decreases.
+
+ Index: 10
+Question: A uniform body of size 4 m long * 2.5 m wide * 1.5 m deep floats in water. What is the weight of the body if the depth of immersion is 1 m?
+CodeBlock:
+
+Options:
+0 . 294.3 kn
+1 . 147.1 kn
+2 . 588.6 kn
+3 . 73.5 kn
+4 . 
+Correct Answer: 1
+
+Description: Weight of Body = Weight of water displaced = ρ * g * Volume of displaced water = 9.81 * 1000 * 4 * 2.5 * 1.5 = 147.1kN.
+
+ Index: 11
+Question: A block of material of specific gravity 0.45 floats in water. Determine the block's meta-centric height if its size is 3 m * 2 m* 0.8 m.
+CodeBlock:
+
+Options:
+0 . 0.376 m
+1 . 0.506 m
+2 . 0.127 m
+3 . 1.012 m
+4 . 
+Correct Answer: 0
+
+Description: BG = Centre of pontoon - Centre of immersed portion = 0.4 - 0.55*0.8 = 0.04Metacentric height = I/∀ - BGI = bd³/12 = 3*2³/12∀ = 3*2*0.8Metacentric height = 0.376 m.
+
+ Index: 12
+Question: A solid cylinder of diameter 5.0 m has a height of 6.0 m. Find the cylinder's meta-centric height if the specific gravity of the material of the cylinder 0.45 and it is floating in water with its axis vertical. State whether the equilibrium is stable or unstable.
+CodeBlock:
+
+Options:
+0 . -0.61 m
+1 . -0.29 m
+2 . 0.14 m
+3 . -1.16 m
+4 . 
+Correct Answer: 0
+
+Description: BG = Centre of pontoon - Centre of immersed portion = 0.3-0.45*0.3=1.65Metacentric height=I/∀ -BGI=π*r4=π*2.54∀=π*r*r*h=π*2.5*2.5*6Metacentric height=-0.61.
+
+ Index: 13
+Question: A solid cylinder of 15 cm diameter and 40 cm long consists of two parts made of different materials. The first part at the base is 1.5 cm long and of specific gravity=6.5. The other part of the cylinder is made of the material having a specific gravity of 0.75. State if it can float vertically in the water.
+CodeBlock:
+
+Options:
+0 . data insufficient
+1 . it will float
+2 . it will not float
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Description: AG = (weight of base * distance of C.G from base point A) + (weight of upper part*distance of C.G from point A) / (weight of base + weight of upper part) = 14.52By principle of buoyancy,Weight of cylinder = Weight of water displacedh=38.625AB=19.31BG=14.25-19.31= -4.79GM= Metacentric height=I/∀ -BG= 6.16As metacentric height is positive, it will float.
+
+ Index: 14
+Question: Which method is used exclusively in fluid mechanics?
+CodeBlock:
+
+Options:
+0 . eulerian method
+1 . lagrangian method
+2 . neither lagrangian nor eulerian method
+3 . both lagrangian and eulerian methods
+4 . 
+Correct Answer: 0
+
+Description: In Fluid Mechanics, the matter of concern is the general state of motion at various points in the fluid system (as in the Eulerian approach) rather than each particle's motion (as in the Lagrangian approach). Hence, the Eulerian method is extensively used in Fluid Mechanics.
+
+ Index: 15
+Question: What type of flow can be taken for granted in a pipe of a uniform cross-section?
+CodeBlock:
+
+Options:
+0 . unsteady
+1 . steady
+2 . non-uniform
+3 . uniform
+4 . 
+Correct Answer: 3
+
+Description: According to the continuity equation, ?AV =constant, where ?= density, A= cross-sectional area of flow, V = velocity of flow. For a uniform cross-section pipe, no matter the flow rate, the velocity of flow inside the pipe will always remain constant. Hence, it'll always be a uniform flow. It'll be a steady flow if and only if the water level is maintained at a constant level by supplying water at the same rate as it gets discharged. Else the water level will keep decreasing with time leading to an unsteady flow.
+
+ Index: 16
+Question: "The velocity of entrance and exit through a nozzle remains the same." Is this even possible?
+CodeBlock:
+
+Options:
+0 . only if the flow is laminar
+1 . only if the flow is compressible
+2 . never possible
+3 . only if the flow is rotational
+4 . 
+Correct Answer: 1
+
+Description: According to the continuity equation, ρAV =constant, where ρ= density, A= cross-sectional area of flow, V = velocity of flow. If v =constant, ρA =constant. Thus a change in A will mean a change in ρ. Hence, the flow is possible only if the fluid is compressible.
+
+ Index: 17
+Question: What will be the shape of the pathline for a one-dimensional flow be like?
+CodeBlock:
+
+Options:
+0 . parabolic
+1 . straight line
+2 . elliptical
+3 . hyperbolic
+4 . 
+Correct Answer: 1
+
+Description: A pathline is a path followed by a particle in motion. For a one-dimensional flow, the fluids move in only one dimension (say x). Hence the pathline will also be a straight line (along that direction).
+
+ Index: 18
+Question: What is the maximum number of times the two particles' pathlines can intersect in a one-dimensional flow?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 0
+2 . infinite
+3 . 2
+4 . 
+Correct Answer: 0
+
+Description: The pathline of a particle in a one-dimensional flow is a straight line along the direction it moves. When two particles move in the same direction, their pathline will never intersect, and when they move in different directions, their pathlines will cross only once.
+
+ Index: 19
+Question: The streamlines of the particles in a flow are recorded. If the streamline distribution remains the same even after some time, what type of flow can it be?
+CodeBlock:
+
+Options:
+0 . unsteady
+1 . steady
+2 . non-uniform
+3 . uniform
+4 . 
+Correct Answer: 1
+
+Description: A streamline is defined as an imaginary line within the flow such that the tangent at any point on it indicates the velocity at that point. In a steady flow, the momentum of the particles is constant with time. Hence, the streamlines remain the same even after some time.
+
+ Index: 20
+Question: The path taken by the smoke coming out of a chimney (in concentric circles) represents a
+CodeBlock:
+
+Options:
+0 . streamline
+1 . pathline
+2 . streamtube
+3 . streakline
+4 . 
+Correct Answer: 3
+
+Description: A pathline is a path followed by a particle in motion, whereas a streamline is an imaginary line within the flow. The tangent at any point on it indicates the velocity at that point. A stream tube is a collection of streamlines. A streakline is a curve that gives an instantaneous picture of the location of the fluid particles which have passed through a given point. Hence, the path taken by the smoke coming out of a chimney (in concentric circles) will represent streaklines.
+
+ Index: 21
+Question: If a liquid enters a pipe of diameter d with a velocity v, what will its velocity at the exit if the diameter reduces to 0.5d?
+CodeBlock:
+
+Options:
+0 . 0.5v
+1 . v
+2 . 4v
+3 . 2v
+4 . 
+Correct Answer: 2
+
+Description:
+
+ Index: 22
+Question: Which method is most commonly used in fluid mechanics for analysis?
+CodeBlock:
+
+Options:
+0 . eulerian method
+1 . lagrangian method
+2 . control volume analysis
+3 . none of the mentioned
+4 . 
+Correct Answer: 0
+
+Description: In the Eulerian method, we describe velocity, acceleration pressure, etc., at a point in the flow field. Hence, it is also most commonly used in fluid mechanics.
+
+ Index: 23
+Question: For incompressible fluid flow, if area reduces, then what is the effect on the velocity.
+CodeBlock:
+
+Options:
+0 . decreases
+1 . increases
+2 . first decreases, then increase
+3 . first increases, then decrease
+4 . 
+Correct Answer: 1
+
+Description: According to the continuity equation,Area × velocity = constantHence, as the area decreases, velocity increases.
+
+ Index: 24
+Question: For compressible fluid flow in a pipe, having a decrease in specific gravity, what will be the effect of a reduction in diameter?
+CodeBlock:
+
+Options:
+0 . it will cause a decrease in velocity
+1 . it will cause an increase in velocity
+2 . it remains constant
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Description: According to the continuity equation,ρ*A*v = constantHence, as density and area decrease, velocity is bound to increase.
+
+ Index: 25
+Question: The diameter of a pipe in section 1 is 9 cm. If the velocity of water flowing through the line at section 1 is 4.8 m/s, and section 2 is nine m/s, Determine the area at section 2.
+CodeBlock:
+
+Options:
+0 . 67.86 m2
+1 . 33.93 m2
+2 . 38.66 m2
+3 . 16.96 m2
+4 . 
+Correct Answer: 1
+
+Description:According to continuity equation,Area × velocity = constantArea1*Velocity1 = Area2*Velocity2(Area1*Velocity1)/Velocity2=Area2Area 2= 33.93 m2.
+
+ Index: 26
+Question: Which equation must be perfunctorily satisfied while dealing with fluid flow problems?
+CodeBlock:
+
+Options:
+0 . newton's third law
+1 . newton's second law
+2 . continuity equation
+3 . law of conservation of momentum
+4 . 
+Correct Answer: 2
+
+Description: Continuity equation must be perfunctorily satisfied while dealing with fluid flow problems.
+
+ Index: 27
+Question: When a fluid element moves from one position to another, what type of motion is it?
+CodeBlock:
+
+Options:
+0 . linear deformation
+1 . linear translation
+2 . rotation
+3 . angular deformation
+4 . 
+Correct Answer: 1
+
+Description: As per the definition, the bodily movement of the fluid element is translation.
+
+ Index: 28
+Question: If there is a change in angle contained by two sides. the average of the curve is
+CodeBlock:
+
+Options:
+0 . linear deformation
+1 . linear translation
+2 . rotation
+3 . angular deformation
+4 . 
+Correct Answer: 3
+
+Description: As per the definition, the sum average of two angles is the magnitude of angular deformation.
+
+ Index: 29
+Question: What is the magnitude of vorticity?
+CodeBlock:
+
+Options:
+0 . thrice of angular rotation
+1 . twice of angular rotation
+2 . same as angular rotation
+3 . two and half times of angular rotation
+4 . 
+Correct Answer: 1
+
+Description: It is the mathematical relation between the two.
+
+ Index: 30
+Question: The flow of fluid along a curvilinear or curved path is known as
+CodeBlock:
+
+Options:
+0 . vortex flow
+1 . sink flow
+2 . circular flow
+3 . curvilinear flow
+4 . 
+Correct Answer: 0
+
+Description: The flow of fluid along a curvilinear or curved path is known as Vortex flow.
+
+ Index: 31
+Question: Which of the following is not an example of forced vortex flow?
+CodeBlock:
+
+Options:
+0 . the flow of liquid inside the impeller of a centrifugal pump
+1 . the liquid contained in the cylinder rotated about its axis
+2 . the flow of the fluid around a circular bend in a pipe
+3 . the flow of water through the runner of a turbine
+4 . 
+Correct Answer: 2
+
+Description: The liquid flow around a circular bend in a tube is an example of free vortex flow.
+
+ Index: 32
+Question: The characteristic of Ideal fluid is
+CodeBlock:
+
+Options:
+0 . inviscid
+1 . incompressible
+2 . shear stress has a constant, non-zero value
+3 . fluid velocity is uniform
+4 . 
+Correct Answer: 3
+
+Description: As the ideal fluid is inviscid, shear stress is zero.
+
+ Index: 33
+Question: Which of the following is not a case of ideal fluid flow?
+CodeBlock:
+
+Options:
+0 . uniform flow
+1 . forced vortex flow
+2 . superimposed flow
+3 . sink flow
+4 . 
+Correct Answer: 1
+
+Description: Forced vortex Flow does not satisfy the characteristic of ideal fluid flow.
+
+ Index: 34
+Question: What is a special characteristic of uniform flow parallel to X-axis?
+CodeBlock:
+
+Options:
+0 . acceleration is constant
+1 . velocity is constant
+2 . x- component of velocity is constant
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Description: Velocity is constant in uniform flow.
+
+ Index: 35
+Question: What is the nature of streamlines of free vortex flow?
+CodeBlock:
+
+Options:
+0 . non-concentric
+1 . concentric
+2 . linear
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Description: The nature of streamlines of free vortex flow is concentric.
+
+ Index: 36
+Question: When is air assumed to be incompressible?
+CodeBlock:
+
+Options:
+0 . independent of its speed
+1 . at low speed
+2 . at high speed
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Description: Air is assumed to be incompressible at low speed.
+
+ Index: 37
+Question: When a uniform flow is flowing through a doublet, the resultant flow obtained is
+CodeBlock:
+
+Options:
+0 . flow past a circular cylinder
+1 . flow past a rankine oval of equal axes
+2 . both
+3 . none
+4 . 
+Correct Answer: 2
+
+Description: They both mean the same thing. They are different ways of interpreting the same phenomenon.
+
+ Index: 38
+Question: How many stagnation points are present in a source and sink pair in a uniform flow
+CodeBlock:
+
+Options:
+0 . one
+1 . two
+2 . three
+3 . none
+4 . 
+Correct Answer: 1
+
+Description: Two stagnation points are present in a source and sink pair in a uniform flow.
+
+ Index: 39
+Question: What is the term used for a case where source and sink( both of them are of equal magnitude) approach each other such, distance between them reduces, and the product of distance and discharge magnitude remains constant.
+CodeBlock:
+
+Options:
+0 . a doublet source in uniform
+1 . a plain pair
+2 . couette flow
+3 . hagen poiseuille flow
+4 . 
+Correct Answer: 0
+
+Description: This is a special case of superimposed flow called double flow.
+
+ Index: 40
+Question: What is the pressure in Pascals at a depth of 1m below the water surface?
+CodeBlock:
+
+Options:
+0 . 980 pa
+1 . 98100 pa
+2 . 1 pa
+3 . 98 pa
+4 . 
+Correct Answer: 1
+
+Description: It's the summation of weights on top of the water surface. In this case, it is the weight of the atmosphere and water above 1m. [Formula: P (depth) = Paytm +(density of water*gravitational constant*depth)].
+
+ Index: 41
+Question: The pressure at any given point of a non-moving fluid is called the _______
+CodeBlock:
+
+Options:
+0 . atmospheric pressure
+1 . gauge pressure
+2 . hydrostatic pressure
+3 . differential pressure
+4 . 
+Correct Answer: 2
+
+Description: Hydrostatic pressure varies with the increase in depth. Hydrostatic pressure is measured from the surface of the fluid because of the increasing weight of the liquid. The fluid exerts a downward force from the water's surface, thus making it a non-moving fluid.
+
+ Index: 42
+Question: What type of liquids are measured using a manometer?
+CodeBlock:
+
+Options:
+0 . medium liquids
+1 . heavy liquids
+2 . heavy and light liquid
+3 . light liquid
+4 . 
+Correct Answer: 3
+
+Description: Measurement of liquid in a manometer takes place through differential pressures by balancing the weight. Thus, it is easier for the manometer to measure liquids of lesser density than the heavier ones. An example of a light liquid is water.
+
+ Index: 43
+Question: Which among these devices are the best suited for the measurement of high-pressure liquids with high accuracy?
+CodeBlock:
+
+Options:
+0 . ionization gauge
+1 . vacuum gauge
+2 . manganin wire pressure
+3 . dead weight gauge
+4 . 
+Correct Answer: 2
+
+Description: Manganin wire is the most suitable measurement device for high-pressure liquids. It has high stability and durability on a long-term basis. It also has high hydrostatic pressure sensitivity and low strain sensitivity.
+
+ Index: 44
+Question: Which one of the following statements is true regarding pressure?
+CodeBlock:
+
+Options:
+0 . the pressure is a vector quantity
+1 . the pressure is a scalar quantity
+2 . the pressure is a vector quantity only when the area is infinitesimally small
+3 . the pressure is a scalar quantity only when the area is infinitesimally small
+4 . 
+Correct Answer: 1
+
+Description: Pressure is defined as the force per unit area acting normal to a surface. Both force and area are vectors, but the division of one by the other leads to a scalar quantity.
+
+ Index: 45
+Question: A Hydraulic press has a ram of 30 cm diameter and a plunger of 2 cm diameter. It is used for lifting a weight of 35 kN. Find the force required at the plunger.
+CodeBlock:
+
+Options:
+0 . 311.1 kn
+1 . 233.3 kn
+2 . 155.5 kn
+3 . 466.6 kn
+4 . 
+Correct Answer: 2
+
+Description:F/a=W/AF=(35000*3.142*.02*.02)/(3.142*0.3*0.3)=155.5 kN.
+
+ Index: 46
+Question: The pressure at a point in the fluid is 4.9 N/cm2. Find height when the fluid under consideration is in oil of specific gravity of 0.85.
+CodeBlock:
+
+Options:
+0 . 8.74 m
+1 . 17.49 m
+2 . 11.66 m
+3 . 5.83 m
+4 . 
+Correct Answer: 3
+
+Description:Height=p/ρg=48620/850*9.81=5.83 m.
+
+ Index: 47
+Question: If the fluid is at rest in a narrow mouth container at a certain column height and the same fluid is at rest at the same column height in a box having a broad mouth, will the pressure be different at a certain depth from fluid surface.
+CodeBlock:
+
+Options:
+0 . pressure will be less for narrower mouth
+1 . pressure will be more for narrower mouth
+2 . pressure will be the same for both.
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Description: As per hydrostatic law, the pressure depends only on the water column's height and not its shape.
+
+ Index: 48
+Question: Calculate the hydrostatic pressure for water moving with the constant velocity at a depth of 5 m from the surface.
+CodeBlock:
+
+Options:
+0 . 98 kn/m2
+1 . 49 kn/m2
+2 . since the fluid is in motion, we cannot analyze
+3 . none of the mentioned
+4 . 
+Correct Answer: 1
+
+Description: If the fluid is moving with the uniform velocity, we treat it analytically the same as if the fluid is at restp= ρgh.
+
+ Index: 49
+Question: Which device is popularly used for measuring the difference of low pressure?
+CodeBlock:
+
+Options:
+0 . u-tube differential manometer
+1 . inverted u-tube differential manometer
+2 . vertical single column manometer
+3 . inclined single column manometer
+4 . 
+Correct Answer: 1
+
+Description: Inverted U-tube Differential Manometer has a lighter manometric fluid. Hence it is used for measuring the low-pressure difference.
+
+]

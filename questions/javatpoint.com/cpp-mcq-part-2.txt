@@ -1,0 +1,923 @@
+&[Index: 0
+Question: Which of the following keywords is used to write assembly code in a C ++ program?
+CodeBlock:
+
+Options:
+0 . asm
+1 . asm
+2 . not possible
+3 . compiler specific
+4 . 
+Correct Answer: 1
+
+Description:In the C ++ programming language, one can use the "asm" keyword to write assembly code as an inline function. To understand this in more detail, please consider the following example:Sample demo of "asm" keyword use:#include<bits/stdc++.h>
+usingnamespacestd;
+intmain()
+{
+  // generates interrupt 5
+  asmint5;  
+  
+  return0;
+} 
+
+
+ Index: 1
+Question: Which one of the following is considered as the least safe typecasting in C++? 
+CodeBlock:
+
+Options:
+0 . const_cast
+1 . reinterpret_cast
+2 . dynamic_cast
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: Typecasting is referred to as converting a specific expression type to another type. However, in the C++ programming language, the reinterpret_ cast is considered as the least safe typecasting. Therefore the correct answer will be option B.
+
+ Index: 2
+Question: ISO/IEC 14882:1998 addresses which version of C++?
+CodeBlock:
+
+Options:
+0 . c++ 98
+1 . c++ 93
+2 . c++ 0
+3 . c++ 03
+4 . 
+Correct Answer: 0
+
+Description: The "ISO / IEX14882:1998 represents the C++ 0x version of the C++ language that also informally known as the "C++98". Hence the correct answer will be the A.
+
+ Index: 3
+Question: Which one of the following correctly refers to the command line arguments?
+CodeBlock:
+
+Options:
+0 . arguments passed to the main() function
+1 . arguments passed to the structure-function
+2 . arguments passed to the class functions
+3 . arguments passed to any functions
+4 . 
+Correct Answer: 0
+
+Description: Command-line arguments are usually passed to the main() function from where the program's execution usually begins.
+
+ Index: 4
+Question: What will be the output if we execute the following C++ code and pass the given arguments on the terminal?
+CodeBlock:
+#include <iostream>
+usingnamespace std;
+int main(intargc, charconst*argv[])
+{
+	for(int i=0;i<argc;i++)
+		cout<<argv[i]<<"\n";
+}
+
+================commands===============
+$ g++ program.cpp-o output
+$ ./output Hello World
+=======================================
+
+Options:
+0 . ./outputhello world
+1 . hello world
+2 . program.cpphello
+3 . program.cpphello world
+4 . 
+Correct Answer: 0
+
+Description: As you can see in the above given C++ program, we are trying to display (or print)all the command line arguments. Therefore the list contains "./output," "Hello," "World", as shown in the output. It is quite possible that you may be thinking why the first string is not the "program. Cpp". The main reason behind this is that the first string represents the name of the program's output file. So the correct answer will be A.
+
+ Index: 5
+Question: Which of the following methods can be considered the correct and efficient way of handling arguments with spaces?
+CodeBlock:
+
+Options:
+0 . use single quotes
+1 . either single or double quotes
+2 . use double quotes
+3 . there is no way of handling arguments with space
+4 . 
+Correct Answer: 1
+
+Description: We can use either single or double quotes to handle the command-line arguments with spaces in between.
+
+ Index: 6
+Question: According to you, which of the following is the correct way to interpret Hello World as a single argument?
+CodeBlock:
+
+Options:
+0 . only 1
+1 . only 2
+2 . neither 1 nor 2
+3 . both 1 and 2
+4 . 
+Correct Answer: 3
+
+Description: Typically, both single and double quotes can be used to interpret words separated by spaces as a single argument.
+
+ Index: 7
+Question: Which of the following statements is correct about the second parameter of the main() function?
+CodeBlock:
+
+Options:
+0 . the second parameter is an array of character pointers
+1 . the first string of the list is the name of the program's output file
+2 . the string in the list are separated by space in the terminal
+3 . all of the mentioned
+4 . 
+Correct Answer: 3
+
+Description: All the statements in the above questions are related to the second parameter. Therefore the correct answer is D. 
+
+ Index: 8
+Question: Which of the following is correct about the first parameter of the "main()" function?
+CodeBlock:
+
+Options:
+0 . the first argument is of int type
+1 . stores the count of command-line arguments
+2 . the first argument is non-negative
+3 . all of the mentioned
+4 . 
+Correct Answer: 3
+
+Description: All the statements given in the above questions are true for the first parameter of the "main()"function. The first parameter is of non-negative integer type and stores the count of command-line arguments.
+
+ Index: 9
+Question: Which of the following given can be considered as the correct output of the following C ++ code?
+CodeBlock:
+#include<iostream>
+usingnamespace std;
+int main()
+{
+	int x=5;
+	int y=5;
+	auto check =[&x]()
+{
+		x =10;
+		y =10;
+	}
+	check();
+	cout<<"Value of x: "<<x<<endl;
+	cout<<"Value of y: "<<y<<endl;
+	return0;
+}
+
+Options:
+0 . it will result in an error
+1 . value of a: 10
+2 . value of a: 5
+3 . it will obtain segmentation fault
+4 . 
+Correct Answer: 0
+
+Description: If you look at the above-given program carefully, you will find that the lambda expression does not capture the value of variable "y" at all. Besides, it tries to access the value of the external variable y. Thus the above-given program will obtain or result in an Error. Therefore the correct answer is A.
+
+ Index: 10
+Question: What will be the output of the following C++ code?
+CodeBlock:
+#include<iostream>
+usingnamespace std;
+int main()
+{
+	int a =5;
+	auto check =[](int x)
+{
+		if(x ==0)
+			returnfalse;
+		else
+			returntrue;
+	};
+	cout<<check(a)<<endl;
+	return0;
+}
+
+Options:
+0 . 0
+1 . segmentation fault
+2 . error
+3 . 1
+4 . 
+Correct Answer: 3
+
+Description: The above program is absolutely fine. In the above program, you can observe that we have specified the return type of the expression. Hence the programs will normally work as it is able to find the return type of the expression.
+
+ Index: 11
+Question: Which of the following is usually represented by the first parameters of the main function?
+CodeBlock:
+
+Options:
+0 . number of command-line arguments
+1 . list of command-line arguments
+2 . dictionary of command-line arguments
+3 . stack of command-line arguments
+4 . 
+Correct Answer: 0
+
+Description: Usually, the first parameter in the main() function or we can also say the first argument of the main() function denotes the number of command-line arguments that are passed to it.
+
+ Index: 12
+Question: What will happen when we move the try block far away from catch block?
+CodeBlock:
+
+Options:
+0 . reduces the amount of code in the cache
+1 . increases the amount of code in the cache
+2 . don't alter anything
+3 . increases the amount of code
+4 . 
+Correct Answer: 0
+
+Description: Compilers may try to move the catch-code far away from the try-code, which reduces the amount of code to keep in the cache, thus it will enhance the overall performance.
+
+ Index: 13
+Question: What will be the output of the following C++ code?
+CodeBlock:
+#include <iostream>
+#include <string>
+usingnamespace std;
+int main ()
+{
+intnum=3;
+stringstr_bad="wrong number used";
+try
+{
+if( num ==1)
+{
+throw5;
+}
+if( num ==2)
+{
+throw1.1f;
+}
+if( num !=1|| num !=2)
+{
+throwstr_bad;
+}
+}
+catch(int a)
+{
+cout<<"Exception is: "<< a <<endl;
+}
+catch(float b)
+{
+cout<<"Exception is: "<< b <<endl;
+}
+catch(...)
+{
+cout<<str_bad<<endl;
+}
+return0;
+}
+
+Options:
+0 . exception is 5
+1 . exception is 1.1f
+2 . exception is 1.6g
+3 . wrong number used
+4 . 
+Correct Answer: 3
+
+Description: As you can see in the above-given program, we have given "3" to "num", it arising the exception called "wrong number used." So the correct answer is D.
+
+ Index: 14
+Question: What will be the output of the following C++ code?
+CodeBlock:
+#include <iostream>
+#include <exception>
+usingnamespace std;
+int main ()
+{
+try
+{
+double* i=newdouble[1000];
+cout<<"Memory allocated";
+}
+catch(exception& e)
+{
+cout<<"Exception arised: "<<e.what()<<endl;
+}
+return0;
+}
+
+Options:
+0 . depends on the computer memory
+1 . memory will be allocated
+2 . exception raised
+3 . memory allocatedexceptionarised
+4 . 
+Correct Answer: 0
+
+Description: In the given program, the value will be allocated if there is enough memory in the system. Therefore it depends entirelyon the memory of the system.Output:$ g++ expef.cpp
+$ a.out
+Memory allocated ( if enough memory is available in the system)
+
+
+ Index: 15
+Question: Which one of the following given statements is correct about the increment operator?
+CodeBlock:
+
+Options:
+0 . increment operator(or ++ ) usually adds 2 to its operand
+1 . decrement operator ++ subtracts 1 to its operand
+2 . decrement operator ++ subtracts 3 to its operand
+3 . increment operator (or ++ ) usually adds 1 to its operand
+4 . 
+Correct Answer: 3
+
+Description: The Increment operator (or ++) is one of the basic operators in C++. Usually, it is used in several types of loop statements for the counter. Whenever the increment operator (or ++) gets executed, it adds or made an increment of 1 to its operand. To understand it more clearly, you can consider the example given below:Example#include <iostream>
+
+using namespace std;
+
+int main()
+{
+intx,i;
+i=10;
+x=++i;
+cout<<"x: "<<x;
+cout<<"i: "<<i;
+return 0;
+}
+Outputx: 11i: 11
+
+ Index: 16
+Question: Read the following given piece of C++ code and find out the error?
+CodeBlock:
+Class t
+{
+virtual void  print(); 
+}
+
+Options:
+0 . class " t " should contain data members
+1 . function print(); should be defined
+2 . function " print(); " should be declared as the static function
+3 . there is no error
+4 . 
+Correct Answer: 3
+
+Description: The above-given code is correct, and there is no error at all.
+
+ Index: 17
+Question: Which one of the following statements about the pre-increment is true?
+CodeBlock:
+
+Options:
+0 . pre incrementisusually faster than the post-increment
+1 . post-increment is faster than the pre-increment
+2 . pre increment is slower than post-increment
+3 . pre decrement is slower than post-increment
+4 . 
+Correct Answer: 0
+
+Description: Pre Increment is usually faster than the post-increment because it takes one-byte instruction whereas the post-increment takes two-byte instruction.
+
+ Index: 18
+Question: Which of the following concept is used by pre-increment?
+CodeBlock:
+
+Options:
+0 . call by value
+1 . call by reference
+2 . queue
+3 . call by name
+4 . 
+Correct Answer: 1
+
+Description: The pre-increment usually uses the concept of " call by reference " as the changes are reflected back to the memory cells/variables.
+
+ Index: 19
+Question: How many types of representation are in the string?
+CodeBlock:
+
+Options:
+0 . 3
+1 . 1
+2 . 2
+3 . 4
+4 . 
+Correct Answer: 2
+
+Description: In C++, there are following two types of string representation are provided. The following types of representation are C-style character string and string class type with Standard C++.
+
+ Index: 20
+Question: What will be the output of the following C++ code?
+CodeBlock:
+#include <iostream>
+    #include <cstring>
+using namespace std;
+int main ()
+    {
+char str1[10] = "Hello";
+char str2[10] = "World";
+char str3[10];
+intlen ;
+strcpy( str3, str1);
+strcat( str1, str2);
+len = strlen(str1);
+cout<<len<<endl;
+return 0;
+    }
+
+Options:
+0 . 5
+1 . 55
+2 . 10
+3 . 11
+4 . 
+Correct Answer: 2
+
+Description: In the above-given program, we are concatenating the str1 and str2 and printingits total length. Therefore the length of the final string is 10. So the correct answer is C.
+
+ Index: 21
+Question: Which one of the following given methods we usually use to append more than one character at a time?
+CodeBlock:
+
+Options:
+0 . append
+1 . operator+=
+2 . both append & operator+=
+3 . data
+4 . 
+Correct Answer: 2
+
+Description: C++ programming language usually allows to append more characters to string using either the inbuilt append() function or using operator overloaded += operator.
+
+ Index: 23
+Question: Which one of the following given statements is not true about the references in C++?
+CodeBlock:
+
+Options:
+0 . a reference should be initialized whenever it is declared
+1 . a reference cannot refer to a constant value
+2 . a reference cannot be null
+3 . once a reference is created, it cannot be later made to reference another object; it cannot be reset
+4 . 
+Correct Answer: 1
+
+Description: In C++, you can create a constant reference that refers to a constant. To understand it in more, you can consider the following program given as an example. #include<iostream>
+using namespace std;
+
+int main()
+{
+constint x = 10;
+constint& ref = x;
+
+cout<< ref;
+return 0;
+}
+
+
+ Index: 24
+Question: Read the following given program of C++ and predict the most appropriate output of the following program?
+CodeBlock:
+#include<iostream>
+usingnamespacestd;
+ 
+int&fun()
+{
+    staticintx = 10;
+    returnx;
+}
+intmain()
+{
+    fun() = 30;
+    cout<< fun();
+    return0;
+}
+
+Options:
+0 . it will obtain a compilation error
+1 . it will print 30 as output
+2 . it will print ten as output
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: Whenever a function returns by the reference, it can also be used as the lvalue. However, x is declared as the static variable, it is shared among function calls, but the initialization line "static variable x= 10;" is executed only once. Therefore the function call " fun()=30, changed the x to 30, and next call "cout<<fun" simply returns the updated or modified value. So the correct answer will be the 30.
+
+ Index: 25
+Question: Read the following given program of C++ and predict the most appropriate output of the program?
+CodeBlock:
+#include<iostream>
+usingnamespacestd;
+ 
+int&fun()
+{
+    intx = 10;
+    returnx;
+}
+intmain()
+{
+    fun() = 30;
+    cout<< fun();
+    return0;
+}
+
+Options:
+0 . it may cause the compilation error
+1 . it may cause the runtime error
+2 . it will work fine
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: As you can notice in the above-given program, we return a reference to a local variable, and the memory location becomes invalid after the function call is over. Hence it most probably results in segmentation fault or runtime error.
+
+ Index: 26
+Question: Which of the following functions must use the reference?
+CodeBlock:
+
+Options:
+0 . copy constructor
+1 . destructor
+2 . parameterized constructor
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: In general, a copy constructor is called when the object is passed by the value. You may know that, the copy constructor itself also a type of function. So if we pass an argument by value in a copy constructor, a call to copy constructor would be made to call copy constructor, which becomes a non-terminating chain of calls. Therefore compiler doesn't allow parameters to be passed by value.
+
+ Index: 27
+Question: Read the following given program of C++ and predict the most appropriate output of the program?
+CodeBlock:
+#include<iostream>
+usingnamespacestd;
+ 
+intmain()
+{
+  intx = 10;
+  int& ref= x;
+  ref= 20;
+  cout<< "x = "<< x <<endl ;
+  x = 30;
+  cout<< "ref = "<< ref<<endl;
+  return0;
+}
+
+Options:
+0 . x=20
+ref=30
+1 . x=20
+ref=20
+2 . x=10
+ref= 30
+3 . x= 30
+ref=30
+4 . 
+Correct Answer: 0
+
+Description: As you can see that in the above program, the "ref" is an alias of the x. Therefore if we make changes or modifies any of them, the updated one also causes to change in another. So the correct option is A. 
+
+ Index: 28
+Question: Why inline functions are useful?
+CodeBlock:
+
+Options:
+0 . functions are large and contain several nested loops
+1 . usually, it is small, and we want to avoid the function calls
+2 . the function has several static variables
+3 . all of the above
+4 . 
+Correct Answer: 1
+
+Description: In general, the inline functions are very small in size and more often used in the place of the macros as they are the substitute of the macros and many times better than the macros. So the correct answer is B.
+
+ Index: 29
+Question: Which of the following statements is true about the inline functions?
+CodeBlock:
+
+Options:
+0 . macros do not have the returns statement, while inline function has the return statement.
+1 . usually, the macros are processed by the preprocessor while on the other hand inline functions are processed in the later stages of compilation.
+2 . inline function usually performs the type checking, whereas macros do not.
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Description: In simple terms, the inline functions are just like normal functions, which are defined by the users through the "inline" keywords.Normally they are short functions that are expended by the compiler, and their arguments are evaluated for once only.The inline functions perform the type checking of the parameters, whereas micros do not check the parameters at all.However, macros are usually processed by the preprocessor, but the inline functions are processed in the upcoming stages of the compilation. There is one more major advantage of inline functions over the macros, which is, inline functions can also have the return function, whereas the macros do not have a return statement. Last but not least, the macroshave more bugs and errors, whereas the inline function does not have bugs.
+
+ Index: 30
+Question: How can a user make a c++class in such a way that the object of that class can be created only by using the new operator, and if the user tries to make the object directly, the program will throw a compiler error?
+CodeBlock:
+
+Options:
+0 . by making the destructor private.
+1 . by making the constructor private.
+2 . not possible
+3 . by making both constructor and destructor private.
+4 . 
+Correct Answer: 0
+
+Description:One can make a c++ program in which a class's object can be created using only the " new "operator, and still, if the user wants and tries to create its object directly, the program will produce a compiler error. To can understand it more clearly, you can consider the following given example.Example// in this program, Objects of test can only be created using new
+class Test1
+{
+private:
+    ~Test1() {}
+friend void destructTest1(Test1* );
+};
+
+// Only this function can destruct objects of Test1
+voiddestructTest(Test1* ptr)
+{
+deleteptr;
+}
+
+int main()
+{
+    // create an object
+    Test1 *ptr = new Test1;
+
+    // destruct the object
+    destructTest1 (ptr);
+
+return 0;
+}
+
+
+ Index: 31
+Question: In C++, which of the following has the associatively of left to right?
+CodeBlock:
+
+Options:
+0 . addressof
+1 . unary operator
+2 . logical not
+3 . array element access
+4 . 
+Correct Answer: 3
+
+Description: In C++, the array elements have the associatively of left to right. So the correct answer will be option D.
+
+ Index: 32
+Question: A function declared as the " friend " function can always access the data in _______.
+CodeBlock:
+
+Options:
+0 . the private part of its class.
+1 . the part declared as public of its class.
+2 . class of which it is the member.
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: In C++, a member function can always access its class member variable, irrespective of the access specifier in which the member variable is declared. Therefore a member function can always access the data of the class of which it is a member. So the answer will be option C.
+
+ Index: 33
+Question: Read the following given program of C++ and predict the most appropriate output of the program?
+CodeBlock:
+#include<iostream>
+using namespace std;
+
+int x[100];
+int main()
+{
+	cout<< x[99] <<endl;
+}
+
+Options:
+0 . it will display 0 as output
+1 . its output is unpredictable
+2 . it will display 99 as output
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: In C++, all the uninitialized global variables are initialized to 0. Therefore the correct answer will be option A.
+
+ Index: 34
+Question: Read the following given program of C++, and predict the most appropriate output of the program?
+CodeBlock:
+#include<iostream>
+usingnamespacestd;
+intx = 1;
+voidfun()
+{
+    intx = 2;
+    {
+        intx = 3;
+        cout<< ::x <<endl;
+    }
+}
+intmain()
+{
+    fun();
+    return0;
+}
+
+Options:
+0 . 1
+1 . 2
+2 . 3
+3 . 0
+4 . 
+Correct Answer: 0
+
+Description: Whenever the scope resolution operator is used with a variable name, it always refers to the global variable.
+
+ Index: 35
+Question: In C++, it is possible that the destructor can also be private?
+CodeBlock:
+
+Options:
+0 . no, not at all
+1 . may be
+2 . yes, it is possible.
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: In C++, the destructor can also be private. Therefore the correct answer is C.
+
+ Index: 36
+Question: In C++, it is possible that in a "class" there can more than one destructor like the constructor?
+CodeBlock:
+
+Options:
+0 . yes, it is possible
+1 . not it not possible at all
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: Anotherimportant thing to keep in mind that they cannot passed arguments.
+
+ Index: 37
+Question: In C++, it is true that a destructor can be virtual?
+CodeBlock:
+
+Options:
+0 . no, not at all
+1 . yew, it is true
+2 . it may or may not be
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: Yes, it is true that a destructor can be virtual. Therefore the correct answer will be option B.
+
+ Index: 38
+Question: Which of the following statements can be considered as true about the virtual function in C++?
+CodeBlock:
+
+Options:
+0 . in general, virtual functions are those functions that can be overridden in the derived class with the same signature.
+1 . virtual functions enable runtime polymorphism in the inheritance hierarchy.
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: In object-oriented programming languages such as Pascal, and especiallyin C++, a virtual functions(or virtual methods) are usually inheritable as well as can be overridden. These features are an important part of the runtime polymorphism of object-oriented programming. In short, we can say that the virtual functions describe a target function to be executed; it may be possible that the target may be unknown at the compile time. Therefore the correct answer is C.
+
+ Index: 39
+Question: Which of the following given statements are correct about the pure virtual functions?
+CodeBlock:
+
+Options:
+0 . only 1
+1 . only 2
+2 . both 1& 2
+3 . neither 1 nor 2
+4 . 
+Correct Answer: 1
+
+Description: A pure virtual function or pure method is a type of virtual function which required to be implemented by the derived class if that class is not abstracted. However, a class that contains a pure virtual function (or method) is known as the "abstract" and cannot be initiated directly.
+
+ Index: 40
+Question: What will be the output of the following given program?
+CodeBlock:
+#include<iostream>
+usingnamespacestd;
+classBase
+{
+public:
+    virtualvoidshow() = 0;
+};
+  
+classDerived : publicBase { };
+  
+intmain(void)
+{
+    Derived q;
+    return0;
+}
+
+Options:
+0 . it will obtain compile error because there cannot be an empty derived class
+1 . it will obtain the compile error with "derived is abstract" warning
+2 . both a and b
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: If a user does not override the pure function in the derived class, then the derived class is also converted into an abstract class. Therefore the correct option is B.
+
+ Index: 41
+Question: In C++, can a function call itself?
+CodeBlock:
+
+Options:
+0 . yes
+1 . no
+2 . compilation error
+3 . runtime error
+4 . 
+Correct Answer: 0
+
+Description: Yes, it is correct, a function can call itself. Therefore the correct answer is A.
+
+ Index: 42
+Question: In C++, can a for loop statement contain another for loop statement?
+CodeBlock:
+
+Options:
+0 . no
+1 . yes
+2 . runtime error
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Description: In the c++ programming language, afor loop statement can contain another for loop in itself known as the nested for loop.
+
+ Index: 43
+Question: Which of the following operators has the highest precedence?
+CodeBlock:
+
+Options:
+0 . %
+1 . /
+2 . *
+3 . all have the same precedence
+4 . 
+Correct Answer: 3
+
+Description: All the mentioned operators in the above-given questions have the same precedence. So the correct answer is D.
+
+ Index: 44
+Question: Which of the following can be considered as the correct syntax of for loop?
+CodeBlock:
+
+Options:
+0 . for(initialization; condition; increment/decrement operator){}
+1 . for(initialization, condition; increment/decrement operator){}
+2 . for(initialization; increment/decrement operator;condition;{}
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: Usually, the for loop contains three statements and the working of these statementsis shown in the following syntax:for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+statement1: initialzation
+statement2: condition to be check
+statement3: increment or decrement operator
+
+
+ Index: 45
+Question: Which of the following is used to terminate the structure in C++?
+CodeBlock:
+
+Options:
+0 . ;
+1 . :
+2 . ;;
+3 . }
+4 . 
+Correct Answer: 1
+
+Description: In C++, to terminate the structure, a semicolon is used. 
+
+ Index: 46
+Question: Inside a structure, the declared data members are known as____
+CodeBlock:
+
+Options:
+0 . data
+1 . object & data
+2 . members
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Description: The data members declared within the structure are known as the members. Therefore the correct answer is B.
+
+ Index: 47
+Question: The term modularity refers to _____.
+CodeBlock:
+
+Options:
+0 . to divide the program into small independent parts or sub-modules
+1 . to override the parts of the program
+2 . to wrapping things into a single unit
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: In C++, the term "modularity" indicates the sub-dividing. A big program converts into small independent parts or modules.
+
+]

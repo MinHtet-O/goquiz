@@ -1,0 +1,718 @@
+&[Index: 0
+Question: In Indian Constitution, the idea of "A Union of States in the Indian Constitution" has been derived from
+CodeBlock:
+
+Options:
+0 . constitution of belgium
+1 . the australian constitution
+2 . constitution of colombia
+3 . constitution of bhutan
+4 . 
+Correct Answer: 1
+
+Explanation: In Indian Constitution, the idea of "A Union of States in the Indian Constitution" has been derived from The Australian Constitution. The Concept of Concurrent list, Article 108, a joint sitting of the two houses and freedom of trade and commerce, is taken from the Australian Constitution.
+
+ Index: 1
+Question: Which part of the Indian Constitution deals with Official Language?
+CodeBlock:
+
+Options:
+0 . xvii
+1 . xvi
+2 . x
+3 . xv
+4 . 
+Correct Answer: 0
+
+Explanation: Part XVII of the Indian Constitution incorporates Articles 343 to Article 351 has provisions to deal with the official language of India.
+
+ Index: 2
+Question: Which Article of the Indian Constitution directs the State to take steps to separate the judiciary from the executive in the public services of the State?
+CodeBlock:
+
+Options:
+0 . article 58
+1 . article 44
+2 . article 52
+3 . article 50
+4 . 
+Correct Answer: 3
+
+Explanation: Article 50 of the Indian Constitution includes the Separation of Judiciary from the executive. 
+
+ Index: 3
+Question: The right to move freely throughout the territory of India comes under which Article of the Indian Constitution?
+CodeBlock:
+
+Options:
+0 . article 11
+1 . article 13
+2 . article 19
+3 . article 22
+4 . 
+Correct Answer: 2
+
+Explanation: Right to move freely throughout the territory of India comes under Article 19 of the Indian Constitution. It comes under the Right to Freedom.
+
+ Index: 4
+Question: What is the quorum to constitute a meeting of Lok Sabha?
+CodeBlock:
+
+Options:
+0 . half of the total members of the house
+1 . a quarter of the total members of the house
+2 . one- fifth of the total members of the house
+3 . one-tenth of the total members of the house.
+4 . 
+Correct Answer: 3
+
+Explanation: The quorum to constitute a sitting of the House is One-tenth of the total members of the House.
+
+ Index: 5
+Question: How many Fundamental Rights have been provided by the Constitution of India?
+CodeBlock:
+
+Options:
+0 . eight
+1 . nine
+2 . five
+3 . six
+4 . 
+Correct Answer: 3
+
+Explanation:The Constitution of India has provided six Fundamental Rights.These are the given six fundamental rights provided by the Indian Constitution.
+Right to equity
+Right to Liberty
+Right against exploitation
+Right to freedom of religion
+Cultural and educational rights
+Right to Constitutional remedy
+
+
+ Index: 6
+Question: Who is the Constitutional head of the state governments?
+CodeBlock:
+
+Options:
+0 . chief minister of the state
+1 . high court judge
+2 . governor
+3 . health minister of the state
+4 . 
+Correct Answer: 2
+
+Explanation: The Constitutional head of the state government is Governor. 
+
+ Index: 7
+Question: How many fundamental duties are noticed in the Constitution of India?
+CodeBlock:
+
+Options:
+0 . nine
+1 . eleven
+2 . eight
+3 . eleven
+4 . 
+Correct Answer: 3
+
+Explanation: Eleven fundamental duties are noticed in the Indian Constitution. The Fundamental duties are included in article 51A (Part IV A), which the 42nd Amendment Act, 1976 has incorporated.
+
+ Index: 8
+Question: Which of the given schedules of the Indian Constitution includes the Provision regarding Anti-Defection Law?
+CodeBlock:
+
+Options:
+0 . sixth schedule
+1 . seventh schedule
+2 . tenth schedule
+3 . eleventh schedule
+4 . 
+Correct Answer: 2
+
+Explanation: The tenth schedule of the Indian Constitution contains Provisions regarding Anti-Defection Law." It was put by the 52nd Amendment of the Constitution in 1985.
+
+ Index: 9
+Question: The foundation of the Finance commission is laid down under which of the given articles?
+CodeBlock:
+
+Options:
+0 . article 202
+1 . article 280
+2 . article 263
+3 . article 231
+4 . 
+Correct Answer: 1
+
+Explanation: The foundation of the Finance commission is laid down under Article 280 of the Indian Constitution. Articles 264 - 300 relate to Finance property, contracts, and suits. The tenure of the Finance Commission is five years.
+
+ Index: 10
+Question: Which of the Indian Constitution's given Article has the right to privacy been incorporated as fundamental rights?
+CodeBlock:
+
+Options:
+0 . article 15
+1 . article 17
+2 . article 21
+3 . article 23
+4 . 
+Correct Answer: 2
+
+Explanation: Article 21 (Right to Freedom) of the Indian Constitution has the right to privacy been incorporated as fundamental rights. The right to privacy is a basic part of Article 2 that protects the life and liberty of the citizens.
+
+ Index: 11
+Question: Which of the given Article of the Indian Constitution prescribes for the submission of an annual report of the work done by the State Public Service Commission?
+CodeBlock:
+
+Options:
+0 . article 320
+1 . article 323
+2 . article 326
+3 . article 330
+4 . 
+Correct Answer: 1
+
+Explanation: Article 323 Article of Indian Constitution prescribes for the submission of annual report of the work done by the State Public Service Commission to the Governor of the State. 
+
+ Index: 12
+Question: In which part of the Indian Constitution, we find the provisions relating to citizenship?
+CodeBlock:
+
+Options:
+0 . part ii
+1 . part v
+2 . part vi
+3 . part iv
+4 . 
+Correct Answer: 1
+
+Explanation: Citizenship is listed in the Union List under the Indian Constitution. It comes under the exclusive jurisdiction of ParliamentParliament. 
+
+ Index: 13
+Question: Who among the given has the right to summon the Parliament?
+CodeBlock:
+
+Options:
+0 . prime minister
+1 . president
+2 . speaker of rajya sabha
+3 . vice president
+4 . 
+Correct Answer: 1
+
+Explanation: President has the right to summon the ParliamentParliament. The term 'Summon' means "to call." The president time to time, summons each House of the Parliament. The maximum gap between two sessions of ParliamentParliament can not exceed more than six months. There are three sessions in a year, The Budget Session, The Monsoon Session, and The Winter Session.
+
+ Index: 14
+Question: Habeas Corpus is associated with which of the given part of the Indian Constitution?
+CodeBlock:
+
+Options:
+0 . preamble
+1 . fundamental rights
+2 . directive principles of state policy
+3 . fundamental duties
+4 . 
+Correct Answer: 1
+
+Explanation: Habeas Corpus is associated with the Fundamental Rights of the Indian Constitution. Fundamental Rights are mentioned in Part III of the Indian Constitution from Articles 12 to 35. This concept is taken from the USA.
+
+ Index: 15
+Question: Federalism is taken in the Indian Constitution form which of the following countries?
+CodeBlock:
+
+Options:
+0 . germany
+1 . canada
+2 . australia
+3 . italy
+4 . 
+Correct Answer: 1
+
+Explanation: Federalism taken in the Indian Constitution form Canada. 
+
+ Index: 16
+Question: The first session of the Constituent Assembly was held on
+CodeBlock:
+
+Options:
+0 . 25 december 1949
+1 . 26 january 1949
+2 . 09 december 1946
+3 . 11 november 1946
+4 . 
+Correct Answer: 2
+
+Explanation: The first session of the Constituent Assembly was held on 09 December 1946. Under the Cabinet Mission Plan of 1946, elections were held for the constituent assembly, and the members were elected by the provincial assembly's process by a procedure of a single transferable vote of proportional representation. 
+
+ Index: 17
+Question: What does the 10th Schedule of the Indian Constitution contain?
+CodeBlock:
+
+Options:
+0 . provisions relating to disqualification on the ground of defection
+1 . administration and control of tribal areas of northeastern states
+2 . powers, authority, and responsibilities of municipalities
+3 . administration and control schedule areas and schedule tribes
+4 . 
+Correct Answer: 0
+
+Explanation: The 10th Schedule of the Indian Constitution contain Provisions relating to disqualification on the ground of defection. It was included under the 52nd Constitution Amendment Act, also called Anti Defection Act (1985). Previously Indian Constitution had 22 parts, 8 Schedules, and 395 Articles, but presently, the Constitution had 12 Schedules, 448 Articles, and 25 Parts.The Sixth Schedule of the Indian Constitution describes the Administration and control of Tribal Areas of Northeastern states.The Twelfth Schedule of the Indian Constitution describes the Powers, authority, and responsibilities of municipalities.The fifth Schedule of the Indian Constitution describes the Administration and control Schedule areas and Schedule Tribes.
+
+ Index: 18
+Question: Which Article of the Indian Constitution states the directive principles of state policy on 'Promotion of international peace and security?
+CodeBlock:
+
+Options:
+0 . article 57
+1 . article 51
+2 . article 59
+3 . article 49
+4 . 
+Correct Answer: 1
+
+Explanation: Article 51 of the Indian Constitution states the directive principles of state policy on 'Promotion of international peace and securityDirective principle of the state policyDirective Principles of State Policy prescribe the fundamental obligations of the states to its citizens and the duties and the rights of the citizens to the State.In other words, we can say that the Directive Principles of State Policy are aimed at creating social and economic conditions under which the citizens can lead a good life. The idea of the Directive principle of the state policy was adopted from the Constitution of Ireland.
+
+ Index: 19
+Question: India is called a secular country because citizens have the fundamental right to
+CodeBlock:
+
+Options:
+0 . freedom of speech and expression
+1 . freedom to profess the religion of one's choice.
+2 . assemble peaceably and without arms
+3 . form associations or unions or co-operative societies
+4 . 
+Correct Answer: 1
+
+Explanation: The Secular term was added to the Preamble of the Indian Constitution by 42nd Amendment 1976.Article 25 of the Indian Constitution: It guarantees the freedom of profession, practice, and propagation of religion to all citizens.Article 26 of the Indian Constitution guarantees the freedom to manage religious affairs.Article 27 of the Indian Constitution guarantees the freedom as to payment of taxes for the promotion of any particular religion.
+
+ Index: 20
+Question: What is the meaning of the term 'Liberty'?
+CodeBlock:
+
+Options:
+0 . right to express anything
+1 . right to go anywhere
+2 . absence of restrictions
+3 . presence of restrictions
+4 . 
+Correct Answer: 2
+
+Explanation: The meaning of the term 'LibertyLiberty is the absence of restrictions on the activities of individuals. At the same time, it also means providing an opportunity for the growth of individuals. The preamble secures to all citizens of India liberty of thought, belief, expression, faith, and worship. The Liberty term has been taken from the French revolution.
+
+ Index: 21
+Question: The doctrine of "Basic Structure" was evolved in which of the given case?
+CodeBlock:
+
+Options:
+0 . madhav jiwaji rao scindia case
+1 . kesavananda bharti case
+2 . champakam dorairajan case
+3 . golaknath case
+4 . 
+Correct Answer: 1
+
+Explanation: The doctrine of "Basic Structure" was evolved in the Kesavananda Bharti case. In the Kesavananda Bharti case (1973), the Supreme Court said that the Parliament under Article 368 can amend the Constitution but cannot change the basic doctrine of the Indian Constitution. The Golaknath case (1967) Supreme court that ParliamentParliament could not curtail any of the Fundamental Rights
+
+ Index: 22
+Question: Which Article of the Indian Constitution describes the Taxes are levied and collected by the center but distributed between the Centre and the states?
+CodeBlock:
+
+Options:
+0 . article 322
+1 . article 270
+2 . article 318
+3 . article 251
+4 . 
+Correct Answer: 1
+
+Explanation: Article 270 of the Indian Constitution describes the Taxes are levied and collected by the Centre but distributed between the Centre and the states. Sharing of proceeds of all Union taxes between the Centre and the states come under Article 270.
+
+ Index: 23
+Question: The code of Criminal Procedure was coming into existence on
+CodeBlock:
+
+Options:
+0 . 26 january 1946
+1 . 01 march 1973
+2 . 24 april 1955
+3 . 01 april 1974
+4 . 
+Correct Answer: 3
+
+Explanation: The code of Criminal Procedure is the main legislation on procedure for the administration of substantive criminal law in India. It was enacted in 1973. It was coming into existence on 01 April 1974. Initially, it extends to the whole of India except the State of Jammu and Kashmir. Its nature is both substantive and procedural. 
+
+ Index: 24
+Question: Which of the given Articles of the Indian Constitution empowers the President to grant pardons to any person?
+CodeBlock:
+
+Options:
+0 . article 41
+1 . article 72
+2 . article 27
+3 . article 91
+4 . 
+Correct Answer: 1
+
+Explanation: Article 72 of the Indian Constitution empowers the President to grant pardons to any person. It is granted to ant individuals in the case where-
+Punishment is by the Military Court
+Punishment or sentence is for an offense against a Union law.
+The pardoning power of the President does not depend upon the Judiciary, it is executive power. In the case of pardons, President is not bound to given any reasons for his order, but the power is to be exercised on the advice of the councils of ministers.
+
+ Index: 25
+Question: Which of the given Articles of the Indian Constitution is regarding the duties of the Chief Minister with respect to the furnishing of information to the Governor?
+CodeBlock:
+
+Options:
+0 . article 167
+1 . article 195
+2 . article 187
+3 . article 165
+4 . 
+Correct Answer: 0
+
+Explanation: Article 167 of the Indian Constitution is regarding the duties of the Chief Minister with respect to the furnishing of information to the Governor. 
+
+ Index: 26
+Question: The law-making procedure in the Indian Constitution has been inconsiderably influenced by the Constitution of -----?
+CodeBlock:
+
+Options:
+0 . australia
+1 . japan
+2 . north korea
+3 . uk
+4 . 
+Correct Answer: 1
+
+Explanation: The law-making procedure in the Indian Constitution has been inconsiderably influenced by the Constitution of Japan. The "Procedural established by Law" was taken form the Japanese Constitution. 
+
+ Index: 27
+Question: An inter-state council may be established by 
+CodeBlock:
+
+Options:
+0 . the prime minister
+1 . the chief justice of india
+2 . the president
+3 . the national development council
+4 . 
+Correct Answer: 2
+
+Explanation: An inter-state council may be established by the President. 
+
+ Index: 28
+Question: Who among the following appoints the Lokayukta and Uplokayukta?
+CodeBlock:
+
+Options:
+0 . president
+1 . prime minister
+2 . vice president
+3 . governor or lieutenant governor the concerned state/ut
+4 . 
+Correct Answer: 3
+
+Explanation: Governer or Lieutenant Governor the concerned state/UT appoints the Lokayukta and Uplokayukta. 
+
+ Index: 29
+Question: EVM (Electronic Voting Machine) was first used in which year?
+CodeBlock:
+
+Options:
+0 . 1992
+1 . 1973
+2 . 1982
+3 . 1980
+4 . 
+Correct Answer: 2
+
+Explanation: The EVMs (Electronic Voting Machines) was designed in 1980 by the Technical Experts Committee of the Election Commission in collaboration with Bharat Electronics Ltd, Bangalore, and Electronics Corporation of India Ltd, Hyderabad. The EVMs were used for the first time in 1982 during the by-election to North Paravur Assembly Constituency in Kerala.
+
+ Index: 30
+Question: How much time did it take for the creation of the Indian Constitution?
+CodeBlock:
+
+Options:
+0 . 2 years 3 months 26 days
+1 . 2 years 11 months 18 days
+2 . 2 years 6 months 23 days
+3 . 2 years 5 months 11 days
+4 . 
+Correct Answer: 1
+
+Explanation: It took 2 years, 11 months 18 days to create the Indian Constitution. The process was initiated on 09 December 1946 and came to an end on 26 November 1949. Some provisions of the Indian Constitution came into force on 26 November 1949, while a major part came into force on 26 January 1950. 11 sessions covering 165 days were held in this duration.
+
+ Index: 31
+Question: Which schedule of the Indian Constitution is about scheduled languages?
+CodeBlock:
+
+Options:
+0 . x
+1 . viii
+2 . ix
+3 . vi
+4 . 
+Correct Answer: 1
+
+Explanation: VIII schedule of the Indian Constitution is about scheduled languages. The scheduled languages according to Indian Constitution: Hindi, Assamese, Bodo, Bengali, Gujarati, Urdu, Nepali, Punjabi, etc. There are 22 official languages in India, and they are covered under the 8th schedule of the Indian Constitution.
+
+ Index: 32
+Question: Which of the following Constitutional Amendment reduced the voting age from 21 years to 18 years for the Lok Sabha and state legislative assembly elections?
+CodeBlock:
+
+Options:
+0 . 57th
+1 . 48th
+2 . 61st
+3 . 49th
+4 . 
+Correct Answer: 2
+
+Explanation: 61st Constitutional Amendment reduced the voting age from 21 years to 18 years for the Lok Sabha and state legislative assembly elections.
+
+ Index: 33
+Question: Which of the given amendment in the Indian Constitution led to the beginning of Panchayat Raj in India?
+CodeBlock:
+
+Options:
+0 . 73rd
+1 . 64th
+2 . 62nd
+3 . 69th
+4 . 
+Correct Answer: 0
+
+Explanation: 73rd amendment in the Indian Constitution led to the beginning of Panchayat Raj in India. The Panchayati Raj system was giving Constitutional status by the 73rd Constitutional Amendment act of 1992.
+
+ Index: 34
+Question: Which article of the Indian Constitution deals with the imposition of the President's rule?
+CodeBlock:
+
+Options:
+0 . article 344
+1 . article 356
+2 . article 375
+3 . article 344
+4 . 
+Correct Answer: 1
+
+Explanation: Article 356 of the Indian Constitution deals with the imposition of the President's rule. It gives the provision in a case of failure of Constitutional machinery in states.
+
+ Index: 35
+Question: The provision of office of Vice President in the Indian Constitution is taken from which country?
+CodeBlock:
+
+Options:
+0 . russia
+1 . bangladesh
+2 . america
+3 . italy
+4 . 
+Correct Answer: 2
+
+Explanation: The provision of office of Vice President in the Indian Constitution is taken from America. The office of Vice President is the second-highest rank in the precedence after President of India. It is taken from the American model of governance.
+
+ Index: 36
+Question: Which of the given article of the Indian Constitution mentions the provision of Council of Minister for aid and advice of the President of India?
+CodeBlock:
+
+Options:
+0 . article 63
+1 . article 74
+2 . article 77
+3 . article 66
+4 . 
+Correct Answer: 1
+
+Explanation: Article 74 of the Indian Constitution mentions the provision of the Council of Minister for aid and advice of the President of India. Article 77 of the Indian Constitution conducts the functions of the government of India.
+
+ Index: 37
+Question: Which article of the Indian Constitution deals with Fundamental Rights?
+CodeBlock:
+
+Options:
+0 . article 351
+1 . article 71
+2 . article 12 - 35
+3 . article 46 - 59
+4 . 
+Correct Answer: 2
+
+Explanation: Article 12 - 35 of the Indian Constitution deals with Fundamental Rights. It is described in part III of the Indian Constitution. The Constitution of India guarantees six fundamental rights to all citizens.These are the given six fundamental rights provided by the Indian Constitution.
+Right to equity
+Right to Liberty
+Right against exploitation
+Right to freedom of religion
+Cultural and educational rights
+Right to Constitutional remedy
+
+
+ Index: 38
+Question: The Rajya Sabha can delay the Money Bill sent for its consideration by the Lok Sabha for a maximum period of
+CodeBlock:
+
+Options:
+0 . 16 days
+1 . 14 days
+2 . 10 days
+3 . 7 days
+4 . 
+Correct Answer: 1
+
+Explanation: The Rajya Sabha can delay the Money Bill sent for its consideration by the Lok Sabha for a maximum period of 14 days. The money bill is transmitted to the Rajya Sabha for consideration after it is first passed in the Lok Sabha. The Rajya Sabha has limited powers in reference to a money bill, like it can not amend a money bill but can only make the recommendations and return the bill to the Lok Sabha within 14 days.
+
+ Index: 39
+Question: The number of Lok Sabha seats were raised from 525 to 545 by which of the given amendment?
+CodeBlock:
+
+Options:
+0 . 56th
+1 . 48th
+2 . 31st
+3 . 35th
+4 . 
+Correct Answer: 2
+
+Explanation: The number of Lok Sabha seats was raised from 525 to 545 in the 31st amendment of the Indian Constitution. The 31st Amendment was made in 1973. As per the 31st Amendment, the upper limit of representatives of the States goes up from 500 to 525, and that of the Union Territories decreases from 25 to 20.
+
+ Index: 40
+Question: Which of the given article of the Indian Constitution deals with National Commission for Scheduled Castes?
+CodeBlock:
+
+Options:
+0 . article 343
+1 . article 355
+2 . article 338
+3 . article 333
+4 . 
+Correct Answer: 2
+
+Explanation: Article 338 article of the Indian Constitution deals with National Commission for Scheduled Castes. Hence, it is a Constitutional body. The 65th Amendment of the Constitution replaced the one-member system of Special Officer with a multi-member National Commission for Scheduled Castes and Scheduled Tribes.
+
+ Index: 41
+Question: The DPSP (Directive Principle of State Policy) in the Indian Constitution has been borrowed from which country?
+CodeBlock:
+
+Options:
+0 . australia
+1 . usa
+2 . russia
+3 . ireland.
+4 . 
+Correct Answer: 3
+
+Explanation: The DPSP (Directive Principle of State Policy) in the Indian Constitution has been borrowed from Ireland.
+
+ Index: 42
+Question: Which of the given Article of the Indian Constitution empowers the High court to issue writs?
+CodeBlock:
+
+Options:
+0 . article 223
+1 . article 229
+2 . article 232
+3 . article 226
+4 . 
+Correct Answer: 3
+
+Explanation: Article 226 of the Indian Constitution empowers the High court to issue writs. It allows High Court to issue orders for the enforcement of Fundamental Rights in the State and any other purposes. Article 32 of the Indian Constitution, the power of the High Court to issue writs is similar to the Supreme Court.
+
+ Index: 43
+Question: The electoral college for the election of the Vice-President comprises of?
+CodeBlock:
+
+Options:
+0 . all the members of the lok sabha
+1 . members of state legislative assemblies
+2 . all the members of the rajya sabha
+3 . both option a and c
+4 . 
+Correct Answer: 3
+
+Explanation: The electoral college for the election of the Vice-President comprises all the members of Lok Sabha and Rajya Sabha. As per Article 66 mentioned in Indian Constitution, the Vice President is elected by the electoral college comprised of both elected and nominated members of the ParliamentParliament.
+
+ Index: 44
+Question: Which of the given article of the Indian Constitution, the provision of Election Commission is mentioned?
+CodeBlock:
+
+Options:
+0 . article 320
+1 . article 324
+2 . article 330
+3 . article 336
+4 . 
+Correct Answer: 1
+
+Explanation: In Article 324 of the Indian Constitution, the provision of the Election Commission is mentioned. Article 324 of the Indian Constitution provides that the Election Commission comprises the Chief Election Commissioner and other Commissioners. The Election Commission is an all-India institution, as it is common to both the State and Central government.
+
+ Index: 45
+Question: Who is the chairman of the Economic Intelligence Council (EIC)?
+CodeBlock:
+
+Options:
+0 . president
+1 . prime minister
+2 . chief justice of india
+3 . finance minister
+4 . 
+Correct Answer: 3
+
+Explanation: The chairman of the Economic Intelligence Council (EIC) is the Central Finance Minister. It is the primary agency of which gathers negative activities and information occurring in the economic sector. The EIC was established in 1990.
+
+ Index: 46
+Question: Which of the given schedule of the Indian Constitution is included the "Gram-Panchayats"?
+CodeBlock:
+
+Options:
+0 . schedule 10
+1 . schedule 11
+2 . schedule 12
+3 . schedule 13
+4 . 
+Correct Answer: 1
+
+Explanation: Schedule 11th of the Indian Constitution is included the "Gram-Panchayats. The 11th Schedule of the Indian Constitution describes the Powers, authority, and responsibilities of Gram Panchayat. In the 11th schedule, 29 subjects are listed. Panchayati Raj usually refers to the local self-government system in India incorporated by a Constitutional amendment in 1992.
+
+ Index: 47
+Question: In ____________, the President of India can keep a bill for an indefinite period.
+CodeBlock:
+
+Options:
+0 . pocket veto
+1 . regular veto
+2 . absolute veto
+3 . all of these
+4 . 
+Correct Answer: 0
+
+Explanation: In Pocket Veto, the President of India can keep a bill for an indefinite period. In Pocket Veto, the President of India kept the bill pending for an indefinite time. The President of India has three veto power; Pocket Veto Power, Absolute Veto Power, and Suspension Veto Power.
+
+ Index: 48
+Question: As per the Indian Constitution, the retirement age of the Chief Justice of the Supreme Court of India is?
+CodeBlock:
+
+Options:
+0 . 52 years
+1 . 55 years
+2 . 60 years
+3 . 65 years
+4 . 
+Correct Answer: 3
+
+Explanation: As per the Indian Constitution, the retirement age of the Chief Justice of the Supreme Court of India is 65 years. As per Article 124(4) of the Indian Constitution, Supreme Court judges can be removed by the President of India only on the basis of a resolution passed by the ParliamentParliament.
+
+ Index: 49
+Question: Which Part of the Indian Constitution deals with the Government in the states?
+CodeBlock:
+
+Options:
+0 . part iv
+1 . part vi
+2 . part v
+3 . part ix
+4 . 
+Correct Answer: 1
+
+Explanation: Part VI of the Indian Constitution deals with the Government in the states. Part VI of the Constitution of India, Containing Article 153 - 167, deals with the Government in the States. It includes the Governor, Chief Ministers, Council of Ministers, Advocate General of the State. Article 153 - 162 Governor, Article 163 - 164 Council of Ministers, Article 165 Advocate General of the State. Article 166 - 167 Conduct of Government Business and Duties of Chief Minister.
+
+]

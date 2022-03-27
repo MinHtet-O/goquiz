@@ -1,0 +1,600 @@
+&[Index: 0
+Question: Which of the following statements is/are correct about Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . it provides a free front - end framework
+1 . it is a completely open - source product
+2 . it gives the ability to create responsive designs
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Bootstrap 4 is a completely open - source and free to use product. It is especially useful and productive because it also gives the ability to build or create responsive web - pages. 
+
+ Index: 1
+Question: Who is/are the developers of Bootstrap?
+CodeBlock:
+
+Options:
+0 . mark otto and jacob thornton
+1 . tim berners - lee
+2 . håkon wium lie
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Bootstrap was originally named Twitter Blueprint. It was developed by Mark Otto and Jacob Thornton and it was released on 19th August 2011. 
+
+ Index: 2
+Question: Which of the following contextual class is used for the purpose of showing warning?
+CodeBlock:
+
+Options:
+0 . .active
+1 . .danger
+2 . .warning
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The contextual class .danger can be used to indicates a dangerous or potentially negative action in Bootstrap 4. 
+
+ Index: 3
+Question: Which of the following classes can be used to make image with rounded corners in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . .img-rounded
+1 . .rounded
+2 . both (a) and (b)
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The .rounded class is responsible for adding rounded corners to an image. The .rounded class can be used to make image corner rounded, this enhances the entire look of the website also.
+
+ Index: 4
+Question: What is the font - size of <h3> in Bootstrap 4 by default?
+CodeBlock:
+
+Options:
+0 . 19 px
+1 . 28 px
+2 . 20 px
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The font size of <h3> in Bootstrap 4 is 1.75rem or 28px by default.
+
+ Index: 5
+Question: What does the following meta tag do?
+CodeBlock:
+
+Options:
+0 . tells the browser to look for media queries in the css file
+1 . makes the web page responsive automatically
+2 . prevents browsers from scaling desktop websites on mobile
+3 . none of the above options are correct
+4 . 
+Correct Answer: 2
+
+Explanation: the meta tag - <meta name="viewport" content="width=device-width, initial-scale=1"> gives the browser instructions on how to control the dimensions of a page and the scaling in it.Here, the width=device-width part sets the width of the page to follow the screen - width of the device that will vary depending on the device.The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.Therefore, this meta tag prevents the browsers from scaling desktop websites on mobile.
+
+ Index: 6
+Question: Why is the Glyphicons used in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . slideshow
+1 . graphic images
+2 . animations
+3 . for the purpose of providing different icons
+4 . 
+Correct Answer: 3
+
+Explanation: Glyphicons is very essential in Bootstrap, this is because - it can be used to provide different icons for different purposes in Bootstrap. However, Glyphicons are not supported in Bootstrap 4. For inserting icons in Bootstrap 4, the user has to use free icon libraries such as Font Awesome. In order to use icons from Font Awesome, a user has to add the following to HTML page:<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+ Index: 7
+Question: Which of the following class can be used to make the images and other content in a web page automatically adjusts to fit the size of the screen?
+CodeBlock:
+
+Options:
+0 . .img-rounded
+1 . .img-fluid
+2 . .img-circle
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: .img-fluid can be used to make the images and other content in a web page automatically adjust to fit the size of the screen in Bootstrap 4. In addition to that, also set max-width: 100%; and height: auto;
+
+ Index: 8
+Question: Which of the following statements is true about Jumbotron in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . the jumbotron in bootstrap 4 can be used to increase the size of headings and also insert a large amount of margin for the purpose of landing page control.
+1 . in order to create a container with the help of using class .jumbotron.
+2 . both (a) and (b) are correct
+3 . none of the above options is correct
+4 . 
+Correct Answer: 2
+
+Explanation: The Jumbotron in Bootstrap 4 can be used to create a container with the help of using class .jumbotron that can be used to increase the size of headings and also insert a large amount of margin that can be extensively used for the purpose of landing page control.
+
+ Index: 9
+Question: Which of the following is the correct heading size for <h5> in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . 20 px
+1 . 16 px
+2 . 12 px
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: By default, the size of heading for <h5> in Bootstrap 4 is 20 px.
+
+ Index: 10
+Question: Which of the following plugins can be used to cycle through the elements like a slideshow?
+CodeBlock:
+
+Options:
+0 . slideshow
+1 . carousel
+2 . scrollspy
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Carousel is the plugin that can be used to create an element like a slideshow that cycles through the elements. .carousel is the class that can be used to create a slideshow.
+
+ Index: 11
+Question: Which of the following layout can be used to provide 100% width in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . fluid layout
+1 . fixed layout
+2 . both (a) and (b) are correct
+3 . none of the above options is correct
+4 . 
+Correct Answer: 0
+
+Explanation: In Bootstrap 4, a user can use the class .container-fluid in order to create fluid layouts that can use 100% of width of the viewport across all device sizes which are extra small, small, medium, large, and extra large.The class used is .container-fluid that creates a width of 100% instead of different width for different viewport sizes. In addition to that, the layout will still remain responsive.
+
+ Index: 12
+Question: Which among the following grid classes can be used for desktop?
+CodeBlock:
+
+Options:
+0 . md
+1 . sm
+2 . xs
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: In Bootstrap 4, the grid system contains four classes that are xs, sm, md, and lg. The xs class is used for mobile phone (extra small screens), the sm class is used for tablets (small screens), the md class is used for medium screens such as desktop and the lg class is used for large screens that are used for larger desktops.
+
+ Index: 13
+Question: In Bootstrap 4, the contents can be placed within which of the following elements?
+CodeBlock:
+
+Options:
+0 . columns
+1 . containers
+2 . rows
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: The contents in a web page can be placed within a column element in Bootstrap 4. 
+
+ Index: 14
+Question: Which of the following is the main difference between an ID and a class?
+CodeBlock:
+
+Options:
+0 . classes are for use with spans and ids are for use with divs
+1 . ids are supposed to be only used once per page but classes can be used multiple times per page, and one element can have more than one class but should have only one id
+2 . ids are better than classes
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The main difference between ID and class is that ID can be used only once in a web page but a class can be used multiple times. Moreover, an element can also have multiple classes but it can only have a single ID.
+
+ Index: 15
+Question: How many types of container classes are there in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: In Bootstrap 4, the container class is mainly used for the purpose of setting the margin in order to deal with the responsive behavior of the layout. It is used to create boxed content. There are mainly two types of container classes in Bootstrap, which are:
+.container (fixed-width)
+.container-fluid (full-width)
+
+
+ Index: 16
+Question: Which of the following classes amongst these options is/are contextual?
+CodeBlock:
+
+Options:
+0 . .warning
+1 . .info
+2 . .danger
+3 . all of the given options are correct
+4 . 
+Correct Answer: 3
+
+Explanation: The contextual classes are responsible for changing the background color of a table rows and the individual cells. The classes that can be used are:
+.active - It is responsible for applying the hover color to a particular row or cell.
+.success - It is responsible for showing the positive or successful action.
+.info - It is responsible for showing the informative part of a section.
+.warning - It is responsible for emphasizing on the warning that needs some sort of attention
+.danger - It is responsible for showing or highlighting a potentially negative action or any dangerous information.
+
+
+ Index: 17
+Question: Can badges be used inside a button class?
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . none of the above
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: Yes, Badges can be used inside a button class.The syntax for creating a badge inside a button in Bootstrap 4 is given below:<button type="button" class="btn btn-primary">
+   Messages <span class="badge badge-light">5</span>
+  </button>
+
+ Index: 18
+Question: Is Bootstrap mainly used for the purpose of front - end development?
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . none of the above
+3 . 
+4 . 
+Correct Answer: 0
+
+Explanation: Bootstrap is mainly used for the purpose of front - end development only. It provides various options for creating beautiful and efficient web pages.
+
+ Index: 19
+Question: Which of the following name was given to Bootstrap originally?
+CodeBlock:
+
+Options:
+0 . twitter blueprint
+1 . twitter bootstrap
+2 . twitter blueprint bootstrap
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Explanation: Bootstrap was initially release in 2011 and it was created by Mark Otto, and Jacob Thornton at Twitter as a framework that will encourage the consistency across internal tools. Initially, it was named " Twitter Blueprint ", but later the name was changed to Bootstrap.
+
+ Index: 20
+Question: Which amongst the following version of Bootstrap uses the flat design?
+CodeBlock:
+
+Options:
+0 . bootstrap
+1 . bootstrap 3
+2 . bootstrap 4
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The Bootstrap 3 uses the flat design. It resigns the components to use flat design, and a mobile first approach.
+
+ Index: 21
+Question: Which of the following options is/are supported in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . sass
+1 . flexbox
+2 . both (a) and (b)
+3 . none of the above
+4 . 
+Correct Answer: 2
+
+Explanation: The Flexible Box Module which is popularly known as flexbox, was designed as a one - dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities.And Sass is basically a tool that gives access to a user to avoid some of shortcomings of CSS, it's a scripting language that gets interpreted to CSS.Flexbox and Sass are supported in the newest version of Bootstrap which is Bootstrap 4.
+
+ Index: 22
+Question: Which of the following is the correct full form of Sass in Bootstrap 4?
+CodeBlock:
+
+Options:
+0 . syntactically awesome spreadsheets
+1 . syntactically awesome stylesheets
+2 . scripting awesome stylesheets
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: Sass is the short form for Syntactically awesome Stylesheets. It is a style sheet language that was initially designed by Hampton Catlin and developed by Natalie Weizenbaum. It can be used as a scripting language which can easily interpret CSS.
+
+ Index: 23
+Question: Which of the following class styles a table with strips on rows?
+CodeBlock:
+
+Options:
+0 . .table
+1 . .table-striped
+2 . .table-hovered
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: A user has to use .table-striped so as to add zebra- striping to any table row within the <tbody>. Adding the stripes to a tables enhances the look of it.The syntax of a striped table is given below:<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name of the user</th>
+        <th>Roll Number</th>
+        <th>Phone Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>James</td>
+        <td>01</td>
+        <td>12345</td>
+      </tr>
+      <tr>
+        <td>May</td>
+        <td>02</td>
+        <td>12346</td>
+      </tr>
+      </tbody>
+  </table>
+ 
+
+ Index: 24
+Question: Which of the following contextual classes are used to color the panels?
+CodeBlock:
+
+Options:
+0 . .panel-primary
+1 . .panel-success
+2 . .panel-info
+3 . all of the above
+4 . 
+Correct Answer: 3
+
+Explanation: Bootstrap 4 provides a panel that can have a bordered box with some padding around its content. In order to color the panel, a user has to use contextual classes which are given below:
+.panel-default - it gives the default styling to the panel in a web page
+.panel-primary - it informs the user, that the panel is important and gives it a color of blue.
+.panel-success - it informs the user, that the panel has some successful data and gives it a color of green
+.panel-info - it informs the user to look at the information closely and gives it a color of lighter shade of blue.
+.panel-warning - it informs the user that the panel contains some warning signs and gives it a color of yellow.
+.panel-danger - it informs the user that this panel has some potentially harmful information which may be dangerous and gives it a color of red.
+
+
+ Index: 25
+Question: Which of the following is correct about Bootstrap Mobile First Strategy?
+CodeBlock:
+
+Options:
+0 . a user has to insert the viewport meta tag to the element so as to make sure that proper rendering and touch zooming is enabled on mobile devices.
+1 . the width property can be used to control the width of the device. if it is kept in accordance to the width of the device, it will ensure that it is rendered across the different devices i.e., mobiles , desktops , tablets and so on properly.
+2 . in this, the initial-scale = 1.0 helps a user understand that when loaded, the web page will be rendered at a 1:1 scale, and no zooming will be applied out of the box.
+3 . all of the above.
+4 . 
+Correct Answer: 3
+
+Explanation: Bootstrap has converted to mobile first since Bootstrap 3. By mobile first, it means that the 'mobile first' styles can be discover throughout the entire library instead of them in separate files. A user only needs to add the viewport meta tag to the <head> element so as to ensure proper rendering and touch zooming on mobile devices.<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">Here, a user has to insert the viewport meta tag to the element so as to make sure that proper rendering and touch zooming is enabled on mobile devices.The width property can be used to control the width of the device. If it is kept in accordance to the width of the device, it will ensure that it is rendered across the different devices i.e., mobiles , desktops , tablets and so on properly.In this, the initial-scale = 1.0 helps a user understand that when loaded, the web page will be rendered at a 1:1 scale, and no zooming will be applied out of the box.Therefore, all the options are correct in this.
+
+ Index: 26
+Question: Which of the following bootstrap styles of buttons can be used to make the size of the button small?
+CodeBlock:
+
+Options:
+0 . btn-lg
+1 . .btn-sm
+2 . .btn-xs
+3 . .btn-block
+4 . 
+Correct Answer: 2
+
+Explanation: In order to create a button which is smaller in size, a user has to add .btn-sm. The syntax for the same is given below:<button type="button" class="btn btn-primary btn-sm">Small button</button><button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+ Index: 27
+Question: Which of the following bootstrap style makes a set of buttons appear vertically stacked instead of horizontally placed?
+CodeBlock:
+
+Options:
+0 . .btn-group
+1 . .btn-toolbar
+2 . .btn-group-lg
+3 . .btn-group-vertical
+4 . 
+Correct Answer: 3
+
+Explanation: In Bootstrap 4, .btn-group-vertical class is the class that is responsible for making a set of buttons appear vertically stacked instead of horizontally placed
+
+ Index: 28
+Question: Which of the following bootstrap styles can be used to create an Animated progress bar?
+CodeBlock:
+
+Options:
+0 . .progress-active
+1 . .active
+2 . .progress-striped.
+3 . none of the above.
+4 . 
+Correct Answer: 2
+
+Explanation: In order to make an animated progress bar in Bootstrap, a user has to insert a <div> with a class of .progress and .progress-striped. Also add class .active to .progress-striped. Next, inside the above <div>, add an empty <div> with a class of .progress-bar. Therefore, the correct option is (b) .active class.
+
+ Index: 29
+Question: Which of the following is correct about bootstrap media objects?
+CodeBlock:
+
+Options:
+0 . the media objects are abstract object styles which can be used for creating various types of components such as blog comments, tweets, and so on. the feature is left - aligned or right - aligned image alongside the textual content.
+1 . the main objective of the media object is to make the code for developing these blocks of information shorter.
+2 . both (a) and (b) are correct
+3 . none of the above.
+4 . 
+Correct Answer: 2
+
+Explanation: The Bootstrap media objects are very important in Bootstrap 4. The media objects can be defined as the object styles that can be used to create different types of components such as a blog comment, a tweet, and so on. However, the main objective of the media object is to make the code become shorter.
+
+ Index: 30
+Question: Which of the following is correct about data - html Data attribute of Tooltip Plugin?
+CodeBlock:
+
+Options:
+0 . it can be used to apply a css fade transition to the tooltip.
+1 . it can add the html into the tooltip. if false, jquery's text method will be used to insert content into the dom.
+2 . it can specify the position the tooltip (i.e., top | bottom | left | right | auto).
+3 . it can delegate to the specified targets.
+4 . 
+Correct Answer: 1
+
+Explanation: In data - html, the HTML can be added to the tooltip. However, it is false, jQuery's text method will be used to insert the content into the dom. Therefore, the correct option is (b).
+
+ Index: 31
+Question: Which of the following is correct about data - delay Data attribute of Tooltip Plugin?
+CodeBlock:
+
+Options:
+0 . sets the default title value if the title attribute isn't present.
+1 . defines how the tooltip is triggered.
+2 . defines default content value if data-content attribute isn't present
+3 . delays showing and hiding the tooltip in ms.
+4 . 
+Correct Answer: 3
+
+Explanation: In case of data - delay, it basically delays the showing and hiding the tooltip in ms , however, it does not apply to manual trigger type. If a number is supplied, delay is applied to both hide or show.
+
+ Index: 32
+Question: Which of the following bootstrap styles are used to create a vertical pills navigation?
+CodeBlock:
+
+Options:
+0 . .nav, .nav-tabs
+1 . .nav, .nav-pills
+2 . .nav, .nav-pills, .nav-stacked
+3 . .nav, .nav-tabs, .nav-justified
+4 . 
+Correct Answer: 2
+
+Explanation: A user can easily stack the pills vertically using the class with the help of using .nav-stacked along with the classes: .nav, .nav-pills. Therefore, the correct option will be (c ). 
+
+ Index: 33
+Question: Which of the following bootstrap style is used to add text to .navbar?
+CodeBlock:
+
+Options:
+0 . .navbar-text
+1 . .text
+2 . .form-text
+3 . none of the above.
+4 . 
+Correct Answer: 0
+
+Explanation: In Bootstrap, the class .navbar-text can be used to insert a text to a .navbar. Therefore, the correct option will be (a). 
+
+ Index: 34
+Question: Which of the following is the default layout of a bootstrap form?
+CodeBlock:
+
+Options:
+0 . .vertical
+1 . .inline
+2 . .horizontal
+3 . none of the above.
+4 . 
+Correct Answer: 0
+
+Explanation: The basic layout of a bootstrap form by default is vertical. However, a user can change the layout and convert it to inline or horizontal with the help of different classes such as .inline class and .horizontal class. Therefore, the correct option will be (a) .vertical.
+
+ Index: 35
+Question: Which of the following is correct about Bootstrap Grid System?
+CodeBlock:
+
+Options:
+0 . predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. less mixins can also be used for more semantic layouts.
+1 . columns create gutters (gaps between column content) via padding. that padding is offset in rows for the first and the last column via negative margin on .rows.
+2 . grid columns are created by specifying the number of twelve available columns a user wish to span. for example, three equal columns would use three .col-xs-4.
+3 . all of the above.
+4 . 
+Correct Answer: 3
+
+Explanation: In Bootstrap, the predefined grid classes such as .row and .col-xs-4 are easily available for the purpose of making a grid layout. Moreover, the columns can make gutters which means the gap between the column content. And grid columns are also made to specify the number of twelve available columns a user wish to span. Therefore, the correct option will be (d) all of the above.
+
+ Index: 36
+Question: Which of the following is true about bootstrap help text? 
+CodeBlock:
+
+Options:
+0 . bootstrap form controls have a block level help text that flows with the inputs
+1 . to add a full width block of content, use the .help-block after the <input>
+2 . both (a) and (b) are correct.
+3 . none of the above.
+4 . 
+Correct Answer: 2
+
+Explanation: In Bootstrap, the form controls can have a block level help text which flows with the inputs. In addition to that, it can also add a full width block of content by using .help-block after the <input>. Therefore, the correct option will be ( c ) that both the given options are correct.
+
+ Index: 37
+Question: Which of the following is correct about Tab Plugin?
+CodeBlock:
+
+Options:
+0 . a user can toggle the tab plugin's hidden content via data attributes.
+1 . a user can toggle the tab plugin's hidden content via javascript.
+2 . both (a) and (b) are correct
+3 . none of the above options are correct
+4 . 
+Correct Answer: 2
+
+Explanation: When a user is using a Tab Plugin, he/she can toggle the hidden content in it with the help of data attributes. Moreover, a user can also toggle the hidden content by using JavaScript. Therefore, the correct option is ( c ). 
+
+ Index: 38
+Question: Which of the following is correct about Bootstrap?
+CodeBlock:
+
+Options:
+0 . bootstrap's responsive css adjusts to desktops, tablets and mobiles.
+1 . provides a clean and uniform solution for building an interface for developers.
+2 . it contains beautiful and functional built-in components which are easy to customize.
+3 . all of the above.
+4 . 
+Correct Answer: 3
+
+Explanation: Bootstrap is a potent front-end framework used to create modern websites and web apps. It's open-source and free to use. Bootstrap also supports JavaScript extensions. Bootstrap is also responsive CSS that adjusts to Desktops, Tablets and Mobiles.Moreover, it provides a clean and uniform solution for building an interface for developers.It also contains functional built-in components which are easy to customize.
+
+ Index: 39
+Question: Which of the following is correct about bootstrap wells?
+CodeBlock:
+
+Options:
+0 . a well is a container in <div> that causes the content to appear sunken or an inset effect on the page.
+1 . to create a well, simply wrap the content that you would like to appear in the well with a <div> containing the class of .well.
+2 . both (a) and (b) are correct.
+3 . none of the above.
+4 . 
+Correct Answer: 2
+
+Explanation: In Bootstrap, a well can be defined as something like a bootstrap panel that has some round borders and padding around it. The main purpose of creating a well is to draw attention towards some content of the webpage in a website. The .well class can be used to create basic well. The .well class inserts a rounded border around the element with a gray background color and some padding. However, this can be changed with the help of the text color and padding using CSS.In simple words, a well is a container in <div> that makes the content to appear sunken on the page.To create a well, simply wrap the content that a user would like to appear in the well with a <div> containing the class of .well.
+
+]

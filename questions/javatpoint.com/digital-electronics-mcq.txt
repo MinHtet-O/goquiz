@@ -1,0 +1,841 @@
+&[Index: 0
+Question: Which number system has a base 16
+CodeBlock:
+
+Options:
+0 . hexadecimal
+1 . octal
+2 . binary
+3 . decimal
+4 . 
+Correct Answer: 0
+
+Explanation: Hexadecimal is a number system with a base 16. We can divide the word HEXA+DECIMAL for better understanding; it means 6 and 10 make 16. It is the easiest way to write and count numbers represented in terms of base 16. There are sixteen distinct digits in the hexadecimal system, it starts from 0, 1,2,3,4,5,6,7,8,9, A, B, C, D, E and end to F. Where A= 10, B=11, C=12, D=13, E=14, F=15. It is usually represented by 4 bits in binary number system by 8421 code.
+
+ Index: 1
+Question: What is a digital-to-analog converter?
+CodeBlock:
+
+Options:
+0 . it stores digital data on the computer.
+1 . it converts alternating current (ac) into direct current (dc).
+2 . it converts electrical power into mechanical power.
+3 . it takes the digital data from an audio cd and converts it to a useful form.
+4 . 
+Correct Answer: 3
+
+Explanation: A "digital-to-analog converter" or DAC refers to an electronic device that converts the digital signals (discrete-time signal) to an analog signal (Continuous-time signal). In other words, we can say that an electronic device converts the signal of 0 and 1 (Binary) into the analog form. For example, the amplitude of the output signal varies according to the input values.
+
+ Index: 2
+Question: The following hexadecimal number (1E.43)16 is equivalent to 
+CodeBlock:
+
+Options:
+0 . (36.506)8
+1 . (36.206)8
+2 . (35.506)8
+3 . (35.206)8
+4 . 
+Correct Answer: 1
+
+Explanation:If you want to convert a hexadecimal number into an octal number, the first thing you need to do is convert a hexadecimal number into binary form by writing the binary equivalent of each digit in the form of 4 bits. Once you write the number into binary form, you need to group the binary equivalent in 3 bits, then for each of the three bits, the respective digit is written.(1E.43)16 = (0001 1110.0100 0011)2= (00011110.01000011)2= (011110.010000110)2= (011 110.010 000 110)2= (36.206)8
+
+ Index: 3
+Question: How many entries will be in the truth table of a 4-input NAND gate?
+CodeBlock:
+
+Options:
+0 . 6
+1 . 8
+2 . 32
+3 . 16
+4 . 
+Correct Answer: 3
+
+Explanation:A NAND gate is a universal logic gate that performs the negation (NOT) of an AND logic operations in digital circuits.As we know,Y = 2n Y number of Entries in the truth tableWhere,n = number of inputs.
+
+ Index: 4
+Question: How many bits are needed to store one BCD digit?
+CodeBlock:
+
+Options:
+0 . 2 bits
+1 . 4 bits
+2 . 3 bits
+3 . 1 bit
+4 . 
+Correct Answer: 1
+
+Explanation: BCD stands for Binary Coded Decimal. It is a type of binary encoding where each decimal digit is represented by a fixed number of bits, usually 4. It is also called 8421 code to represent the maximum number 15. BCD can encode only from 0-9. For example, Decimal number 456, its equivalent BCD code is 0100 0101 0110
+
+ Index: 5
+Question: Convert (312)8 into decimal
+CodeBlock:
+
+Options:
+0 . (201)10
+1 . (202)10
+2 . (203)10
+3 . (204)10
+4 . 
+Correct Answer: 1
+
+Explanation:Octal to decimal conversion is usually obtained by multiplying 8 to the power of base along with the value at the index position.(312)8 = 3 * 82 + 1* 81 + 2* 80= 192 + 8 +2 = (202)10
+
+ Index: 6
+Question: A SCR (Silicon Controlled Rectifier) is a
+CodeBlock:
+
+Options:
+0 . device with 3 junctions
+1 . device with 2 junctions
+2 . device with 1 junction
+3 . device with 4 junctions
+4 . 
+Correct Answer: 1
+
+Explanation: SCR stands for Silicon Controlled Rectifier; it is a family of thyristors with the same property as thyristors. It is a semiconductor device with three junctions. They are of two types: npnp and pnpn. For the pnpn type, the inner player has a gate terminal, the outer player has an anode terminal, and the outer n layer has a cathode terminal. The SCR controls the flow of anode current once the gate is triggered. 
+
+ Index: 7
+Question: Which semiconductor device is not a current triggering device?
+CodeBlock:
+
+Options:
+0 . triac
+1 . mosfet
+2 . gto
+3 . thyristor
+4 . 
+Correct Answer: 1
+
+Explanation: MOSFET stands for Metal Oxide Semiconductor Field Effects Transistor. It is a semiconductor device that is extensively used for switching and amplifying the signals in digital devices. The MOSFET is the main part of any integrated circuits, and it can be designed in a single chip because of its small sizes. It is a four-terminal device: source(S), gate(g), drain(d), and body(b). The body(b) is connected to the source, making MOSFETS a three-terminal device like a field-effect transistor. MOSFETS can be used in both digital and Analog circuits, so it is one of the widely used transistors in digital circuits.
+
+ Index: 8
+Question: Which of these sets of logic gates are known as universal gates?
+CodeBlock:
+
+Options:
+0 . xor, nand, or
+1 . or, not, xor
+2 . nor, nand, xnor
+3 . nor, nand
+4 . 
+Correct Answer: 3
+
+Explanation: NAND or NOR gates are used to design all other logic gates, so; they are termed universal gates.
+
+ Index: 9
+Question: What is the addition of the binary number 101001+ 010011=?
+CodeBlock:
+
+Options:
+0 . 010100
+1 . 111100
+2 . 000111
+3 . 101110
+4 . 
+Correct Answer: 1
+
+Explanation: If you want to add any binary number, first, you need to know the binary addition rules.0 + 1 = 11 + 0 = 10 + 0 = 01 + 1 = 0 (with carry 1)101001+ 010011 = 111100
+
+ Index: 10
+Question: What is the binary subtraction of 101001 - 010110 =?
+CodeBlock:
+
+Options:
+0 . 010011
+1 . 100110
+2 . 011001
+3 . 010010
+4 . 
+Correct Answer: 0
+
+Explanation: If you want to subtract any binary number, first, you need to know the binary subtraction rules.1 - 0 = 10 - 1 = 1 (With borrow 1)0 - 0 = 01 - 1 = 0therefore, the subtraction of 101001 - 010110 = 010011
+
+ Index: 11
+Question: What is the binary multiplication of 10100 * 01011 =?
+CodeBlock:
+
+Options:
+0 . 011011000
+1 . 011001100
+2 . 011011100
+3 . 011100011
+4 . 
+Correct Answer: 2
+
+Explanation: If you want to multiply any binary number, you need to know the binary multiplication rules.1 * 0 = 00 * 1 = 00 * 0 = 01 * 1 = 1therefore, the multiplication of 10100 - 01011 = 011011100
+
+ Index: 12
+Question: Divide the binary number: 111001 ÷ 1101 and find the reminder
+CodeBlock:
+
+Options:
+0 . 1010
+1 . 0110
+2 . 0101
+3 . 0011
+4 . 
+Correct Answer: 2
+
+Explanation:If you want to divide any binary number, you need to know the binary division rule. The binary division is accomplished using the long division rule.Therefore, the remainder of 111001 ÷ 1101 = 0101
+
+ Index: 13
+Question: In the toggle mode, a JK flip-flop has
+CodeBlock:
+
+Options:
+0 . j = 0, k = 1
+1 . j = 1, k = 1
+2 . j = 0, k = 0
+3 . j = 1, k = 0
+4 . 
+Correct Answer: 1
+
+Explanation: Toggling means switching between the two states when output changes to its complement on applying clock signal. For example, suppose you assume the initial output to be X (1 or 0), then after toggling, the output state will be X' (0 or 1, respectively). Both j and k should be 1 for toggle in JK flip flop.
+
+ Index: 14
+Question: A classification of integrated circuits with complexities of 30 to 300 equivalent gates on a single chip is known as?
+CodeBlock:
+
+Options:
+0 . vlsi
+1 . ssi
+2 . lsi
+3 . msi
+4 . 
+Correct Answer: 3
+
+Explanation: The terminologies like MSI, SSI, LSI and VLSI came out from the complexity of the integrated circuit. It means the total number of transistors are fabricated on a single chip. Jack Kilby invented the first integrated circuit in 1959, so, after that, the Integrated circuit has emerged like SSI, LSI, MSI and VLSI.In MSI (Medium Scale Integration) = 30 - 300 gates /chip (counters, multiplexers, registers)In LSI (Large Scale Integration) = 300 - 3000 gates /chip (8-bit processors)In SSI (Small-Scale Integration) = 3 - 30 gates /chip (logic gates, flip flops)In VLSI (Very Large-Scale Integration) = >3000 gates / chip (16 bit and 32- bit processors)
+
+ Index: 15
+Question: The inverter can be classified as
+CodeBlock:
+
+Options:
+0 . power inverter
+1 . voltage source inverter
+2 . current source inverter
+3 . both option b and c
+4 . 
+Correct Answer: 3
+
+Explanation:Inverter refers to an electronic device that converts direct current (DC) to alternating current (AC). It has a wide range of applications for small appliances, TVs, DVD players, computer power supply to large electric power supply like photovoltaic solar cells.Based on the type of the input source, Inverters are divided into two categories.
+Current source inverters: In current source inverters, the input is a current source.
+Voltage source inverters: In voltage source inverters, the input is a voltage source.
+
+
+ Index: 16
+Question: Temperature variation is a/an
+CodeBlock:
+
+Options:
+0 . analog quantity
+1 . digital quantity
+2 . either analog or digital quantity
+3 . none of these
+4 . 
+Correct Answer: 0
+
+Explanation: Temperature variation is continuous with respect to time. So, it is an analog quantity. 
+
+ Index: 17
+Question: 1's complement of 1011001 is
+CodeBlock:
+
+Options:
+0 . 0100111
+1 . 0101100
+2 . 0100110
+3 . 0110110
+4 . 
+Correct Answer: 2
+
+Explanation:If you want to calculate 1's complement of any binary number, you need to reverse its binary bits. All the 0's to 1's and 1's to 0's.Therefore, 1's complement of 1011001 = 0100110
+
+ Index: 18
+Question: 2's complement of 1011011 is
+CodeBlock:
+
+Options:
+0 . 0100011
+1 . 0110101
+2 . 0100011
+3 . 0100101
+4 . 
+Correct Answer: 3
+
+Explanation: If you want to calculate 2's complement of any binary number, first you need to calculate 1's complement of that number and then add 1 to it.2's complement of 1011011 = 0100100 + 1 = 0100101.
+
+ Index: 19
+Question: An overflow is a 
+CodeBlock:
+
+Options:
+0 . user input problem
+1 . hardware problem
+2 . software problem
+3 . input-output problem
+4 . 
+Correct Answer: 2
+
+Explanation: An overflow is a software problem that takes place when the processor cannot respond to the output accurately when it gives an out-of-range result.
+
+ Index: 20
+Question: A digital circuit that can store only one bit is a 
+CodeBlock:
+
+Options:
+0 . register
+1 . nor gate
+2 . flip-flop
+3 . xor gate
+4 . 
+Correct Answer: 2
+
+Explanation: A flip-flop refers to an electronic circuit with two stable states that can be used to store the binary data (1,0). Flip-flop can store only one bit of data, either a logic 1 or 0. This logic state can be represented as the voltage on the flip-flop's output because it can be controlled to hold the logic state, effectively a 1 -bit memory.
+
+ Index: 21
+Question: The excess-3 code for 584 is given by
+CodeBlock:
+
+Options:
+0 . 100010110111
+1 . 100001110111
+2 . 100010010110
+3 . 100001010110
+4 . 
+Correct Answer: 0
+
+Explanation: If you want to calculate the excess-3 code of any number, you need to add "3" to each digit of the same number. In the above problem, the addition of "3" to each digit gives you a new digit "8," "11," and "7." Hence, according to 8421 rules, the corresponding four-bit binary equivalents are 100010110111
+
+ Index: 22
+Question: In Digital electronics (Boolean algebra), the OR operation is performed by which of the given properties
+CodeBlock:
+
+Options:
+0 . distributive properties
+1 . commutative properties
+2 . associative properties
+3 . all of these
+4 . 
+Correct Answer: 3
+
+Explanation:In Boolean algebra, the distributive properties are given by the following equation:A + BC = (A+B) (A+C) & A(B+C) = AB+ACIn Boolean algebra, the commutative properties are given by the following equation:A+B = B+A & A*B = B*AIn Boolean algebra, the distributive properties are given by the following equation:A+(B+C) = (A+B) +C & A*(B*C) = (A*B) *C
+
+ Index: 23
+Question: The queue is also known as
+CodeBlock:
+
+Options:
+0 . flash memory
+1 . filo memory
+2 . flash memory
+3 . fifo memory
+4 . 
+Correct Answer: 3
+
+Explanation: FIFO stands for First In - First Out. The queue is a type of memory based on FIFO, which means the request which has come first will be dealt with first. For example, the line of a crowd for booking railway tickets. The person who came first will get the ticket first. In the case of a Queue data structure, we call an ordinary queue as a FIFO queue.
+
+ Index: 24
+Question: In three-phase half-wave rectifier, each diode conducts for a duration of
+CodeBlock:
+
+Options:
+0 . 1200
+1 . 900
+2 . 1800
+3 . 600
+4 . 
+Correct Answer: 0
+
+Explanation: Mainly, there are two types of 3 phase rectifiers: A half-wave rectifier and a full-wave rectifier. Many industries work on 3 phase power supply instead of a single phase. In three-phase half-wave rectifiers, each diode conducts for a duration of 120 0 because the cycle will be repeated itself, and each thyristor conducts for 1200 duration when the firing angle is less than 300.
+
+ Index: 25
+Question: DeMorgan's Law states that
+CodeBlock:
+
+Options:
+0 . (a+b)' = a'*b
+1 . (ab)' = a' + b'
+2 . (ab)' = a' + b
+3 . (ab)' = a + b
+4 . 
+Correct Answer: 1
+
+Explanation: DeMorgan's theorems play a vital role in digital electronics. It gives an equivalency between the logic gates. There are two distinct types of DeMorgan's theorems: the first gives the equivalent of the NAND gate, and the other gives the equivalent of the NOR gate. As per the dual property of DeMorgan's theorem (AB)' = A' + B' & (A+B) = A' * B'
+
+ Index: 26
+Question: The logical sum of two or more than two logical products is termed as
+CodeBlock:
+
+Options:
+0 . or operation
+1 . pos
+2 . sop
+3 . nand operation
+4 . 
+Correct Answer: 2
+
+Explanation: SOP stands for "Sum of products." SOP is a way that a Boolean Algebra formula can be written. For example, the sum of product formula: AB + A'B'. In other words, it is defined as the logical sum of two or more logical product terms. POS refers to the logical product of two or more than two logical sum terms.
+
+ Index: 27
+Question: The Minterms for four variables 
+CodeBlock:
+
+Options:
+0 . 8
+1 . 16
+2 . 2
+3 . 1
+4 . 
+Correct Answer: 1
+
+Explanation:Minterms is given by the following formulaMinterm = 2nTherefore, 24= 16 minterms are needed.
+
+ Index: 28
+Question: A K-map (Karnaugh map) is an abstract form of which diagram organized as a squares matrix.
+CodeBlock:
+
+Options:
+0 . block diagram
+1 . cycle diagram
+2 . square diagram
+3 . venn diagram
+4 . 
+Correct Answer: 3
+
+Explanation: K- Map, also known as Karnaugh map, refers to a pictorial representation of a truth table. It helps in minimizing variables of any Boolean expression. It is also an abstract form of a Venn diagram arranged as a square of a matrix, where each square represents a minterm or maxterm.
+
+ Index: 29
+Question: Which of the given device used in speed control of a DC motor?
+CodeBlock:
+
+Options:
+0 . npn transistor
+1 . pnp transistor
+2 . fet
+3 . scr
+4 . 
+Correct Answer: 3
+
+Explanation: SCR stands for silicon-controlled rectifiers. SCR is used in speed control DC motor. SCR is controlled by a variable resistor potentiometer. Many Industries use variable speed drives for industrial applications. For example, rolling mills, railway traction, etc.
+
+ Index: 30
+Question: One nibble is equal to how many bits
+CodeBlock:
+
+Options:
+0 . 4
+1 . 2
+2 . 16
+3 . 8
+4 . 
+Correct Answer: 0
+
+Explanation: In digital electronics, the smallest unit of storage consisting of either 0 or 1 is called a bit. The arrangement of such 4 bits is known as a nibble. The arrangement of such 8 bits is known as a byte.
+
+ Index: 31
+Question: Suppose the output of an XNOR gate is 1. Which of the given input combination is correct?
+CodeBlock:
+
+Options:
+0 . a = 0, b' = 1
+1 . a = 1, b = 1
+2 . a = 0, b = 1
+3 . a = 0, b = 0
+4 . 
+Correct Answer: 3
+
+Explanation:An XNOR refers to a digital logic gate with two or more inputs and one output that executes logical equality. The output of an XNOR gate is true either all of its inputs are true, or all of its inputs are false. When one of its inputs is false, and others are true, then the output is false. The output of the XNOR gate is given by the following equation.AB + A'B,' For A = 0 AND B = 0 the output will be 1.
+
+ Index: 32
+Question: In DTL, the logic gating function is performed by
+CodeBlock:
+
+Options:
+0 . inductor
+1 . diode
+2 . transistor
+3 . transformer
+4 . 
+Correct Answer: 1
+
+Explanation: DTL stands for Diode Transistor Logic, where the diode serves as the Input network, and the switching operation is performed by the transistor. DTL is a predecessor of TTL (Transistor-Transistor Logic). The logic functions can be performed using resistors for biasing, transistors to amplify and diodes to switch and isolate inputs, producing logic levels.
+
+ Index: 33
+Question: Which of the given logic family provide minimum power dissipation
+CodeBlock:
+
+Options:
+0 . jfet
+1 . ecl
+2 . cmos
+3 . ttl
+4 . 
+Correct Answer: 2
+
+Explanation: CMOS stands for Complimentary Metal Oxide Semiconductor, which allows low power consumption and less density because it does not consume power in the OFF state. It is a digital logic that utilizes a pair of complementary field-effect transistors to switch the electric current. When the logic gate is ON, one transistor is in on, whereas the other is in OFF condition.
+
+ Index: 34
+Question: The AND operation is equivalent to
+CodeBlock:
+
+Options:
+0 . union
+1 . intersection
+2 . division
+3 . both option a and b
+4 . 
+Correct Answer: 1
+
+Explanation: AND operation is equivalent to Intersection. It means Y = A.B i.e. A AND B = A Intersection B. The output is 1, if and only if all the given inputs are 1.
+
+ Index: 35
+Question: TTL is a class of digital circuits built from
+CodeBlock:
+
+Options:
+0 . resistors only
+1 . bjt (bipolar junction transistors) only
+2 . jeft only
+3 . both option a and b
+4 . 
+Correct Answer: 3
+
+Explanation: TTL stands for Transistor-Transistor logic. It is a class of type of digital circuits made up of bipolar junction transistors and resistors. BJT has two types of charge carriers: the first one is the electron and the holes. There are two types of BJTs: NPN and PNP. In TTL, resistors play a very short role, and both logic gating and amplifying functions are carried out by the transistors.
+
+ Index: 36
+Question: Which logic unit is the fastest of all the logic families?
+CodeBlock:
+
+Options:
+0 . dtl
+1 . ttl
+2 . ecl
+3 . cmos
+4 . 
+Correct Answer: 2
+
+Explanation:ECL stands for Emitter Coupled Logic. It is the fastest of all the logic families because of its higher transmission rate.In Emitter Coupled Logic,
+The storage time is removed as the transistors are utilized in different amplifier mode and are never driven into saturation.
+It is the fastest logic family and has the minimum propagation delay.
+In CMOS logic,
+Power dissipation is basically 10nw per gate, relying on the power supply voltage, output load etc.
+The CMOS components are usually expensive, but CMOS technology is cost-efficient.
+It has high input impedance.
+In TTL,
+Power dissipation is basically 10nw per gate.
+Cost-efficient components.
+The possibility of damage to the equipment is less from electrostatic charge as compared to CMOS.
+
+
+ Index: 37
+Question: Positive integers must be represented by
+CodeBlock:
+
+Options:
+0 . signed numbers
+1 . unsigned numbers
+2 . both option a and b
+3 . none of the above
+4 . 
+Correct Answer: 1
+
+Explanation: The negative integers are represented by signed numbers on the extreme left side, whereas the positive integers are represented using unsigned numbers.
+
+ Index: 38
+Question: The Ward- Leonard system is used for controlling the speed of 
+CodeBlock:
+
+Options:
+0 . three-phase ac motors
+1 . universal motors
+2 . induction motors
+3 . dc motors
+4 . 
+Correct Answer: 3
+
+Explanation: The Ward Leonard system was implemented and used to control the speed of DC shunt electric motors. Previously, it was quite convenient to obtain a variety of speeds and reversing for industrial applications. The system consisted of any prime mover, including an AC motor driving a DC shunt generator. The armature of the DC generator was directly connected to the shunt motor's armature to be controlled. The DC motor had its magnetic field continuously excited while that of the DC generator, the magnetic field could be controlled in intensity and direction. As the prime mover rotated, the field of the DC generator was adjusted as required, hence its armature current-controlled, this current would be adjusted in magnitude and direction, and this, being fed to the armature of the DC motor, would create a driving torque as it reacted with the continuously applied motor field.
+
+ Index: 39
+Question: When the PIV rating of a diode is exceeded
+CodeBlock:
+
+Options:
+0 . the diode behaves like a thyristor.
+1 . the diode behaves like a resistor.
+2 . the diode is destroyed.
+3 . the diode behaves like a tunnel diode.
+4 . 
+Correct Answer: 2
+
+Explanation: PIV stands for Peak Inverse Voltage. In other words, PIV is defined as the maximum voltage that can apply to a diode in the reverse direction. Applying higher voltage will cause the diode to destroy. Start conducting current in the normally "OFF" direction, which will damage the diode and often do things you don't like to your circuit. The exact details depend on the circuit design.We usually select the PIV larger than the largest normal reverse operating voltage in our circuit. If you are making a full-wave rectifier for 220 Vac, you'd typically select a diode with a 240 or more PIV to give some "head room" and "safety factor" on the diode. The minimum should usually be selected like this: round-up from your designed or simulated reverse voltage to the next higher PIV for a diode family that gives you the current you require.
+
+ Index: 40
+Question: Which insulating layer is used in the fabrication of MOSFET?
+CodeBlock:
+
+Options:
+0 . silicon nitride
+1 . aluminum sulphate
+2 . copper sulphate
+3 . silicon dioxide
+4 . 
+Correct Answer: 3
+
+Explanation: A MOSFET is a field-effect transistor. It depends on the presence of an electric field to control the characteristics of the conductive channel. In the MOSFET, the gate is insulated from the substrate by a layer of silicon dioxide, which is basically glass. The charges accumulate on the gate to create the electric field instead of just having them flow out. So, while silicon is the main constituent of the conductive channel, a thin layer of silicon dioxide is used to insulate the gate.
+
+ Index: 41
+Question: CMOS technology used in?
+CodeBlock:
+
+Options:
+0 . microprocessor
+1 . inverter
+2 . digital logic
+3 . both option a and c
+4 . 
+Correct Answer: 3
+
+Explanation: CMOS stands for Complimentary Metal Oxide Semiconductor. It is a type of (mostly) digital logic that uses a pair of complementary field-effect transistors to switch electric current. There are some analog CMOS devices; they are a lot less common. CMOS technology is used in many electronic devices like Microprocessor, Ram, Microcontroller, and other logic circuits. When the gate is ON, one transistor is on, and the other is off. When the gate is OFF, the first transistor is off, and the other is ON. 
+
+ Index: 42
+Question: The basic building blocks of the arithmetic logic unit in digital computers are known as
+CodeBlock:
+
+Options:
+0 . adders
+1 . attenuator
+2 . demultiplexer
+3 . subtractors
+4 . 
+Correct Answer: 0
+
+Explanation:The basic building blocks of the arithmetic unit in digital computers are known as adders. Adder is the Arithmetic mathematical function derived out of Logic gates. So, Adder always plays a major role in understanding Digital Electronics. The simplest but the most powerful application of logic gates is Adder. A full adder is similar to a half adder except that instead of 2 inputs and two outputs, there are now three inputs and two outputs. The inputs are carry-in (Cin), X, and Y. Your outputs remain the same, sum, and carry-out (Cout).A half adder is typically only useful for "single digit" addition. A full adder implements the half Adder to link multiple full adders together to achieve higher orders of addition. Sixteen full adders in the group allow 16- bit addition.
+
+ Index: 43
+Question: The number of inputs in a half adder is?
+CodeBlock:
+
+Options:
+0 . 8
+1 . 2
+2 . 11
+3 . 32
+4 . 
+Correct Answer: 1
+
+Explanation: The total number of inputs in a half adder is 2. The half adder circuit has two inputs: P and Q, which add two input digits and generate a carry and sum. With the help of half Adder, we can design circuits capable of performing simple addition with the help of logic gates. An EXOR gate has two inputs and carries links to input EXOR gates. The output of the half added is also two, SUM and CARRY.
+
+ Index: 44
+Question: Why is a decoder used in digital electronics?
+CodeBlock:
+
+Options:
+0 . to convert non coded information into a binary coded form.
+1 . to convert coded information into a non-coded form.
+2 . it is used to divide address bus and data bus.
+3 . none of these
+4 . 
+Correct Answer: 1
+
+Explanation: Decoder is usually used to convert the coded information (BCD) into a non-coded form. In other words, decoders are defined as an electronic device that is used to convert digital signal to an analog signal. The decoders are used in many communication devices that are used to communicate between two devices. The decoder allows n number of inputs and generates 2n numbers of outputs. For example, if we give two inputs, four by two decoder will produce four outputs.
+
+ Index: 45
+Question: How much input and output needed for demultiplexer?
+CodeBlock:
+
+Options:
+0 . many outputs to one input
+1 . one input many outputs
+2 . one input one output
+3 . none of these
+4 . 
+Correct Answer: 1
+
+Explanation: A demultiplexer or DEMUX is a device that takes a single input line and routes it to one of several digital output lines. A demultiplexer of 2n outputs has n number of select lines, which are used to choose which output line send the input. A demultiplexer is also known as data distributor.
+
+ Index: 46
+Question: A register can be defined as
+CodeBlock:
+
+Options:
+0 . the group of transistors for storing n- a bit of information
+1 . the group of transistors for storing two bits of information
+2 . the group of flip-flops for storing n bit of information
+3 . the group of flip-flops for storing binary information.
+4 . 
+Correct Answer: 3
+
+Explanation: An electronic register refers to a form of memory that uses a group of flip-flops that is suitable for storing binary information, such as a byte (8 bits) of data. Each flip flop is a binary cell suitable for storing individual bits of a binary word. The length of the stored binary information depends on the number of flip-flops that make up the register. The information in a register can be transferred form one flip-flop to another flip-flop.
+
+ Index: 47
+Question: The primary difference between a counter and a register is
+CodeBlock:
+
+Options:
+0 . a counter has the capability to store n bit of information whereas a register has one bit.
+1 . a register counts data.
+2 . a register has no specific sequence of states.
+3 . a counter has no particular sequence of states.
+4 . 
+Correct Answer: 2
+
+Explanation:The primary difference between a counter and a register is that register has no specific state sequence except in certain conditions.A counter is a special case of a register while the register has the same clock. generally, the register can only be stored, loaded, or used for the stack or as the program counter. The counter does not need to have the same clock.Advantages of Counter: It is used in frequency dividers, Code generators and Period and sequence generators.Advantages of Register: To Produce Time delay, Simplify Combinational Logic and Convert Serial Data to Parallel Data
+
+ Index: 48
+Question: What is the radix of the octal number system?
+CodeBlock:
+
+Options:
+0 . 2
+1 . 10
+2 . 8
+3 . 16
+4 . 
+Correct Answer: 2
+
+Explanation: A radix of a number system refers to the number of base digits, including zero, that are used to represent large values. In the binary number system, that would be 2 (0,1). In the octal number system, that would be 8 (0 to 7). In the decimal number system, that would be 10 (0 to 9). In the hexadecimal number system, that would be 16 (0 to 15).
+
+ Index: 49
+Question: Dual slop ADC has the value of R = 1 K? and the value of C is 0.44 nano-farad has charging and discharging time for some specific voltage is nine ns and 3 ns, respectively. If the reference voltage is 4.4 V, what is the peak voltage reached by a triangular wave during the charging process?
+CodeBlock:
+
+Options:
+0 . 300 mv
+1 . 30 mv
+2 . 3 mv
+3 . 3 mv
+4 . 
+Correct Answer: 1
+
+Explanation:
+
+ Index: 50
+Question: The two-transistor model of the SCR is obtained by
+CodeBlock:
+
+Options:
+0 . bisecting the scrs top two and bottom two layers
+1 . bisecting the scrs top two layers
+2 . bisecting the scrs bottom two layers
+3 . bisecting the scrs diagonally
+4 . 
+Correct Answer: 0
+
+Explanation: The two- transistor model of the SCR is obtained by bisecting the SCRs top two and bottom two layers. The two-transistor analogy of SCR refers to a method of producing an SCR as a combination of an np-n and a p-np transistor. SCR is a three-terminal device having a p-n-p-n structure. The three terminals of the junctions are the cathode, anode and gate terminal.
+
+ Index: 51
+Question: What is the main function of the filter in a rectifier circuit?
+CodeBlock:
+
+Options:
+0 . maximize ac input variations
+1 . to suppress odd harmonics.
+2 . remove ripples from the rectified output.
+3 . minimize dc input and ac output variations.
+4 . 
+Correct Answer: 2
+
+Explanation:The main function of the filter in a rectifier circuit is to remove ripples from the rectified output. As we know, rectifiers are primarily used to convert alternating current (AC) to direct current (DC). There we find a considerable AC component in the output, which is called ripple.Many electronic systems require pure direct current supply to drive or power them. To make a efficient continuous power supply that gives pure DC output, we need to remove the AC component from the output of rectifiers.
+
+ Index: 52
+Question: What is the actual meaning of the parallel load of a shift register?
+CodeBlock:
+
+Options:
+0 . all flip-flops are set with data.
+1 . it means a parallel shifting of data.
+2 . all flip-flops are present with data.
+3 . each flip flop is loaded with data simultaneously.
+4 . 
+Correct Answer: 2
+
+Explanation: The actual meaning of the parallel load of a shift register is all flip-flops are present with data. It means that all of the register stages are loaded at a time with new data bits by a single load pulse. In the present condition, the outputs of flip flops will be 1. The value of Preset equals 1 means Q equals 1, this the value of the input is definitely 1.
+
+ Index: 53
+Question: In a 100 kHz clock frequency, 16 bits can be serially entered into a shift register?
+CodeBlock:
+
+Options:
+0 . 150 micro-sec
+1 . 160 micro-sec
+2 . 170 micro-sec
+3 . 180 micro-sec
+4 . 
+Correct Answer: 1
+
+Explanation:Givenf = 100 kHzAs we know, frequency ( f )= 1/TSo, T = (1/100) m sec= 1/0.1 micro second = 10 micro sec; In serial transmission first the one- bit data enters at a time. After 16 clock cycles 16 bit will be loaded, it means = 16*10 = 160 micro-sec.
+
+ Index: 54
+Question: A series of equal space time pulses may be easily generated by which type of counter circuit?
+CodeBlock:
+
+Options:
+0 . johnson shift
+1 . clock shift
+2 . binary shift
+3 . ring counter
+4 . 
+Correct Answer: 3
+
+Explanation: A series of equally spaced timing pulses may be easily generated in clock shifts. In the Ring counter, the output of the last flip flops is connected to the first flip flop input, i.e., the ring counter is the cascaded connection of flip flops. It means feedback of the output of the flip-flops is fed to the input of the same flip-flop. It generates equally spaced timing pulses.
+
+ Index: 55
+Question: At which frequency the digital data can be applied to a gate?
+CodeBlock:
+
+Options:
+0 . run-time frequency
+1 . propagation frequency
+2 . operating frequency
+3 . ac frequency
+4 . 
+Correct Answer: 2
+
+Explanation: The operating frequency refers to the frequency at which the communications are being made with the total bandwidth occupied by the carrier signal with modulation.
+
+ Index: 56
+Question: What are the three output conditions of 3- state buffer?
+CodeBlock:
+
+Options:
+0 . high impedance, 0, float
+1 . negative, positive, 0
+2 . 1, low impedance, float
+3 . high, low, float
+4 . 
+Correct Answer: 3
+
+Explanation: The three or tri-state conditions of a three-state buffer are High, Low, and float. A three-state buffer refers to a state buffer that' output can be made high impedance in addition to high or low logic states. It is useful in a condition where you have more than one output on a given line. For example, a multi-drop communication bus. If the 3-state control input is 1, then output is electrically isolated/disconnected or floated. It is as if a very high impedance of 10 Megaohms is inserted between the output pin and internal circuit. Now output pin can be set to 0 or 1 by any other output signal connected to the output.
+
+ Index: 57
+Question: If a transistor has IC = 110 mA and IE = 55 mA, find the value of β?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 7
+2 . 9
+3 . 11
+4 . 
+Correct Answer: 0
+
+Explanation:In common emitter, the term β stands for current gain. Current gain refers to the ratio between collector current and base current at a constant VCE.β = IC/IBIn the common base, DC gain α refers to the ratio of the collector current IC and the emitter current IE.The equation of dc current gainα = IC/IENow, we can establish the relationship between α and ββ = α/ (1 - α)GivenEmitter current IE = 55 mACollector current IC = 110 mAα = IC/IE = 110/55 = 2β = α/ (1 - α) = 2/ (1 - 2)β = -2Here the negative value of β indicates its direction, because by convention positive current is always termed as flowing into the device. So, the current gain is negative.
+
+ Index: 58
+Question: In an 8 -bit Johnson counter sequence, how many states orbit patterns are possible?
+CodeBlock:
+
+Options:
+0 . 240
+1 . 228
+2 . 232
+3 . 220
+4 . 
+Correct Answer: 0
+
+Explanation:As we know, the total number of states in the Jhonson counter is determined by the given formula2N = 2 8= 256Now,the total number of used states = 2N = 2* 8 = 16therefore, the total number of unused states = 256-16 = 240
+
+]

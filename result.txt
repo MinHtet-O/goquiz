@@ -1,0 +1,88 @@
+Waiting to get questions from domain  javatpoint.com
+Finish scraping function for  powerpoint-mcq
+Finish scraping function for  transformer-mcq
+Finish scraping function for  java-mcq
+Finish scraping function for  expressjs-mcq
+Finish scraping function for  mechanical-engineering-mcq
+Finish scraping function for  software-testing-mcq
+Finish scraping function for  class-10th-science-mcq
+Finish scraping function for  nodejs-mcq
+Finish scraping function for  statistics-mcq
+Finish scraping function for  gk-mcq
+Finish scraping function for  angular-mcq
+Finish scraping function for  reactjs-mcq
+Finish scraping function for  indian-constitution-mcq
+Finish scraping function for  computer-network-mcq-part2
+Finish scraping function for  operating-system-mcq
+Finish scraping function for  research-methodology-mcq
+Finish scraping function for  python-mcq-part-2
+Finish scraping function for  compiler-design-mcq
+Finish scraping function for  digital-communication-mcq
+Finish scraping function for  reasoning-mcq
+Finish scraping function for  software-engineering-mcq
+Finish scraping function for  control-system-mcq
+Finish scraping function for  general-science-mcq
+Finish scraping function for  class-12-physics-mcq
+Finish scraping function for  human-resource-management-mcq
+Finish scraping function for  biotechnology-mcq
+Finish scraping function for  android-mcq
+Finish scraping function for  cloud-computing-mcq
+Finish scraping function for  environmental-studies-mcq
+Finish scraping function for  data-mining-mcq
+Finish scraping function for  psychology-mcq
+Category Operating System alredy exists with len 16 for input category operating-system-mcq-part-2 with len 27 
+Finish scraping function for  operating-system-mcq-part-2
+Finish scraping function for  data-structure-mcq
+Finish scraping function for  dbms-mcq
+Finish scraping function for  discrete-mathematics-mcq
+Finish scraping function for  cyber-security-mcq
+Finish scraping function for  css-mcq
+Finish scraping function for  c-language-mcq
+Finish scraping function for  html-mcq
+Finish scraping function for  ancient-history-mcq
+Finish scraping function for  oops-mcq
+Finish scraping function for  computer-fundamental-mcq
+Category Python alredy exists with len 6 for input category python-mcq with len 10 
+Finish scraping function for  python-mcq
+Finish scraping function for  php-mcq
+Finish scraping function for  iot-mcq
+Finish scraping function for  class-9th-science-mcq
+Finish scraping function for  computer-architecture-mcq
+Finish scraping function for  digital-image-processing-mcq
+Finish scraping function for  computer-graphics-mcq
+Finish scraping function for  cpp-mcq
+Finish scraping function for  mobile-computing-mcq
+Finish scraping function for  engineering-mechanics-mcq
+Finish scraping function for  soft-computing-mcq
+Finish scraping function for  sql-mcq
+Finish scraping function for  number-system-mcq
+Finish scraping function for  life-processes-mcq
+Category Computer Fundamental alredy exists with len 20 for input category computer-fundamental-mcq-part-2 with len 31 
+Finish scraping function for  computer-fundamental-mcq-part-2
+Finish scraping function for  embedded-systems-mcq
+Finish scraping function for  digital-marketing-mcq
+Finish scraping function for  bootstrap-4-mcq
+Finish scraping function for  trigonometry-mcq
+Finish scraping function for  genetics-algorithm-mcq
+Finish scraping function for  probability-mcq
+Finish scraping function for  jdbc-mcq
+Category C Language alredy exists with len 10 for input category c-language-mcq-part-2 with len 21 
+Finish scraping function for  c-language-mcq-part-2
+Finish scraping function for  environmental-science-mcq
+Finish scraping function for  jquery-mcq
+Category Computer Network alredy exists with len 16 for input category computer-network-mcq with len 20 
+Finish scraping function for  computer-network-mcq
+Finish scraping function for  fluid-mechanics-mcq
+Finish scraping function for  advanced-data-structure-mcq
+Finish scraping function for  digital-electronics-mcq
+Finish scraping function for  human-rights-mcq
+Category Software Testing alredy exists with len 16 for input category software-testing-mcq-part-2 with len 27 
+Finish scraping function for  software-testing-mcq-part-2
+Finish scraping function for  javascript-mcq
+Finish scraping function for  bootstrap-mcq
+Category Cpp alredy exists with len 3 for input category cpp-mcq-part-2 with len 14 
+Finish scraping function for  cpp-mcq-part-2
+Finish scraping function for  digital-signal-processing-mcq
+Finish scraping function for  electrical-mcq
+Finish scraping function for  power-electronics-mcq
+Finish scraping function for  civil-engineering-mcq

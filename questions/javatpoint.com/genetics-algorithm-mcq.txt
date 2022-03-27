@@ -1,0 +1,572 @@
+&[Index: 0
+Question: What will happen when a chain-termination mutation is found in the S gene? 
+CodeBlock:
+
+Options:
+0 . cell lysis gets blocked.
+1 . the growth of cells containing low levels of packaging proteins is not allowed.
+2 . the lysis of cells cannot be carried artificially
+3 . packaging cannot be carried out efficiently
+4 . 
+Correct Answer: 0
+
+Description: Cell lysis gets blocked whenever a chain termination mutation is found in the S gene. Mainly, high levels of packaging protein are found in the S gene, which is then carried out artificially.
+
+ Index: 1
+Question: The endonuclease cuts the DNA from __________. 
+CodeBlock:
+
+Options:
+0 . the chain's end
+1 . withing the polynucleotide chain and not at the ends
+2 . inside the chain
+3 . anywhere in the chain
+4 . 
+Correct Answer: 1
+
+Description: The endonuclease cuts the DNA from within the polynucleotide chain and not at the ends, whereas exonuclease cuts the sequence at the ends.
+
+ Index: 2
+Question: What protects the modified DNA after undergoing replication? 
+CodeBlock:
+
+Options:
+0 . conservative mode of replication
+1 . semi-conservative mode of replication
+2 . replication has nothing to do with replication
+3 . dna gets modified after replication
+4 . 
+Correct Answer: 1
+
+Description: Due to the semi-conservative mode of replication, one of the strands of DNA remains methylated after undergoing replication. A single methylated strand of DNA is sufficient enough to protect the DNA against cleavage by restricting endonuclease. 
+
+ Index: 3
+Question: What is the name of the phenomenon in which the specificity of the enzyme gets affected by the concentration of the used buffer? 
+CodeBlock:
+
+Options:
+0 . specificity elevation
+1 . diamond activity
+2 . star activity
+3 . concentration gradient effects
+4 . 
+Correct Answer: 2
+
+Description: The star activity refers to a phenomenon in which the specificity of an enzyme gets lost whenever a concentration buffer is varied.
+
+ Index: 4
+Question: The recognition sequence for BamHI is 5'G|GATCC 3', where '|' represents the cutting site. What can be concluded by the ends? 
+CodeBlock:
+
+Options:
+0 . the ends refer to the double strands.
+1 . the single-stranded end is found to be 5' in nature
+2 . the single stranded end is found to be 3' in nature
+3 . more information is required for concluding the nature of the ends
+4 . 
+Correct Answer: 1
+
+Description: The other strand is nothing but complementary to it and can be written in the following way:5' G|GATCC 3'3' CCTAG|G 5'After cleavage, the sequences are represented as:5' G 3' 5' GATCC 3'3' CCTAG 5' 3' G 5'Thus, we can see that the ends generated are single-stranded at 5' end.
+
+ Index: 5
+Question: Which of the following statement is true in terms of partial digestion? 
+CodeBlock:
+
+Options:
+0 . partial digestion can be defined as a condition which does not recognize any of the site present in the dna sequence.
+1 . partial digestion created a similar number of fragments to that of complete digestion.
+2 . partial digestion does not help represent a genomic library
+3 . it can identify exactly half of the sites in the dna
+4 . 
+Correct Answer: 0
+
+Description: Since partial digestion cannot recognize all of the sites, it can never create a similar number of fragments as complete digestion. It is beneficial in genomic library representation because it can represent nearly each and every segment. 
+
+ Index: 6
+Question: How many types of polymerases are there in basic classification? 
+CodeBlock:
+
+Options:
+0 . 1
+1 . 3
+2 . 6
+3 . 5
+4 . 
+Correct Answer: 3
+
+Description: There are 5 types of polymerases in basic classification, which are as follows:
+DNA dependent DNA polymerase
+DNA dependent RNA polymerase
+RNA dependent DNA polymerase
+RNA dependent RNA polymerase
+Template dependent polymerase
+
+
+ Index: 7
+Question: What is meant by polymerase? 
+CodeBlock:
+
+Options:
+0 . an enzyme is used to synthesize either a strand of new dna or rna, but only when a strand is present.
+1 . an enzyme that can synthesize only the dna strand and not the rna strand
+2 . an enzyme which can be used to remove the nucleotides dna or rna strand
+3 . an enzyme which can be utilized to synthesize a new dna or rna strand based on the pre-existing strand or at times without a pre-existing strand
+4 . 
+Correct Answer: 3
+
+Description: The synthesis of a new strand of DNA or RNA can be done either based on the pre-existing strand or without it. The strands which do not necessitate a pre-existing strand refer to a template-free or template independent. 
+
+ Index: 8
+Question: Which of the following activity can't be seen in the case of DNA polymerase? 
+CodeBlock:
+
+Options:
+0 . 3'-5' exonuclease
+1 . 5'-3' exonuclease
+2 . 5'-3' dna synthesis
+3 . 3'-5' dna synthesis
+4 . 
+Correct Answer: 3
+
+Description: DNA polymerase encompasses an ability to synthesize DNA strands only in the direction of 5'-3' and not in 3'-5' direction. However, it can possess exonuclease activity in both directions, which means that it can remove bases in either direction but can synthesize only in 5'-3' direction.
+
+ Index: 9
+Question: Which of the following represent the correct mode of actions of exonuclease III?
+CodeBlock:
+
+Options:
+0 . exonuclease iii acts on dna's single strand in 3'-5' direction
+1 . exonuclease iii acts on dna's double strands in 3'-5' direction
+2 . exonuclease iii acts on dna's double strands in 5'-3' direction
+3 . exonuclease iii acts on dna's single strand in 5'-3' direction
+4 . 
+Correct Answer: 1
+
+Description: An enzyme that possesses exonuclease activity on DNA's double strands in 3'-5' direction and not on single-stranded DNA molecules.
+
+ Index: 10
+Question: How to protect one end from Exonuclease III's action to prevent the molecule from getting shortened from both ends?
+CodeBlock:
+
+Options:
+0 . by utilizing phosphonothioate nucleotide analogue
+1 . by making both, the ends double-stranded in nature
+2 . by labeling one end with a radioactive compound
+3 . by increasing the time of exposure of the dna molecule to the enzyme
+4 . 
+Correct Answer: 0
+
+Description: Phosphorothioate nucleotide analogues replace the nucleotides at the ends. By restricting the enzyme from performing any action, it makes sure that the molecule does not get shortened at the end where the replacement is done.
+
+ Index: 11
+Question: The primary function of methylase is to __________. 
+CodeBlock:
+
+Options:
+0 . add the methyl groups to the dna
+1 . use in producing the methane gas
+2 . remove the methyl groups from the dna
+3 . both remove and add methyl groups from the dna
+4 . 
+Correct Answer: 0
+
+Description: Methylase is used to add the methyl groups to the DNA. It can be done by placing the methyl groups taken from S-adenosyl methionine.
+
+ Index: 12
+Question: What is meant by litigation? 
+CodeBlock:
+
+Options:
+0 . alignment of only double-stranded dna molecules at the ends and the formation of phosphodiester bonds between both the strands
+1 . alignment of single-stranded dna molecules and formation of glycosidic bonds between these strands
+2 . alignment of either of the double or single-stranded dna molecules and the formation of phosphodiester bonds. the bond can be between either one or both strands.
+3 . alignment of either of the double or single-stranded dna molecules and formation of glycosidic bonds between both the strands
+4 . 
+Correct Answer: 2
+
+Description: Ligation refers to the formation of bonds amid the ends of two DNA strands. The strands can either be single or double. Since the nature of the bond is found to be phosphodiester, thus the bond is mainly formed amongst sugar and phosphate. The phosphodiester bond can either be formed between one strand or both strands.
+
+ Index: 13
+Question: In which of the following cases, litigation reaction is found to be more efficient? 
+CodeBlock:
+
+Options:
+0 . sticky end litigation
+1 . blunt end litigation
+2 . depends on the condition of the reaction
+3 . both encompass similar efficiency
+4 . 
+Correct Answer: 0
+
+Description: In contrast to blunt and litigation, sticky end litigation is found to be more efficient because it is carried out due to complementary base pairing.
+
+ Index: 14
+Question: If recircularization is observed while carrying out a litigation reaction, what does it infers to?
+CodeBlock:
+
+Options:
+0 . intermolecular
+1 . intramolecular
+2 . recircularization is equally observed by both intermolecular and intramolecular.
+3 . not possible in any case
+4 . 
+Correct Answer: 1
+
+Description: Recircularization refers to such phenomena in which the ends of the same molecules are joined all together. It happens in the case of an intramolecular ligation reaction. 
+
+ Index: 15
+Question: Increase in reaction component's concentration leads to __________. 
+CodeBlock:
+
+Options:
+0 . litigation in both intermolecular and intramolecular reactions
+1 . litigation only in intermolecular without affecting intramolecular
+2 . high chance of litigation in intermolecular and less or no chance in intramolecular
+3 . low chance of litigation in both types of reaction
+4 . 
+Correct Answer: 1
+
+Description: As the concentration of reaction components increases, there are increased chances of ligation in intermolecular reaction because of the frequency of collision of two different molecules. The intramolecular reaction is unaffected because the probability of meeting the ends of a molecule remains the same.
+
+ Index: 16
+Question: What is the name of the enzyme that is commonly used for carrying out litigation reactions?
+CodeBlock:
+
+Options:
+0 . ligase
+1 . dnase
+2 . reverse transciptase
+3 . transferase
+4 . 
+Correct Answer: 0
+
+Description: The ligase enzyme helps in carrying out the ligation reaction, which can be either obtained from E. coli or from cells infected by the virus.
+
+ Index: 17
+Question: Which of the following enzyme can be used to carry blunt-ended litigations? 
+CodeBlock:
+
+Options:
+0 . t4 dna ligase
+1 . coli dna ligase
+2 . both of the enzymes act equally in carrying out the blunt-ended litigations
+3 . none of the above
+4 . 
+Correct Answer: 0
+
+Description: T4 DNA ligase helps carry out the blunt-ended ligations as E. coli DNA ligase cannot carry out blunt-ended ligation.
+
+ Index: 18
+Question: __________ enzyme helps in carrying out elements of mobile genetics from one portion of DNA to another. 
+CodeBlock:
+
+Options:
+0 . transposase
+1 . endonuclease
+2 . ligase
+3 . transciptase
+4 . 
+Correct Answer: 0
+
+Description: Transposase transfers a mobile genetic element from one portion to another, which helps in inserting the origin of replication or anti-biotic resistance genes.
+
+ Index: 19
+Question: Many bacterial species have a natural ability to take up the exogenous DNA material. Which of the statement is not correct in regard to it?
+CodeBlock:
+
+Options:
+0 . it is not limited to particular growth phases.
+1 . the bacteria may develop new biochemical abilities under special conditions such as nutrient deprivation.
+2 . this ability is termed competence.
+3 . induction of a specific set of bacterial proteins may take place
+4 . 
+Correct Answer: 0
+
+Description: This ability is termed competence, and it is limited to particular growth phases. It results in developing new biochemical abilities under special conditions such as nutrient deprivation. If the bacterial cells are naturally competent, they may take the foreign DNA by simply incubating them with foreign DNA.
+
+ Index: 20
+Question: Viral infection can be used to take up the DNA by cells. 
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Description: Viral infection can be used to take up the DNA by the cells due to the viral coat, and the nucleic acid contained within has no role to play.
+
+ Index: 21
+Question: As isolation of genomic DNA works similar to obtaining plasmid from E. coli, which of the following is not considered in it?
+CodeBlock:
+
+Options:
+0 . removal of proteins
+1 . cell lysis
+2 . dissolving plasmid in water
+3 . removal of chromosomal dna
+4 . 
+Correct Answer: 2
+
+Description: To obtain plasmid DNA from E. coli, some basic steps are involved.
+Firstly, the cell is lysed.
+Then it undergoes removal of proteins and chromosomal DNA.
+Collects the plasmid.
+Lastly, undergoes purification.
+
+
+ Index: 22
+Question: In how many ways can we obtain the plasmid DNA from the bacteria?
+CodeBlock:
+
+Options:
+0 . 1
+1 . 2
+2 . 3
+3 . 4
+4 . 
+Correct Answer: 1
+
+Description: Mainly, there are two methods called the alkaline lysis method and boiling lysis method with which the plasmid DNA can be obtained from the bacteria. Both of the methods follow different approaches. 
+
+ Index: 23
+Question: Cell lysis is carried out by __________. 
+CodeBlock:
+
+Options:
+0 . water
+1 . sulphuric acid
+2 . lysozyme and detergents
+3 . sugar solution
+4 . 
+Correct Answer: 2
+
+Description: Cell lysis can be performed by adding lysozyme and detergents. The cell wall is formed by cross-linking N-acetyl glucosamine and N-acetyl muramic acid. The agents that are added to break the cross-links are present between the molecules of the cell wall.
+
+ Index: 24
+Question: __________ process is carried out to separate chromosomal or genomic DNA. 
+CodeBlock:
+
+Options:
+0 . dissolution in water
+1 . distillation
+2 . sedimentation
+3 . centrifugation
+4 . 
+Correct Answer: 3
+
+Description: In general, chromosomal or genomic DNA is found to be heavier and large in size in contrast to plasmid DNA. Thus, centrifugation at high speed is performed to settling down the genomic DNA so that they can be easily separated.
+
+ Index: 25
+Question: Which of the following treatment can be used to remove the proteins?
+CodeBlock:
+
+Options:
+0 . centrifuging
+1 . phenol and chloroform treatment
+2 . treatment with sodium hydroxide
+3 . chloroform treatment alone
+4 . 
+Correct Answer: 1
+
+Description: The combination of phenol and chloroform helps to remove the proteins as chloroform cannot give sufficient results if used alone. The addition of phenol helps to destruct the proteins, followed by assisting the chloroform to dissolute under acidic conditions.
+
+ Index: 26
+Question: The nucleic acid remaining in the solution can be precipitated by the addition of sodium or ammonium acetate and ethanol.
+CodeBlock:
+
+Options:
+0 . true
+1 . false
+2 . 
+3 . 
+4 . 
+Correct Answer: 0
+
+Description: The nucleic acid is present in the solution and is precipitated by the addition of sodium or ammonium acetate and ethanol. It is because; nucleic acid is polar in nature and thus easily dissolves in water. Hence, to avoid this, sodium acetate and ethanol are added. Sodium acetate is shielding the charge present on the sugar-phosphate backbone, and further bonds are easily formed between ethanol and phosphate. It leads to separating out of nucleic acids.
+
+ Index: 27
+Question: Gel electrophoresis separates nucleic acid molecules based on __________. 
+CodeBlock:
+
+Options:
+0 . charge on molecules
+1 . size of the molecules
+2 . nature of the molecules, i.e., whether dna or rna
+3 . chemical properties of the nucleic acids
+4 . 
+Correct Answer: 1
+
+Description: Based on the molecule's size, gel electrophoresis separates nucleic acid molecules. Due to the force applied by the electric field, the nucleic acid molecules have to pass through the gel. 
+
+ Index: 28
+Question: If the DNA is equally distributed, which of the following is going to pass through the gel? 
+CodeBlock:
+
+Options:
+0 . nicked
+1 . circular
+2 . supercoiled
+3 . both supercoiled and circular
+4 . 
+Correct Answer: 2
+
+Description: The supercoiled form of DNA travels the fastest because the movement through the gel is based on the molecule's size. The smaller the molecule, the less retarding force would be experienced during the movement. Hence, supercoiled having the smallest size will move the fastest.
+
+ Index: 29
+Question: In electrophoresis, which of the following method is used to recovery the DNA from gel? 
+CodeBlock:
+
+Options:
+0 . secondary electrophoresis
+1 . recovery electrophoresis
+2 . renaturing electrophoresis
+3 . electro-elution
+4 . 
+Correct Answer: 3
+
+Description: Electro-elution is used to remove the DNA from the gel. Different electro-elution methods are used, such as dialysis tubes or membrane is used.
+
+ Index: 30
+Question: Which of the following statement is correct for the DNA recovery method, which is also called freeze-squeeze? 
+CodeBlock:
+
+Options:
+0 . freezing does not possess any effect on the structure of the dna.
+1 . the slice, which is full of dna, is broken down so as to freeze it in liquid oxygen.
+2 . once it is frozen, centrifugation is then performed with the help of a glass wool plug.
+3 . the substance used for centrifugation enables the passage of gel but restricts the liquid.
+4 . 
+Correct Answer: 2
+
+Description: The DNA recovery method is useful for procuring DNA from the gel. The slice, which is full of DNA, is broken down so as to freeze it in liquid nitrogen. Freezing in liquid nitrogen helps to disrupt the structure. Once it is frozen, centrifugation is then performed with the help of a glass wool plug, and the gel is retained. The liquid containing dissolved DNA is then passed through it.
+
+ Index: 31
+Question: Which of the gel portion results in the greatest separation? 
+CodeBlock:
+
+Options:
+0 . the lower portion where the cathode is present
+1 . the lower portion where the anode is present
+2 . uniform separation
+3 . based on the quantity the size of the molecules that are to be separated
+4 . 
+Correct Answer: 1
+
+Description: The greatest separation is obtained in the lower portion of the gel where the anode is present. Thus, the smaller molecules encompass the greatest separation as they can travel farther in the gel.
+
+ Index: 32
+Question: What if the molecules that are to be separated are found to be larger in size than that of the conventional electrophoresis, which of the following gel is preferred? 
+CodeBlock:
+
+Options:
+0 . pulse field gels
+1 . buffer-gradient gels
+2 . wedge gels
+3 . a varied amount of agarose will carry out the separation
+4 . 
+Correct Answer: 0
+
+Description: Generally, when the larger size molecules or chromosomes are separated, pulse-field gels are used, called pulse-field gel electrophoresis (PFGE).
+
+ Index: 33
+Question: Which is of the following is true in terms of primers? 
+CodeBlock:
+
+Options:
+0 . primers are found to be as long as the template
+1 . primers are 20-30 nucleotides long
+2 . primers are considered based on availability
+3 . primers are 40-50 nucleotides long
+4 . 
+Correct Answer: 1
+
+Description: In general, primers are found to be 20-30 nucleotides long. Short primers can easily match the template in comparison to long primers. However, when the template is eukaryotic DNA, then long primers are preferred. 
+
+ Index: 34
+Question: _________ is the mathematical equation of melting temperature. 
+CodeBlock:
+
+Options:
+0 . 4(g+c) + 2(a+t)
+1 . 2(g+c) + 4(a+t)
+2 . 2(a+g) + 4(c+t)
+3 . 4(a+g) + 2(c+t)
+4 . 
+Correct Answer: 0
+
+Description: The melting temperature refers to that temperature at which the primers associate with the template. The number of different nucleotides present decides the melting temperature.
+
+ Index: 35
+Question: Which of the following is incorrect with respect to sickle cell anemia, a genetic disorder? 
+CodeBlock:
+
+Options:
+0 . pcr can easily analyze it.
+1 . it can destroy the restriction site.
+2 . the mutation takes place in the alpha globulin gene.
+3 . in order to analyze the whole process, the conventional approach may take some weeks.
+4 . 
+Correct Answer: 2
+
+Description: Sickle cell anemia refers to a process of mutation that takes place in the beta globulin gene. It first destroys the restriction site, after which PCR analyzes it. In contrast to conventional approaches, PCR is found to be very fast as it needs just one day to complete the whole process. 
+
+ Index: 36
+Question: Which of the following tissues enables the usage of permeabilized tissue? 
+CodeBlock:
+
+Options:
+0 . in-situ pcr
+1 . quantitative pcr
+2 . hot-star pcr
+3 . inverse pcr
+4 . 
+Correct Answer: 0
+
+Description: In-situ PCR allows the use of permeabilized tissue, such as thin sections on a microscopic slide. The PCR product is detected by hybridization, and it allows locating the nucleic acid in the target tissue.
+
+ Index: 37
+Question: On a general basis, which of the following characteristics are not found in the plasmid? 
+CodeBlock:
+
+Options:
+0 . origin of replication (ori)
+1 . antibiotic resistance gene
+2 . multiple cloning site (mcs)
+3 . beta galactose genes
+4 . 
+Correct Answer: 3
+
+Description: The plasmid is composed of characteristics such as multiple cloning sites, the origin of replication, antibiotic-resistant genes, and beta-galactosidase genes. In order to perform replicate, an origin of replication is used. 
+
+ Index: 38
+Question: Alkaline Phosphatase is used at times to treat the vector. Which of the following is an incorrect statement? 
+CodeBlock:
+
+Options:
+0 . 5' terminal phosphate group can be removed from nucleic acids.
+1 . requires 5' phosphate group to perform the ligation.
+2 . to perform litigation, two phosphate bonds are required to be formed.
+3 . the ligation amid vector and insert won't take place.
+4 . 
+Correct Answer: 0
+
+Description: Alkaline phosphatase treats with the vector at the time of removing the phosphatase group from the 5' end. This group is required for the ligation reaction to take place, such that at each end, two phosphates are required. But as soon as the phosphate groups are removed from the vector, its relegation becomes impossible. And since the insert still has a phosphate group, one of its strands will form the bond, enabling a ligation reaction to take place.
+
+ Index: 39
+Question: What if we cut the insert DNA with two distinct restriction enzymes at the ends?
+CodeBlock:
+
+Options:
+0 . it becomes difficult to insert the fragment
+1 . the insert can litigate in any alignment
+2 . the insert can ligate in only one alignment
+3 . the number of product increases
+4 . 
+Correct Answer: 2
+
+Description: If the DNA is cut with two different enzymes at the ends, then it may lead to ligate the fragment in only one orientation because each end would have a unique sequence to ligate.
+
+]
