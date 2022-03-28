@@ -18,7 +18,7 @@ const (
 type QuizScrapper struct {
 	rootDomain string
 	wg         *sync.WaitGroup
-	quizzes    model.Quizzes
+	Quizzes    model.Quizzes
 	mu         sync.Mutex
 	mcqURLs    string
 }
@@ -30,7 +30,7 @@ func New() *QuizScrapper {
 	return &QuizScrapper{
 		rootDomain: rootDomain,
 		wg:         &sync.WaitGroup{},
-		quizzes:    model.Quizzes{},
+		Quizzes:    model.Quizzes{},
 		mu:         sync.Mutex{},
 		mcqURLs:    mcqURLs,
 	}
@@ -55,7 +55,7 @@ func (s *QuizScrapper) ScrapQuizzes() {
 				return
 			}
 			s.mu.Lock()
-			s.quizzes.AddQuestions(categ, *questions)
+			s.Quizzes.AddQuestions(categ, *questions)
 			s.mu.Unlock()
 			// TODO: make save file as dynamic
 			//model.SaveQuestionFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
