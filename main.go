@@ -6,5 +6,6 @@ import (
 
 func main() {
 	s := scrapper.New()
-	s.GetQuizzes()
+	s.ScrapQuizzes()
+	//s.GetMCQLinks()
 }

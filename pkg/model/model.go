@@ -26,12 +26,18 @@ var AnsMapping = map[string]Option{
 	"e": E,
 }
 
+type Category struct {
+	ID   int32
+	Name string
+}
+
 type Question struct {
 	WebIndex   int
 	Text       string
 	Options    []string
 	Codeblock  string
 	CorrectAns Answer
+	URL        string
 }
 
 type Answer struct {
