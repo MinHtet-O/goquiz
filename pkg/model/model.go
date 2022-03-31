@@ -27,8 +27,8 @@ var AnsMapping = map[string]Option{
 }
 
 type Category struct {
-	ID   int32
-	Name string
+	ID   int32  `json:"-"`
+	Name string `json:"name"`
 }
 
 type Question struct {
