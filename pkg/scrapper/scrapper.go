@@ -98,6 +98,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 	// setup new collector
 	c := colly.NewCollector(
 		colly.AllowedDomains(domain, url),
+		colly.Async(true),
 	)
 
 	c.OnHTML(".pq", func(e *colly.HTMLElement) {

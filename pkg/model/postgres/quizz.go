@@ -3,25 +3,31 @@ package postgres
 import (
 	"context"
 	"fmt"
+	"github.com/lib/pq"
 	"goquiz/pkg/model"
 	"time"
 )
 
-func (m QuizzModel) InsertQuizzes(q model.Quizzes) error {
-	fmt.Println("LENGTH!!")
-	fmt.Println(len(q))
+func (m QuizzModel) InsertQuizzes(quizzes model.Quizzes) error {
 	i := 0
-	for categ, _ := range q {
+	for categ, questions := range quizzes {
 		i++
 		categID, err := m.InsertCategory(categ)
 		if err != nil {
 			fmt.Println(err.Error())
 			continue
 		}
-		fmt.Print("Successfully Write Category, ", categ, " with ID", categID)
-		//for _, question := range questions {
-		//	m.InsertQuestion(categ, question)
-		//}
+
+		fmt.Println("Successfully Write Category, ", categ, " with ID ", categID)
+		fmt.Println("Total Question ", len(questions))
+
+		for _, question := range questions {
+			err := m.InsertQuestion(categID, question)
+			if err != nil {
+				fmt.Println(err.Error())
+				continue
+			}
+		}
 		//if err != nil {
 		//	// rollback transaction
 		//	continue
@@ -49,14 +55,21 @@ func (m QuizzModel) InsertCategory(category string) (int, error) {
 	if err != nil {
 		return 0, err
 	}
-
-	if err != nil {
-		return 0, err
-	}
-
-	return 0, nil
+	return categ.id, nil
 }
 
-func (m QuizzModel) InsertQuestion(category string, q model.Question) error {
+func (m QuizzModel) InsertQuestion(categID int, q model.Question) error {
+
+	args := []interface{}{categID, q.WebIndex, q.Text, pq.Array(q.Options), q.Codeblock, q.CorrectAns.Option, q.CorrectAns.Explanation, q.URL}
+	// TODO: replace query with sql prepared statement
+	query := `INSERT INTO questions (category_id,web_index,text,ans_options,code_block,correct_ans_opt,correct_ans_explanation,url) values ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING id`
+
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+	_, err := m.DB.ExecContext(ctx, query, args...)
+
+	if err != nil {
+		return err
+	}
 	return nil
 }

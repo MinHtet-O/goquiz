@@ -33,7 +33,6 @@ func (q Quizzes) AddQuestions(categ string, ques Questions) {
 }
 
 func SaveFile(fileName string, content string) {
-
 	defer func() {
 		if r := recover(); r != nil {
 			fmt.Fprintln(os.Stderr, "Recover from file write failure for catgory", fileName)
@@ -64,9 +63,11 @@ func SaveFile(fileName string, content string) {
 	}
 }
 
+//TODO: method not working
+//TODO: save as csv format
 func SaveQuestionFile(domain string, category string, content string) {
 	// TODO: refactor question const variable
-	path := fmt.Sprintf("questions/%s", domain)
+	path := fmt.Sprintf("files/questions/%s", domain)
 	file := fmt.Sprintf("%s/%s.txt", path, category)
 
 	if err := createDirectory("questions"); err != nil {

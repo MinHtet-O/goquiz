@@ -2,7 +2,6 @@ CREATE TABLE IF NOT EXISTS questions (
     id bigserial PRIMARY KEY,
     category_id bigserial REFERENCES categories ON DELETE CASCADE ,
     created_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
-    name text NOT NULL,
     web_index smallint,
     text text NOT NULL ,
     ans_options text[] NOT NULL,

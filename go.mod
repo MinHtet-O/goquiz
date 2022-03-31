@@ -19,6 +19,7 @@ require (
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
+	github.com/julienschmidt/httprouter v1.3.0 // indirect
 	github.com/kennygrant/sanitize v1.2.4 // indirect
 	github.com/lib/pq v1.10.4 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
@@ -32,5 +33,6 @@ require (
 	golang.org/x/sys v0.0.0-20210423082822-04245dca01da // indirect
 	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d // indirect
 	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/time v0.0.0-20220224211638-0e9765cccd65 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 )
