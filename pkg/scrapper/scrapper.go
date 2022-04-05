@@ -7,6 +7,7 @@ import (
 	model "goquiz/pkg/model"
 	"os"
 	"regexp"
+	"strings"
 	"sync"
 )
 
@@ -19,6 +20,7 @@ type QuizScrapper struct {
 	rootDomain string
 	wg         *sync.WaitGroup
 	Quizzes    model.Quizzes
+	Categories []model.Category
 	mu         sync.Mutex
 	mcqURLs    string
 }
@@ -39,7 +41,8 @@ func New() *QuizScrapper {
 // TODO: Refactor question methods for domain "javatpoint.com"
 // scrap the URLs and get Quizzes for each category
 func (s *QuizScrapper) ScrapQuizzes() {
-	categs := s.getCategories()
+	categs := s.getCategorieTags()
+	fmt.Println(categs)
 	s.wg.Add(len(categs))
 	for _, c := range categs {
 		go func(categ string) {
@@ -55,7 +58,7 @@ func (s *QuizScrapper) ScrapQuizzes() {
 				return
 			}
 			s.mu.Lock()
-			s.Quizzes.AddQuestions(categ, *questions)
+			s.AddCategories(categ, *questions)
 			s.mu.Unlock()
 			// TODO: make save file as dynamic
 			//model.SaveQuestionFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
@@ -66,8 +69,9 @@ func (s *QuizScrapper) ScrapQuizzes() {
 	s.wg.Wait()
 }
 
-// get categories string arr from mcq URL file
-func (s *QuizScrapper) getCategories() []string {
+// get categories tag arr from mcq URL file
+// tags example - machine-learning-mcq-part1, goang-mcq-part1, dbms-mcq
+func (s *QuizScrapper) getCategorieTags() []string {
 	categs := []string{}
 	re := regexp.MustCompile(`(\w+|\-)+$`)
 	file, _ := os.Open(s.mcqURLs)
@@ -104,8 +108,8 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 	c.OnHTML(".pq", func(e *colly.HTMLElement) {
 		// initialize the question struct. set the first pq tag as question text
 		question := model.Question{
-			Text:    parseTitle(e.Text),
-			Options: make([]string, model.O_MAX),
+			Text:       parseTitle(e.Text),
+			AnsOptions: make([]string, model.O_MAX),
 		}
 
 		// post with second 'pq' text which need to append into parent question text
@@ -145,6 +149,47 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 	c.Visit(baseUrl)
 	c.Wait()
 	return &questions
+}
+
+// add categories together with questions
+func (s *QuizScrapper) AddCategories(categ string, ques []model.Question) {
+	// get the category title from input category tag
+	// for example get Machine Learning from machine-learning-mcq-part1
+	categTitle := func() string {
+		tmpArr := strings.Split(categ, "mcq")
+		categArr := strings.Split(tmpArr[0], "-")
+		for i, val := range categArr {
+			categArr[i] = strings.Title(val)
+		}
+		categTitle := strings.Trim(strings.Join(categArr, " "), " ")
+		return categTitle
+	}()
+	fmt.Println("Category Title", categ)
+	// check if there exists questions with the same category title
+	found, index := false, 0
+	for i, c := range s.Categories {
+		if c.Name == categTitle {
+			found = true
+			index = i
+			break
+		}
+	}
+	// combine questions if there are questions with the same categ title
+	// for eg - golang-mcq-part1 tag and golang-mcq-part2 tag will be in the same catgory "Golang"
+
+	if found {
+		fmt.Printf("Category key %s already exists with len %d for input category %s "+
+			"with len %d \n", categTitle, len(categTitle), categ, len(categ))
+		s.Categories[index].Questions = append(s.Categories[index].Questions, ques...)
+		return
+	}
+
+	// Create new category and add questions
+	categStruct := model.Category{
+		Name:      categTitle,
+		Questions: ques,
+	}
+	s.Categories = append(s.Categories, categStruct)
 }
 
 //func (s *QuizScrapper) GetMCQLinks() {

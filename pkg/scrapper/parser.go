@@ -31,14 +31,14 @@ func parseCorrectAns(e *colly.HTMLElement, question *model.Question, category st
 	// make necessary string processing to extract the answer option
 	ans = strings.ToLower(strings.Split(ans, "")[1])
 	if opt, found := model.AnsMapping[ans]; found {
-		question.CorrectAns.Option = opt
+		question.Answer.Option = opt
 	}
 
 	ansNode.Children().Each(func(i int, c *goquery.Selection) {
 		if i != 0 {
 			// index 1 to ... is explanation
 			// append the explanation
-			question.CorrectAns.Explanation += c.Text()
+			question.Answer.Explanation += c.Text()
 		}
 	})
 
@@ -52,7 +52,7 @@ func parseAnsOptions(e *colly.HTMLElement, question *model.Question, category st
 	optsNode := findSibling(e.DOM, "pointsa", 6, D_Next)
 	if optsNode != nil && optsNode.Children().Length() < 6 {
 		optsNode.Children().Each(func(i int, c *goquery.Selection) {
-			question.Options[model.Option(i)] = strings.ToLower(c.Text())
+			question.AnsOptions[model.Option(i)] = strings.ToLower(c.Text())
 		})
 		return nil
 	}
@@ -65,7 +65,7 @@ func parseAnsOptions(e *colly.HTMLElement, question *model.Question, category st
 		if err != nil {
 			return fmt.Errorf("Invalid Image URL %s, for category %s \n", imageURL, category)
 		}
-		question.Options[0] = imageURL
+		question.AnsOptions[0] = imageURL
 		return nil
 	}
 

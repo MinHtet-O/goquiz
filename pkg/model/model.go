@@ -27,16 +27,17 @@ var AnsMapping = map[string]Option{
 }
 
 type Category struct {
-	ID   int32  `json:"-"`
-	Name string `json:"name"`
+	ID        int32  `json:"-"`
+	Name      string `json:"name"`
+	Questions []Question
 }
 
 type Question struct {
 	WebIndex   int
 	Text       string
-	Options    []string
+	AnsOptions []string
 	Codeblock  string
-	CorrectAns Answer
+	Answer     Answer
 	URL        string
 }
 
@@ -62,6 +63,7 @@ type MatchRecord struct {
 	date       time.Time
 	totalScore int
 }
+
 type Choice struct {
 	question Question
 	ans      Option

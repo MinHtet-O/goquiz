@@ -4,33 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strings"
 )
-
-func (q Quizzes) AddQuestions(categ string, ques Questions) {
-
-	// get the category title from input category URL
-	categTitle := func() string {
-		tmpArr := strings.Split(categ, "mcq")
-		categArr := strings.Split(tmpArr[0], "-")
-		for i, val := range categArr {
-			categArr[i] = strings.Title(val)
-		}
-		categTitle := strings.Trim(strings.Join(categArr, " "), " ")
-		return categTitle
-	}()
-
-	// combine questions if there are questions with the same categ key
-	// for eg - golang-mcq-part1 and golang-mcq-part2 will be in the same map entry
-	if val, ok := q[categTitle]; ok {
-		fmt.Printf("Category key %s already exists with len %d for input category %s with len %d \n", categTitle, len(categTitle), categ, len(categ))
-		val = append(val, ques...)
-		q[categTitle] = val
-		return
-	}
-
-	q[categTitle] = ques
-}
 
 func SaveFile(fileName string, content string) {
 	defer func() {

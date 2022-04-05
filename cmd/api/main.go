@@ -4,7 +4,6 @@ import (
 	"context"
 	"database/sql"
 	"flag"
-	"fmt"
 	_ "github.com/lib/pq"
 	"goquiz/pkg/model/postgres"
 	"goquiz/pkg/scrapper"
@@ -36,7 +35,7 @@ type config struct {
 
 type application struct {
 	config config
-	models postgres.QuizzModel
+	models postgres.Model
 	wg     sync.WaitGroup
 }
 
@@ -62,18 +61,22 @@ func main() {
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
-	fmt.Println("Database instance created")
-	quizModel := postgres.QuizzModel{DB: db}
+
+	model := postgres.Model{
+		Questions:  postgres.Questions{DB: db},
+		Categories: postgres.Categories{DB: db},
+	}
 
 	if cfg.scrap { // scrap the questions from the web and populate to database
 		s := scrapper.New()
 		s.ScrapQuizzes()
-		quizModel.InsertQuizzes(s.Quizzes)
+		model.InsertCategories(s.Categories)
+		os.Exit(0)
 	}
 
 	app := &application{
 		config: cfg,
-		models: quizModel,
+		models: model,
 	}
 
 	err = app.serve()
@@ -110,3 +113,4 @@ func openDB(cfg config) (*sql.DB, error) {
 // TODO: figure out why scrap results are different each time the program run
 // TODO: change standard logging to json format, replace all log stdout stderr with json logging
 // TODO: why file write is not working
+// TODO: move URL field from questions to categories

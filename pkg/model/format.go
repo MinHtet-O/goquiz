@@ -29,8 +29,8 @@ func (a Answer) String() string {
 // TODO: Why to string not working with *Question ??
 func (q Question) String() string {
 	var opsb strings.Builder
-	for i, val := range q.Options {
+	for i, val := range q.AnsOptions {
 		fmt.Fprintln(&opsb, i, ".", val)
 	}
-	return fmt.Sprintf("Index: %d\nQuestion: %s\nCodeBlock:\n%s\nOptions:\n%vCorrect Answer: %d\n\n%s\n\n", q.WebIndex, q.Text, q.Codeblock, opsb.String(), q.CorrectAns.Option, q.CorrectAns.Explanation)
+	return fmt.Sprintf("Index: %d\nQuestion: %s\nCodeBlock:\n%s\nOptions:\n%vCorrect Answer: %d\n\n%s\n\n", q.WebIndex, q.Text, q.Codeblock, opsb.String(), q.Answer.Option, q.Answer.Explanation)
 }
