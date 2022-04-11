@@ -30,21 +30,22 @@ type Category struct {
 	ID             int32      `json:"id"`
 	Name           string     `json:"name"`
 	Questions      []Question `json:"-"`
-	QuestionsCount int32      `json:"questions_count"`
+	QuestionsCount int32      `json:"questions_count,omitempty"`
 }
 
 type Question struct {
-	WebIndex   int
-	Text       string
-	AnsOptions []string
-	Codeblock  string
-	Answer     Answer
-	URL        string
+	ID         int      `json:"id"`
+	WebIndex   int      `json:"-"`
+	Text       string   `json:"text"`
+	AnsOptions []string `json:"answers"`
+	Codeblock  string   `json:",omitempty"`
+	Answer     Answer   `json:"correct_ans"`
+	URL        string   `json:"-"`
 }
 
 type Answer struct {
-	Option      Option
-	Explanation string
+	Option      Option `json:"option"`
+	Explanation string `json:"explanation"`
 }
 
 //Optional data structure

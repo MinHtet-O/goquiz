@@ -4,10 +4,9 @@ import (
 	"net/http"
 )
 
-func (app *application) listCategoriesHandler(w http.ResponseWriter, r *http.Request) {
+func (app *application) getCategoriesHandler(w http.ResponseWriter, r *http.Request) {
 
-	// TODO: refactor as category model
-	categories, err := app.models.CategoriesModel.GetCategories()
+	categories, err := app.models.CategoriesModel.GetAll()
 
 	if err != nil {
 		app.serverErrorResponse(w, r, err)
