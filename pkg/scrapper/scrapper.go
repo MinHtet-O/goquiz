@@ -3,12 +3,13 @@ package scrapper
 import (
 	"bufio"
 	"fmt"
-	"github.com/gocolly/colly"
 	model "goquiz/pkg/model"
 	"os"
 	"regexp"
 	"strings"
 	"sync"
+
+	"github.com/gocolly/colly"
 )
 
 const (

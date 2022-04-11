@@ -3,14 +3,14 @@ package postgres
 import "database/sql"
 
 type Model struct {
-	Questions  Questions
-	Categories Categories
+	QuestionsModel
+	CategoriesModel
 }
 
-type Questions struct {
+type QuestionsModel struct {
 	DB *sql.DB
 }
 
-type Categories struct {
+type CategoriesModel struct {
 	DB *sql.DB
 }
