@@ -26,8 +26,8 @@ func (a Answer) String() string {
 	return fmt.Sprintf("Option ", a.Option, " ", a.Explanation)
 }
 
-// TODO: Why to string not working with *Question ??
-func (q Question) String() string {
+// TODO: Why to string not working with *QuestionResp ??
+func (q QuestionResp) String() string {
 	var opsb strings.Builder
 	for i, val := range q.AnsOptions {
 		fmt.Fprintln(&opsb, i, ".", val)

@@ -1,0 +1,1 @@
+CREATE TEMPORARY VIEW questions_by_categories AS Select id, text, code_block, ans_options, correct_ans_opt, correct_ans_explanation, category_id,(SELECT name As category_name from categories where q.category_id=id ) from questions q

@@ -34,7 +34,7 @@ func (m CategoriesModel) GetAll() ([]*model.Category, error) {
 	return categories, nil
 }
 
-func (m CategoriesModel) Get(categId int) (*model.Category, error) {
+func (m CategoriesModel) GetByID(categId int) (*model.Category, error) {
 	query := `select id,name from categories where id=$1`
 	var category model.Category
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
@@ -50,7 +50,6 @@ func (m CategoriesModel) Get(categId int) (*model.Category, error) {
 			return nil, err
 		}
 	}
-
 	return &category, nil
 }
 

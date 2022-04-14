@@ -31,7 +31,7 @@ func (m Model) InsertCategories(categs []model.Category) error {
 		}
 
 		fmt.Println("Successfully Write Category, ", categ, " with ID ", categID)
-		fmt.Println("Total Question ", len(categ.Questions))
+		fmt.Println("Total QuestionResp ", len(categ.Questions))
 
 		// later refactor method - InsertQuestions
 		for _, question := range categ.Questions {

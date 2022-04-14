@@ -84,13 +84,13 @@ func (s *QuizScrapper) getCategorieTags() []string {
 	return categs
 }
 
-func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Question {
+func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.QuestionResp {
 
 	var (
 		baseUrl = "https://www." + url + "/" + string(category)
 		domain  = "www." + url
 
-		questions = make([]model.Question, 0)
+		questions = make([]model.QuestionResp, 0)
 	)
 
 	defer func() {
@@ -108,7 +108,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 
 	c.OnHTML(".pq", func(e *colly.HTMLElement) {
 		// initialize the question struct. set the first pq tag as question text
-		question := model.Question{
+		question := model.QuestionResp{
 			Text:       parseTitle(e.Text),
 			AnsOptions: make([]string, model.O_MAX),
 		}
@@ -153,7 +153,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 }
 
 // add categories together with questions
-func (s *QuizScrapper) AddCategories(categ string, ques []model.Question) {
+func (s *QuizScrapper) AddCategories(categ string, ques []model.QuestionResp) {
 	// get the category title from input category tag
 	// for example get Machine Learning from machine-learning-mcq-part1
 	categTitle := func() string {

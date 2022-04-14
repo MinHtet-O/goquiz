@@ -28,12 +28,12 @@ func (app *application) writeJSON(w http.ResponseWriter, status int, data envelo
 	return nil
 }
 
-func (app *application) readString(qs url.Values, key string, defaultValue string) string {
+func (app *application) readString(qs url.Values, key string, defaultValue string) (string, bool) {
 	s := qs.Get(key)
 	if s == "" {
-		return defaultValue
+		return defaultValue, false
 	}
-	return s
+	return s, true
 }
 
 func (app *application) readCategIdParam(r *http.Request) (int64, error) {
@@ -47,18 +47,18 @@ func (app *application) readCategIdParam(r *http.Request) (int64, error) {
 	return id, nil
 }
 
-func (app *application) readInt(qs url.Values, key string, defaultValue int, v *validator.Validator) int { // Extract the value from the query string.
+func (app *application) readInt(qs url.Values, key string, defaultValue int, v *validator.Validator) (int, bool) { // Extract the value from the query string.
 	s := qs.Get(key)
 	// If no key exists (or the value is empty) then return the default value.
 	if s == "" {
-		return defaultValue
+		return defaultValue, false
 	}
 	// Try to convert the value to an int. If this fails, add an error message to the // validator instance and return the default value.
 	i, err := strconv.Atoi(s)
 	if err != nil {
 		v.AddError(key, "must be an integer value")
-		return defaultValue
+		return defaultValue, true
 	}
 	// Otherwise, return the converted integer value.
-	return i
+	return i, true
 }

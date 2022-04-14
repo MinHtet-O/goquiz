@@ -1,0 +1,1 @@
+drop VIEW if EXISTS questions_by_categories
