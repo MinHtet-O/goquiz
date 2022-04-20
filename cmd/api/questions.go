@@ -13,17 +13,44 @@ func (app *application) getQuestionsHandler(w http.ResponseWriter, r *http.Reque
 	qs := r.URL.Query()
 	v := validator.New()
 
-	if categId, found := app.readInt(qs, "category_id", 0, v); found {
-		app.getQuestionsByCategoryId(w, r, v, categId)
+	categId, _ := app.readInt(qs, "category_id", 0, v)
+	//app.getQuestionsByCategoryId(w, r, v, categId)
+	//return
+
+	categName, _ := app.readString(qs, "category_name", "")
+	//app.getQuestionsByCategoryName(w, r, v, categName)
+	//return
+
+	//
+	//app.badRequestResponse(w, r, fmt.Errorf("must provide either category_id or category_name query param"))
+
+	inputCateg := model.Category{
+		ID:   categId,
+		Name: categName,
+	}
+	questions, err := app.models.QuestionsModel.GetAll(inputCateg)
+
+	if err != nil {
+		fmt.Println(err.Error())
+		switch {
+		case errors.Is(err, model.ErrRecordNotFound):
+			v.AddError("category", "no questions found for this category name")
+			app.failedValidationResponse(w, r, v.Errors)
+		default:
+			app.serverErrorResponse(w, r, err)
+		}
 		return
 	}
 
-	if categName, found := app.readString(qs, "category_name", ""); found {
-		app.getQuestionsByCategoryName(w, r, v, categName)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
 		return
 	}
 
-	app.badRequestResponse(w, r, fmt.Errorf("must provide either category_id or category_name query param"))
+	err = app.writeJSON(w, http.StatusOK, envelope{"questions": questions}, nil)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+	}
 }
 
 func (app *application) getQuestionsByCategoryId(w http.ResponseWriter, r *http.Request, v *validator.Validator, categId int) {
@@ -61,29 +88,29 @@ func (app *application) getQuestionsByCategoryId(w http.ResponseWriter, r *http.
 	}
 }
 
-func (app *application) getQuestionsByCategoryName(w http.ResponseWriter, r *http.Request, v *validator.Validator, categName string) {
-
-	questions, err := app.models.QuestionsModel.GetAllByName(categName)
-
-	if err != nil {
-		fmt.Println(err.Error())
-		switch {
-		case errors.Is(err, model.ErrRecordNotFound):
-			v.AddError("category", "no questions found for this category name")
-			app.failedValidationResponse(w, r, v.Errors)
-		default:
-			app.serverErrorResponse(w, r, err)
-		}
-		return
-	}
-
-	if err != nil {
-		app.serverErrorResponse(w, r, err)
-		return
-	}
-
-	err = app.writeJSON(w, http.StatusOK, envelope{"questions": questions}, nil)
-	if err != nil {
-		app.serverErrorResponse(w, r, err)
-	}
-}
+//func (app *application) getQuestionsByCategoryName(w http.ResponseWriter, r *http.Request, v *validator.Validator, categName string) {
+//
+//	questions, err := app.models.QuestionsModel.GetAll(categName)
+//
+//	if err != nil {
+//		fmt.Println(err.Error())
+//		switch {
+//		case errors.Is(err, model.ErrRecordNotFound):
+//			v.AddError("category", "no questions found for this category name")
+//			app.failedValidationResponse(w, r, v.Errors)
+//		default:
+//			app.serverErrorResponse(w, r, err)
+//		}
+//		return
+//	}
+//
+//	if err != nil {
+//		app.serverErrorResponse(w, r, err)
+//		return
+//	}
+//
+//	err = app.writeJSON(w, http.StatusOK, envelope{"questions": questions}, nil)
+//	if err != nil {
+//		app.serverErrorResponse(w, r, err)
+//	}
+//}

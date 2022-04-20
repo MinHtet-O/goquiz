@@ -31,6 +31,11 @@ type config struct {
 		burst   int
 		enabled bool
 	}
+
+	auth struct {
+		enabled bool
+		apiKey  string
+	}
 }
 
 type application struct {
@@ -56,6 +61,9 @@ func main() {
 	flag.StringVar(&cfg.env, "env", "development", "Environment (development|staging|production)")
 	flag.BoolVar(&cfg.scrap, "scrap", false, "Scrap the questions and populate db")
 	flag.IntVar(&cfg.port, "port", 4000, "API server port")
+
+	//authenticaiton
+	flag.StringVar(&cfg.auth.apiKey, "apikey", "", "API-key for Authentication")
 	flag.Parse()
 	db, err := openDB(cfg)
 

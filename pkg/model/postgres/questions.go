@@ -2,6 +2,7 @@ package postgres
 
 import (
 	"context"
+	"fmt"
 	"github.com/lib/pq"
 	"goquiz/pkg/model"
 	"time"
@@ -57,18 +58,21 @@ func (m QuestionsModel) GetAllById(categId int) ([]model.QuestionResp, error) {
 	return questions, nil
 }
 
-func (m QuestionsModel) GetAllByName(categName string) ([]model.QuestionResp, error) {
+func (m QuestionsModel) GetAll(category model.Category) ([]model.QuestionResp, error) {
 
-	query := `select q.id, q.text, q.code_block, q.ans_options, q.correct_ans_opt, q.correct_ans_explanation, c.id As category_id, c.name As category_name from questions q 
-    JOIN categories c ON q.category_id = c.id 
-	WHERE (to_tsvector('english', c.name) @@ plainto_tsquery('english', $1))`
-
+	query := `select q.id, q.text, q.code_block, q.ans_options, q.correct_ans_opt, q.correct_ans_explanation, c.id As category_id, c.name As category_name
+from questions q JOIN categories c ON q.category_id = c.id 
+WHERE (to_tsvector('english', c.name) @@ plainto_tsquery('english', $1) OR $1='') AND (c.id=$2 OR $2=NULL)`
+	fmt.Println(query)
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
-	rows, err := m.DB.QueryContext(ctx, query, categName)
+	fmt.Println(category.ID)
+	rows, err := m.DB.QueryContext(ctx, query, category.Name, category.ID)
 
 	if err != nil {
+		fmt.Println("Error Here")
+		fmt.Println(err.Error())
 		return nil, err
 	}
 
