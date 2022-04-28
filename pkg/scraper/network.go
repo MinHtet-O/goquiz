@@ -1,4 +1,4 @@
-package scrapper
+package scraper
 
 import (
 	"net/http"
@@ -21,7 +21,7 @@ func validateImageURL(url string) error {
 	return nil
 }
 
-// TODO: set one http client instance for each scrapper
+// TODO: set one http client instance for each scraper
 func clientHTTP() *http.Client {
 	t := http.DefaultTransport.(*http.Transport).Clone()
 	t.MaxIdleConns = 100

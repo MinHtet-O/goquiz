@@ -1,4 +1,4 @@
-package scrapper
+package scraper
 
 import (
 	"bufio"
@@ -26,7 +26,7 @@ type QuizScrapper struct {
 	mcqURLs    string
 }
 
-// Initialize a new scrapper, currently only javatpoint.com URL is supported
+// Initialize a new scraper, currently only javatpoint.com URL is supported
 func New() *QuizScrapper {
 	rootDomain := "javatpoint.com"
 	mcqURLs := "./files/mcq.txt" // TODO: make mcqURLs dynamic

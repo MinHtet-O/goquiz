@@ -4,13 +4,14 @@ import (
 	"context"
 	"database/sql"
 	"flag"
-	_ "github.com/lib/pq"
 	"goquiz/pkg/model/postgres"
-	"goquiz/pkg/scrapper"
+	"goquiz/pkg/scraper"
 	"log"
 	"os"
 	"sync"
 	"time"
+
+	_ "github.com/lib/pq"
 )
 
 const version = "1.0.0"
@@ -77,8 +78,9 @@ func main() {
 	}
 
 	if cfg.scrap { // scrap the questions from the web and populate to database
-		s := scrapper.New()
+		s := scraper.New()
 		s.ScrapQuizzes()
+		// separate the write insert category logic from main to scraper struct
 		model.InsertCategories(s.Categories)
 		os.Exit(0)
 	}
