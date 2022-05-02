@@ -2,7 +2,6 @@ package main
 
 import (
 	"errors"
-	"fmt"
 	"goquiz/pkg/model"
 	"goquiz/pkg/validator"
 	"net/http"
@@ -28,10 +27,9 @@ func (app *application) getQuestionsHandler(w http.ResponseWriter, r *http.Reque
 		ID:   categId,
 		Name: categName,
 	}
-	questions, err := app.models.QuestionsModel.GetAll(inputCateg)
 
+	questions, err := app.models.QuestionsModel.GetAll(inputCateg)
 	if err != nil {
-		fmt.Println(err.Error())
 		switch {
 		case errors.Is(err, model.ErrRecordNotFound):
 			v.AddError("category", "no questions found for this category name")
@@ -53,64 +51,38 @@ func (app *application) getQuestionsHandler(w http.ResponseWriter, r *http.Reque
 	}
 }
 
-func (app *application) getQuestionsByCategoryId(w http.ResponseWriter, r *http.Request, v *validator.Validator, categId int) {
-	if !v.Valid() {
-		app.failedValidationResponse(w, r, v.Errors)
-		return
-	}
+// TODO: Postgres full text search support
+// func (app *application) getQuestionsByCategoryId(w http.ResponseWriter, r *http.Request, v *validator.Validator, categId int) {
+// 	if !v.Valid() {
+// 		app.failedValidationResponse(w, r, v.Errors)
+// 		return
+// 	}
 
-	if v.ValidateCategoryId(categId); !v.Valid() {
-		app.failedValidationResponse(w, r, v.Errors)
-		return
-	}
-	category, err := app.models.CategoriesModel.GetByID(categId)
-	if err != nil {
-		fmt.Println(err.Error())
-		switch {
-		case errors.Is(err, model.ErrRecordNotFound):
-			v.AddError("category", "no questions found for this category id")
-			app.failedValidationResponse(w, r, v.Errors)
-		default:
-			app.serverErrorResponse(w, r, err)
-		}
-		return
-	}
+// 	if v.ValidateCategoryId(categId); !v.Valid() {
+// 		app.failedValidationResponse(w, r, v.Errors)
+// 		return
+// 	}
+// 	category, err := app.models.CategoriesModel.GetByID(categId)
+// 	if err != nil {
+// 		fmt.Println(err.Error())
+// 		switch {
+// 		case errors.Is(err, model.ErrRecordNotFound):
+// 			v.AddError("category", "no questions found for this category id")
+// 			app.failedValidationResponse(w, r, v.Errors)
+// 		default:
+// 			app.serverErrorResponse(w, r, err)
+// 		}
+// 		return
+// 	}
 
-	questions, err := app.models.QuestionsModel.GetAllById(categId)
-	if err != nil {
-		app.serverErrorResponse(w, r, err)
-		return
-	}
+// 	questions, err := app.models.QuestionsModel.GetAllByCategoryId(categId)
+// 	if err != nil {
+// 		app.serverErrorResponse(w, r, err)
+// 		return
+// 	}
 
-	err = app.writeJSON(w, http.StatusOK, envelope{"catgory_name": category.Name, "questions": questions}, nil)
-	if err != nil {
-		app.serverErrorResponse(w, r, err)
-	}
-}
-
-//func (app *application) getQuestionsByCategoryName(w http.ResponseWriter, r *http.Request, v *validator.Validator, categName string) {
-//
-//	questions, err := app.models.QuestionsModel.GetAll(categName)
-//
-//	if err != nil {
-//		fmt.Println(err.Error())
-//		switch {
-//		case errors.Is(err, model.ErrRecordNotFound):
-//			v.AddError("category", "no questions found for this category name")
-//			app.failedValidationResponse(w, r, v.Errors)
-//		default:
-//			app.serverErrorResponse(w, r, err)
-//		}
-//		return
-//	}
-//
-//	if err != nil {
-//		app.serverErrorResponse(w, r, err)
-//		return
-//	}
-//
-//	err = app.writeJSON(w, http.StatusOK, envelope{"questions": questions}, nil)
-//	if err != nil {
-//		app.serverErrorResponse(w, r, err)
-//	}
-//}
+// 	err = app.writeJSON(w, http.StatusOK, envelope{"catgory_name": category.Name, "questions": questions}, nil)
+// 	if err != nil {
+// 		app.serverErrorResponse(w, r, err)
+// 	}
+// }

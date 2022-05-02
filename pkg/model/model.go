@@ -4,8 +4,10 @@ import (
 	"time"
 )
 
-type Questions []QuestionResp
-type Quizzes map[string]Questions
+type QuestionsModel struct{ Categories []*Category }
+type CategoriesModel struct{ Categories []*Category }
+
+type Questions []Question
 
 type Option int8
 
@@ -27,23 +29,23 @@ var AnsMapping = map[string]Option{
 }
 
 type Category struct {
-	ID             int            `json:"id"`
-	Name           string         `json:"name"`
-	Questions      []QuestionResp `json:"-"`
-	QuestionsCount int32          `json:"questions_count,omitempty"`
+	ID             int        `json:"id"`
+	Name           string     `json:"name"`
+	Questions      []Question `json:"-"`
+	QuestionsCount int32      `json:"questions_count,omitempty"`
 }
+
+//type Question struct {
+//	ID         int
+//	WebIndex   int
+//	Text       string
+//	AnsOptions []string
+//	Codeblock  string
+//	Answer     Answer
+//	URL        string
+//}
 
 type Question struct {
-	ID         int
-	WebIndex   int
-	Text       string
-	AnsOptions []string
-	Codeblock  string
-	Answer     Answer
-	URL        string
-}
-
-type QuestionResp struct {
 	ID         int      `json:"id"`
 	WebIndex   int      `json:"-"`
 	Text       string   `json:"text"`
@@ -51,7 +53,8 @@ type QuestionResp struct {
 	Codeblock  string   `json:",omitempty"`
 	Answer     Answer   `json:"correct_ans"`
 	URL        string   `json:"-"`
-	Category   Category
+	// TODO: remove Category from Question
+	Category Category `json:"-"`
 }
 
 type Answer struct {
@@ -78,7 +81,7 @@ type MatchRecord struct {
 }
 
 type Choice struct {
-	question QuestionResp
+	question Question
 	ans      Option
 	duration time.Time
 }

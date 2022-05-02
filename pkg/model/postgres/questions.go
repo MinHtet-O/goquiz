@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-func (m QuestionsModel) Insert(categID int, q model.QuestionResp) error {
+func (m QuestionsModel) Insert(categID int, q model.Question) error {
 	args := []interface{}{categID, q.WebIndex, q.Text, pq.Array(q.AnsOptions), q.Codeblock, q.Answer.Option, q.Answer.Explanation, q.URL}
 	// TODO: replace query with sql prepared statement
 	query := `INSERT INTO questions (category_id,web_index,text,ans_options,code_block,correct_ans_opt,correct_ans_explanation,url) values ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING id`
@@ -23,7 +23,7 @@ func (m QuestionsModel) Insert(categID int, q model.QuestionResp) error {
 	return nil
 }
 
-func (m QuestionsModel) GetAllById(categId int) ([]model.QuestionResp, error) {
+func (m QuestionsModel) GetAllByCategoryId(categId int) ([]model.Question, error) {
 
 	query := `select id, text, code_block, ans_options, correct_ans_opt, correct_ans_explanation from questions where category_id=$1`
 
@@ -36,10 +36,10 @@ func (m QuestionsModel) GetAllById(categId int) ([]model.QuestionResp, error) {
 		return nil, err
 	}
 
-	var questions []model.QuestionResp
+	var questions []model.Question
 
 	for rows.Next() {
-		var question model.QuestionResp
+		var question model.Question
 		err := rows.Scan(
 			&question.ID,
 			&question.Text,
@@ -58,7 +58,7 @@ func (m QuestionsModel) GetAllById(categId int) ([]model.QuestionResp, error) {
 	return questions, nil
 }
 
-func (m QuestionsModel) GetAll(category model.Category) ([]model.QuestionResp, error) {
+func (m QuestionsModel) GetAll(category model.Category) ([]model.Question, error) {
 
 	query := `select q.id, q.text, q.code_block, q.ans_options, q.correct_ans_opt, q.correct_ans_explanation, c.id As category_id, c.name As category_name
 from questions q JOIN categories c ON q.category_id = c.id 
@@ -76,10 +76,10 @@ WHERE (to_tsvector('english', c.name) @@ plainto_tsquery('english', $1) OR $1=''
 		return nil, err
 	}
 
-	var questions []model.QuestionResp
+	var questions []model.Question
 
 	for rows.Next() {
-		var question model.QuestionResp
+		var question model.Question
 		err := rows.Scan(
 			&question.ID,
 			&question.Text,
@@ -95,7 +95,7 @@ WHERE (to_tsvector('english', c.name) @@ plainto_tsquery('english', $1) OR $1=''
 		}
 		questions = append(questions, question)
 	}
-	// TODO: why do we need to close rows??
+	// TODO: research why do we need to close rows??
 	defer rows.Close()
 	return questions, nil
 }

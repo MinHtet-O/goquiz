@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"flag"
+	m "goquiz/pkg/model"
 	"goquiz/pkg/model/postgres"
 	"goquiz/pkg/scraper"
 	"log"
@@ -17,10 +18,10 @@ import (
 const version = "1.0.0"
 
 type config struct {
-	scrap bool
-	env   string
-	port  int
-	db    struct {
+	populateDB bool
+	env        string
+	port       int
+	db         struct {
 		dsn          string
 		maxOpenConns int
 		maxIdleConns int
@@ -41,14 +42,25 @@ type config struct {
 
 type application struct {
 	config config
-	models postgres.Model
+	models Model
 	wg     sync.WaitGroup
+}
+
+type Model struct {
+	QuestionsModel interface {
+		// GetAllByCategoryId(categId int) ([]m.Question, error)
+		GetAll(category m.Category) ([]m.Question, error)
+	}
+	CategoriesModel interface {
+		GetAll() ([]*m.Category, error)
+		GetByID(categId int) (*m.Category, error)
+	}
 }
 
 func main() {
 	var cfg config
 	// database related params
-	flag.StringVar(&cfg.db.dsn, "db-dsn", os.Getenv("GOQUIZ_DB_DEV"), "PostgreSQL DSN")
+	flag.StringVar(&cfg.db.dsn, "db-dsn", os.Getenv(""), "PostgreSQL DSN")
 	flag.IntVar(&cfg.db.maxOpenConns, "db-max-open-conns", 25, "PostgreSQL max open connections")
 	flag.IntVar(&cfg.db.maxIdleConns, "db-max-idle-conns", 25, "PostgreSQL max idle connections")
 	flag.StringVar(&cfg.db.maxIdleTime, "db-max-idle-time", "15m", "PostgreSQL max connection idle time")
@@ -60,29 +72,25 @@ func main() {
 
 	//other params
 	flag.StringVar(&cfg.env, "env", "development", "Environment (development|staging|production)")
-	flag.BoolVar(&cfg.scrap, "scrap", false, "Scrap the questions and populate db")
+	flag.BoolVar(&cfg.populateDB, "populate-db", false, "Populate the database")
 	flag.IntVar(&cfg.port, "port", 4000, "API server port")
 
 	//authenticaiton
 	flag.StringVar(&cfg.auth.apiKey, "apikey", "", "API-key for Authentication")
 	flag.Parse()
-	db, err := openDB(cfg)
 
-	if err != nil {
-		log.Fatalln(err.Error())
-	}
-
-	model := postgres.Model{
-		QuestionsModel:  postgres.QuestionsModel{DB: db},
-		CategoriesModel: postgres.CategoriesModel{DB: db},
-	}
-
-	if cfg.scrap { // scrap the questions from the web and populate to database
+	if cfg.populateDB { // scrap the questions from the web and populate to database
 		s := scraper.New()
 		s.ScrapQuizzes()
-		// separate the write insert category logic from main to scraper struct
-		model.InsertCategories(s.Categories)
-		os.Exit(0)
+		// TODO: type cast to postgres.Model
+		//	model.InsertCategories(s.Categories)
+		os.Exit(1)
+	}
+
+	var model Model
+	model, err := setModel(cfg)
+	if err != nil {
+		log.Fatalln(err.Error())
 	}
 
 	app := &application{
@@ -94,6 +102,31 @@ func main() {
 	if err != nil {
 		log.Fatalln(os.Stdout, err)
 	}
+}
+
+func setModel(cfg config) (Model, error) {
+
+	if cfg.db.dsn == "" {
+		// scrap the questions in db-less mode
+		s := scraper.New()
+		s.ScrapQuizzes()
+
+		// return in memory model
+		return Model{
+			QuestionsModel:  m.QuestionsModel{s.Categories},
+			CategoriesModel: m.CategoriesModel{s.Categories},
+		}, nil
+	}
+
+	db, err := openDB(cfg)
+	if err != nil {
+		return Model{}, err
+	}
+	// return postgres model
+	return Model{
+		QuestionsModel:  postgres.QuestionsModel{DB: db},
+		CategoriesModel: postgres.CategoriesModel{DB: db},
+	}, nil
 }
 
 func openDB(cfg config) (*sql.DB, error) {

@@ -26,7 +26,7 @@ func (app *application) recoverPanic(next http.Handler) http.Handler {
 func (app *application) auth(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		apiKey := r.Header.Get("Authorization")
-		if app.config.auth.apiKey == "" || "Key "+app.config.auth.apiKey != apiKey {
+		if app.config.auth.apiKey != "" && "Key "+app.config.auth.apiKey != apiKey {
 			app.authenticationRequiredResponse(w, r)
 			return
 		}

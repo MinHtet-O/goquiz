@@ -5,14 +5,6 @@ import (
 	"strings"
 )
 
-func (q Quizzes) String() string {
-	var sb strings.Builder
-	for key, val := range q {
-		fmt.Fprintf(&sb, "key %s ,value %v \n", key, len(val))
-	}
-	return sb.String()
-}
-
 func (questions Questions) String() string {
 	var sb strings.Builder
 	for i, q := range questions {
@@ -26,8 +18,8 @@ func (a Answer) String() string {
 	return fmt.Sprintf("Option ", a.Option, " ", a.Explanation)
 }
 
-// TODO: Why to string not working with *QuestionResp ??
-func (q QuestionResp) String() string {
+// TODO: Why to string not working with *Question ??
+func (q Question) String() string {
 	var opsb strings.Builder
 	for i, val := range q.AnsOptions {
 		fmt.Fprintln(&opsb, i, ".", val)

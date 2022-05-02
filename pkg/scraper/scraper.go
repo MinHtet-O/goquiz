@@ -20,8 +20,7 @@ const (
 type QuizScrapper struct {
 	rootDomain string
 	wg         *sync.WaitGroup
-	Quizzes    model.Quizzes
-	Categories []model.Category
+	Categories []*model.Category
 	mu         sync.Mutex
 	mcqURLs    string
 }
@@ -33,7 +32,6 @@ func New() *QuizScrapper {
 	return &QuizScrapper{
 		rootDomain: rootDomain,
 		wg:         &sync.WaitGroup{},
-		Quizzes:    model.Quizzes{},
 		mu:         sync.Mutex{},
 		mcqURLs:    mcqURLs,
 	}
@@ -45,8 +43,8 @@ func (s *QuizScrapper) ScrapQuizzes() {
 	categs := s.getCategorieTags()
 	fmt.Println(categs)
 	s.wg.Add(len(categs))
-	for _, c := range categs {
-		go func(categ string) {
+	for i, c := range categs {
+		go func(categId int, categ string) {
 			defer func() {
 				s.wg.Done()
 				if r := recover(); r != nil {
@@ -59,12 +57,12 @@ func (s *QuizScrapper) ScrapQuizzes() {
 				return
 			}
 			s.mu.Lock()
-			s.AddCategories(categ, *questions)
+			s.AddCategories(categId, categ, *questions)
 			s.mu.Unlock()
 			// TODO: make save file as dynamic
 			//model.SaveQuestionFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
 			fmt.Println("Finish scraping function for ", categ)
-		}(c)
+		}(i, c)
 	}
 	fmt.Println("Waiting to get questions from domain ", s.rootDomain)
 	s.wg.Wait()
@@ -84,13 +82,12 @@ func (s *QuizScrapper) getCategorieTags() []string {
 	return categs
 }
 
-func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.QuestionResp {
+func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Question {
 
 	var (
-		baseUrl = "https://www." + url + "/" + string(category)
-		domain  = "www." + url
-
-		questions = make([]model.QuestionResp, 0)
+		baseUrl   = "https://www." + url + "/" + string(category)
+		domain    = "www." + url
+		questions = make([]model.Question, 0)
 	)
 
 	defer func() {
@@ -107,8 +104,9 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 	)
 
 	c.OnHTML(".pq", func(e *colly.HTMLElement) {
-		// initialize the question struct. set the first pq tag as question text
-		question := model.QuestionResp{
+		// initialize the question struct. set the first pq tag of html as question title text
+		question := model.Question{
+			ID:         e.Index + 1,
 			Text:       parseTitle(e.Text),
 			AnsOptions: make([]string, model.O_MAX),
 		}
@@ -153,7 +151,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 }
 
 // add categories together with questions
-func (s *QuizScrapper) AddCategories(categ string, ques []model.QuestionResp) {
+func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Question) {
 	// get the category title from input category tag
 	// for example get Machine Learning from machine-learning-mcq-part1
 	categTitle := func() string {
@@ -187,10 +185,11 @@ func (s *QuizScrapper) AddCategories(categ string, ques []model.QuestionResp) {
 
 	// Create new category and add questions
 	categStruct := model.Category{
+		ID:        len(s.Categories) + 1,
 		Name:      categTitle,
 		Questions: ques,
 	}
-	s.Categories = append(s.Categories, categStruct)
+	s.Categories = append(s.Categories, &categStruct)
 }
 
 //func (s *QuizScrapper) GetMCQLinks() {
