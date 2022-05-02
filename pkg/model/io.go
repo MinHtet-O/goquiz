@@ -23,7 +23,7 @@ func SaveFile(fileName string, content string) {
 	defer file.Close()
 
 	if err != nil {
-		fmt.Println(err.Error())
+
 		fmt.Fprintf(os.Stderr, "Can not create a file for category %s", fileName)
 	}
 
@@ -32,7 +32,7 @@ func SaveFile(fileName string, content string) {
 	dataWriter.WriteString(content)
 
 	if err := dataWriter.Flush(); err != nil {
-		fmt.Println(err.Error())
+
 		fmt.Fprintf(os.Stdout, "Can not create a file for category %s", fileName)
 	}
 }
@@ -45,11 +45,10 @@ func SaveQuestionFile(domain string, category string, content string) {
 	file := fmt.Sprintf("%s/%s.txt", path, category)
 
 	if err := createDirectory("questions"); err != nil {
-		fmt.Println(domain, err.Error())
+
 		return
 	}
 	if err := createDirectory("questions/" + domain); err != nil {
-		fmt.Println(domain+"/"+path, err.Error())
 		return
 	}
 	SaveFile(file, content)

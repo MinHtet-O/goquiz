@@ -2,7 +2,6 @@ package model
 
 import (
 	"errors"
-	"fmt"
 )
 
 func (m QuestionsModel) GetAll(category Category) ([]Question, error) {
@@ -17,7 +16,6 @@ func (m QuestionsModel) GetAll(category Category) ([]Question, error) {
 		}
 	}
 
-	fmt.Println(found)
 	if !found {
 		return []Question{}, errors.New("no record found")
 	}

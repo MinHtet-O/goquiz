@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
@@ -15,8 +14,4 @@ func (app *application) routes() http.Handler {
 	router.HandlerFunc(http.MethodGet, "/v1/categories", app.getCategoriesHandler)
 	router.HandlerFunc(http.MethodGet, "/v1/questions", app.getQuestionsHandler)
 	return app.recoverPanic(app.auth(app.rateLimit(router)))
-}
-
-func (app *application) hello() {
-	fmt.Println("Hello")
 }

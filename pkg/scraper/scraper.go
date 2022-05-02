@@ -41,19 +41,20 @@ func New() *QuizScrapper {
 // scrap the URLs and get Quizzes for each category
 func (s *QuizScrapper) ScrapQuizzes() {
 	categs := s.getCategorieTags()
-	fmt.Println(categs)
+
 	s.wg.Add(len(categs))
 	for i, c := range categs {
 		go func(categId int, categ string) {
+			fmt.Printf("Scraping: domain: %s , category: %s", s.rootDomain, categ)
 			defer func() {
 				s.wg.Done()
 				if r := recover(); r != nil {
-					fmt.Println("Recover from getting questions, categ", categ)
+					//fmt.Println("Recover from getting questions, categ", categ)
 				}
 			}()
 			questions := s.scrapQuestions(s.rootDomain, categ)
 			if len(*questions) < minlimit {
-				fmt.Fprintln(os.Stderr, "Remove ", categ, " from questions with length", len(*questions))
+				//fmt.Fprintln(os.Stderr, "Remove ", categ, " from questions with length", len(*questions))
 				return
 			}
 			s.mu.Lock()
@@ -61,10 +62,9 @@ func (s *QuizScrapper) ScrapQuizzes() {
 			s.mu.Unlock()
 			// TODO: make save file as dynamic
 			//model.SaveQuestionFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
-			fmt.Println("Finish scraping function for ", categ)
+
 		}(i, c)
 	}
-	fmt.Println("Waiting to get questions from domain ", s.rootDomain)
 	s.wg.Wait()
 }
 
@@ -163,7 +163,6 @@ func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Que
 		categTitle := strings.Trim(strings.Join(categArr, " "), " ")
 		return categTitle
 	}()
-	fmt.Println("Category Title", categ)
 	// check if there exists questions with the same category title
 	found, index := false, 0
 	for i, c := range s.Categories {
@@ -177,8 +176,8 @@ func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Que
 	// for eg - golang-mcq-part1 tag and golang-mcq-part2 tag will be in the same catgory "Golang"
 
 	if found {
-		fmt.Printf("Category key %s already exists with len %d for input category %s "+
-			"with len %d \n", categTitle, len(categTitle), categ, len(categ))
+		// fmt.Printf("Category key %s already exists with len %d for input category %s "+
+		// 	"with len %d \n", categTitle, len(categTitle), categ, len(categ))
 		s.Categories[index].Questions = append(s.Categories[index].Questions, ques...)
 		return
 	}
