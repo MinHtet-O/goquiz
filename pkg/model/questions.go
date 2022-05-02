@@ -22,3 +22,7 @@ func (m QuestionsModel) GetAll(category Category) ([]Question, error) {
 
 	return m.Categories[foundIndex].Questions, nil
 }
+
+func (m QuestionsModel) Insert(categID int, q Question) error {
+	return nil
+}

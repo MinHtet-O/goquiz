@@ -11,3 +11,7 @@ func (m CategoriesModel) GetByID(categId int) (*Category, error) {
 
 	return &category, nil
 }
+
+func (m CategoriesModel) Insert(cate Category) (int, error) {
+	return 0, nil
+}

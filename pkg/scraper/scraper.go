@@ -45,7 +45,7 @@ func (s *QuizScrapper) ScrapQuizzes() {
 	s.wg.Add(len(categs))
 	for i, c := range categs {
 		go func(categId int, categ string) {
-			fmt.Printf("Scraping: domain: %s , category: %s", s.rootDomain, categ)
+			fmt.Printf("Scraping: domain: %s , category: %s \n", s.rootDomain, categ)
 			defer func() {
 				s.wg.Done()
 				if r := recover(); r != nil {
@@ -62,7 +62,7 @@ func (s *QuizScrapper) ScrapQuizzes() {
 			s.mu.Unlock()
 			// TODO: make save file as dynamic
 			//model.SaveQuestionFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
-
+			fmt.Printf("Finished Scraping: domain: %s , category: %s \n", s.rootDomain, categ)
 		}(i, c)
 	}
 	s.wg.Wait()
@@ -93,7 +93,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 	defer func() {
 		r := recover()
 		if r != nil {
-			fmt.Fprintf(os.Stderr, "Error fecting %s !", category)
+			//fmt.Fprintf(os.Stderr, "Error fecting %s !", category)
 		}
 	}()
 
@@ -118,7 +118,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 
 		// ignore second pq question tags in the post
 		if quesNode := findSibling(e.DOM, "pq", 4, D_Prev); quesNode != nil {
-			fmt.Fprintf(os.Stderr, "Second pq question tag found category %s , index %d \n", category, e.Index)
+			//fmt.Fprintf(os.Stderr, "Second pq question tag found category %s , index %d \n", category, e.Index)
 			return
 		}
 
@@ -129,13 +129,13 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 
 		// find answer options for a question
 		if err := parseAnsOptions(e, &question, category); err != nil { // no answer options found for this question
-			fmt.Fprintf(os.Stderr, err.Error())
+			//fmt.Fprintf(os.Stderr, err.Error())
 			return
 		}
 
 		// correct ans for the question
 		if err := parseCorrectAns(e, &question, category); err != nil {
-			fmt.Fprintf(os.Stderr, err.Error())
+			//fmt.Fprintf(os.Stderr, err.Error())
 			return
 		}
 

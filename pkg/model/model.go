@@ -1,8 +1,22 @@
 package model
 
 import (
+	"fmt"
 	"time"
 )
+
+type Model struct {
+	QuestionsModel interface {
+		// GetAllByCategoryId(categId int) ([]m.Question, error)
+		GetAll(category Category) ([]Question, error)
+		Insert(categID int, q Question) error
+	}
+	CategoriesModel interface {
+		GetAll() ([]*Category, error)
+		GetByID(categId int) (*Category, error)
+		Insert(cate Category) (int, error)
+	}
+}
 
 type QuestionsModel struct{ Categories []*Category }
 type CategoriesModel struct{ Categories []*Category }
@@ -84,4 +98,33 @@ type Choice struct {
 	question Question
 	ans      Option
 	duration time.Time
+}
+
+func (m Model) InsertCategories(categs []*Category) error {
+	fmt.Println("Insert CategoriesModel")
+	fmt.Printf("LEN: %d \n", len(categs))
+	for _, categ := range categs {
+
+		categID, err := m.CategoriesModel.Insert(*categ)
+		if err != nil {
+			fmt.Println(err.Error())
+			continue
+		}
+
+		// later refactor method - InsertQuestions
+		for _, question := range categ.Questions {
+			err := m.QuestionsModel.Insert(categID, question)
+			if err != nil {
+				fmt.Println(err.Error())
+				continue
+			}
+		}
+		// TODO: add transaction rollback
+		//if err != nil {
+		//	// rollback transaction
+		//	continue
+		//}
+		// commit transaction
+	}
+	return nil
 }

@@ -42,19 +42,8 @@ type config struct {
 
 type application struct {
 	config config
-	models Model
+	models m.Model
 	wg     sync.WaitGroup
-}
-
-type Model struct {
-	QuestionsModel interface {
-		// GetAllByCategoryId(categId int) ([]m.Question, error)
-		GetAll(category m.Category) ([]m.Question, error)
-	}
-	CategoriesModel interface {
-		GetAll() ([]*m.Category, error)
-		GetByID(categId int) (*m.Category, error)
-	}
 }
 
 func main() {
@@ -79,18 +68,22 @@ func main() {
 	flag.StringVar(&cfg.auth.apiKey, "apikey", "", "API-key for Authentication")
 	flag.Parse()
 
-	if cfg.populateDB { // scrap the questions from the web and populate to database
-		s := scraper.New()
-		s.ScrapQuizzes()
-		// TODO: type cast to postgres.Model
-		//	model.InsertCategories(s.Categories)
-		os.Exit(1)
-	}
-
-	var model Model
+	var model m.Model
 	model, err := setModel(cfg)
 	if err != nil {
 		log.Fatalln(err.Error())
+	}
+
+	if cfg.populateDB { // scrap the questions from the web and populate to database
+
+		if cfg.db.dsn == "" {
+			log.Fatal("please provide database service name to populate")
+		}
+		s := scraper.New()
+		s.ScrapQuizzes()
+		// TODO: type cast to postgres.Model
+		model.InsertCategories(s.Categories)
+		os.Exit(1)
 	}
 
 	app := &application{
@@ -104,7 +97,7 @@ func main() {
 	}
 }
 
-func setModel(cfg config) (Model, error) {
+func setModel(cfg config) (m.Model, error) {
 
 	if cfg.db.dsn == "" {
 		// scrap the questions in db-less mode
@@ -112,7 +105,7 @@ func setModel(cfg config) (Model, error) {
 		s.ScrapQuizzes()
 
 		// return in memory model
-		return Model{
+		return m.Model{
 			QuestionsModel:  m.QuestionsModel{s.Categories},
 			CategoriesModel: m.CategoriesModel{s.Categories},
 		}, nil
@@ -120,10 +113,10 @@ func setModel(cfg config) (Model, error) {
 
 	db, err := openDB(cfg)
 	if err != nil {
-		return Model{}, err
+		return m.Model{}, err
 	}
 	// return postgres model
-	return Model{
+	return m.Model{
 		QuestionsModel:  postgres.QuestionsModel{DB: db},
 		CategoriesModel: postgres.CategoriesModel{DB: db},
 	}, nil
@@ -134,11 +127,9 @@ func openDB(cfg config) (*sql.DB, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	db.SetMaxOpenConns(cfg.db.maxOpenConns)
 	db.SetMaxIdleConns(cfg.db.maxIdleConns)
 	duration, err := time.ParseDuration(cfg.db.maxIdleTime)
-
 	if err != nil {
 		return nil, err
 	}

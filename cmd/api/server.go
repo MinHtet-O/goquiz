@@ -17,6 +17,7 @@ func (app *application) serve() error {
 		WriteTimeout: 30 * time.Second,
 		//ErrorLog:     log.New(app.logger, "", 0),
 	}
+	fmt.Printf("\nHTTP server listening on port: %d", app.config.port)
 	err := srv.ListenAndServe()
 	if !errors.Is(err, http.ErrServerClosed) {
 		return err
