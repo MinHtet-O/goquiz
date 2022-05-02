@@ -22,6 +22,20 @@ Scrapers for more web sites will be provided as the project progress. There are 
 * Key based API authentication
 * API rate limiting
 
+### Setup instruction
+
+1. Clone the goquiz project
+2. [Setup migrate cli](https://github.com/golang-migrate/migrate)
+3. [Setup Postgres and create a database](https://www.prisma.io/dataguide/postgresql/setting-up-a-local-postgresql-database)
+4. Expose database service name <br> ```export GOQUIZ_DB=postgres://<username>:@localhost/<db_name>?sslmode=disable```
+5. Migrate the database, create necessary tables<br>```migrate -path=./migrations -database=$GOQUIZ_DB up```
+6. Build the Project<br>```go build ./cmd/api```
+7. Scrap the questions and populate the database<br>```./api -scrap -db-dsn=$GOQUIZ_DB```
+8. Start API service to retrieve questions 
+    - without apikey authentication <br>```./api -db-dsn=$GOQUIZ_DB```
+    - with apikey authentication <br>```./api -db-dsn=$GOQUIZ_DB -apikey=<your_api_key>```
+9. For more startup parameters <br>```./api --help```
+
 ### Process Diagram
 ![alt text](https://github.com/MinHtet-O/goquiz/blob/main/goquiz_communication.png)
 
