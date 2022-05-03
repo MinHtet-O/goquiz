@@ -22,7 +22,7 @@ Scrapers for more web sites will be provided as the project progress. There are 
 * Key based API authentication
 * API rate limiting
 
-## Setup instruction
+## Setup instructions
 
 #### Prerequisite
 Download and install [go](https://go.dev/doc/install) on your machine and clone the goquiz project. For deployment, you can deploy without database or setup and populate the database first before serving the API. With later option, you don't have to scrap the web everything you start/ restart the service.
