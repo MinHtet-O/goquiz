@@ -59,6 +59,23 @@ Download and install [go](https://go.dev/doc/install) on your machine and clone 
   --data '{
 	"name":"Go Programming"
 }'```
+4. Create new question by category<br>```curl --request POST \
+  --url http://localhost:4000/v1/questions \
+  --header 'Authorization: Key 1234' \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"categ_id": 75,
+	"text": "Which company created go programming language?",
+	"answers": [
+		"Apple",
+		"Google",
+		"Amazon",
+		"Facebook"
+	],
+	"correct_answer": 2,
+	"codeblock": "fmt.Println(\"Hello! Example codeblock\")",
+	"explanation": "Go was originally designed at Google in 2007"
+}'```
 
 ## Process Diagram
 ![alt text](https://github.com/MinHtet-O/goquiz/blob/main/goquiz_communication.png)
