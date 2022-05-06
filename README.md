@@ -2,14 +2,14 @@
 
 ## About the project
 
-Goquiz provides the scrapers to get the engineering multiple-choice questions across the sites, structure the data, populate the database, and serve API endpoints to retrieve the questions.
+Goquiz provides the scrapers to get the engineering multiple-choice questions across the sites, structure the data, populate the database, and serve API endpoints to retrieve the questions. You can also start the services with db-less mode. 
 
 Currently, Goquiz can scrap the MCQ questions from the following sites. 
 - https://www.javatpoint.com/
 
 Scrapers for more web sites will be provided as the project progress. There are over **4000+ MCQ questions** from 74 different categories and all of them are credited to the respective original web source. This project is educational purpose only.
 
-### Functions
+## Functions
 
 #### Web Scraping
 * Get the mcq questions from the web sites
@@ -22,24 +22,42 @@ Scrapers for more web sites will be provided as the project progress. There are 
 * Key based API authentication
 * API rate limiting
 
-### Setup instruction
+## Setup instructions
 
-1. Clone the goquiz project
-2. [Setup migrate cli](https://github.com/golang-migrate/migrate)
-3. [Setup Postgres and create a database](https://www.prisma.io/dataguide/postgresql/setting-up-a-local-postgresql-database)
-4. Expose database service name <br> ```export GOQUIZ_DB=postgres://<username>:@localhost/<db_name>?sslmode=disable```
-5. Migrate the database, create necessary tables<br>```migrate -path=./migrations -database=$GOQUIZ_DB up```
-6. Build the Project<br>```go build ./cmd/api```
-7. Scrap the questions and populate the database<br>```./api -scrap -db-dsn=$GOQUIZ_DB```
-8. Start API service to retrieve questions 
+#### Prerequisite
+Download and install [go](https://go.dev/doc/install) on your machine and clone the goquiz project. For deployment, you can deploy without database or setup and populate the database first before serving the API. With later option, you don't have to scrap the web everything you start/ restart the service.
+
+#### DB-less mode
+1. Build the Project<br>```go build ./cmd/api```
+2. Start API service to retrieve questions 
+    - without apikey authentication <br>```./api```
+    - with apikey authentication <br>```./api -apikey=<your_api_key>```
+3. For more startup parameters <br>```./api --help```
+    
+#### DB mode
+1. [Setup migrate cli](https://github.com/golang-migrate/migrate)
+2. [Setup Postgres and create a database](https://www.prisma.io/dataguide/postgresql/setting-up-a-local-postgresql-database)
+3. Expose database service name <br> ```export GOQUIZ_DB=postgres://<username>:@localhost/<db_name>?sslmode=disable```
+4. Migrate the database, create necessary tables<br>```migrate -path=./migrations -database=$GOQUIZ_DB up```
+5. Build the Project<br>```go build ./cmd/api```
+6. Scrap the questions and populate the database<br>```./api -populate-db -db-dsn=$GOQUIZ_DB```
+7. Start API service to retrieve questions 
     - without apikey authentication <br>```./api -db-dsn=$GOQUIZ_DB```
     - with apikey authentication <br>```./api -db-dsn=$GOQUIZ_DB -apikey=<your_api_key>```
-9. For more startup parameters <br>```./api --help```
+8. For more startup parameters <br>```./api --help```
 
-### Process Diagram
+## API Routes
+
+1. Get all categories<br> ```curl --request GET \
+  --url http://localhost:4000/v1/categories \
+  --header 'Authorization: Key 1234'```
+2. Get questions by category ID<br>```curl --request GET \
+  --url 'http://localhost:4000/v1/questions?category_id=1'```
+
+## Process Diagram
 ![alt text](https://github.com/MinHtet-O/goquiz/blob/main/goquiz_communication.png)
 
-### Layout
+## Layout
 
 ```tree
 
