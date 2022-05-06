@@ -25,7 +25,7 @@ Scrapers for more web sites will be provided as the project progress. There are 
 ## Setup instructions
 
 #### Prerequisite
-Download and install [go](https://go.dev/doc/install) on your machine and clone the goquiz project. For deployment, you can deploy without database or setup and populate the database first before serving the API. With later option, you don't have to scrap the web everything you start/ restart the service.
+Download and install [go](https://go.dev/doc/install) on your machine and clone the goquiz project. For deployment, you can deploy without database or setup and populate the database first before serving the API. With later option, you don't have to scrap the web everytime you start/ restart the service.
 
 #### DB-less mode
 1. Build the Project<br>```go build ./cmd/api```
@@ -53,6 +53,12 @@ Download and install [go](https://go.dev/doc/install) on your machine and clone 
   --header 'Authorization: Key 1234'```
 2. Get questions by category ID<br>```curl --request GET \
   --url 'http://localhost:4000/v1/questions?category_id=1'```
+3. Create new category<br>```curl --request POST \
+  --url http://localhost:4000/v1/categories \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"name":"Go Programming"
+}'```
 
 ## Process Diagram
 ![alt text](https://github.com/MinHtet-O/goquiz/blob/main/goquiz_communication.png)
