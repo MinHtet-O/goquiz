@@ -45,6 +45,10 @@ func (app *application) getQuestionsHandler(w http.ResponseWriter, r *http.Reque
 		return
 	}
 
+	for i := range questions {
+		questions[i].Answer.Option++
+	}
+
 	err = app.writeJSON(w, http.StatusOK, envelope{"questions": questions}, nil)
 	if err != nil {
 		app.serverErrorResponse(w, r, err)
@@ -52,7 +56,63 @@ func (app *application) getQuestionsHandler(w http.ResponseWriter, r *http.Reque
 }
 
 func (app *application) createQuestionHandler(w http.ResponseWriter, r *http.Request) {
+	var input struct {
+		CategId     int      `json:"categ_id"`
+		Text        string   `json:"text"`
+		Answers     []string `json:"answers"`
+		CorrectAns  int      `json:"correct_answer"`
+		Codeblock   string   `json:"codeblock"`
+		Explanation string   `json:"explanation"`
+	}
+	err := app.readJSON(w, r, &input)
+	if err != nil {
+		app.badRequestResponse(w, r, err)
+		return
+	}
+	question := &model.Question{
+		Category: model.Category{
+			Id: input.CategId,
+		},
+		Text: input.Text,
+		Answer: model.Answer{
+			Explanation: input.Explanation,
+			// change the ans option into array index.
+			//If the correct ans is the first option, it's index is 1
+			Option: model.Option(input.CorrectAns - 1),
+		},
+		AnsOptions: input.Answers,
+	}
 
+	v := validator.New()
+	if v.ValidateQuestion(question); !v.Valid() {
+		app.failedValidationResponse(w, r, v.Errors)
+		return
+	}
+
+	categ, err := app.models.CategoriesModel.GetByID(question.Category.Id)
+
+	if err != nil {
+		switch {
+		case errors.Is(err, model.ErrRecordNotFound):
+			app.notFoundResponse(w, r)
+		default:
+			app.serverErrorResponse(w, r, err)
+		}
+		return
+	}
+
+	id, err := app.models.QuestionsModel.Insert(categ.Id, *question)
+	question.Id = id
+
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+		return
+	}
+
+	err = app.writeJSON(w, http.StatusCreated, envelope{"question": question}, nil)
+	if err != nil {
+		app.serverErrorResponse(w, r, err)
+	}
 }
 
 // TODO: Postgres full text search support

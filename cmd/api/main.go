@@ -107,8 +107,8 @@ func setModel(cfg config) (m.Model, error) {
 		// return in memory model, only pointers of in memory model implement model interfaces.
 		// methods need pointer receiver as they need to edit in memory data in place
 		return m.Model{
-			QuestionsModel:  m.QuestionsModel{s.Categories},
-			CategoriesModel: &m.CategoriesModel{s.Categories},
+			QuestionsModel:  &m.QuestionsModel{&s.Categories},
+			CategoriesModel: &m.CategoriesModel{&s.Categories},
 		}, nil
 	}
 

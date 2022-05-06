@@ -1,19 +1,32 @@
 package model
 
+import "errors"
+
 func (m *CategoriesModel) GetAll() ([]*Category, error) {
 
-	return m.Categories, nil
+	return *m.Categories, nil
 }
 
 func (m *CategoriesModel) GetByID(categId int) (*Category, error) {
 
-	var category Category
+	found, foundIndex := false, 0
+	for index, categ := range *m.Categories {
+		if categId == categ.Id {
+			found = true
+			foundIndex = index
+			break
+		}
+	}
 
-	return &category, nil
+	if !found {
+		return nil, errors.New("no record found")
+	}
+
+	return (*m.Categories)[foundIndex], nil
 }
 
 func (m *CategoriesModel) Insert(categ Category) (int, error) {
-	categ.Id = len(m.Categories)
-	m.Categories = append(m.Categories, &categ)
+	categ.Id = len(*m.Categories) + 1
+	*m.Categories = append(*m.Categories, &categ)
 	return categ.Id, nil
 }

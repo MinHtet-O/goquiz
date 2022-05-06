@@ -13,6 +13,7 @@ func (app *application) routes() http.Handler {
 	router.HandlerFunc(http.MethodGet, "/v1/healthcheck", app.healthcheckHandler)
 	router.HandlerFunc(http.MethodGet, "/v1/categories", app.getCategoriesHandler)
 	router.HandlerFunc(http.MethodPost, "/v1/categories", app.createCategoryHandler)
-	router.HandlerFunc(http.MethodGet, "/v1/questions", app.createQuestionHandler)
+	router.HandlerFunc(http.MethodGet, "/v1/questions", app.getQuestionsHandler)
+	router.HandlerFunc(http.MethodPost, "/v1/questions", app.createQuestionHandler)
 	return app.recoverPanic(app.auth(app.rateLimit(router)))
 }

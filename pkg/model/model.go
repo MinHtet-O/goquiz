@@ -9,7 +9,7 @@ type Model struct {
 	QuestionsModel interface {
 		// GetAllByCategoryId(categId int) ([]m.Question, error)
 		GetAll(category Category) ([]Question, error)
-		Insert(categID int, q Question) error
+		Insert(categID int, q Question) (int, error)
 		//Insert(categID int, q Question) Question
 	}
 	CategoriesModel interface {
@@ -19,8 +19,8 @@ type Model struct {
 	}
 }
 
-type QuestionsModel struct{ Categories []*Category }
-type CategoriesModel struct{ Categories []*Category }
+type QuestionsModel struct{ Categories *[]*Category }
+type CategoriesModel struct{ Categories *[]*Category }
 
 type Questions []Question
 
@@ -61,12 +61,13 @@ type Category struct {
 //}
 
 type Question struct {
-	Id         int      `json:"id"`
-	WebIndex   int      `json:"-"`
-	Text       string   `json:"text"`
+	Id       int    `json:"id"`
+	WebIndex int    `json:"-"`
+	Text     string `json:"text"`
+	// TODO: change the name from AnswerOptions to Choices
 	AnsOptions []string `json:"answers"`
 	Codeblock  string   `json:",omitempty"`
-	Answer     Answer   `json:"correct_ans"`
+	Answer     Answer   `json:"correct_answer"`
 	URL        string   `json:"-"`
 	// TODO: remove Category from Question
 	Category Category `json:"-"`
@@ -114,7 +115,7 @@ func (m Model) InsertCategories(categs []*Category) error {
 
 		// later refactor method - InsertQuestions
 		for _, question := range categ.Questions {
-			err := m.QuestionsModel.Insert(categID, question)
+			_, err := m.QuestionsModel.Insert(categID, question)
 			if err != nil {
 				fmt.Println(err.Error())
 				continue

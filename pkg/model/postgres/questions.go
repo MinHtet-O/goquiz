@@ -8,19 +8,21 @@ import (
 	"time"
 )
 
-func (m QuestionsModel) Insert(categID int, q model.Question) error {
+func (m QuestionsModel) Insert(categID int, q model.Question) (int, error) {
 	args := []interface{}{categID, q.WebIndex, q.Text, pq.Array(q.AnsOptions), q.Codeblock, q.Answer.Option, q.Answer.Explanation, q.URL}
 	// TODO: replace query with sql prepared statement
 	query := `INSERT INTO questions (category_id,web_index,text,ans_options,code_block,correct_ans_opt,correct_ans_explanation,url) values ($1,$2,$3,$4,$5,$6,$7,$8) RETURNING id`
-
+	ques := struct {
+		id int
+	}{}
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
-	_, err := m.DB.ExecContext(ctx, query, args...)
+	err := m.DB.QueryRowContext(ctx, query, args...).Scan(&ques.id)
 
 	if err != nil {
-		return err
+		return 0, err
 	}
-	return nil
+	return ques.id, nil
 }
 
 func (m QuestionsModel) GetAllByCategoryId(categId int) ([]model.Question, error) {

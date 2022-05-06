@@ -63,8 +63,7 @@ func (m CategoriesModel) Insert(cate model.Category) (int, error) {
 	}{}
 
 	err := m.DB.QueryRowContext(ctx, query, cate.Name).Scan(&categ.id)
-	fmt.Println("Category Id")
-	fmt.Println(categ.id)
+
 	if err != nil {
 		return 0, err
 	}
@@ -84,7 +83,7 @@ func (m Model) InsertCategories(categs []model.Category) error {
 
 		// later refactor method - InsertQuestions
 		for _, question := range categ.Questions {
-			err := m.QuestionsModel.Insert(categID, question)
+			_, err := m.QuestionsModel.Insert(categID, question)
 			if err != nil {
 				fmt.Println(err.Error())
 				continue
