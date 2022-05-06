@@ -4,6 +4,8 @@ import (
 	"regexp"
 )
 
+var NonSpecialText = regexp.MustCompile("^(\\w|\\s)*$")
+
 // Define a new Validator type which contains a map of validation errors.
 type Validator struct {
 	Errors map[string]string

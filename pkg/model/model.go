@@ -10,6 +10,7 @@ type Model struct {
 		// GetAllByCategoryId(categId int) ([]m.Question, error)
 		GetAll(category Category) ([]Question, error)
 		Insert(categID int, q Question) error
+		//Insert(categID int, q Question) Question
 	}
 	CategoriesModel interface {
 		GetAll() ([]*Category, error)
@@ -43,14 +44,14 @@ var AnsMapping = map[string]Option{
 }
 
 type Category struct {
-	ID             int        `json:"id"`
+	Id             int        `json:"id"`
 	Name           string     `json:"name"`
 	Questions      []Question `json:"-"`
 	QuestionsCount int32      `json:"questions_count,omitempty"`
 }
 
 //type Question struct {
-//	ID         int
+//	Id         int
 //	WebIndex   int
 //	Text       string
 //	AnsOptions []string
@@ -60,7 +61,7 @@ type Category struct {
 //}
 
 type Question struct {
-	ID         int      `json:"id"`
+	Id         int      `json:"id"`
 	WebIndex   int      `json:"-"`
 	Text       string   `json:"text"`
 	AnsOptions []string `json:"answers"`

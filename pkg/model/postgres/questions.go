@@ -41,7 +41,7 @@ func (m QuestionsModel) GetAllByCategoryId(categId int) ([]model.Question, error
 	for rows.Next() {
 		var question model.Question
 		err := rows.Scan(
-			&question.ID,
+			&question.Id,
 			&question.Text,
 			&question.Codeblock,
 			pq.Array(&question.AnsOptions),
@@ -67,8 +67,8 @@ WHERE (to_tsvector('english', c.name) @@ plainto_tsquery('english', $1) OR $1=''
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
-	fmt.Println(category.ID)
-	rows, err := m.DB.QueryContext(ctx, query, category.Name, category.ID)
+	fmt.Println(category.Id)
+	rows, err := m.DB.QueryContext(ctx, query, category.Name, category.Id)
 
 	if err != nil {
 		fmt.Println("Error Here")
@@ -81,13 +81,13 @@ WHERE (to_tsvector('english', c.name) @@ plainto_tsquery('english', $1) OR $1=''
 	for rows.Next() {
 		var question model.Question
 		err := rows.Scan(
-			&question.ID,
+			&question.Id,
 			&question.Text,
 			&question.Codeblock,
 			pq.Array(&question.AnsOptions),
 			&question.Answer.Option,
 			&question.Answer.Explanation,
-			&question.Category.ID,
+			&question.Category.Id,
 			&question.Category.Name,
 		)
 		if err != nil {

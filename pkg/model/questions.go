@@ -9,7 +9,7 @@ func (m QuestionsModel) GetAll(category Category) ([]Question, error) {
 	found, foundIndex := false, 0
 
 	for index, categ := range m.Categories {
-		if category.ID == categ.ID {
+		if category.Id == categ.Id {
 			found = true
 			foundIndex = index
 			break

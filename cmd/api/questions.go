@@ -24,7 +24,7 @@ func (app *application) getQuestionsHandler(w http.ResponseWriter, r *http.Reque
 	//app.badRequestResponse(w, r, fmt.Errorf("must provide either category_id or category_name query param"))
 
 	inputCateg := model.Category{
-		ID:   categId,
+		Id:   categId,
 		Name: categName,
 	}
 
@@ -49,6 +49,10 @@ func (app *application) getQuestionsHandler(w http.ResponseWriter, r *http.Reque
 	if err != nil {
 		app.serverErrorResponse(w, r, err)
 	}
+}
+
+func (app *application) createQuestionHandler(w http.ResponseWriter, r *http.Request) {
+
 }
 
 // TODO: Postgres full text search support

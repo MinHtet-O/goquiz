@@ -22,7 +22,7 @@ func (m CategoriesModel) GetAll() ([]*model.Category, error) {
 
 	for rows.Next() {
 		var category model.Category
-		err := rows.Scan(&category.ID, &category.Name, &category.QuestionsCount)
+		err := rows.Scan(&category.Id, &category.Name, &category.QuestionsCount)
 		if err != nil {
 			return nil, err
 		}
@@ -40,7 +40,7 @@ func (m CategoriesModel) GetByID(categId int) (*model.Category, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
-	err := m.DB.QueryRowContext(ctx, query, categId).Scan(&category.ID, &category.Name)
+	err := m.DB.QueryRowContext(ctx, query, categId).Scan(&category.Id, &category.Name)
 
 	if err != nil {
 		switch {
@@ -63,7 +63,7 @@ func (m CategoriesModel) Insert(cate model.Category) (int, error) {
 	}{}
 
 	err := m.DB.QueryRowContext(ctx, query, cate.Name).Scan(&categ.id)
-	fmt.Println("Category ID")
+	fmt.Println("Category Id")
 	fmt.Println(categ.id)
 	if err != nil {
 		return 0, err

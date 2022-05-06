@@ -106,7 +106,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 	c.OnHTML(".pq", func(e *colly.HTMLElement) {
 		// initialize the question struct. set the first pq tag of html as question title text
 		question := model.Question{
-			ID:         e.Index + 1,
+			Id:         e.Index + 1,
 			Text:       parseTitle(e.Text),
 			AnsOptions: make([]string, model.O_MAX),
 		}
@@ -184,7 +184,7 @@ func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Que
 
 	// Create new category and add questions
 	categStruct := model.Category{
-		ID:        len(s.Categories) + 1,
+		Id:        len(s.Categories) + 1,
 		Name:      categTitle,
 		Questions: ques,
 	}

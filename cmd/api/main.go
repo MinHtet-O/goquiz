@@ -104,10 +104,11 @@ func setModel(cfg config) (m.Model, error) {
 		s := scraper.New()
 		s.ScrapQuizzes()
 
-		// return in memory model
+		// return in memory model, only pointers of in memory model implement model interfaces.
+		// methods need pointer receiver as they need to edit in memory data in place
 		return m.Model{
 			QuestionsModel:  m.QuestionsModel{s.Categories},
-			CategoriesModel: m.CategoriesModel{s.Categories},
+			CategoriesModel: &m.CategoriesModel{s.Categories},
 		}, nil
 	}
 
@@ -149,3 +150,4 @@ func openDB(cfg config) (*sql.DB, error) {
 // TODO: change standard logging to json format, replace all log stdout stderr with json logging
 // TODO: why file write is not working
 // TODO: move URL field from questions to categories
+// TODO: make category table composite primary key (id,name). So, there would be no duplicate category name
