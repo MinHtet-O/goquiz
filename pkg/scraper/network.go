@@ -7,17 +7,18 @@ import (
 
 func validateImageURL(url string) error {
 	client := clientHTTP()
-
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return err
 	}
 
 	resp, err := client.Do(req)
-	if err != nil || resp.StatusCode != 200 {
+	if err != nil {
 		return err
 	}
-
+	if resp.StatusCode != http.StatusOK {
+		return err
+	}
 	return nil
 }
 
