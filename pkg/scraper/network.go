@@ -11,12 +11,8 @@ func validateImageURL(url string) error {
 	if err != nil {
 		return err
 	}
-
-	resp, err := client.Do(req)
+	_, err = client.Do(req)
 	if err != nil {
-		return err
-	}
-	if resp.StatusCode != http.StatusOK {
 		return err
 	}
 	return nil

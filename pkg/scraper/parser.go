@@ -2,17 +2,19 @@ package scraper
 
 import (
 	"fmt"
-	"github.com/PuerkitoBio/goquery"
-	"github.com/gocolly/colly"
 	"goquiz/pkg/model"
 	"regexp"
 	"strings"
 	"unicode"
+
+	"github.com/PuerkitoBio/goquery"
+	"github.com/gocolly/colly"
 )
+
+var ansReg = regexp.MustCompile(`(\(\w\))|(\s\w\.$)|(\s\w\)\s)|(\s\w$)|(\s\w\.\s\w*)|(\s\w:\s)|(\s\w\s)`)
 
 func parseCorrectAns(e *colly.HTMLElement, question *model.Question, category string) error {
 
-	ansReg := regexp.MustCompile(`(\(\w\))|(\s\w\.$)|(\s\w\)\s)|(\s\w$)|(\s\w\.\s\w*)|(\s\w:\s)|(\s\w\s)`)
 	// find the answer node
 	ansNode := findSibling(e.DOM, "testanswer", 8, D_Next)
 
