@@ -135,3 +135,11 @@ A brief description of the directory layout:
 * * `model` includes data models and it's helper functions like formatter and io.
 * * `validator` includes validation logic for data model
 * `files` contans static file assets. Currently, there is mcq.txt that contains the mcq urls from the sites.
+
+### ToDo
+- [ ] Deploy the API to Digital Ocean VPS
+- [ ] Dockerize Deployment
+- [ ] Unit Testings for Model and APIs
+- [ ] Update/ Delete endpoints for questions and categories 
+- [ ] Add web scraper to fetch MCQs from www.sanfoundry.com
+- [ ] Add github CI to automate unit tests and deployment
