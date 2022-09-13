@@ -5,8 +5,8 @@ import (
 	"time"
 )
 
-func validateImageURL(url string) error {
-	client := clientHTTP()
+func validateURL(url string) error {
+	client := newHTTPClient()
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return err
@@ -19,7 +19,7 @@ func validateImageURL(url string) error {
 }
 
 // TODO: set one http client instance for each scraper
-func clientHTTP() *http.Client {
+func newHTTPClient() *http.Client {
 	t := http.DefaultTransport.(*http.Transport).Clone()
 	t.MaxIdleConns = 100
 	t.MaxConnsPerHost = 100

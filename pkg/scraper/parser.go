@@ -2,7 +2,7 @@ package scraper
 
 import (
 	"fmt"
-	"goquiz/pkg/model"
+	"goquiz/service"
 	"regexp"
 	"strings"
 	"unicode"
@@ -13,7 +13,7 @@ import (
 
 var ansReg = regexp.MustCompile(`(\(\w\))|(\s\w\.$)|(\s\w\)\s)|(\s\w$)|(\s\w\.\s\w*)|(\s\w:\s)|(\s\w\s)`)
 
-func parseCorrectAns(e *colly.HTMLElement, question *model.Question, category string) error {
+func parseCorrectAns(e *colly.HTMLElement, question *service.Question, category string) error {
 
 	// find the answer node
 	ansNode := findSibling(e.DOM, "testanswer", 8, D_Next)
@@ -32,7 +32,7 @@ func parseCorrectAns(e *colly.HTMLElement, question *model.Question, category st
 
 	// make necessary string processing to extract the answer option
 	ans = strings.ToLower(strings.Split(ans, "")[1])
-	if opt, found := model.AnsMapping[ans]; found {
+	if opt, found := service.AnsMapping[ans]; found {
 		question.Answer.Option = opt
 	}
 
@@ -47,14 +47,14 @@ func parseCorrectAns(e *colly.HTMLElement, question *model.Question, category st
 	return nil
 }
 
-func parseAnsOptions(e *colly.HTMLElement, question *model.Question, category string) error {
+func parseAnsOptions(e *colly.HTMLElement, question *service.Question, category string) error {
 
 	// answer options as text
 	// valid A,B,C,D,E options
 	optsNode := findSibling(e.DOM, "pointsa", 6, D_Next)
 	if optsNode != nil && optsNode.Children().Length() < 6 {
 		optsNode.Children().Each(func(i int, c *goquery.Selection) {
-			question.AnsOptions[model.Option(i)] = strings.ToLower(c.Text())
+			question.AnsOptions[service.Option(i)] = strings.ToLower(c.Text())
 		})
 		return nil
 	}
@@ -63,7 +63,7 @@ func parseAnsOptions(e *colly.HTMLElement, question *model.Question, category st
 	imageURL, exist := e.DOM.Next().Children().First().Attr("src")
 	if exist {
 		// test the image URL to make sure it is the valid URL
-		err := validateImageURL(imageURL)
+		err := validateURL(imageURL)
 		if err != nil {
 			return fmt.Errorf("Invalid Image URL %s, for category %s \n", imageURL, category)
 		}

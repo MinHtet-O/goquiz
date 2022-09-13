@@ -3,18 +3,17 @@ package scraper
 import (
 	"bufio"
 	"fmt"
-	model "goquiz/pkg/model"
+	"github.com/gocolly/colly"
+	model "goquiz/service"
 	"os"
 	"regexp"
 	"strings"
 	"sync"
-
-	"github.com/gocolly/colly"
 )
 
 const (
-	// TODO: debug why minlimit is not actually limiting the question input
-	minlimit = 10 // min question limit threshold for each questions for the category
+	// minimal number of questions threshold to save it as category
+	minlimit = 10
 )
 
 type QuizScrapper struct {

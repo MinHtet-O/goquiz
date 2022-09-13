@@ -1,0 +1,121 @@
+package service
+
+import (
+	"fmt"
+)
+
+type Model struct {
+	QuestionsModel interface {
+		GetAll(category Category) ([]Question, error)
+		Insert(categID int, q Question) (int, error)
+	}
+	CategoriesModel interface {
+		GetAll() ([]*Category, error)
+		GetByID(categId int) (*Category, error)
+		Insert(cate Category) (int, error)
+	}
+}
+
+type Questions []Question
+
+type Option int8
+
+const (
+	A Option = iota
+	B
+	C
+	D
+	E
+	O_MAX
+)
+
+var AnsMapping = map[string]Option{
+	"a": A,
+	"b": B,
+	"c": C,
+	"d": D,
+	"e": E,
+}
+
+type Category struct {
+	Id             int        `json:"id"`
+	Name           string     `json:"name"`
+	Questions      []Question `json:"-"`
+	QuestionsCount int32      `json:"questions_count,omitempty"`
+}
+
+type Question struct {
+	Id       int    `json:"id"`
+	WebIndex int    `json:"-"`
+	Text     string `json:"text"`
+	// TODO: change the name from AnswerOptions to Choices
+	AnsOptions []string `json:"answers"`
+	Codeblock  string   `json:",omitempty"`
+	Answer     Answer   `json:"correct_answer"`
+	URL        string   `json:"-"`
+	// TODO: remove Category from Question
+	Category Category `json:"-"`
+}
+
+type Answer struct {
+	Option      Option `json:"option"`
+	Explanation string `json:"explanation"`
+}
+
+//InsertQuestionsByCategs inserts questions by categories into repostiory. It's bulk insert operation.
+func (m Model) InsertQuestionsByCategs(categs []*Category) error {
+	fmt.Println("Insert CategoriesModel")
+	fmt.Printf("LEN: %d \n", len(categs))
+	for _, categ := range categs {
+
+		categID, err := m.CategoriesModel.Insert(*categ)
+		if err != nil {
+			fmt.Println(err.Error())
+			continue
+		}
+
+		// later refactor method - InsertQuestions
+		for _, question := range categ.Questions {
+			_, err := m.QuestionsModel.Insert(categID, question)
+			if err != nil {
+				fmt.Println(err.Error())
+				continue
+			}
+		}
+		// TODO: add transaction rollback
+		//if err != nil {
+		//	// rollback transaction
+		//	continue
+		//}
+		// commit transaction
+	}
+	return nil
+}
+
+/*
+// These are data structures to implement quiz games, consul/ web game that allow user to choose categories
+// and guess the answer, development is not in progress currently
+
+type User struct {
+	name string
+}
+
+// add method to change the setting - setters
+type Setting struct {
+	quesTimeout int
+}
+
+//MCQ run time data structure
+// add method to calculate totalScore
+type MatchRecord struct {
+	choices    []Choice
+	date       time.Time
+	totalScore int
+}
+
+type Choice struct {
+	question Question
+	ans      Option
+	duration time.Time
+}
+*/

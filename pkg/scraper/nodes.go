@@ -9,7 +9,8 @@ const (
 	D_Prev                      // find in the previous nodes from the current node
 )
 
-// Set the direction to find the node from the current given node
+// find the sibling node which className is equal to the class provided in the argument.
+// the search fould be forward or backward based on the direction
 func findSibling(node *goquery.Selection, class string, depth int, dir nodeDirection) *goquery.Selection {
 
 	for i := 1; i < depth; i++ {
