@@ -38,7 +38,7 @@ Download and install [go](https://go.dev/doc/install) on your machine and clone 
 1. [Setup migrate cli](https://github.com/golang-migrate/migrate)
 2. [Setup Postgres and create a database](https://www.prisma.io/dataguide/postgresql/setting-up-a-local-postgresql-database)
 3. Expose database service name <br> ```export GOQUIZ_DB=postgres://<username>:@localhost/<db_name>?sslmode=disable```
-4. Migrate the database, create necessary tables<br>```migrate -path=./migrations -database=$GOQUIZ_DB up```
+4. Migrate the database, create necessary tables<br>```migrate -path=./resources/migrations -database=$GOQUIZ_DB up```
 5. Build the Project<br>```go build ./cmd/api```
 6. Scrap the questions and populate the database<br>```./api -populate-db -db-dsn=$GOQUIZ_DB```
 7. Start API service to retrieve questions 
