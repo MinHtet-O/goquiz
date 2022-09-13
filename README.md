@@ -78,7 +78,7 @@ Download and install [go](https://go.dev/doc/install) on your machine and clone 
 }'```
 
 ## Process Diagram
-![alt text](https://github.com/MinHtet-O/goquiz/blob/main/goquiz_communication.png)
+![alt text](https://github.com/MinHtet-O/goquiz/blob/main/resources/goquiz_communication.png)
 
 ## Layout
 
