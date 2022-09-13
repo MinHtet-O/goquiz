@@ -27,7 +27,8 @@ type QuizScrapper struct {
 // Initialize a new scraper, currently only javatpoint.com URL is supported
 func New() *QuizScrapper {
 	rootDomain := "javatpoint.com"
-	mcqURLs := "./files/mcq.txt" // TODO: make mcqURLs dynamic
+	// TODO: make mcqURLs dynamic
+	mcqURLs := "./resources/files/mcq.txt"
 	return &QuizScrapper{
 		rootDomain: rootDomain,
 		wg:         &sync.WaitGroup{},
