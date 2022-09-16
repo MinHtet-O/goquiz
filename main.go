@@ -16,6 +16,7 @@ import (
 )
 
 func main() {
+	// parse the cli configs
 	var cfg service.Config
 	parseConfig(&cfg)
 
@@ -98,8 +99,7 @@ func SetModel(cfg service.Config) (service.Model, error) {
 		s := scraper.New()
 		s.ScrapQuizzes()
 
-		// return in inmemory model, only pointers of in inmemory model implement model interfaces.
-		// methods need pointer receiver as they need to edit in inmemory data in place
+		// return in in memory data model
 		return service.Model{
 			QuestionsModel:  &inmemory.QuestionsModel{&s.Categories},
 			CategoriesModel: &inmemory.CategoriesModel{&s.Categories},
@@ -110,7 +110,7 @@ func SetModel(cfg service.Config) (service.Model, error) {
 	if err != nil {
 		return service.Model{}, err
 	}
-	// return postgres model
+	// return postgres data model
 	return service.Model{
 		QuestionsModel:  postgres.QuestionsModel{DB: db},
 		CategoriesModel: postgres.CategoriesModel{DB: db},
