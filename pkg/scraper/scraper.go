@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/gocolly/colly"
-	model "goquiz/service"
+	"goquiz/service"
 	"os"
 	"regexp"
 	"strings"
@@ -19,7 +19,7 @@ const (
 type QuizScrapper struct {
 	rootDomain string
 	wg         *sync.WaitGroup
-	Categories []*model.Category
+	Categories []*service.Category
 	mu         sync.Mutex
 	mcqURLs    string
 }
@@ -61,7 +61,7 @@ func (s *QuizScrapper) ScrapQuizzes() {
 			s.AddCategories(categId, categ, *questions)
 			s.mu.Unlock()
 			// TODO: make save file as dynamic
-			//model.SaveQuestionFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
+			//service.SaveQuestionFile(s.rootDomain, categ, fmt.Sprintf("%v", questions))
 			fmt.Printf("Finished Scraping: domain: %s , category: %s \n", s.rootDomain, categ)
 		}(i, c)
 	}
@@ -82,12 +82,12 @@ func (s *QuizScrapper) getCategorieTags() []string {
 	return categs
 }
 
-func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Question {
+func (s *QuizScrapper) scrapQuestions(url string, category string) *[]service.Question {
 
 	var (
 		baseUrl   = "https://www." + url + "/" + string(category)
 		domain    = "www." + url
-		questions = make([]model.Question, 0)
+		questions = make([]service.Question, 0)
 	)
 
 	defer func() {
@@ -105,10 +105,10 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 
 	c.OnHTML(".pq", func(e *colly.HTMLElement) {
 		// initialize the question struct. set the first pq tag of html as question title text
-		question := model.Question{
+		question := service.Question{
 			Id:         e.Index + 1,
 			Text:       parseTitle(e.Text),
-			AnsOptions: make([]string, model.O_MAX),
+			AnsOptions: make([]string, service.O_MAX),
 		}
 
 		// post with second 'pq' text which need to append into parent question text
@@ -151,7 +151,7 @@ func (s *QuizScrapper) scrapQuestions(url string, category string) *[]model.Ques
 }
 
 // add categories together with questions
-func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Question) {
+func (s *QuizScrapper) AddCategories(categId int, categ string, ques []service.Question) {
 	// get the category title from input category tag
 	// for example get Machine Learning from machine-learning-mcq-part1
 	categTitle := func() string {
@@ -174,7 +174,6 @@ func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Que
 	}
 	// combine questions if there are questions with the same categ title
 	// for eg - golang-mcq-part1 tag and golang-mcq-part2 tag will be in the same catgory "Golang"
-
 	if found {
 		// fmt.Printf("Category key %s already exists with len %d for input category %s "+
 		// 	"with len %d \n", categTitle, len(categTitle), categ, len(categ))
@@ -183,7 +182,7 @@ func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Que
 	}
 
 	// Create new category and add questions
-	categStruct := model.Category{
+	categStruct := service.Category{
 		Id:        len(s.Categories) + 1,
 		Name:      categTitle,
 		Questions: ques,
@@ -191,6 +190,37 @@ func (s *QuizScrapper) AddCategories(categId int, categ string, ques []model.Que
 	s.Categories = append(s.Categories, &categStruct)
 }
 
+// populate the repository with scraped questions by categories. It's bulk insert operation.
+func (s *QuizScrapper) PopulateRepository(m service.Model) error {
+	fmt.Println("## Populating DB ##")
+	fmt.Printf("LEN: %d \n", len(s.Categories))
+	for _, categ := range s.Categories {
+
+		categID, err := m.CategoriesModel.Insert(*categ)
+		if err != nil {
+			fmt.Println(err.Error())
+			continue
+		}
+
+		// later refactor method - InsertQuestions
+		for _, question := range categ.Questions {
+			_, err := m.QuestionsModel.Insert(categID, question)
+			if err != nil {
+				fmt.Println(err.Error())
+				continue
+			}
+		}
+		// TODO: add transaction rollback
+		//if err != nil {
+		//	// rollback transaction
+		//	continue
+		//}
+		// commit transaction
+	}
+	return nil
+}
+
+// scrap the domain to get list of webpage urls with multiple choice quetions
 //func (s *QuizScrapper) GetMCQLinks() {
 //	baseUrl := "https://" + s.rootDomain + "/"
 //	c := colly.NewCollector(

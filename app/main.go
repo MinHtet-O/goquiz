@@ -21,13 +21,21 @@ func main() {
 	parseConfig(&cfg)
 
 	// select model/ repository
-	model, err := SetModel(cfg)
+	model, err := setModel(cfg)
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
 
+	if cfg.PopulateDB {
+		err = populateDB(&cfg, model)
+		if err != nil {
+			log.Fatalln(err.Error())
+		}
+		os.Exit(1)
+	}
+
 	// select transport
-	app, err := SetTransport(cfg, model)
+	app, err := setTransport(cfg, model)
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
@@ -36,22 +44,17 @@ func main() {
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
+}
 
-	//if cfg.PopulateDB { // scrap the questions from the web and populate to database
-	//
-	//	if cfg.Db.Dsn == "" {
-	//		log.Fatal("please provide database service name to populate")
-	//	}
-	//	s := scraper.New()
-	//	s.ScrapQuizzes()
-	//	// TODO: type cast to postgres.PostgresModel
-	//	err = model.InsertQuestionsByCategs(s.Categories)
-	//	if err != nil {
-	//		log.Fatalln(err.Error())
-	//	}
-	//	os.Exit(1)
-	//}
-
+// scrap the questions from the web and populate to database
+func populateDB(cfg *service.Config, model service.Model) error {
+	if cfg.Db.Dsn == "" {
+		log.Fatal("please provide database service name to populate")
+	}
+	s := scraper.New()
+	s.ScrapQuizzes()
+	err := s.PopulateRepository(model)
+	return err
 }
 
 func parseConfig(cfg *service.Config) {
@@ -79,7 +82,7 @@ func parseConfig(cfg *service.Config) {
 	flag.Parse()
 }
 
-func SetTransport(cfg service.Config, model service.Model) (service.Transport, error) {
+func setTransport(cfg service.Config, model service.Model) (service.Transport, error) {
 	// select transport protocol
 	if cfg.Transport == service.Transport_REST {
 		return rest.NewRESTServer(cfg, model), nil
@@ -92,21 +95,22 @@ func SetTransport(cfg service.Config, model service.Model) (service.Transport, e
 	return nil, fmt.Errorf("Unknown Transport type %s", cfg.Transport)
 }
 
-func SetModel(cfg service.Config) (service.Model, error) {
+func setModel(cfg service.Config) (service.Model, error) {
 
 	if cfg.Db.Dsn == "" {
+		// TODO: separate the duplicate scrap logic from model!
 		// scrap the questions in db-less mode
 		s := scraper.New()
 		s.ScrapQuizzes()
 
-		// return in in memory data model
+		// return in-memory data model
 		return service.Model{
 			QuestionsModel:  &inmemory.QuestionsModel{&s.Categories},
 			CategoriesModel: &inmemory.CategoriesModel{&s.Categories},
 		}, nil
 	}
 
-	db, err := OpenDB(cfg)
+	db, err := openDB(cfg)
 	if err != nil {
 		return service.Model{}, err
 	}
@@ -117,7 +121,7 @@ func SetModel(cfg service.Config) (service.Model, error) {
 	}, nil
 }
 
-func OpenDB(cfg service.Config) (*sql.DB, error) {
+func openDB(cfg service.Config) (*sql.DB, error) {
 	db, err := sql.Open("postgres", cfg.Db.Dsn)
 	if err != nil {
 		return nil, err

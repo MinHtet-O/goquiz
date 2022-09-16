@@ -1,9 +1,5 @@
 package service
 
-import (
-	"fmt"
-)
-
 type Model struct {
 	QuestionsModel interface {
 		GetAll(category Category) ([]Question, error)
@@ -60,36 +56,6 @@ type Question struct {
 type Answer struct {
 	Option      Option `json:"option"`
 	Explanation string `json:"explanation"`
-}
-
-//InsertQuestionsByCategs inserts questions by categories into repostiory. It's bulk insert operation.
-func (m Model) InsertQuestionsByCategs(categs []*Category) error {
-	fmt.Println("Insert CategoriesModel")
-	fmt.Printf("LEN: %d \n", len(categs))
-	for _, categ := range categs {
-
-		categID, err := m.CategoriesModel.Insert(*categ)
-		if err != nil {
-			fmt.Println(err.Error())
-			continue
-		}
-
-		// later refactor method - InsertQuestions
-		for _, question := range categ.Questions {
-			_, err := m.QuestionsModel.Insert(categID, question)
-			if err != nil {
-				fmt.Println(err.Error())
-				continue
-			}
-		}
-		// TODO: add transaction rollback
-		//if err != nil {
-		//	// rollback transaction
-		//	continue
-		//}
-		// commit transaction
-	}
-	return nil
 }
 
 /*
