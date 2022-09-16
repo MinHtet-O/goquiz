@@ -2,12 +2,25 @@
 
 ## About the project
 
-Goquiz provides the scrapers to get the engineering multiple-choice questions across the sites, structure the data, populate the database, and Serve API endpoints to retrieve the questions. You can also start the services with db-less mode. 
+Goquiz provides the scrapers to get the engineering multiple-choice questions across the sites, structure the data, populate the database, and Serve API endpoints to retrieve the questions. 
+You can also start the services with db-less mode. 
 
 Currently, Goquiz can scrap the MCQ questions from the following sites. 
 - https://www.javatpoint.com/
 
-Scrapers for more web sites will be provided as the project progress. There are over **4000+ MCQ questions** from 74 different categories and all of them are credited to the respective original web source. This project is educational purpose only.
+Scrapers for more web sites will be provided as the project progress. There are over **4000+ MCQ questions** from 74 different categories and all of them are credited to the respective original web source. 
+This project is educational purpose only.
+
+
+## Technical Description ##
+
+The project structure was inspired by *hexagonal architecture*. Actors such as transport and repository are separated from service, which allows service to be a technology-agnostic component with only business logic inside.
+
+The actors are loaded during runtime based on the config, i.e. , postgres data mode and in-memory data model can be swapped easily just by config value. It allows mocking and significantly improves testability.
+
+The scraper spawns go routine to scrap each web page, consolidate and categorized the data before populating to the database.
+
+Goquiz can be served as either REST or gRPC API ( in development ). PostgresSQL is used as persistent storage to store the categorized data. For easier deployment, db-less mode with in-memory data model can also be used.
 
 ## Functions
 
@@ -80,66 +93,121 @@ Download and install [go](https://go.dev/doc/install) on your machine and clone 
 ## Process Diagram
 ![alt text](https://github.com/MinHtet-O/goquiz/blob/main/resources/diagrams/goquiz_communication.png)
 
-## Layout
+[//]: # (## Layout)
 
-```tree
+[//]: # ()
+[//]: # (```tree)
 
-├── .gitignore
-├── README.md
-├── cmd
-│   ├── api
-│   │   └── categories.go
-│   │   └── errors.go
-│   │   └── healthcheck.go
-│   │   └── main.go
-│   │   └── middleware.go
-│   │   └── questions.go
-│   │   └── routes.go
-│   │   └── server.go
-├── go.mod
-├── go.sum
-├── migrations
-│   └── 000001_create_db_category.down.sql
-│   └── 000001_create_db_category.up.sql
-│   └── 000002_create_db_questions.down.sql
-│   └── 000002_create_db_questions.up.sql
-│   └── 000003_view_questions_by_categories.down.sql
-│   └── 000003_view_questions_by_categories.up.sql
-├── pkg
-│   ├── model
-│   │   └── errors.go
-│   │   └── format.go
-│   │   └── io.go
-│   │   └── model.go
-│   │   └── postgres
-│   │   │   └── categories.go
-│   │   │   └── model.go
-│   │   │   └── questions.go
-│   ├── scraper
-│   │   └── network.go
-│   │   └── nodes.go
-│   │   └── parser.go
-│   │   └── scrapper.go
-│   └── validator
-│   │   └── category.go
-│   │   └── validator.go
-├── files
-│   └── mcq.txt
-```
-A brief description of the directory layout:
-* `cmd` contains main packages, each subdirectory of `cmd` can be built into executable.
-* * `api` that provides endpoints to retrieve the questions
-* `migrations` contains migration files to create the necessary tables
-* `pkg` contans most of the business logic
-* * `scraper` includes logic that fetch mcq questions from the web and write to the database
-* * `model` includes data models and it's helper functions like formatter and io.
-* * `validator` includes validation logic for data model
-* `files` contans static file assets. Currently, there is mcq.txt that contains the mcq urls from the sites.
+[//]: # ()
+[//]: # (├── .gitignore)
+
+[//]: # (├── README.md)
+
+[//]: # (├── cmd)
+
+[//]: # (│   ├── api)
+
+[//]: # (│   │   └── categories.go)
+
+[//]: # (│   │   └── errors.go)
+
+[//]: # (│   │   └── healthcheck.go)
+
+[//]: # (│   │   └── main.go)
+
+[//]: # (│   │   └── middleware.go)
+
+[//]: # (│   │   └── questions.go)
+
+[//]: # (│   │   └── routes.go)
+
+[//]: # (│   │   └── server.go)
+
+[//]: # (├── go.mod)
+
+[//]: # (├── go.sum)
+
+[//]: # (├── migrations)
+
+[//]: # (│   └── 000001_create_db_category.down.sql)
+
+[//]: # (│   └── 000001_create_db_category.up.sql)
+
+[//]: # (│   └── 000002_create_db_questions.down.sql)
+
+[//]: # (│   └── 000002_create_db_questions.up.sql)
+
+[//]: # (│   └── 000003_view_questions_by_categories.down.sql)
+
+[//]: # (│   └── 000003_view_questions_by_categories.up.sql)
+
+[//]: # (├── pkg)
+
+[//]: # (│   ├── model)
+
+[//]: # (│   │   └── errors.go)
+
+[//]: # (│   │   └── format.go)
+
+[//]: # (│   │   └── io.go)
+
+[//]: # (│   │   └── model.go)
+
+[//]: # (│   │   └── postgres)
+
+[//]: # (│   │   │   └── categories.go)
+
+[//]: # (│   │   │   └── model.go)
+
+[//]: # (│   │   │   └── questions.go)
+
+[//]: # (│   ├── scraper)
+
+[//]: # (│   │   └── network.go)
+
+[//]: # (│   │   └── nodes.go)
+
+[//]: # (│   │   └── parser.go)
+
+[//]: # (│   │   └── scrapper.go)
+
+[//]: # (│   └── validator)
+
+[//]: # (│   │   └── category.go)
+
+[//]: # (│   │   └── validator.go)
+
+[//]: # (├── files)
+
+[//]: # (│   └── mcq.txt)
+
+[//]: # (```)
+
+[//]: # (A brief description of the directory layout:)
+
+[//]: # (* `cmd` contains main packages, each subdirectory of `cmd` can be built into executable.)
+
+[//]: # (* * `api` that provides endpoints to retrieve the questions)
+
+[//]: # (* `migrations` contains migration files to create the necessary tables)
+
+[//]: # (* `pkg` contans most of the business logic)
+
+[//]: # (* * `scraper` includes logic that fetch mcq questions from the web and write to the database)
+
+[//]: # (* * `model` includes data models and it's helper functions like formatter and io.)
+
+[//]: # (* * `validator` includes validation logic for data model)
+
+[//]: # (* `files` contans static file assets. Currently, there is mcq.txt that contains the mcq urls from the sites.)
 
 ### ToDo
-- [ ] Deploy the API to Digital Ocean VPS
+- [ ] Add GRPC Transport
+- [ ] Add Structure logger
 - [ ] Dockerize Deployment
+- [ ] Deploy the API to Digital Ocean VPS
 - [ ] Unit Testings for Model and APIs
+- [ ] Add github CI to automate unit tests and deployment
 - [ ] Update/ Delete endpoints for questions and categories 
 - [ ] Add web scraper to fetch MCQs from www.sanfoundry.com
-- [ ] Add github CI to automate unit tests and deployment
+
