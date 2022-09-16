@@ -14,13 +14,13 @@ This project is educational purpose only.
 
 ## Technical Description ##
 
-The project structure was inspired by *hexagonal architecture*. Actors such as transport and repository are separated from service, which allows service to be a technology-agnostic component with only business logic inside.
+The project structure was inspired by **hexagonal architecture**. Actors such as transport and repository are separated from service, which allows service to be a technology-agnostic component with only business logic inside.
 
 The actors are loaded during runtime based on the config, i.e. , postgres data mode and in-memory data model can be swapped easily just by config value. It allows mocking and significantly improves testability.
 
 The scraper spawns go routine to scrap each web page, consolidate and categorized the data before populating to the database.
 
-Goquiz can be served as either REST or gRPC API ( in development ). PostgresSQL is used as persistent storage to store the categorized data. For easier deployment, db-less mode with in-memory data model can also be used.
+Goquiz can be served as either REST or gRPC API ( still in development ). PostgresSQL is used as persistent storage to store the categorized data. For easier deployment, db-less mode with in-memory data model can also be used.
 
 ## Functions
 
