@@ -2,7 +2,7 @@
 
 ## About the project
 
-Goquiz provides the scrapers to get the engineering multiple-choice questions across the sites, structure the data, populate the database, and serve API endpoints to retrieve the questions. You can also start the services with db-less mode. 
+Goquiz provides the scrapers to get the engineering multiple-choice questions across the sites, structure the data, populate the database, and Serve API endpoints to retrieve the questions. You can also start the services with db-less mode. 
 
 Currently, Goquiz can scrap the MCQ questions from the following sites. 
 - https://www.javatpoint.com/
