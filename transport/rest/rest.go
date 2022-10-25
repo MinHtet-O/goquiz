@@ -8,14 +8,23 @@ import (
 
 const version = "1.0.0"
 
+type Config struct {
+	ApiKey             string
+	RateLimiterEnabled bool
+	Env                string
+	Port               int
+}
 type Application struct {
-	model *service.Model
-	wg    sync.WaitGroup
+	model  *service.Model
+	wg     sync.WaitGroup
+	config Config
 }
 
-func NewRESTServer(model *service.Model) service.Transport {
+func NewRESTServer(model *service.Model, config Config, env string) service.Transport {
+	// TODO: remove duplicate implementation. no need to wrap this method
 	app := &Application{
-		model: model,
+		model:  model,
+		config: config,
 	}
 	return app
 }

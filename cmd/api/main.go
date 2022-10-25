@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/joho/godotenv"
+	"goquiz/cmd"
 	"goquiz/repository/inmemory"
 	"goquiz/repository/postgres"
 	"goquiz/service"
@@ -10,55 +12,89 @@ import (
 )
 
 func main() {
-	// parse the cli configs
-	var cfg Config
-	parseConfig(&cfg)
+	// load env vars
+	err := godotenv.Load()
 
 	// select model
-	model, err := setModel(cfg)
+	model, err := setModel()
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
 	// select transport
-	app, err := setTransport(cfg, model)
+	app, err := setTransport(model)
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
-
+	// run the app
 	err = app.Serve()
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
 }
 
-func setTransport(cfg Config, model *service.Model) (service.Transport, error) {
-	// select transport protocol
-	if cfg.Transport == Transport_REST {
-		return rest.NewRESTServer(model), nil
+func setTransport(model *service.Model) (service.Transport, error) {
+
+	// get configs
+	rateLimiterEnabled, err := cmd.GetenvBool("RATE_LIMITER_ENABLED")
+	if err != nil {
+		log.Fatalln(err.Error())
+	}
+	apiTransport, err := cmd.GetenvStr("API_TRANSPORT")
+	if err != nil {
+		log.Fatalln(err.Error())
 	}
 
-	if cfg.Transport == Transport_GRPC {
+	apiKey, err := cmd.GetenvStr("API_KEY")
+	if err != nil {
+		log.Fatalln(err.Error())
+	}
+	env, err := cmd.GetenvStr("ENV")
+	if err != nil {
+		log.Fatalln(err.Error())
+	}
+	port, err := cmd.GetenvInt("API_PORT")
+	if err != nil {
+		log.Fatalln(err.Error())
+	}
+	// select transport protocol
+	if apiTransport == cmd.Transport_REST {
+		config := rest.Config{
+			apiKey,
+			rateLimiterEnabled,
+			env,
+			port,
+		}
+		transport := rest.NewRESTServer(model, config, env)
+		return transport, nil
+	}
+
+	if apiTransport == cmd.Transport_GRPC {
 		return nil, fmt.Errorf("GRPC Transport is still in development")
 	}
-	return nil, fmt.Errorf("Unknown Transport type %s", cfg.Transport)
+	return nil, fmt.Errorf("Unknown Transport type %s", apiTransport)
 }
 
-func setModel(cfg Config) (*service.Model, error) {
+func setModel() (*service.Model, error) {
+	// get configs
+	dbService, err := cmd.GetenvStr("DB_SERVICE")
+	if err != nil {
+		log.Fatalln(err.Error())
+	}
+	dbDSN, err := cmd.GetenvStr("DB_DSN")
+	if err != nil {
+		log.Fatalln(err.Error())
+	}
+	//select model
 	var model *service.Model
-	if cfg.Db.Name == DB_Postgres {
+	if dbService == cmd.DB_Inmemory {
 		var err error
 		model, err = inmemory.InitInMemoryModel()
 		return model, err
 	}
-	if cfg.Db.Name == DB_Inmemory {
+	if dbService == cmd.DB_Postgres {
 		var err error
-		model, err = postgres.InitPostgresModel(
-			cfg.Db.Dsn,
-			cfg.Db.MaxOpenConns,
-			cfg.Db.MaxIdleConns,
-			cfg.Db.MaxIdleTime,
-		)
+		model, err = postgres.InitPostgresModel(dbDSN)
 		return model, err
 	}
-	return nil, fmt.Errorf("unknown model %s", cfg.Db.Name)
+	return nil, fmt.Errorf("unknown model %s", dbService)
 }

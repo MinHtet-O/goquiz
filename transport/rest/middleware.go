@@ -10,6 +10,11 @@ import (
 	"golang.org/x/time/rate"
 )
 
+const (
+	rateLimiterRPS   = 5
+	rateLimiterBurst = 5
+)
+
 func (app *Application) recoverPanic(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		defer func() {
@@ -26,7 +31,7 @@ func (app *Application) recoverPanic(next http.Handler) http.Handler {
 func (app Application) auth(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		apiKey := r.Header.Get("Authorization")
-		if app.config.Auth.ApiKey != "" && "Key "+app.config.Auth.ApiKey != apiKey {
+		if app.config.ApiKey != "" && "Key "+app.config.ApiKey != apiKey {
 			app.authenticationRequiredResponse(w, r)
 			return
 		}
@@ -67,7 +72,7 @@ func (app Application) rateLimit(next http.Handler) http.Handler {
 		mu.Lock()
 		if _, found := clients[ip]; !found {
 			clients[ip] = &client{
-				limiter: rate.NewLimiter(rate.Limit(app.config.Limiter.Rps), app.config.Limiter.Burst),
+				limiter: rate.NewLimiter(rate.Limit(rateLimiterRPS), rateLimiterBurst),
 			}
 		}
 		clients[ip].lastSeen = time.Now()
