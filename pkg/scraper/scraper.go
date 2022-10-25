@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/gocolly/colly"
 	"goquiz/service"
+	"log"
 	"os"
 	"regexp"
 	"strings"
@@ -28,7 +29,7 @@ type QuizScrapper struct {
 func New() *QuizScrapper {
 	rootDomain := "javatpoint.com"
 	// TODO: make mcqURLs dynamic
-	mcqURLs := "../../resources/files/mcq.txt"
+	mcqURLs := "./resources/files/mcq_urls.txt"
 	return &QuizScrapper{
 		rootDomain: rootDomain,
 		wg:         &sync.WaitGroup{},
@@ -74,7 +75,11 @@ func (s *QuizScrapper) ScrapQuizzes() []*service.Category {
 func (s *QuizScrapper) getCategorieTags() []string {
 	categs := []string{}
 	re := regexp.MustCompile(`(\w+|\-)+$`)
-	file, _ := os.Open(s.mcqURLs)
+	file, err := os.Open(s.mcqURLs)
+	if err != nil {
+		// TODO: return error to handle
+		log.Fatalln(err.Error())
+	}
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
@@ -85,20 +90,17 @@ func (s *QuizScrapper) getCategorieTags() []string {
 }
 
 func (s *QuizScrapper) scrapQuestions(url string, category string) *[]service.Question {
-
 	var (
 		baseUrl   = "https://www." + url + "/" + string(category)
 		domain    = "www." + url
 		questions = make([]service.Question, 0)
 	)
-
 	defer func() {
 		r := recover()
 		if r != nil {
 			//fmt.Fprintf(os.Stderr, "Error fecting %s !", category)
 		}
 	}()
-
 	// setup new collector
 	c := colly.NewCollector(
 		colly.AllowedDomains(domain, url),
