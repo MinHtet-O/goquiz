@@ -1,15 +1,19 @@
 package service
 
 type Model struct {
-	QuestionsModel interface {
-		GetAll(category Category) ([]Question, error)
-		Insert(categID int, q Question) (int, error)
-	}
-	CategoriesModel interface {
-		GetAll() ([]*Category, error)
-		GetByID(categId int) (*Category, error)
-		Insert(cate Category) (int, error)
-	}
+	QuestionsModel  QuestionsModel
+	CategoriesModel CategoriesModel
+}
+
+type QuestionsModel interface {
+	GetAll(category Category) ([]Question, error)
+	Insert(categID int, q Question) (int, error)
+}
+
+type CategoriesModel interface {
+	GetAll() ([]*Category, error)
+	GetByID(categId int) (*Category, error)
+	Insert(cate Category) (int, error)
 }
 
 type Questions []Question

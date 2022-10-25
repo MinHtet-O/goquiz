@@ -4,7 +4,6 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"fmt"
 	"goquiz/service"
 	"time"
 )
@@ -68,33 +67,4 @@ func (m CategoriesModel) Insert(cate service.Category) (int, error) {
 		return 0, err
 	}
 	return categ.id, nil
-}
-
-func (m PostgresModel) InsertCategories(categs []service.Category) error {
-	fmt.Println("Insert CategoriesModel")
-	fmt.Printf("LEN: %d \n", len(categs))
-	for _, categ := range categs {
-
-		categID, err := m.CategoriesModel.Insert(categ)
-		if err != nil {
-			fmt.Println(err.Error())
-			continue
-		}
-
-		// later refactor method - InsertQuestions
-		for _, question := range categ.Questions {
-			_, err := m.QuestionsModel.Insert(categID, question)
-			if err != nil {
-				fmt.Println(err.Error())
-				continue
-			}
-		}
-		// TODO: add transaction rollback
-		//if err != nil {
-		//	// rollback transaction
-		//	continue
-		//}
-		// commit transaction
-	}
-	return nil
 }

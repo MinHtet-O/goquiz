@@ -9,15 +9,13 @@ import (
 const version = "1.0.0"
 
 type Application struct {
-	config service.Config
-	model  service.Model
-	wg     sync.WaitGroup
+	model *service.Model
+	wg    sync.WaitGroup
 }
 
-func NewRESTServer(config service.Config, model service.Model) service.Transport {
+func NewRESTServer(model *service.Model) service.Transport {
 	app := &Application{
-		config: config,
-		model:  model,
+		model: model,
 	}
 	return app
 }

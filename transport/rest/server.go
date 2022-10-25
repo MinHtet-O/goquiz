@@ -15,7 +15,7 @@ func (app *Application) Serve() error {
 		IdleTimeout:  time.Minute,
 		ReadTimeout:  10 * time.Second,
 		WriteTimeout: 30 * time.Second,
-		//ErrorLog:     log.New(app.logger, "", 0),
+		//ErrorLog:     log.New(cmd.logger, "", 0),
 	}
 
 	fmt.Printf("\nHTTP server listening on port: %d", app.config.Port)

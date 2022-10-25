@@ -28,7 +28,7 @@ type QuizScrapper struct {
 func New() *QuizScrapper {
 	rootDomain := "javatpoint.com"
 	// TODO: make mcqURLs dynamic
-	mcqURLs := "./resources/files/mcq.txt"
+	mcqURLs := "../../resources/files/mcq.txt"
 	return &QuizScrapper{
 		rootDomain: rootDomain,
 		wg:         &sync.WaitGroup{},
@@ -37,9 +37,8 @@ func New() *QuizScrapper {
 	}
 }
 
-// TODO: Refactor question methods for domain "javatpoint.com"
 // scrap the URLs and get Quizzes for each category
-func (s *QuizScrapper) ScrapQuizzes() {
+func (s *QuizScrapper) ScrapQuizzes() []*service.Category {
 	categs := s.getCategorieTags()
 
 	s.wg.Add(len(categs))
@@ -66,6 +65,8 @@ func (s *QuizScrapper) ScrapQuizzes() {
 		}(i, c)
 	}
 	s.wg.Wait()
+	//TODO: remove category from struct property
+	return s.Categories
 }
 
 // get categories tag arr from mcq URL file
@@ -77,6 +78,7 @@ func (s *QuizScrapper) getCategorieTags() []string {
 	defer file.Close()
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
+		fmt.Println(categs)
 		categs = append(categs, re.FindString(scanner.Text()))
 	}
 	return categs
@@ -188,36 +190,6 @@ func (s *QuizScrapper) AddCategories(categId int, categ string, ques []service.Q
 		Questions: ques,
 	}
 	s.Categories = append(s.Categories, &categStruct)
-}
-
-// populate the repository with scraped questions by categories. It's bulk insert operation.
-func (s *QuizScrapper) PopulateRepository(m service.Model) error {
-	fmt.Println("## Populating DB ##")
-	fmt.Printf("LEN: %d \n", len(s.Categories))
-	for _, categ := range s.Categories {
-
-		categID, err := m.CategoriesModel.Insert(*categ)
-		if err != nil {
-			fmt.Println(err.Error())
-			continue
-		}
-
-		// later refactor method - InsertQuestions
-		for _, question := range categ.Questions {
-			_, err := m.QuestionsModel.Insert(categID, question)
-			if err != nil {
-				fmt.Println(err.Error())
-				continue
-			}
-		}
-		// TODO: add transaction rollback
-		//if err != nil {
-		//	// rollback transaction
-		//	continue
-		//}
-		// commit transaction
-	}
-	return nil
 }
 
 // scrap the domain to get list of webpage urls with multiple choice quetions

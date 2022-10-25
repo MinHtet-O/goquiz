@@ -15,8 +15,8 @@ func (app Application) authenticationRequiredResponse(w http.ResponseWriter, r *
 	app.errorResponse(w, r, http.StatusUnauthorized, message)
 }
 
-//func (app *Application) logError(r *http.Request, err error) {
-//	app.logger.PrintError(err, map[string]string{
+//func (cmd *Application) logError(r *http.Request, err error) {
+//	cmd.logger.PrintError(err, map[string]string{
 //		"request_method": r.Method,
 //		"request_url":    r.URL.String()})
 //}
@@ -33,13 +33,13 @@ func (app Application) errorResponse(w http.ResponseWriter, r *http.Request, sta
 	env := envelope{"error": message}
 	err := app.writeJSON(w, status, env, nil)
 	if err != nil {
-		//	app.logError(r, err)
+		//	cmd.logError(r, err)
 		w.WriteHeader(500)
 	}
 }
 
 func (app Application) serverErrorResponse(w http.ResponseWriter, r *http.Request, err error) {
-	//app.logError(r, err)
+	//cmd.logError(r, err)
 	message := "the server encountered a problem and could not process your request"
 	app.errorResponse(w, r, http.StatusInternalServerError, message)
 }
