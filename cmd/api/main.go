@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"github.com/joho/godotenv"
 	"goquiz/cmd"
@@ -9,11 +10,15 @@ import (
 	"goquiz/service"
 	"goquiz/transport/rest"
 	"log"
+	"strings"
 )
 
 func main() {
 	// load env vars
 	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
 
 	// select model
 	model, err := setModel()
@@ -35,27 +40,12 @@ func main() {
 func setTransport(model *service.Model) (service.Transport, error) {
 
 	// get configs
-	rateLimiterEnabled, err := cmd.GetenvBool("RATE_LIMITER_ENABLED")
-	if err != nil {
-		log.Fatalln(err.Error())
-	}
-	apiTransport, err := cmd.GetenvStr("API_TRANSPORT")
-	if err != nil {
-		log.Fatalln(err.Error())
-	}
+	rateLimiterEnabled := cmd.GetenvBool("RATE_LIMITER_ENABLED", true)
+	apiTransport := cmd.GetenvStr("API_TRANSPORT", "rest")
+	apiKey := cmd.GetenvStr("API_KEY", "")
+	env := cmd.GetenvStr("ENV", "dev")
+	port := cmd.GetenvInt("API_PORT", 8080)
 
-	apiKey, err := cmd.GetenvStr("API_KEY")
-	if err != nil {
-		log.Fatalln(err.Error())
-	}
-	env, err := cmd.GetenvStr("ENV")
-	if err != nil {
-		log.Fatalln(err.Error())
-	}
-	port, err := cmd.GetenvInt("API_PORT")
-	if err != nil {
-		log.Fatalln(err.Error())
-	}
 	// select transport protocol
 	if apiTransport == cmd.Transport_REST {
 		config := rest.Config{
@@ -75,23 +65,20 @@ func setTransport(model *service.Model) (service.Transport, error) {
 }
 
 func setModel() (*service.Model, error) {
+	var model *service.Model
 	// get configs
-	dbService, err := cmd.GetenvStr("DB_SERVICE")
-	if err != nil {
-		log.Fatalln(err.Error())
-	}
-	dbDSN, err := cmd.GetenvStr("DB_DSN")
-	if err != nil {
-		log.Fatalln(err.Error())
+	dbService := cmd.GetenvStr("DB_SERVICE", "postgres")
+	dbDSN := cmd.GetenvStr("DB_DSN", "")
+	if dbDSN == "" {
+		return model, errors.New("db dsn couldn't be empty")
 	}
 	//select model
-	var model *service.Model
-	if dbService == cmd.DB_Inmemory {
+	if strings.ToLower(dbService) == cmd.DB_Inmemory {
 		var err error
 		model, err = inmemory.InitInMemoryModel()
 		return model, err
 	}
-	if dbService == cmd.DB_Postgres {
+	if strings.ToLower(dbService) == cmd.DB_Postgres {
 		var err error
 		model, err = postgres.InitPostgresModel(dbDSN)
 		return model, err

@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/joho/godotenv"
+	"goquiz/cmd"
 	"goquiz/repository/postgres"
 	"log"
 	"os"
@@ -14,10 +15,13 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	dbService := os.Getenv("DB_SERVICE")
-	dbDSN := os.Getenv("DB_DSN")
-
-	if strings.ToLower(dbService) != DB_Postgres {
+	dbService := cmd.GetenvStr("DB_SERVICE", "postgres")
+	dbDSN := cmd.GetenvStr("DB_DSN", "")
+	if dbDSN == "" {
+		log.Fatalln("db dsn couldn't be empty")
+		os.Exit(1)
+	}
+	if strings.ToLower(dbService) != cmd.DB_Postgres {
 		log.Fatalln("only postgres is can be used as scrap datasource")
 	}
 	model, err := postgres.InitPostgresModel(dbDSN)

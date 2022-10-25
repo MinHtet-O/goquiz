@@ -15,34 +15,28 @@ const (
 
 var ErrEnvVarEmpty = errors.New("getenv: environment variable empty")
 
-func GetenvStr(key string) (string, error) {
+func GetenvStr(key string, fallback string) string {
 	v := os.Getenv(key)
 	if v == "" {
-		return v, ErrEnvVarEmpty
+		return fallback
 	}
-	return v, nil
+	return v
 }
 
-func GetenvBool(key string) (bool, error) {
-	s, err := GetenvStr(key)
-	if err != nil {
-		return false, err
-	}
+func GetenvBool(key string, fallback bool) bool {
+	s := GetenvStr(key, "")
 	v, err := strconv.ParseBool(s)
 	if err != nil {
-		return false, err
+		return fallback
 	}
-	return v, nil
+	return v
 }
 
-func GetenvInt(key string) (int, error) {
-	s, err := GetenvStr(key)
+func GetenvInt(key string, fallback int) int {
+	int := GetenvStr(key, "")
+	v, err := strconv.Atoi(int)
 	if err != nil {
-		return 0, err
+		return fallback
 	}
-	v, err := strconv.Atoi(s)
-	if err != nil {
-		return 0, err
-	}
-	return v, nil
+	return v
 }
